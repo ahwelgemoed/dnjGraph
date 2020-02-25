@@ -10,19 +10,23 @@ import {
 } from 'react-native-paper';
 import moment from 'moment';
 import Markdown from 'react-native-markdown-display';
-
+import { useMediaQuery } from 'react-responsive';
 const { width, height } = Dimensions.get('window');
 
 const CardPoem = ({ poem, navigation = null }) => {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  });
   // console.log(poem.date);
-
+  // <View style={{ maxWidth: isDesktopOrLaptop ? 500 : '100%' }}>
   return (
-    <View style={{ width: width, borderRadius: 30 }}>
+    // <View style={{ width: width, borderRadius: 30 }}>
+    <View style={{ width: isDesktopOrLaptop ? 500 : width, borderRadius: 30 }}>
       {/* http://localhost:4000/public/img/imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg */}
       <Card
         style={{
           alignSelf: 'center',
-          width: width * 0.9,
+          width: isDesktopOrLaptop ? 480 : width * 0.9,
           marginTop: 10,
           marginBottom: 10,
           borderRadius: 20,

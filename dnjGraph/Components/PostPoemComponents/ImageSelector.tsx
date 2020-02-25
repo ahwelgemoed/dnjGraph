@@ -10,10 +10,10 @@ import {
   Dimensions
 } from 'react-native';
 import { observer } from 'mobx-react-lite';
-import { RootStoreContext } from '../../store/RootStore.js';
-import { Button, IconButton, List, FAB, Surface } from 'react-native-paper';
+import { RootStoreContext } from '../../store/RootStore';
+import { IconButton, List } from 'react-native-paper';
 
-const ImageSelector = observer(() => {
+const ImageSelector = observer(({ onClose }) => {
   const { poemsStore } = React.useContext(RootStoreContext);
   const [images, setimages] = useState('');
   const [selectedImage, setSelectedImage] = useState('');
@@ -24,8 +24,12 @@ const ImageSelector = observer(() => {
       res.json().then(data => setimages(data));
     });
   }, []);
-
-  console.log(poemsStore);
+  useEffect(() => {
+    if (selectedImage && selectedImage !== poemsStore.poemImage) {
+      poemsStore.setPoemImage(selectedImage);
+      onClose();
+    }
+  }, [selectedImage]);
 
   return (
     <ScrollView>

@@ -10,7 +10,6 @@ import { RootStoreContext } from '../../store/RootStore';
 import CardPoem from '../../Components/CardComponents/CardPoem';
 // import GetGraphUser from '../../components/User/GetGraphUser';
 import '@expo/match-media';
-import { useMediaQuery } from 'react-responsive';
 const { width, height } = Dimensions.get('window');
 const PoemsScreen = observer(({ navigation }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
@@ -50,11 +49,13 @@ const PoemsScreen = observer(({ navigation }) => {
     }
   };
   return (
-    <View style={styles.mainLayout}>
+    <View style={[styles.mainLayout]}>
       {/* <GetGraphUser authStore={authStore} /> */}
       {data && data.poems ? (
         <FlatList
           onEndReached={_handleLoadMore}
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
           onEndReachedThreshold={200}
           data={data.poems.poems}
           renderItem={({ item }) => (

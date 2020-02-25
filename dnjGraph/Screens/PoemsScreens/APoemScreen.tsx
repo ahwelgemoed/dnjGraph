@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
-import { RootStoreContext } from '../../store/RootStore.js';
+import { RootStoreContext } from '../../store/RootStore';
 import { Text, Surface } from 'react-native-paper';
 
 const APoemScreen = observer(({ route, navigation }) => {

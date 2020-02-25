@@ -1,17 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
-import {
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  ImageBackground,
-  View,
-  SafeAreaView,
-  Dimensions
-} from 'react-native';
+import { ScrollView, StyleSheet, Dimensions } from 'react-native';
 import { Button, IconButton, List, FAB, Surface } from 'react-native-paper';
 import { Modalize } from 'react-native-modalize';
-import ImageSelector from './ImageSelector';
 const { width, height } = Dimensions.get('window');
 
 const SelectImageModal = props => {
@@ -31,18 +21,13 @@ const SelectImageModal = props => {
         ref={props.forwardedRef}
         scrollViewProps={{
           showsVerticalScrollIndicator: false
-          // stickyHeaderIndices: [0]
         }}
         modalStyle={{
-          // position: 'absolute',
-          // top: 0,
           height: height * 0.7,
           alignSelf: 'center',
           width: Dimensions.get('window').width * 0.94
         }}
-      >
-        <ImageSelector onClose={onClose} />
-      </Modalize>
+      ></Modalize>
     </>
   );
 };

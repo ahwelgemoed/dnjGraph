@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, AsyncStorage } from 'react-native';
 import * as Font from 'expo-font';
 import { Linking } from 'expo';
-import { RootStoreContext } from './store/RootStore.js';
+import { RootStoreContext } from './store/RootStore';
 import { observer } from 'mobx-react-lite';
 import { Ionicons } from '@expo/vector-icons';
 import { NavigationContainer, useLinking } from '@react-navigation/native';
