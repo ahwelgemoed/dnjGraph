@@ -1,8 +1,7 @@
 import * as React from 'react';
+import { configureFonts, Provider as PaperProvider } from 'react-native-paper';
 import {
-  configureFonts,
-  DarkTheme,
-  DefaultTheme,
+  DarkTheme as PaperDarkTheme,
   Provider as PaperProvider
 } from 'react-native-paper';
 import { Linking } from 'expo';
@@ -110,16 +109,16 @@ export default function App(props) {
       }
     }
   };
-  const theme = {
-    ...DefaultTheme,
-    fonts: configureFonts(fontConfig),
-    roundness: 2,
-    colors: {
-      ...DefaultTheme.colors,
-      primary: '#000',
-      accent: '#000'
-    }
-  };
+  // const theme = {
+  //   ...DefaultTheme,
+  //   fonts: configureFonts(fontConfig),
+  //   roundness: 2,
+  //   colors: {
+  //     ...DefaultTheme.colors,
+  //     primary: '#000',
+  //     accent: '#000'
+  //   }
+  // };
   const restLink = new RestLink({ uri: 'http://localhost:4000/v1/' });
   const graphLink = new HttpLink({ uri: 'http://localhost:4000/graphql' });
   const authLink = setContext((_, { headers }) => {
@@ -142,7 +141,7 @@ export default function App(props) {
       return null;
     }
     return (
-      <PaperProvider theme={theme}>
+      <PaperProvider theme={PaperDarkTheme}>
         <ApolloProvider client={client}>
           {Platform.OS === 'ios' && <StatusBar barStyle="default" />}
           <NavigationContainer

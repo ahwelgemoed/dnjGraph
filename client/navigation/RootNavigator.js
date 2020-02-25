@@ -62,19 +62,36 @@ export const RootNavigator = observer(() => {
       </Stack.Navigator>
     );
   }
-  if (authStore.isAuthed || authStore.isAnonymous) {
-    return (
-      <Drawer.Navigator drawerContent={() => <DrawerContent />}>
+  return (
+    <Drawer.Navigator drawerContent={() => <DrawerContent />}>
+      {authStore.isAuthed && (
         <Drawer.Screen name="home" component={HomeRootsNavigator} />
-      </Drawer.Navigator>
-    );
-  }
-  if (!authStore.isAuthed && !authStore.isAnonymous && !authStore.isLoading) {
-    return (
-      <Stack.Navigator>
-        <Stack.Screen name="LoginScreen" component={LoginScreen} />
-        <Stack.Screen name="SignUpScreen" component={SignupScreen} />
-      </Stack.Navigator>
-    );
-  }
+      )}
+      {authStore.isAnonymous && (
+        <Drawer.Screen name="home" component={HomeRootsNavigator} />
+      )}
+
+      {!authStore.isAuthed &&
+        !authStore.isAnonymous &&
+        !authStore.isLoading && (
+          <Drawer.Screen name="LoginScreen" component={LoginScreen} />
+        )}
+      {/* <Stack.Screen name="LoadingScreen" component={LoadingScreen} /> */}
+    </Drawer.Navigator>
+  );
 });
+// if (authStore.isAuthed || authStore.isAnonymous) {
+//   return (
+//     <Drawer.Navigator drawerContent={() => <DrawerContent />}>
+//       <Drawer.Screen name="home" component={HomeRootsNavigator} />
+//     </Drawer.Navigator>
+//   );
+// }
+// if (!authStore.isAuthed && !authStore.isAnonymous && !authStore.isLoading) {
+//   return (
+//     <Stack.Navigator>
+//       <Stack.Screen name="LoginScreen" component={LoginScreen} />
+//       <Stack.Screen name="SignUpScreen" component={SignupScreen} />
+//     </Stack.Navigator>
+//   );
+// }
