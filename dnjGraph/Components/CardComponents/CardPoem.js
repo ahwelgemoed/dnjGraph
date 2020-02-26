@@ -13,7 +13,7 @@ import Markdown from 'react-native-markdown-display';
 import { useMediaQuery } from 'react-responsive';
 const { width, height } = Dimensions.get('window');
 
-const CardPoem = ({ poem, navigation = null }) => {
+const CardPoem = ({ poem, navigation = null, turnOffViewWitdht }) => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   });
@@ -21,7 +21,12 @@ const CardPoem = ({ poem, navigation = null }) => {
   // <View style={{ maxWidth: isDesktopOrLaptop ? 500 : '100%' }}>
   return (
     // <View style={{ width: width, borderRadius: 30 }}>
-    <View style={{ width: isDesktopOrLaptop ? 500 : width, borderRadius: 30 }}>
+    <View
+      style={{
+        width: isDesktopOrLaptop ? 500 : turnOffViewWitdht ? null : width,
+        borderRadius: 30
+      }}
+    >
       {/* http://localhost:4000/public/img/imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg */}
       <Card
         style={{
@@ -37,7 +42,6 @@ const CardPoem = ({ poem, navigation = null }) => {
           },
           shadowOpacity: 0.29,
           shadowRadius: 4.65,
-
           elevation: 7
         }}
         onPress={() =>

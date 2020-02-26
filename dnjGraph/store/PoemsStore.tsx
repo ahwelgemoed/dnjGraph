@@ -9,9 +9,9 @@ export class PoemsStore {
   constructor(rooteStore: RootStore) {
     this.rooteStore = rooteStore;
   }
-  @observable poemTitle;
-  @observable poemBody;
-  @observable poemImage;
+  @persist @observable poemTitle;
+  @persist @observable poemBody;
+  @persist @observable poemImage;
   @observable draftMode = true;
   @observable readyPoem = {};
 
@@ -58,14 +58,10 @@ export class PoemsStore {
     }
   `;
   @action setPoemTitle(poemTitle) {
-    if (poemTitle) {
-      this.poemTitle = poemTitle;
-    }
+    this.poemTitle = poemTitle;
   }
   @action setPoemBody(poemBody) {
-    if (poemBody) {
-      this.poemBody = poemBody;
-    }
+    this.poemBody = poemBody;
   }
   @action setPoemImage(poemImage) {
     if (poemImage) {

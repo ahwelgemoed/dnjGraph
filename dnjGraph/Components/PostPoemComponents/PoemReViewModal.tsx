@@ -1,7 +1,10 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { ScrollView, StyleSheet, Dimensions } from 'react-native';
 import { Button, IconButton, List, FAB, Surface } from 'react-native-paper';
+
 import { Modalize } from 'react-native-modalize';
+import ReviewPoemandPost from './ReviewPoemandPost';
+
 const { width, height } = Dimensions.get('window');
 
 const SelectImageModal = props => {
@@ -13,7 +16,6 @@ const SelectImageModal = props => {
       modal.close();
     }
   };
-  console.log(props.onOpenProp);
 
   return (
     <>
@@ -27,7 +29,9 @@ const SelectImageModal = props => {
           alignSelf: 'center',
           width: Dimensions.get('window').width * 0.94
         }}
-      ></Modalize>
+      >
+        <ReviewPoemandPost navigation={props.navigation} />
+      </Modalize>
     </>
   );
 };

@@ -19,7 +19,9 @@ const ImageSelector = observer(({ onClose }) => {
   const [selectedImage, setSelectedImage] = useState('');
 
   useEffect(() => {
-    setSelectedImage(null);
+    if (poemsStore.poemImage) {
+      setSelectedImage(poemsStore.poemImage);
+    }
     fetch('http://localhost:4000/v1/getAllImages').then(res => {
       res.json().then(data => setimages(data));
     });
@@ -30,6 +32,7 @@ const ImageSelector = observer(({ onClose }) => {
       onClose();
     }
   }, [selectedImage]);
+  console.log(poemsStore.poemImage);
 
   return (
     <ScrollView>

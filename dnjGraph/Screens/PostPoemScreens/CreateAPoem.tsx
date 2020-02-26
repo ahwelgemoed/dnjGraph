@@ -12,16 +12,14 @@ import PoemReViewModal from '../../Components/PostPoemComponents/PoemReViewModal
 import { ScrollView } from 'react-native-gesture-handler';
 
 const { width, height } = Dimensions.get('window');
-const CreateAPoem = observer(() => {
+const CreateAPoem = observer(({ navigation }) => {
   const childRefImage = useRef(null);
   const childRefReview = useRef(null);
   const { poemsStore } = useContext(RootStoreContext);
   const [state, setstate] = useState(false);
   // console.log(selectedImage);
-  // console.log(poemsStore.poemImage);
+  console.log(poemsStore.poemTitle);
   const modalState = () => {
-    console.log('modalStatemodalState');
-
     setstate(false);
   };
   const onOpen = () => {
@@ -44,6 +42,7 @@ const CreateAPoem = observer(() => {
         modalState={modalState}
       />
       <PoemReViewModal
+        navigation={navigation}
         forwardedRef={childRefReview}
         onOpenProp={state}
         modalState={modalState}
@@ -80,13 +79,19 @@ const CreateAPoem = observer(() => {
           </Button>
         </Surface>
         <PoemOptions />
-
         <Surface
           style={{
-            marginTop: 20
+            marginTop: 20,
+            marginBottom: 30
           }}
         >
-          <Button mode="outlined" icon="pencil" onPress={onOpenReview}>
+          <Button
+            // style={{ marginBottom: 100 }}
+            mode="outlined"
+            icon="pencil"
+            onPress={onOpenReview}
+            disabled={!poemsStore.poemTitle || !poemsStore.poemBody}
+          >
             Review and Post Poem
           </Button>
         </Surface>

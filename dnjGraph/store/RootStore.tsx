@@ -11,9 +11,9 @@ const hydrate = create({
 export class RootStore {
   authStore = new AuthStateStore(this);
   poemsStore = new PoemsStore(this);
-  // constructor() {
-  //   hydrate('poemsStore', this.poemsStore);
-  // }
+  constructor() {
+    hydrate('poemsStore', this.poemsStore);
+  }
 }
 
 export const RootStoreContext = createContext(new RootStore());
