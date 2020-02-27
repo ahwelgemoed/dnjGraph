@@ -53,6 +53,8 @@ const PoemsScreen = observer(({ navigation }) => {
       {/* <GetGraphUser authStore={authStore} /> */}
       {data && data.poems ? (
         <FlatList
+          onRefresh={() => refetch()}
+          refreshing={loading}
           onEndReached={_handleLoadMore}
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}

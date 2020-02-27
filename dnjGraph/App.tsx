@@ -59,7 +59,13 @@ const PoemsScreenStack = withTheme(props => (
     }}
   >
     <HomeStack.Screen name="AllPoems" component={AllPoemsScreen} />
-    <HomeStack.Screen name="APoem" component={APoemScreen} />
+    <HomeStack.Screen
+      options={({ route }) => ({
+        title: route.params.title
+      })}
+      name="APoem"
+      component={APoemScreen}
+    />
   </HomeStack.Navigator>
 ));
 const PostPoemScreenStack = withTheme(props => (

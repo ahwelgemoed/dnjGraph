@@ -47,7 +47,8 @@ const CardPoem = ({ poem, navigation = null, turnOffViewWitdht }) => {
         onPress={() =>
           navigation &&
           navigation.push('APoem', {
-            poemId: poem.id
+            poemId: poem.id,
+            title: poem.title
           })
         }
       >
@@ -66,7 +67,7 @@ const CardPoem = ({ poem, navigation = null, turnOffViewWitdht }) => {
           subtitle={`by: ${poem.handle}`}
           titleStyle={{
             fontFamily: 'raleway-boldI',
-            fontSize: 30,
+            fontSize: 20,
             opacity: 0.8
           }}
           // style={{
