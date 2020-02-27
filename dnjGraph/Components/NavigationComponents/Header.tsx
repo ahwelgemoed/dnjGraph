@@ -43,7 +43,7 @@ const Header = ({ scene, previous, navigation, props }) => {
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
-          navigation.navigate('PostPoemScreenWeb');
+          navigation.navigate('ProfileLekker');
         }}
       >
         <MaterialCommunityIcons name="menu" size={20} />

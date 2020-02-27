@@ -19,6 +19,8 @@ const CardPoem = ({ poem, navigation = null, turnOffViewWitdht }) => {
   });
   // console.log(poem.date);
   // <View style={{ maxWidth: isDesktopOrLaptop ? 500 : '100%' }}>
+  // console.log(poem);
+
   return (
     // <View style={{ width: width, borderRadius: 30 }}>
     <View
@@ -64,18 +66,12 @@ const CardPoem = ({ poem, navigation = null, turnOffViewWitdht }) => {
         />
         <Card.Title
           title={poem.title}
-          subtitle={`by: ${poem.handle}`}
+          subtitle={`by: ${poem.handle ? poem.handle : 'ANON'}`}
           titleStyle={{
             fontFamily: 'raleway-boldI',
             fontSize: 20,
             opacity: 0.8
           }}
-          // style={{
-          //   top: -190,
-          //   left: 0,
-          //   zIndex: 10
-          // }}
-          // left={props => <Avatar.Icon {...props} icon="folder" />}
         />
         <Card.Content>
           <Markdown>{poem.bodyText}</Markdown>
@@ -83,8 +79,8 @@ const CardPoem = ({ poem, navigation = null, turnOffViewWitdht }) => {
         <Card.Actions>
           {poem.isDraft ? <Chip icon="information">Draft Mode</Chip> : null}
 
-          {/* <Button>Cancel</Button>
-          <Button>Ok</Button> */}
+          {/* <Button>Cancel</Button> */}
+          <Button> {moment.unix(poem.date).fromNow()}</Button>
         </Card.Actions>
       </Card>
     </View>

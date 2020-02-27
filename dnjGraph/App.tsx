@@ -23,12 +23,14 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import { RestLink } from 'apollo-link-rest';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { Header, MyTransition } from './Components/NavigationComponents/Header';
+import DrawerComponent from './Components/NavigationComponents/DrawerComponent';
 import {
   SignIn,
   SignInScreen,
   CreateAccount,
   SplashScreen,
   APoemScreen,
+  DraftsScreen,
   AllPoemsScreen,
   ProfileScreen,
   CreateAPoem
@@ -89,11 +91,29 @@ const PostPoemScreenStack = withTheme(props => (
   </PostPoemStack.Navigator>
 ));
 
-const ProfileScreenStack = () => (
-  <ProfileStack.Navigator>
+const UtilScreensStack = withTheme(props => (
+  <ProfileStack.Navigator
+    shifting={true}
+    sceneAnimationEnabled={false}
+    headerMode="screen"
+    screenOptions={{
+      header: ({ scene, previous, navigation }) => (
+        <Header
+          scene={scene}
+          previous={previous}
+          navigation={navigation}
+          props={props}
+        />
+      ),
+      cardOverlayEnabled: true,
+      gestureEnabled: true,
+      ...MyTransition
+    }}
+  >
     <ProfileStack.Screen name="ProfileScreen" component={ProfileScreen} />
+    <ProfileStack.Screen name="Drafts" component={DraftsScreen} />
   </ProfileStack.Navigator>
-);
+));
 
 const Tabs = () => (
   <TabsStack.Navigator shifting={true} sceneAnimationEnabled={false}>
@@ -228,11 +248,16 @@ const App = observer(() => {
           ref={ref}
         >
           {authStore.isAuthed ? (
-            <DrawerStack.Navigator>
+            <DrawerStack.Navigator
+              drawerContent={({ navigation }) => (
+                <DrawerComponent navigation={navigation} />
+              )}
+            >
               <DrawerStack.Screen name="Home" component={Tabs} />
+              <DrawerStack.Screen name="Drafts" component={DraftsScreen} />
               <DrawerStack.Screen
-                name="Profile"
-                component={ProfileScreenStack}
+                name="ProfileLekker"
+                component={UtilScreensStack}
               />
             </DrawerStack.Navigator>
           ) : (

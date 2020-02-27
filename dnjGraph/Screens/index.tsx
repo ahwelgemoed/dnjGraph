@@ -37,7 +37,7 @@ export const CreateAccount = () => {
 export const ProfileScreen = () => {
   return (
     <View>
-      <Text>ProfileScreen</Text>
+      <Text>ProfileLekkerProfileLekkerProfileLekkerProfileLekker</Text>
     </View>
   );
 };
@@ -53,6 +53,13 @@ export const SplashScreen = () => {
   return (
     <View>
       <Text>PostPoem</Text>
+    </View>
+  );
+};
+export const DraftsScreen = () => {
+  return (
+    <View>
+      <Text>DraftsScreen</Text>
     </View>
   );
 };

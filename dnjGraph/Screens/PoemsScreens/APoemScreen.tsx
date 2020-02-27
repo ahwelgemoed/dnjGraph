@@ -3,7 +3,7 @@ import { View, Dimensions, ImageBackground, StyleSheet } from 'react-native';
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
 import { RootStoreContext } from '../../store/RootStore';
-import { Text, Surface, Card } from 'react-native-paper';
+import { Text, Paragraph, Card } from 'react-native-paper';
 import { useMediaQuery } from 'react-responsive';
 import { BlurView } from 'expo-blur';
 import Markdown from 'react-native-markdown-display';
@@ -94,7 +94,9 @@ const APoemScreen = observer(({ route, navigation }) => {
           <Card.Content>
             <Markdown>{data.poem.bodyText}</Markdown>
           </Card.Content>
-          <Card.Actions></Card.Actions>
+          <Card.Actions>
+            <Paragraph>Card content</Paragraph>
+          </Card.Actions>
         </ScrollView>
       </Card>
       {/* </BlurView> */}

@@ -25,6 +25,7 @@ export class PoemsStore {
           title
           bodyText
           photoURL
+          handle
           date
           isDraft
         }
@@ -40,6 +41,7 @@ export class PoemsStore {
         id
         title
         photoURL
+        handle
         bodyText
         date
         handle
