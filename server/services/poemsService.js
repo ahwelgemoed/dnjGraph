@@ -1,8 +1,7 @@
 const Poem = require('../models/PoemModel');
 // https://www.npmjs.com/package/mongoose-paginate-v2
-const getAll = ({ dtoArguments }) => {
+const getAllActivePoems = ({ dtoArguments }) => {
   console.log('Get All Called');
-
   const { limit, page } = dtoArguments;
   const options = {
     page: page ? page : 1,
@@ -12,7 +11,10 @@ const getAll = ({ dtoArguments }) => {
       locale: 'en'
     }
   };
-  const allPoems = Poem.paginate({}, options, function(err, result) {
+  const allPoems = Poem.paginate({ isDraft: false }, options, function(
+    err,
+    result
+  ) {
     const { docs, totalDocs, limit, totalPages, nextPage } = result;
     return { poems: docs, totalDocs };
   });

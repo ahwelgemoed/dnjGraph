@@ -1,14 +1,14 @@
 const Poem = require('../models/PoemModel');
 const User = require('../models/UserModel');
 
-const { getAll } = require('../services/poemsService');
+const { getAllActivePoems } = require('../services/poemsService');
 const { updateUserInternally, getUser } = require('../services/userServices');
 
 const resolvers = {
   Query: {
     poems: (parent, arg, { userToken }, info) => {
       const dtoArguments = arg;
-      const { allPoems } = getAll({ dtoArguments });
+      const { allPoems } = getAllActivePoems({ dtoArguments });
       if (userToken) {
         updateUserInternally({ userToken });
       }
@@ -22,12 +22,19 @@ const resolvers = {
       const userDTO = arg;
       const { user } = await getUser({ userDTO });
       return user;
+    },
+    allUsersBookmarks: (obj, args, { userToken }, info) => {
+      // use user Toke to get UID from Firebase -> Find User in our DB then Use that Array To find all
+      const allUserBookmarksDTO = args;
+    },
+    myDraftPoems: (obj, args, { userToken }, info) => {
+      // use user Toke to get UID from Firebase -> Find User in our DB then Use that Array To find all
+      const myDraftPoemsDTO = args;
     }
   },
   Poem: {
     user: (parent, args, ctx, info) => {
       console.log('parent.user', parent.user);
-
       // const foundUser = User.findById(parent.user);
       // return foundUser;
     }

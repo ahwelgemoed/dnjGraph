@@ -5,6 +5,8 @@ const typeDefs = gql`
     fireBaseId: ID
     name: String
     isAdmin: Boolean
+    bookmarks: [String]
+    isNew: Boolean
   }
   type Poem {
     id: ID
@@ -36,6 +38,11 @@ const typeDefs = gql`
     message: String
     user: User
   }
+  type BookmarkAddedResponse {
+    success: Boolean!
+    message: String
+    poem: Poem
+  }
 
   input PoemInput {
     title: String
@@ -48,12 +55,15 @@ const typeDefs = gql`
   }
   type Query {
     poems(limit: Int, page: Int): PoemsResults
+    # myDraftPoems(user: ID): PoemsResults  To Be Expanded On will get users Draft Poems
+    # allUsersBookmarks(user: ID): PoemsResults
     poem(id: ID): Poem
     User(id: ID): User
   }
   type Mutation {
     addPoem(poem: PoemInput): PoemUpdateResponse
     addUser(user: UserInput): UserUpdateResponse
+    addBookmark(user: ID, poem: ID): BookmarkAddedResponse
   }
 `;
 
