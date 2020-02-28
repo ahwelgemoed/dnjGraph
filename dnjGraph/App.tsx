@@ -33,6 +33,7 @@ import {
   DraftsScreen,
   AllPoemsScreen,
   ProfileScreen,
+  DraftScreens,
   CreateAPoem
 } from './Screens';
 
@@ -110,8 +111,8 @@ const UtilScreensStack = withTheme(props => (
       ...MyTransition
     }}
   >
-    <ProfileStack.Screen name="ProfileScreen" component={ProfileScreen} />
-    <ProfileStack.Screen name="Drafts" component={DraftsScreen} />
+    <ProfileStack.Screen name="Drafts" component={DraftScreens} />
+    {/* <ProfileStack.Screen name="ProfileScreen" component={ProfileScreen} /> */}
   </ProfileStack.Navigator>
 ));
 
@@ -254,9 +255,9 @@ const App = observer(() => {
               )}
             >
               <DrawerStack.Screen name="Home" component={Tabs} />
-              <DrawerStack.Screen name="Drafts" component={DraftsScreen} />
+              {/* <DrawerStack.Screen name="Drafts" component={DraftsScreen} /> */}
               <DrawerStack.Screen
-                name="ProfileLekker"
+                name="DraftStack"
                 component={UtilScreensStack}
               />
             </DrawerStack.Navigator>

@@ -60,7 +60,7 @@ export default function DrawerContent(props) {
             )}
             label="Drafts"
             onPress={() => {
-              props.navigation.navigate('ProfileScreen');
+              props.navigation.navigate('DraftStack');
             }}
           />
           <DrawerItem

@@ -21,7 +21,15 @@ const getAllActivePoems = ({ dtoArguments }) => {
 
   return { allPoems };
 };
+const getAllUserDrafts = async ({ dtoArguments }) => {
+  const allUserPoems = await Poem.find({
+    user: 'JHJKjVGw91WEP15WhKbxHjOUcd12'
+  });
+
+  return { poems: allUserPoems, totalDocs: allUserPoems.length };
+};
 
 module.exports = {
-  getAll
+  getAllActivePoems,
+  getAllUserDrafts
 };

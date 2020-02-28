@@ -1,7 +1,10 @@
 const Poem = require('../models/PoemModel');
 const User = require('../models/UserModel');
 
-const { getAllActivePoems } = require('../services/poemsService');
+const {
+  getAllActivePoems,
+  getAllUserDrafts
+} = require('../services/poemsService');
 const { updateUserInternally, getUser } = require('../services/userServices');
 
 const resolvers = {
@@ -27,9 +30,18 @@ const resolvers = {
       // use user Toke to get UID from Firebase -> Find User in our DB then Use that Array To find all
       const allUserBookmarksDTO = args;
     },
-    myDraftPoems: (obj, args, { userToken }, info) => {
+    myDraftPoems: async (obj, args, { userToken }, info) => {
       // use user Toke to get UID from Firebase -> Find User in our DB then Use that Array To find all
+      if (!userToken) {
+        return;
+      }
       const myDraftPoemsDTO = args;
+      const allUsersDrafts = await getAllUserDrafts({
+        dto: myDraftPoemsDTO,
+        userToken
+      });
+      console.log('allUsersDrafts', allUsersDrafts);
+      return allUsersDrafts;
     }
   },
   Poem: {

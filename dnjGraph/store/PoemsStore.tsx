@@ -48,6 +48,22 @@ export class PoemsStore {
       }
     }
   `;
+  @observable getAusersDraftPoems = gql`
+    query myDraftPoems {
+      myDraftPoems {
+        poems {
+          id
+          title
+          bodyText
+          photoURL
+          handle
+          date
+          isDraft
+        }
+        totalDocs
+      }
+    }
+  `;
   @observable addAPoem = gql`
     mutation AddPoem($poem: PoemInput) {
       addPoem(poem: $poem) {

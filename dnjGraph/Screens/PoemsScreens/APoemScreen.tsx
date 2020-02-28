@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Dimensions, ImageBackground, StyleSheet } from 'react-native';
-import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
+import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { Text, Paragraph, Card } from 'react-native-paper';
 import { useMediaQuery } from 'react-responsive';

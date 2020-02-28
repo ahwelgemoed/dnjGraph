@@ -55,8 +55,8 @@ const typeDefs = gql`
   }
   type Query {
     poems(limit: Int, page: Int): PoemsResults
-    # myDraftPoems(user: ID): PoemsResults  To Be Expanded On will get users Draft Poems
-    # allUsersBookmarks(user: ID): PoemsResults
+    myDraftPoems: PoemsResults
+    allUsersBookmarks(user: ID): PoemsResults
     poem(id: ID): Poem
     User(id: ID): User
   }
