@@ -17,7 +17,7 @@ const SignInScreen = observer(({ navigation }) => {
           authStore.logUserInAndSetTokenInStorage({ user, token: user.ma });
         });
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
   const SingInForm = () => {

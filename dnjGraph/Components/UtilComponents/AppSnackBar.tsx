@@ -14,7 +14,7 @@ const AppSnackBar = observer(() => {
       setMessageToDisplay(authStore.showAuthSnack.messageToUser);
     }
   }, [authStore.showAuthSnack]);
-  console.log(authStore.showAuthSnack);
+  // console.log(authStore.showAuthSnack);
 
   return (
     <View>

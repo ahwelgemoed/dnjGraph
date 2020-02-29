@@ -61,7 +61,7 @@ const PoemsScreen = observer(({ navigation }) => {
           onEndReachedThreshold={200}
           data={data.poems.poems}
           renderItem={({ item }) => (
-            <CardPoem poem={item} navigation={navigation} />
+            <CardPoem poem={item} navigation={navigation} view={'ONE'} />
           )}
           keyExtractor={item => item.id}
         />

@@ -51,9 +51,9 @@ export const RootNavigator = observer(() => {
     authStore.isAuthed,
     authStore.isLoading
   ]);
-  console.log('authStore.isAuthed', authStore.isAuthed);
-  console.log('authStore.isLoading', authStore.isLoading);
-  console.log('authStore.isAnonymous', authStore.isAnonymous);
+  // console.log('authStore.isAuthed', authStore.isAuthed);
+  // console.log('authStore.isLoading', authStore.isLoading);
+  // console.log('authStore.isAnonymous', authStore.isAnonymous);
   //https://reactnavigation.org/docs/en/auth-flow.html
   if (authStore.isLoading) {
     return (

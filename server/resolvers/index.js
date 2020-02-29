@@ -4,6 +4,7 @@ const moment = require('moment');
 const {
   getAllActivePoems,
   getAllUserDrafts,
+  createNewPoem,
   updateAPoem
 } = require('../services/poemsService');
 const { updateUserInternally, getUser } = require('../services/userServices');
@@ -81,7 +82,11 @@ const resolvers = {
          */
         const updatedPoem = await updateAPoem({ poemDTO, userToken });
         return updatedPoem;
+      } else {
+        const newPoem = await createNewPoem({ poemDTO, userToken });
+        return newPoem;
       }
+
       //   const date = new Date().getTime();
       //   const newPoem = new Poem({
       //     title,

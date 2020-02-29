@@ -23,7 +23,7 @@ const SelectImageModal = props => {
       modal.close();
     }
   };
-  console.log(props.onOpenProp);
+  // console.log(props.onOpenProp);
 
   return (
     <>

@@ -14,12 +14,12 @@ const SignupScreen = observer(({ navigation }) => {
         .auth()
         .createUserWithEmailAndPassword(email, password)
         .then(({ user }) => {
-          console.log(user);
+          // console.log(user);
 
           authStore.logUserInAndSetTokenInStorage({ user, token: user.ma });
         });
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   };
   const SingInForm = () => {

@@ -42,7 +42,7 @@ const getAllUserPoems = async ({ dtoArguments, user }) => {
   return;
 };
 const updateAPoem = async ({
-  poemDTO: { id, title, bodyText, isDraft, photoURL, handle, date },
+  poemDTO: { id, title, bodyText, isDraft, photoURL, handle },
   userToken
 }) => {
   let poem = await Poem.findOneAndUpdate(
@@ -53,7 +53,6 @@ const updateAPoem = async ({
       isDraft,
       photoURL,
       handle,
-      date,
       user: userToken && userToken.uid
     },
     {
@@ -66,29 +65,32 @@ const updateAPoem = async ({
     success: true,
     poem: poem
   };
-
-  //  const date = new Date().getTime();
-  //   const newPoem = new Poem({
-  //     title,
-  //     bodyText,
-  //     isDraft,
-  //     photoURL,
-  //     handle,
-  //     date,
-  //     user: userToken && userToken.uid
-  //   });
-
-  //   return newPoem.save().then(res => {
-  //     return {
-  //       message: 'Saved New Poem',
-  //       success: true,
-  //       poem: res
-  //     };
-  //   });
+};
+const createNewPoem = async ({
+  poemDTO: { title, bodyText, isDraft, photoURL, handle },
+  userToken
+}) => {
+  const poem = new Poem({
+    title,
+    bodyText,
+    isDraft,
+    photoURL,
+    handle,
+    data: new Date().toString(),
+    user: userToken && userToken.uid
+  });
+  return poem.save().then(res => {
+    return {
+      message: 'Saved New Poem',
+      success: true,
+      poem: res
+    };
+  });
 };
 
 module.exports = {
   getAllActivePoems,
   getAllUserDrafts,
+  createNewPoem,
   updateAPoem
 };

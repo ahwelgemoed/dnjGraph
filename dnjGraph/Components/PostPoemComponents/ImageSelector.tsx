@@ -32,7 +32,7 @@ const ImageSelector = observer(({ onClose }) => {
       onClose();
     }
   }, [selectedImage]);
-  console.log(poemsStore.poemImage);
+  // console.log(poemsStore.poemImage);
 
   return (
     <ScrollView>

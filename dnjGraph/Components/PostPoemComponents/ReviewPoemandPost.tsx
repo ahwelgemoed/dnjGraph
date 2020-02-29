@@ -26,7 +26,7 @@ const ReviewPoemandPost = observer(({ navigation }) => {
           messageToUser: 'Poem Posted Succsess'
         });
         await poemsStore.clearPresistPoem();
-        // await AsyncStorage.removeItem('poemsStore');
+
         await navigation.navigate('AllPoems');
       }
     }

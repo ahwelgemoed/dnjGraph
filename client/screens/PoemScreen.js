@@ -10,13 +10,13 @@ const PoemScreen = observer(({ route, navigation }) => {
   const { poemId } = route.params;
   const { poemsStore } = React.useContext(RootStoreContext);
   React.useEffect(() => {
-    console.log('MOUNT');
+    // console.log('MOUNT');
   }, []);
   const { loading, error, data } = useQuery(poemsStore.getAPoem, {
     variables: { id: poemId }
   });
   // Do a Get To Get all Of The Poem poemId
-  console.log(poemId);
+  // console.log(poemId);
 
   if (loading || !data) return <PoemsLoading />;
   if (error) return <Text>Error</Text>;

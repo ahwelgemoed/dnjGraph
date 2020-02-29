@@ -15,7 +15,7 @@ import {
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function DrawerContent(props) {
-  console.log(props.navigation);
+  // console.log(props.navigation);
 
   return (
     <DrawerContentScrollView
@@ -106,7 +106,7 @@ export default function DrawerContent(props) {
             )}
             label="Bookmarks"
             onPress={() => {
-              props.navigation.navigate();
+              props.navigation.navigate('PostPoem');
             }}
           />
         </Drawer.Section>

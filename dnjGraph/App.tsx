@@ -190,8 +190,8 @@ const App = observer(() => {
     };
   });
   React.useEffect(() => {
-    console.log('isAuthed', authStore.isAuthed);
-    console.log('isAnonymous', authStore.isAnonymous);
+    // console.log('isAuthed', authStore.isAuthed);
+    // console.log('isAnonymous', authStore.isAnonymous);
     authStore.isUserAuthed();
   }, [authStore.isAuthed, authStore.isAnonymous]);
   React.useEffect(() => {

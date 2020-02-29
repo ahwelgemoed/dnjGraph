@@ -60,7 +60,7 @@ export class AuthStateStore {
     this.isUserAuthed();
   }
   @action async setUserAsAnonymous() {
-    console.log('👨🏽‍🏭');
+    // console.log('👨🏽‍🏭');
     await AsyncStorage.setItem('userToken', 'ANON');
     this.isUserAuthed();
   }

@@ -12,13 +12,13 @@ import PoemReViewModal from '../../Components/PostPoemComponents/PoemReViewModal
 import { ScrollView } from 'react-native-gesture-handler';
 
 const { width, height } = Dimensions.get('window');
-const CreateAPoem = observer(({ navigation }) => {
+const CreateAPoem = observer(({ route, navigation }) => {
   const childRefImage = useRef(null);
   const childRefReview = useRef(null);
   const { poemsStore } = useContext(RootStoreContext);
   const [state, setstate] = useState(false);
   // console.log(selectedImage);
-  console.log(poemsStore.poemTitle);
+  // console.log(poemsStore.poemTitle);
   const modalState = () => {
     setstate(false);
   };
@@ -34,6 +34,9 @@ const CreateAPoem = observer(({ navigation }) => {
       modal.open();
     }
   };
+
+  // console.log('route 🔥', route.params);
+
   return (
     <View style={{ flex: 1 }}>
       <SelectImageModal

@@ -11,6 +11,7 @@ const TitleAndBody = observer(() => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   useEffect(() => {
+    // console.log('🔥🔥💂🏽‍♂️');
     if (poemsStore.poemTitle) {
       setTitle(poemsStore.poemTitle);
     }
@@ -24,6 +25,22 @@ const TitleAndBody = observer(() => {
   useEffect(() => {
     poemsStore.setPoemBody(body);
   }, [body]);
+  useEffect(() => {
+    /**
+     * This is To Edit A Poem Cause Params DoesntSeem To Work Propper
+     */
+    if (title !== poemsStore.poemTitle) {
+      setTitle(poemsStore.poemTitle);
+    }
+  }, [poemsStore.poemTitle]);
+  useEffect(() => {
+    /**
+     * This is To Edit A Poem Cause Params DoesntSeem To Work Propper
+     */
+    if (body !== poemsStore.poemBody) {
+      setBody(poemsStore.poemBody);
+    }
+  }, [poemsStore.poemBody]);
 
   const submitToFirebase = ({ email, password }) => {};
   return (

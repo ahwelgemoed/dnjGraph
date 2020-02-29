@@ -18,7 +18,7 @@ const APoemScreen = observer(({ route, navigation }) => {
   const { poemId } = route.params;
   const { poemsStore } = React.useContext(RootStoreContext);
   React.useEffect(() => {
-    console.log('MOUNT');
+    // console.log('MOUNT');
   }, []);
   const { loading, error, data } = useQuery(poemsStore.getAPoem, {
     variables: { id: poemId }
@@ -26,7 +26,7 @@ const APoemScreen = observer(({ route, navigation }) => {
   if (loading) {
     return <Text>Loading</Text>;
   }
-  console.log(data.poem);
+  // console.log(route.params);
 
   return (
     <View

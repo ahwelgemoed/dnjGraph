@@ -99,9 +99,21 @@ export class PoemsStore {
     return poem;
   }
   @action clearPresistPoem() {
+    AsyncStorage.removeItem('poemsStore');
     this.poemTitle = '';
     this.poemBody = '';
     this.poemImage = '';
+    this.draftMode = true;
+    this.readyPoem = {};
+  }
+  @action fromDraftToEdit({ poem }) {
+    console.log('👳🏽‍♂️', 'fromDraftToEdit');
+
+    this.clearPresistPoem();
+
+    this.poemTitle = poem.title;
+    this.poemBody = poem.bodyText;
+    this.poemImage = poem.photoURL;
     this.draftMode = true;
     this.readyPoem = {};
   }

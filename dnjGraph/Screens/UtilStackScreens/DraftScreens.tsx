@@ -17,7 +17,9 @@ const DraftScreens = observer(({ navigation }) => {
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
           data={data.myDraftPoems.poems}
-          renderItem={({ item }) => <CardPoem poem={item} />}
+          renderItem={({ item }) => (
+            <CardPoem poem={item} navigation={navigation} view={'POST'} />
+          )}
           keyExtractor={item => item.id}
         />
       ) : (
