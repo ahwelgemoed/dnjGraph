@@ -9,9 +9,6 @@ const DraftScreens = observer(({ navigation }) => {
   const { poemsStore } = React.useContext(RootStoreContext);
   // getAusersDraftPoems
   const { loading, error, data } = useQuery(poemsStore.getAusersDraftPoems);
-  // console.log(loading);
-  // console.log(error);
-  // console.log(data.myDraftPoems.poems);
 
   return (
     <View>

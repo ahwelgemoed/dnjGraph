@@ -58,7 +58,33 @@ export default function DrawerContent(props) {
                 size={size}
               />
             )}
-            label="Drafts"
+            label="Home"
+            onPress={() => {
+              props.navigation.navigate('Home');
+            }}
+          />
+          <DrawerItem
+            icon={({ color, size }) => (
+              <MaterialCommunityIcons
+                name="account-outline"
+                color={color}
+                size={size}
+              />
+            )}
+            label="Your Drafts"
+            onPress={() => {
+              props.navigation.navigate('DraftStack');
+            }}
+          />
+          <DrawerItem
+            icon={({ color, size }) => (
+              <MaterialCommunityIcons
+                name="account-outline"
+                color={color}
+                size={size}
+              />
+            )}
+            label="Your Posted Poems"
             onPress={() => {
               props.navigation.navigate('DraftStack');
             }}

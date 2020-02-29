@@ -2,7 +2,6 @@ const admin = require('./firebase-service');
 
 const authHandler = req => {
   const tokenWithBearer = req.headers.authorization;
-
   console.log(tokenWithBearer, 'tokenWithBearer');
   if (tokenWithBearer) {
     const token = tokenWithBearer.split(' ')[1];

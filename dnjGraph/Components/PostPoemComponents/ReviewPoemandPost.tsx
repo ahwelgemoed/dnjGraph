@@ -21,6 +21,10 @@ const ReviewPoemandPost = observer(({ navigation }) => {
   const [addPoem, { error, loading }] = useMutation(poemsStore.addAPoem, {
     async onCompleted({ addPoem }) {
       if (addPoem.success) {
+        await authStore.setSnackBar({
+          funcCalled: 'poemsStore',
+          messageToUser: 'Poem Posted Succsess'
+        });
         await poemsStore.clearPresistPoem();
         // await AsyncStorage.removeItem('poemsStore');
         await navigation.navigate('AllPoems');

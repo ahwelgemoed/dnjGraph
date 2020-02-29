@@ -24,8 +24,8 @@ db.once('open', function() {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
-    context: ({ req }) => {
-      const userToken = authHandler(req);
+    context: async ({ req }) => {
+      const userToken = await authHandler(req);
       return { userToken };
     }
   });

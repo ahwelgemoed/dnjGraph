@@ -1,7 +1,9 @@
 const User = require('../models/UserModel');
+const admin = require('../firebase-service');
 // https://www.npmjs.com/package/mongoose-paginate-v2
 const updateUserInternally = async ({ userToken }) => {
   const foundUser = await User.findOne({ fireBaseId: userToken.uid });
+
   if (foundUser) {
     /**
      * This user has loged in Before lets just check some stuff
@@ -11,9 +13,11 @@ const updateUserInternally = async ({ userToken }) => {
     /**
      * Never Logged In Lest Handle That This is a fail safe and Should NEVER be Hit
      */
+
     const newUser = await new User({
       name: null,
-      fireBaseId: ctx.uid,
+      email: userToken.email,
+      fireBaseId: userToken.uid,
       isAdmin: false
     });
     return newUser.save().then(res => {});

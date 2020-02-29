@@ -1,7 +1,6 @@
 const Poem = require('../models/PoemModel');
 // https://www.npmjs.com/package/mongoose-paginate-v2
 const getAllActivePoems = ({ dtoArguments }) => {
-  console.log('Get All Called');
   const { limit, page } = dtoArguments;
   const options = {
     page: page ? page : 1,
@@ -21,12 +20,26 @@ const getAllActivePoems = ({ dtoArguments }) => {
 
   return { allPoems };
 };
-const getAllUserDrafts = async ({ dtoArguments }) => {
-  const allUserPoems = await Poem.find({
-    user: 'JHJKjVGw91WEP15WhKbxHjOUcd12'
-  });
+const getAllUserDrafts = async ({ dtoArguments, user }) => {
+  if (user.uid) {
+    const allUserPoems = await Poem.find({
+      user: user.uid,
+      isDraft: true
+    });
 
-  return { poems: allUserPoems, totalDocs: allUserPoems.length };
+    return { poems: allUserPoems, totalDocs: allUserPoems.length };
+  }
+  return;
+};
+const getAllUserPoems = async ({ dtoArguments, user }) => {
+  if (user.uid) {
+    const allUserPoems = await Poem.find({
+      user: user.uid
+    });
+
+    return { poems: allUserPoems, totalDocs: allUserPoems.length };
+  }
+  return;
 };
 
 module.exports = {

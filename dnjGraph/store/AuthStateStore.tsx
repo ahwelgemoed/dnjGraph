@@ -13,9 +13,11 @@ export class AuthStateStore {
   @observable isAnonymous = false;
   @observable isLoading = true;
   @observable isAdmin = false;
+  @observable showAuthSnack = { funcCalled: '', messageToUser: '' };
   @observable userFirebaseUID;
   @observable userGraph = {};
   firebase = firebase;
+
   @observable getAUser = gql`
     query User($id: ID) {
       User(id: $id) {
@@ -35,6 +37,10 @@ export class AuthStateStore {
           .then(() => {
             AsyncStorage.setItem('userToken', user.ma);
           });
+        this.showAuthSnack = {
+          funcCalled: 'isUserAuthed',
+          messageToUser: 'isUserAuthed is Called'
+        };
       }
     });
     const userToken = await AsyncStorage.getItem('userToken');
@@ -69,6 +75,12 @@ export class AuthStateStore {
     if (user) {
       this.userGraph = user.User;
     }
+  }
+  @action async setSnackBar({ funcCalled, messageToUser }) {
+    this.showAuthSnack = {
+      funcCalled,
+      messageToUser
+    };
   }
 }
 

@@ -11,6 +11,9 @@ const resolvers = {
   Query: {
     poems: (parent, arg, { userToken }, info) => {
       const dtoArguments = arg;
+      /**
+       *  Get All Poems and Update or Create User
+       */
       const { allPoems } = getAllActivePoems({ dtoArguments });
       if (userToken) {
         updateUserInternally({ userToken });
@@ -35,12 +38,14 @@ const resolvers = {
       if (!userToken) {
         return;
       }
+      // console.log('userToken', userToken);
+
       const myDraftPoemsDTO = args;
       const allUsersDrafts = await getAllUserDrafts({
         dto: myDraftPoemsDTO,
-        userToken
+        user: userToken
       });
-      console.log('allUsersDrafts', allUsersDrafts);
+      // console.log('allUsersDrafts', allUsersDrafts);
       return allUsersDrafts;
     }
   },
@@ -68,12 +73,11 @@ const resolvers = {
     addPoem: (
       parent,
       { poem: { title, bodyText, isDraft, photoURL, handle, user } },
-      ctx,
+      { userToken },
       info
     ) => {
       // console.log(title, bodyText, isDraft, photoURL, handle, user, date);
       const date = Date.now();
-
       const newPoem = new Poem({
         title,
         bodyText,
@@ -81,7 +85,7 @@ const resolvers = {
         photoURL,
         handle,
         date,
-        user
+        user: userToken.uid
       });
 
       return newPoem.save().then(res => {
