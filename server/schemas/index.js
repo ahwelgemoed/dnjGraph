@@ -52,6 +52,7 @@ const typeDefs = gql`
     handle: String
     date: String
     user: ID
+    id: ID
   }
   type Query {
     poems(limit: Int, page: Int): PoemsResults

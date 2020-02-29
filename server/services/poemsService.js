@@ -41,8 +41,54 @@ const getAllUserPoems = async ({ dtoArguments, user }) => {
   }
   return;
 };
+const updateAPoem = async ({
+  poemDTO: { id, title, bodyText, isDraft, photoURL, handle, date },
+  userToken
+}) => {
+  let poem = await Poem.findOneAndUpdate(
+    { _id: id },
+    {
+      title,
+      bodyText,
+      isDraft,
+      photoURL,
+      handle,
+      date,
+      user: userToken && userToken.uid
+    },
+    {
+      useFindAndModify: false,
+      new: true
+    }
+  );
+  return {
+    message: 'Saved Updated Poem',
+    success: true,
+    poem: poem
+  };
+
+  //  const date = new Date().getTime();
+  //   const newPoem = new Poem({
+  //     title,
+  //     bodyText,
+  //     isDraft,
+  //     photoURL,
+  //     handle,
+  //     date,
+  //     user: userToken && userToken.uid
+  //   });
+
+  //   return newPoem.save().then(res => {
+  //     return {
+  //       message: 'Saved New Poem',
+  //       success: true,
+  //       poem: res
+  //     };
+  //   });
+};
 
 module.exports = {
   getAllActivePoems,
-  getAllUserDrafts
+  getAllUserDrafts,
+  updateAPoem
 };

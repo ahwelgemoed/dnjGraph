@@ -17,7 +17,7 @@ const CardPoem = ({ poem, navigation = null, turnOffViewWitdht }) => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   });
-  // console.log(poem.date);
+  console.log(poem.date);
   // <View style={{ maxWidth: isDesktopOrLaptop ? 500 : '100%' }}>
   // console.log(poem);
 
@@ -78,8 +78,7 @@ const CardPoem = ({ poem, navigation = null, turnOffViewWitdht }) => {
         </Card.Content>
         <Card.Actions>
           {poem.isDraft ? <Chip icon="information">Draft Mode</Chip> : null}
-
-          {/* <Button>Cancel</Button> */}
+          <Button> {moment.unix(poem.date).format('DD-MM-YYYY')}</Button>
           <Button> {moment.unix(poem.date).fromNow()}</Button>
         </Card.Actions>
       </Card>

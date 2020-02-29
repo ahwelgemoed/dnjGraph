@@ -1,9 +1,10 @@
 const Poem = require('../models/PoemModel');
 const User = require('../models/UserModel');
-
+const moment = require('moment');
 const {
   getAllActivePoems,
-  getAllUserDrafts
+  getAllUserDrafts,
+  updateAPoem
 } = require('../services/poemsService');
 const { updateUserInternally, getUser } = require('../services/userServices');
 
@@ -70,31 +71,35 @@ const resolvers = {
         };
       });
     },
-    addPoem: (
-      parent,
-      { poem: { title, bodyText, isDraft, photoURL, handle, user } },
-      { userToken },
-      info
-    ) => {
+    addPoem: async (parent, { poem }, { userToken }, info) => {
       // console.log(title, bodyText, isDraft, photoURL, handle, user, date);
-      const date = Date.now();
-      const newPoem = new Poem({
-        title,
-        bodyText,
-        isDraft,
-        photoURL,
-        handle,
-        date,
-        user: userToken.uid
-      });
+      console.log(poem.id);
+      const poemDTO = poem;
+      if (poem.id) {
+        /**
+         * This Means Update
+         */
+        const updatedPoem = await updateAPoem({ poemDTO, userToken });
+        return updatedPoem;
+      }
+      //   const date = new Date().getTime();
+      //   const newPoem = new Poem({
+      //     title,
+      //     bodyText,
+      //     isDraft,
+      //     photoURL,
+      //     handle,
+      //     date,
+      //     user: userToken && userToken.uid
+      //   });
 
-      return newPoem.save().then(res => {
-        return {
-          message: 'Saved New Poem',
-          success: true,
-          poem: res
-        };
-      });
+      //   return newPoem.save().then(res => {
+      //     return {
+      //       message: 'Saved New Poem',
+      //       success: true,
+      //       poem: res
+      //     };
+      //   });
     }
   }
 };
