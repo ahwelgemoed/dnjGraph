@@ -45,6 +45,7 @@ const updateAPoem = async ({
   poemDTO: { id, title, bodyText, isDraft, photoURL, handle },
   userToken
 }) => {
+  console.log('🙋🏽‍♂️', 'updateAPoem');
   let poem = await Poem.findOneAndUpdate(
     { _id: id },
     {
@@ -70,13 +71,15 @@ const createNewPoem = async ({
   poemDTO: { title, bodyText, isDraft, photoURL, handle },
   userToken
 }) => {
+  console.log('🙋🏽‍♂️', 'createNewPoem');
+
   const poem = new Poem({
     title,
     bodyText,
     isDraft,
     photoURL,
     handle,
-    data: new Date().toString(),
+    date: new Date().toISOString(),
     user: userToken && userToken.uid
   });
   return poem.save().then(res => {

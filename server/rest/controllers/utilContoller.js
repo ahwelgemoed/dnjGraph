@@ -18,13 +18,16 @@ const uploader = async (req, res, next) => {
       bodyText: e.body.replace(regex, ''),
       isDraft: false,
       photoURL: null,
-      date: new Date(parseInt(e.date)),
+      date: moment.unix(e.date).format(),
       handle: e.handle,
       user: e.uid
     });
     await newPoem.save();
   }
-  return res.status(200).json('Done');
+  // console.log(new Date().toISOString());
+
+  return res.status(200).json(moment.unix(1559241904).format());
+  // return res.status(200).json(new Date(parseInt(1559241904)));
 };
 
 const scrape = async (req, res, next) => {

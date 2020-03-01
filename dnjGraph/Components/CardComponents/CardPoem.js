@@ -106,8 +106,8 @@ const CardPoem = observer(
             <Markdown>{poem.bodyText}</Markdown>
           </Card.Content>
           <Card.Actions>
-            <Button> {moment(poem.date).format('DD-MM-YYYY')}</Button>
-            <Button> {moment.unix(poem.date).fromNow()}</Button>
+            <Button> {moment(poem.date).format(`MMM'YY`)}</Button>
+            <Button> {poem.date}</Button>
           </Card.Actions>
         </Card>
       </View>

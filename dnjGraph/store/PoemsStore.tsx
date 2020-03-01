@@ -9,6 +9,7 @@ export class PoemsStore {
   constructor(rooteStore: RootStore) {
     this.rooteStore = rooteStore;
   }
+  @persist @observable poemID;
   @persist @observable poemTitle;
   @persist @observable poemBody;
   @persist @observable poemImage;
@@ -103,6 +104,7 @@ export class PoemsStore {
     this.poemTitle = '';
     this.poemBody = '';
     this.poemImage = '';
+    this.poemID = '';
     this.draftMode = true;
     this.readyPoem = {};
   }
@@ -110,7 +112,7 @@ export class PoemsStore {
     console.log('👳🏽‍♂️', 'fromDraftToEdit');
 
     this.clearPresistPoem();
-
+    this.poemID = poem.id;
     this.poemTitle = poem.title;
     this.poemBody = poem.bodyText;
     this.poemImage = poem.photoURL;

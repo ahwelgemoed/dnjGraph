@@ -35,6 +35,7 @@ const ReviewPoemandPost = observer(({ navigation }) => {
   const postPoemToServer = async () => {
     const tempPoem = {
       user: authStore.userGraph.id,
+      id: poemsStore.poemID && poemsStore.poemID,
       title: poemsStore.poemTitle,
       bodyText: poemsStore.poemBody,
       photoURL: poemsStore.poemImage,

@@ -11,7 +11,7 @@ const PoemSchema = new Schema({
   topic: String,
   categories: String,
   isDraft: Boolean,
-  date: { type: Date, default: Date.now },
+  date: String,
   handle: String,
   isOld: Boolean
 });
