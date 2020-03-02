@@ -57,7 +57,7 @@ const PoemsScreen = observer(({ navigation }) => {
           onEndReached={_handleLoadMore}
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
-          onEndReachedThreshold={200}
+          onEndReachedThreshold={0}
           data={data.poems.poems}
           renderItem={({ item }) => (
             <CardPoem poem={item} navigation={navigation} view={'ONE'} />

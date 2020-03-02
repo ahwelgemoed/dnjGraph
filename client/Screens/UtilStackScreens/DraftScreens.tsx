@@ -11,7 +11,7 @@ const DraftScreens = observer(({ navigation }) => {
   const { loading, error, data } = useQuery(poemsStore.getAusersDraftPoems);
 
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       {data && data ? (
         <FlatList
           showsHorizontalScrollIndicator={false}

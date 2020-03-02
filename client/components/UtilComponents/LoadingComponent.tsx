@@ -4,7 +4,7 @@ import { Text, Button, ActivityIndicator } from 'react-native-paper';
 
 const LoadingComponent = () => {
   return (
-    <View style={{ flex: 1 }}>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <ActivityIndicator />
       <Text>Loading...</Text>
     </View>
