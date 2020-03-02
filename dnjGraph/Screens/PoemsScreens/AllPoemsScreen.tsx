@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { View, StyleSheet, FlatList, Dimensions } from 'react-native';
 import { Text, Surface } from 'react-native-paper';
 
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
 import { RootStoreContext } from '../../store/RootStore';
-
-// import PoemsLoading from '../components/LoadingComponents/PoemsLoading';
+import ErrorComponent from '../../Components/UtilComponents/ErrorComponent';
+import LoadingComponent from '../../Components/UtilComponents/LoadingComponent';
 import CardPoem from '../../Components/CardComponents/CardPoem';
-// import GetGraphUser from '../../components/User/GetGraphUser';
 import '@expo/match-media';
 const { width, height } = Dimensions.get('window');
 const PoemsScreen = observer(({ navigation }) => {
@@ -18,7 +17,7 @@ const PoemsScreen = observer(({ navigation }) => {
     page: 1
   });
 
-  React.useEffect(async () => {
+  useEffect(async () => {
     await authStore.getUserFromGraph();
   }, []);
   const { loading, error, data, refetch, fetchMore } = useQuery(
@@ -27,12 +26,11 @@ const PoemsScreen = observer(({ navigation }) => {
       variables: { limit: 10, page: pagination.page }
     }
   );
-  React.useEffect(() => {
+  useEffect(() => {
     refetch();
   }, [error]);
-  if (loading) return <Text>Hello</Text>;
-  if (error) return <Text onPress={() => refetch()}>Error</Text>;
   const _handleLoadMore = () => {
+    console.log('🔥 : _handleLoadMore was Called');
     if (data.poems) {
       fetchMore({
         variables: {
@@ -48,9 +46,10 @@ const PoemsScreen = observer(({ navigation }) => {
       setpagination({ limit: pagination.limit + 10 });
     }
   };
+  if (loading) return <LoadingComponent />;
+  if (error) return <ErrorComponent handleError={refetch} />;
   return (
     <View style={[styles.mainLayout]}>
-      {/* <GetGraphUser authStore={authStore} /> */}
       {data && data.poems ? (
         <FlatList
           onRefresh={() => refetch()}
@@ -66,7 +65,7 @@ const PoemsScreen = observer(({ navigation }) => {
           keyExtractor={item => item.id}
         />
       ) : (
-        <Text>Hello</Text>
+        <LoadingComponent />
       )}
     </View>
   );
