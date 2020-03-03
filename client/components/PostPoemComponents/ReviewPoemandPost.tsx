@@ -15,6 +15,7 @@ import {
 } from 'react-native-paper';
 import CardPoem from '../CardComponents/CardPoem.js';
 import DraftModeSwitch from './DraftModeSwitch';
+import IntagramSwitch from './IntagramSwitch';
 
 const ReviewPoemandPost = observer(({ navigation }) => {
   const { poemsStore, authStore } = useContext(RootStoreContext);
@@ -25,9 +26,8 @@ const ReviewPoemandPost = observer(({ navigation }) => {
           funcCalled: 'poemsStore',
           messageToUser: 'Poem Posted Succsess'
         });
-        await poemsStore.clearPresistPoem();
-
         await navigation.navigate('AllPoems');
+        await poemsStore.clearPresistPoem();
       }
     }
   });
@@ -39,6 +39,7 @@ const ReviewPoemandPost = observer(({ navigation }) => {
       title: poemsStore.poemTitle,
       bodyText: poemsStore.poemBody,
       photoURL: poemsStore.poemImage,
+      handle: poemsStore.postIntaHandle ? authStore.loacalUser.Instagram : '',
       isDraft: poemsStore.draftMode
     };
     await addPoem({
@@ -47,7 +48,6 @@ const ReviewPoemandPost = observer(({ navigation }) => {
       }
     });
   };
-
   return (
     <View>
       <CardPoem
@@ -60,23 +60,48 @@ const ReviewPoemandPost = observer(({ navigation }) => {
         }}
       />
       <View style={styles.preference}>
-        {poemsStore.draftMode ? (
+        {poemsStore.postIntaHandle ? (
           <>
-            <Paragraph style={[styles.paragraph, { width: '70%' }]}>
-              Draft Mode On{' '}
+            <View style={[{ width: '70%' }]}>
+              <Paragraph style={[styles.paragraph]}>
+                Post with Instagram{' '}
+              </Paragraph>
               <Caption style={{ width: '70%' }}>
-                and Wont be posted for All to See
+                it will display as "{authStore.loacalUser.Instagram}"
               </Caption>
-            </Paragraph>
+            </View>
           </>
         ) : (
-          <Paragraph style={[styles.paragraph, { width: '70%' }]}>
-            Draft Mode Off{' '}
+          <View style={[{ width: '70%' }]}>
+            <Paragraph style={[styles.paragraph]}>
+              Post without Instagram{' '}
+            </Paragraph>
+            <Caption style={{ width: '70%' }}>
+              it will display as "ANON"
+            </Caption>
+          </View>
+        )}
+        <IntagramSwitch />
+      </View>
+      <View style={styles.preference}>
+        {poemsStore.draftMode ? (
+          <>
+            <View style={[{ width: '70%' }]}>
+              <Paragraph style={[styles.paragraph]}>Draft Mode On </Paragraph>
+              <Caption style={{ width: '70%' }}>
+                No one except you will see it
+              </Caption>
+            </View>
+          </>
+        ) : (
+          <View style={[{ width: '70%' }]}>
+            <Paragraph style={[styles.paragraph]}>Draft Mode Off </Paragraph>
             <Caption style={{ width: '70%' }}>All will see it</Caption>
-          </Paragraph>
+          </View>
         )}
         <DraftModeSwitch />
       </View>
+
       <View style={styles.bottomRow}>
         <View style={styles.section}>
           <Button mode="outlined" icon="playlist-edit">

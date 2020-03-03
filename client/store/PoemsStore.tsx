@@ -13,6 +13,7 @@ export class PoemsStore {
   @persist @observable poemTitle;
   @persist @observable poemBody;
   @persist @observable poemImage;
+  @persist @observable postIntaHandle;
   @observable draftMode = true;
   @observable readyPoem = {};
 
@@ -90,6 +91,10 @@ export class PoemsStore {
   @action setDraftMode(draftMode) {
     this.draftMode = draftMode;
   }
+  @action setPostIntaHandle(draftMode) {
+    this.postIntaHandle = draftMode;
+  }
+
   @action readyToPostPoem() {
     const poem = {
       poemTitle: this.poemTitle,
@@ -110,7 +115,6 @@ export class PoemsStore {
   }
   @action fromDraftToEdit({ poem }) {
     console.log('👳🏽‍♂️', 'fromDraftToEdit');
-
     this.clearPresistPoem();
     this.poemID = poem.id;
     this.poemTitle = poem.title;

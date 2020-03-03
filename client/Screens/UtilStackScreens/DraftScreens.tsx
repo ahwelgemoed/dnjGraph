@@ -1,18 +1,26 @@
 import React from 'react';
-import { View, Text, FlatList } from 'react-native';
+import { View, FlatList, StyleSheet } from 'react-native';
+import { Headline, Subheading, Card } from 'react-native-paper';
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
+import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
+import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
 import { RootStoreContext } from '../../store/RootStore';
 
 import CardPoem from '../../components/CardComponents/CardPoem.js';
 const DraftScreens = observer(({ navigation }) => {
   const { poemsStore } = React.useContext(RootStoreContext);
   // getAusersDraftPoems
-  const { loading, error, data } = useQuery(poemsStore.getAusersDraftPoems);
+  const { loading, error, data, refetch } = useQuery(
+    poemsStore.getAusersDraftPoems
+  );
+  if (loading) return <LoadingComponent />;
+  if (error) return <ErrorComponent handleError={refetch} />;
+  console.log(data.myDraftPoems.totalDocs);
 
   return (
     <View style={{ flex: 1 }}>
-      {data && data ? (
+      {data && data.myDraftPoems.totalDocs > 0 ? (
         <FlatList
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
@@ -23,10 +31,30 @@ const DraftScreens = observer(({ navigation }) => {
           keyExtractor={item => item.id}
         />
       ) : (
-        <Text>Loading</Text>
+        <View style={styles.mainLayout}>
+          <Card>
+            <Card.Content>
+              <Headline>You have No Poems in Draft</Headline>
+              <Subheading>
+                if you want to save a poem for later - you never post it -write
+                it as save it to your draft poems
+              </Subheading>
+            </Card.Content>
+          </Card>
+        </View>
       )}
     </View>
   );
+});
+
+const styles = StyleSheet.create({
+  mainLayout: {
+    flex: 1,
+    justifyContent: 'center',
+    // justifyContent: 'space-around',
+    paddingVertical: 16,
+    paddingHorizontal: 16
+  }
 });
 
 export { DraftScreens };

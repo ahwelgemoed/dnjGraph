@@ -12,6 +12,7 @@ import {
   TouchableRipple,
   Switch
 } from 'react-native-paper';
+
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function DrawerContent(props) {
@@ -106,10 +107,8 @@ export default function DrawerContent(props) {
                 size={size}
               />
             )}
-            label="Bookmarks"
-            onPress={() => {
-              props.navigation.navigate('PostPoem');
-            }}
+            label="Bookmarks (Coming Soon)"
+            onPress={() => {}}
           />
         </Drawer.Section>
       </View>

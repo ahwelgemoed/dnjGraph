@@ -71,7 +71,7 @@ const CardPoem = observer(
           }}
           onPress={() => whereToNavigate()}
         >
-          {poem.photoURL && (
+          {poem.photoURL ? (
             <Card.Cover
               style={{ borderTopLeftRadius: 20, borderTopRightRadius: 20 }}
               source={{
@@ -82,7 +82,7 @@ const CardPoem = observer(
                 }`
               }}
             />
-          )}
+          ) : null}
           {poem.isDraft ? (
             <Chip
               style={{
