@@ -17,6 +17,8 @@ const resolvers = {
        *  Get All Poems and Update or Create User
        */
       const { allPoems } = getAllActivePoems({ dtoArguments });
+      console.log('🔥');
+
       if (userToken) {
         updateUserInternally({ userToken });
       }
@@ -73,8 +75,6 @@ const resolvers = {
       });
     },
     addPoem: async (parent, { poem }, { userToken }, info) => {
-      // console.log(title, bodyText, isDraft, photoURL, handle, user, date);
-      console.log(poem.id);
       const poemDTO = poem;
       if (poem.id) {
         /**
@@ -86,25 +86,6 @@ const resolvers = {
         const newPoem = await createNewPoem({ poemDTO, userToken });
         return newPoem;
       }
-
-      //   const date = new Date().getTime();
-      //   const newPoem = new Poem({
-      //     title,
-      //     bodyText,
-      //     isDraft,
-      //     photoURL,
-      //     handle,
-      //     date,
-      //     user: userToken && userToken.uid
-      //   });
-
-      //   return newPoem.save().then(res => {
-      //     return {
-      //       message: 'Saved New Poem',
-      //       success: true,
-      //       poem: res
-      //     };
-      //   });
     }
   }
 };

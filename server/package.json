@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "apollo-server-express": "^2.10.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "firebase-admin": "^8.9.2",
     "graphql": "^14.6.0",
