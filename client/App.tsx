@@ -33,16 +33,18 @@ import {
   APoemScreen,
   DraftsScreen,
   AllPoemsScreen,
-  ProfileScreen,
+  UserScreen,
   DraftScreens,
   CreateAPoem
 } from './Screens';
+import { liveEndPoint } from './helpers';
 
 const AuthStack = createStackNavigator();
 const TabsStack = createMaterialBottomTabNavigator();
 const HomeStack = createStackNavigator();
 const PostPoemStack = createStackNavigator();
 const ProfileStack = createStackNavigator();
+const UtilStack = createStackNavigator();
 const DrawerStack = createDrawerNavigator();
 
 const PoemsScreenStack = withTheme(props => (
@@ -94,6 +96,29 @@ const PostPoemScreenStack = withTheme(props => (
 ));
 
 const UtilScreensStack = withTheme(props => (
+  <UtilStack.Navigator
+    shifting={true}
+    sceneAnimationEnabled={false}
+    headerMode="screen"
+    screenOptions={{
+      header: ({ scene, previous, navigation }) => (
+        <Header
+          scene={scene}
+          previous={previous}
+          navigation={navigation}
+          props={props}
+        />
+      ),
+      cardOverlayEnabled: true,
+      gestureEnabled: true,
+      ...MyTransition
+    }}
+  >
+    <UtilStack.Screen name="Drafts" component={DraftScreens} />
+    <UtilStack.Screen name="UserScreen" component={UserScreen} />
+  </UtilStack.Navigator>
+));
+const ProfileScreenStack = withTheme(props => (
   <ProfileStack.Navigator
     shifting={true}
     sceneAnimationEnabled={false}
@@ -112,8 +137,7 @@ const UtilScreensStack = withTheme(props => (
       ...MyTransition
     }}
   >
-    <ProfileStack.Screen name="Drafts" component={DraftScreens} />
-    {/* <ProfileStack.Screen name="ProfileScreen" component={ProfileScreen} /> */}
+    <ProfileStack.Screen name="UserScreen" component={UserScreen} />
   </ProfileStack.Navigator>
 ));
 
@@ -180,8 +204,9 @@ const App = observer(() => {
   const [isReady, setIsReady] = React.useState(false);
   const [initialState, setInitialState] = React.useState();
   const [token, setToken] = React.useState();
-  const restLink = new RestLink({ uri: 'http://localhost:4000/v1/' });
-  const graphLink = new HttpLink({ uri: 'http://localhost:4000/graphql' });
+  // liveEndPoint
+  const restLink = new RestLink({ uri: `${liveEndPoint}/v1/` });
+  const graphLink = new HttpLink({ uri: `${liveEndPoint}/graphql/` });
   const authLink = setContext((_, { headers }) => {
     return {
       headers: {
@@ -209,6 +234,7 @@ const App = observer(() => {
           PTSansCaptionRegular: require('./assets/fonts/PTSansCaption-Regular.ttf'),
           'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf')
         });
+        authStore.isUserAuthed();
         const token = await AsyncStorage.getItem('userToken');
         setToken(token);
       } catch (e) {
@@ -260,6 +286,10 @@ const App = observer(() => {
               <DrawerStack.Screen
                 name="DraftStack"
                 component={UtilScreensStack}
+              />
+              <DrawerStack.Screen
+                name="ProfileStack"
+                component={ProfileScreenStack}
               />
             </DrawerStack.Navigator>
           ) : (

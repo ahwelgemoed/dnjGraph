@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Button, AsyncStorage } from 'react-native';
 import { DraftScreens } from './UtilStackScreens/DraftScreens';
 import SignInScreen from './AuthScreens/SignInScreen';
+import UserScreen from './ProfileScreens/UserScreen';
 
 /**
  * Display Screens
@@ -14,7 +15,14 @@ import APoemScreen from './PoemsScreens/APoemScreen';
  */
 import CreateAPoem from './PostPoemScreens/CreateAPoem';
 
-export { SignInScreen, AllPoemsScreen, APoemScreen, CreateAPoem, DraftScreens };
+export {
+  SignInScreen,
+  AllPoemsScreen,
+  APoemScreen,
+  CreateAPoem,
+  DraftScreens,
+  UserScreen
+};
 
 export const SignIn = ({ navigation }) => {
   return (

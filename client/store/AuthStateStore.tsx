@@ -4,6 +4,7 @@ import { RootStore } from './RootStore';
 import firebase from './firebase-service';
 import { AsyncStorage } from 'react-native';
 import gql from 'graphql-tag';
+import { persist } from 'mobx-persist';
 
 export class AuthStateStore {
   constructor(rooteStore: RootStore) {
@@ -14,7 +15,9 @@ export class AuthStateStore {
   @observable isLoading = true;
   @observable isAdmin = false;
   @observable showAuthSnack = { funcCalled: '', messageToUser: '' };
+  @persist('object') @observable loacalUser;
   @observable userFirebaseUID;
+  @observable firebaseUser;
   @observable userGraph = {};
   firebase = firebase;
 
@@ -37,6 +40,9 @@ export class AuthStateStore {
           .then(() => {
             AsyncStorage.setItem('userToken', user.ma);
           });
+        this.firebaseUser = {
+          user
+        };
         this.showAuthSnack = {
           funcCalled: 'isUserAuthed',
           messageToUser: 'isUserAuthed is Called'
@@ -80,6 +86,21 @@ export class AuthStateStore {
     this.showAuthSnack = {
       funcCalled,
       messageToUser
+    };
+  }
+  @action async getCurrentUserData({ funcCalled, messageToUser }) {
+    this.showAuthSnack = {
+      funcCalled,
+      messageToUser
+    };
+  }
+  @action async setLocalUser({ state }) {
+    this.loacalUser = {
+      ...state
+    };
+    this.showAuthSnack = {
+      funcCalled: 'setLocalUser',
+      messageToUser: 'Profile Updated!'
     };
   }
 }

@@ -94,7 +94,9 @@ export default function DrawerContent(props) {
               <MaterialCommunityIcons name="tune" color={color} size={size} />
             )}
             label="Profile"
-            onPress={() => {}}
+            onPress={() => {
+              props.navigation.navigate({ name: 'ProfileStack' });
+            }}
           />
           <DrawerItem
             icon={({ color, size }) => (

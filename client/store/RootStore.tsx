@@ -13,6 +13,7 @@ export class RootStore {
   poemsStore = new PoemsStore(this);
   constructor() {
     hydrate('poemsStore', this.poemsStore);
+    hydrate('authStore', this.authStore);
   }
 }
 

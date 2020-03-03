@@ -12,6 +12,7 @@ import {
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { IconButton, List } from 'react-native-paper';
+import { liveEndPoint } from '../../helpers';
 
 const ImageSelector = observer(({ onClose }) => {
   const { poemsStore } = React.useContext(RootStoreContext);
@@ -22,7 +23,7 @@ const ImageSelector = observer(({ onClose }) => {
     if (poemsStore.poemImage) {
       setSelectedImage(poemsStore.poemImage);
     }
-    fetch('http://localhost:4000/v1/getAllImages').then(res => {
+    fetch(`${liveEndPoint}/v1/getAllImages`).then(res => {
       res.json().then(data => setimages(data));
     });
   }, []);
@@ -54,7 +55,7 @@ const ImageSelector = observer(({ onClose }) => {
                       margin: 0
                     }}
                     source={{
-                      uri: `http://localhost:4000/public/img/${image}`
+                      uri: `${liveEndPoint}/public/img/${image}`
                     }}
                   >
                     <IconButton

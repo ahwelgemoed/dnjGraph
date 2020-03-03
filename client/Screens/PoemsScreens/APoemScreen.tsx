@@ -10,6 +10,7 @@ import Markdown from 'react-native-markdown-display';
 const { width, height } = Dimensions.get('window');
 import LoadingComponent from '../../Components/LoadingComponent';
 import { ScrollView } from 'react-native-gesture-handler';
+import { liveEndPoint } from '../../helpers';
 
 const APoemScreen = observer(({ route, navigation }) => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -46,7 +47,7 @@ const APoemScreen = observer(({ route, navigation }) => {
           height: height * 0.6
         }}
         source={{
-          uri: `http://localhost:4000/public/img/${
+          uri: `${liveEndPoint}/public/img/${
             data.poem.photoURL
               ? data.poem.photoURL
               : 'imgdisnetjy-6fb1dfc0-51b5-11ea-adbe-01c007ff9125.jpg'

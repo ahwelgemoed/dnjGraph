@@ -1,14 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import {
-  Divider,
-  Text,
-  RadioButton,
-  List,
-  Switch,
-  Button,
-  Surface
-} from 'react-native-paper';
+import { Divider, List, Switch, Surface } from 'react-native-paper';
 
 import DraftModeSwitch from './DraftModeSwitch';
 const PoemOptions = () => {

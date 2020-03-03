@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19003,
-  "packagerPid": 48011,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "packagerPid": 49009,
+  "expoServerNgrokUrl": "https://fy-f7s.anonymous.client.exp.direct",
+  "packagerNgrokUrl": "https://packager.fy-f7s.anonymous.client.exp.direct",
+  "ngrokPid": 49022,
   "webpackServerPort": 19006
 }

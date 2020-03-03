@@ -6,6 +6,7 @@ import {
   Button,
   Card,
   Title,
+  Caption,
   Paragraph
 } from 'react-native-paper';
 import moment from 'moment';
@@ -13,6 +14,7 @@ import Markdown from 'react-native-markdown-display';
 import { useMediaQuery } from 'react-responsive';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
+import { liveEndPoint } from '../../helpers';
 const { width, height } = Dimensions.get('window');
 
 const CardPoem = observer(
@@ -43,7 +45,6 @@ const CardPoem = observer(
         return navigation && navigation.navigate('PostPoem');
       }
     };
-
     return (
       <View
         style={{
@@ -70,16 +71,18 @@ const CardPoem = observer(
           }}
           onPress={() => whereToNavigate()}
         >
-          <Card.Cover
-            style={{ borderTopLeftRadius: 20, borderTopRightRadius: 20 }}
-            source={{
-              uri: `http://localhost:4000/public/img/${
-                poem.photoURL
-                  ? poem.photoURL
-                  : 'imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg'
-              }`
-            }}
-          />
+          {poem.photoURL && (
+            <Card.Cover
+              style={{ borderTopLeftRadius: 20, borderTopRightRadius: 20 }}
+              source={{
+                uri: `${liveEndPoint}/public/img/${
+                  poem.photoURL
+                    ? poem.photoURL
+                    : 'imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg'
+                }`
+              }}
+            />
+          )}
           {poem.isDraft ? (
             <Chip
               style={{
@@ -106,8 +109,7 @@ const CardPoem = observer(
             <Markdown>{poem.bodyText}</Markdown>
           </Card.Content>
           <Card.Actions>
-            <Button> {moment(poem.date).format(`MMM'YY`)}</Button>
-            <Button> {poem.date}</Button>
+            <Caption>{moment(poem.date).format(`MMM'YY`)}</Caption>
           </Card.Actions>
         </Card>
       </View>

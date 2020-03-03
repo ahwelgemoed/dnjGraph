@@ -10,6 +10,7 @@ import PoemOptions from '../../components/PostPoemComponents/PoemOptions';
 import SelectImageModal from '../../components/PostPoemComponents/SelectImageModal';
 import PoemReViewModal from '../../components/PostPoemComponents/PoemReViewModal';
 import { ScrollView } from 'react-native-gesture-handler';
+import { liveEndPoint } from '../../helpers';
 
 const { width, height } = Dimensions.get('window');
 const CreateAPoem = observer(({ route, navigation }) => {
@@ -67,7 +68,7 @@ const CreateAPoem = observer(({ route, navigation }) => {
                 paddingTop: 10
               }}
               source={{
-                uri: `http://localhost:4000/public/img/${poemsStore.poemImage}`
+                uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`
               }}
             />
           ) : null}
