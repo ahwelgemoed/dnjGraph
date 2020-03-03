@@ -210,19 +210,20 @@ const App = observer(() => {
   const authLink = setContext((_, { headers }) => {
     return {
       headers: {
-        authorization: `Bearer ${token}`
+        authorization: `Bearer ${authStore.freshUserToken}`
       }
     };
   });
-  // React.useEffect(() => {
-  //   // console.log('isAuthed', authStore.isAuthed);
-  //   // console.log('isAnonymous', authStore.isAnonymous);
-  //   // authStore.isUserAuthed();
-  // }, [authStore.isAuthed, authStore.isAnonymous]);
+  React.useEffect(() => {
+    if (authStore.freshUserToken) {
+      setIsLoading(false);
+    }
+  }, [authStore.freshUserToken]);
   React.useEffect(() => {
     async function loadResourcesAndDataAsync() {
       try {
         // SplashScreen.preventAutoHide();
+        await authStore.isUserAuthed();
         await Font.loadAsync({
           ...Ionicons.font,
           'raleway-boldI': require('./assets/fonts/Raleway-BoldItalic.ttf'),
@@ -234,13 +235,11 @@ const App = observer(() => {
           PTSansCaptionRegular: require('./assets/fonts/PTSansCaption-Regular.ttf'),
           'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf')
         });
-        await authStore.isUserAuthed();
         const token = await AsyncStorage.getItem('userToken');
         setToken(token);
       } catch (e) {
         console.warn(e);
       } finally {
-        setIsLoading(false);
       }
     }
 

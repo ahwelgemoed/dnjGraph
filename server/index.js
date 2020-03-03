@@ -16,7 +16,6 @@ mongoose.connect(
 );
 const db = mongoose.connection;
 const app = express();
-console.log(process.env.SECRET_KEY);
 
 app.use(`/public`, express.static(path.join(__dirname, './public')));
 app.use('/v1', restEndpoints);

@@ -10,6 +10,7 @@ export class AuthStateStore {
   constructor(rooteStore: RootStore) {
     this.rooteStore = rooteStore;
   }
+  @observable freshUserToken;
   @observable isAuthed = false;
   @observable isAnonymous = false;
   @observable isLoading = true;
@@ -38,6 +39,7 @@ export class AuthStateStore {
           .auth()
           .currentUser.getIdToken()
           .then(() => {
+            this.freshUserToken = user.ma;
             AsyncStorage.setItem('userToken', user.ma);
           });
         this.firebaseUser = {

@@ -19,9 +19,9 @@ const resolvers = {
       const { allPoems } = getAllActivePoems({ dtoArguments });
       console.log('🔥');
 
-      if (userToken) {
-        updateUserInternally({ userToken });
-      }
+      // if (userToken) {
+      //   updateUserInternally({ userToken });
+      // }
       return allPoems;
     },
     poem: (obj, arg, ctx, info) => {
