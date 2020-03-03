@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, Button, AsyncStorage } from 'react-native';
 import { DraftScreens } from './UtilStackScreens/DraftScreens';
 import SignInScreen from './AuthScreens/SignInScreen';
+import SignUpScreen from './AuthScreens/SignUpScreen';
 import UserScreen from './ProfileScreens/UserScreen';
 
 /**
@@ -21,6 +22,7 @@ export {
   APoemScreen,
   CreateAPoem,
   DraftScreens,
+  SignUpScreen,
   UserScreen
 };
 

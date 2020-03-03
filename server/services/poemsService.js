@@ -22,10 +22,14 @@ const getAllActivePoems = ({ dtoArguments }) => {
 };
 const getAllUserDrafts = async ({ dtoArguments, user }) => {
   if (user.uid) {
-    const allUserPoems = await Poem.find({
-      user: user.uid,
-      isDraft: true
-    });
+    const allUserPoems = await Poem.find(
+      {
+        user: user.uid,
+        isDraft: true
+      },
+      null,
+      { sort: { date: -1 } }
+    );
 
     return { poems: allUserPoems, totalDocs: allUserPoems.length };
   }
@@ -33,9 +37,13 @@ const getAllUserDrafts = async ({ dtoArguments, user }) => {
 };
 const getAllUserPoems = async ({ dtoArguments, user }) => {
   if (user.uid) {
-    const allUserPoems = await Poem.find({
-      user: user.uid
-    });
+    const allUserPoems = await Poem.find(
+      {
+        user: user.uid
+      },
+      null,
+      { sort: { date: -1 } }
+    );
 
     return { poems: allUserPoems, totalDocs: allUserPoems.length };
   }

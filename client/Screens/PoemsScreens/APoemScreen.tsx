@@ -33,74 +33,82 @@ const APoemScreen = observer(({ route, navigation }) => {
     <View
       style={{
         flex: 1,
-        width: isDesktopOrLaptop ? 500 : width,
-        borderRadius: 30,
-        justifyContent: 'center'
-
-        // alignItems: 'center'
+        alignItems: 'center'
       }}
     >
-      <ImageBackground
+      <View
         style={{
           flex: 1,
-          paddingTop: 10,
-          height: height * 0.6
-        }}
-        source={{
-          uri: `${liveEndPoint}/public/img/${
-            data.poem.photoURL
-              ? data.poem.photoURL
-              : 'imgdisnetjy-6fb1dfc0-51b5-11ea-adbe-01c007ff9125.jpg'
-          }`
-        }}
-      />
+          // alignItems: 'center',
+          justifyContent: 'center',
+          width: isDesktopOrLaptop ? 800 : width,
+          borderRadius: 30
 
-      {/* <BlurView tint="light" intensity={50} style={styles.notBlurred}> */}
-      <Card
-        style={{
-          backgroundColor: 'rgba(255,255,255,0.9)',
-          position: 'absolute',
-          top: height * 0.2,
-          height: height * 0.6,
-          width: isDesktopOrLaptop ? 480 : width * 0.9,
-          alignContent: 'center',
-          alignSelf: 'center',
-          marginTop: 10,
-          marginBottom: 10,
-          borderRadius: 20,
-          shadowColor: '#000',
-          shadowOffset: {
-            width: 0,
-            height: 3
-          },
-          shadowOpacity: 0.29,
-          shadowRadius: 4.65,
-          elevation: 7
+          // alignItems: 'center'
         }}
       >
-        <ScrollView
-          style={{ flex: 1 }}
-          showsHorizontalScrollIndicator={false}
-          showsVerticalScrollIndicator={false}
+        <ImageBackground
+          style={{
+            flex: 1,
+            paddingTop: 10,
+            height: height * 0.6
+          }}
+          source={{
+            uri: `${liveEndPoint}/public/img/${
+              data.poem.photoURL
+                ? data.poem.photoURL
+                : 'imgdisnetjy-6fb1dfc0-51b5-11ea-adbe-01c007ff9125.jpg'
+            }`
+          }}
+        />
+
+        {/* <BlurView tint="light" intensity={50} style={styles.notBlurred}> */}
+        <Card
+          style={{
+            backgroundColor: 'rgba(255,255,255,0.9)',
+            position: 'absolute',
+            top: height * 0.2,
+            height: height * 0.6,
+            width: isDesktopOrLaptop ? 480 : width * 0.9,
+            alignContent: 'center',
+            alignSelf: 'center',
+            marginTop: 10,
+            marginBottom: 10,
+            borderRadius: 20,
+            shadowColor: '#000',
+            shadowOffset: {
+              width: 0,
+              height: 3
+            },
+            shadowOpacity: 0.29,
+            shadowRadius: 4.65,
+            elevation: 7
+          }}
         >
-          <Card.Title
-            title={data.poem.title}
-            subtitle={`by: ${data.poem.handle}`}
-            titleStyle={{
-              fontFamily: 'raleway-boldI',
-              fontSize: 20,
-              opacity: 0.8
-            }}
-          />
-          <Card.Content>
-            <Markdown>{data.poem.bodyText}</Markdown>
-          </Card.Content>
-          <Card.Actions>
-            <Paragraph>Card content</Paragraph>
-          </Card.Actions>
-        </ScrollView>
-      </Card>
-      {/* </BlurView> */}
+          <ScrollView
+            style={{ flex: 1 }}
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
+          >
+            <Card.Title
+              title={data.poem.title}
+              subtitle={`by: ${data.poem.handle}`}
+              titleStyle={{
+                fontFamily: 'raleway-boldI',
+                fontSize: 20,
+                opacity: 0.8
+              }}
+            />
+            <Card.Content>
+              <Markdown>{data.poem.bodyText}</Markdown>
+            </Card.Content>
+            <Card.Actions>
+              <Paragraph>Card content</Paragraph>
+            </Card.Actions>
+          </ScrollView>
+        </Card>
+        {/* </BlurView> */}
+      </View>
     </View>
   );
 });

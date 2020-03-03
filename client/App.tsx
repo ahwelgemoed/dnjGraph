@@ -28,7 +28,7 @@ import AppSnackBar from './components/UtilComponents/AppSnackBar';
 import {
   SignIn,
   SignInScreen,
-  CreateAccount,
+  SignUpScreen,
   SplashScreen,
   APoemScreen,
   DraftsScreen,
@@ -214,11 +214,11 @@ const App = observer(() => {
       }
     };
   });
-  React.useEffect(() => {
-    // console.log('isAuthed', authStore.isAuthed);
-    // console.log('isAnonymous', authStore.isAnonymous);
-    authStore.isUserAuthed();
-  }, [authStore.isAuthed, authStore.isAnonymous]);
+  // React.useEffect(() => {
+  //   // console.log('isAuthed', authStore.isAuthed);
+  //   // console.log('isAnonymous', authStore.isAnonymous);
+  //   // authStore.isUserAuthed();
+  // }, [authStore.isAuthed, authStore.isAnonymous]);
   React.useEffect(() => {
     async function loadResourcesAndDataAsync() {
       try {
@@ -234,7 +234,7 @@ const App = observer(() => {
           PTSansCaptionRegular: require('./assets/fonts/PTSansCaption-Regular.ttf'),
           'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf')
         });
-        authStore.isUserAuthed();
+        await authStore.isUserAuthed();
         const token = await AsyncStorage.getItem('userToken');
         setToken(token);
       } catch (e) {
@@ -293,16 +293,13 @@ const App = observer(() => {
               />
             </DrawerStack.Navigator>
           ) : (
-            <AuthStack.Navigator>
+            <AuthStack.Navigator headerMode="none">
               <AuthStack.Screen
                 name="SignIn"
                 component={SignInScreen}
                 options={{ title: 'Sign In' }}
               />
-              <AuthStack.Screen
-                name="CreateAccount"
-                component={CreateAccount}
-              />
+              <AuthStack.Screen name="CreateAccount" component={SignUpScreen} />
             </AuthStack.Navigator>
           )}
           <AppSnackBar />

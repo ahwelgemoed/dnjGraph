@@ -3,7 +3,7 @@ import { RootStoreContext } from '../../store/RootStore';
 import { Formik } from 'formik';
 import { observer } from 'mobx-react-lite';
 import { View, StyleSheet, ImageBackground } from 'react-native';
-import { Button, Surface, Text, TextInput, Avatar } from 'react-native-paper';
+import { Button, Surface, Avatar, TextInput } from 'react-native-paper';
 
 const SignInScreen = observer(({ navigation }) => {
   const { authStore } = React.useContext(RootStoreContext);
@@ -23,12 +23,21 @@ const SignInScreen = observer(({ navigation }) => {
   const SingInForm = () => {
     return (
       <Formik
-        initialValues={{ email: 'test@test.com', password: '123123' }}
+        initialValues={{
+          email: 'test@test.com',
+          password: '123123',
+          name: '123123'
+        }}
         onSubmit={values => submitToFirebase(values)}
       >
         {({ handleChange, handleBlur, handleSubmit, values }) => (
           <View>
             {/* <Surface> */}
+            <TextInput
+              label="Your Name"
+              value={values.name}
+              onChangeText={handleChange('name')}
+            />
             <TextInput
               label="Email"
               value={values.email}
@@ -57,7 +66,7 @@ const SignInScreen = observer(({ navigation }) => {
       <ImageBackground
         source={{
           uri:
-            'https://66.media.tumblr.com/51c32156f631013589671a46eea09d0e/tumblr_pmjb1vSPHE1sfie3io1_1280.jpg'
+            'https://66.media.tumblr.com/da8261c0b01bb8c0aaa14f315a4d118a/tumblr_pmjb1o7dnI1sfie3io1_1280.jpg'
         }}
         style={{ width: '100%', height: '100%' }}
       >
@@ -69,6 +78,7 @@ const SignInScreen = observer(({ navigation }) => {
             }}
             size={150}
           />
+
           <SingInForm />
           <Surface
             style={{ marginTop: 20, alignSelf: 'center', width: '100%' }}

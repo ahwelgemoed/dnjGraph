@@ -19,7 +19,7 @@ const DraftScreens = observer(({ navigation }) => {
   console.log(data.myDraftPoems.totalDocs);
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={[styles.mainLayout]}>
       {data && data.myDraftPoems.totalDocs > 0 ? (
         <FlatList
           showsHorizontalScrollIndicator={false}
@@ -50,10 +50,8 @@ const DraftScreens = observer(({ navigation }) => {
 const styles = StyleSheet.create({
   mainLayout: {
     flex: 1,
-    justifyContent: 'center',
-    // justifyContent: 'space-around',
-    paddingVertical: 16,
-    paddingHorizontal: 16
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 });
 
