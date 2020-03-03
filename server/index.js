@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const path = require('path');
+const cors = require('cors');
 const { ApolloServer, gql } = require('apollo-server-express');
 const mongoose = require('mongoose');
 
@@ -16,7 +17,7 @@ mongoose.connect(
 );
 const db = mongoose.connection;
 const app = express();
-
+app.use(cors());
 app.use(`/public`, express.static(path.join(__dirname, './public')));
 app.use('/v1', restEndpoints);
 

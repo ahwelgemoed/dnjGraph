@@ -22,11 +22,13 @@ const ReviewPoemandPost = observer(({ navigation }) => {
   const [addPoem, { error, loading }] = useMutation(poemsStore.addAPoem, {
     async onCompleted({ addPoem }) {
       if (addPoem.success) {
+        console.log('👨🏽‍🏭', navigation);
+
         await authStore.setSnackBar({
           funcCalled: 'poemsStore',
           messageToUser: 'Poem Posted Succsess'
         });
-        await navigation.navigate('AllPoems');
+        await navigation.navigate('Home');
         await poemsStore.clearPresistPoem();
       }
     }

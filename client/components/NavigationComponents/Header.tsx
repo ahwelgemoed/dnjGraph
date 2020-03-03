@@ -39,11 +39,11 @@ const Header = ({ scene, previous, navigation, props }) => {
           AsyncStorage.clear();
         }}
       >
-        <MaterialCommunityIcons name="menu" size={40} />
+        <MaterialCommunityIcons name="user" size={40} />
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
-          navigation.navigate('ProfileLekker');
+          navigation.navigate('AllPoems');
         }}
       >
         <MaterialCommunityIcons name="menu" size={20} />

@@ -25,6 +25,7 @@ const AddInstagramhandle = observer(() => {
       </Button>
       <Portal>
         <Dialog
+          style={{ maxWidth: 800, alignSelf: 'center' }}
           visible={state}
           onDismiss={() => setstate(false)}
           dismissable={false}

@@ -15,10 +15,9 @@ const PoemOptions = observer(() => {
     <Surface style={{ marginTop: 20 }}>
       <List.Section>
         <List.Subheader>Options Before Posting</List.Subheader>
-
         {authStore.loacalUser && authStore.loacalUser.Instagram ? (
           <List.Item
-            title={`Post With as ${authStore.loacalUser.Instagram}}`}
+            title={`Post With as ${authStore.loacalUser.Instagram}`}
             left={() => <IntagramSwitch />}
           />
         ) : (

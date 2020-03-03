@@ -6,9 +6,10 @@ import {
   TouchableOpacity,
   ImageBackground,
   View,
-  SafeAreaView,
+  Platform,
   Dimensions
 } from 'react-native';
+import LoadingComponent from '../UtilComponents/LoadingComponent';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { IconButton, List } from 'react-native-paper';
@@ -30,14 +31,19 @@ const ImageSelector = observer(({ onClose }) => {
   useEffect(() => {
     if (selectedImage && selectedImage !== poemsStore.poemImage) {
       poemsStore.setPoemImage(selectedImage);
-      onClose();
+      if (onClose) {
+        onClose();
+      }
     }
   }, [selectedImage]);
   // console.log(poemsStore.poemImage);
-
   return (
-    <ScrollView>
-      <List.Section title="Select Header Image">
+    <ScrollView
+      showsHorizontalScrollIndicator={false}
+      showsVerticalScrollIndicator={false}
+      style={{ maxHeight: Platform.OS === 'web' ? 350 : '100%' }}
+    >
+      <List.Section>
         <View style={styles.grid}>
           {images ? (
             images.map(image => {
@@ -49,6 +55,10 @@ const ImageSelector = observer(({ onClose }) => {
                   }}
                 >
                   <ImageBackground
+                    imageStyle={{
+                      resizeMode: 'cover',
+                      alignSelf: 'flex-end'
+                    }}
                     style={{
                       width: Dimensions.get('window').width / 2,
                       height: 200,
@@ -78,7 +88,7 @@ const ImageSelector = observer(({ onClose }) => {
               );
             })
           ) : (
-            <Text>No Img</Text>
+            <LoadingComponent />
           )}
         </View>
       </List.Section>

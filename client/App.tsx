@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, AsyncStorage } from 'react-native';
+import { StyleSheet, Text, Platform, AsyncStorage } from 'react-native';
 import * as Font from 'expo-font';
 import { Linking } from 'expo';
 import { RootStoreContext } from './store/RootStore';
@@ -9,6 +9,7 @@ import { NavigationContainer, useLinking } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import LoadingComponent from './components/UtilComponents/LoadingComponent';
 import {
   configureFonts,
   DarkTheme,
@@ -45,6 +46,7 @@ const HomeStack = createStackNavigator();
 const PostPoemStack = createStackNavigator();
 const ProfileStack = createStackNavigator();
 const UtilStack = createStackNavigator();
+const WebStack = createStackNavigator();
 const DrawerStack = createDrawerNavigator();
 
 const PoemsScreenStack = withTheme(props => (
@@ -152,7 +154,7 @@ const Tabs = () => (
     />
     <TabsStack.Screen
       options={{
-        tabBarIcon: 'message-text-outline'
+        tabBarIcon: 'pencil-outline'
       }}
       name="PostPoem"
       component={PostPoemScreenStack}
@@ -262,7 +264,7 @@ const App = observer(() => {
   });
 
   if (isLoading || !isReady) {
-    return <SplashScreen />;
+    return <LoadingComponent />;
   }
   // console.log(token);
 
@@ -280,7 +282,20 @@ const App = observer(() => {
                 <DrawerComponent navigation={navigation} />
               )}
             >
-              <DrawerStack.Screen name="Home" component={Tabs} />
+              {Platform.OS === 'web' ? (
+                <>
+                  <DrawerStack.Screen
+                    name="Home"
+                    component={PoemsScreenStack}
+                  />
+                  <DrawerStack.Screen
+                    name="PostPoem"
+                    component={PostPoemScreenStack}
+                  />
+                </>
+              ) : (
+                <DrawerStack.Screen name="Home" component={Tabs} />
+              )}
               {/* <DrawerStack.Screen name="Drafts" component={DraftsScreen} /> */}
               <DrawerStack.Screen
                 name="DraftStack"

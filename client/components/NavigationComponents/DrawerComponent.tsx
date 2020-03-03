@@ -101,6 +101,15 @@ export default function DrawerContent(props) {
           />
           <DrawerItem
             icon={({ color, size }) => (
+              <MaterialCommunityIcons name="tune" color={color} size={size} />
+            )}
+            label="Post a Poem"
+            onPress={() => {
+              props.navigation.navigate({ name: 'PostPoem' });
+            }}
+          />
+          <DrawerItem
+            icon={({ color, size }) => (
               <MaterialCommunityIcons
                 name="bookmark-outline"
                 color={color}

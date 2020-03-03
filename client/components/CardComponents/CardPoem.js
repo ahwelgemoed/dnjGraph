@@ -16,6 +16,7 @@ import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { liveEndPoint } from '../../helpers';
 const { width, height } = Dimensions.get('window');
+import { useNavigation } from '@react-navigation/native';
 
 const CardPoem = observer(
   ({ poem, navigation = null, turnOffViewWitdht, view }) => {
@@ -41,8 +42,7 @@ const CardPoem = observer(
       if (view === 'POST') {
         console.log('POST');
         poemsStore.fromDraftToEdit({ poem });
-
-        return navigation && navigation.navigate('PostPoem');
+        return navigation && navigation.navigate({ name: 'PostPoem' });
       }
     };
     return (
