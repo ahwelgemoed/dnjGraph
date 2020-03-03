@@ -4,11 +4,11 @@ import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { Surface, Button } from 'react-native-paper';
 
-import TitleAndBody from '../../Components/PostPoemComponents/TitleAndBody';
-import ImageSelector from '../../Components/PostPoemComponents/ImageSelector';
-import PoemOptions from '../../Components/PostPoemComponents/PoemOptions';
-import SelectImageModal from '../../Components/PostPoemComponents/SelectImageModal';
-import PoemReViewModal from '../../Components/PostPoemComponents/PoemReViewModal';
+import TitleAndBody from '../../components/PostPoemComponents/TitleAndBody';
+import ImageSelector from '../../components/PostPoemComponents/ImageSelector';
+import PoemOptions from '../../components/PostPoemComponents/PoemOptions';
+import SelectImageModal from '../../components/PostPoemComponents/SelectImageModal';
+import PoemReViewModal from '../../components/PostPoemComponents/PoemReViewModal';
 import { ScrollView } from 'react-native-gesture-handler';
 
 const { width, height } = Dimensions.get('window');

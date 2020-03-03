@@ -22,9 +22,9 @@ import { setContext } from 'apollo-link-context';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { RestLink } from 'apollo-link-rest';
 import { ApolloProvider } from '@apollo/react-hooks';
-import { Header, MyTransition } from './Components/NavigationComponents/Header';
-import DrawerComponent from './Components/NavigationComponents/DrawerComponent';
-import AppSnackBar from './Components/UtilComponents/AppSnackBar';
+import { Header, MyTransition } from './components/NavigationComponents/Header';
+import DrawerComponent from './components/NavigationComponents/DrawerComponent';
+import AppSnackBar from './components/UtilComponents/AppSnackBar';
 import {
   SignIn,
   SignInScreen,

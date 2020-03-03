@@ -5,9 +5,9 @@ import { Text, Surface } from 'react-native-paper';
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
 import { RootStoreContext } from '../../store/RootStore';
-import ErrorComponent from '../../Components/UtilComponents/ErrorComponent';
-import LoadingComponent from '../../Components/UtilComponents/LoadingComponent';
-import CardPoem from '../../Components/CardComponents/CardPoem';
+import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
+import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
+import CardPoem from '../../components/CardComponents/CardPoem';
 import '@expo/match-media';
 const { width, height } = Dimensions.get('window');
 const PoemsScreen = observer(({ navigation }) => {

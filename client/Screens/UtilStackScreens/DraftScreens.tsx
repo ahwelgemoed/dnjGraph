@@ -4,7 +4,7 @@ import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
 import { RootStoreContext } from '../../store/RootStore';
 
-import CardPoem from '../../Components/CardComponents/CardPoem.js';
+import CardPoem from '../../components/CardComponents/CardPoem.js';
 const DraftScreens = observer(({ navigation }) => {
   const { poemsStore } = React.useContext(RootStoreContext);
   // getAusersDraftPoems
