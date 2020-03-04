@@ -34,13 +34,13 @@ const Header = ({ scene, previous, navigation, props }) => {
       <Appbar.Content
         title={previous ? title : <Avatar.Text size={24} label="DNJ" />}
       />
-      <TouchableOpacity
+      {/* <TouchableOpacity
         onPress={() => {
           AsyncStorage.clear();
         }}
       >
         <MaterialCommunityIcons name="user" size={40} />
-      </TouchableOpacity>
+      </TouchableOpacity> */}
       <TouchableOpacity
         onPress={() => {
           navigation.navigate('AllPoems');

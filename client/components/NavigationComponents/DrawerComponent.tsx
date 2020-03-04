@@ -1,6 +1,8 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View, StyleSheet, AsyncStorage } from 'react-native';
 import { DrawerItem, DrawerContentScrollView } from '@react-navigation/drawer';
+import { observer } from 'mobx-react-lite';
+import { RootStoreContext } from '../../store/RootStore';
 import {
   useTheme,
   Avatar,
@@ -16,6 +18,7 @@ import {
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function DrawerContent(props) {
+  const { authStore } = React.useContext(RootStoreContext);
   // console.log(props.navigation);
 
   return (
@@ -118,6 +121,24 @@ export default function DrawerContent(props) {
             )}
             label="Bookmarks (Coming Soon)"
             onPress={() => {}}
+          />
+          <DrawerItem
+            icon={({ color, size }) => (
+              <MaterialCommunityIcons
+                name="bookmark-outline"
+                color={color}
+                size={size}
+              />
+            )}
+            label="Sign Out (Coming Back Soon)"
+            onPress={() => {
+              authStore.firebase
+                .auth()
+                .signOut()
+                .then(function() {
+                  AsyncStorage.clear();
+                });
+            }}
           />
         </Drawer.Section>
       </View>
