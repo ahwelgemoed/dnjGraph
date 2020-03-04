@@ -262,6 +262,7 @@ const App = observer(() => {
     link: authLink.concat(graphLink),
     cache: new InMemoryCache()
   });
+  console.log(liveEndPoint);
 
   if (isLoading || !isReady) {
     return <LoadingComponent />;
