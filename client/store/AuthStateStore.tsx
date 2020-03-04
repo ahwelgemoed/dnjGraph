@@ -32,8 +32,8 @@ export class AuthStateStore {
     }
   `;
 
-  @action async isUserAuthed() {
-    await firebase.auth().onAuthStateChanged(user => {
+  @action isUserAuthed() {
+    firebase.auth().onAuthStateChanged(user => {
       if (user) {
         firebase
           .auth()
@@ -42,6 +42,9 @@ export class AuthStateStore {
             this.freshUserToken = user.ma;
             AsyncStorage.setItem('userToken', user.ma);
           });
+        this.isAuthed = true;
+        this.isAnonymous = false;
+        this.isLoading = false;
         this.firebaseUser = {
           user
         };
@@ -50,27 +53,31 @@ export class AuthStateStore {
           messageToUser: 'isUserAuthed is Called'
         };
       }
+      if (!user) {
+        this.isAuthed = false;
+        this.isLoading = false;
+        this.isAnonymous = false;
+      }
     });
-    const userToken = await AsyncStorage.getItem('userToken');
-    if (userToken) {
-      this.isAuthed = true;
-      this.isAnonymous = false;
-      this.isLoading = false;
-    }
-    if (!userToken) {
-      this.isAuthed = false;
-      this.isLoading = false;
-      this.isAnonymous = false;
-    }
+    // const userToken = await AsyncStorage.getItem('userToken');
+    // if (userToken) {
+    //   this.isAuthed = true;
+    //   this.isAnonymous = false;
+    //   this.isLoading = false;
+    // }
+    // if (!userToken) {
+    //   this.isAuthed = false;
+    //   this.isLoading = false;
+    //   this.isAnonymous = false;
+    // }
   }
   @action async logUserInAndSetTokenInStorage({ token }) {
     await AsyncStorage.setItem('userToken', token);
-    this.isUserAuthed();
+    await this.isUserAuthed();
   }
   @action async setUserAsAnonymous() {
-    // console.log('👨🏽‍🏭');
     await AsyncStorage.setItem('userToken', 'ANON');
-    this.isUserAuthed();
+    // this.isUserAuthed();
   }
   @action async getUserFromGraph() {
     await firebase.auth().onAuthStateChanged(user => {
@@ -104,6 +111,26 @@ export class AuthStateStore {
       funcCalled: 'setLocalUser',
       messageToUser: 'Profile Updated!'
     };
+  }
+  @action signUserOutAndClear() {
+    console.log('signUserOutAndClearsignUserOutAndClear', this.isAuthed);
+    firebase.auth().signOut();
+    AsyncStorage.clear();
+    setTimeout(() => {
+      this.isAuthed = false;
+    }, 3000);
+    // this.isAnonymous = false;
+    // this.isLoading = false;
+    // this.showAuthSnack = {
+    //   funcCalled: 'signUserOutAndClear',
+    //   messageToUser: 'Signed Out'
+    // };
+
+    // firebase.auth().signOut();
+
+    // AsyncStorage.clear();
+    // this.isLoading = true;
+    // this.isAdmin = false;
   }
 }
 

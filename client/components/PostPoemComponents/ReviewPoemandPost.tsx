@@ -28,7 +28,7 @@ const ReviewPoemandPost = observer(({ navigation }) => {
           funcCalled: 'poemsStore',
           messageToUser: 'Poem Posted Succsess'
         });
-        await navigation.navigate('Home');
+        await navigation.navigate('AllPoems');
         await poemsStore.clearPresistPoem();
       }
     }

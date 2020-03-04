@@ -19,7 +19,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function DrawerContent(props) {
   const { authStore } = React.useContext(RootStoreContext);
-  // console.log(props.navigation);
+  console.log('props.navigation', authStore.isAuthed);
 
   return (
     <DrawerContentScrollView
@@ -64,7 +64,7 @@ export default function DrawerContent(props) {
             )}
             label="Home"
             onPress={() => {
-              props.navigation.navigate('Home');
+              props.navigation.navigate('AllPoems');
             }}
           />
           <DrawerItem
@@ -77,7 +77,7 @@ export default function DrawerContent(props) {
             )}
             label="Your Drafts"
             onPress={() => {
-              props.navigation.navigate('DraftStack');
+              props.navigation.navigate('Drafts');
             }}
           />
           <DrawerItem
@@ -99,7 +99,7 @@ export default function DrawerContent(props) {
             )}
             label="Profile"
             onPress={() => {
-              props.navigation.navigate({ name: 'ProfileStack' });
+              props.navigation.navigate({ name: 'UserScreen' });
             }}
           />
           <DrawerItem
@@ -130,14 +130,9 @@ export default function DrawerContent(props) {
                 size={size}
               />
             )}
-            label="Sign Out (Coming Back Soon)"
+            label="Sign Out"
             onPress={() => {
-              authStore.firebase
-                .auth()
-                .signOut()
-                .then(function() {
-                  AsyncStorage.clear();
-                });
+              authStore.signUserOutAndClear();
             }}
           />
         </Drawer.Section>

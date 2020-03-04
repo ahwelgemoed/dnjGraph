@@ -8,8 +8,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
 import useLinking from './navigation/useLinking';
 import { createStackNavigator } from '@react-navigation/stack';
-import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+
 import LoadingComponent from './components/UtilComponents/LoadingComponent';
 import {
   configureFonts,
@@ -19,6 +18,7 @@ import {
   Provider as PaperProvider
 } from 'react-native-paper';
 import AuthStackNavigator from './navigation/AuthStackNavigator';
+import DrawerStackNavigator from './navigation/DrawerStackNavigator';
 import { ApolloClient } from 'apollo-client';
 import { HttpLink } from 'apollo-link-http';
 import { setContext } from 'apollo-link-context';
@@ -26,7 +26,6 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 import { RestLink } from 'apollo-link-rest';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { Header, MyTransition } from './components/NavigationComponents/Header';
-import DrawerComponent from './components/NavigationComponents/DrawerComponent';
 import AppSnackBar from './components/UtilComponents/AppSnackBar';
 import {
   SignIn,
@@ -43,85 +42,36 @@ import {
 import { liveEndPoint } from './helpers';
 
 const AuthStack = createStackNavigator();
-const TabsStack = createMaterialBottomTabNavigator();
-const HomeStack = createStackNavigator();
+
 const PostPoemStack = createStackNavigator();
 const ProfileStack = createStackNavigator();
 const UtilStack = createStackNavigator();
 const WebStack = createStackNavigator();
-const DrawerStack = createDrawerNavigator();
+// const DrawerStack = createDrawerNavigator();
 
-const PoemsScreenStack = withTheme(props => (
-  <HomeStack.Navigator
-    headerMode="screen"
-    screenOptions={{
-      header: ({ scene, previous, navigation }) => (
-        <Header
-          scene={scene}
-          previous={previous}
-          navigation={navigation}
-          props={props}
-        />
-      ),
-      cardOverlayEnabled: true,
-      gestureEnabled: true,
-      ...MyTransition
-    }}
-  >
-    <HomeStack.Screen name="AllPoems" component={AllPoemsScreen} />
-    <HomeStack.Screen
-      options={({ route }) => ({
-        title: route.params.title
-      })}
-      name="APoem"
-      component={APoemScreen}
-    />
-  </HomeStack.Navigator>
-));
-const PostPoemScreenStack = withTheme(props => (
-  <PostPoemStack.Navigator
-    headerMode="screen"
-    screenOptions={{
-      header: ({ scene, previous, navigation }) => (
-        <Header
-          scene={scene}
-          previous={previous}
-          navigation={navigation}
-          props={props}
-        />
-      ),
-      cardOverlayEnabled: true,
-      gestureEnabled: true,
-      ...MyTransition
-    }}
-  >
-    <PostPoemStack.Screen name="PostPoem" component={CreateAPoem} />
-  </PostPoemStack.Navigator>
-));
-
-const UtilScreensStack = withTheme(props => (
-  <UtilStack.Navigator
-    shifting={true}
-    sceneAnimationEnabled={false}
-    headerMode="screen"
-    screenOptions={{
-      header: ({ scene, previous, navigation }) => (
-        <Header
-          scene={scene}
-          previous={previous}
-          navigation={navigation}
-          props={props}
-        />
-      ),
-      cardOverlayEnabled: true,
-      gestureEnabled: true,
-      ...MyTransition
-    }}
-  >
-    <UtilStack.Screen name="Drafts" component={DraftScreens} />
-    <UtilStack.Screen name="UserScreen" component={UserScreen} />
-  </UtilStack.Navigator>
-));
+// const UtilScreensStack = withTheme(props => (
+//   <UtilStack.Navigator
+//     shifting={true}
+//     sceneAnimationEnabled={false}
+//     headerMode="screen"
+//     screenOptions={{
+//       header: ({ scene, previous, navigation }) => (
+//         <Header
+//           scene={scene}
+//           previous={previous}
+//           navigation={navigation}
+//           props={props}
+//         />
+//       ),
+//       cardOverlayEnabled: true,
+//       gestureEnabled: true,
+//       ...MyTransition
+//     }}
+//   >
+//     <UtilStack.Screen name="Drafts" component={DraftScreens} />
+//     <UtilStack.Screen name="UserScreen" component={UserScreen} />
+//   </UtilStack.Navigator>
+// ));
 const ProfileScreenStack = withTheme(props => (
   <ProfileStack.Navigator
     shifting={true}
@@ -144,26 +94,6 @@ const ProfileScreenStack = withTheme(props => (
     <ProfileStack.Screen name="UserScreen" component={UserScreen} />
   </ProfileStack.Navigator>
 ));
-
-const Tabs = () => (
-  <TabsStack.Navigator shifting={true} sceneAnimationEnabled={false}>
-    <TabsStack.Screen
-      options={{
-        tabBarIcon: 'message-text-outline'
-      }}
-      name="Home"
-      component={PoemsScreenStack}
-    />
-    <TabsStack.Screen
-      options={{
-        tabBarIcon: 'pencil-outline'
-      }}
-      name="PostPoem"
-      component={PostPoemScreenStack}
-    />
-    {/* <TabsStack.Screen name="ProfileScreen" component={ProfileScreen} /> */}
-  </TabsStack.Navigator>
-);
 
 const fontConfig = {
   default: {
@@ -196,8 +126,6 @@ const theme = {
   }
 };
 
-const prefix = Linking.makeUrl('/');
-
 const App = observer(() => {
   const { authStore } = React.useContext(RootStoreContext);
   const ref = React.useRef();
@@ -205,7 +133,7 @@ const App = observer(() => {
   const [isLoading, setIsLoading] = useState(true);
   const [initialNavigationState, setInitialNavigationState] = React.useState();
   const [isReady, setIsReady] = React.useState(false);
-  const [token, setToken] = React.useState();
+  const [isAuth, setisAuth] = useState(false);
   // liveEndPoint
   const restLink = new RestLink({ uri: `${liveEndPoint}/v1/` });
   const graphLink = new HttpLink({ uri: `${liveEndPoint}/graphql/` });
@@ -216,13 +144,6 @@ const App = observer(() => {
       }
     };
   });
-  React.useEffect(() => {
-    console.log(authStore.freshUserToken);
-
-    // if (authStore.freshUserToken) {
-
-    // }
-  }, [authStore.freshUserToken]);
   async function loadResourcesAndDataAsync() {
     try {
       // SplashScreen.preventAutoHide();
@@ -254,11 +175,19 @@ const App = observer(() => {
   React.useEffect(() => {
     loadResourcesAndDataAsync();
   }, []);
+  React.useEffect(() => {
+    console.log(authStore.isAuthed);
+    if (authStore.isAuthed) {
+      setisAuth(authStore.isAuthed);
+    } else {
+      setisAuth(authStore.isAuthed);
+    }
+  }, [authStore.isAuthed]);
   const client = new ApolloClient({
     link: authLink.concat(graphLink),
     cache: new InMemoryCache()
   });
-  console.log(initialNavigationState);
+  console.log('initialNavigationState', authStore.isAuthed);
 
   if (isLoading || !isReady) {
     return <LoadingComponent />;
@@ -273,39 +202,7 @@ const App = observer(() => {
           initialState={initialNavigationState}
           ref={ref}
         >
-          {authStore.isAuthed ? (
-            <DrawerStack.Navigator
-              drawerContent={({ navigation }) => (
-                <DrawerComponent navigation={navigation} />
-              )}
-            >
-              {Platform.OS === 'web' ? (
-                <>
-                  <DrawerStack.Screen
-                    name="Home"
-                    component={PoemsScreenStack}
-                  />
-                  <DrawerStack.Screen
-                    name="PostPoem"
-                    component={PostPoemScreenStack}
-                  />
-                </>
-              ) : (
-                <DrawerStack.Screen name="Home" component={Tabs} />
-              )}
-              {/* <DrawerStack.Screen name="Drafts" component={DraftsScreen} /> */}
-              <DrawerStack.Screen
-                name="DraftStack"
-                component={UtilScreensStack}
-              />
-              <DrawerStack.Screen
-                name="ProfileStack"
-                component={ProfileScreenStack}
-              />
-            </DrawerStack.Navigator>
-          ) : (
-            <AuthStackNavigator />
-          )}
+          {isAuth ? <DrawerStackNavigator /> : <AuthStackNavigator />}
           <AppSnackBar />
         </NavigationContainer>
       </ApolloProvider>

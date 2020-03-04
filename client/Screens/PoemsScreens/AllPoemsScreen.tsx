@@ -17,8 +17,8 @@ const PoemsScreen = observer(({ navigation }) => {
     page: 1
   });
 
-  useEffect(async () => {
-    await authStore.getUserFromGraph();
+  useEffect(() => {
+    authStore.getUserFromGraph();
   }, []);
   const { loading, error, data, refetch, fetchMore } = useQuery(
     poemsStore.getAllPoems,

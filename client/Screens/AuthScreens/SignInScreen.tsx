@@ -8,17 +8,16 @@ import { Button, Surface, Text, TextInput, Avatar } from 'react-native-paper';
 const SignInScreen = observer(({ navigation }) => {
   const { authStore } = React.useContext(RootStoreContext);
   const submitToFirebase = ({ email, password }) => {
-    try {
-      // firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL).then(() =>
-      authStore.firebase
-        .auth()
-        .signInWithEmailAndPassword(email, password)
-        .then(({ user }) => {
-          authStore.logUserInAndSetTokenInStorage({ user, token: user.ma });
+    // firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL).then(() =>
+    authStore.firebase
+      .auth()
+      .signInWithEmailAndPassword(email, password)
+      .then(({ user }) => {
+        return authStore.logUserInAndSetTokenInStorage({
+          user,
+          token: user.ma
         });
-    } catch (error) {
-      // console.log(error);
-    }
+      });
   };
   const SingInForm = () => {
     return (
