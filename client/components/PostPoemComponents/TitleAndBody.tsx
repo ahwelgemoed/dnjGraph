@@ -51,13 +51,15 @@ const TitleAndBody = observer(() => {
         value={title}
         onChangeText={text => setTitle(text)}
       />
-      <TextInput
-        value={body}
-        multiline
-        placeholder={'Poem Body'}
-        style={{ maxHeight: 250, minHeight: 250, marginTop: 5 }}
-        onChangeText={text => setBody(text)}
-      />
+      <View style={{ height: 250, marginTop: 5 }}>
+        <TextInput
+          value={body}
+          multiline
+          placeholder={'Poem Body'}
+          style={{ height: 250, fontFamily: 'raleway-regular' }}
+          onChangeText={text => setBody(text)}
+        />
+      </View>
     </View>
     // </KeyboardAwareScrollView>
   );

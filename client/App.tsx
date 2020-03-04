@@ -146,8 +146,6 @@ const App = observer(() => {
   });
   async function loadResourcesAndDataAsync() {
     try {
-      // SplashScreen.preventAutoHide();
-      // await authStore.isUserAuthed();
       await setInitialNavigationState(await getInitialState());
       await Font.loadAsync({
         ...Ionicons.font,
@@ -160,9 +158,6 @@ const App = observer(() => {
         PTSansCaptionRegular: require('./assets/fonts/PTSansCaption-Regular.ttf'),
         'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf')
       });
-      // const token = await AsyncStorage.getItem('userToken');
-
-      // setToken(token);
     } catch (e) {
       console.warn(e);
     } finally {

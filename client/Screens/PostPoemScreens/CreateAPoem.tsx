@@ -53,63 +53,74 @@ const CreateAPoem = observer(({ route, navigation }) => {
   return (
     <View style={{ flex: 1, alignSelf: 'center' }}>
       {Platform.OS === 'web' ? (
-        <View style={[styles.container]}>
-          {!step ? (
-            <>
-              <View style={styles.item}>
-                <ScrollView
-                  style={{
-                    flex: 1,
-                    paddingVertical: 16,
-                    paddingHorizontal: 16
-                  }}
-                >
-                  <TitleAndBody />
-                  <PoemOptions />
-                </ScrollView>
-              </View>
-              <View style={styles.item}>
-                <Surface style={{ marginTop: 20 }}>
-                  {poemsStore.poemImage ? (
-                    <ImageBackground
-                      style={{
-                        height: 200,
-                        paddingTop: 10
-                      }}
-                      source={{
-                        uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`
-                      }}
-                    />
-                  ) : null}
-                </Surface>
-                <Title style={{ paddingLeft: 10 }}>Select Cover Image</Title>
-                <Surface style={{ marginTop: 20 }}>
-                  <ImageSelector />
-                </Surface>
-              </View>
-              <View style={styles.fullwidth}>
-                <Surface
-                  style={{
-                    marginTop: 20,
-                    marginBottom: 30
-                  }}
-                >
-                  <Button
-                    mode="outlined"
-                    icon="camera"
-                    onPress={() => setstep(true)}
+        <ScrollView
+          style={{
+            width,
+            flex: 1,
+            paddingVertical: 16,
+            paddingHorizontal: 16
+          }}
+        >
+          <View style={[styles.container]}>
+            {!step ? (
+              <>
+                <View style={styles.item}>
+                  <ScrollView
+                    style={{
+                      flex: 1,
+                      paddingVertical: 16,
+                      paddingHorizontal: 16
+                    }}
                   >
-                    Review and Post
-                  </Button>
-                </Surface>
-              </View>
-            </>
-          ) : (
-            <View style={{ width: '100%', alignItems: 'center' }}>
-              <ReviewPoemandPost navigation={navigation} />
-            </View>
-          )}
-        </View>
+                    <TitleAndBody />
+                    <PoemOptions />
+                  </ScrollView>
+                </View>
+                <View style={styles.item}>
+                  <Surface style={{ marginTop: 20 }}>
+                    {poemsStore.poemImage ? (
+                      <ImageBackground
+                        style={{
+                          height: 200,
+                          paddingTop: 10
+                        }}
+                        source={{
+                          uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`
+                        }}
+                      />
+                    ) : null}
+                  </Surface>
+                  <Title style={{ paddingLeft: 10 }}>Select Cover Image</Title>
+                  <Surface style={{ marginTop: 20 }}>
+                    <ImageSelector />
+                  </Surface>
+                </View>
+                <View style={styles.fullwidth}>
+                  <Surface
+                    style={{
+                      marginTop: 20,
+                      marginBottom: 30
+                    }}
+                  >
+                    <Button
+                      mode="outlined"
+                      icon="camera"
+                      onPress={() => setstep(true)}
+                    >
+                      Review and Post
+                    </Button>
+                  </Surface>
+                </View>
+              </>
+            ) : (
+              <ScrollView style={{ flex: 1 }}>
+                <View style={{ width: '100%', alignItems: 'center' }}>
+                  <ReviewPoemandPost navigation={navigation} />
+                </View>
+              </ScrollView>
+            )}
+          </View>
+        </ScrollView>
       ) : (
         <>
           <SelectImageModal

@@ -1,9 +1,10 @@
 import React from 'react';
-import { View, Text, Dimensions } from 'react-native';
+import { View, Text, Dimensions, StyleSheet } from 'react-native';
 import {
   Surface,
   Chip,
   Button,
+  Switch,
   Card,
   Title,
   Caption,
@@ -17,6 +18,8 @@ import { RootStoreContext } from '../../store/RootStore';
 import { liveEndPoint } from '../../helpers';
 const { width, height } = Dimensions.get('window');
 import { useNavigation } from '@react-navigation/native';
+
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const CardPoem = observer(
   ({ poem, navigation = null, turnOffViewWitdht, view }) => {
@@ -109,12 +112,34 @@ const CardPoem = observer(
             <Markdown>{poem.bodyText}</Markdown>
           </Card.Content>
           <Card.Actions>
-            <Caption>{moment(poem.date).format(`MMM'YY`)}</Caption>
+            <View style={styles.actionView}>
+              <View style={styles.preference}>
+                <Caption>{moment(poem.date).format(`MMM'YY`)}</Caption>
+                <View pointerEvents="none">
+                  <Caption>
+                    Open Poem
+                    {/* <MaterialCommunityIcons name="bookmark-outline" size={12} /> */}
+                  </Caption>
+                </View>
+              </View>
+            </View>
           </Card.Actions>
         </Card>
       </View>
     );
   }
 );
+const styles = StyleSheet.create({
+  actionView: {
+    flex: 1
+  },
+
+  preference: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingVertical: 12,
+    paddingHorizontal: 16
+  }
+});
 
 export default CardPoem;
