@@ -26,7 +26,7 @@ const { width, height } = Dimensions.get('window');
 import { useNavigation } from '@react-navigation/native';
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-
+// ReenieBeanie
 const CardPoem = observer(
   ({ poem, navigation = null, turnOffViewWitdht, view }) => {
     const { poemsStore } = React.useContext(RootStoreContext);
@@ -114,8 +114,11 @@ const CardPoem = observer(
               style={{
                 paddingLeft: 12,
                 paddingTop: 8,
-                fontFamily: 'raleway-extraBold',
-                fontSize: 22,
+                fontSize: poemsStore.handDrawnFont ? 26 : 22,
+                fontFamily: poemsStore.handDrawnFont
+                  ? 'Reenie-Beanie'
+                  : 'raleway-extraBold',
+
                 opacity: 0.9
               }}
             >
@@ -130,8 +133,11 @@ const CardPoem = observer(
             <Subheading
               style={{
                 paddingLeft: 12,
-                fontFamily: 'raleway-extraBold',
-                fontSize: 12,
+                fontSize: poemsStore.handDrawnFont ? 16 : 12,
+                fontFamily: poemsStore.handDrawnFont
+                  ? 'Reenie-Beanie'
+                  : 'raleway-extraBold',
+
                 opacity: 0.9
               }}
             >
@@ -140,18 +146,40 @@ const CardPoem = observer(
             {/* </TouchableHighlight> */}
           </>
           <Card.Content>
-            <Markdown style={markDownStyles}>{poem.bodyText}</Markdown>
+            <Markdown
+              style={{
+                text: {
+                  fontSize: poemsStore.handDrawnFont ? 20 : 14,
+                  fontFamily: poemsStore.handDrawnFont
+                    ? 'Reenie-Beanie'
+                    : 'raleway-regular'
+                }
+              }}
+            >
+              {poem.bodyText}
+            </Markdown>
           </Card.Content>
           <Card.Actions>
             <View style={styles.actionView}>
               <View style={styles.preference}>
-                <Caption style={{ fontFamily: 'raleway-extraBold' }}>
+                <Caption
+                  style={{
+                    fontFamily: poemsStore.handDrawnFont
+                      ? 'Reenie-Beanie'
+                      : 'raleway-extraBold'
+                  }}
+                >
                   {moment(poem.date).format(`MMM'YY`)}
                 </Caption>
                 <View pointerEvents="none">
-                  <Caption style={{ fontFamily: 'raleway-extraBold' }}>
+                  <Caption
+                    style={{
+                      fontFamily: poemsStore.handDrawnFont
+                        ? 'Reenie-Beanie'
+                        : 'raleway-extraBold'
+                    }}
+                  >
                     Open Poem
-                    {/* <MaterialCommunityIcons name="bookmark-outline" size={12} /> */}
                   </Caption>
                 </View>
               </View>
@@ -162,11 +190,7 @@ const CardPoem = observer(
     );
   }
 );
-const markDownStyles = StyleSheet.create({
-  text: {
-    fontFamily: 'raleway-regular'
-  }
-});
+
 const styles = StyleSheet.create({
   actionView: {
     flex: 1,

@@ -1,5 +1,4 @@
 import React from 'react';
-import { View } from 'react-native';
 import { observer } from 'mobx-react-lite';
 import { Text, Switch } from 'react-native-paper';
 import { RootStoreContext } from '../../store/RootStore';

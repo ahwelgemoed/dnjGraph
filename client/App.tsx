@@ -137,6 +137,7 @@ const App = observer(() => {
       await setInitialNavigationState(await getInitialState());
       await Font.loadAsync({
         ...Ionicons.font,
+        'Reenie-Beanie': require('./assets/fonts/ReenieBeanie-Regular.ttf'),
         'raleway-extraBold': require('./assets/fonts/Raleway-ExtraBold.ttf'),
         'raleway-boldI': require('./assets/fonts/Raleway-BoldItalic.ttf'),
         'raleway-medium': require('./assets/fonts/Raleway-Medium.ttf'),

@@ -38,10 +38,10 @@ const APoemScreen = observer(({ route, navigation }) => {
   // console.log(route.params);
 
   return (
-    <View
+    <ScrollView
+      contentContainerStyle={{ alignItems: 'center' }}
       style={{
-        flex: 1,
-        alignItems: 'center'
+        flex: 1
       }}
     >
       <View
@@ -68,13 +68,14 @@ const APoemScreen = observer(({ route, navigation }) => {
         <View
           style={{
             backgroundColor: 'rgba(255,255,255,0.9)',
-            position: 'absolute',
-            top: height * 0.2,
-            height: isDesktopOrLaptop ? height * 0.7 : height * 0.56,
+            marginTop: isDesktopOrLaptop ? height * 0.45 : -height * 0.15,
+            // position: 'absolute',
+            // top: height * 0.5,
+            // height: isDesktopOrLaptop ? height * 0.7 : height * 0.56,
             width: isDesktopOrLaptop ? 480 : width * 0.9,
             alignContent: 'center',
             alignSelf: 'center',
-            marginTop: 10,
+            // marginTop: 10,
             marginBottom: 10,
             borderRadius: 20,
             shadowColor: '#000',
@@ -92,8 +93,10 @@ const APoemScreen = observer(({ route, navigation }) => {
               style={{
                 paddingLeft: 12,
                 paddingTop: 8,
-                fontFamily: 'raleway-extraBold',
-                fontSize: 22,
+                fontSize: poemsStore.handDrawnFont ? 26 : 22,
+                fontFamily: poemsStore.handDrawnFont
+                  ? 'Reenie-Beanie'
+                  : 'raleway-extraBold',
                 opacity: 0.9
               }}
             >
@@ -108,8 +111,11 @@ const APoemScreen = observer(({ route, navigation }) => {
               <Subheading
                 style={{
                   paddingLeft: 12,
-                  fontFamily: 'raleway-extraBold',
-                  fontSize: 12,
+                  fontSize: poemsStore.handDrawnFont ? 16 : 12,
+                  fontFamily: poemsStore.handDrawnFont
+                    ? 'Reenie-Beanie'
+                    : 'raleway-extraBold',
+
                   opacity: 0.9
                 }}
               >
@@ -117,30 +123,68 @@ const APoemScreen = observer(({ route, navigation }) => {
               </Subheading>
             </TouchableHighlight>
           </>
-          <ScrollView
+          {/* <ScrollView
             style={{ flex: 1 }}
             showsHorizontalScrollIndicator={false}
             showsVerticalScrollIndicator={false}
-          >
-            <Card.Content style={{ marginBottom: 60 }}>
-              <Markdown style={markDownStyles}>{data.poem.bodyText}</Markdown>
-              <Text>{data.poem.bodyText}</Text>
-            </Card.Content>
-          </ScrollView>
+          > */}
+          <Card.Content style={{ marginBottom: 60 }}>
+            <Markdown
+              style={{
+                text: {
+                  fontSize: poemsStore.handDrawnFont ? 20 : 14,
+                  fontFamily: poemsStore.handDrawnFont
+                    ? 'Reenie-Beanie'
+                    : 'raleway-regular'
+                }
+              }}
+            >
+              {data.poem.bodyText}
+            </Markdown>
+            <Markdown
+              style={{
+                text: {
+                  fontSize: poemsStore.handDrawnFont ? 20 : 14,
+                  fontFamily: poemsStore.handDrawnFont
+                    ? 'Reenie-Beanie'
+                    : 'raleway-regular'
+                }
+              }}
+            >
+              {data.poem.bodyText}
+            </Markdown>
+          </Card.Content>
+          {/* </ScrollView> */}
           <View
             style={{
               position: 'absolute',
               bottom: 0,
-              backgroundColor: 'rgba(255,255,255,0.9)',
+              backgroundColor: 'rgba(255,255,255,0.95)',
               width: '100%',
               borderRadius: 20
             }}
           >
             <View style={styles.actionView}>
               <View style={styles.preference}>
-                <Caption>{moment(data.poem.date).format(`MMM'YY`)}</Caption>
+                <Caption
+                  style={{
+                    fontSize: poemsStore.handDrawnFont ? 20 : 10,
+                    fontFamily: poemsStore.handDrawnFont
+                      ? 'Reenie-Beanie'
+                      : 'raleway-regular'
+                  }}
+                >
+                  {moment(data.poem.date).format(`MMM'YY`)}
+                </Caption>
                 <View pointerEvents="none">
-                  <Caption>
+                  <Caption
+                    style={{
+                      fontSize: poemsStore.handDrawnFont ? 20 : 12,
+                      fontFamily: poemsStore.handDrawnFont
+                        ? 'Reenie-Beanie'
+                        : 'raleway-regular'
+                    }}
+                  >
                     Coming Soon
                     <MaterialCommunityIcons name="bookmark-outline" size={12} />
                   </Caption>
@@ -150,7 +194,7 @@ const APoemScreen = observer(({ route, navigation }) => {
           </View>
         </View>
       </View>
-    </View>
+    </ScrollView>
   );
 });
 

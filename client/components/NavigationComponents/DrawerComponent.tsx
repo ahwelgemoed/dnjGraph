@@ -2,13 +2,14 @@ import React from 'react';
 import { View, StyleSheet, AsyncStorage } from 'react-native';
 import { DrawerItem, DrawerContentScrollView } from '@react-navigation/drawer';
 import { observer } from 'mobx-react-lite';
+
 import { RootStoreContext } from '../../store/RootStore';
 import {
   useTheme,
   Avatar,
   Title,
   Caption,
-  Paragraph,
+  Text,
   Drawer,
   Chip,
   TouchableRipple,
@@ -17,8 +18,8 @@ import {
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-export default function DrawerContent(props) {
-  const { authStore } = React.useContext(RootStoreContext);
+const DrawerContent = observer(props => {
+  const { poemsStore, authStore } = React.useContext(RootStoreContext);
   console.log('props.navigation', authStore.isAnonymous);
 
   return (
@@ -152,11 +153,26 @@ export default function DrawerContent(props) {
             }}
           />
         </Drawer.Section>
+        <TouchableRipple
+          onPress={() => {
+            poemsStore.changeFont();
+          }}
+        >
+          <View style={styles.preference}>
+            <Text>Hand Drawn Font</Text>
+            <View pointerEvents="none">
+              <Switch
+                onValueChange={() => poemsStore.changeFont()}
+                value={poemsStore.handDrawnFont}
+              />
+            </View>
+          </View>
+        </TouchableRipple>
       </View>
     </DrawerContentScrollView>
   );
-}
-
+});
+export default DrawerContent;
 const styles = StyleSheet.create({
   drawerContent: {
     flex: 1

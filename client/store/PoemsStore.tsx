@@ -9,6 +9,7 @@ export class PoemsStore {
   constructor(rooteStore: RootStore) {
     this.rooteStore = rooteStore;
   }
+  @persist @observable handDrawnFont = false;
   @persist @observable poemID;
   @persist @observable poemTitle;
   @persist @observable poemBody;
@@ -142,6 +143,9 @@ export class PoemsStore {
     this.poemImage = poem.photoURL;
     this.draftMode = true;
     this.readyPoem = {};
+  }
+  @action changeFont() {
+    this.handDrawnFont = !this.handDrawnFont;
   }
 }
 
