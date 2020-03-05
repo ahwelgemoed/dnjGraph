@@ -1,56 +1,89 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { RootStoreContext } from '../../store/RootStore';
-import { Formik } from 'formik';
+import { useMediaQuery } from 'react-responsive';
+import { Formik, Field } from 'formik';
 import { observer } from 'mobx-react-lite';
-import { View, StyleSheet, ImageBackground } from 'react-native';
-import { Button, Surface, Avatar, TextInput } from 'react-native-paper';
-
-const SignInScreen = observer(({ navigation }) => {
+import { View, StyleSheet, Image } from 'react-native';
+import {
+  Button,
+  Surface,
+  Text,
+  TextInput,
+  List,
+  Subheading,
+  RadioButton,
+  Checkbox
+} from 'react-native-paper';
+import dnj from '../../assets/images/DNJ.png';
+const SignUpScreen = observer(({ navigation }) => {
+  const [canSubmit, setcanSubmit] = useState(false);
   const { authStore } = React.useContext(RootStoreContext);
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  });
   const submitToFirebase = ({ email, password }) => {
-    try {
-      // firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL).then(() =>
-      authStore.firebase
-        .auth()
-        .signInWithEmailAndPassword(email, password)
-        .then(({ user }) => {
-          authStore.logUserInAndSetTokenInStorage({ user, token: user.ma });
+    // firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL).then(() =>
+    authStore.firebase
+      .auth()
+      .createUserWithEmailAndPassword(email, password)
+      .then(({ user }) => {
+        return authStore.logUserInAndSetTokenInStorage({
+          user,
+          token: user.ma
         });
-    } catch (error) {
-      // console.log(error);
-    }
+      });
   };
   const SingInForm = () => {
     return (
       <Formik
-        initialValues={{
-          email: 'test@test.com',
-          password: '123123',
-          name: '123123'
-        }}
+        initialValues={{ email: '', password: '', name: '', terms: false }}
         onSubmit={values => submitToFirebase(values)}
       >
         {({ handleChange, handleBlur, handleSubmit, values }) => (
           <View>
-            {/* <Surface> */}
             <TextInput
-              label="Your Name"
+              style={{
+                backgroundColor: 'rgba(255,255,255,0.3)'
+              }}
+              label="Name"
               value={values.name}
               onChangeText={handleChange('name')}
             />
+
             <TextInput
+              style={{
+                backgroundColor: 'rgba(255,255,255,0.3)'
+              }}
               label="Email"
               value={values.email}
               onChangeText={handleChange('email')}
             />
             <TextInput
+              style={{
+                backgroundColor: 'rgba(255,255,255,0.3)'
+              }}
               label="Password"
               value={values.password}
               onChangeText={handleChange('password')}
             />
-            {/* </Surface> */}
+            <Subheading
+              onPress={() => navigation.push('Terms')}
+              style={{
+                fontSize: 10,
+                textAlign: 'center',
+                color: 'rgba(255,0,0,0.7)',
+                fontFamily: 'PTSansCaptionBold'
+              }}
+            >
+              By Using DNJ you agree to our T&C's
+            </Subheading>
             <Button
-              style={{ marginTop: 20 }}
+              // disabled={!canSubmit}
+              style={{
+                marginTop: 20,
+                alignSelf: 'center',
+                width: isDesktopOrLaptop ? '60%' : '90%'
+              }}
               mode="contained"
               onPress={handleSubmit}
             >
@@ -63,55 +96,73 @@ const SignInScreen = observer(({ navigation }) => {
   };
   return (
     <View style={styles.mainLayout}>
-      <ImageBackground
+      {/* <ImageBackground
         source={{
           uri:
-            'https://66.media.tumblr.com/da8261c0b01bb8c0aaa14f315a4d118a/tumblr_pmjb1o7dnI1sfie3io1_1280.jpg'
+            'https://66.media.tumblr.com/51c32156f631013589671a46eea09d0e/tumblr_pmjb1vSPHE1sfie3io1_1280.jpg'
         }}
         style={{ width: '100%', height: '100%' }}
-      >
-        <View style={styles.formLayout}>
-          <Avatar.Image
-            style={{ alignSelf: 'center', position: 'absolute', top: 100 }}
-            source={{
-              uri: 'http://www.disnetjy.com/newlogo.png'
-            }}
-            size={150}
-          />
-
+      > */}
+      <View style={styles.formLayout}>
+        <Image
+          // style={{ alignSelf: 'center', position: 'absolute', top: 100 }}
+          style={{
+            width: 200,
+            height: 150,
+            alignSelf: 'center',
+            position: 'absolute',
+            top: 80
+          }}
+          source={dnj}
+        />
+        <Surface
+          style={{
+            alignSelf: 'center',
+            width: isDesktopOrLaptop ? '60%' : '90%',
+            padding: 20,
+            borderRadius: 20
+          }}
+        >
           <SingInForm />
-          <Surface
-            style={{ marginTop: 20, alignSelf: 'center', width: '100%' }}
+          <Button
+            style={{
+              marginTop: 20,
+              alignSelf: 'center',
+              width: isDesktopOrLaptop ? '60%' : '90%'
+            }}
+            mode="text"
+            onPress={() => navigation.goBack()}
           >
-            <Button
-              // style={{ marginTop: 20 }}
-              mode="text"
-              onPress={() => navigation.push('CreateAccount')}
-            >
-              Sign Up
-            </Button>
-          </Surface>
-          {/* <Button mode="contained" onPress={() => console.log('g')}>
+            Back
+          </Button>
+        </Surface>
+        {/* <Button mode="contained" onPress={() => console.log('g')}>
         FaceBook
       </Button>
       <Button mode="contained" onPress={() => console.log('g')}>
         Apple
       </Button> */}
-          <Surface
-            style={{ alignSelf: 'center', position: 'absolute', bottom: 40 }}
-          >
-            <Button mode="text" onPress={() => authStore.setUserAsAnonymous()}>
-              Sign Up Later
-            </Button>
-          </Surface>
-        </View>
-      </ImageBackground>
+        <Surface
+          style={{
+            alignSelf: 'center',
+            position: 'absolute',
+            bottom: 40,
+            width: isDesktopOrLaptop ? '30%' : '90%'
+          }}
+        >
+          <Button mode="text" onPress={() => authStore.setUserAsAnonymous()}>
+            Sign Up Later
+          </Button>
+        </Surface>
+      </View>
+      {/* </ImageBackground> */}
     </View>
   );
 });
 const styles = StyleSheet.create({
   mainLayout: {
     flex: 1,
+    backgroundColor: 'rgba(0,0,0,0)',
     justifyContent: 'center'
     // paddingVertical: 16,
     // paddingHorizontal: 16
@@ -123,4 +174,4 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16
   }
 });
-export default SignInScreen;
+export default SignUpScreen;
