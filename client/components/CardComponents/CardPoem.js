@@ -94,6 +94,10 @@ const CardPoem = observer(
           ) : null}
           {poem.isDraft ? (
             <Chip
+              onPress={() => {
+                poemsStore.fromDraftToEdit({ poem });
+                return navigation && navigation.navigate({ name: 'PostPoem' });
+              }}
               style={{
                 position: 'absolute',
                 top: 10,

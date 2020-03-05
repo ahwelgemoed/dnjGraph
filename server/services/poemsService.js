@@ -102,6 +102,7 @@ const createNewPoem = async ({
 module.exports = {
   getAllActivePoems,
   getAllUserDrafts,
+  getAllUserPoems,
   createNewPoem,
   updateAPoem
 };

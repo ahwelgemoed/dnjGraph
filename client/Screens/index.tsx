@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, Button, AsyncStorage } from 'react-native';
 import { DraftScreens } from './UtilStackScreens/DraftScreens';
+import { UserPoemScreen } from './UtilStackScreens/UserPoemScreens';
 import SignInScreen from './AuthScreens/SignInScreen';
 import SignUpScreen from './AuthScreens/SignUpScreen';
 import UserScreen from './ProfileScreens/UserScreen';
@@ -17,6 +18,7 @@ import APoemScreen from './PoemsScreens/APoemScreen';
 import CreateAPoem from './PostPoemScreens/CreateAPoem';
 
 export {
+  UserPoemScreen,
   SignInScreen,
   AllPoemsScreen,
   APoemScreen,

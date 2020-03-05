@@ -20,6 +20,7 @@ import {
   APoemScreen,
   CreateAPoem,
   DraftScreens,
+  UserPoemScreen,
   UserScreen
 } from '../Screens';
 
@@ -87,6 +88,7 @@ const PoemsScreenStack = withTheme(props => (
   >
     <HomeStack.Screen name="AllPoems" component={AllPoemsScreen} />
     <HomeStack.Screen name="Drafts" component={DraftScreens} />
+    <HomeStack.Screen name="UserPoems" component={UserPoemScreen} />
     <HomeStack.Screen name="UserScreen" component={UserScreen} />
     <HomeStack.Screen name="PostPoem" component={CreateAPoem} />
 

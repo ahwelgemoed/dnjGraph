@@ -111,7 +111,7 @@ export default function DrawerContent(props) {
             )}
             label="Posted Poems"
             onPress={() => {
-              props.navigation.navigate('DraftStack');
+              props.navigation.navigate('UserPoems');
             }}
           />
           <DrawerItem

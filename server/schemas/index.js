@@ -57,6 +57,7 @@ const typeDefs = gql`
   type Query {
     poems(limit: Int, page: Int): PoemsResults
     myDraftPoems: PoemsResults
+    myPoems: PoemsResults
     allUsersBookmarks(user: ID): PoemsResults
     poem(id: ID): Poem
     User(id: ID): User

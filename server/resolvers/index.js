@@ -3,6 +3,7 @@ const User = require('../models/UserModel');
 const moment = require('moment');
 const {
   getAllActivePoems,
+  getAllUserPoems,
   getAllUserDrafts,
   createNewPoem,
   updateAPoem
@@ -50,6 +51,21 @@ const resolvers = {
       });
       // console.log('allUsersDrafts', allUsersDrafts);
       return allUsersDrafts;
+    },
+    myPoems: async (obj, args, { userToken }, info) => {
+      // use user Toke to get UID from Firebase -> Find User in our DB then Use that Array To find all
+      if (!userToken) {
+        return;
+      }
+      // console.log('userToken', userToken);
+
+      const myPoemsDTO = args;
+      const allUsersPoems = await getAllUserPoems({
+        dto: myPoemsDTO,
+        user: userToken
+      });
+      console.log('allUsersPoems', allUsersPoems);
+      return allUsersPoems;
     }
   },
   Poem: {

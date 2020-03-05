@@ -51,6 +51,22 @@ export class PoemsStore {
       }
     }
   `;
+  @observable getAusersPoems = gql`
+    query myPoems {
+      myPoems {
+        poems {
+          id
+          title
+          bodyText
+          photoURL
+          handle
+          date
+          isDraft
+        }
+        totalDocs
+      }
+    }
+  `;
   @observable getAusersDraftPoems = gql`
     query myDraftPoems {
       myDraftPoems {
