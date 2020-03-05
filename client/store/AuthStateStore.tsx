@@ -11,7 +11,7 @@ export class AuthStateStore {
     this.rooteStore = rooteStore;
   }
   @observable freshUserToken;
-  @observable isAuthed = false;
+  @observable isAuthed = 'LOADING';
   @observable isAnonymous = false;
   @observable isLoading = true;
   @observable isAdmin = false;
@@ -32,8 +32,9 @@ export class AuthStateStore {
     }
   `;
 
-  @action isUserAuthed() {
-    firebase.auth().onAuthStateChanged(user => {
+  @action async isUserAuthed() {
+    const INITIALTOKEN = await AsyncStorage.getItem('userToken');
+    await firebase.auth().onAuthStateChanged(user => {
       if (user) {
         firebase
           .auth()
@@ -42,7 +43,7 @@ export class AuthStateStore {
             this.freshUserToken = user.ma;
             AsyncStorage.setItem('userToken', user.ma);
           });
-        this.isAuthed = true;
+        this.isAuthed = 'AUTHED';
         this.isAnonymous = false;
         this.isLoading = false;
         this.firebaseUser = {
@@ -53,10 +54,17 @@ export class AuthStateStore {
           messageToUser: 'isUserAuthed is Called'
         };
       }
+
       if (!user) {
-        this.isAuthed = false;
-        this.isLoading = false;
-        this.isAnonymous = false;
+        if (INITIALTOKEN === 'ANON') {
+          this.isAuthed = 'AUTHED';
+          this.isLoading = false;
+          this.isAnonymous = true;
+        } else {
+          this.isAuthed = 'NOTAUTHED';
+          this.isLoading = false;
+          this.isAnonymous = false;
+        }
       }
     });
     // const userToken = await AsyncStorage.getItem('userToken');
@@ -77,7 +85,7 @@ export class AuthStateStore {
   }
   @action async setUserAsAnonymous() {
     await AsyncStorage.setItem('userToken', 'ANON');
-    // this.isUserAuthed();
+    await this.isUserAuthed();
   }
   @action async getUserFromGraph() {
     await firebase.auth().onAuthStateChanged(user => {

@@ -26,6 +26,10 @@ const PoemsScreen = observer(({ navigation }) => {
       variables: { limit: 10, page: pagination.page }
     }
   );
+
+  useEffect(() => {
+    poemsStore.reFetchPoem && refetch();
+  }, [poemsStore.reFetchPoem]);
   useEffect(() => {
     refetch();
   }, [error]);

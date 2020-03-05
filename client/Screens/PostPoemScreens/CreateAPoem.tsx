@@ -1,4 +1,4 @@
-import React, { useRef, useContext, useState } from 'react';
+import React, { useRef, useContext, useState, useEffect } from 'react';
 import {
   View,
   StyleSheet,
@@ -8,9 +8,14 @@ import {
 } from 'react-native';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
-import { Surface, Button, Text, Title } from 'react-native-paper';
+import {
+  Surface,
+  Button,
+  Headline,
+  Subheading,
+  Title
+} from 'react-native-paper';
 import { useMediaQuery } from 'react-responsive';
-
 import TitleAndBody from '../../components/PostPoemComponents/TitleAndBody';
 import ImageSelector from '../../components/PostPoemComponents/ImageSelector';
 import PoemOptions from '../../components/PostPoemComponents/PoemOptions';
@@ -18,8 +23,9 @@ import SelectImageModal from '../../components/PostPoemComponents/SelectImageMod
 import PoemReViewModal from '../../components/PostPoemComponents/PoemReViewModal';
 import ReviewPoemandPost from '../../components/PostPoemComponents/ReviewPoemandPost';
 import { ScrollView } from 'react-native-gesture-handler';
+import { useAnonMayNotSeeHook } from '../../helpers/useStateHook';
 import { liveEndPoint } from '../../helpers';
-
+import { useIsFocused } from '@react-navigation/native';
 const { width, height } = Dimensions.get('window');
 const CreateAPoem = observer(({ route, navigation }) => {
   const isDesktopOrLaptop = useMediaQuery({
@@ -30,8 +36,15 @@ const CreateAPoem = observer(({ route, navigation }) => {
   const childRefReview = useRef(null);
   const { poemsStore } = useContext(RootStoreContext);
   const [state, setstate] = useState(false);
-  // console.log(selectedImage);
-  // console.log(poemsStore.poemTitle);
+  const { isAnonUser } = useAnonMayNotSeeHook({
+    message: 'You have sign in To Post a Poem'
+  });
+  const isFocused = useIsFocused();
+  useEffect(() => {
+    if (isAnonUser && isFocused) {
+      navigation.goBack();
+    }
+  }, [isFocused]);
   const modalState = () => {
     setstate(false);
   };
@@ -48,14 +61,15 @@ const CreateAPoem = observer(({ route, navigation }) => {
     }
   };
 
-  // console.log('route 🔥', route.params);
-
   return (
     <View style={{ flex: 1, alignSelf: 'center' }}>
       {Platform.OS === 'web' ? (
         <ScrollView
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
           style={{
-            width,
+            // width,
+
             flex: 1,
             paddingVertical: 16,
             paddingHorizontal: 16
@@ -65,16 +79,8 @@ const CreateAPoem = observer(({ route, navigation }) => {
             {!step ? (
               <>
                 <View style={styles.item}>
-                  <ScrollView
-                    style={{
-                      flex: 1,
-                      paddingVertical: 16,
-                      paddingHorizontal: 16
-                    }}
-                  >
-                    <TitleAndBody />
-                    <PoemOptions />
-                  </ScrollView>
+                  <TitleAndBody />
+                  <PoemOptions />
                 </View>
                 <View style={styles.item}>
                   <Surface style={{ marginTop: 20 }}>
@@ -115,7 +121,12 @@ const CreateAPoem = observer(({ route, navigation }) => {
             ) : (
               <ScrollView style={{ flex: 1 }}>
                 <View style={{ width: '100%', alignItems: 'center' }}>
-                  <ReviewPoemandPost navigation={navigation} />
+                  <Headline>Review and Post Poem</Headline>
+                  <Subheading>It's your last Chance</Subheading>
+                  <ReviewPoemandPost
+                    navigation={navigation}
+                    handleEditClick={() => setstep(false)}
+                  />
                 </View>
               </ScrollView>
             )}

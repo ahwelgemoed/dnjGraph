@@ -30,7 +30,10 @@ const SelectImageModal = props => {
           width: Dimensions.get('window').width * 0.94
         }}
       >
-        <ReviewPoemandPost navigation={props.navigation} />
+        <ReviewPoemandPost
+          navigation={props.navigation}
+          handleEditClick={onClose}
+        />
       </Modalize>
     </>
   );

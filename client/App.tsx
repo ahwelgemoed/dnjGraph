@@ -8,7 +8,6 @@ import { Ionicons } from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
 import useLinking from './navigation/useLinking';
 import { createStackNavigator } from '@react-navigation/stack';
-
 import LoadingComponent from './components/UtilComponents/LoadingComponent';
 import {
   configureFonts,
@@ -27,20 +26,9 @@ import { RestLink } from 'apollo-link-rest';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { Header, MyTransition } from './components/NavigationComponents/Header';
 import AppSnackBar from './components/UtilComponents/AppSnackBar';
-import {
-  SignIn,
-  SignInScreen,
-  SignUpScreen,
-  SplashScreen,
-  APoemScreen,
-  DraftsScreen,
-  AllPoemsScreen,
-  UserScreen,
-  DraftScreens,
-  CreateAPoem
-} from './Screens';
+import { UserScreen } from './Screens';
 import { liveEndPoint } from './helpers';
-
+// import { useAuthHook } from './helpers/useStateHook';
 const AuthStack = createStackNavigator();
 
 const PostPoemStack = createStackNavigator();
@@ -133,7 +121,7 @@ const App = observer(() => {
   const [isLoading, setIsLoading] = useState(true);
   const [initialNavigationState, setInitialNavigationState] = React.useState();
   const [isReady, setIsReady] = React.useState(false);
-  const [isAuth, setisAuth] = useState(false);
+  const [isAuth, setisAuth] = useState('LOADING');
   // liveEndPoint
   const restLink = new RestLink({ uri: `${liveEndPoint}/v1/` });
   const graphLink = new HttpLink({ uri: `${liveEndPoint}/graphql/` });
@@ -149,6 +137,7 @@ const App = observer(() => {
       await setInitialNavigationState(await getInitialState());
       await Font.loadAsync({
         ...Ionicons.font,
+        'raleway-extraBold': require('./assets/fonts/Raleway-ExtraBold.ttf'),
         'raleway-boldI': require('./assets/fonts/Raleway-BoldItalic.ttf'),
         'raleway-medium': require('./assets/fonts/Raleway-Medium.ttf'),
         'raleway-regular': require('./assets/fonts/Raleway-Regular.ttf'),
@@ -166,29 +155,26 @@ const App = observer(() => {
       setIsReady(true);
     }
   }
-
   React.useEffect(() => {
     loadResourcesAndDataAsync();
   }, []);
   React.useEffect(() => {
-    console.log(authStore.isAuthed);
-    if (authStore.isAuthed) {
-      setisAuth(authStore.isAuthed);
-    } else {
-      setisAuth(authStore.isAuthed);
+    if (authStore.isAuthed !== 'LOADING') {
+      if (authStore.isAuthed === 'AUTHED') {
+        setisAuth('AUTHED');
+      } else {
+        setisAuth('NOTAUTHED');
+      }
     }
   }, [authStore.isAuthed]);
   const client = new ApolloClient({
     link: authLink.concat(graphLink),
     cache: new InMemoryCache()
   });
-  console.log('initialNavigationState', authStore.isAuthed);
 
-  if (isLoading || !isReady) {
+  if (isLoading || !isReady || isAuth === 'LOADING') {
     return <LoadingComponent />;
   }
-  // console.log(token);
-
   return (
     <PaperProvider theme={theme}>
       <ApolloProvider client={client}>
@@ -197,7 +183,9 @@ const App = observer(() => {
           initialState={initialNavigationState}
           ref={ref}
         >
-          {isAuth ? <DrawerStackNavigator /> : <AuthStackNavigator />}
+          {isAuth === 'AUTHED' && <DrawerStackNavigator />}
+          {isAuth === 'NOTAUTHED' && <AuthStackNavigator />}
+          {/* {isAuth ? <DrawerStackNavigator /> : } */}
           <AppSnackBar />
         </NavigationContainer>
       </ApolloProvider>

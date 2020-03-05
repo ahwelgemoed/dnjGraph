@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AsyncStorage, TouchableOpacity, Platform } from 'react-native';
-import { Appbar, Avatar, withTheme } from 'react-native-paper';
+import { Appbar, Text, Avatar, withTheme } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { TransitionSpecs } from '@react-navigation/stack';
 
@@ -15,6 +15,21 @@ const Header = ({ scene, previous, navigation, props }) => {
       ? options.title
       : scene.route.name;
 
+  if (scene.route.name === 'APoem') {
+    return (
+      <Appbar.Header
+        statusBarHeight={0}
+        style={{ height: 0 }}
+        theme={{ colors: { primary: colors.surface } }}
+      >
+        <Appbar.BackAction
+          style={{ position: 'absolute', top: 30 }}
+          onPress={() => navigation.goBack()}
+          color={colors.primary}
+        />
+      </Appbar.Header>
+    );
+  }
   return (
     <Appbar.Header theme={{ colors: { primary: colors.surface } }}>
       {previous ? (
@@ -28,26 +43,27 @@ const Header = ({ scene, previous, navigation, props }) => {
             navigation.openDrawer();
           }}
         >
-          <MaterialCommunityIcons name="menu" size={40} />
+          <MaterialCommunityIcons name="menu" size={30} />
         </TouchableOpacity>
       )}
       <Appbar.Content
-        title={previous ? title : <Avatar.Text size={24} label="DNJ" />}
+        title={
+          previous ? (
+            title
+          ) : (
+            <Text style={{ fontFamily: 'raleway-extraBold', fontSize: 26 }}>
+              DNJ
+            </Text>
+          )
+        }
       />
       {/* <TouchableOpacity
-        onPress={() => {
-          AsyncStorage.clear();
-        }}
-      >
-        <MaterialCommunityIcons name="user" size={40} />
-      </TouchableOpacity> */}
-      <TouchableOpacity
         onPress={() => {
           navigation.navigate('AllPoems');
         }}
       >
         <MaterialCommunityIcons name="menu" size={20} />
-      </TouchableOpacity>
+      </TouchableOpacity> */}
     </Appbar.Header>
   );
 };

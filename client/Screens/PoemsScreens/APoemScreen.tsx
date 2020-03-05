@@ -1,16 +1,22 @@
 import React from 'react';
-import { View, Dimensions, ImageBackground, StyleSheet } from 'react-native';
+import {
+  View,
+  Dimensions,
+  ImageBackground,
+  StyleSheet,
+  Linking
+} from 'react-native';
 import moment from 'moment';
 import { useQuery } from '@apollo/react-hooks';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
-import { Text, Caption, Card } from 'react-native-paper';
+import { Text, Caption, Card, Headline, Subheading } from 'react-native-paper';
 import { useMediaQuery } from 'react-responsive';
 import { BlurView } from 'expo-blur';
 import Markdown from 'react-native-markdown-display';
 const { width, height } = Dimensions.get('window');
-import LoadingComponent from '../../components/LoadingComponent';
-import { ScrollView } from 'react-native-gesture-handler';
+import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
+import { ScrollView, TouchableHighlight } from 'react-native-gesture-handler';
 import { liveEndPoint } from '../../helpers';
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -41,11 +47,9 @@ const APoemScreen = observer(({ route, navigation }) => {
       <View
         style={{
           flex: 1,
-          // alignItems: 'center',
           justifyContent: 'center',
           width: isDesktopOrLaptop ? 800 : width,
           borderRadius: 30
-          // alignItems: 'center'
         }}
       >
         <ImageBackground
@@ -56,20 +60,17 @@ const APoemScreen = observer(({ route, navigation }) => {
           }}
           source={{
             uri: `${liveEndPoint}/public/img/${
-              data.poem.photoURL
-                ? data.poem.photoURL
-                : 'imgdisnetjy-6fb1dfc0-51b5-11ea-adbe-01c007ff9125.jpg'
+              data.poem.photoURL ? data.poem.photoURL : null
             }`
           }}
         />
 
-        {/* <BlurView tint="light" intensity={50} style={styles.notBlurred}> */}
         <View
           style={{
             backgroundColor: 'rgba(255,255,255,0.9)',
             position: 'absolute',
             top: height * 0.2,
-            height: height * 0.56,
+            height: isDesktopOrLaptop ? height * 0.7 : height * 0.56,
             width: isDesktopOrLaptop ? 480 : width * 0.9,
             alignContent: 'center',
             alignSelf: 'center',
@@ -86,15 +87,36 @@ const APoemScreen = observer(({ route, navigation }) => {
             elevation: 7
           }}
         >
-          <Card.Title
-            title={data.poem.title}
-            subtitle={`by: ${data.poem.handle}`}
-            titleStyle={{
-              fontFamily: 'raleway-boldI',
-              fontSize: 20,
-              opacity: 0.8
-            }}
-          />
+          <>
+            <Headline
+              style={{
+                paddingLeft: 12,
+                paddingTop: 8,
+                fontFamily: 'raleway-extraBold',
+                fontSize: 22,
+                opacity: 0.9
+              }}
+            >
+              {data.poem.title}
+            </Headline>
+            <TouchableHighlight
+              onPress={() => {
+                data.poem.handle &&
+                  Linking.openURL(`https://instagram.com/${data.poem.handle}`);
+              }}
+            >
+              <Subheading
+                style={{
+                  paddingLeft: 12,
+                  fontFamily: 'raleway-extraBold',
+                  fontSize: 12,
+                  opacity: 0.9
+                }}
+              >
+                {`by: ${data.poem.handle ? data.poem.handle : 'ANON'}`}
+              </Subheading>
+            </TouchableHighlight>
+          </>
           <ScrollView
             style={{ flex: 1 }}
             showsHorizontalScrollIndicator={false}
@@ -127,7 +149,6 @@ const APoemScreen = observer(({ route, navigation }) => {
             </View>
           </View>
         </View>
-        {/* </BlurView> */}
       </View>
     </View>
   );
@@ -135,7 +156,7 @@ const APoemScreen = observer(({ route, navigation }) => {
 
 const markDownStyles = StyleSheet.create({
   text: {
-    fontFamily: 'raleway-medium'
+    fontFamily: 'raleway-regular'
   }
 });
 const styles = StyleSheet.create({

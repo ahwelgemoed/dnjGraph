@@ -17,18 +17,17 @@ import CardPoem from '../CardComponents/CardPoem.js';
 import DraftModeSwitch from './DraftModeSwitch';
 import IntagramSwitch from './IntagramSwitch';
 
-const ReviewPoemandPost = observer(({ navigation }) => {
+const ReviewPoemandPost = observer(({ navigation, handleEditClick }) => {
   const { poemsStore, authStore } = useContext(RootStoreContext);
   const [addPoem, { error, loading }] = useMutation(poemsStore.addAPoem, {
     async onCompleted({ addPoem }) {
       if (addPoem.success) {
-        console.log('👨🏽‍🏭', navigation);
-
         await authStore.setSnackBar({
           funcCalled: 'poemsStore',
           messageToUser: 'Poem Posted Succsess'
         });
         await navigation.navigate('AllPoems');
+        await handleEditClick();
         await poemsStore.clearPresistPoem();
       }
     }
@@ -106,7 +105,11 @@ const ReviewPoemandPost = observer(({ navigation }) => {
 
       <View style={styles.bottomRow}>
         <View style={styles.section}>
-          <Button mode="outlined" icon="playlist-edit">
+          <Button
+            mode="outlined"
+            icon="playlist-edit"
+            onPress={() => handleEditClick()}
+          >
             Edit
           </Button>
         </View>

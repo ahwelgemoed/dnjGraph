@@ -6,21 +6,30 @@ import { useQuery } from '@apollo/react-hooks';
 import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
 import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
 import { RootStoreContext } from '../../store/RootStore';
+import { useAnonMayNotSeeHook } from '../../helpers/useStateHook';
+import { useIsFocused } from '@react-navigation/native';
 
 import CardPoem from '../../components/CardComponents/CardPoem.js';
 const DraftScreens = observer(({ navigation }) => {
   const { poemsStore } = React.useContext(RootStoreContext);
-  // getAusersDraftPoems
+  const { isAnonUser } = useAnonMayNotSeeHook({
+    message: 'You have sign in To have Drafts'
+  });
+  const isFocused = useIsFocused();
+  React.useEffect(() => {
+    if (isAnonUser && isFocused) {
+      navigation.goBack();
+    }
+  }, [isFocused]);
   const { loading, error, data, refetch } = useQuery(
     poemsStore.getAusersDraftPoems
   );
   if (loading) return <LoadingComponent />;
   if (error) return <ErrorComponent handleError={refetch} />;
-  console.log(data.myDraftPoems.totalDocs);
 
   return (
     <View style={[styles.mainLayout]}>
-      {data && data.myDraftPoems.totalDocs > 0 ? (
+      {data && data.myDraftPoems && data.myDraftPoems.totalDocs > 0 ? (
         <FlatList
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}

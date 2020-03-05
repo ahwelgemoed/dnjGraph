@@ -17,11 +17,10 @@ const resolvers = {
        *  Get All Poems and Update or Create User
        */
       const { allPoems } = getAllActivePoems({ dtoArguments });
-      console.log('🔥');
 
-      // if (userToken) {
-      //   updateUserInternally({ userToken });
-      // }
+      if (userToken) {
+        updateUserInternally({ userToken });
+      }
       return allPoems;
     },
     poem: (obj, arg, ctx, info) => {
@@ -75,6 +74,11 @@ const resolvers = {
       });
     },
     addPoem: async (parent, { poem }, { userToken }, info) => {
+      if (!userToken) {
+        console.warn('NO userToken ON POST');
+
+        return;
+      }
       const poemDTO = poem;
       if (poem.id) {
         /**

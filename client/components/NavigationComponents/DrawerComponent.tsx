@@ -10,7 +10,7 @@ import {
   Caption,
   Paragraph,
   Drawer,
-  Text,
+  Chip,
   TouchableRipple,
   Switch
 } from 'react-native-paper';
@@ -19,7 +19,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function DrawerContent(props) {
   const { authStore } = React.useContext(RootStoreContext);
-  console.log('props.navigation', authStore.isAuthed);
+  console.log('props.navigation', authStore.isAnonymous);
 
   return (
     <DrawerContentScrollView
@@ -35,9 +35,17 @@ export default function DrawerContent(props) {
             size={50}
           />
           <Title style={styles.title}>Dis Net Jy</Title>
-          <Caption style={styles.caption}>
-            soms was dit ek en nou is dit net jy
-          </Caption>
+          {authStore.isAnonymous && (
+            <Chip
+              style={{ width: '90%' }}
+              mode="outlined"
+              icon="information"
+              onPress={() => console.log('Pressed')}
+            >
+              Browsing Anonymously
+            </Chip>
+          )}
+
           {/* <View style={styles.row}>
             <View style={styles.section}>
               <Paragraph style={[styles.paragraph, styles.caption]}>
@@ -57,12 +65,12 @@ export default function DrawerContent(props) {
           <DrawerItem
             icon={({ color, size }) => (
               <MaterialCommunityIcons
-                name="account-outline"
+                name="message-text-outline"
                 color={color}
                 size={size}
               />
             )}
-            label="Home"
+            label="All Poems"
             onPress={() => {
               props.navigation.navigate('AllPoems');
             }}
@@ -70,14 +78,40 @@ export default function DrawerContent(props) {
           <DrawerItem
             icon={({ color, size }) => (
               <MaterialCommunityIcons
-                name="account-outline"
+                name="pencil-outline"
                 color={color}
                 size={size}
               />
             )}
-            label="Your Drafts"
+            label="Post a Poem"
+            onPress={() => {
+              props.navigation.navigate({ name: 'PostPoem' });
+            }}
+          />
+          <DrawerItem
+            icon={({ color, size }) => (
+              <MaterialCommunityIcons
+                name="message-draw"
+                color={color}
+                size={size}
+              />
+            )}
+            label="Drafts"
             onPress={() => {
               props.navigation.navigate('Drafts');
+            }}
+          />
+          <DrawerItem
+            icon={({ color, size }) => (
+              <MaterialCommunityIcons
+                name="message-bulleted"
+                color={color}
+                size={size}
+              />
+            )}
+            label="Posted Poems"
+            onPress={() => {
+              props.navigation.navigate('DraftStack');
             }}
           />
           <DrawerItem
@@ -88,27 +122,9 @@ export default function DrawerContent(props) {
                 size={size}
               />
             )}
-            label="Your Posted Poems"
-            onPress={() => {
-              props.navigation.navigate('DraftStack');
-            }}
-          />
-          <DrawerItem
-            icon={({ color, size }) => (
-              <MaterialCommunityIcons name="tune" color={color} size={size} />
-            )}
             label="Profile"
             onPress={() => {
               props.navigation.navigate({ name: 'UserScreen' });
-            }}
-          />
-          <DrawerItem
-            icon={({ color, size }) => (
-              <MaterialCommunityIcons name="tune" color={color} size={size} />
-            )}
-            label="Post a Poem"
-            onPress={() => {
-              props.navigation.navigate({ name: 'PostPoem' });
             }}
           />
           <DrawerItem
@@ -125,12 +141,12 @@ export default function DrawerContent(props) {
           <DrawerItem
             icon={({ color, size }) => (
               <MaterialCommunityIcons
-                name="bookmark-outline"
+                name={authStore.isAnonymous ? 'login' : 'logout'}
                 color={color}
                 size={size}
               />
             )}
-            label="Sign Out"
+            label={authStore.isAnonymous ? 'Sign In' : 'Sing Out'}
             onPress={() => {
               authStore.signUserOutAndClear();
             }}

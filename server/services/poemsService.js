@@ -53,7 +53,6 @@ const updateAPoem = async ({
   poemDTO: { id, title, bodyText, isDraft, photoURL, handle },
   userToken
 }) => {
-  console.log('🙋🏽‍♂️', 'updateAPoem');
   let poem = await Poem.findOneAndUpdate(
     { _id: id },
     {
@@ -62,6 +61,7 @@ const updateAPoem = async ({
       isDraft,
       photoURL,
       handle,
+      date: new Date().toISOString(),
       user: userToken && userToken.uid
     },
     {

@@ -14,6 +14,7 @@ export class PoemsStore {
   @persist @observable poemBody;
   @persist @observable poemImage;
   @persist @observable postIntaHandle;
+  @observable reFetchPoem = false;
   @observable draftMode = true;
   @observable readyPoem = {};
 
@@ -112,9 +113,12 @@ export class PoemsStore {
     this.poemID = '';
     this.draftMode = true;
     this.readyPoem = {};
+    this.reFetchPoem = true;
+    setTimeout(() => {
+      this.reFetchPoem = false;
+    }, 3000);
   }
   @action fromDraftToEdit({ poem }) {
-    console.log('👳🏽‍♂️', 'fromDraftToEdit');
     this.clearPresistPoem();
     this.poemID = poem.id;
     this.poemTitle = poem.title;

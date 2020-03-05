@@ -1,12 +1,18 @@
 import React from 'react';
-import { View, Text, Dimensions, StyleSheet } from 'react-native';
+import {
+  View,
+  Linking,
+  Dimensions,
+  StyleSheet,
+  TouchableHighlight
+} from 'react-native';
 import {
   Surface,
   Chip,
   Button,
-  Switch,
+  Subheading,
   Card,
-  Title,
+  Headline,
   Caption,
   Paragraph
 } from 'react-native-paper';
@@ -99,24 +105,47 @@ const CardPoem = observer(
               Draft Mode
             </Chip>
           ) : null}
-          <Card.Title
-            title={poem.title}
-            subtitle={`by: ${poem.handle ? poem.handle : 'ANON'}`}
-            titleStyle={{
-              fontFamily: 'raleway-boldI',
-              fontSize: 20,
-              opacity: 0.8
-            }}
-          />
+          <>
+            <Headline
+              style={{
+                paddingLeft: 12,
+                paddingTop: 8,
+                fontFamily: 'raleway-extraBold',
+                fontSize: 22,
+                opacity: 0.9
+              }}
+            >
+              {poem.title}
+            </Headline>
+            {/* <TouchableHighlight
+              onPress={() => {
+                poem.handle &&
+                  Linking.openURL(`https://instagram.com/${poem.handle}`);
+              }}
+            > */}
+            <Subheading
+              style={{
+                paddingLeft: 12,
+                fontFamily: 'raleway-extraBold',
+                fontSize: 12,
+                opacity: 0.9
+              }}
+            >
+              {`by: ${poem.handle ? poem.handle : 'ANON'}`}
+            </Subheading>
+            {/* </TouchableHighlight> */}
+          </>
           <Card.Content>
-            <Markdown>{poem.bodyText}</Markdown>
+            <Markdown style={markDownStyles}>{poem.bodyText}</Markdown>
           </Card.Content>
           <Card.Actions>
             <View style={styles.actionView}>
               <View style={styles.preference}>
-                <Caption>{moment(poem.date).format(`MMM'YY`)}</Caption>
+                <Caption style={{ fontFamily: 'raleway-extraBold' }}>
+                  {moment(poem.date).format(`MMM'YY`)}
+                </Caption>
                 <View pointerEvents="none">
-                  <Caption>
+                  <Caption style={{ fontFamily: 'raleway-extraBold' }}>
                     Open Poem
                     {/* <MaterialCommunityIcons name="bookmark-outline" size={12} /> */}
                   </Caption>
@@ -129,12 +158,21 @@ const CardPoem = observer(
     );
   }
 );
+const markDownStyles = StyleSheet.create({
+  text: {
+    fontFamily: 'raleway-regular'
+  }
+});
 const styles = StyleSheet.create({
   actionView: {
-    flex: 1
+    flex: 1,
+    fontFamily: 'raleway-extraBold'
   },
 
   preference: {
+    fontFamily: 'raleway-extraBold',
+    fontSize: 12,
+    opacity: 0.8,
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingVertical: 12,

@@ -8,11 +8,22 @@ import {
   List,
   Switch
 } from 'react-native-paper';
+import { useIsFocused } from '@react-navigation/native';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
+import { useAnonMayNotSeeHook } from '../../helpers/useStateHook';
 
-const UserScreen = observer(() => {
+const UserScreen = observer(({ navigation }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
+  const { isAnonUser } = useAnonMayNotSeeHook({
+    message: 'You have sign in To have a Profile'
+  });
+  const isFocused = useIsFocused();
+  useEffect(() => {
+    if (isAnonUser && isFocused) {
+      navigation.goBack();
+    }
+  }, [isFocused]);
   useEffect(() => {
     setstate({ ...authStore.loacalUser });
   }, []);
