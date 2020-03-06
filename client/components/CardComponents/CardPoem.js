@@ -117,8 +117,8 @@ const CardPoem = observer(
               style={{
                 position: 'absolute',
                 top: 10,
-                left: 10,
-                backgroundColor: 'rgb(255, 121, 198)'
+                right: 10,
+                backgroundColor: '#f8981c'
               }}
               icon="information"
             >
@@ -172,17 +172,8 @@ const CardPoem = observer(
                 }
               }}
             >
-              {poem.bodyText.slice(0, 50) + ' ' + '. . .'}
+              {poem.bodyText}
             </Markdown>
-            <Caption
-              style={{
-                fontFamily: poemsStore.handDrawnFont
-                  ? 'Reenie-Beanie'
-                  : 'raleway-extraBold'
-              }}
-            >
-              [LEES MEER | READ MORE]
-            </Caption>
           </Card.Content>
           <Card.Actions>
             <View style={styles.actionView}>

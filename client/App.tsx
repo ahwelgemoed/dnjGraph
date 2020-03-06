@@ -103,6 +103,9 @@ const fontConfig = {
     }
   }
 };
+fontConfig.ios = fontConfig.default;
+fontConfig.android = fontConfig.default;
+fontConfig.web = fontConfig.default;
 const theme = {
   ...DefaultTheme,
   fonts: configureFonts(fontConfig),
@@ -110,7 +113,7 @@ const theme = {
   colors: {
     ...DefaultTheme.colors,
     primary: '#000',
-    accent: '#000'
+    accent: '#457397'
   }
 };
 

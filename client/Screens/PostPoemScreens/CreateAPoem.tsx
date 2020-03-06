@@ -83,12 +83,12 @@ const CreateAPoem = observer(({ route, navigation }) => {
                   <PoemOptions />
                 </View>
                 <View style={styles.item}>
-                  <Surface style={{ marginTop: 20 }}>
+                  <Surface style={{ marginLeft: 20 }}>
                     {poemsStore.poemImage ? (
                       <ImageBackground
                         style={{
-                          height: 200,
-                          paddingTop: 10
+                          height: 200
+                          // paddingTop: 10
                         }}
                         source={{
                           uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`
@@ -96,7 +96,11 @@ const CreateAPoem = observer(({ route, navigation }) => {
                       />
                     ) : null}
                   </Surface>
-                  <Title style={{ paddingLeft: 10 }}>Select Cover Image</Title>
+                  <Title
+                    style={{ paddingLeft: 10, fontFamily: 'raleway-extraBold' }}
+                  >
+                    Select Cover Image
+                  </Title>
                   <Surface style={{ marginTop: 20 }}>
                     <ImageSelector />
                   </Surface>
@@ -120,9 +124,18 @@ const CreateAPoem = observer(({ route, navigation }) => {
               </>
             ) : (
               <ScrollView style={{ flex: 1 }}>
-                <View style={{ width: '100%', alignItems: 'center' }}>
-                  <Headline>Review and Post Poem</Headline>
-                  <Subheading>It's your last Chance</Subheading>
+                <View
+                  style={{
+                    width: '100%',
+                    alignItems: 'center'
+                  }}
+                >
+                  <Headline style={{ fontFamily: 'raleway-extraBold' }}>
+                    Review and Post Poem
+                  </Headline>
+                  <Subheading style={{ fontFamily: 'raleway-boldI' }}>
+                    It's your last Chance
+                  </Subheading>
                   <ReviewPoemandPost
                     navigation={navigation}
                     handleEditClick={() => setstep(false)}
@@ -210,7 +223,8 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start' // if you want to fill rows left to right
   },
   item: {
-    width: '50%' // is 50% of container width
+    marginLeft: 10,
+    width: '45%' // is 50% of container width
   },
   fullwidth: {
     width: '100%' // is 50% of container width
