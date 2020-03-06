@@ -100,7 +100,7 @@ const SignInScreen = observer(({ navigation }) => {
             height: 150,
             alignSelf: 'center',
             position: 'absolute',
-            top: 80
+            top: 40
           }}
           source={dnj}
         />

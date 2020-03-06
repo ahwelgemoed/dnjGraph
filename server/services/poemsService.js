@@ -15,10 +15,18 @@ const getAllActivePoems = ({ dtoArguments }) => {
     result
   ) {
     const { docs, totalDocs, limit, totalPages, nextPage } = result;
+    //  Limit Char Here.slice(0,10)
     return { poems: docs, totalDocs };
   });
 
   return { allPoems };
+};
+const getAPoem = ({ aPoemDTO }) => {
+  if (aPoemDTO) {
+    const aPoem = Poem.findById(aPoemDTO.id);
+    return aPoem;
+  }
+  return;
 };
 const getAllUserDrafts = async ({ dtoArguments, user }) => {
   if (user.uid) {
@@ -104,5 +112,6 @@ module.exports = {
   getAllUserDrafts,
   getAllUserPoems,
   createNewPoem,
+  getAPoem,
   updateAPoem
 };

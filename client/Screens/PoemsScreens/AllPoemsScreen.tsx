@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { View, StyleSheet, FlatList, Dimensions } from 'react-native';
-import { Text, Surface } from 'react-native-paper';
+import { View, StyleSheet, FlatList, Dimensions, Platform } from 'react-native';
+import { Text, Subheading, Headline, Portal, FAB } from 'react-native-paper';
 
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
@@ -9,6 +9,7 @@ import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
 import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
 import CardPoem from '../../components/CardComponents/CardPoem';
 import '@expo/match-media';
+import { Header } from 'react-native/Libraries/NewAppScreen';
 const { width, height } = Dimensions.get('window');
 const PoemsScreen = observer(({ navigation }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
@@ -30,9 +31,9 @@ const PoemsScreen = observer(({ navigation }) => {
   useEffect(() => {
     poemsStore.reFetchPoem && refetch();
   }, [poemsStore.reFetchPoem]);
-  useEffect(() => {
-    refetch();
-  }, [error]);
+  // useEffect(() => {
+  //   refetch();
+  // }, [error]);
   const _handleLoadMore = () => {
     console.log('🔥 : _handleLoadMore was Called');
     if (data.poems) {
@@ -51,11 +52,33 @@ const PoemsScreen = observer(({ navigation }) => {
     }
   };
   if (loading) return <LoadingComponent />;
-  if (error) return <ErrorComponent handleError={refetch} />;
+  if (error) return <ErrorComponent handleError={refetch} error={error} />;
+  const headerCard = () => {
+    return (
+      <>
+        <Headline>WELCOME</Headline>
+        <Subheading>BE BETTER</Subheading>
+      </>
+    );
+  };
   return (
     <View style={[styles.mainLayout]}>
+      {Platform.OS === 'web' && (
+        // <Portal>
+        <FAB
+          onPress={() => navigation.navigate({ name: 'PostPoem' })}
+          icon="feather"
+          style={{
+            position: 'absolute',
+            bottom: 100,
+            right: 50
+          }}
+        />
+        // </Portal>
+      )}
       {data && data.poems ? (
         <FlatList
+          // ListHeaderComponent={headerCard}
           onRefresh={() => refetch()}
           refreshing={loading}
           onEndReached={_handleLoadMore}

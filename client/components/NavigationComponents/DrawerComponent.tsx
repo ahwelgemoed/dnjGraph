@@ -74,6 +74,9 @@ const DrawerContent = observer(props => {
             label="All Poems"
             onPress={() => {
               props.navigation.navigate('AllPoems');
+              setTimeout(() => {
+                props.navigation.closeDrawer();
+              }, 100);
             }}
           />
           <DrawerItem
@@ -87,6 +90,9 @@ const DrawerContent = observer(props => {
             label="Post a Poem"
             onPress={() => {
               props.navigation.navigate({ name: 'PostPoem' });
+              setTimeout(() => {
+                props.navigation.closeDrawer();
+              }, 100);
             }}
           />
           <DrawerItem
@@ -100,6 +106,9 @@ const DrawerContent = observer(props => {
             label="Drafts"
             onPress={() => {
               props.navigation.navigate('Drafts');
+              setTimeout(() => {
+                props.navigation.closeDrawer();
+              }, 100);
             }}
           />
           <DrawerItem
@@ -113,6 +122,9 @@ const DrawerContent = observer(props => {
             label="Posted Poems"
             onPress={() => {
               props.navigation.navigate('UserPoems');
+              setTimeout(() => {
+                props.navigation.closeDrawer();
+              }, 100);
             }}
           />
           <DrawerItem
@@ -126,6 +138,9 @@ const DrawerContent = observer(props => {
             label="Profile"
             onPress={() => {
               props.navigation.navigate({ name: 'UserScreen' });
+              setTimeout(() => {
+                props.navigation.closeDrawer();
+              }, 100);
             }}
           />
           <DrawerItem
@@ -150,12 +165,18 @@ const DrawerContent = observer(props => {
             label={authStore.isAnonymous ? 'Sign In' : 'Sing Out'}
             onPress={() => {
               authStore.signUserOutAndClear();
+              setTimeout(() => {
+                props.navigation.closeDrawer();
+              }, 100);
             }}
           />
         </Drawer.Section>
         <TouchableRipple
           onPress={() => {
             poemsStore.changeFont();
+            setTimeout(() => {
+              props.navigation.closeDrawer();
+            }, 100);
           }}
         >
           <View style={styles.preference}>

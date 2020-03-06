@@ -17,7 +17,7 @@ const PoemOptions = observer(() => {
         <List.Subheader>Options Before Posting</List.Subheader>
         {authStore.loacalUser && authStore.loacalUser.Instagram ? (
           <List.Item
-            title={`Post With as ${authStore.loacalUser.Instagram}`}
+            title={`Post as:  ${authStore.loacalUser.Instagram}`}
             left={() => <IntagramSwitch />}
           />
         ) : (

@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { View } from 'react-native';
 import { Text, Button } from 'react-native-paper';
+import { observer } from 'mobx-react-lite';
+import { RootStoreContext } from '../../store/RootStore';
 
-const ErrorComponent = ({ handleError }) => {
+const ErrorComponent = observer(({ handleError, error }) => {
+  const { poemsStore, authStore } = React.useContext(RootStoreContext);
+  // console.log(error.graphQLErrors.map(({ message }, i) => message));
+  useEffect(() => {
+    const x = error.graphQLErrors.map(({ message }, i) => message);
+    authStore.showSnack({ message: x[0] });
+  }, [error]);
   return (
     <View
       style={{
@@ -17,6 +25,6 @@ const ErrorComponent = ({ handleError }) => {
       </Button>
     </View>
   );
-};
+});
 
 export default ErrorComponent;

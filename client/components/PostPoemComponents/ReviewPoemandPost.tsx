@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
@@ -15,6 +15,7 @@ import {
 } from 'react-native-paper';
 import CardPoem from '../CardComponents/CardPoem.js';
 import DraftModeSwitch from './DraftModeSwitch';
+import AddInstagramhandle from '../UtilComponents/AddInstagramhandle';
 import IntagramSwitch from './IntagramSwitch';
 
 const ReviewPoemandPost = observer(({ navigation, handleEditClick }) => {
@@ -32,7 +33,12 @@ const ReviewPoemandPost = observer(({ navigation, handleEditClick }) => {
       }
     }
   });
-
+  useEffect(() => {
+    if (error) {
+      const x = error.graphQLErrors.map(({ message }, i) => message);
+      authStore.showSnack({ message: x[0] });
+    }
+  }, [error]);
   const postPoemToServer = async () => {
     const tempPoem = {
       user: authStore.userGraph.id,
@@ -60,30 +66,34 @@ const ReviewPoemandPost = observer(({ navigation, handleEditClick }) => {
           bodyText: poemsStore.poemBody
         }}
       />
-      <View style={styles.preference}>
-        {poemsStore.postIntaHandle ? (
-          <>
+      {authStore.loacalUser && authStore.loacalUser.Instagram ? (
+        <View style={styles.preference}>
+          {poemsStore.postIntaHandle ? (
+            <>
+              <View style={[{ width: '70%' }]}>
+                <Paragraph style={[styles.paragraph]}>
+                  Post with Instagram{' '}
+                </Paragraph>
+                <Caption style={{ width: '70%' }}>
+                  it will display as "{authStore.loacalUser.Instagram}"
+                </Caption>
+              </View>
+            </>
+          ) : (
             <View style={[{ width: '70%' }]}>
               <Paragraph style={[styles.paragraph]}>
-                Post with Instagram{' '}
+                Post without Instagram{' '}
               </Paragraph>
               <Caption style={{ width: '70%' }}>
-                it will display as "{authStore.loacalUser.Instagram}"
+                it will display as "ANON"
               </Caption>
             </View>
-          </>
-        ) : (
-          <View style={[{ width: '70%' }]}>
-            <Paragraph style={[styles.paragraph]}>
-              Post without Instagram{' '}
-            </Paragraph>
-            <Caption style={{ width: '70%' }}>
-              it will display as "ANON"
-            </Caption>
-          </View>
-        )}
-        <IntagramSwitch />
-      </View>
+          )}
+          <IntagramSwitch />
+        </View>
+      ) : (
+        <AddInstagramhandle />
+      )}
       <View style={styles.preference}>
         {poemsStore.draftMode ? (
           <>

@@ -38,7 +38,7 @@ const Tabs = () => (
     />
     <TabsStack.Screen
       options={{
-        tabBarIcon: 'pencil-outline'
+        tabBarIcon: 'feather'
       }}
       name="PostPoem"
       component={CreateScreenStack}
@@ -86,11 +86,31 @@ const PoemsScreenStack = withTheme(props => (
       ...MyTransition
     }}
   >
-    <HomeStack.Screen name="AllPoems" component={AllPoemsScreen} />
-    <HomeStack.Screen name="Drafts" component={DraftScreens} />
-    <HomeStack.Screen name="UserPoems" component={UserPoemScreen} />
-    <HomeStack.Screen name="UserScreen" component={UserScreen} />
-    <HomeStack.Screen name="PostPoem" component={CreateAPoem} />
+    <HomeStack.Screen
+      name="AllPoems"
+      component={AllPoemsScreen}
+      options={{ title: 'All Poetry' }}
+    />
+    <HomeStack.Screen
+      name="Drafts"
+      component={DraftScreens}
+      options={{ title: 'Your Draft Poems' }}
+    />
+    <HomeStack.Screen
+      name="UserPoems"
+      component={UserPoemScreen}
+      options={{ title: 'All Your Poems' }}
+    />
+    <HomeStack.Screen
+      name="UserScreen"
+      component={UserScreen}
+      options={{ title: 'Account Screen' }}
+    />
+    <HomeStack.Screen
+      name="PostPoem"
+      component={CreateAPoem}
+      options={{ title: 'Post Thy Self' }}
+    />
 
     <HomeStack.Screen
       options={({ route }) => ({

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {
   View,
   Linking,
@@ -24,12 +24,15 @@ import { RootStoreContext } from '../../store/RootStore';
 import { liveEndPoint } from '../../helpers';
 const { width, height } = Dimensions.get('window');
 import { useNavigation } from '@react-navigation/native';
+import { useHover, useFocus, useActive } from 'react-native-web-hooks';
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 // ReenieBeanie
 const CardPoem = observer(
   ({ poem, navigation = null, turnOffViewWitdht, view }) => {
     const { poemsStore } = React.useContext(RootStoreContext);
+    const ref = useRef(null);
+    const isHovered = useHover(ref);
     const isDesktopOrLaptop = useMediaQuery({
       query: '(min-device-width: 1224px)'
     });
@@ -63,21 +66,34 @@ const CardPoem = observer(
       >
         {/* http://localhost:4000/public/img/imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg */}
         <Card
-          style={{
-            alignSelf: 'center',
-            width: isDesktopOrLaptop ? 480 : width * 0.9,
-            marginTop: 10,
-            marginBottom: 10,
-            borderRadius: 20,
-            shadowColor: '#000',
-            shadowOffset: {
-              width: 0,
-              height: 3
+          ref={ref}
+          style={[
+            {
+              alignSelf: 'center',
+              width: isDesktopOrLaptop ? 480 : width * 0.9,
+              marginTop: 10,
+              marginBottom: 10,
+              borderRadius: 20,
+              shadowColor: '#000',
+              shadowOffset: {
+                width: 0,
+                height: 3
+              },
+              shadowOpacity: 0.29,
+              shadowRadius: 4.65,
+              elevation: 7
             },
-            shadowOpacity: 0.29,
-            shadowRadius: 4.65,
-            elevation: 7
-          }}
+            isHovered && {
+              shadowColor: '#000',
+              shadowOffset: {
+                width: 0,
+                height: 5
+              },
+              shadowOpacity: 0.34,
+              shadowRadius: 6.27,
+              elevation: 10
+            }
+          ]}
           onPress={() => whereToNavigate()}
         >
           {poem.photoURL ? (
@@ -156,8 +172,17 @@ const CardPoem = observer(
                 }
               }}
             >
-              {poem.bodyText}
+              {poem.bodyText.slice(0, 50) + ' ' + '. . .'}
             </Markdown>
+            <Caption
+              style={{
+                fontFamily: poemsStore.handDrawnFont
+                  ? 'Reenie-Beanie'
+                  : 'raleway-extraBold'
+              }}
+            >
+              [LEES MEER | READ MORE]
+            </Caption>
           </Card.Content>
           <Card.Actions>
             <View style={styles.actionView}>
@@ -171,17 +196,7 @@ const CardPoem = observer(
                 >
                   {moment(poem.date).format(`MMM'YY`)}
                 </Caption>
-                <View pointerEvents="none">
-                  <Caption
-                    style={{
-                      fontFamily: poemsStore.handDrawnFont
-                        ? 'Reenie-Beanie'
-                        : 'raleway-extraBold'
-                    }}
-                  >
-                    Open Poem
-                  </Caption>
-                </View>
+                <View pointerEvents="none"></View>
               </View>
             </View>
           </Card.Actions>

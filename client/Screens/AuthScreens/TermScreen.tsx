@@ -14,7 +14,7 @@ const TermScreen = ({ navigation }) => {
         icon="lock"
         onPress={() => navigation.goBack()}
       />
-      <ScrollView style={{ flex: 1 }}>
+      <ScrollView style={{ flex: 1, width: '60%', alignSelf: 'center' }}>
         <View style={styles.mainContent}>
           <Text style={styles.name}>Dis Net Jy V 1.00</Text>
           <Text style={styles.handle}>Copyright (c) 2020 A.H.Welgemoed</Text>

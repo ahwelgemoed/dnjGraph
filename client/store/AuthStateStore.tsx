@@ -120,6 +120,12 @@ export class AuthStateStore {
       messageToUser: 'Profile Updated!'
     };
   }
+  @action async showSnack({ message }) {
+    this.showAuthSnack = {
+      funcCalled: 'showSnack',
+      messageToUser: message
+    };
+  }
   @action signUserOutAndClear() {
     console.log('signUserOutAndClearsignUserOutAndClear', this.isAuthed);
     firebase.auth().signOut();

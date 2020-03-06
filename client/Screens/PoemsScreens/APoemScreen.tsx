@@ -67,7 +67,7 @@ const APoemScreen = observer(({ route, navigation }) => {
 
         <View
           style={{
-            backgroundColor: 'rgba(255,255,255,0.9)',
+            backgroundColor: 'rgba(255,255,255,0.95)',
             marginTop: isDesktopOrLaptop ? height * 0.45 : -height * 0.15,
             // position: 'absolute',
             // top: height * 0.5,
