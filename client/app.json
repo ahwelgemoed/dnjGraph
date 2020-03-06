@@ -6,7 +6,7 @@
     "sdkVersion": "36.0.0",
     "platforms": ["ios", "android", "web"],
     "scheme": "dnj",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/DNJICON.png",
     "splash": {
@@ -19,7 +19,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
-      "versionCode": 27,
+      "versionCode": 28,
       "package": "com.disnetons.googlesignin",
       "googleServicesFile": "./google-services.json"
     },
