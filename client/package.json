@@ -6,6 +6,10 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build-web": "expo build:web",
+    "build-ios": "expo build:ios",
+    "build-android": "expo build:android",
+    "upload-ios": "expo upload:ios",
+    "upload-android": "expo upload:android",
     "eject": "expo eject"
   },
   "dependencies": {

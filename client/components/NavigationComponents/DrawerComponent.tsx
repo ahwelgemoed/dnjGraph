@@ -15,6 +15,7 @@ import {
   TouchableRipple,
   Switch
 } from 'react-native-paper';
+import dnj from '../../assets/images/DNJW.png';
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
@@ -29,12 +30,7 @@ const DrawerContent = observer(props => {
     >
       <View style={styles.drawerContent}>
         <View style={styles.userInfoSection}>
-          <Avatar.Image
-            source={{
-              uri: 'http://www.disnetjy.com/newlogo.png'
-            }}
-            size={50}
-          />
+          <Avatar.Image source={dnj} size={70} />
           <Title style={styles.title}>Dis Net Jy</Title>
           {authStore.isAnonymous && (
             <Chip

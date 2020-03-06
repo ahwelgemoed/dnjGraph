@@ -21,10 +21,13 @@ const SignInScreen = observer(({ navigation }) => {
     query: '(min-device-width: 1224px)'
   });
   const submitToFirebase = ({ email, password }) => {
+    if (!email || !password) {
+      return;
+    }
     // firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL).then(() =>
     authStore.firebase
       .auth()
-      .signInWithEmailAndPassword(email, password)
+      .signInWithEmailAndPassword(email.trim(), password)
       .then(({ user }) => {
         return authStore.logUserInAndSetTokenInStorage({
           user,
@@ -35,7 +38,7 @@ const SignInScreen = observer(({ navigation }) => {
   const SingInForm = () => {
     return (
       <Formik
-        initialValues={{ email: 'test@test.com', password: '123123' }}
+        initialValues={{ email: '', password: '' }}
         onSubmit={values => submitToFirebase(values)}
       >
         {({ handleChange, handleBlur, handleSubmit, values }) => (

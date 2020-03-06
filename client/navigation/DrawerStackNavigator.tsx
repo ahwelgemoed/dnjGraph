@@ -31,6 +31,7 @@ const Tabs = () => (
   <TabsStack.Navigator shifting={true} sceneAnimationEnabled={false}>
     <TabsStack.Screen
       options={{
+        title: 'All Poetry',
         tabBarIcon: 'message-text-outline'
       }}
       name="AllPoems"
@@ -38,6 +39,7 @@ const Tabs = () => (
     />
     <TabsStack.Screen
       options={{
+        title: 'Post Thyself',
         tabBarIcon: 'feather'
       }}
       name="PostPoem"
@@ -109,7 +111,7 @@ const PoemsScreenStack = withTheme(props => (
     <HomeStack.Screen
       name="PostPoem"
       component={CreateAPoem}
-      options={{ title: 'Post Thy Self' }}
+      options={{ title: 'Post Thyself' }}
     />
 
     <HomeStack.Screen

@@ -22,10 +22,12 @@ const SignUpScreen = observer(({ navigation }) => {
     query: '(min-device-width: 1224px)'
   });
   const submitToFirebase = ({ email, password }) => {
-    // firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL).then(() =>
+    if (!email || !password) {
+      return;
+    }
     authStore.firebase
       .auth()
-      .createUserWithEmailAndPassword(email, password)
+      .createUserWithEmailAndPassword(email.trim(), password)
       .then(({ user }) => {
         return authStore.logUserInAndSetTokenInStorage({
           user,
