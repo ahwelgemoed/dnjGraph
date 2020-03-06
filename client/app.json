@@ -1,26 +1,35 @@
 {
   "expo": {
-    "name": "DISNETJY",
-    "slug": "dnjGraph",
+    "name": "Dis Net Jy",
+    "slug": "klyntjidnj",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": ["ios", "android", "web"],
-
     "scheme": "dnj",
-    "version": "1.0.0",
+    "version": "3.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/DNJICON.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/splash-03.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
+    "android": {
+      "versionCode": 27,
+      "package": "com.disnetons.googlesignin",
+      "googleServicesFile": "./google-services.json"
+    },
+    "facebookScheme": "fb433863794055791",
+    "facebookAppId": "433863794055791",
+    "facebookDisplayName": "DisNetJy",
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.disnetjy.ahwelgemoed"
+    },
+    "description": ""
   }
 }
