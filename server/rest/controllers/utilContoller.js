@@ -17,7 +17,7 @@ const uploader = async (req, res, next) => {
       title: e.name,
       bodyText: e.body.replace(regex, ''),
       isDraft: false,
-      isDraft: true,
+      isOld: true,
       photoURL: null,
       date: moment.unix(e.date).format(),
       handle: e.handle,

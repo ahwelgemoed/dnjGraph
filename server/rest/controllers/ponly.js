@@ -1,9 +1,5 @@
 const p = {
   '03FQWXLhrZNtvQJH6vKF': {
-    date: 1559241904,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: '03FQWXLhrZNtvQJH6vKF',
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -11,9 +7,14 @@ const p = {
     body:
       '"Scary stuff, \nmaar hier\'s dit nou..." \n\nEk het vir jou\nʼn gedig geskryf;\njy het ge-fokken-vrá.\n\n[blue\nticked]\n\nWtf. ',
     reported: false,
+    date: 1559241904,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: '03FQWXLhrZNtvQJH6vKF',
+    bookmarkedCount: 1,
     __collections__: {}
   },
   '063FFiguSSiyOMamnuOr': {
+    activeTema: null,
     richText: true,
     handle: 'eks.talita.x',
     name: '*Vat n sigaret*',
@@ -29,7 +30,6 @@ const p = {
     repliedTo: null,
     date: 1571957246,
     uid: 'JHJKjVGw91WEP15WhKbxHjOUcd12',
-    activeTema: null,
     __collections__: {}
   },
   '0Eya7LwLlQ2YcN0ALCpI': {
@@ -51,6 +51,11 @@ const p = {
     __collections__: {}
   },
   '0Fx0NGzR6ZjBVUp1W8Du': {
+    id: '0Fx0NGzR6ZjBVUp1W8Du',
+    bookmarkedCount: 0,
+    mongo_id: '5c7d3e37cbaba00015458f24',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Die aakligste aand van my lewe',
     body:
@@ -58,11 +63,6 @@ const p = {
     reported: false,
     date: 1551711799,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '0Fx0NGzR6ZjBVUp1W8Du',
-    bookmarkedCount: 0,
-    mongo_id: '5c7d3e37cbaba00015458f24',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '0HnWMaYZcYksPqy57phJ': {
@@ -85,6 +85,10 @@ const p = {
     __collections__: {}
   },
   '0Jkc8y4xPHhjLsF7wuh8': {
+    id: '0Jkc8y4xPHhjLsF7wuh8',
+    bookmarkedCount: 1,
+    mongo_id: '5bf0707cdb11e20014aaf05b',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Ps',
@@ -92,13 +96,10 @@ const p = {
     reported: false,
     date: 1542484093,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '0Jkc8y4xPHhjLsF7wuh8',
-    bookmarkedCount: 1,
-    mongo_id: '5bf0707cdb11e20014aaf05b',
-    nsfw: false,
     __collections__: {}
   },
   '0O0tQTYbMKPM7DDARRcD': {
+    bookmarkedCount: 0,
     mongo_id: '5c0596cb68abef0014d2caed',
     nsfw: false,
     adminNotes: 'None',
@@ -109,12 +110,9 @@ const p = {
     date: 1543870155,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '0O0tQTYbMKPM7DDARRcD',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '0PFdX6PmH7FHMmBoStez': {
-    date: 1562064521,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: '0PFdX6PmH7FHMmBoStez',
     bookmarkedCount: 0,
     nsfw: false,
@@ -123,9 +121,12 @@ const p = {
     name: 'in swart-en-wit ',
     body: 'op die paaie van\nmy palms\nskyn/skuil\ndie\nson(de) ',
     reported: false,
+    date: 1562064521,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     __collections__: {}
   },
   '0Rod7A077oA1MmRsVN1m': {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'A',
@@ -136,13 +137,9 @@ const p = {
     id: '0Rod7A077oA1MmRsVN1m',
     bookmarkedCount: 0,
     mongo_id: '5c7d7620cbaba00015458f26',
-    nsfw: false,
     __collections__: {}
   },
   '0Sa1vuLc3b081l9JnGTT': {
-    activeTema: null,
-    richText: true,
-    handle: 'mabethc',
     name: 'Seemymering',
     canReply: true,
     id: '0Sa1vuLc3b081l9JnGTT',
@@ -156,10 +153,12 @@ const p = {
     repliedTo: null,
     date: 1576265966,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
+    activeTema: null,
+    richText: true,
+    handle: 'mabethc',
     __collections__: {}
   },
   '0T0MJZBb4hOG0rFLMAOZ': {
-    adminNotes: 'None',
     handle: '',
     name: 'Goed',
     body:
@@ -171,20 +170,21 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b6c23462b2c90001484bf42',
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '0TTIQixyM7dgyezO3ouC': {
-    bookmarkedCount: 1,
-    mongo_id: '5b521e2cbbf8af0014a1d404',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'en nou?',
     body: 'Toe dit gevra was wou ek nie, nou dat dit stil is kom dit van self.',
     reported: false,
     date: 1532108333,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '0TTIQixyM7dgyezO3ouC',
+    bookmarkedCount: 1,
+    mongo_id: '5b521e2cbbf8af0014a1d404',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '0VcRhS3ieeeoo15ly8mT': {
@@ -218,10 +218,6 @@ const p = {
     __collections__: {}
   },
   '0Z4lBJOXIgLKRVX1Ghie': {
-    name: 'thoughtpoem',
-    reported: false,
-    body:
-      'ek vergelyk jou \nhande \nmet dieselfde \nhande \nwat die bougainvillea\n\nso òrals!\nnet \n\ngesaai het.',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1551273261,
     id: '0Z4lBJOXIgLKRVX1Ghie',
@@ -230,9 +226,14 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: 'Vroudrie',
+    name: 'thoughtpoem',
+    reported: false,
+    body:
+      'ek vergelyk jou \nhande \nmet dieselfde \nhande \nwat die bougainvillea\n\nso òrals!\nnet \n\ngesaai het.',
     __collections__: {}
   },
   '0ZEnbXEHP2vIiDVEaHOK': {
+    adminNotes: 'None',
     body:
       "<div><p><span>Ek sit in die aller mooiste tuin</span></p><p><span>Ek kyk op en sien 'n ou man </span></p><p><span>wat by sy venster uit kyk</span></p><p><span></span></p><p><span>Waarna kyk hy </span></p><p><span>Is dit omdat dit somer is en die blare is groen en die mooiste blomme blom of is dit dat hy kyk hoe daar in boom is in die mooiste tuin wat dood gegaan het en geen blare mee dra</span></p><p><span></span></p><p><span>Is dit nie so ironies is dis hoe die mensdom ook geskaape is. Jys jonk dan word jy voor jy jouself kon kry oud en oor die muur.</span></p><p><span></span></p><p><span>Een geluk is daar vir elke ou boom wat afgekap word, word daar 'n nuwe boom geplant om weer groen blare te dra</span></p></div>",
     reported: false,
@@ -248,7 +249,6 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '0ZUgT9KHMc9vEVB1sVUj': {
@@ -269,13 +269,6 @@ const p = {
     __collections__: {}
   },
   '0a5uMCTQioj1b2utQX8d': {
-    adminNotes: 'None',
-    body:
-      '<div><p><span>jy lewe syne</span></p><p><span>want dis makliker</span></p><p><span>as om te erken</span></p><p><span>dat jy wegkruip </span></p><p><span>van joune</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1578553378,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -285,26 +278,30 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>jy lewe syne</span></p><p><span>want dis makliker</span></p><p><span>as om te erken</span></p><p><span>dat jy wegkruip </span></p><p><span>van joune</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1578553378,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     __collections__: {}
   },
   '0aAMwCd6KUcuwiBC8pMm': {
+    date: 1550219947,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '0aAMwCd6KUcuwiBC8pMm',
+    bookmarkedCount: 0,
+    mongo_id: '5c667aab80ec3300151d5cea',
     nsfw: false,
     adminNotes: 'None',
     handle: 'handyandy.art',
     name: 'Sorrie',
     body: 'Ek was die ou wat die middelste cubicle gebruik het',
     reported: false,
-    date: 1550219947,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '0aAMwCd6KUcuwiBC8pMm',
-    bookmarkedCount: 0,
-    mongo_id: '5c667aab80ec3300151d5cea',
     __collections__: {}
   },
   '0cCUzTC7RQQH4Xu9LGzd': {
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'I gave you my all',
     body:
@@ -313,9 +310,14 @@ const p = {
     date: 1559491420,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '0cCUzTC7RQQH4Xu9LGzd',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '0emrSTlsnubMdeHPJl2r': {
+    id: '0emrSTlsnubMdeHPJl2r',
+    bookmarkedCount: 0,
     mongo_id: '5c214b70db22a30014dd43a1',
     nsfw: false,
     adminNotes: 'None',
@@ -325,11 +327,10 @@ const p = {
     reported: false,
     date: 1545685873,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '0emrSTlsnubMdeHPJl2r',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '0gbhbaOyfQ0FCzTyJVKW': {
+    adminNotes: 'None',
     handle: '',
     name: 'Krismis2020',
     reported: false,
@@ -340,10 +341,15 @@ const p = {
     id: '0gbhbaOyfQ0FCzTyJVKW',
     bookmarkedCount: 1,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '0jNfCHOPNBrRO7NhivNk': {
+    body:
+      '<div><p><span>Dis soos die wind</span></p><p><span>Dis soos jy, </span></p><p><span></span></p><p><span>Dis beter om mekaar so te verloor -</span></p><p><span>Terwyl die seks nog seks is nie liefde maak nie</span><span>.</span></p><p><span>Voor jy my weer maak rook, en my kop verloor,</span></p><p><span>Dis amper kersfees</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1573670698,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
     handle: '',
@@ -354,18 +360,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Dis soos die wind</span></p><p><span>Dis soos jy, </span></p><p><span></span></p><p><span>Dis beter om mekaar so te verloor -</span></p><p><span>Terwyl die seks nog seks is nie liefde maak nie</span><span>.</span></p><p><span>Voor jy my weer maak rook, en my kop verloor,</span></p><p><span>Dis amper kersfees</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1573670698,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   '0sScxKGqS0MoIMkpxFWe': {
-    date: 1558802555,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: '0sScxKGqS0MoIMkpxFWe',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -373,6 +370,9 @@ const p = {
     name: 'Wel... ',
     body: '... is meeste dinge nie maar nie? ',
     reported: false,
+    date: 1558802555,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: '0sScxKGqS0MoIMkpxFWe',
     __collections__: {}
   },
   '11uhosR0xwt5aqu0qxXu': {
@@ -395,6 +395,8 @@ const p = {
     __collections__: {}
   },
   '14INTmx0T91q4lbAD1uq': {
+    bookmarkedCount: 0,
+    mongo_id: '5cbee5001015cc0015ffcbeb',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -404,8 +406,6 @@ const p = {
     date: 1556014337,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '14INTmx0T91q4lbAD1uq',
-    bookmarkedCount: 0,
-    mongo_id: '5cbee5001015cc0015ffcbeb',
     __collections__: {}
   },
   '14fKdcVjDcEOkDPK857C': {
@@ -424,8 +424,6 @@ const p = {
     __collections__: {}
   },
   '1BzzwGtwlS1ijkavogmu': {
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    date: 1561751201,
     id: '1BzzwGtwlS1ijkavogmu',
     bookmarkedCount: 1,
     nsfw: false,
@@ -435,11 +433,11 @@ const p = {
     reported: false,
     body:
       'naïwe rymwoorde \nis onnodige moorde \nvanuit dieselfde ou oorde \n\nmoeg. uitgedien. holrug gery\npoësie deur niemand beny\nskiet deur oog en elke sy \n\ntradisie is dood\ngod blykbaar ook\ndie gaan op in rook \n\ngedig moet nou ent kry\nwoorde wil net vry\nmaar ek is bly\n\nhierdie\nis ook nou\nuiteindelik verby\n \n \n\n\n',
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    date: 1561751201,
     __collections__: {}
   },
   '1DQQj6HjvYXAohpXGXII': {
-    date: 1544309282,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '1DQQj6HjvYXAohpXGXII',
     bookmarkedCount: 0,
     mongo_id: '5c0c4a21837ae4001429db42',
@@ -450,12 +448,11 @@ const p = {
     body:
       "Jy't my gespeel soos 'n marionet. Toe jy klaar was en genoeg gehad het, het jy my toue geknip, want jy wou my nie langer aan 'n lyntjie hou nie. Nou tel ek maar self my stukkies op en hoop iemand hou van gebreekte, tweede handse speelgoed...",
     reported: false,
+    date: 1544309282,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   '1JwN5Aik5pCC0OkS7Pg7': {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: 'stefanyseymore',
     name: 'god.',
     reported: false,
@@ -465,10 +462,12 @@ const p = {
     date: 1569654546,
     id: '1JwN5Aik5pCC0OkS7Pg7',
     bookmarkedCount: 2,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   '1K6MQhH9Xp0KLlhWOKBw': {
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -480,26 +479,24 @@ const p = {
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     id: '1K6MQhH9Xp0KLlhWOKBw',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   '1Qd7NrqqYh2j9vtluXgH': {
-    date: 1562186911,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '1Qd7NrqqYh2j9vtluXgH',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'spreek Hermes, die dienaar (kan nie anders as om te) luister',
     body:
       'internet uiteindelik sorted. en wat werk? \n\nalles behalwe facebook en whatsapp en instagram. ',
     reported: false,
+    date: 1562186911,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '1Qd7NrqqYh2j9vtluXgH',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   '1V5n0UDLslZDZKXKJuwO': {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       '<div><p><span>Wanneer ek alleen voel vereenselwig ek my met die lirieke van liedjies wat ek weet ek nooit self sal kan skryf nie</span></p><p><span></span></p></div>',
     reported: false,
@@ -512,9 +509,15 @@ const p = {
     canReply: true,
     id: '1V5n0UDLslZDZKXKJuwO',
     repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '1X96qeK7IojdGFjD7p0o': {
+    richText: true,
+    handle: '',
+    name: 'Elke dag en nag',
     canReply: true,
     id: '1X96qeK7IojdGFjD7p0o',
     repliedToName: null,
@@ -528,14 +531,9 @@ const p = {
     date: 1577360463,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Elke dag en nag',
     __collections__: {}
   },
   '1XEh4s505h2lwpaAMJpX': {
-    date: 1555525254,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '1XEh4s505h2lwpaAMJpX',
     bookmarkedCount: 0,
     mongo_id: '5cb76e85437fe300154d1ed2',
@@ -545,6 +543,8 @@ const p = {
     name: 'Life',
     body: 'Gister se drome\nVandag se nagmerries',
     reported: false,
+    date: 1555525254,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   '1YDEFdFdrdRGKHpt44sZ': {
@@ -565,7 +565,6 @@ const p = {
     __collections__: {}
   },
   '1aMwkkb5TJtzEaqfKz4E': {
-    id: '1aMwkkb5TJtzEaqfKz4E',
     bookmarkedCount: 0,
     mongo_id: '5b64897c9e6b9f001417fb33',
     nsfw: false,
@@ -576,9 +575,14 @@ const p = {
     reported: false,
     date: 1533315453,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '1aMwkkb5TJtzEaqfKz4E',
     __collections__: {}
   },
   '1agI96MYwF8kAtltH2rw': {
+    richText: true,
+    handle: 'mabethc',
+    name: 'Pharos-verligting ',
+    canReply: true,
     id: '1agI96MYwF8kAtltH2rw',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -591,30 +595,23 @@ const p = {
     date: 1578435936,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     activeTema: null,
-    richText: true,
-    handle: 'mabethc',
-    name: 'Pharos-verligting ',
-    canReply: true,
     __collections__: {}
   },
   '1azPFkpH8j0T6DucMJPA': {
-    adminNotes: 'None',
-    handle: '',
-    name: 'Dreineer My',
-    body: 'Ek lê kaal in die reën en wag dat my gevoelens wegspoel',
-    reported: false,
     date: 1558378495,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '1azPFkpH8j0T6DucMJPA',
     bookmarkedCount: 1,
     mongo_id: '5ce2f7fe0d18bf00151c5caa',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'Dreineer My',
+    body: 'Ek lê kaal in die reën en wag dat my gevoelens wegspoel',
+    reported: false,
     __collections__: {}
   },
   '1bYCDJDXn28Jtmfwf6eL': {
-    bookmarkedCount: 0,
-    mongo_id: '5c339762a0d9fe0015e0c2cf',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '🍃🍃',
@@ -624,13 +621,12 @@ const p = {
     date: 1546884963,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '1bYCDJDXn28Jtmfwf6eL',
+    bookmarkedCount: 0,
+    mongo_id: '5c339762a0d9fe0015e0c2cf',
+    nsfw: false,
     __collections__: {}
   },
   '1iwDcxLmYyBxonZKgOnb': {
-    name: 'Winter is op ons',
-    body:
-      'Winter is op ons, \nmis toe gevou in serpe en wit kop berge,\ndonker oggende,\nduisend blaai briewe\nwat nêrens gaan,\nkaggel rook stink ons baaitjies op\nrooi wyn gesprekke\nwat in sirkels navigeer, \ngeen resolusie, \nnet hoop. ',
-    reported: false,
     date: 1532430050,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '1iwDcxLmYyBxonZKgOnb',
@@ -639,9 +635,18 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'Winter is op ons',
+    body:
+      'Winter is op ons, \nmis toe gevou in serpe en wit kop berge,\ndonker oggende,\nduisend blaai briewe\nwat nêrens gaan,\nkaggel rook stink ons baaitjies op\nrooi wyn gesprekke\nwat in sirkels navigeer, \ngeen resolusie, \nnet hoop. ',
+    reported: false,
     __collections__: {}
   },
   '1ljCUqcyyQWsia88AGzw': {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Nog nie,',
+    canReply: true,
     id: '1ljCUqcyyQWsia88AGzw',
     repliedToName: 'Dis genoeg.',
     bookmarkedCount: 0,
@@ -652,15 +657,9 @@ const p = {
     repliedTo: '0ZUgT9KHMc9vEVB1sVUj',
     date: 1578667041,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Nog nie,',
-    canReply: true,
     __collections__: {}
   },
   '1nBkfj0JdHvqwe2lz5tE': {
-    bookmarkedCount: 0,
     mongo_id: '5b636bf01a8f6200143fac5b',
     nsfw: false,
     adminNotes: 'None',
@@ -672,13 +671,10 @@ const p = {
     date: 1533242352,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '1nBkfj0JdHvqwe2lz5tE',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '1rz5Fdjndh0sXSvDrfwE': {
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    date: 1564858106,
-    id: '1rz5Fdjndh0sXSvDrfwE',
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -687,28 +683,27 @@ const p = {
     reported: false,
     body:
       "<div><p><span></span><span>en ek weet nie:</span></p><p><span></span></p><p><span>hoe om haar uit te kry nie </span></p><p><span>hoe om haar uit te hou nie </span></p><p><span>of ek haar wil uithê nie</span></p><p><span>of ek haar wil uithou nie</span></p><p><span></span></p><p><span>jy't my wese kom aanval... </span></p><p><span></span></p><p><span>en          </span></p><p><span>           ek </span></p><p><span>dink </span></p><p><span>           ek </span></p><p><span>word </span></p><p><span>           mal. </span></p></div>",
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    date: 1564858106,
+    id: '1rz5Fdjndh0sXSvDrfwE',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '1tGd8RAjuEevk4uJscdw': {
-    date: 1562363923,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
-    id: '1tGd8RAjuEevk4uJscdw',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Stille nag',
     body:
       "Ek sit en wag vir nog n rit\nMy gedagtes bly maal\nWat is goed in die lewe.\nSien jong mense party\nHappy en sonder worries\nKan mens nie van voor begin\n\n'n begin van n nuwe op n ander plek. \nPlek van no worries\nPlek van rustigheid\n'n plek vèr van hier\nWaar niemand jou ken\nKen waardeur jy al is.\n\nOp die ou end niemand verstaan jou hart begeertes\nBegeertes wat jy nie hier gaan kry\nSolank jy hier is vir almal behalwe vir jouself\n\n\n\n",
     reported: false,
+    date: 1562363923,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
+    id: '1tGd8RAjuEevk4uJscdw',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   '1xqe9oOnR5ojSzo3aT4u': {
-    nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>elke keer as ek ‘n vuil, silwer polo met ‘n CL nommerplaat en ‘n duik aan sy agterkant sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span>elke keer as ek ‘n vuil, silwer polo met ‘n CL nommerplaat en ‘n duik sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span></span><span>elke keer as ek ‘n vuil, silwer polo met ‘n CL nommerplaat sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span>elke keer as ek ‘n vuil, silwer polo sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span>elke keer as ek ‘n silwer polo sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span>elke keer as ek ‘n polo sien, dink ek nogsteeds aan jou</span></p><p><span></span></p><p><span>elke keer as ek sien, dink ek nogsteeds aan jou</span></p><p><span></span></p><p><span>elke keer as ek dink, sien ek jou</span></p><p><span></span></p><p><span>god</span></p><p><span></span></p><p><span></span></p></div>',
-    reported: false,
     repliedTo: null,
     date: 1571957390,
     uid: 'nCoc4n9qFnVpOTODcPMd6K1T7rJ2',
@@ -720,11 +715,14 @@ const p = {
     id: '1xqe9oOnR5ojSzo3aT4u',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>elke keer as ek ‘n vuil, silwer polo met ‘n CL nommerplaat en ‘n duik aan sy agterkant sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span>elke keer as ek ‘n vuil, silwer polo met ‘n CL nommerplaat en ‘n duik sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span></span><span>elke keer as ek ‘n vuil, silwer polo met ‘n CL nommerplaat sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span>elke keer as ek ‘n vuil, silwer polo sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span>elke keer as ek ‘n silwer polo sien, dink ek nogsteeds aan jou </span></p><p><span></span></p><p><span>elke keer as ek ‘n polo sien, dink ek nogsteeds aan jou</span></p><p><span></span></p><p><span>elke keer as ek sien, dink ek nogsteeds aan jou</span></p><p><span></span></p><p><span>elke keer as ek dink, sien ek jou</span></p><p><span></span></p><p><span>god</span></p><p><span></span></p><p><span></span></p></div>',
+    reported: false,
     __collections__: {}
   },
   '1yyEubtPN2fB7ig4PAYS': {
-    mongo_id: '5ccdd5642f998a0015075a6a',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Time Machine',
@@ -734,9 +732,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '1yyEubtPN2fB7ig4PAYS',
     bookmarkedCount: 0,
+    mongo_id: '5ccdd5642f998a0015075a6a',
+    nsfw: false,
     __collections__: {}
   },
   '21TgLD4DJRhzxmhIF9JG': {
+    mongo_id: '5c076b3dac70f70014136fb7',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Kammakastig',
@@ -747,14 +749,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '21TgLD4DJRhzxmhIF9JG',
     bookmarkedCount: 0,
-    mongo_id: '5c076b3dac70f70014136fb7',
-    nsfw: false,
     __collections__: {}
   },
   '21UlJPNyZh2IrtHmPhHD': {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Ek het gedink dit gaan baie ve</span><span>rkeerd </span></p><p><span>Voel d</span><span>ie gelollery met die ander</span></p><p><span>Kant v</span><span>an die regte soorte</span></p><p><span>Aan di</span><span>e v</span><span>erkeerde kant</span></p><p><span></span></p><p><span>Maar in alle eerlikheid </span></p><p><span>Is ek banger vir die </span></p><p><span>Legal implikasies</span></p><p><span>As vir die op</span></p><p><span>Breek van </span></p><p><span>Prentjie</span></p><p><span>Mooi</span></p><p><span>Jul</span></p></div>',
@@ -767,13 +764,12 @@ const p = {
     canReply: true,
     id: '21UlJPNyZh2IrtHmPhHD',
     repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '23tkQQJ98RxMZ7jJaELx': {
-    richText: true,
-    handle: '',
-    name: 'Ek gaan jou mis',
-    canReply: true,
     id: '23tkQQJ98RxMZ7jJaELx',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -785,9 +781,16 @@ const p = {
     repliedTo: null,
     date: 1570816683,
     uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
+    richText: true,
+    handle: '',
+    name: 'Ek gaan jou mis',
+    canReply: true,
     __collections__: {}
   },
   '24XCI3ZltNxv2347MBwQ': {
+    date: 1541711142,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '24XCI3ZltNxv2347MBwQ',
     bookmarkedCount: 0,
     mongo_id: '5be4a526163e5f001441b52e',
     nsfw: false,
@@ -797,12 +800,12 @@ const p = {
     body:
       'my oê is swaar, slaap ontduik my\njy tuimel in my gedagtes rond\ndie nag se stilte hang swaar in die lug\nherinner aan die stilte tussen ons\nen\nek \nhaat \ndit...',
     reported: false,
-    date: 1541711142,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '24XCI3ZltNxv2347MBwQ',
     __collections__: {}
   },
   '25WP1yyZqLnL3cO1utfK': {
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: 'aud6362',
     name: 'Jou Facebook lewe',
     body:
@@ -812,14 +815,9 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: '25WP1yyZqLnL3cO1utfK',
     bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   '26xugGmPdeUIwweDnVgW': {
-    bookmarkedCount: 0,
-    mongo_id: '5c50abb9a4185a0015fb044b',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -830,9 +828,14 @@ const p = {
     date: 1548790713,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '26xugGmPdeUIwweDnVgW',
+    bookmarkedCount: 0,
+    mongo_id: '5c50abb9a4185a0015fb044b',
     __collections__: {}
   },
   '28LPcQjVA6Bj8tI7qUcx': {
+    name: '2.0',
+    body: 'Die skrif is aan die muur:\nwondergom. ',
+    reported: false,
     date: 1557914339,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '28LPcQjVA6Bj8tI7qUcx',
@@ -841,12 +844,12 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: 'ek.is.anouk',
-    name: '2.0',
-    body: 'Die skrif is aan die muur:\nwondergom. ',
-    reported: false,
     __collections__: {}
   },
   '29zgqW7tyB6on9UEekrC': {
+    id: '29zgqW7tyB6on9UEekrC',
+    bookmarkedCount: 1,
+    mongo_id: '5b6194108db175001437c8ba',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -856,12 +859,12 @@ const p = {
       "nog 'n nag te nugter\nek ek nog steeds geen digter\ndertig dik en depressief\nen niemand het my lief\n",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1533121553,
-    id: '29zgqW7tyB6on9UEekrC',
-    bookmarkedCount: 1,
-    mongo_id: '5b6194108db175001437c8ba',
     __collections__: {}
   },
   '2A7HaqkwQWPz8yQhWhAc': {
+    date: 1558716968,
+    uid: '9UhWvrRIGchLMXozyVjoEjaoz6I2',
+    id: '2A7HaqkwQWPz8yQhWhAc',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -869,14 +872,9 @@ const p = {
     name: 'Poem on a public space',
     body: 'Not safe for work. ',
     reported: false,
-    date: 1558716968,
-    uid: '9UhWvrRIGchLMXozyVjoEjaoz6I2',
-    id: '2A7HaqkwQWPz8yQhWhAc',
     __collections__: {}
   },
   '2BDIJhKSqWS16H2P1xXB': {
-    id: '2BDIJhKSqWS16H2P1xXB',
-    bookmarkedCount: 0,
     mongo_id: '5cd4918da3d181001540bc51',
     nsfw: false,
     adminNotes: 'None',
@@ -887,6 +885,8 @@ const p = {
     reported: false,
     date: 1557434765,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '2BDIJhKSqWS16H2P1xXB',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '2HLdFkR4OiG8GPGCVSol': {
@@ -905,19 +905,20 @@ const p = {
     __collections__: {}
   },
   '2HzodztHdAnca6PSiwiV': {
+    handle: '',
+    name: "Twee getroude hippies en ek op 'n Donderdagaand ",
+    body: 'Vinnig op\nVinnig af\nViagra in\nVagina... \n\n...sal laaste lag ',
+    reported: false,
     date: 1558924565,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: '2HzodztHdAnca6PSiwiV',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: "Twee getroude hippies en ek op 'n Donderdagaand ",
-    body: 'Vinnig op\nVinnig af\nViagra in\nVagina... \n\n...sal laaste lag ',
-    reported: false,
     __collections__: {}
   },
   '2Ka2AGFtYrKuOzozJT0I': {
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: 'almero_welgemoed',
@@ -929,24 +930,27 @@ const p = {
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: '2Ka2AGFtYrKuOzozJT0I',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   '2KvEZ9HuZNSUjESSsNPu': {
+    id: '2KvEZ9HuZNSUjESSsNPu',
+    bookmarkedCount: 1,
+    mongo_id: '5cd34ee0ea13720015241af7',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: "Up on ol' Brokeback",
     body: '"I wish I knew how to quit you." \n- Jack (Fucking) Twist ',
     reported: false,
     date: 1557352160,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '2KvEZ9HuZNSUjESSsNPu',
-    bookmarkedCount: 1,
-    mongo_id: '5cd34ee0ea13720015241af7',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '2LvgDxJlvedOLQZGIw2Y': {
+    id: '2LvgDxJlvedOLQZGIw2Y',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'Eerste Vierkant',
     body:
@@ -954,13 +958,10 @@ const p = {
     reported: false,
     date: 1567114446,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '2LvgDxJlvedOLQZGIw2Y',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '2MHk6GdQyAwhy2d4cBFK': {
+    adminNotes: 'None',
     body:
       '<div><p><span>Laaskeer was dit 7 dae. </span></p><p><span></span></p><p><span>Ek kan blykbaar nie troeteldiere hê nie. </span></p></div>',
     reported: false,
@@ -976,11 +977,9 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '2OcOcQU8COhmgG2S7Jip': {
-    bookmarkedCount: 0,
     mongo_id: '5b5b93f03a6f8b001492f5b2',
     nsfw: false,
     adminNotes: 'None',
@@ -991,6 +990,7 @@ const p = {
     date: 1532728304,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '2OcOcQU8COhmgG2S7Jip',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '2WzF5B9fTYLJFQAKUHX6': {
@@ -1009,6 +1009,7 @@ const p = {
     __collections__: {}
   },
   '2axMOddkYqv0Ncm9U26i': {
+    bookmarkedCount: 1,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -1019,25 +1020,26 @@ const p = {
     date: 1565710349,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     id: '2axMOddkYqv0Ncm9U26i',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   '2h93PycowEDkNUiZzxRp': {
-    id: '2h93PycowEDkNUiZzxRp',
-    bookmarkedCount: 0,
-    mongo_id: '5be47dfc163e5f001441b52c',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Take A Chance On Me...',
     body:
       'I am a pitch-black sea, \ndark, deep and full of secrets.\nSometimes a storm\nrages within my soul.\nIt might not be easy to navigate\nthe various depths of my being\nThe question is:\nAre you going to sink or swim?\n',
     reported: false,
     date: 1541701116,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '2h93PycowEDkNUiZzxRp',
+    bookmarkedCount: 0,
+    mongo_id: '5be47dfc163e5f001441b52c',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '2hjpKNkDk8WhVoWdnD2e': {
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     body:
       "<div><p><span>Dis omtrent 'n week en 'n half v</span><span>andat ek jou by Springboks gekry het, daar doer ver in PTA. </span></p><p><span>Ek dink ek mis jou, m</span><span>aar dis vroeg in die verhouding e</span><span>n soort van nog 'no feelings attached'. </span></p><p><span>Anders kom mens psycho voor, s</span><span>o asof jy té geheg is</span></p><p><span>En ek moet bieg, m</span><span>y ouers weet nog nie. </span></p><p><span>Maar my tuisdorp weet nou, s</span><span>o my ouers sal binnekort ook hoor. </span></p><p><span>Kleindorpiesindroom noem hulle dit.</span></p><p><span>Fok, hopelik is ek reeds weg voordat dit gebeur. </span></p></div>",
@@ -1052,11 +1054,12 @@ const p = {
     canReply: true,
     id: '2hjpKNkDk8WhVoWdnD2e',
     repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   '2mwGR0pu7KhFegqXsC49': {
+    date: 1561211931,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '2mwGR0pu7KhFegqXsC49',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -1065,16 +1068,9 @@ const p = {
     body:
       "Noem my jou sielsgenoot\nMaar los my vir die dood\n\nSonder woorde is ek niks\nSo ek het ophou glo toe ek nie meer weet wat om vir jou te sê nie\n\nSonder noise is jy niks\nEn jy kry altyd jou wil\nSo jy wen\nGeluk\n\nDis onregverdig\nDat jy my vir 'n poes gevat het\n\nS",
     reported: false,
-    date: 1561211931,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '2mwGR0pu7KhFegqXsC49',
     __collections__: {}
   },
   '2nbzKAO5agYWCL2xjmV3': {
-    date: 1564895960,
-    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    id: '2nbzKAO5agYWCL2xjmV3',
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -1083,10 +1079,13 @@ const p = {
     body:
       "<div><p><span>toe jy gistraand van haar praat</span></p><p><span>het alles in jou aan gegaan</span></p><p><span>soos 'n lampie in 'n stowwerige vertrek</span></p><p><span>was daar iets in jou groter as die Ek: </span></p><p><span>jou oë was glaserig</span></p><p><span>die maan was kaaserig</span></p><p><span>soos 'n cheesy love gedig</span></p><p><span>kon ek haar mond sien op jou gesig</span></p><p><span></span></p><p><span>en toe jy oor haar lag</span></p><p><span>was dit soos 'n oopgebreekte</span></p><p><span>waatlemoen met pitte wat agterbly</span></p><p><span>en in die aandlug hul eie klein</span></p><p><span>saadjies plant</span></p><p><span></span></p><p><span>vanoggend toe ek wakker word</span></p><p><span>was my hart so vol vir jou</span></p><p><span>en so leeg vir my: </span></p><p><span>jy word verteer deur geluk</span></p><p><span>en ek deur 'n kak gedig. </span></p></div>",
     reported: false,
+    date: 1564895960,
+    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
+    id: '2nbzKAO5agYWCL2xjmV3',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '2oV4DwUzSZrzkPhgTbgq': {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -1102,9 +1101,16 @@ const p = {
     canReply: true,
     id: '2oV4DwUzSZrzkPhgTbgq',
     repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '2uskdEjKDtWvwMQmoFN8': {
+    body:
+      "<div><p><span>Wat as ek eendag met 'n vrou trou, </span></p><p><span>Jou onder jou gat skop en 'n berader word. </span></p><p><span></span></p><p><span>Sal daar dan nog genade wees? </span></p></div>",
+    reported: false,
+    repliedTo: null,
+    date: 1576959848,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -1115,15 +1121,12 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      "<div><p><span>Wat as ek eendag met 'n vrou trou, </span></p><p><span>Jou onder jou gat skop en 'n berader word. </span></p><p><span></span></p><p><span>Sal daar dan nog genade wees? </span></p></div>",
-    reported: false,
-    repliedTo: null,
-    date: 1576959848,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   '2zA0hDdMgCNSxaehkEZQ': {
+    bookmarkedCount: 2,
+    nsfw: false,
+    adminNotes: 'None',
     body:
       "<div><p><span style=\"font-style: italic;\">'n doosseer hart </span></p><p><span></span></p><p><span>die bra van TED sê my hart is nou 'n Sjinese vaas </span></p><p><span>b</span><span>lykbaar fok hartseer met die struktuur</span></p><p><span>tog, bly my kamers intakt; </span></p><p><span>ek wil oopmaak met jou elke klop </span></p><p><span></span></p><p><span>verder, sê die knaap</span></p><p><span>is die hartvaas boonop ge</span><span>kantel</span></p><p><span>so my hart is fokken skeef ook nou</span></p><p><span>en alles loop uit </span></p><p><span>soos wat jy wegloop, my wegsmyt </span></p><p><span></span></p><p><span>maar hy sê daar's hoop</span></p><p><span>áltyd fokken hoop </span></p><p><span></span><span>en dit vat maar net 2 weke </span></p><p><span>\ndit klink nie lank genoeg nie\nen ek dink hy praat kak \n\nek en my Sjinese vaas \nsal langer rou \noor die ontoeganklike liefde \ntussen my en jou </span></p></div>",
     reported: false,
@@ -1137,12 +1140,12 @@ const p = {
     canReply: true,
     id: '2zA0hDdMgCNSxaehkEZQ',
     repliedToName: null,
-    bookmarkedCount: 2,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '32HKOmxg2wT7EhrMYwPY': {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'Bukowski_Spoof',
     name: 'Bluebird',
     body:
       'Fokken skryf jou brief, mens,\nSkryf jou woorde teen my vas, \nBrand dit in ink op my bors uit en kry die blou voël uit jou hart se diepste kamers. \n\nEk was ook eens daar. \nBlouste se ontsnap was alleen.\nUnglamorous. Ongemaklik. \nMaar het ál die verskil gemaak. ',
@@ -1152,9 +1155,6 @@ const p = {
     id: '32HKOmxg2wT7EhrMYwPY',
     bookmarkedCount: 0,
     mongo_id: '5c5b34130a39a100153333d7',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'Bukowski_Spoof',
     __collections__: {}
   },
   '35XWv4hXlFRdirJoj1g1': {
@@ -1171,19 +1171,26 @@ const p = {
     __collections__: {}
   },
   '36LopbLVoyd7F1fVWWAC': {
+    handle: '',
+    name: '🕳',
+    reported: false,
+    body: 'glo jou fiksie tot jy gatvol raak',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1571946677,
     id: '36LopbLVoyd7F1fVWWAC',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: '🕳',
-    reported: false,
-    body: 'glo jou fiksie tot jy gatvol raak',
     __collections__: {}
   },
   '36g5J3KFulJSIL6H9bkQ': {
+    richText: true,
+    handle: '',
+    name: 'As die gordyne toegaan . . . ',
+    canReply: true,
+    id: '36g5J3KFulJSIL6H9bkQ',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -1193,27 +1200,20 @@ const p = {
     date: 1572584307,
     uid: 'sTwhHOWrUBhJBDSdqd1m3Bl3HtO2',
     activeTema: 'Depressiewe struggle',
-    richText: true,
-    handle: '',
-    name: 'As die gordyne toegaan . . . ',
-    canReply: true,
-    id: '36g5J3KFulJSIL6H9bkQ',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '39S1xZtdM3pKZ4HxcWqo': {
-    handle: '13.lynette',
-    name: 'Pa',
-    body:
-      'In vroë oggend ure\nBid ek vir jou Pa\nEk huil want magteloosheid\nmaak my smekend voor God\n“wat is die mens dat U aan hom dink”...\nPa jy bloei en bloei\nBloei die lewe se seer en teleurstelling\nBloei hoop en wanhoop\nBloei swaarkry en vloek\nEn ek\nEk bid vir jou Pa\n“Here, as dit so moet wees, verlig sy leiding”\nEk is jammer Pa\nJammer ek was jou “donkie-kind”\nJammer ek was die rebel\nJammer oor baklei en seermaak\nEk bid vir jou Pa!\nEk wou hê jy moes meer wees\nJy moes my held wees\nJy moes my beskermer wees\nJy moes dáár wees\nEk is jammer Pa, vergewe my\nEk bid vir jóú Pa!',
-    reported: false,
     date: 1562400471,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '39S1xZtdM3pKZ4HxcWqo',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    handle: '13.lynette',
+    name: 'Pa',
+    body:
+      'In vroë oggend ure\nBid ek vir jou Pa\nEk huil want magteloosheid\nmaak my smekend voor God\n“wat is die mens dat U aan hom dink”...\nPa jy bloei en bloei\nBloei die lewe se seer en teleurstelling\nBloei hoop en wanhoop\nBloei swaarkry en vloek\nEn ek\nEk bid vir jou Pa\n“Here, as dit so moet wees, verlig sy leiding”\nEk is jammer Pa\nJammer ek was jou “donkie-kind”\nJammer ek was die rebel\nJammer oor baklei en seermaak\nEk bid vir jou Pa!\nEk wou hê jy moes meer wees\nJy moes my held wees\nJy moes my beskermer wees\nJy moes dáár wees\nEk is jammer Pa, vergewe my\nEk bid vir jóú Pa!',
+    reported: false,
     __collections__: {}
   },
   '3EYycBCZe0Y0OjLAeMoy': {
@@ -1236,6 +1236,8 @@ const p = {
     __collections__: {}
   },
   '3EiU19pJKqZDXYxauq31': {
+    id: '3EiU19pJKqZDXYxauq31',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -1245,23 +1247,21 @@ const p = {
     reported: false,
     date: 1561907693,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: '3EiU19pJKqZDXYxauq31',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   '3Gj2bA2yRejtpvFggmcr': {
-    name: 'vertoon',
-    body:
-      '<div><p><span></span></p><p><span>ek preserveer jou reuk in my geheue\nsoos ‘n spesimen\nwat dryf in ’n consol jar vol etanol\n\n’n drywende ding wat die verlede \nomvou \nen dra op sy mou\n\nek stal jou reuk uit op ’n hoë rak \ntussen die oumabeskuitblikke en rooibosteeblikke en danishkoekiekoekieblikke en licoriceallsortsswietsblikke waarvan almal wil onstlae raak by pandjieswinkels\nen ek kan nie bykom om af te stof nie\n\ndie jar vertoon \n’n grotesque embrio\nwat die begin \nen die einde \nvan ’n storie vertel \n\nek kyk partykeer terloops na jou reuk \nwanneer ek tee maak\n\nen \nek sien hoe die stof \nwat elke jaar \n\ndigter \n\ndie jar toe vou \nen jou reuk toe vlek \n\nen\ndie nalatenskap van ’n probeerslag\nteen die bruin verf van die muur verdwyn</span></p></div>',
-    reported: false,
-    date: 1563208878,
-    uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     id: '3Gj2bA2yRejtpvFggmcr',
     bookmarkedCount: 1,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: 'marietsteinmann ',
+    name: 'vertoon',
+    body:
+      '<div><p><span></span></p><p><span>ek preserveer jou reuk in my geheue\nsoos ‘n spesimen\nwat dryf in ’n consol jar vol etanol\n\n’n drywende ding wat die verlede \nomvou \nen dra op sy mou\n\nek stal jou reuk uit op ’n hoë rak \ntussen die oumabeskuitblikke en rooibosteeblikke en danishkoekiekoekieblikke en licoriceallsortsswietsblikke waarvan almal wil onstlae raak by pandjieswinkels\nen ek kan nie bykom om af te stof nie\n\ndie jar vertoon \n’n grotesque embrio\nwat die begin \nen die einde \nvan ’n storie vertel \n\nek kyk partykeer terloops na jou reuk \nwanneer ek tee maak\n\nen \nek sien hoe die stof \nwat elke jaar \n\ndigter \n\ndie jar toe vou \nen jou reuk toe vlek \n\nen\ndie nalatenskap van ’n probeerslag\nteen die bruin verf van die muur verdwyn</span></p></div>',
+    reported: false,
+    date: 1563208878,
+    uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     __collections__: {}
   },
   '3H49Bk17Gee2UkDoIvfO': {
@@ -1284,22 +1284,19 @@ const p = {
     __collections__: {}
   },
   '3IEvgbKbeoZptJYbSLxV': {
-    name: 'Keuses',
-    body: 'Hoe de fok trou jy net iemand wat nie Fleetwood Mac ken nie? \n',
-    reported: false,
-    date: 1561373537,
-    uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     id: '3IEvgbKbeoZptJYbSLxV',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'Keuses',
+    body: 'Hoe de fok trou jy net iemand wat nie Fleetwood Mac ken nie? \n',
+    reported: false,
+    date: 1561373537,
+    uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     __collections__: {}
   },
   '3JENHBcLgwdnhAs6M2gK': {
-    date: 1547969066,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '3JENHBcLgwdnhAs6M2gK',
     bookmarkedCount: 0,
     mongo_id: '5c44222a11f2930015dbcdb5',
     nsfw: false,
@@ -1309,12 +1306,12 @@ const p = {
     body:
       'Mag, op jou, sonneblomme val\nVanuit ‘n goue hemel \nGetroon met geboue van Gaudi\nDaai plek waar ek nooit sal kan wees\n\nMag ek ‘n sonneblom wees\nWat vanuit daai goue hemel val\nOm jou ligtelik te kan raak met die afkom slag\n\n‘n Wens\nDis jy\nIn jou, om jou, naby jou\n‘n Wens\nDis jy\nMiskien ‘n illusie\n\nTe goed om waar te wees\n\nEk lieg\n\nDie sonneblom het reeds hand uit gesteek \nHaar omgedraai na die son\nEn ek, die maan, die nag kom saai\nToe ek, te laat, hand uit steek vir die laaste \nLig, van die goue uur.\n',
     reported: false,
+    date: 1547969066,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '3JENHBcLgwdnhAs6M2gK',
     __collections__: {}
   },
   '3KwzCzeuZdw13NHVWW5M': {
-    id: '3KwzCzeuZdw13NHVWW5M',
-    bookmarkedCount: 0,
-    mongo_id: '5b61995b8db175001437c8bb',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -1323,9 +1320,14 @@ const p = {
     reported: false,
     date: 1533122907,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '3KwzCzeuZdw13NHVWW5M',
+    bookmarkedCount: 0,
+    mongo_id: '5b61995b8db175001437c8bb',
     __collections__: {}
   },
   '3LBROOD3IDG93ok7jAUL': {
+    bookmarkedCount: 1,
+    mongo_id: '5cc869f63217300015511cba',
     nsfw: false,
     adminNotes: 'None',
     handle: 'miababy_95',
@@ -1336,25 +1338,25 @@ const p = {
     date: 1556638199,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '3LBROOD3IDG93ok7jAUL',
-    bookmarkedCount: 1,
-    mongo_id: '5cc869f63217300015511cba',
     __collections__: {}
   },
   '3PqP06XuRMkHbIZd6bdZ': {
-    id: '3PqP06XuRMkHbIZd6bdZ',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'V',
     name: 'story of my life',
     body:
       'identifiseer lank genoeg om hulle invested te kry in iets wat lyk soos die ideaal... \n\n...en verloor jouself heeltemal in die proses',
     reported: false,
     date: 1563736917,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '3PqP06XuRMkHbIZd6bdZ',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'V',
     __collections__: {}
   },
   '3QWSbCliwYXbcu617d2C': {
+    id: '3QWSbCliwYXbcu617d2C',
+    bookmarkedCount: 0,
     mongo_id: '5c815d76e859cf0015415484',
     nsfw: false,
     adminNotes: 'None',
@@ -1364,14 +1366,9 @@ const p = {
     reported: false,
     date: 1551981943,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '3QWSbCliwYXbcu617d2C',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '3QhejIbTOyXwENHZ1Aue': {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: '16:8',
     body: 'I want to get in touch with my circadian rhythm',
     reported: false,
@@ -1380,9 +1377,13 @@ const p = {
     id: '3QhejIbTOyXwENHZ1Aue',
     bookmarkedCount: 0,
     mongo_id: '5cd4713fa3d181001540bc4f',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '3f4l2qK0Fa5IJbwHMXgc': {
+    bookmarkedCount: -3,
     nsfw: true,
     adminNotes: 'None',
     handle: '',
@@ -1393,10 +1394,13 @@ const p = {
     date: 1560066007,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: '3f4l2qK0Fa5IJbwHMXgc',
-    bookmarkedCount: -3,
     __collections__: {}
   },
   '3fljDHaFJ1jtqtwUHBMe': {
+    bookmarkedCount: 0,
+    mongo_id: '5ce472abb727a200157b9ee9',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: '4+6+12+13 ',
     body:
@@ -1405,13 +1409,10 @@ const p = {
     date: 1558475435,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '3fljDHaFJ1jtqtwUHBMe',
-    bookmarkedCount: 0,
-    mongo_id: '5ce472abb727a200157b9ee9',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '3h8anAhIeEYzkcKZzHwU': {
+    activeTema: null,
     richText: true,
     handle: '',
     name: 'Sondag-saligheid in Southern Suburbia',
@@ -1427,10 +1428,12 @@ const p = {
     repliedTo: null,
     date: 1571601021,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
-    activeTema: null,
     __collections__: {}
   },
   '3lc7bw0rOXwFnzW5mg2s': {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'slak',
     body:
       'hy sing en snik\nin my blomtuin\ndat ek onder sy dop\nsal inkruip\nek lag my vet\nduim druk\nsy huis plat',
@@ -1440,28 +1443,23 @@ const p = {
     id: '3lc7bw0rOXwFnzW5mg2s',
     bookmarkedCount: 0,
     mongo_id: '5c292f971d86270014965a8d',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   '3mYQ6GB7r9WY05rL5SDM': {
-    id: '3mYQ6GB7r9WY05rL5SDM',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Expense of Spirit ',
     reported: false,
     body:
       'Savage, extreme, rude, cruel, not to trust;\nEnjoyed no sooner but despised straight;\nPast reason hunted; and no sooner had,\nPast reason hated, as a swallowed bait,\nOn purpose laid to make the taker mad.\nMad in pursuit and in possession so;\nHad, having, and in quest to have extreme;\nA bliss in proof, and proved, a very woe.',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1578808843,
+    id: '3mYQ6GB7r9WY05rL5SDM',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '3waZPJRKZ9uBwlAGBIuY': {
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'aud6362',
     name: 'Ek het jou gemis ',
     body:
@@ -1471,15 +1469,11 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: '3waZPJRKZ9uBwlAGBIuY',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '409aOJ9yjDAQMrJ19oTb': {
-    richText: true,
-    handle: '',
-    name: 'Said everyone, always ',
-    canReply: true,
-    id: '409aOJ9yjDAQMrJ19oTb',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -1490,11 +1484,15 @@ const p = {
     date: 1583306277,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Said everyone, always ',
+    canReply: true,
+    id: '409aOJ9yjDAQMrJ19oTb',
+    repliedToName: null,
     __collections__: {}
   },
   '454xS780eY04Z8OWaZS7': {
-    richText: true,
-    adminNotes: 'None',
     handle: '',
     name: 'brief',
     body:
@@ -1505,9 +1503,17 @@ const p = {
     id: '454xS780eY04Z8OWaZS7',
     bookmarkedCount: 0,
     nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   '47cQjOOoP0Ygv9GZBfXu': {
+    canReply: true,
+    id: '47cQjOOoP0Ygv9GZBfXu',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     body:
       "<div><p><span>Hy't bitter bloed</span></p><p><span></span></p><p><span>Ek weet sy mond is soet</span></p><p><span>Maar vra my donker aande</span></p><p><span>Die nasmaak bly vir maande </span></p></div>",
     reported: false,
@@ -1518,21 +1524,9 @@ const p = {
     richText: true,
     handle: '@milli.burd',
     name: 'Bitter bloed ',
-    canReply: true,
-    id: '47cQjOOoP0Ygv9GZBfXu',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '49i0rCednt9OMyJnjU54': {
-    body:
-      '<div><p><span>3 Jaar Terug: Ek wens ek kon my helde ontmoet</span></p><p><span>Nou: Ek wens ek kon net met hulle praat</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1568487769,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     richText: true,
     handle: '',
     name: 'Julle Almal',
@@ -1542,9 +1536,17 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    body:
+      '<div><p><span>3 Jaar Terug: Ek wens ek kon my helde ontmoet</span></p><p><span>Nou: Ek wens ek kon net met hulle praat</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1568487769,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   '4AbUhWnZtfWr8DNaVEV6': {
+    bookmarkedCount: 0,
+    mongo_id: '5c520d2c8550a40015e45aa5',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -1555,8 +1557,6 @@ const p = {
     date: 1548881196,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '4AbUhWnZtfWr8DNaVEV6',
-    bookmarkedCount: 0,
-    mongo_id: '5c520d2c8550a40015e45aa5',
     __collections__: {}
   },
   '4E3TEoaAYkQC6mfIv28m': {
@@ -1575,7 +1575,6 @@ const p = {
     __collections__: {}
   },
   '4ETMjSdevIky4eW07pG7': {
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -1587,6 +1586,7 @@ const p = {
     date: 1564178551,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: '4ETMjSdevIky4eW07pG7',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '4JyFzQo0qFNN7qvC9uj1': {
@@ -1605,6 +1605,10 @@ const p = {
     __collections__: {}
   },
   '4KHyI2NNbUNX2NyKZdb7': {
+    date: 1536068902,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '4KHyI2NNbUNX2NyKZdb7',
+    bookmarkedCount: 1,
     mongo_id: '5b8e8d25abb3f8001447fbaf',
     nsfw: false,
     adminNotes: 'None',
@@ -1613,13 +1617,10 @@ const p = {
     body:
       'without saying a word, a cigarette is a good conversation. telepathically speaking with smoke signals. the sun laughed at the moon because he is white. die gelaatskleur van jou gesig agter ñ agterdeur sigarette neurie saam die konvooi karre in die pad oppad na werke toe waar hulle probably nie mag rook nie. ek dink Francois praat kak as hy sê dit raak beter as jy ouer raak. burning out bro, fokken stadig maar seker. ons is leefjags as dit kom by wyn en sekspraatjies.',
     reported: false,
-    date: 1536068902,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '4KHyI2NNbUNX2NyKZdb7',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   '4KS2YnTgmu2TNbcleEeW': {
+    handle: '',
     name: 'Wegneem koffies',
     body:
       'Kosbare oomblikkies tussen "onverskillige vreemdelinge"\nen tog \ndankie vir die kitaar. \n\n',
@@ -1631,10 +1632,10 @@ const p = {
     mongo_id: '5c8bd0bfe2f1230015904c51',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   '4O0iiXbmmNEjB6KwsKy3': {
+    richText: true,
     handle: '',
     name: 'Wonder',
     canReply: true,
@@ -1650,14 +1651,9 @@ const p = {
     date: 1578116854,
     uid: 'VygwyM7UU9eudjCMkxD2VIVXXQX2',
     activeTema: null,
-    richText: true,
     __collections__: {}
   },
   '4Q5KVIAheaFHQov1URiZ': {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     name: 'klein.',
     body:
       '<div><p><span>Dis die </span><span style="font-style: italic;">klein </span><span>dingetjies</span></p><p><span>Die uur lange whatsapp call, waarin jy my probeer help formules uitredeneer.</span></p><p><span>Al het nie een van ons n clue nie. </span></p><p><span>Dis die random oproepe oor klein goedjies wat jy vergeet</span></p><p><span>Of iets wat jy wil weet</span></p><p><span>Of oor iets wat jy wil eet.</span></p><p><span>Ons is dalk ietwat vreemd. </span></p><p><span></span></p><p><span>Dis die klein dingetjies, </span></p><p><span>wat maak,</span></p><p><span> my lam </span></p><p><span>dat, JY, </span></p><p><span>my</span></p><p><span>Elke dag steeds so verlei. </span></p><p><span>Ek elke dag jou liewer het as wat ek myself het, maar dit vat ook nie baie nie.</span></p><p><span></span></p><p><span>Ek weet jys nie een vir gevoelens nie. </span></p><p><span>So ek sal maar voel namens ONS</span></p><p><span>En eks fokken lief vir jou. </span></p><p><span> </span></p></div>',
@@ -1666,15 +1662,13 @@ const p = {
     uid: '8govqTsKkVZZbWmT1gqDKUWg0zs1',
     id: '4Q5KVIAheaFHQov1URiZ',
     bookmarkedCount: 1,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '4UKMkUhAvthdNUymPNZr': {
-    reported: false,
-    body:
-      "<div><p><span>Teorie is my witkop, blou-oog perfeksionis ...vrou met die streng streng tong en die sagte hart wat op 'n Vrydag haar neus optrek vir 'n kroeg maar tuis vir ons Tequila skink + Sondagmôre kerk skiep, bid, 'n blowjob gee en in begrafplase gaan rondhang vir gefokusde stilte. </span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
-    repliedTo: null,
-    date: 1574545522,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
     handle: 'Verbatim',
@@ -1685,10 +1679,15 @@ const p = {
     bookmarkedCount: 0,
     nsfw: true,
     adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Teorie is my witkop, blou-oog perfeksionis ...vrou met die streng streng tong en die sagte hart wat op 'n Vrydag haar neus optrek vir 'n kroeg maar tuis vir ons Tequila skink + Sondagmôre kerk skiep, bid, 'n blowjob gee en in begrafplase gaan rondhang vir gefokusde stilte. </span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
+    repliedTo: null,
+    date: 1574545522,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   '4Uvn8x7q4MqOojgKs1Y3': {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -1699,10 +1698,10 @@ const p = {
     date: 1561928915,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: '4Uvn8x7q4MqOojgKs1Y3',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '4VVw1u9tSVLoWovtcUsF': {
-    bookmarkedCount: 0,
     mongo_id: '5c1485ca348c11001418d60a',
     nsfw: false,
     adminNotes: 'None',
@@ -1714,25 +1713,25 @@ const p = {
     date: 1544848842,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '4VVw1u9tSVLoWovtcUsF',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '4W5TZ8yUCVWxisnp0tdg': {
-    bookmarkedCount: 0,
-    mongo_id: '5cba352f624bb4001580fccf',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
-    name: 'Om lief te hê',
     body:
       "Lief genoeg om te weet jy moet ophou met jou kak. Lief genoeg om te vergewe. Lief genoeg om nie te verskoon nie. Lief genoeg om te weet nóú is nie ons s'n nie.\n\nBitter lief - nie vérlief nie. ",
     reported: false,
     date: 1555707183,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '4W5TZ8yUCVWxisnp0tdg',
+    bookmarkedCount: 0,
+    mongo_id: '5cba352f624bb4001580fccf',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'Om lief te hê',
     __collections__: {}
   },
   '4YD6Qe99g08XzYDxoXHa': {
-    richText: true,
     handle: 'Kitchendutch ',
     name: 'Houding',
     canReply: true,
@@ -1747,9 +1746,12 @@ const p = {
     repliedTo: null,
     date: 1568359744,
     uid: 'DcuwHdZLlSNXxTCtsqpW0JhSTGj2',
+    richText: true,
     __collections__: {}
   },
   '4aqMwnnXVTe0tHnZv7x8': {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Gewaarwording ',
     body:
@@ -1760,11 +1762,10 @@ const p = {
     id: '4aqMwnnXVTe0tHnZv7x8',
     bookmarkedCount: 0,
     mongo_id: '5ce58a174305360015babcfd',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '4fFZMSJ0EfjxudgsBxtH': {
+    name: "Gedagtes van 'n pendelaar",
     reported: false,
     body:
       'Die enigste secret sound wat ek wil hoor is die druk van die afknoppie',
@@ -1775,11 +1776,9 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: "Gedagtes van 'n pendelaar",
     __collections__: {}
   },
   '4jWZEaAMZgOHLoKEZGRN': {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'mada_oosthuizen',
@@ -1790,12 +1789,10 @@ const p = {
     date: 1560974995,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '4jWZEaAMZgOHLoKEZGRN',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '4nBVdRZe2PdCYRAIkYEA': {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Hang die op</span></p><p><span>Tyd vir iets anders</span></p><p><span>Dalk iets nuut</span></p></div>',
@@ -1809,9 +1806,17 @@ const p = {
     canReply: true,
     id: '4nBVdRZe2PdCYRAIkYEA',
     repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '4qP288jcZlls1Y12FDdJ': {
+    name: 'A man called Alaji that made my day',
+    canReply: true,
+    id: '4qP288jcZlls1Y12FDdJ',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -1823,15 +1828,9 @@ const p = {
     activeTema: null,
     richText: true,
     handle: '',
-    name: 'A man called Alaji that made my day',
-    canReply: true,
-    id: '4qP288jcZlls1Y12FDdJ',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '4rxdk5d3vzMaFIzPQlq4': {
-    canReply: true,
     id: '4rxdk5d3vzMaFIzPQlq4',
     repliedToName: null,
     bookmarkedCount: 1,
@@ -1847,9 +1846,13 @@ const p = {
     richText: true,
     handle: 'stefanyseymore',
     name: 'Charismatiese godsbeeld',
+    canReply: true,
     __collections__: {}
   },
   '4snOQWJKtj6KdqMf3DXJ': {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'En...',
     body: 'Dan is dit nie n regte opsie nie',
     reported: false,
@@ -1857,13 +1860,9 @@ const p = {
     uid: 'MnxQMtllmJSGkqY1s6zQHWcr8bk2',
     id: '4snOQWJKtj6KdqMf3DXJ',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   '4tv43g2ISXuNxHvIsamD': {
-    handle: '',
     name: 'Nou n Dan',
     body:
       "Ons almal lei aan of is verlos deur\nEiewaarheidsindroom\nSoms duidelik vir ander\nSoms vir onsself\nSoms nie een nie.  \n\nEn soms soek ons net 'n stukkie appel n banana",
@@ -1874,26 +1873,24 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '4xzphnXHCsmv3nX15iRW': {
-    date: 1560797995,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '4xzphnXHCsmv3nX15iRW',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Sê Jy My',
     body:
       "Soos 'n oranje verkeerslig, \nhunker jy op die grens van besluitneming.\nGaan jy ry, of gaan jy bly?\n\nSo...\n",
     reported: false,
+    date: 1560797995,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '4xzphnXHCsmv3nX15iRW',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   '4yupzx5WMbyyQxzqsydX': {
-    id: '4yupzx5WMbyyQxzqsydX',
-    bookmarkedCount: 2,
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: 'stefanyseymore',
@@ -1903,15 +1900,12 @@ const p = {
       '<div><p><span>jy skryf naby aan jou lyf, jy leef naby aan jou lyf en jy voel aan jou lyf</span></p><p><span>\nEk het aanneem katte. Wat naby aan my lyf slaap. Snags. \nMy kas loop oor van wintertruie wat ek oor my bors kan toetrek \nMy joernaal ontbreek die presence van ‘n god, maar voel die verdriet en pyn aan van elke straatbrakkie, shelterkat, hawelose kindjie en ou tannie wat bedel by daai KFC stopstraat. </span></p></div>',
     uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
     date: 1569135226,
+    id: '4yupzx5WMbyyQxzqsydX',
+    bookmarkedCount: 2,
+    nsfw: false,
     __collections__: {}
   },
   '4zLa1UuLrydGGu5IdKvv': {
-    reported: false,
-    body:
-      '<div><p><span>Pers. </span></p><p><span>Perspek.</span></p><p><span>Perspektief. </span></p><p><span></span></p><p><span>Myne. Joune. Gedeelde. Aparte. </span></p><p><span></span></p><p><span></span></p></div>',
-    repliedTo: '4O0iiXbmmNEjB6KwsKy3',
-    date: 1578124807,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -1922,13 +1916,15 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Pers. </span></p><p><span>Perspek.</span></p><p><span>Perspektief. </span></p><p><span></span></p><p><span>Myne. Joune. Gedeelde. Aparte. </span></p><p><span></span></p><p><span></span></p></div>',
+    repliedTo: '4O0iiXbmmNEjB6KwsKy3',
+    date: 1578124807,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   '4zU5xXRjlT3dOMqyPXi6': {
-    repliedTo: 'tICxUHjpdqBQ9qtWXBnx',
-    date: 1567331015,
-    uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
-    richText: true,
     handle: '',
     name: 'kONSternasie',
     canReply: true,
@@ -1940,13 +1936,13 @@ const p = {
     reported: false,
     body:
       '<div><p><span>Eintlik wil ek net hê JY moet dit makliker maak. </span><span style="font-style: italic;">But that\'s a hard pill to swallow</span><span>, want ek weet jy gaan nie...</span></p></div>',
+    repliedTo: 'tICxUHjpdqBQ9qtWXBnx',
+    date: 1567331015,
+    uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
+    richText: true,
     __collections__: {}
   },
   '51hpRH8ihFqgw2FpORo3': {
-    bookmarkedCount: 0,
-    mongo_id: '5c84c6df23cb64001566984a',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: '@',
     body: 'Daars altyd plek vir jou',
@@ -1954,9 +1950,16 @@ const p = {
     date: 1552205535,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '51hpRH8ihFqgw2FpORo3',
+    bookmarkedCount: 0,
+    mongo_id: '5c84c6df23cb64001566984a',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '53rXRGMuyuaBKFN28l4C': {
+    id: '53rXRGMuyuaBKFN28l4C',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -1970,12 +1973,13 @@ const p = {
     handle: '',
     name: 'Die Laaste Avondmaal ',
     canReply: true,
-    id: '53rXRGMuyuaBKFN28l4C',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '5DkbGbqTMlPrmssNqrfV': {
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1572807855,
+    id: '5DkbGbqTMlPrmssNqrfV',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'verbatim',
@@ -1983,13 +1987,14 @@ const p = {
     reported: false,
     body:
       "Jy vertel van jou Saterdagaand se drank, bar fight, karduike en hoeveel poesse dit ingesluit het. \n\nMyne was guitarmusiek, gemaklike gesigte, 'n offbeat comedy en insig oor sooibrand. \n\nSekere mense is maar browsers gebore: die checkout button is vir ander bedoel. ",
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1572807855,
-    id: '5DkbGbqTMlPrmssNqrfV',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '5KrRkG4VveNWVVWGJG2F': {
+    canReply: true,
+    id: '5KrRkG4VveNWVVWGJG2F',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
     adminNotes: 'None',
     body:
       '<div><p><span>My droom is dat ek eendag by jou sal aankom en nie weer hoef weg te ry nie. </span></p><p><span></span></p><p><span>Dat ons elke aand poetry kan lees tot ons moeg raak vir die naggeluide met die bedlampie aan.  </span></p><p><span></span></p><p><span>Dat ons by die vlei kan bly om al die wegloop-katte huistoe</span><span> te neem.  </span></p><p><span></span></p><p><span>Dat jy op my skoot aan die slaap kan raak en wakker word in my arms. </span></p><p><span></span></p><p><span>“Ek wil poetry lees vir ons kids” sê jy met die poësie om my kop gevou terwyl ek op jou skoot vertoef. </span></p></div>',
@@ -2001,14 +2006,10 @@ const p = {
     richText: true,
     handle: 'wynandmb13',
     name: 'Poetry vir Potch',
-    canReply: true,
-    id: '5KrRkG4VveNWVVWGJG2F',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   '5LCnv2SGb3OiLTymryJ6': {
+    adminNotes: 'None',
     handle: '',
     name: 'Speaks',
     body: 'Dis heilig, net so \nVir jou. \n*Heilig*\n\nVrede',
@@ -2018,12 +2019,9 @@ const p = {
     id: '5LCnv2SGb3OiLTymryJ6',
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '5MyhrIK2xqHDw58z2C5J': {
-    nsfw: false,
-    adminNotes: 'None',
     body: "<div><p><span>Hy't bitter bloed </span></p></div>",
     reported: false,
     repliedTo: null,
@@ -2037,9 +2035,12 @@ const p = {
     id: '5MyhrIK2xqHDw58z2C5J',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '5N1v2HWp1k99UujWTFD8': {
+    handle: '',
     name: 'Marionette',
     body:
       'Daars iets hier binne my\nDit roer en grom en kruip na die oppervlak\nDit bewys nou en dan vir my\nDat ek nie in beheer is nie',
@@ -2051,12 +2052,9 @@ const p = {
     mongo_id: '5cb8e17d8385fb0015665530',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   '5NRkLsEJGirGfk5j70yt': {
-    date: 1551626726,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '5NRkLsEJGirGfk5j70yt',
     bookmarkedCount: 0,
     mongo_id: '5c7bf1e6c99526001556a865',
@@ -2067,9 +2065,12 @@ const p = {
     body:
       "Snaaks hoe vinnig ek weer soontoe gaan. \nEk hoor jou lag weer helder in my oor -\nVoel die ek-is-lief-vir-jou weer - te maklik - uit jou mond wat vou om my hart. \n\nDan retireer ek ietwat - \nSmag ek na die mens wat ek sekondes terug was. \nDie een wat vir langer as n dag kon gaan sonder om aan jou te dink. \n\nSnaaks hoe maklik jy kon wegloop. \nEk hoor die stilte waar jou persoonlike BBM notification my altyd gepla het. \nEk voel die pyn in my bors toe my ouers se dat ek die gevoellose een is sonder om te vra hoekom ek nie meer lag of sing nie. \n\nDan huiwer ek ietwat -\nDie trane wat ek nie kan huil nie want seuns huil nie net omdat hulle n vriend verloor het nie - dreig weer. \nEk is weer Daardie Ek. Die een wat gepraat het oor meisies soos wat my pa my maak belowe het om nooit te praat nie. \nDie een wat homself maak glo het dat jy voel soos wat hy doen. \n\nSnaaks hoe ek nogsteeds jaloers is. \nMy plek in jou lewe is nou haar-ne. \nJy het saam met haar besef dat die woorde wat jy te-maklik vir my gesê het; gewig dra. \n\nDan is ek weer Hierdie Ek. \nDie een wat nagte in vreemde arms spandeer het omdat ek jou gemis het. \nDie een wat voor sy ma kan huil want vreemde dronk lippe het haar vertel dat ek hou van mans. \n\nEn selfs is sy arms om my -\nSy lief-vir-jou's vol beloftes wat hy nakom. \nSelfs al is ek iemand anders s'n -\nIs daardie Ander Ek nogsteeds joune. \n\nSy eerste soen was joune. \nSy alewige hartseer ook. \nEn hy haat homself daarvoor. ",
     reported: false,
+    date: 1551626726,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   '5RdWdKsxIWWeK125gn1j': {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Sonde + Belydenis',
@@ -2080,7 +2081,6 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: '5RdWdKsxIWWeK125gn1j',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   '5ajbrYsPhTqxLDdnW0CZ': {
@@ -2102,10 +2102,6 @@ const p = {
     __collections__: {}
   },
   '5bq1Kr14lHwFpelMIAhj': {
-    adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>969 kilometers het gevoel soos 'n vinnige flikkerlig aansit</span></p><p><span>Maar dit was toe jy langs my was</span></p><p><span>Toe jy kon saamsing met Twenty One Pilots</span></p><p><span>En my uitskel omdat ek die oomblik op 'n skerm wou vasvang</span></p><p><span>Toe jou smile al ding was wat my groeiende angs oor my nuwe huis kon vertraag</span></p><p><span>Toe oorslaap halfpad soontoe isolasie beteken het</span></p><p><span></span></p><p><span>Toe daar nie net 'n ek en jy was nie</span></p><p><span>Maar 'n ons</span></p><p><span></span></p><p><span>Nou moet ek probeer onthou watse draaie het ons gery, waar het ons gestop en watter klanke gaan die vlieeniers vervang</span></p><p><span></span></p><p><span>969 kilometer van dink</span></p></div>",
     repliedTo: null,
     date: 1577562529,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
@@ -2118,23 +2114,49 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>969 kilometers het gevoel soos 'n vinnige flikkerlig aansit</span></p><p><span>Maar dit was toe jy langs my was</span></p><p><span>Toe jy kon saamsing met Twenty One Pilots</span></p><p><span>En my uitskel omdat ek die oomblik op 'n skerm wou vasvang</span></p><p><span>Toe jou smile al ding was wat my groeiende angs oor my nuwe huis kon vertraag</span></p><p><span>Toe oorslaap halfpad soontoe isolasie beteken het</span></p><p><span></span></p><p><span>Toe daar nie net 'n ek en jy was nie</span></p><p><span>Maar 'n ons</span></p><p><span></span></p><p><span>Nou moet ek probeer onthou watse draaie het ons gery, waar het ons gestop en watter klanke gaan die vlieeniers vervang</span></p><p><span></span></p><p><span>969 kilometer van dink</span></p></div>",
+    __collections__: {}
+  },
+  '5c7IzPrrTHWLkmR5PTEN': {
+    repliedTo: null,
+    date: 1583532915,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Bovril broodjies + tee. ',
+    canReply: true,
+    id: '5c7IzPrrTHWLkmR5PTEN',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>My gevolgtrekking is dat die antwoord altyd binne-in lê. Binne in 'n bottel Merlot. Binne-in 'n vars gebakte broodjie; binne in die self. </span></p><p><span></span></p><p><span>Hierdie besigheid van lief raak vir een iemand is 'n lekker ding: daar's nuwigheid en veiligheid. Maar daar is aspekte van 'n vriendin wat ek tog sou wou eksploreer, maar omdat sy getroud is, is dit 'n taboe. My kêrel staan gemaklik op vir die goed wat my plat op my gat laat. En ek's dollief vir hom daarvoor. En 'n ander vriend se manier van kyk na die wêreld is só vars;</span><span> </span><span>wens ek kan meer van sy teenwoordigheid hê. Maar om lief te wees; dit te sê, is blykbaar 'n onding. </span></p><p><span></span></p><p><span>Dit voel na kompleksiteit omdat die klassieke basiskodes verlore geraak het en nou's dit eers weer tyd vir 'n herontdekking van die wiel. </span></p><p><span></span></p><p><span>Terug na antieke Griekeland, asseblief! (Plus Life Hospitale, Android, Carl Rogers en Zaha Hadid.)  </span></p><p><span></span></p><p><span>Sela. </span></p><p><span></span></p></div>",
     __collections__: {}
   },
   '5cDN7Q7ecvkYBnOuYoLN': {
-    handle: 'Sheridanwalter ',
-    name: 'Nooit net niks',
-    reported: false,
-    body:
-      'Gewond, Nagelaat, Veragting,  \nVerlate. \nAanrandings, \n\nKneusplekke, al die seer  Wat jy het-\n       Verduur,   \nOorleef,\n\n En het jy nie?  \n\nNes die vlamme na die oson lek \n\nEn die wind warrel, plesier en Troos.\n Hulp kom! \n\nEn laglus- oh! wat ñ verrukking.',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1580584523,
     id: '5cDN7Q7ecvkYBnOuYoLN',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: 'Sheridanwalter ',
+    name: 'Nooit net niks',
+    reported: false,
+    body:
+      'Gewond, Nagelaat, Veragting,  \nVerlate. \nAanrandings, \n\nKneusplekke, al die seer  Wat jy het-\n       Verduur,   \nOorleef,\n\n En het jy nie?  \n\nNes die vlamme na die oson lek \n\nEn die wind warrel, plesier en Troos.\n Hulp kom! \n\nEn laglus- oh! wat ñ verrukking.',
     __collections__: {}
   },
   '5mCZd6ekHjEpCywSscIA': {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Brief aan Dawie ',
     body:
@@ -2143,9 +2165,6 @@ const p = {
     date: 1562788451,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '5mCZd6ekHjEpCywSscIA',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '5s3YPeRo9XaAclvDhISy': {
@@ -2176,6 +2195,7 @@ const p = {
     __collections__: {}
   },
   '6035DrJM6JwrdrOYYBSb': {
+    bookmarkedCount: 0,
     mongo_id: '5c07ed25ac70f70014136fb8',
     nsfw: false,
     adminNotes: 'None',
@@ -2187,14 +2207,9 @@ const p = {
     date: 1544023334,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '6035DrJM6JwrdrOYYBSb',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '64iulwJceYFf7L85lW7N': {
-    date: 1564265480,
-    uid: '7wpOByP2EOdSrksu7jYh6dL2Om13',
-    id: '64iulwJceYFf7L85lW7N',
-    bookmarkedCount: 1,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -2203,10 +2218,13 @@ const p = {
     body:
       '<div><p><span>Luister mooi hoe beweeg die Aarde. </span></p><p><span>Die assestelsel op kosmologiese standaarde. </span></p><p><span></span></p><p><span>Verstrooi en ontbind </span></p><p><span>lê my sterrestelsel se punt. </span></p><p><span></span></p><p><span>In jou pyn in wil ek teleskoop, </span></p><p><span>jou vryheid met eksistensialisme en sielkunde vry koop</span><span>. </span></p></div>',
     reported: false,
+    date: 1564265480,
+    uid: '7wpOByP2EOdSrksu7jYh6dL2Om13',
+    id: '64iulwJceYFf7L85lW7N',
+    bookmarkedCount: 1,
     __collections__: {}
   },
   '68CMXL8neFHSqYWxAyK2': {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -2217,9 +2235,15 @@ const p = {
     date: 1560026489,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '68CMXL8neFHSqYWxAyK2',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '69B0eqUPbxvez5o1rqfs': {
+    activeTema: 'Deel jou geheim',
+    richText: true,
+    handle: '',
+    name: 'Vashou',
+    canReply: true,
     id: '69B0eqUPbxvez5o1rqfs',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -2231,16 +2255,9 @@ const p = {
     repliedTo: null,
     date: 1576508471,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
-    activeTema: 'Deel jou geheim',
-    richText: true,
-    handle: '',
-    name: 'Vashou',
-    canReply: true,
     __collections__: {}
   },
   '6BwZ8TaF6OIait2WCewm': {
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'OL<CPT',
@@ -2250,6 +2267,8 @@ const p = {
     date: 1560190757,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: '6BwZ8TaF6OIait2WCewm',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   '6CYrtGrjU98OUopn8qFR': {
@@ -2267,6 +2286,8 @@ const p = {
     __collections__: {}
   },
   '6EGZFbrodAyxrYXRgl7x': {
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '☺',
@@ -2276,11 +2297,11 @@ const p = {
     date: 1565470428,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '6EGZFbrodAyxrYXRgl7x',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   '6EZgXRTOB7vMl1HCpFCF': {
+    id: '6EZgXRTOB7vMl1HCpFCF',
+    repliedToName: null,
     bookmarkedCount: 2,
     nsfw: false,
     adminNotes: 'None',
@@ -2295,11 +2316,10 @@ const p = {
     handle: '',
     name: 'A boring dystopia',
     canReply: true,
-    id: '6EZgXRTOB7vMl1HCpFCF',
-    repliedToName: null,
     __collections__: {}
   },
   '6GKTPp9v5K2Ai5qDQ9PG': {
+    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -2310,10 +2330,10 @@ const p = {
     date: 1565526633,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: '6GKTPp9v5K2Ai5qDQ9PG',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '6HW10agPwdQsfzXXqkXS': {
+    id: '6HW10agPwdQsfzXXqkXS',
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
@@ -2325,13 +2345,9 @@ const p = {
     reported: false,
     date: 1565722078,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    id: '6HW10agPwdQsfzXXqkXS',
     __collections__: {}
   },
   '6MukrPatxgAVw1YF38Wm': {
-    canReply: true,
-    id: '6MukrPatxgAVw1YF38Wm',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -2345,10 +2361,12 @@ const p = {
     richText: true,
     handle: '',
     name: 'My lewe gisteraand: ',
+    canReply: true,
+    id: '6MukrPatxgAVw1YF38Wm',
+    repliedToName: null,
     __collections__: {}
   },
   '6MxUtrfqb0JbHGUtS0YZ': {
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -2359,6 +2377,7 @@ const p = {
     date: 1559580206,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     id: '6MxUtrfqb0JbHGUtS0YZ',
+    bookmarkedCount: 1,
     __collections__: {}
   },
   '6N6y2m7OctU6Zf8FziRB': {
@@ -2376,12 +2395,6 @@ const p = {
     __collections__: {}
   },
   '6NAbZBOnppary93dvRLq': {
-    reported: false,
-    body:
-      '<div><p><span>Ek luister na die nag geluide</span></p><p><span>Dis vreedsaame en rustigheid</span></p><p><span>Ek hoor die geritsel van die bomme</span></p><p><span>Ek kyk oor die mooiste tuin</span></p><p><span></span></p><p><span>Ek verlang na iemand</span></p><p><span>naby aan my</span></p><p><span>Ek wil jou liggaam voel teen myne</span></p><p><span>Ek wil hoor jou diep asemhaling diep en uit</span></p><p><span></span></p><p><span>Ek wil jou vashou</span></p><p><span>Vashou dat niks jou van my af wag neem</span></p><p><span>Weg neem dat ek jou nie meer kan sien of voel.</span></p><p><span></span></p><p><span>Ek wil jou kop op my borskas voel</span></p><p><span>Jou hare teen my hou</span></p><p><span>Sodat ons soos een mens kan wees</span></p><p><span></span></p><p><span>Ek wil jou hartklop voel teen myne</span></p><p><span>met die weete jys veiliig by my</span></p><p><span>Ek sal jou bewaak teen seer kry en verdriet. Ek sal jou beskerm teen die woeste wereld daar buite</span></p><p><span></span></p><p><span>Ek sal jou lief he tot my einde kom.</span></p><p><span></span></p></div>',
-    repliedTo: null,
-    date: 1570657008,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     activeTema: null,
     richText: true,
     handle: '',
@@ -2392,11 +2405,15 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Ek luister na die nag geluide</span></p><p><span>Dis vreedsaame en rustigheid</span></p><p><span>Ek hoor die geritsel van die bomme</span></p><p><span>Ek kyk oor die mooiste tuin</span></p><p><span></span></p><p><span>Ek verlang na iemand</span></p><p><span>naby aan my</span></p><p><span>Ek wil jou liggaam voel teen myne</span></p><p><span>Ek wil hoor jou diep asemhaling diep en uit</span></p><p><span></span></p><p><span>Ek wil jou vashou</span></p><p><span>Vashou dat niks jou van my af wag neem</span></p><p><span>Weg neem dat ek jou nie meer kan sien of voel.</span></p><p><span></span></p><p><span>Ek wil jou kop op my borskas voel</span></p><p><span>Jou hare teen my hou</span></p><p><span>Sodat ons soos een mens kan wees</span></p><p><span></span></p><p><span>Ek wil jou hartklop voel teen myne</span></p><p><span>met die weete jys veiliig by my</span></p><p><span>Ek sal jou bewaak teen seer kry en verdriet. Ek sal jou beskerm teen die woeste wereld daar buite</span></p><p><span></span></p><p><span>Ek sal jou lief he tot my einde kom.</span></p><p><span></span></p></div>',
+    repliedTo: null,
+    date: 1570657008,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     __collections__: {}
   },
   '6Q8inL0Cl8QcagA0jW1S': {
-    mongo_id: '5c1b23f0212cd60014131cd7',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Ek’t om gegee ',
@@ -2406,6 +2423,8 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '6Q8inL0Cl8QcagA0jW1S',
     bookmarkedCount: 0,
+    mongo_id: '5c1b23f0212cd60014131cd7',
+    nsfw: false,
     __collections__: {}
   },
   '6YHx3mnrkOiqrtTalWLH': {
@@ -2438,6 +2457,9 @@ const p = {
     __collections__: {}
   },
   '6bLIWH3qafaMJAui7ewC': {
+    reported: false,
+    body:
+      '<div><p><span>Ek was meer as n jaar laas by die see, ek bly 30km weg. </span></p><p><span></span></p><p><span>Swem ons nog?</span></p><p><span>Dryf ons? </span></p><p><span>of survive ons net-net, </span></p><p><span></span></p><p><span>Kop bo water op feestyd</span></p></div>',
     repliedTo: null,
     date: 1577804001,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
@@ -2451,12 +2473,12 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Ek was meer as n jaar laas by die see, ek bly 30km weg. </span></p><p><span></span></p><p><span>Swem ons nog?</span></p><p><span>Dryf ons? </span></p><p><span>of survive ons net-net, </span></p><p><span></span></p><p><span>Kop bo water op feestyd</span></p></div>',
     __collections__: {}
   },
   '6cCUfOsO7JXGTpNmtJY6': {
+    date: 1556934972,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '6cCUfOsO7JXGTpNmtJY6',
     bookmarkedCount: 1,
     mongo_id: '5cccf13c6c18eb0015dd8e5f',
     nsfw: false,
@@ -2466,17 +2488,9 @@ const p = {
     body:
       'Hoekom kan ek nie net niks hê nie.\nHoekom kan ek nie net niks van niemand wees nie. \nHoekom kan ek nie net nêrens hoort nie.\nEn wil vry val.\nEk is onafhanklik en volledig onbetroubaar.\nEk is moeg om bevraagteken te word.\nGetoets en Gewurg te word.\nEk is niks van jou nie. Hoekom nie?',
     reported: false,
-    date: 1556934972,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '6cCUfOsO7JXGTpNmtJY6',
     __collections__: {}
   },
   '6cXqJc6MKjzoCOBU5ISn': {
-    id: '6cXqJc6MKjzoCOBU5ISn',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>J</span><span>y</span><span> </span><span>d</span><span>ink dat jy te veel vir my beteken</span><span>.</span></p><p><span></span></p><p><span>Miskien is jy reg, </span></p><p><span>dat jy te veel vir my beteken.</span><span> </span></p><p><span>Miskien dink jy dis die waarheid, </span></p><p><span>al sê ek dat ek nie eintlik aan jou dink nie, </span></p><p><span>terwyl ek ure lank </span><span>jou nie kan vergeet nie.</span></p><p><span></span></p><p><span>Jy weet dat jy te veel vir my beteken.</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>',
@@ -2488,10 +2502,14 @@ const p = {
     handle: '',
     name: 'Help my, hierdie gedig wil nie',
     canReply: true,
+    id: '6cXqJc6MKjzoCOBU5ISn',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '6ccFaRvTGjoPKfJL8mUh': {
-    richText: true,
     handle: '',
     name: 'Liefdesbrief',
     canReply: true,
@@ -2506,9 +2524,11 @@ const p = {
     repliedTo: null,
     date: 1567294495,
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
+    richText: true,
     __collections__: {}
   },
   '6d71aY3pHYAvb4yUTTQ8': {
+    adminNotes: 'None',
     handle: '',
     name: 'W',
     body: 'I think you should give me up. ',
@@ -2518,7 +2538,6 @@ const p = {
     id: '6d71aY3pHYAvb4yUTTQ8',
     bookmarkedCount: 1,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '6dAYdT0wpj402K54Zgi4': {
@@ -2550,7 +2569,6 @@ const p = {
     __collections__: {}
   },
   '6k1RLwD0NS5I97fI0FeG': {
-    handle: 'Evertesterhuizen  ',
     name: '25',
     body:
       "Olieverf woorde soos lush op printed media en solo uitstalling eintlik group exhibition. Groete van lank gelede en julle interaksie is soveel anders nêrens jaloers bietjie. En die foto-kunstenaars. En rook en Vape. Pa en seun. Wyn. Koue ys wat smelt in my sweterige hand. Geen water en reject guns teen pienk mure. Verkoop sulke kak? \n\nPeonies. Binnekring. Kruis die straat en in hier. Donker houttrappe. Worn off en ek's seker storieryk. Renonkels en lush weer bo. Kerslig. Organies arranged en amazing gingerbeer mix. Mix niemand. Gin. Pappa. Maar jy. Ek haat bokmelkkaas. \n\nVrystaat en salig weg. Nader. Oopte bring ontspanning. Intiem gekoek. Reënweer en druppels piering. Gesels op en gemak maar, rý. \n\nBits. Al wat oorbly.\nNet bits. ",
@@ -2561,16 +2579,10 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    handle: 'Evertesterhuizen  ',
     __collections__: {}
   },
   '6o1QzVoLkQ96yYohtWxp': {
-    body:
-      '<div><p><span>Hoe wens ek dat ek</span></p><p><span>hierdie dwarrelende warboel</span></p><p><span>vir die absolute stilte,\nin oorvloed, kon verruil.\nWaar is die hemel,\nwat kwansuis \nhier op aarde skuil?\n\nWaar is jou stille nag,\njou ware wese, \nalgehele prag?\n\nAl wat oor is,\nis stiltesmag.</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1570290420,
-    uid: 'VeJpwlm0nJQxQyt57uCt8MlWPr52',
-    activeTema: null,
     richText: true,
     handle: 'marinda_dejongh',
     name: 'Stiltesmag',
@@ -2580,17 +2592,16 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    body:
+      '<div><p><span>Hoe wens ek dat ek</span></p><p><span>hierdie dwarrelende warboel</span></p><p><span>vir die absolute stilte,\nin oorvloed, kon verruil.\nWaar is die hemel,\nwat kwansuis \nhier op aarde skuil?\n\nWaar is jou stille nag,\njou ware wese, \nalgehele prag?\n\nAl wat oor is,\nis stiltesmag.</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1570290420,
+    uid: 'VeJpwlm0nJQxQyt57uCt8MlWPr52',
+    activeTema: null,
     __collections__: {}
   },
   '6owZkWoAa3xk4mjf51Tx': {
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Ek het nog nooit gebraai op braai-dag nie</span></p><p><span></span></p><p><span>Dit maak my bly.</span></p></div>',
-    repliedTo: null,
-    date: 1569445180,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
     handle: '',
@@ -2599,9 +2610,23 @@ const p = {
     id: '6owZkWoAa3xk4mjf51Tx',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Ek het nog nooit gebraai op braai-dag nie</span></p><p><span></span></p><p><span>Dit maak my bly.</span></p></div>',
+    repliedTo: null,
+    date: 1569445180,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   '6qc308mvdJhLxRVjxVIt': {
+    body:
+      '<div><p><span>Ek bel jou om te sê dit is amper November</span></p><p><span>Die somer was tot nou toe nog net sluipvoets in die gange</span></p><p><span>Maar vanoggend het hy homself voorgestel\nVan voor af\n\nVanaand was soos die aande wat ek so graag onthou\nElke amper-November word ‘n kind in my wakker\nEn ek ruik koerantpapier en moerkoffie\nDie wereld word rooi en groen en moerbei\nGroter en harder en besiger en laf\n(Daar is ‘n kersboom geraamte op die straathoek in Durbanville, soos ‘n mammoet wat gaan sterf het en net so bly staan)\n\nDie maan le met sy stert in die see\n‘n Onbekende spar laat my altyd aan vakansies dink\nPerskes gekoop by die man wat dit in bokse by ons voordeur kom wys\nFisante in die erf langsaan ons\nHulle is banger vir my as vir jou\n\nEn ek mis alles wat was\nEk verlang na elke sekond agter my\nAs alles net dieselfde wou bly\nAs alles net vir n rukkie langer dieselfde wou bly</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1572123332,
+    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     activeTema: null,
     richText: true,
     handle: 'almero_welgemoed',
@@ -2612,17 +2637,9 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Ek bel jou om te sê dit is amper November</span></p><p><span>Die somer was tot nou toe nog net sluipvoets in die gange</span></p><p><span>Maar vanoggend het hy homself voorgestel\nVan voor af\n\nVanaand was soos die aande wat ek so graag onthou\nElke amper-November word ‘n kind in my wakker\nEn ek ruik koerantpapier en moerkoffie\nDie wereld word rooi en groen en moerbei\nGroter en harder en besiger en laf\n(Daar is ‘n kersboom geraamte op die straathoek in Durbanville, soos ‘n mammoet wat gaan sterf het en net so bly staan)\n\nDie maan le met sy stert in die see\n‘n Onbekende spar laat my altyd aan vakansies dink\nPerskes gekoop by die man wat dit in bokse by ons voordeur kom wys\nFisante in die erf langsaan ons\nHulle is banger vir my as vir jou\n\nEn ek mis alles wat was\nEk verlang na elke sekond agter my\nAs alles net dieselfde wou bly\nAs alles net vir n rukkie langer dieselfde wou bly</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1572123332,
-    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     __collections__: {}
   },
   '6swvzY7mFtAcio4QLpcv': {
-    adminNotes: 'None',
-    handle: '',
     name: 'Crash',
     body:
       'Your beautiful face\nExploded in my head\nAs I picked up the phone\nTo hear that you’re dead',
@@ -2633,13 +2650,11 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b65f92d596dbb0014c1ad83',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '6t8uqcw0KBp7Kifbdsuz': {
-    date: 1533410120,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '6t8uqcw0KBp7Kifbdsuz',
-    bookmarkedCount: 0,
     mongo_id: '5b65fb48596dbb0014c1ad84',
     nsfw: false,
     adminNotes: 'None',
@@ -2648,12 +2663,13 @@ const p = {
     body:
       'Tussen verklapte geheime\nEn getrekte gordyne\nDaar sal ek jou weer ontmoet\nWanneer die wereld daar buite\nUit gesluit deur ons ruite\nDie daglig weer kom groet\n\nAs komberse kon skinder\nVan kers vlam verhale en as mure kon praat\nWanneer jy vir my fluister\nIn die diep koue duister oor die wereld en sy kwaad\n\nWanneer die aand so naak is \nSoos ek en jy\nEn die storm wind\nWaai die reen verby\n\nDaar in my slaapkamer \nDaar in my bed \nWaar die twee van ons\nDie wereld daar buite belet\n\nDaar le ons in vrede\nEn vergeet die verlede\nDaar le ons rustig en kalm\nMet my hartklop teen jou oor\nWas ons in die oomblik verloor\nOorgegee aan alkohol en dagga walms',
     reported: false,
+    date: 1533410120,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '6t8uqcw0KBp7Kifbdsuz',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '6vTIb0WXI0qURBuEvspK': {
-    id: '6vTIb0WXI0qURBuEvspK',
-    bookmarkedCount: 0,
-    mongo_id: '5ca6d5b1a87be6001567d3d9',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -2662,9 +2678,16 @@ const p = {
     reported: false,
     date: 1554437554,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '6vTIb0WXI0qURBuEvspK',
+    bookmarkedCount: 0,
+    mongo_id: '5ca6d5b1a87be6001567d3d9',
     __collections__: {}
   },
   '6vp3vLXNKcrIOO3mF7Km': {
+    id: '6vp3vLXNKcrIOO3mF7Km',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'SKG ',
     body:
@@ -2672,13 +2695,13 @@ const p = {
     reported: false,
     date: 1559658903,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    id: '6vp3vLXNKcrIOO3mF7Km',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '6vuw0lZphvLpDKRP5L42': {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: ' ',
     canReply: true,
     id: '6vuw0lZphvLpDKRP5L42',
     repliedToName: null,
@@ -2690,16 +2713,9 @@ const p = {
     repliedTo: null,
     date: 1573686939,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: ' ',
     __collections__: {}
   },
   '6zUWtYZFmTRgm2N8tqkr': {
-    id: '6zUWtYZFmTRgm2N8tqkr',
-    bookmarkedCount: 0,
-    mongo_id: '5c4249490afcb100152273e1',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -2709,9 +2725,18 @@ const p = {
     reported: false,
     date: 1547848009,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '6zUWtYZFmTRgm2N8tqkr',
+    bookmarkedCount: 0,
+    mongo_id: '5c4249490afcb100152273e1',
     __collections__: {}
   },
   '6zpjgS10A7NYGckNSHnC': {
+    body:
+      '<div><p><span>Wanneer hulle nie snork nie,</span></p><p><span>Naai hulle luidkeels. </span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1568497001,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     richText: true,
     handle: '',
     name: 'My liewe bure. ',
@@ -2721,15 +2746,11 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Wanneer hulle nie snork nie,</span></p><p><span>Naai hulle luidkeels. </span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1568497001,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   '6zv97yVE6GKwlhdNOQJR': {
+    id: '6zv97yVE6GKwlhdNOQJR',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -2739,11 +2760,11 @@ const p = {
     reported: false,
     date: 1560199164,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '6zv97yVE6GKwlhdNOQJR',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '70pOf6FOTOI9MXuNGJJP': {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Sprokieverhaal',
     body: 'Al ooit agter gekom hoe "Disney" dieselfde lees as "Disnetjy"?',
@@ -2752,11 +2773,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '70pOf6FOTOI9MXuNGJJP',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '7Bjld8okC1bQBh2m65cF': {
+    id: '7Bjld8okC1bQBh2m65cF',
+    bookmarkedCount: 1,
+    mongo_id: '5ca3e0b321e4a6001556bc0e',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'actualized.org',
@@ -2765,14 +2788,9 @@ const p = {
     reported: false,
     date: 1554243764,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '7Bjld8okC1bQBh2m65cF',
-    bookmarkedCount: 1,
-    mongo_id: '5ca3e0b321e4a6001556bc0e',
-    nsfw: false,
     __collections__: {}
   },
   '7C1dRNp3kyR6SWM0I4XB': {
-    id: '7C1dRNp3kyR6SWM0I4XB',
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
@@ -2784,27 +2802,24 @@ const p = {
     reported: false,
     date: 1565800873,
     uid: 'QaCRK12616cZfVXU9PuDAzri2Rq1',
+    id: '7C1dRNp3kyR6SWM0I4XB',
     __collections__: {}
   },
   '7ESCenf3gvW4whKnjYun': {
-    handle: '',
-    name: 'Hédon',
-    reported: false,
-    body:
-      "ek wil willens en wetens verbind aan 'n sekte, 'n groep of gedeelde ideaal\n\n'n plek waar irrasionele gedrag regverdig word en Langtermyn haar oë rol vir Kort Plesier\n\n'n satisfying sense of purpose en verantwoordelikheid wat ontspring as jy geglo kan kry in 'n lewe hierna. \n\nSwitch my weer aan, asseblief? \n\n\n\n(en fokof, tog?) \n\n",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1571080420,
     id: '7ESCenf3gvW4whKnjYun',
     bookmarkedCount: 2,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
+    name: 'Hédon',
+    reported: false,
+    body:
+      "ek wil willens en wetens verbind aan 'n sekte, 'n groep of gedeelde ideaal\n\n'n plek waar irrasionele gedrag regverdig word en Langtermyn haar oë rol vir Kort Plesier\n\n'n satisfying sense of purpose en verantwoordelikheid wat ontspring as jy geglo kan kry in 'n lewe hierna. \n\nSwitch my weer aan, asseblief? \n\n\n\n(en fokof, tog?) \n\n",
     __collections__: {}
   },
   '7EmPplXtpTsrDt7fJD4H': {
-    mongo_id: '5c06df20ac70f70014136fb5',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'kanjyglo',
     name: 'eine kleine nachtmusik',
     body:
       'Gehry\nCorbusier\nPiano\nKahn\nRogers\nMurcutt\nHadid\n\n"Jy kan soveel meer bereik as wat \nJy glo\nJy kan"\n\n(die gedagte waarvoor ek die \nbangste is)\n\nbeteken jy moet ontsnap uit hierdie \ndwaal van plesier soekery en weer\nconnect met dit wat jou jý gemaak het \nvoor plesier ontdek is. \n\ngefokus\ndetermineerd\nhardwerkend\nprestasie\n\ngoedheid\n\nEn dit verg baie... \nbáie guts. ',
@@ -2813,10 +2828,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '7EmPplXtpTsrDt7fJD4H',
     bookmarkedCount: 0,
+    mongo_id: '5c06df20ac70f70014136fb5',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'kanjyglo',
     __collections__: {}
   },
   '7K0BU40eEpzc6DMkF5An': {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'as ek in die oggend nog so voel',
@@ -2826,9 +2844,14 @@ const p = {
     uid: 'Wt7jhxciEQP9CqVL8yB6xlZsfbF3',
     id: '7K0BU40eEpzc6DMkF5An',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   '7MU6mOM6oVuAAyd6y8Am': {
+    bookmarkedCount: 0,
+    mongo_id: '5cc8b40e9b0ec70015a160fe',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'moet uit',
     body:
@@ -2837,14 +2860,9 @@ const p = {
     date: 1556657167,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '7MU6mOM6oVuAAyd6y8Am',
-    bookmarkedCount: 0,
-    mongo_id: '5cc8b40e9b0ec70015a160fe',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '7OYpXqI0FK4DMI1p08Zo': {
-    nsfw: false,
     adminNotes: 'None',
     handle: '13.lynette',
     name: 'Wens',
@@ -2856,11 +2874,10 @@ const p = {
     id: '7OYpXqI0FK4DMI1p08Zo',
     bookmarkedCount: 0,
     mongo_id: '5c4c442058a4530015371cbd',
+    nsfw: false,
     __collections__: {}
   },
   '7T2oFcqfVgvMUYS4wu1k': {
-    id: '7T2oFcqfVgvMUYS4wu1k',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -2870,6 +2887,8 @@ const p = {
     reported: false,
     date: 1561410433,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '7T2oFcqfVgvMUYS4wu1k',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '7XIFe1eKucFUlBtLXpwR': {
@@ -2888,6 +2907,9 @@ const p = {
     __collections__: {}
   },
   '7cCzLBNs09T8vMUeH6k5': {
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Med Lemon',
     body:
@@ -2897,15 +2919,9 @@ const p = {
     uid: 'GjLkfagUHtMFcLb4b785tmh7xye2',
     id: '7cCzLBNs09T8vMUeH6k5',
     bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   '7cMThbt8TAYpBR0NMI2K': {
-    handle: '',
-    name: 'geplant/blom',
-    canReply: true,
     id: '7cMThbt8TAYpBR0NMI2K',
     repliedToName: null,
     bookmarkedCount: 1,
@@ -2919,13 +2935,12 @@ const p = {
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
     richText: true,
+    handle: '',
+    name: 'geplant/blom',
+    canReply: true,
     __collections__: {}
   },
   '7dPhT9olzTOZkjVSGdTu': {
-    date: 1555961439,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '7dPhT9olzTOZkjVSGdTu',
-    bookmarkedCount: 0,
     mongo_id: '5cbe165f1015cc0015ffcbea',
     nsfw: false,
     adminNotes: 'None',
@@ -2934,10 +2949,13 @@ const p = {
     body:
       'sometimes I wonder if the only benefit of being drunk is being able to say you were drunk. ',
     reported: false,
+    date: 1555961439,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '7dPhT9olzTOZkjVSGdTu',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '7dvZPsAggD9jMHeh4Jkc': {
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'andreasvanderhoven',
@@ -2948,17 +2966,10 @@ const p = {
     date: 1559669148,
     uid: 'tzUTaymljKP4k00KMaAJ5aGdXrw1',
     id: '7dvZPsAggD9jMHeh4Jkc',
+    bookmarkedCount: 1,
     __collections__: {}
   },
   '7gxjtNgh3VkCAhvk7YTW': {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: "Argief-gedig (en nou's jy verloof, bless her soul) ",
-    canReply: true,
-    id: '7gxjtNgh3VkCAhvk7YTW',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -2967,6 +2978,14 @@ const p = {
     repliedTo: null,
     date: 1583340513,
     uid: 'wlTh5weNSyf33P0ghNfFSDeSxEy2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: "Argief-gedig (en nou's jy verloof, bless her soul) ",
+    canReply: true,
+    id: '7gxjtNgh3VkCAhvk7YTW',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '7kicWnJnrUEC8vx7rw4D': {
@@ -3003,13 +3022,6 @@ const p = {
     __collections__: {}
   },
   '7yYSF13VpdtoBUFB9aa0': {
-    richText: true,
-    handle: '',
-    name: "When you've lost your PEness",
-    canReply: true,
-    id: '7yYSF13VpdtoBUFB9aa0',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -3018,13 +3030,16 @@ const p = {
     repliedTo: null,
     date: 1569008487,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    richText: true,
+    handle: '',
+    name: "When you've lost your PEness",
+    canReply: true,
+    id: '7yYSF13VpdtoBUFB9aa0',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '80m1gp8uSNY94E9uLdFB': {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     name: 'Angles send to me',
     body:
       '<div><p><span>The Lord is my Shephard i have everything i need</span></p><p><span></span></p><p><span>I was sitting in a parking area at a mall</span></p><p><span>People coming and going from shop to shop. </span></p><p><span>When I saw a women and her son</span></p><p><span>Walking from one car to another selling bookmarkers. </span></p><p><span></span></p><p><span>At the time i was thinking why must i pray, pray for something good to happen. Praying what to do. At that stage i did not want to pray anymore. I had a feeling af sadness in my heart and soul.</span></p><p><span>a heart and soul thats broken</span></p><p><span>Broken in such a way no one could repair</span></p><p><span></span></p><p><span>I bought one from this women I told her this card talks to me. While i was thinking how to end my life. This Angle women came into my life. </span></p><p><span></span></p><p><span>I called her back and my tears was running non stop. I spoke to this angle. a lady with a beautyfull smile. </span></p><p><span>A smile of an angel i met her son to.</span></p><p><span>I could feel God send her to my car just at the right time because i just want to end the hurt and pain in my soul.</span></p><p><span></span></p><p><span>a Time i needed an angel for me to still believe there is a Living God</span></p><p><span>a God that listens at all times even though i thought God was not listening</span></p><p><span></span></p><p><span>Thank you angel of the night</span></p><p><span>You gave me hope for another day</span></p><p><span>To get up again an fight</span></p><p><span>Giving me again hope to live another day</span></p><p><span></span></p><p><span>My God bless you and your son. </span></p><p><span></span></p></div>',
@@ -3033,9 +3048,15 @@ const p = {
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     id: '80m1gp8uSNY94E9uLdFB',
     bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '818NAWbF4SdV2uTnT9f0': {
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Lê styf </span></p><p><span>Teenaan \nStyf langsaan my \nIn die loopgraf \nHulle skiet op ons \nSpaar jou krag\nDood is naby. \n\nBacchus gaan ons kom haal\nVoor die god van dood\nhier is\nDie wolwe is weer aangetrek soos skape\nOns tyd is verstreke, \nKyk:\nDood is hier .\n\n(Ode aan: RvdV “There is Death here..." - The Dra\'Azon, also known as the Beast of the Barrier)</span></p></div>',
@@ -3050,8 +3071,6 @@ const p = {
     id: '818NAWbF4SdV2uTnT9f0',
     repliedToName: null,
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '83Jo0n0PPxTLgOV5HXN8': {
@@ -3069,6 +3088,10 @@ const p = {
     __collections__: {}
   },
   '83lik2f8B6BH4aimS0Dh': {
+    mongo_id: '5c8603e4470b8000150b206f',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'tanapistorius',
     name: ' Orange couch',
     body:
       "Its me and I am in our old living room, sitting on the distinctive orange couch, in front of me a big glass window overlooking the garden, I slowly start sinking into the orange mass, intertwining with stings of white,orange and black, I become enveloped by the sensation of what I assume the feelings of a living room couch would be, i'm not the entire body of it, just a small part. ",
@@ -3077,13 +3100,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '83lik2f8B6BH4aimS0Dh',
     bookmarkedCount: 0,
-    mongo_id: '5c8603e4470b8000150b206f',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'tanapistorius',
     __collections__: {}
   },
   '86RMd6mldv2UBQFvFL3L': {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'Ahwelgemoed ',
     name: '🍷',
     body:
       'vanaand...\nhier nou... \nna al die tyd... \nbesoedel my ekse se suiwer wit trou rokke my skerm op, \nhulle het hulle tyd op my gemors. \n',
@@ -3092,9 +3114,6 @@ const p = {
     uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
     id: '86RMd6mldv2UBQFvFL3L',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'Ahwelgemoed ',
     __collections__: {}
   },
   '8DtIHBZhD0EK5io7FAaU': {
@@ -3112,6 +3131,7 @@ const p = {
     __collections__: {}
   },
   '8EMDjIRrETEaLnXhB8uB': {
+    id: '8EMDjIRrETEaLnXhB8uB',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -3122,15 +3142,9 @@ const p = {
     reported: false,
     date: 1567472667,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '8EMDjIRrETEaLnXhB8uB',
     __collections__: {}
   },
   '8GpO2hZ08RAIlidvYV9T': {
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>En toe ons uitasem en laggend van die dansvloer afstap</span></p><p><span>En die ou oom in die voorste ry sê ons herinner hom aan toe sy vrou nog geleef het</span></p><p><span></span></p><p><span>Toe weet ek</span></p><p><span>Ek sal jou beslis kan leer kaap sokkie en  draai en draai en draai</span></p><p><span>Met my gedagtes en kop wat dieselfde doen</span></p></div>',
     repliedTo: null,
     date: 1567456360,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
@@ -3141,23 +3155,33 @@ const p = {
     id: '8GpO2hZ08RAIlidvYV9T',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>En toe ons uitasem en laggend van die dansvloer afstap</span></p><p><span>En die ou oom in die voorste ry sê ons herinner hom aan toe sy vrou nog geleef het</span></p><p><span></span></p><p><span>Toe weet ek</span></p><p><span>Ek sal jou beslis kan leer kaap sokkie en  draai en draai en draai</span></p><p><span>Met my gedagtes en kop wat dieselfde doen</span></p></div>',
     __collections__: {}
   },
   '8Gsc1whIKRDUZGcL4AQw': {
-    id: '8Gsc1whIKRDUZGcL4AQw',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'ilzedup94',
     name: 'Nare liefde',
     body:
       'Ek hou van jou\nwant jy hou van my.\nDis hoe ek my ego voer\ndit is hoe ek honger bly.',
     reported: false,
     date: 1562533850,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
+    id: '8Gsc1whIKRDUZGcL4AQw',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'ilzedup94',
     __collections__: {}
   },
   '8KqLZ5sesfixkPuH97Vp': {
+    handle: '',
+    name: 'Dis al. ',
+    canReply: true,
+    id: '8KqLZ5sesfixkPuH97Vp',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -3168,16 +3192,9 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
-    handle: '',
-    name: 'Dis al. ',
-    canReply: true,
-    id: '8KqLZ5sesfixkPuH97Vp',
-    repliedToName: null,
     __collections__: {}
   },
   '8LnOyxvcYVKtjYjaNKXi': {
-    date: 1547953702,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '8LnOyxvcYVKtjYjaNKXi',
     bookmarkedCount: 0,
     mongo_id: '5c43e62611f2930015dbcdb4',
@@ -3188,10 +3205,11 @@ const p = {
     body:
       "Ek wil nie weer van voor af begin nie\nWant ek ken jou\nEn jy ken my\nEn jou kat hou van my\n\nVolgens jou is ek nie 'n reeks fokkops nie\nMaar een groot fokkop\n\nHoe het ek jou dan minder alleen laat voel? \nHoekom het jy meer begin lees?\nWas dit nie goed om 'n break van Durbanville braais naweekroetine te hê nie?\n\nMaar ek was net 'n fokkop\nEn jy is nie sentimenteel nie\nSo elke gedagte van/vir/oor my\nIs reeds weg",
     reported: false,
+    date: 1547953702,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   '8MGcjMHfk7JV6ywdKE6u': {
-    adminNotes: 'None',
     handle: '',
     name: 'Wil jy? ',
     body:
@@ -3203,6 +3221,7 @@ const p = {
     bookmarkedCount: 1,
     mongo_id: '5cb88cd08385fb001566552d',
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   '8MKS7RXTL8NddFByiYJp': {
@@ -3220,9 +3239,6 @@ const p = {
     __collections__: {}
   },
   '8QYk6bfDwobpmhx80tJA': {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Gat',
     reported: false,
     body: 'Kry jou gat in rat',
@@ -3230,9 +3246,13 @@ const p = {
     date: 1575608297,
     id: '8QYk6bfDwobpmhx80tJA',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '8RyJ6RGc0kJGme3RXZQE': {
+    id: '8RyJ6RGc0kJGme3RXZQE',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -3243,24 +3263,22 @@ const p = {
     reported: false,
     date: 1563042894,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '8RyJ6RGc0kJGme3RXZQE',
     __collections__: {}
   },
   '8SVSO1TJ0yoyCPYYhtaj': {
+    id: '8SVSO1TJ0yoyCPYYhtaj',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'White trash',
     reported: false,
     body: "Kaalvoet in 'n dranwinkel\nOp 'n Sondag.\nWat is jou rock bottom?",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1575823913,
-    id: '8SVSO1TJ0yoyCPYYhtaj',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   '8WGgut6h13zvQJPqpB2q': {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Jammer',
@@ -3271,26 +3289,24 @@ const p = {
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     id: '8WGgut6h13zvQJPqpB2q',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   '8Za2NRyUUrKTnWUmiptH': {
+    name: 'Oor leef',
+    body: 'OOR\nSKIET\nKOS.\nOOR\nLEEF!',
+    reported: false,
+    date: 1534053449,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '8Za2NRyUUrKTnWUmiptH',
     bookmarkedCount: 0,
     mongo_id: '5b6fcc4912dcf50014d5af90',
     nsfw: false,
     adminNotes: 'None',
     handle: 'neonvanlierop',
-    name: 'Oor leef',
-    body: 'OOR\nSKIET\nKOS.\nOOR\nLEEF!',
-    reported: false,
-    date: 1534053449,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   '8cmHiaz0kmWaGrXejVCP': {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: '',
     name: 'Gee op op lewens pad',
     body:
@@ -3300,13 +3316,12 @@ const p = {
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     id: '8cmHiaz0kmWaGrXejVCP',
     bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   '8kIUHJqR2vmOLZ5FbCLt': {
-    bookmarkedCount: 0,
-    nsfw: true,
-    adminNotes: 'None',
-    handle: '',
     name: '‘n Meditasie',
     body:
       'Wat as mens Peaceful Sleep op ‘n muskiet sou spuit\nAir freshener op ‘n lastige vlieg\nKom in jou boud',
@@ -3314,9 +3329,18 @@ const p = {
     date: 1559151929,
     uid: 'EZH9c5Mb3fVdRzwehx8hDt3HrMo1',
     id: '8kIUHJqR2vmOLZ5FbCLt',
+    bookmarkedCount: 0,
+    nsfw: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   '8odoau9trE5VFqURoBti': {
+    name: 'Eerste soen',
+    canReply: true,
+    id: '8odoau9trE5VFqURoBti',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -3328,18 +3352,9 @@ const p = {
     activeTema: 'Deel jou geheim',
     richText: true,
     handle: '',
-    name: 'Eerste soen',
-    canReply: true,
-    id: '8odoau9trE5VFqURoBti',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '8pbAdG4p3Ec9wvXXKoZM': {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
-    name: 'Skilfers op Skouers en Onsamehangende Idees #2  ',
     body:
       'Dit voel soos stil staan teen ‘n helse spoed, \nJy, nou, met jou kinders en ‘n beroep, \nAlles het weg gehardloop van ons, \nOns het gesê ons gaan nog tyd vat, gaan motorfietse deur ‘n woestyn jaag, of net in die karoo gaan sit, daar naby waar jou ouma hulle geboer het. \nEk sou leer skryf en houtwerk doen, jy wou my leer braai. \nEk sou jou leer werk met geld en kar bestuur. \nOns sou op hou rook dié keer en suip verruil vir drink, ma \nOns kon net nie by hou nie, teveel kop verloor. \nTe veel goed wat moes gedoen word,  \nek kan nie een onthou nie, \nWas seker geld. ',
     reported: false,
@@ -3347,10 +3362,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '8pbAdG4p3Ec9wvXXKoZM',
     bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'Skilfers op Skouers en Onsamehangende Idees #2  ',
     __collections__: {}
   },
   '8xUL1WFd3snkJujF0e0Z': {
-    mongo_id: '5cb7731e437fe300154d1ed3',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -3361,9 +3379,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '8xUL1WFd3snkJujF0e0Z',
     bookmarkedCount: 1,
+    mongo_id: '5cb7731e437fe300154d1ed3',
     __collections__: {}
   },
   '8z9TClNVBfu4iEzZpbK8': {
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Misgis',
     body:
@@ -3373,13 +3395,9 @@ const p = {
     uid: '7hDo0nuVNIYixCPaoCXODqUnqik1',
     id: '8z9TClNVBfu4iEzZpbK8',
     bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   '8zfVGae6tRT2AV8iUMWj': {
-    richText: true,
     handle: '',
     name: ' ',
     canReply: true,
@@ -3393,14 +3411,10 @@ const p = {
     repliedTo: null,
     date: 1567246030,
     uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
+    richText: true,
     __collections__: {}
   },
   '91aylyHIsdrcFo29rQDa': {
-    handle: 'EvertEsterhuizen',
-    name: 'Altivole, Veneto',
-    body:
-      "Deurnat gesweet, \nfiets getrap en vrék van die honger. \nSonder breakfast begin gery;\nonbewus Sondag hiér beteken rus.\nSelfs die noodwinkel dut. \nLater brunch op (semi-Americanized) Pizzeria Max se klein trappie-stoep: margherita (teen 'n steak se prys). Plat op my gat. Acqua frizzante in my keel\nQuattro birra in my bloed. \n\nGiovanni het 'n skerp neus en groet oppad uit (ek was sy laaste customer vir die dag). Hy gly in by 'n dof-rooi Alfa 156. Dié is die platteland. Dis\nanders hier: dié mense het nasie trots\nen 'n homogene herkoms. \n\nEk ruk Elena Pellizzari (van AirBnB) se skrompelfiets van sy stand af.\nDie horison bewe. Dis sengend. Selfs\ndie hoë groen bome verlep. \nTjierrrr-tjierrrrr-tjierrrr kla die\nmasjien. Ons kruip koelte na koelte. \n\n'n Sportspan se laatmiddag partito is op sy laaste bene by 'n straatkafee. 'n UK Takhaarman hang oor die kroeg; hy maak praatjies met 'n vrou. Is hy die toerleier of oudste van die lot? \n\nUiteindelik het\nek by Carlos Scarpa se graf gaan kniel:\nTomba Brion was sy magnum opus.\nTussen kroeë, Maria-beelde en landbou masjiene staan hierdie off-shutter concrete kunswerk en bevestig stil: skoonheid móét tussen die alledaagse bly om waarde te hê. \n\n\n",
-    reported: false,
     date: 1543359941,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '91aylyHIsdrcFo29rQDa',
@@ -3408,10 +3422,14 @@ const p = {
     mongo_id: '5bfdcdc4060dab00144eb503',
     nsfw: false,
     adminNotes: 'None',
+    handle: 'EvertEsterhuizen',
+    name: 'Altivole, Veneto',
+    body:
+      "Deurnat gesweet, \nfiets getrap en vrék van die honger. \nSonder breakfast begin gery;\nonbewus Sondag hiér beteken rus.\nSelfs die noodwinkel dut. \nLater brunch op (semi-Americanized) Pizzeria Max se klein trappie-stoep: margherita (teen 'n steak se prys). Plat op my gat. Acqua frizzante in my keel\nQuattro birra in my bloed. \n\nGiovanni het 'n skerp neus en groet oppad uit (ek was sy laaste customer vir die dag). Hy gly in by 'n dof-rooi Alfa 156. Dié is die platteland. Dis\nanders hier: dié mense het nasie trots\nen 'n homogene herkoms. \n\nEk ruk Elena Pellizzari (van AirBnB) se skrompelfiets van sy stand af.\nDie horison bewe. Dis sengend. Selfs\ndie hoë groen bome verlep. \nTjierrrr-tjierrrrr-tjierrrr kla die\nmasjien. Ons kruip koelte na koelte. \n\n'n Sportspan se laatmiddag partito is op sy laaste bene by 'n straatkafee. 'n UK Takhaarman hang oor die kroeg; hy maak praatjies met 'n vrou. Is hy die toerleier of oudste van die lot? \n\nUiteindelik het\nek by Carlos Scarpa se graf gaan kniel:\nTomba Brion was sy magnum opus.\nTussen kroeë, Maria-beelde en landbou masjiene staan hierdie off-shutter concrete kunswerk en bevestig stil: skoonheid móét tussen die alledaagse bly om waarde te hê. \n\n\n",
+    reported: false,
     __collections__: {}
   },
   '92jAhWApHrmb2R7faZD6': {
-    handle: 'maar,wat ',
     name: 'Kerkstraat Chronicle ',
     body:
       'ek wou nie \nvanaand saam met \nhulle kuier nie want ek weet\ndit sou eindig met ek wat alleen \nna my flat toe stap sonder geselskap by \ndie huis aankom en dan ry hulle na hulle gemaklike\nhuisie verder van hier en praat met die honde en maak \nliefde. ',
@@ -3423,11 +3441,10 @@ const p = {
     mongo_id: '5cdefc87aaac1000157109f1',
     nsfw: false,
     adminNotes: 'None',
+    handle: 'maar,wat ',
     __collections__: {}
   },
   '94KUMWYdhHjgNIJYfP9p': {
-    id: '94KUMWYdhHjgNIJYfP9p',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -3437,22 +3454,29 @@ const p = {
     reported: false,
     date: 1564499146,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '94KUMWYdhHjgNIJYfP9p',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '9AMyWTGrRwIKH5ccSjxG': {
-    date: 1562268397,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: '9AMyWTGrRwIKH5ccSjxG',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Wyshede van my ex #1',
     body: "Enigiets kan 'n asbakkie wees as jy water daarin gooi",
     reported: false,
+    date: 1562268397,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '9AMyWTGrRwIKH5ccSjxG',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   '9BKCmmhFb0t6A9CMWokH': {
+    bookmarkedCount: 0,
+    mongo_id: '5cba3719624bb4001580fcd0',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Om lief te hê is moeiliker as seks ',
     body:
       "Want wat is lekkerder, maar wat is makliker as om te vergeet daar is ʼn skeiding tussen my lyf en joune?\n\nJust remember, diamonds are so precious 'cause it's so fucking hard to find them. ",
@@ -3460,14 +3484,15 @@ const p = {
     date: 1555707674,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '9BKCmmhFb0t6A9CMWokH',
-    bookmarkedCount: 0,
-    mongo_id: '5cba3719624bb4001580fcd0',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   '9Bjfo3IPJU8jzzqC0LlZ': {
+    body:
+      "<div><p><span>Die rollende grasheuwels, ongerepte spiere van die see en wilde blaarpatrone is baie, báie trippy. Selfs die growwe klipmure in die rondawel en die beauty van die klein teal-en-swart huisies teen 'n backdrop uit Vietnam.</span></p><p><span></span></p><p><span>Maar ek is nou moeg vir leererige hippies, koue showers en loer vir spinnekoppe elke keer voor jy kooi toe. </span></p><p><span></span></p><p><span>My koninkryk vir 'n wit duvet en CTM badkamer. </span></p></div>",
+    reported: false,
+    repliedTo: null,
+    date: 1576787998,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -3478,15 +3503,11 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      "<div><p><span>Die rollende grasheuwels, ongerepte spiere van die see en wilde blaarpatrone is baie, báie trippy. Selfs die growwe klipmure in die rondawel en die beauty van die klein teal-en-swart huisies teen 'n backdrop uit Vietnam.</span></p><p><span></span></p><p><span>Maar ek is nou moeg vir leererige hippies, koue showers en loer vir spinnekoppe elke keer voor jy kooi toe. </span></p><p><span></span></p><p><span>My koninkryk vir 'n wit duvet en CTM badkamer. </span></p></div>",
-    reported: false,
-    repliedTo: null,
-    date: 1576787998,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   '9I3HOc846Eip9ezidcxu': {
+    mongo_id: '5cb785ca437fe300154d1ed4',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Re: Wees net hier',
@@ -3497,15 +3518,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '9I3HOc846Eip9ezidcxu',
     bookmarkedCount: 1,
-    mongo_id: '5cb785ca437fe300154d1ed4',
-    nsfw: false,
     __collections__: {}
   },
   '9II2h0WZLgQTsoJ2NxWw': {
-    name: 'Verlep',
-    body:
-      '<div><p><span>Die kerkklok lui</span></p><p><span>deur die mis.</span></p><p><span>Jy het werk om te doen.</span></p><p><span></span></p><p><span>Doodmoeg, ja,</span></p><p><span>sê jy twee-uur (oggend),</span></p><p><span>dis oor die harde werk.</span></p><p><span></span></p><p><span>Dan\'s dit seker maar</span></p><p><span></span></p><p><span></span><span style="font-style: italic;">dala what you must,</span></p><p><span style="font-style: italic;"></span><span>I guess, jy</span></p><p><span>weet mos wat jy moet.</span></p><p><span></span></p><p><span>Ek dink slaap,</span></p><p><span>maar anyway. </span></p></div>',
-    reported: false,
     date: 1564900795,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: '9II2h0WZLgQTsoJ2NxWw',
@@ -3514,9 +3529,17 @@ const p = {
     richText: true,
     adminNotes: 'None',
     handle: 'ek.is.anouk ',
+    name: 'Verlep',
+    body:
+      '<div><p><span>Die kerkklok lui</span></p><p><span>deur die mis.</span></p><p><span>Jy het werk om te doen.</span></p><p><span></span></p><p><span>Doodmoeg, ja,</span></p><p><span>sê jy twee-uur (oggend),</span></p><p><span>dis oor die harde werk.</span></p><p><span></span></p><p><span>Dan\'s dit seker maar</span></p><p><span></span></p><p><span></span><span style="font-style: italic;">dala what you must,</span></p><p><span style="font-style: italic;"></span><span>I guess, jy</span></p><p><span>weet mos wat jy moet.</span></p><p><span></span></p><p><span>Ek dink slaap,</span></p><p><span>maar anyway. </span></p></div>',
+    reported: false,
     __collections__: {}
   },
   '9IfnxQUAOC8Igp0Wcufj': {
+    bookmarkedCount: 1,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Die woord fok',
     body:
@@ -3525,13 +3548,12 @@ const p = {
     date: 1563647658,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     id: '9IfnxQUAOC8Igp0Wcufj',
-    bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   '9MVdERGbHewkfPE33My2': {
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1569227746,
+    id: '9MVdERGbHewkfPE33My2',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -3540,33 +3562,23 @@ const p = {
     reported: false,
     body:
       'Ek wens ek kon jou wys wat ek gister gekoop het. \nMiskien kon ons daarna gaan roomys eet het by die plek in Lindin. \nEk wens ek kon jou sê hoekom ek anders voel, gevoel het. \nMiskien sou jy nou, vir my kom kuier het. \nEk wens ek kon jou vertel van my werk en jou vat na die sushi buffet in Greenside. \nMiskien sou jy my van jou avontuur vertel het. \nEk wens ek kon jou bel, met jou praat.\nMiskien sou jy weet hoe seer my hart is, ek weet hoe seer jou hart was. \nEk wens ek kon besluit. \nMiskien slaan ek my eie wind uit. \n',
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1569227746,
-    id: '9MVdERGbHewkfPE33My2',
     __collections__: {}
   },
   '9OcbcBYdztECsk4d0HsK': {
-    bookmarkedCount: 0,
-    mongo_id: '5bec5c00de59df001452cd77',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'Envirjou',
     name: 'Naby',
     body: 'Ek het nog tyd vir jou',
     reported: false,
     date: 1542216704,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '9OcbcBYdztECsk4d0HsK',
+    bookmarkedCount: 0,
+    mongo_id: '5bec5c00de59df001452cd77',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'Envirjou',
     __collections__: {}
   },
   '9PKiIaqGhDbtpkhgBxjj': {
-    richText: true,
-    handle: '',
-    name: 'Carol alt.',
-    canReply: true,
-    id: '9PKiIaqGhDbtpkhgBxjj',
-    repliedToName: 'Carol',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -3575,10 +3587,16 @@ const p = {
     repliedTo: 'bljL996bxRw7PA19COcy',
     date: 1567853044,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    richText: true,
+    handle: '',
+    name: 'Carol alt.',
+    canReply: true,
+    id: '9PKiIaqGhDbtpkhgBxjj',
+    repliedToName: 'Carol',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   '9UQIp8d5qqSI6vK3HpxJ': {
-    id: '9UQIp8d5qqSI6vK3HpxJ',
     bookmarkedCount: 0,
     mongo_id: '5c4386351a1bda0015c5d6f3',
     nsfw: false,
@@ -3590,22 +3608,28 @@ const p = {
     reported: false,
     date: 1547929141,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: '9UQIp8d5qqSI6vK3HpxJ',
     __collections__: {}
   },
   '9aEVLu01yBIm6b8a7inT': {
+    date: 1560584145,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: '9aEVLu01yBIm6b8a7inT',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'ek.is.anouk ',
     name: 'Kalahari ',
     body: 'Ons gaan blikkieskos eet;\nbound to be\nan adventure. ',
     reported: false,
-    date: 1560584145,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: '9aEVLu01yBIm6b8a7inT',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   '9jFIXySn8er5CPezEPPX': {
+    handle: '',
+    name: 'Volmaan volmaak ',
+    body:
+      'Soet sag sak die aand om my\nEn ek weet hiermee sal ek moet vrede maak\nWant om my stap die paartjies terug ark toe\nEn dis ook okay\nWant die hele maan kom uit om my nag te soen\nNet vir my',
+    reported: false,
     date: 1558213230,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '9jFIXySn8er5CPezEPPX',
@@ -3613,15 +3637,9 @@ const p = {
     mongo_id: '5ce0726dc043ea001550212e',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: 'Volmaan volmaak ',
-    body:
-      'Soet sag sak die aand om my\nEn ek weet hiermee sal ek moet vrede maak\nWant om my stap die paartjies terug ark toe\nEn dis ook okay\nWant die hele maan kom uit om my nag te soen\nNet vir my',
-    reported: false,
     __collections__: {}
   },
   '9k1G8TbvxrXQZ3UdzIJ5': {
-    name: 'Macbeth',
     canReply: true,
     id: '9k1G8TbvxrXQZ3UdzIJ5',
     repliedToName: null,
@@ -3637,9 +3655,17 @@ const p = {
     activeTema: 'Deel jou geheim',
     richText: true,
     handle: '',
+    name: 'Macbeth',
     __collections__: {}
   },
   '9mm27BPSNIpnk2FFiBEQ': {
+    adminNotes: 'None',
+    body:
+      '<div><p><span>We all go to bars, nightclubs 12 hours late and feel that immense emptiness of </span><span style="text-decoration: line-through;">happy </span><span>places.</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1566974361,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     richText: true,
     handle: '',
     name: 'An Photo-Poetry Idea',
@@ -3648,13 +3674,6 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>We all go to bars, nightclubs 12 hours late and feel that immense emptiness of </span><span style="text-decoration: line-through;">happy </span><span>places.</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1566974361,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   '9oCxQmMMmjm6mi0qtpy2': {
@@ -3677,9 +3696,6 @@ const p = {
     __collections__: {}
   },
   '9vC1UjJ85uYzf56ne2h5': {
-    mongo_id: '5c112b65617e2c00144124ff',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Hoekom is dit so complicated?',
     body:
@@ -3689,15 +3705,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: '9vC1UjJ85uYzf56ne2h5',
     bookmarkedCount: 0,
+    mongo_id: '5c112b65617e2c00144124ff',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   A4pLmIHU2f0yFxOiUU6r: {
-    reported: false,
-    body:
-      '<div><p><span style="font-style: italic;"></span><span>skil jou van my lyf af</span></p><p><span>vervel, klim uit</span></p><p><span>smyt die herinnering eenkant</span></p><p><span>verlate, vernuwe vryheid </span></p><p><span></span></p><p><span>soortgelyke seer</span></p><p><span></span></p><p><span></span></p><p><span>. </span></p><p><span></span></p></div>',
-    repliedTo: null,
-    date: 1577731233,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -3708,11 +3721,15 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span style="font-style: italic;"></span><span>skil jou van my lyf af</span></p><p><span>vervel, klim uit</span></p><p><span>smyt die herinnering eenkant</span></p><p><span>verlate, vernuwe vryheid </span></p><p><span></span></p><p><span>soortgelyke seer</span></p><p><span></span></p><p><span></span></p><p><span>. </span></p><p><span></span></p></div>',
+    repliedTo: null,
+    date: 1577731233,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     __collections__: {}
   },
   A5ZvWDq1vWqOId47iwZT: {
-    id: 'A5ZvWDq1vWqOId47iwZT',
-    bookmarkedCount: 0,
     mongo_id: '5caf8d34a6177e00157fdb0a',
     nsfw: false,
     adminNotes: 'None',
@@ -3722,9 +3739,15 @@ const p = {
     reported: false,
     date: 1555008820,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'A5ZvWDq1vWqOId47iwZT',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   A83ZONceIDrkwPs0Eu9A: {
+    mongo_id: '5c28c841eb30f468698adb4d',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: '2019 (onvoltooide idee - jammer) ',
     body:
       "Ek moet my instink volg \nEk moet luister \nEk moet meer nee sê \n(say no to the known) \nEk moet meer buite sit en Koffie drink,  \niewers vêr,  \niewers vroeg. \nEk moet meer bewus gaan slaap, \nbewus van daai dag, bewus van wat gebreek het, \nEk moet aanvaar en tot vrede kom dat my vormings jare nog 'n inpak dra. \n\nDat ek mag stil wees, en net dink \n\nEk moet aanvaar dat geld my gelukkig maak, maar nie gelukkiger nie. \n\nEk moet aanvaar dat ek alleen is want my besluite tot nou het my hier kom aflaai, en as ek die sitkamer wil vul, dat ek sal moet verander,  \nen verander is okay. \n\n_ “he's got rid of everybody else, he's going to get rid of himself”   - Spike Milligan on Tony Hancock's death _ \n\nEk moet aanvaar dat mense in ‘n god wil hê, en dis okay, of dit nou ‘n 2000 jaar oue “wit man” is  \nof geld  \nof Filters,  \ndis okay. \nNaïef wees nie so erg is nie, \noningelig wees is net tydelik,  \nEk moet luister, net luister \n... \n(Nog goed/Maak dit beter)",
@@ -3733,13 +3756,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'A83ZONceIDrkwPs0Eu9A',
     bookmarkedCount: 0,
-    mongo_id: '5c28c841eb30f468698adb4d',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   AA2CI5zuIaE9jWbpvZVK: {
+    canReply: true,
     id: 'AA2CI5zuIaE9jWbpvZVK',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -3754,10 +3774,13 @@ const p = {
     richText: true,
     handle: 'ena_stegmann',
     name: '“Mooi gesê”',
-    canReply: true,
     __collections__: {}
   },
   AE9MXmTwZbJwQ7wlElaW: {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'huwelikskontraksindroom ',
     canReply: true,
     id: 'AE9MXmTwZbJwQ7wlElaW',
     repliedToName: 'Mense word nie besit nie',
@@ -3770,15 +3793,9 @@ const p = {
     repliedTo: 'HYpDbfZXYVkJlYamn5KV',
     date: 1576053325,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'huwelikskontraksindroom ',
     __collections__: {}
   },
   AFH3m3YmWfPa41ceH9ul: {
-    nsfw: false,
-    adminNotes: 'None',
     body:
       '<div><p><span>net \'n verbloeming, </span></p><p><span>\'n fênsie byvoeglike naamwoord</span></p><p><span></span><span style="font-style: italic;">for settling</span></p><p><span style="font-style: italic;"></span></p><p><span>selfgemaakte stagnasie</span></p><p><span>kweek selfbejammering</span></p><p><span></span></p><p><span>mik eerder vir dié:</span></p><p><span></span></p><p><span>eksotiese, </span></p><p><span>eksentrieke, </span></p><p><span>buitegewone rariteit</span></p><p><span></span></p><p><span>jy verdien dit</span></p><p><span></span></p><p><span></span></p><p><span>... </span></p></div>',
     reported: false,
@@ -3793,9 +3810,15 @@ const p = {
     id: 'AFH3m3YmWfPa41ceH9ul',
     repliedToName: 'Charismatiese godsbeeld',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   AKWboA26TPkHAnbyOW4Z: {
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1575491960,
+    id: 'AKWboA26TPkHAnbyOW4Z',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'nina_devilliers',
@@ -3803,14 +3826,9 @@ const p = {
     reported: false,
     body:
       'Dis lekker om n mens te wees...... \njy moet net n lekker mens wees!\n',
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1575491960,
-    id: 'AKWboA26TPkHAnbyOW4Z',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   AMxDzLIm43ZuBuqtA9VJ: {
-    id: 'AMxDzLIm43ZuBuqtA9VJ',
     bookmarkedCount: 0,
     mongo_id: '5b72a8e4199d0200141942dc',
     nsfw: false,
@@ -3821,9 +3839,15 @@ const p = {
     reported: false,
     date: 1534240997,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'AMxDzLIm43ZuBuqtA9VJ',
     __collections__: {}
   },
   APXI2MIy5Qi19cFu0BDE: {
+    id: 'APXI2MIy5Qi19cFu0BDE',
+    bookmarkedCount: 0,
+    mongo_id: '5c9e61d393a5f50015d536de',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: "Kon seker 'n fb status wees",
     body:
@@ -3831,30 +3855,24 @@ const p = {
     reported: false,
     date: 1553883604,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'APXI2MIy5Qi19cFu0BDE',
-    bookmarkedCount: 0,
-    mongo_id: '5c9e61d393a5f50015d536de',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   AQhKpJrbUZJqnwjvbAAH: {
-    id: 'AQhKpJrbUZJqnwjvbAAH',
-    bookmarkedCount: 0,
-    mongo_id: '5c40d2cc8099eb0015abc543',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'Verbatim ',
     name: "PE '14 ",
     body:
       "Neus verstop\nWater spoel oor mond\nAsemhaal is onmoontlik \nEn vir 'n sekonde verdrink jy \nIn die shower.\n\nNes ek. In jou verdrink het. \nTwee jaar lank. ",
     reported: false,
     date: 1547752140,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'AQhKpJrbUZJqnwjvbAAH',
+    bookmarkedCount: 0,
+    mongo_id: '5c40d2cc8099eb0015abc543',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'Verbatim ',
     __collections__: {}
   },
   AUDVD6jKdhFsSV9egyFr: {
-    handle: '',
     name: 'Draw',
     canReply: true,
     id: 'AUDVD6jKdhFsSV9egyFr',
@@ -3869,11 +3887,10 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
+    handle: '',
     __collections__: {}
   },
   AVqNo0WKBXPuVWUoKy00: {
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Jy met jou skateboard onder jou arm</span></p><p><span>Jy moet jou Brek graad so arm </span></p><p><span>Jy met jou Calvin Klein’s, warm</span></p><p><span></span></p><p><span>Jy met jou stilstuipe</span></p><p><span>Jy wat skree, “Jy’s myne”</span></p><p><span>Hoekom voel ek of jy my meer lief het as ons uit mekaar val. </span></p><p><span></span></p><p><span></span></p><p><span>Jy</span></p></div>',
@@ -3887,9 +3904,14 @@ const p = {
     id: 'AVqNo0WKBXPuVWUoKy00',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   AXNg3RZO7j7EpLuewo1V: {
+    activeTema: null,
+    richText: true,
+    handle: '',
     name: 'Love that comes 1 time',
     canReply: true,
     id: 'AXNg3RZO7j7EpLuewo1V',
@@ -3903,14 +3925,9 @@ const p = {
     repliedTo: null,
     date: 1574278432,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
-    activeTema: null,
-    richText: true,
-    handle: '',
     __collections__: {}
   },
   AavnONxQcrTquZXHf5LW: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Jy is die een wat mooi kan teken',
     reported: false,
@@ -3920,9 +3937,13 @@ const p = {
     date: 1568981971,
     id: 'AavnONxQcrTquZXHf5LW',
     bookmarkedCount: 2,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   AbNKcSiLIEwlel0ml0QD: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'By Jou',
     body:
@@ -3933,13 +3954,9 @@ const p = {
     id: 'AbNKcSiLIEwlel0ml0QD',
     bookmarkedCount: 0,
     mongo_id: '5bbb950405db8000145262ba',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   AdHE5HNk1r7zIqPFXRxt: {
-    adminNotes: 'None',
-    handle: '',
     name: 'PS',
     body:
       'Dalk is twee weke\noffline\nwat jy nodig het\nom vir my ʼn brief te los\nen die PS\nte onthou\n\n(hint: dit begin met\n"ek het jou...")',
@@ -3949,11 +3966,11 @@ const p = {
     id: 'AdHE5HNk1r7zIqPFXRxt',
     bookmarkedCount: 1,
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   AehFu3mEiGzrDvpsJsYK: {
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Skaams',
@@ -3963,6 +3980,8 @@ const p = {
     date: 1566165207,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'AehFu3mEiGzrDvpsJsYK',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   Avzw9mhqN8Tb8tJ4L4rH: {
@@ -3980,7 +3999,6 @@ const p = {
     __collections__: {}
   },
   AwSWc6ZHGGqJ3OD85Lkz: {
-    id: 'AwSWc6ZHGGqJ3OD85Lkz',
     bookmarkedCount: 1,
     nsfw: false,
     richText: true,
@@ -3992,10 +4010,10 @@ const p = {
     reported: false,
     date: 1563909217,
     uid: 'wYBAKjCbgJXdIee0uBnpL1By4oi2',
+    id: 'AwSWc6ZHGGqJ3OD85Lkz',
     __collections__: {}
   },
   AwU2siw331JDzJKUqUti: {
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'Druppel gedagtes',
@@ -4011,9 +4029,12 @@ const p = {
     repliedTo: null,
     date: 1575286163,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
+    activeTema: null,
     __collections__: {}
   },
   B0MGzV5RenPZkPEiqY17: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'ella.haal.asem.asseblief',
     name: 'die klonkie ',
     reported: false,
@@ -4023,11 +4044,10 @@ const p = {
     date: 1571485410,
     id: 'B0MGzV5RenPZkPEiqY17',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   B0THdS7HydfeafcoBK28: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -4037,13 +4057,9 @@ const p = {
     date: 1559069716,
     uid: 'htrf9Eq2dBgzExWXKjaTroaKv152',
     id: 'B0THdS7HydfeafcoBK28',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   B1cYDep2CB8YSWXCGSRH: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       "<div><p><span>ek is die </span></p><p><span>swetende gepekelde ham</span></p><p><span>as ek aan tafel sit</span></p><p><span>en krêkkers saam my broer moet trek</span></p><p><span>wat maande lank nie met my ouers</span></p><p><span>praat nie</span></p><p><span>want my pa dink Danie Visagie </span></p><p><span>is net 'n fase</span></p><p><span>dan kyk ek na die oopgevlekte hoenner </span></p><p><span>en dink</span></p><p><span>fok dis warm</span></p><p><span>te warm om hier te sit </span></p><p><span>om die vleis vol vlieë</span></p><p><span>asof daar iets vrot onder die vel sit</span></p><p><span></span></p><p><span>dit wag om te ontplof</span></p><p><span></span></p><p><span>en dis 'n teleurstellende grappie: </span></p><p><span></span></p><p><span>what do you call a man with no body and no nose? nobody nose. </span></p><p><span></span></p><p><span>hahahaha, sê ma. </span></p><p><span>kom ons bid, brom pa. </span></p></div>",
     reported: false,
@@ -4057,9 +4073,15 @@ const p = {
     canReply: true,
     id: 'B1cYDep2CB8YSWXCGSRH',
     repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   B1pDGwJssMhKnhekvDYe: {
+    richText: true,
+    handle: 'eckleynhans_',
+    name: 'Hulp',
     canReply: true,
     id: 'B1pDGwJssMhKnhekvDYe',
     repliedToName: 'vrystaatmeisie',
@@ -4072,14 +4094,9 @@ const p = {
     repliedTo: 'mjlh5OT3KFVVzxJkNM8z',
     date: 1568122563,
     uid: 'OHLd2heTzcXJfochjjTxSzT4vr82',
-    richText: true,
-    handle: 'eckleynhans_',
-    name: 'Hulp',
     __collections__: {}
   },
   B3IOtjMjktvC82j77WIc: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Drunk oke outside Aandklas quote',
     body:
@@ -4090,9 +4107,12 @@ const p = {
     id: 'B3IOtjMjktvC82j77WIc',
     bookmarkedCount: 0,
     mongo_id: '5cb8cbe08385fb001566552f',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   B3QXPihzHQKtNVZfcZDL: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Sin/seer',
@@ -4103,10 +4123,12 @@ const p = {
     id: 'B3QXPihzHQKtNVZfcZDL',
     bookmarkedCount: 0,
     mongo_id: '5bb371b2642f990014b53d01',
-    nsfw: false,
     __collections__: {}
   },
   B55bmzWV1VrjNGjw2NZA: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Were',
     reported: false,
     body:
@@ -4116,12 +4138,11 @@ const p = {
     id: 'B55bmzWV1VrjNGjw2NZA',
     bookmarkedCount: 1,
     mongo_id: '5b50b4b3340ac5001478310b',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   B6rXMGsIKA4eRSHyPZIe: {
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       "<div><p><span>Die son breek deur</span></p><p><span>'n Klein gaping in die wolke</span></p><p><span>En bak neer</span></p><p><span>Op geel-geel blomblare</span></p><p><span>In die sonneblomvelde</span></p><p><span>Van die Vrystaat </span></p></div>",
@@ -4136,11 +4157,10 @@ const p = {
     id: 'B6rXMGsIKA4eRSHyPZIe',
     repliedToName: null,
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   BB7u8LzR9x7oX3PcRCNE: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'koue staal realiteit',
@@ -4151,10 +4171,11 @@ const p = {
     date: 1575208830,
     id: 'BB7u8LzR9x7oX3PcRCNE',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   BCGTKCn0393VLddfjzaP: {
+    date: 1535008834,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'BCGTKCn0393VLddfjzaP',
     bookmarkedCount: 0,
     mongo_id: '5b7e604177cb930014b0cffb',
@@ -4165,12 +4186,9 @@ const p = {
     body:
       'Bloed\nPis en\nHart \nsiekte. \n\nAg Here, my ritalin.\nDaar gaan my ritalin. \n\n(en garage samoosas op vrydae) ',
     reported: false,
-    date: 1535008834,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   BGp79kUCWMA6RaERMImY: {
-    id: 'BGp79kUCWMA6RaERMImY',
     bookmarkedCount: 0,
     mongo_id: '5c991f95a5bcc1001589a94a',
     nsfw: false,
@@ -4181,6 +4199,7 @@ const p = {
     reported: false,
     date: 1553538965,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'BGp79kUCWMA6RaERMImY',
     __collections__: {}
   },
   BKVEgo2yxMnYrY74N6g9: {
@@ -4202,6 +4221,10 @@ const p = {
     __collections__: {}
   },
   BMDULvH716vtYQPOAjLZ: {
+    richText: true,
+    handle: '',
+    name: '🎸',
+    canReply: true,
     id: 'BMDULvH716vtYQPOAjLZ',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -4213,14 +4236,9 @@ const p = {
     repliedTo: null,
     date: 1567449199,
     uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
-    richText: true,
-    handle: '',
-    name: '🎸',
-    canReply: true,
     __collections__: {}
   },
   BOveXB04aOolpwGFEyXw: {
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Ek luister gewoonlik na ander se raad,</span></p><p><span>Maar wil die keer self my kop stamp</span></p><p><span></span></p><p><span>Is dit waar?</span></p><p><span>Dat dit beter is om spyt te wees omdat jy iets gedoen het, </span></p><p><span>Eerder as om te wonder hoe dit sou wees as jy dit maar gedoen het? </span></p></div>',
@@ -4236,12 +4254,10 @@ const p = {
     repliedToName: '🙄 vir myself',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   BU7Hud5iOqKXj5yOPRxH: {
-    date: 1548303322,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'BU7Hud5iOqKXj5yOPRxH',
     bookmarkedCount: 0,
     mongo_id: '5c493bd9a4aeac0015652218',
     nsfw: false,
@@ -4251,13 +4267,12 @@ const p = {
     body:
       'Wat ons is, is hemelsbreed\nJy die Hoofletter en ek die punt.\nAmper so breed \nDie uitgestrekte teer tussen\nDie Kaap en Stellenbosch \nMiljoene klippe elk vasgevang in die swart \n\nDie wit lyne lei my na jou\nEn hier op die wit van gedrukte denne\nprobeer ek die miljoene klippe tussen ons in ink naboots \nEk probeer, maar dit ontbreek my\nWoorde\n\nDis hier in die lugblou poele van jou oë, met die swart belynde miljoene klippe daarom \nWaar ek weer tuis kom\nWant dit ontbreek my\nDie woorde, die lyne om jou na jou te lei.',
     reported: false,
+    date: 1548303322,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'BU7Hud5iOqKXj5yOPRxH',
     __collections__: {}
   },
   BXbEXuvVMBCcZsvAjGgU: {
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    date: 1564504890,
-    id: 'BXbEXuvVMBCcZsvAjGgU',
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -4266,6 +4281,10 @@ const p = {
     reported: false,
     body:
       "<div><p><span>j</span></p><p><span>'s genees</span></p><p><span>van die gay </span></p><p><span>jy's genees </span></p><p><span>van my</span></p><p><span></span></p><p><span>ontken</span></p><p><span>ontrou </span></p><p><span>trou </span></p><p><span>ou</span></p><p><span></span></p><p><span>my klit </span></p><p><span>gevoel </span></p><p><span>my lyf </span></p><p><span>gevryf </span></p><p><span></span></p><p><span>maar niks bedoel </span></p><p><span></span></p><p><span>die resultaat:</span></p><p><span>liefde en haat</span></p><p><span></span></p><p><span></span></p><p><span>~ @nnieniem ~</span></p></div>",
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    date: 1564504890,
+    id: 'BXbEXuvVMBCcZsvAjGgU',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   BawEwCvIqjZKpoxu5y1K: {
@@ -4284,6 +4303,8 @@ const p = {
     __collections__: {}
   },
   Bc3mBs0O5SZ8EpKu86x7: {
+    id: 'Bc3mBs0O5SZ8EpKu86x7',
+    bookmarkedCount: 0,
     mongo_id: '5b6be9b02b2c90001484bf40',
     nsfw: false,
     adminNotes: 'None',
@@ -4293,11 +4314,11 @@ const p = {
     reported: false,
     date: 1533798832,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'Bc3mBs0O5SZ8EpKu86x7',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   Bd8ehsW2EQDbfj9U2SNH: {
+    bookmarkedCount: 1,
+    mongo_id: '5cddfaaf93cf3a001554fed4',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -4308,11 +4329,12 @@ const p = {
     date: 1558051504,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Bd8ehsW2EQDbfj9U2SNH',
-    bookmarkedCount: 1,
-    mongo_id: '5cddfaaf93cf3a001554fed4',
     __collections__: {}
   },
   BdNpbMA5Sqn41zKX6o1Y: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'Verbatim ',
     name: 'Wyk',
     reported: false,
@@ -4321,12 +4343,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1580927406,
     id: 'BdNpbMA5Sqn41zKX6o1Y',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   Bgyi8JXTExt9xhE5UEW8: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'neonvanlierop',
     name: 'Vrees jou selfie',
     body: 'VREES\nJOU\nSELF\nIE!',
@@ -4336,15 +4357,9 @@ const p = {
     id: 'Bgyi8JXTExt9xhE5UEW8',
     bookmarkedCount: 0,
     mongo_id: '5b71827a9fcb40001431648f',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   BhIr74OUtQrj6nopiEgU: {
-    bookmarkedCount: 0,
-    mongo_id: '5ba1102e46d82e001477e05e',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'blou komeet',
     body:
@@ -4353,9 +4368,14 @@ const p = {
     date: 1537282095,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'BhIr74OUtQrj6nopiEgU',
+    bookmarkedCount: 0,
+    mongo_id: '5ba1102e46d82e001477e05e',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   Bk3Wm2bvVHQaStnGUeHD: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Die kroeg van Hanover',
@@ -4366,10 +4386,10 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'Bk3Wm2bvVHQaStnGUeHD',
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   BoLXFl23yCtGlDGbdjdj: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -4385,15 +4405,9 @@ const p = {
     canReply: true,
     id: 'BoLXFl23yCtGlDGbdjdj',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   BpRXMsifhxBD0NHlCMOI: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Kaapstad ek mis jou',
-    canReply: true,
     id: 'BpRXMsifhxBD0NHlCMOI',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -4405,9 +4419,20 @@ const p = {
     repliedTo: null,
     date: 1580498905,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Kaapstad ek mis jou',
+    canReply: true,
     __collections__: {}
   },
   BqhaG6DENyE5JJgzlzzU: {
+    body: '<div><p><span>selfs doostrots</span></p></div>',
+    reported: false,
+    repliedTo: 'ZvdNeqZqzZeT4UcPQRgq',
+    date: 1571378506,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: null,
     richText: true,
     handle: '',
     name: 'FOKKEN TROTS ',
@@ -4417,20 +4442,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body: '<div><p><span>selfs doostrots</span></p></div>',
-    reported: false,
-    repliedTo: 'ZvdNeqZqzZeT4UcPQRgq',
-    date: 1571378506,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: null,
     __collections__: {}
   },
   Bryo2vw1UjtEVKVoivMR: {
-    id: 'Bryo2vw1UjtEVKVoivMR',
-    repliedToName: 'Hoesê? ',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       "<div><p><span>As selfs die digter nie</span></p><p><span>sy woorde verstaan nie</span></p><p><span>is dit minder van</span></p><p><span>'n gedig?</span></p><p><span></span></p><p><span>Of donner ons alles op</span></p><p><span>in analises</span></p><p><span>en gevolgtrekkings</span></p><p><span>- verstaan -</span></p><p><span>terwyl</span></p><p><span>ek jou</span></p><p><span>in die gevoel daarvan</span></p><p><span>probeer vind?</span></p></div>",
@@ -4441,6 +4455,11 @@ const p = {
     handle: '',
     name: 'Verstaan',
     canReply: true,
+    id: 'Bryo2vw1UjtEVKVoivMR',
+    repliedToName: 'Hoesê? ',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   ByA7AZoPLNUwFerriM5S: {
@@ -4458,27 +4477,19 @@ const p = {
     __collections__: {}
   },
   C4O36GR4LN55hW1jNzIV: {
-    adminNotes: 'None',
-    handle: '',
-    name: '"Dis Net Jy" ',
-    body: 'En almal anders\nook ewe skielik\nʼn\ndigter. ',
-    reported: false,
     date: 1559765621,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'C4O36GR4LN55hW1jNzIV',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: '"Dis Net Jy" ',
+    body: 'En almal anders\nook ewe skielik\nʼn\ndigter. ',
+    reported: false,
     __collections__: {}
   },
   C6KU5vKg1JuwFRoZswkN: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Februarie',
-    canReply: true,
-    id: 'C6KU5vKg1JuwFRoZswkN',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -4487,9 +4498,18 @@ const p = {
     repliedTo: null,
     date: 1582056165,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Februarie',
+    canReply: true,
+    id: 'C6KU5vKg1JuwFRoZswkN',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   CD07XOKpP8UklMd235vf: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '.',
@@ -4500,13 +4520,9 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'CD07XOKpP8UklMd235vf',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   CDT3RzMb6qmGT67ki6J8: {
-    richText: true,
-    handle: '',
-    name: 'Laat gaan',
     canReply: true,
     id: 'CDT3RzMb6qmGT67ki6J8',
     repliedToName: null,
@@ -4520,9 +4536,17 @@ const p = {
     date: 1572804587,
     uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
     activeTema: 'Depressiewe struggle',
+    richText: true,
+    handle: '',
+    name: 'Laat gaan',
     __collections__: {}
   },
   CDXiJR7s5OSfztCuxbaG: {
+    bookmarkedCount: 1,
+    mongo_id: '5ccb3c3340cba700151f18fe',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: '1)',
     body:
       'Beauty van op my eie bly is: \n\nek kan weer broodrolletjies en kouevleis vir aandete eet en hoef niemand se dietry requirements in ag te neem nie! \n\n(Woollies mayo is sóveel meer tangy as enige ander) ',
@@ -4530,11 +4554,6 @@ const p = {
     date: 1556823092,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'CDXiJR7s5OSfztCuxbaG',
-    bookmarkedCount: 1,
-    mongo_id: '5ccb3c3340cba700151f18fe',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   CFzGsdy9uxGEqZUEtujr: {
@@ -4553,6 +4572,8 @@ const p = {
     __collections__: {}
   },
   CGwb8xoJn4nQKw30j6rd: {
+    bookmarkedCount: 2,
+    mongo_id: '5cd46d08a3d181001540bc4e',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -4563,12 +4584,9 @@ const p = {
     date: 1557425416,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'CGwb8xoJn4nQKw30j6rd',
-    bookmarkedCount: 2,
-    mongo_id: '5cd46d08a3d181001540bc4e',
     __collections__: {}
   },
   CLK6925EjBh46daFh9jO: {
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -4580,9 +4598,14 @@ const p = {
     date: 1565994368,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'CLK6925EjBh46daFh9jO',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   CMikWXTXYLoRCj1Jx8Zz: {
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: 'aud6362',
     name: 'Mr Instagram',
     body:
       '<div><p><span>Jou kleurvolle woorde raak aan my gemoed</span></p><p><span>Dit helder die dag op in reenboogkleure</span></p><p><span>Jy is nuut op Instagram</span></p><p><span>Heel verdwaald</span></p><p><span>Jou pad deurkruis myne en word een</span></p><p><span>Van kleure en lag gesiggies</span></p><p><span>n Dag vol lees en voel</span></p><p><span>Van seerkry harte en te deel</span></p><p><span>Van n nuwe dag aanpak</span></p><p><span>Met vleiende woorde is jy</span></p><p><span>n Aansporing vir die dag wat voorle</span></p><p><span>Ek glimlag en skryf</span></p><p><span>n hart wat ligter word by die minuut</span></p><p><span>Die pad deur jou Instagram hart</span></p><p><span>Mr Instagram jy is goed vir my</span></p><p><span></span></p></div>',
@@ -4591,10 +4614,6 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'CMikWXTXYLoRCj1Jx8Zz',
     bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: 'aud6362',
     __collections__: {}
   },
   CQluS1W29qTZeOZhrvJt: {
@@ -4613,8 +4632,6 @@ const p = {
     __collections__: {}
   },
   CTwynNNrPUnE7v0JESH5: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: '☆fish + vennote ',
     body:
@@ -4624,9 +4641,16 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'CTwynNNrPUnE7v0JESH5',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   CU6eoLDE6EouRZ5KJSBH: {
+    date: 1563036683,
+    uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
+    id: 'CU6eoLDE6EouRZ5KJSBH',
+    bookmarkedCount: 1,
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -4634,19 +4658,9 @@ const p = {
     body:
       "<div><p><span>Ek is klaar</span></p><p><span>klaar gespeel, klaar gebruik</span></p><p><span>klaar gemanipuleer, klaar gehoop</span></p><p><span>klaar gewens, klaar gedroom</span></p><p><span>klaar gedink, klaar gevoel</span></p><p><span></span></p><p><span>Ek is moeg</span></p><p><span>van jou dieselfde wees, van jou aan-af gevoelens</span></p><p><span>van jou glimlag wat by my spook</span></p><p><span></span></p><p><span>Ek is steeds lief</span></p><p><span>vir die man vir wie ek geval het</span></p><p><span>vir jou blou oë</span></p><p><span>vir jou stem</span></p><p><span></span></p><p><span>Maar my hart kan nie meer breek</span></p><p><span>elke keer as jy nie 'n boodskap stuur nie</span></p><p><span>My hoop kan nie meer gesteel word deur jou 'miskien' nie</span></p><p><span></span></p><p><span>Ek is klaar en moeg van liefwees, van seer wees, van teleurgesteld wees.</span></p><p><span></span></p><p><span>Net klaar</span></p><p><span>Net moeg</span></p></div>",
     reported: false,
-    date: 1563036683,
-    uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
-    id: 'CU6eoLDE6EouRZ5KJSBH',
-    bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   CVmuZZIi1mmEKynklO6L: {
-    date: 1563045123,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: 'CVmuZZIi1mmEKynklO6L',
-    bookmarkedCount: 1,
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -4654,14 +4668,14 @@ const p = {
     body:
       '<div><h1><span style="font-weight: bold;">En nou? </span></h1><p><span></span></p><h3><span style="font-weight: bold;">En nou? </span></h3><p><span></span></p><p><span style="font-weight: bold;">En nou?</span></p><p><span></span></p><p><span>En nou?</span></p><p><span></span></p><p><span></span><span style="font-style: italic;">wat nou? </span></p></div>',
     reported: false,
+    date: 1563045123,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: 'CVmuZZIi1mmEKynklO6L',
+    bookmarkedCount: 1,
+    nsfw: false,
     __collections__: {}
   },
   CYRQou879G8CyZBELYpF: {
-    date: 1551544627,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'CYRQou879G8CyZBELYpF',
-    bookmarkedCount: 0,
-    mongo_id: '5c7ab1324cca560015cbaec5',
     nsfw: false,
     adminNotes: 'None',
     handle: '13.lynette',
@@ -4669,6 +4683,11 @@ const p = {
     body:
       'Sommige skryf liefde in ‘n ring\nMaar wat is die waarde van ‘n ring sonder liefde\nSommige skryf liefde in ‘n seremonie\nMaar al die seremonie in die wêreld kan nie beloftes hou nie\nSommige skryf musiek om liefde te verklaar\nMaar die mooiste akkoorde raak net nog ‘n stukkende snaar\nDie liefde word net in ‘n hart gesing\nEn net in ‘n hart gehoor\nEk skryf liefde maar teen my kruis\nDalk sal jou hart my vind daar',
     reported: false,
+    date: 1551544627,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'CYRQou879G8CyZBELYpF',
+    bookmarkedCount: 0,
+    mongo_id: '5c7ab1324cca560015cbaec5',
     __collections__: {}
   },
   CgzPFEdP0twxw3KiD53l: {
@@ -4690,19 +4709,21 @@ const p = {
     __collections__: {}
   },
   CmtzM7I8z73gz2UJa8qu: {
-    adminNotes: 'None',
-    handle: '',
-    name: 'Kripties',
-    reported: false,
-    body: 'Het jy ooit gevra vir my adres?',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1576066558,
     id: 'CmtzM7I8z73gz2UJa8qu',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'Kripties',
+    reported: false,
+    body: 'Het jy ooit gevra vir my adres?',
     __collections__: {}
   },
   Cuepdf0XHGsrA6xEjC3O: {
+    bookmarkedCount: 1,
+    mongo_id: '5b94e2cd634c1e0014e3a824',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -4713,14 +4734,9 @@ const p = {
     date: 1536484046,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Cuepdf0XHGsrA6xEjC3O',
-    bookmarkedCount: 1,
-    mongo_id: '5b94e2cd634c1e0014e3a824',
     __collections__: {}
   },
   CvLLUvyQBntNCTlxH367: {
-    id: 'CvLLUvyQBntNCTlxH367',
-    bookmarkedCount: 0,
-    mongo_id: '5cd7ec205fe4dc0015db5221',
     nsfw: false,
     adminNotes: 'None',
     handle: 'ahwelgemoed',
@@ -4730,10 +4746,12 @@ const p = {
     reported: false,
     date: 1557654560,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'CvLLUvyQBntNCTlxH367',
+    bookmarkedCount: 0,
+    mongo_id: '5cd7ec205fe4dc0015db5221',
     __collections__: {}
   },
   CxJWaTr8zxyCbmJv6I0m: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Seilboot ',
@@ -4743,9 +4761,16 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'CxJWaTr8zxyCbmJv6I0m',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   CxPQ86koxJwAVOaP9h2F: {
+    reported: false,
+    body:
+      '<div><p><span>fok,</span></p><p><span>ek wil jou weer s</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span>ien, Ma, ek sweer. </span></p></div>',
+    repliedTo: null,
+    date: 1568578948,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     richText: true,
     handle: '',
     name: 'dis reg, ja. ',
@@ -4755,15 +4780,13 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>fok,</span></p><p><span>ek wil jou weer s</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span>ien, Ma, ek sweer. </span></p></div>',
-    repliedTo: null,
-    date: 1568578948,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     __collections__: {}
   },
   D09rbdEq8VOPE6k3zC4j: {
+    name: 'Loneliness',
+    body:
+      '<div><p><span>Dit is so sad dat die tegnologie so gevorder het dat ons anoniem met mekaar kan praat...baie sad</span></p><p><span></span></p></div>',
+    reported: false,
     date: 1564847753,
     uid: 'BAmrvf1UMkbNkhUBebnbu7YNOJ03',
     id: 'D09rbdEq8VOPE6k3zC4j',
@@ -4772,17 +4795,9 @@ const p = {
     richText: true,
     adminNotes: 'None',
     handle: '',
-    name: 'Loneliness',
-    body:
-      '<div><p><span>Dit is so sad dat die tegnologie so gevorder het dat ons anoniem met mekaar kan praat...baie sad</span></p><p><span></span></p></div>',
-    reported: false,
     __collections__: {}
   },
   D0u0BfACfhCNtkKtxDYq: {
-    bookmarkedCount: 0,
-    mongo_id: '5cc175ba00ce0b0015a4837a',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Fop vs Dink',
     body: 'Pas die link jou persona, of het jy dit gelees? ',
@@ -4790,9 +4805,18 @@ const p = {
     date: 1556182459,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'D0u0BfACfhCNtkKtxDYq',
+    bookmarkedCount: 0,
+    mongo_id: '5cc175ba00ce0b0015a4837a',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   D2UvGtNCuoL185Qsz1He: {
+    name: 'Sy pt II',
+    canReply: true,
+    id: 'D2UvGtNCuoL185Qsz1He',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -4804,14 +4828,16 @@ const p = {
     activeTema: null,
     richText: true,
     handle: '@milli.burd',
-    name: 'Sy pt II',
-    canReply: true,
-    id: 'D2UvGtNCuoL185Qsz1He',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   D3BgmuBFqlkj045Sgbo2: {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'En draai om',
+    canReply: true,
+    id: 'D3BgmuBFqlkj045Sgbo2',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -4821,18 +4847,9 @@ const p = {
     repliedTo: null,
     date: 1578772274,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'En draai om',
-    canReply: true,
-    id: 'D3BgmuBFqlkj045Sgbo2',
-    repliedToName: null,
     __collections__: {}
   },
   D3aL1aHvCBFCzTJz1e3H: {
-    date: 1553489592,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'D3aL1aHvCBFCzTJz1e3H',
     bookmarkedCount: 0,
     mongo_id: '5c985eb796138b0015b8adda',
@@ -4842,9 +4859,14 @@ const p = {
     name: 'Kan. Nie. Nog. Nie. ',
     body: '#edsheeran\n\nKan iemand my wys hoe om dit af te skakel. ',
     reported: false,
+    date: 1553489592,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   D4x8TlAOae6Is587NVli: {
+    body:
+      '<div><p><span style="font-style: italic;">‘n Opmerking oor jou opinie dat jy baie kak na die verhouding toe bring, in die lig van vandag se omstandighede:</span></p><p><span style="font-style: italic;"></span><span>\nJy kak vir ‘n vale\nEn ek sit met die besef dat ek selfs dáárdie tipe kak sal opeet vir jou</span></p></div>',
+    reported: false,
     repliedTo: null,
     date: 1567105193,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
@@ -4857,14 +4879,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span style="font-style: italic;">‘n Opmerking oor jou opinie dat jy baie kak na die verhouding toe bring, in die lig van vandag se omstandighede:</span></p><p><span style="font-style: italic;"></span><span>\nJy kak vir ‘n vale\nEn ek sit met die besef dat ek selfs dáárdie tipe kak sal opeet vir jou</span></p></div>',
-    reported: false,
     __collections__: {}
   },
   D5NS6OKSW8I5tRQrl534: {
-    adminNotes: 'None',
-    handle: 'evertesterhuizen',
     name: 'Stil',
     body:
       'Kom sit langs my. \nSit net. Moenie; niks anders nie. \nSit net bietjie.\nEk kort om asem te haal. \nEn ek haal altyd beter asem wanneer jy langs my sit.\nSit net so\nSo bietjie\nHier langs my stil. ',
@@ -4875,9 +4892,12 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c50e6c8a4185a0015fb044c',
     nsfw: false,
+    adminNotes: 'None',
+    handle: 'evertesterhuizen',
     __collections__: {}
   },
   D64uNPPJ4RO9c6I3Q75W: {
+    bookmarkedCount: 0,
     mongo_id: '5bc3c0814439f00014f99f29',
     nsfw: false,
     adminNotes: 'None',
@@ -4889,26 +4909,22 @@ const p = {
     date: 1539555457,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'D64uNPPJ4RO9c6I3Q75W',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   D69DK8MF0DVhoiF5iXT9: {
-    date: 1560459614,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: 'D69DK8MF0DVhoiF5iXT9',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Regtig ',
     body: '(ek bedoel:\nprobably nie meer \nof nog \nnie) ',
     reported: false,
+    date: 1560459614,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: 'D69DK8MF0DVhoiF5iXT9',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   D7rsoxdc6UFrsTkq4AFs: {
-    richText: true,
-    handle: '',
-    name: 'Mens',
     canReply: true,
     id: 'D7rsoxdc6UFrsTkq4AFs',
     repliedToName: null,
@@ -4922,9 +4938,16 @@ const p = {
     date: 1580905186,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Mens',
     __collections__: {}
   },
   D9KBPhL3NB73vYBXNBYG: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Pound the alarm',
     body:
       'My besluite van die dag hou my vanaand wakker.\nWaarom ruk dit my nie môre oggend 06h50 wakker sodat ek vir 10 minute daaroor kan lê en dink en 07h00 as ek dan regtig moet opstaan die krag het om dit te probeer verander nie?\nWaarom moet ek nou spyt wees?\nWaarom maak dit my nóu wakker?',
@@ -4932,16 +4955,9 @@ const p = {
     date: 1560890498,
     uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
     id: 'D9KBPhL3NB73vYBXNBYG',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   D9NUaKfBGuJa1v83LbiG: {
-    mongo_id: '5b9b037b7672f50014db7b66',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Vreemde',
     body:
@@ -4951,9 +4967,15 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'D9NUaKfBGuJa1v83LbiG',
     bookmarkedCount: 0,
+    mongo_id: '5b9b037b7672f50014db7b66',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   D9koMpeN9xIkjw3QYyo0: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Besmeer',
     reported: false,
     body:
@@ -4962,15 +4984,9 @@ const p = {
     date: 1568652770,
     id: 'D9koMpeN9xIkjw3QYyo0',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   DAPIRlhroQN1Krg3KNgj: {
-    date: 1545076120,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'DAPIRlhroQN1Krg3KNgj',
     bookmarkedCount: 0,
     mongo_id: '5c17fd97bb969f001404808e',
     nsfw: false,
@@ -4980,11 +4996,12 @@ const p = {
     body:
       "Ek't gehoop ek was meer \nas net 'n drie maand plesier\n'n vinnige vry en 'n \"wens jy was hier\"\nMaar dis soos hul sê:\n\"alle goeie goed kom tot 'n einde\"\nEk is nie joune, en jy is nie myne",
     reported: false,
+    date: 1545076120,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'DAPIRlhroQN1Krg3KNgj',
     __collections__: {}
   },
   DBOflQBskkwpkDTeB9YB: {
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'eks trale',
@@ -4993,9 +5010,15 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1576158002,
     id: 'DBOflQBskkwpkDTeB9YB',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   DBoikJCcqTnrHK9n3y84: {
+    id: 'DBoikJCcqTnrHK9n3y84',
+    bookmarkedCount: 0,
+    mongo_id: '5cd28cd35f6f4b0015672639',
+    nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'veg of vlug ',
@@ -5004,10 +5027,6 @@ const p = {
     reported: false,
     date: 1557302483,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'DBoikJCcqTnrHK9n3y84',
-    bookmarkedCount: 0,
-    mongo_id: '5cd28cd35f6f4b0015672639',
-    nsfw: false,
     __collections__: {}
   },
   DDPdfMmoXuu6abPQ8R6s: {
@@ -5030,11 +5049,6 @@ const p = {
     __collections__: {}
   },
   DEuac1Ciy6q5svdn9XHF: {
-    repliedTo: null,
-    date: 1578407669,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
-    activeTema: null,
-    richText: true,
     handle: '',
     name: 'Doel van my lewe ???',
     canReply: true,
@@ -5046,13 +5060,14 @@ const p = {
     reported: false,
     body:
       "<div><p><span>Ek ry in my kar wat se briek klaar is</span></p><p><span>Klaar soos ek is moeg en nogmals moeg</span></p><p><span>Moet velore verby</span></p><p><span></span></p><p><span>Eks by 'n T-aansluiting gekom in my lewe ek moet nou aksie neem.</span></p><p><span>Aksie van of regs of links met hul eie uitdaagings</span></p><p><span>Klaar is klaar het die ouvrou gese met haar hoed op die kop in die bad. Dis hoe klaar ek is moeg en nogmals klaar.</span></p><p><span>Klaar met al die uitdagings en struggle day by day night by night.</span></p><p><span></span></p><p><span>Terwyl ek doelbewis 'n pad ry waar daar baie trokke op is en in my gedagtes oog neem ek waar en dink ry net in 'n trok in vas en my strugggle is verby net toe sien ek 'n ou langs die pad loop. Iets het my gese stop en tel hom op. </span></p><p><span></span></p><p><span>Ek laai hom op en hy vertel my van sy struggle in life. Ons gesels en ek besef sy struggle is grooter as myne. Sy kar is gesteel en 2 dae voor Kersdag het hy sy werk verloor en hyt 'n vrou en twee kids.</span></p><p><span>Ek glo hy was God se engel kind wat hom op my pad gestuur het om terug te fight alhoewel ek nie meer die krag het nie</span></p><p><span></span></p><p><span>Dan kom die vraag by my op wat is die doel van my lewe en die struggle om nie 'n einde te maak aan alles.</span></p><p><span></span></p><p><span></span></p></div>",
+    repliedTo: null,
+    date: 1578407669,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
+    activeTema: null,
+    richText: true,
     __collections__: {}
   },
   DGcvIGuPfeidBHMMBT94: {
-    richText: true,
-    handle: '',
-    name: '1989',
-    canReply: true,
     id: 'DGcvIGuPfeidBHMMBT94',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -5065,9 +5080,14 @@ const p = {
     date: 1574462269,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
+    richText: true,
+    handle: '',
+    name: '1989',
+    canReply: true,
     __collections__: {}
   },
   DIiVJu7yd8vTnNeAi586: {
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -5079,7 +5099,6 @@ const p = {
     date: 1564858920,
     id: 'DIiVJu7yd8vTnNeAi586',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   DK04g4YBR0njHavLQpEN: {
@@ -5097,6 +5116,8 @@ const p = {
     __collections__: {}
   },
   DLKC7eFQdlEFuH7QI1li: {
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     body:
       "<div><p><span>Sy het gesê miskien</span></p><p><span>As jy uit jou comfort zone gegooi word</span></p><p><span>En soos 'n vreemdeling in jou eie land voel </span></p><p><span>Sal jy gedwing word om op jou knieë te gaan;</span></p><p><span>Gedwing word om Hom op te spoor;</span></p><p><span>Gedwing word om jou geloof weer te soek en weer te leer hoe om nie net te bid vir bid se onthalwe nie</span></p><p><span></span></p><p><span>Maar om te bid vir ander</span></p><p><span>Om te bid vir jou familie </span></p><p><span>Maar nog belangriker in jou geval - om te bid vir jouself </span></p><p><span></span></p><p><span>Maar lyk my die vlaktes van die Noorde is steeds kampioene in wegkruipertjie speel</span></p><p><span></span></p><p><span>Want - nes myne was 1 jaar terug - is jou geloof nog steeds</span></p><p><span>Weg</span></p><p><span></span></p><p><span></span></p></div>",
@@ -5111,11 +5132,11 @@ const p = {
     canReply: true,
     id: 'DLKC7eFQdlEFuH7QI1li',
     repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   DNIOdUVQRuvQH7MiVqQw: {
+    bookmarkedCount: 0,
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -5126,14 +5147,9 @@ const p = {
     date: 1564932187,
     uid: '4mmRXsmPUdMPAxM8HlGwNv0RNgx1',
     id: 'DNIOdUVQRuvQH7MiVqQw',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   DPYoAl3OCorJtR1ef1CZ: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       "<div><p><span>Soms sukkel ek om te glo. </span></p><p><span>Jou papiere is soveel jonger;</span></p><p><span>Jou paadjie baie krommer</span></p><p><span></span></p><p><span>En hier sit jy: kort geskeer; </span></p><p><span>'n Penkop. Glo vir óns, </span></p><p><span>reguit van Bo. </span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
     reported: false,
@@ -5146,9 +5162,15 @@ const p = {
     canReply: true,
     id: 'DPYoAl3OCorJtR1ef1CZ',
     repliedToName: 'Hoesê? ',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   DRta9ZFYSF0JCGb19gWO: {
+    date: 1532117605,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'DRta9ZFYSF0JCGb19gWO',
     bookmarkedCount: 0,
     mongo_id: '5b524265b50aa4001466179e',
     nsfw: false,
@@ -5157,12 +5179,10 @@ const p = {
     name: 'Ons Klyntji ',
     body: "Ek's so opgewonde ek deel sommer die nuus met my familie! ",
     reported: false,
-    date: 1532117605,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'DRta9ZFYSF0JCGb19gWO',
     __collections__: {}
   },
   DUqzkkkvQD6VZiJTBgsf: {
+    id: 'DUqzkkkvQD6VZiJTBgsf',
     bookmarkedCount: 0,
     mongo_id: '5cb0a7fc9350090015736535',
     nsfw: false,
@@ -5174,7 +5194,6 @@ const p = {
     reported: false,
     date: 1555081213,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'DUqzkkkvQD6VZiJTBgsf',
     __collections__: {}
   },
   DX4a62yH8htmuoUgTneY: {
@@ -5193,6 +5212,12 @@ const p = {
     __collections__: {}
   },
   DZkDCrSEDNJIPp18hVoa: {
+    richText: true,
+    handle: '',
+    name: 'Toe vind ek jou',
+    canReply: true,
+    id: 'DZkDCrSEDNJIPp18hVoa',
+    repliedToName: null,
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -5203,15 +5228,12 @@ const p = {
     date: 1578774393,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Toe vind ek jou',
-    canReply: true,
-    id: 'DZkDCrSEDNJIPp18hVoa',
-    repliedToName: null,
     __collections__: {}
   },
   Dgod6guEnazPiJyJV1pe: {
+    id: 'Dgod6guEnazPiJyJV1pe',
+    bookmarkedCount: -1,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '•••---•••',
@@ -5220,12 +5242,13 @@ const p = {
     reported: false,
     date: 1560039973,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    id: 'Dgod6guEnazPiJyJV1pe',
-    bookmarkedCount: -1,
-    nsfw: false,
     __collections__: {}
   },
   DgxF2ZMFvRzeUQQvyX6N: {
+    name: 'Teerpad ',
+    body:
+      'Strelend\nSag sak \nJy op \nMy rou\nRug uit\nEn seën \nDie ou \nOu oppervlak \nMet jou \nVet nat \nDruppels o, \nKaapse \nWinterreën \n',
+    reported: false,
     date: 1559604887,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'DgxF2ZMFvRzeUQQvyX6N',
@@ -5233,15 +5256,9 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Teerpad ',
-    body:
-      'Strelend\nSag sak \nJy op \nMy rou\nRug uit\nEn seën \nDie ou \nOu oppervlak \nMet jou \nVet nat \nDruppels o, \nKaapse \nWinterreën \n',
-    reported: false,
     __collections__: {}
   },
   Di7ENXgS9UHr3CLr2SnS: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'uh',
     body: 'Here, gee my krag',
@@ -5251,9 +5268,17 @@ const p = {
     id: 'Di7ENXgS9UHr3CLr2SnS',
     bookmarkedCount: 0,
     mongo_id: '5c8e877abb479700155b2d2a',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   DizE5Qp2Dgn1kqX0e5Un: {
+    handle: '',
+    name: ' ',
+    canReply: true,
+    id: 'DizE5Qp2Dgn1kqX0e5Un',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body: '<div><p><span>Oggendstrond het goud in die mond. </span></p></div>',
@@ -5263,15 +5288,15 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
-    handle: '',
-    name: ' ',
-    canReply: true,
-    id: 'DizE5Qp2Dgn1kqX0e5Un',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   DjG0LnKep12clGrFeN6o: {
+    handle: '',
+    name: 'Verhouding ',
+    canReply: true,
+    id: 'DjG0LnKep12clGrFeN6o',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -5282,18 +5307,9 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
-    handle: '',
-    name: 'Verhouding ',
-    canReply: true,
-    id: 'DjG0LnKep12clGrFeN6o',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   DnH3kWdcYG1qDXhbVtXg: {
-    bookmarkedCount: 0,
-    mongo_id: '5ba93bf7cbd6b6001489e97b',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'unrequited love',
@@ -5303,10 +5319,12 @@ const p = {
     date: 1537817592,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'DnH3kWdcYG1qDXhbVtXg',
+    bookmarkedCount: 0,
+    mongo_id: '5ba93bf7cbd6b6001489e97b',
+    nsfw: false,
     __collections__: {}
   },
   DnjExQC8XiDxLZFzaOD9: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Halfpad mal',
@@ -5317,9 +5335,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'DnjExQC8XiDxLZFzaOD9',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   DoARJRIFauL9mmpMccLG: {
+    adminNotes: 'None',
     body:
       "<div><p><span>Ek sit en kyk na 'n boom</span></p><p><span>Sy takke is droog met geen blare in sig, nes 'n mens wat uit gedroog is deur hartseer en pyn</span></p><p><span></span></p><p><span>Eens was hy ' n boom met blare aan nes soos 'n mens wat kans gesien het vir alles in die wereld.</span></p><p><span></span></p><p><span>Eens was die boom daar vir beskutting nes so was jy 'n beskutting vir soveel mense.</span></p><p><span></span></p><p><span>Ek sien die wortels van die boom wat diep in die grond gegroei het eens op \"n tyd nes 'n mens hom gevestig het met sy voete sterk gestaan het teen alles wat sad was maar nou is dit ook tot niet. </span></p><p><span></span></p><p><span>Die lewe of die mensdom het jou oorwin. Al wat oor bly is om die boom af te kap en 'n nuwe boom te plant net so mense kind van voor moet begin en gou. </span></p></div>",
     reported: false,
@@ -5335,24 +5355,24 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   DqQIfLeI7LZw1iRAQsHR: {
-    handle: 'ilzedup94',
-    name: '4.53 a.m ',
-    body:
-      'almal dink dis moerse\npoetic\nmaar hoe gee jy van jouself\nwanneer jy nie eers baie \nvir jouself\nhet nie?',
-    reported: false,
     date: 1562381626,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     id: 'DqQIfLeI7LZw1iRAQsHR',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: 'ilzedup94',
+    name: '4.53 a.m ',
+    body:
+      'almal dink dis moerse\npoetic\nmaar hoe gee jy van jouself\nwanneer jy nie eers baie \nvir jouself\nhet nie?',
+    reported: false,
     __collections__: {}
   },
   Duok4v6sjoPTpCzJq52W: {
+    nsfw: false,
     adminNotes: 'None',
     handle: 'ek.is.anouk',
     name: '11.05.19',
@@ -5364,10 +5384,10 @@ const p = {
     id: 'Duok4v6sjoPTpCzJq52W',
     bookmarkedCount: 1,
     mongo_id: '5cdbe8f2df4ca3001540f014',
-    nsfw: false,
     __collections__: {}
   },
   DwNAFSzzYN1xQHUUQBmL: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -5383,10 +5403,16 @@ const p = {
     canReply: true,
     id: 'DwNAFSzzYN1xQHUUQBmL',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   DweNBEoUNlRBv9LWvxvk: {
+    reported: false,
+    body:
+      '<div><p><span>moet ek jou los</span></p><p><span>sodat ek myself </span></p><p><span>kan verwyt</span></p><p><span>eerder as vir jou</span></p><p><span>en jou dan altyd só</span></p><p><span>nét bly liefhê</span></p><p><span>soos nou </span></p></div>',
+    repliedTo: null,
+    date: 1569339319,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: 'Water',
     richText: true,
     handle: '',
     name: 'miskien',
@@ -5396,13 +5422,6 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>moet ek jou los</span></p><p><span>sodat ek myself </span></p><p><span>kan verwyt</span></p><p><span>eerder as vir jou</span></p><p><span>en jou dan altyd só</span></p><p><span>nét bly liefhê</span></p><p><span>soos nou </span></p></div>',
-    repliedTo: null,
-    date: 1569339319,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: 'Water',
     __collections__: {}
   },
   DwighQRjhMu5i6WqEeyL: {
@@ -5439,6 +5458,10 @@ const p = {
     __collections__: {}
   },
   E2gPU3YIJch9Ai2PWuoj: {
+    bookmarkedCount: 0,
+    mongo_id: '5b7494f82af1a7001446c157',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Wat de fok is lewe',
     body: "Dis als net vertrekke\n'n Reeks gesprekke\nMaar wat van Ekke?",
@@ -5446,13 +5469,16 @@ const p = {
     date: 1534366969,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'E2gPU3YIJch9Ai2PWuoj',
-    bookmarkedCount: 0,
-    mongo_id: '5b7494f82af1a7001446c157',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   E7MuuVafeGVkr9V5cUyN: {
+    name: 'xoxo',
+    canReply: true,
+    id: 'E7MuuVafeGVkr9V5cUyN',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     body:
       '<div><p><span>Sondae, Sondae, Sondae, thee has fucked with me, constantly.</span></p></div>',
     reported: false,
@@ -5461,16 +5487,12 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     richText: true,
     handle: '',
-    name: 'xoxo',
-    canReply: true,
-    id: 'E7MuuVafeGVkr9V5cUyN',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   E99uRBFLgMxPpxbZ60Zs: {
+    mongo_id: '5c03e23dbe1cb6001435b5a4',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Daarisiets',
     body: 'Dis son en see, ma dis seer',
@@ -5479,12 +5501,16 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'E99uRBFLgMxPpxbZ60Zs',
     bookmarkedCount: 0,
-    mongo_id: '5c03e23dbe1cb6001435b5a4',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   EBfCPoeV30EPVe7K8E4q: {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'YOU',
+    canReply: true,
+    id: 'EBfCPoeV30EPVe7K8E4q',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -5494,16 +5520,14 @@ const p = {
     repliedTo: null,
     date: 1573152383,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'YOU',
-    canReply: true,
-    id: 'EBfCPoeV30EPVe7K8E4q',
-    repliedToName: null,
     __collections__: {}
   },
   EDCeYZHycGJHdmiMTmET: {
+    handle: '',
+    name: "It's coming for you",
+    reported: false,
+    body:
+      'in these blue-veined vessels of flesh\nwe slide scathed through tricky existences\nwhile the serrated edges of life\ntakes good care of joy\nas time erodes simple pleasures\ninto basic humdrum routine \n',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1533197602,
     id: 'EDCeYZHycGJHdmiMTmET',
@@ -5511,14 +5535,13 @@ const p = {
     mongo_id: '5b62bd229e1efb0014f41aae',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: "It's coming for you",
-    reported: false,
-    body:
-      'in these blue-veined vessels of flesh\nwe slide scathed through tricky existences\nwhile the serrated edges of life\ntakes good care of joy\nas time erodes simple pleasures\ninto basic humdrum routine \n',
     __collections__: {}
   },
   EHTM22VJCXCrQYS1A2BW: {
+    id: 'EHTM22VJCXCrQYS1A2BW',
+    bookmarkedCount: 0,
+    mongo_id: '5c691fd37544f30015064812',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'stap een ',
@@ -5526,14 +5549,9 @@ const p = {
     reported: false,
     date: 1550393299,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'EHTM22VJCXCrQYS1A2BW',
-    bookmarkedCount: 0,
-    mongo_id: '5c691fd37544f30015064812',
-    nsfw: false,
     __collections__: {}
   },
   EL3rdIoGvljf0zVU4Ue4: {
-    handle: '',
     name: '-',
     body: "Ton Vosloo lyk soos 'n marshmallow",
     reported: false,
@@ -5544,13 +5562,10 @@ const p = {
     mongo_id: '5bb5e6cf6d92ae00145bb811',
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   EL3sXFw3gr2re7WUrlYl: {
-    mongo_id: '5be5bb66a8dbcd0014033701',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Almal eet vleis in Potchefstroom',
     body:
       "Lees: intersectionality\nKonteks: minority, you don't matter that much\nGevoel: frustrasie\nHoop: maak julle oë oop!",
@@ -5559,9 +5574,16 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'EL3sXFw3gr2re7WUrlYl',
     bookmarkedCount: 0,
+    mongo_id: '5be5bb66a8dbcd0014033701',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   ERi07Fjn03hySIpPVMdi: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'A.S. ',
     body: 'Enigiets, \nmaar nie dít nie. ',
     reported: false,
@@ -5569,15 +5591,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ERi07Fjn03hySIpPVMdi',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   ERzbgGJ5KbeAZn74y5jn: {
-    date: 1563910279,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: 'ERzbgGJ5KbeAZn74y5jn',
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
@@ -5587,9 +5603,13 @@ const p = {
     body:
       '<div><p><span>Lus?</span></p><p><span>Ja.</span></p><p><span>Lief?</span></p><p><span>Nee.</span></p><p><span></span></p><p><span>Dís nou</span></p><p><span>donners jammer. </span></p></div>',
     reported: false,
+    date: 1563910279,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: 'ERzbgGJ5KbeAZn74y5jn',
     __collections__: {}
   },
   ESeRWz2K0n7M0IpeVz7x: {
+    richText: true,
     handle: '',
     name: 'Oorleef',
     canReply: true,
@@ -5605,10 +5625,14 @@ const p = {
     date: 1576678510,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
-    richText: true,
     __collections__: {}
   },
   EVyW5exWNozEwxwwO4hz: {
+    bookmarkedCount: 0,
+    mongo_id: '5be9d140c575d2001477399e',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: '/ Jan, Deel 1',
     body:
       'Ouers,\n\nEk rook. \nEk glo nie in Jesus nie.\n(die hoofletter is bloot uit respek vir julle)\nEk is gay.\n\nEk hoop julle sal my kan vergewe en liefhê. Ek weet julle koning sou. \n\n/ Jan\n',
@@ -5616,18 +5640,9 @@ const p = {
     date: 1542050113,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'EVyW5exWNozEwxwwO4hz',
-    bookmarkedCount: 0,
-    mongo_id: '5be9d140c575d2001477399e',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   EWq16Gl7AY9vUjSPhvmk: {
-    bookmarkedCount: 1,
-    mongo_id: '5cc8702f9b0ec70015a160fc',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'ukudibanisa',
     body:
@@ -5636,11 +5651,13 @@ const p = {
     date: 1556639791,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'EWq16Gl7AY9vUjSPhvmk',
+    bookmarkedCount: 1,
+    mongo_id: '5cc8702f9b0ec70015a160fc',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   EdIu5UffHuPYldEzr6NY: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Vrede en Lust(ig)',
     body: 'Jonk\nDronk\nReg om te pronk',
@@ -5650,9 +5667,12 @@ const p = {
     id: 'EdIu5UffHuPYldEzr6NY',
     bookmarkedCount: 1,
     mongo_id: '5cd6bedc5fe4dc0015db521c',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   EdKAfIhnBOwhkM28LDRJ: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -5662,12 +5682,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1578900597,
     id: 'EdKAfIhnBOwhkM28LDRJ',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   EgOopHUMjd28MZR1Yz1p: {
-    bookmarkedCount: 0,
-    mongo_id: '5b6959f4a0eaff0014092d61',
     nsfw: false,
     adminNotes: 'None',
     handle: 'jaysonbeatson',
@@ -5678,10 +5695,11 @@ const p = {
     date: 1533630964,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'EgOopHUMjd28MZR1Yz1p',
+    bookmarkedCount: 0,
+    mongo_id: '5b6959f4a0eaff0014092d61',
     __collections__: {}
   },
   EkIpQG3bM5gwC3fDFTvR: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -5697,9 +5715,13 @@ const p = {
     canReply: true,
     id: 'EkIpQG3bM5gwC3fDFTvR',
     repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   EmQB4WDZV7zVWNEPwi71: {
+    mongo_id: '5c2bc3e0c502c900151dd0d2',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'manet menswees',
     body:
@@ -5709,12 +5731,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'EmQB4WDZV7zVWNEPwi71',
     bookmarkedCount: 0,
-    mongo_id: '5c2bc3e0c502c900151dd0d2',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   EoSV1ImvKMrjvZ9wwgPT: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Stilte',
     body:
       'Ek luister na die stilte. Dit praat met my. n Duif wat koer. Mossie wat tjirp. Buurman wat raas. Motorfiets wat jaag. Selfoon wat bliep. Kardeur wat toeklap. Bande op teer wat sing. Hond wat blaf. Verbyganger wat praat. \nWaar o waar my stilte.',
@@ -5723,13 +5745,9 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'EoSV1ImvKMrjvZ9wwgPT',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   Eq0202hTscw0H0YFyhAr: {
-    id: 'Eq0202hTscw0H0YFyhAr',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -5740,9 +5758,16 @@ const p = {
     reported: false,
     date: 1559762873,
     uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
+    id: 'Eq0202hTscw0H0YFyhAr',
     __collections__: {}
   },
   ErAOqkKsK8Eh2POObqTs: {
+    body:
+      '<div><p><span>Hoe sê jy, Johnny?</span></p><p><span></span></p><p><span>"Dis \'n donker,</span></p><p><span>dobker land." </span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1575985805,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -5753,15 +5778,16 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Hoe sê jy, Johnny?</span></p><p><span></span></p><p><span>"Dis \'n donker,</span></p><p><span>dobker land." </span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1575985805,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     __collections__: {}
   },
   Eszn9WuW8fGsRWZxI1wc: {
+    adminNotes: 'None',
+    body:
+      '<div><p><span>Hoe is ek die een wat seer kry?</span></p><p><span>Ek wou hierdie pyn vermy </span></p><p><span>Ek wens jy kon bly by my </span></p><p><span>Is jy okay? </span></p><p><span>Of het ek jou verniel </span></p><p><span>Net soos my siel ? </span></p><p><span>Jy stry met my </span></p><p><span>Ek stry met jou </span></p><p><span>Ek het my eie graf gegrou </span></p><p><span>As gevolg van n ander ou </span></p><p><span>En nou ? </span></p><p><span>Nou lê ek en rou </span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1571222120,
+    uid: 'x3O1Og54hoR1FAgzBNI7sUPy3zl1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -5771,19 +5797,9 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>Hoe is ek die een wat seer kry?</span></p><p><span>Ek wou hierdie pyn vermy </span></p><p><span>Ek wens jy kon bly by my </span></p><p><span>Is jy okay? </span></p><p><span>Of het ek jou verniel </span></p><p><span>Net soos my siel ? </span></p><p><span>Jy stry met my </span></p><p><span>Ek stry met jou </span></p><p><span>Ek het my eie graf gegrou </span></p><p><span>As gevolg van n ander ou </span></p><p><span>En nou ? </span></p><p><span>Nou lê ek en rou </span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1571222120,
-    uid: 'x3O1Og54hoR1FAgzBNI7sUPy3zl1',
     __collections__: {}
   },
   EyYdbdm1h9c25ZfKRq4F: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'marietsteinmann ',
     name: 'joao/johan/johan/',
     body:
@@ -5792,9 +5808,19 @@ const p = {
     date: 1558883034,
     uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     id: 'EyYdbdm1h9c25ZfKRq4F',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   F0HbQgcVinTHKCQXhaFQ: {
+    reported: false,
+    body:
+      "<div><p><span>daar is môre 'n vergadering</span></p><p><span>oor konflikhantering. </span></p><p><span>woensdag moet ek my sperdatum</span></p><p><span>vang. </span></p><p><span>donderdag het ek 'n werkswinkel. \n\ndaar is môre 'n vergadering\noor 'n sperdatum. \nwoensdag moet ek my werkswinkel\nvang. \ndonderdag het ek konflikhantering. \n\ndaar is môre 'n konflikhantering. \n'n werkswinkel vang my vergadering\nwoensdag\ndonderdag het ek 'n sperdatum. </span></p></div>",
+    repliedTo: null,
+    date: 1581341701,
+    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
+    activeTema: null,
     richText: true,
     handle: 'ilzedup94',
     name: 'namiddag',
@@ -5804,23 +5830,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>daar is môre 'n vergadering</span></p><p><span>oor konflikhantering. </span></p><p><span>woensdag moet ek my sperdatum</span></p><p><span>vang. </span></p><p><span>donderdag het ek 'n werkswinkel. \n\ndaar is môre 'n vergadering\noor 'n sperdatum. \nwoensdag moet ek my werkswinkel\nvang. \ndonderdag het ek konflikhantering. \n\ndaar is môre 'n konflikhantering. \n'n werkswinkel vang my vergadering\nwoensdag\ndonderdag het ek 'n sperdatum. </span></p></div>",
-    repliedTo: null,
-    date: 1581341701,
-    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    activeTema: null,
     __collections__: {}
   },
   F2eQwVLONR74zSk4L3Lz: {
-    repliedTo: null,
-    date: 1568066835,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    richText: true,
-    handle: '',
-    name: '"snoopy"',
-    canReply: true,
     id: 'F2eQwVLONR74zSk4L3Lz',
     repliedToName: null,
     bookmarkedCount: 1,
@@ -5829,9 +5841,19 @@ const p = {
     body:
       '<div><p><span>Maandagoggend is dit wit kant. Later die week babablou chiffon. Plek-plek aan koel vel geraak. Metterkýk al nader begin voel, gemaklik, wel. T-hemp lap en slimfit. Bloedrooisweetpakmateriaal en warm hou. Lekker snoes... later sweet. Bietjie klemmend. Sondag: verstrengel en witwarm ysterkettings teen sagte vel ontvlam in totale manie. Vuurtonge maak brandvlekke en dun repies vlees deur pantser-gaas. Seemeeue se kras en vuurknetter doof desperate gille uit. </span></p><p><span></span></p><p><span>Jou sagte pers vlees peul deur lensgrootte ysterblokkies. En lipklank vir mekaar: "want hy was snoopy" </span></p></div>',
     reported: false,
+    repliedTo: null,
+    date: 1568066835,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    richText: true,
+    handle: '',
+    name: '"snoopy"',
+    canReply: true,
     __collections__: {}
   },
   FBaU17bzAcrc2GAjXYAn: {
+    date: 1558289408,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'FBaU17bzAcrc2GAjXYAn',
     bookmarkedCount: 0,
     mongo_id: '5ce19bff1e3ed8001583e1ae',
     nsfw: false,
@@ -5841,9 +5863,6 @@ const p = {
     body:
       "Jy het gisteraand 4am 'n video gelike\nWat een van ons songs was.\nBeteken dit\nJy is nog lief vir my?\nOf was jy net (alweer) dronk\nSoos toe jy met haar opgehook het.\n\nEither way\nEk is nog lief vir jou.\nEn ek sukkel.\n",
     reported: false,
-    date: 1558289408,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'FBaU17bzAcrc2GAjXYAn',
     __collections__: {}
   },
   FGxE3UUy32IOzM2e2nn5: {
@@ -5861,6 +5880,7 @@ const p = {
     __collections__: {}
   },
   FGxLGf964cE9SFTgJJB8: {
+    handle: '',
     name: 'lekkerte',
     reported: false,
     body:
@@ -5871,10 +5891,10 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   FHFiIPyPo9Yt8NbvPIwI: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Testament ',
@@ -5885,7 +5905,6 @@ const p = {
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'FHFiIPyPo9Yt8NbvPIwI',
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   FJuq7DyixNaknXVTY6qp: {
@@ -5904,6 +5923,10 @@ const p = {
     __collections__: {}
   },
   FN6JD90fCmAEHcS1VyXw: {
+    mongo_id: '5ca8f1e62dc0e10015838af8',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Alleen',
     body:
       'Ek is alleen...\nJy is alleen...\nHoekom kan ons nie maar saam alleen wees nie?',
@@ -5912,13 +5935,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'FN6JD90fCmAEHcS1VyXw',
     bookmarkedCount: 0,
-    mongo_id: '5ca8f1e62dc0e10015838af8',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   FNkOXU0q3NJIl1ODOMSv: {
+    id: 'FNkOXU0q3NJIl1ODOMSv',
+    bookmarkedCount: 0,
+    mongo_id: '5c42ec991a1bda0015c5d6f2',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -5928,16 +5950,9 @@ const p = {
     reported: false,
     date: 1547889817,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'FNkOXU0q3NJIl1ODOMSv',
-    bookmarkedCount: 0,
-    mongo_id: '5c42ec991a1bda0015c5d6f2',
     __collections__: {}
   },
   FO1bldz4OtNg5cjPmkdH: {
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1571975412,
-    id: 'FO1bldz4OtNg5cjPmkdH',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -5945,9 +5960,17 @@ const p = {
     reported: false,
     body:
       "Hoe kry 'n clown fish en 'n tentakel-annemoon dit reg? Hierdie plutoniese-ding. Hierdie een-beskerm-die-ander-ding?\n\nHet iemand al ooit vir die by uitgewys hy is in 'n simbiotiese verhouding? En dat sy teenwoordigheid onontbeerlik is.\n\nHet jy agtergekom hoe kak dit voel om nie genooi te word nie. Is dit simbiose of parasitisme? ",
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1571975412,
+    id: 'FO1bldz4OtNg5cjPmkdH',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   FPF6QKfd7KGzWnaJ8HDm: {
+    name: 'Ontsnap Roete',
+    body:
+      'Ontsnap Roete\n-\nSy is vol pienk Sterrie Stumpie,\nGummy Bear, Meltertjie,\nonplaasbare rooi drankie,\nTassies en kerswas,\nAnna en trane.\nIn die kar, by die Boer, langs die rivier,\nonder die Akker bome; die voogde\nvan die dorp se geheime.\nSy is vol.\n-\nSy ruik die boerewors rolle buite,\ndie goedkoop slaptjips, \ndie Bluemix en die bakleiery.\nSy ruik vuil strate en Jan se bloed\nop die sypaadjie omdat hy weer\nTshepo se kant gevat het vanand.\nSy ruik.\n-\nSy hoor badkamer praaitjies\nen ‘n badkamer doop\nsoos wat die onplaasbare rooi drankie\nse towerkuns begin verwaag\nen met vurige spoed sy \nonstnap roete vind.\n-\nSy hoor hartelike drome wat \nrond-float en by die deur vas sit.\nSy hoor herre is vir sterre\nen klasgee in Sjina\nen babas\nen trou \nen boer.\nSy hoor. \nSy luister.\n-\nSy sien haar Pa se boesemvriend\nmet sy trou ring aan\nmaar die vrou aan wie hy klou\ndra nie dieselfde van nie. -\nSy sien vreemde gesigte\nin flitsende ligte -\nwat almal op dieselfde tyd dans en droom.\nSy sien hande wat smelt op\nonbekende lywe, sonder toestemming\nen sonder passie,\nblatant onder die invloed van\ndie aand se lus.\n-\nSy kyk op na die Koo cans \nSuid-Afrikaanse vlag en wonder\nof sy hier op die vuil en vaal\nbank wil bly.\nTeen die einde van die Heuwels\nse nuwe liedjie maak sy ‘n besluit.\n-\nSy maak haar hare los,\nhaar veters vas,\ndie voordeur wawyd oop\nen begin om saam met\ndie drome weg te draf.',
+    reported: false,
     date: 1533225833,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'FPF6QKfd7KGzWnaJ8HDm',
@@ -5956,13 +5979,10 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: 'liesekuhn',
-    name: 'Ontsnap Roete',
-    body:
-      'Ontsnap Roete\n-\nSy is vol pienk Sterrie Stumpie,\nGummy Bear, Meltertjie,\nonplaasbare rooi drankie,\nTassies en kerswas,\nAnna en trane.\nIn die kar, by die Boer, langs die rivier,\nonder die Akker bome; die voogde\nvan die dorp se geheime.\nSy is vol.\n-\nSy ruik die boerewors rolle buite,\ndie goedkoop slaptjips, \ndie Bluemix en die bakleiery.\nSy ruik vuil strate en Jan se bloed\nop die sypaadjie omdat hy weer\nTshepo se kant gevat het vanand.\nSy ruik.\n-\nSy hoor badkamer praaitjies\nen ‘n badkamer doop\nsoos wat die onplaasbare rooi drankie\nse towerkuns begin verwaag\nen met vurige spoed sy \nonstnap roete vind.\n-\nSy hoor hartelike drome wat \nrond-float en by die deur vas sit.\nSy hoor herre is vir sterre\nen klasgee in Sjina\nen babas\nen trou \nen boer.\nSy hoor. \nSy luister.\n-\nSy sien haar Pa se boesemvriend\nmet sy trou ring aan\nmaar die vrou aan wie hy klou\ndra nie dieselfde van nie. -\nSy sien vreemde gesigte\nin flitsende ligte -\nwat almal op dieselfde tyd dans en droom.\nSy sien hande wat smelt op\nonbekende lywe, sonder toestemming\nen sonder passie,\nblatant onder die invloed van\ndie aand se lus.\n-\nSy kyk op na die Koo cans \nSuid-Afrikaanse vlag en wonder\nof sy hier op die vuil en vaal\nbank wil bly.\nTeen die einde van die Heuwels\nse nuwe liedjie maak sy ‘n besluit.\n-\nSy maak haar hare los,\nhaar veters vas,\ndie voordeur wawyd oop\nen begin om saam met\ndie drome weg te draf.',
-    reported: false,
     __collections__: {}
   },
   FST4Z2U4BYD8sqryL2JH: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Mind Control',
@@ -5973,10 +5993,10 @@ const p = {
     id: 'FST4Z2U4BYD8sqryL2JH',
     bookmarkedCount: 0,
     mongo_id: '5c87307810ca4c00158b753a',
-    nsfw: false,
     __collections__: {}
   },
   FUM1BvlWZpzr9f1yDr0E: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -5987,10 +6007,11 @@ const p = {
     date: 1564417783,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'FUM1BvlWZpzr9f1yDr0E',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   FV4OJwl7DMwhVrHZ9F59: {
+    richText: true,
+    handle: '',
     name: 'mONSters',
     canReply: true,
     id: 'FV4OJwl7DMwhVrHZ9F59',
@@ -6004,11 +6025,10 @@ const p = {
     repliedTo: 'uNlZs9kEoJ1e7bmrAXL0',
     date: 1567347430,
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
-    richText: true,
-    handle: '',
     __collections__: {}
   },
   FWb0S1wLZqJedYbiuXua: {
+    handle: 'antonbarnard',
     name: 'op die swabiese jura',
     reported: false,
     body:
@@ -6020,10 +6040,16 @@ const p = {
     mongo_id: '5b90a9de1adeff00140de78e',
     nsfw: false,
     adminNotes: 'None',
-    handle: 'antonbarnard',
     __collections__: {}
   },
   FZFFaHcmk34p6ORNown5: {
+    richText: true,
+    handle: '',
+    name: 'wegkyk',
+    canReply: true,
+    id: 'FZFFaHcmk34p6ORNown5',
+    repliedToName: 'clingingly distracted ',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -6033,19 +6059,9 @@ const p = {
     date: 1578567452,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'wegkyk',
-    canReply: true,
-    id: 'FZFFaHcmk34p6ORNown5',
-    repliedToName: 'clingingly distracted ',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   FZnFtK4vmB66vIAqis1L: {
-    repliedTo: null,
-    date: 1570643995,
-    uid: 'wYBAKjCbgJXdIee0uBnpL1By4oi2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -6059,9 +6075,16 @@ const p = {
     body:
       '<div><p><span>En daar vernietig jy, met agt onsamehangende woorde, my hele wêreld en al my drome en asof dit nie genoeg was nie smyt jy toe sommer my laaste greintjie hoop ook by die deur uit...</span></p></div>',
     reported: false,
+    repliedTo: null,
+    date: 1570643995,
+    uid: 'wYBAKjCbgJXdIee0uBnpL1By4oi2',
     __collections__: {}
   },
   FewQKB5sDsk4QujPdpsB: {
+    repliedTo: null,
+    date: 1572466812,
+    uid: 'JHJKjVGw91WEP15WhKbxHjOUcd12',
+    activeTema: 'Depressiewe struggle',
     richText: true,
     handle: 'eks.talita.x',
     name: 'Nie eintlik nie  . ',
@@ -6074,14 +6097,9 @@ const p = {
     reported: false,
     body:
       '<div><p><span style="font-weight: bold;">Soms voel ek okay</span></p><p><span>maar nie eintlik nie,</span></p><p><span></span></p><p><span>Net in ma se arms, of pa se bakkie, maar soms is dit juis die plekke waar ek die minste in die wereld wil wees,</span></p><p><span> dan dink ek weer daaroor, want</span></p><p><span>Eks okay, wel nee nie eintlik nie </span></p></div>',
-    repliedTo: null,
-    date: 1572466812,
-    uid: 'JHJKjVGw91WEP15WhKbxHjOUcd12',
-    activeTema: 'Depressiewe struggle',
     __collections__: {}
   },
   Ff5jAFugsrrW3bvC3HJ2: {
-    adminNotes: 'None',
     handle: '',
     name: 'NL',
     body:
@@ -6093,9 +6111,11 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c79869124620a001576353e',
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   FiRkmg20Wec8gaeiZtlG: {
+    handle: 'tanapistorius ',
     name: 'VIS IN KOERANTPAPIER ',
     body:
       "Moet nie laat hy wen nie \nLaat hom val \nHuil \nVloek en skree \n\nLaat hom hadidas jaag in die tuin \nTussen jack Russell's en dorings \n\nStuur hom na die berge toe \nOu ryperd op sy oupa se skoot \nEn dan weer langs sy oupa se graf \n\nSe vir hom dat hy lief is vir sy ma \nLewe is soos cheap vakansies langs Margate se strand \nLewe is so complex \nSoos vis in koerantpapier \n\nLaat hom wen. \n",
@@ -6106,11 +6126,9 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    handle: 'tanapistorius ',
     __collections__: {}
   },
   FlWkYoBGYIG9oMRUNite: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Skaamste Mensheid anon ',
@@ -6121,27 +6139,24 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'FlWkYoBGYIG9oMRUNite',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   FllKJYowxxhiuWI6L3yt: {
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1567862345,
-    id: 'FllKJYowxxhiuWI6L3yt',
-    bookmarkedCount: 1,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Laat Aand Vrystaat',
     reported: false,
     body:
       "ek sit hier in my stukkende perdjie \nen ek word kwaad,\nkwaad vir die lewe en \nkwaad vir die man op straat\nek trek hoog en ek volg \nhy klim uit en ek soen hom \nek bly kwaad,\n\nmy vrou en kind sit in die kar\npap baba en ongelukkige vrou\nek is kwaad want die lewe skuld my\n\nek sit hier in my stukkende perdjie \nen ek is dronk, kyk in die truspieël\nen ek word kwaad, \nek wil baklei\niemand donnner en wys wie is man\n\nmy vrou en kind sit in die kar\npap babatjie en verleë vrou\nek is kwaad want die lewe skuld my \n\nek sit hier in my Hyundai \nen ek probeer baklei,\nword gelaat met die impotensie,\nvan vrou en kind\nhulle sal nooit genoeg wees. \n\nmy vrou en kind sit in die kar\npap baber'tjie en ongelukkige mens\nwant hulle was nooit genoeg",
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1567862345,
+    id: 'FllKJYowxxhiuWI6L3yt',
+    bookmarkedCount: 1,
+    nsfw: false,
     __collections__: {}
   },
   Fm6vv6m8VJ5iQM15zkei: {
-    id: 'Fm6vv6m8VJ5iQM15zkei',
-    bookmarkedCount: 0,
-    mongo_id: '5bba8f87d2eb81001447041c',
-    nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'Lemoene vir Lien',
@@ -6150,6 +6165,10 @@ const p = {
     reported: false,
     date: 1538953095,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'Fm6vv6m8VJ5iQM15zkei',
+    bookmarkedCount: 0,
+    mongo_id: '5bba8f87d2eb81001447041c',
+    nsfw: false,
     __collections__: {}
   },
   Fs4fuBeAVPOUe9NdxqPf: {
@@ -6167,6 +6186,11 @@ const p = {
     __collections__: {}
   },
   FxA2WiDNHFcSdWD5xebe: {
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Nuwejaarsvoorneme?</span></p><p><span></span></p><p><span></span><span>Dat ek goed genoeg kan wees vir myself</span></p><p><span></span><span>.</span></p><p><span>.</span></p><p><span>.</span></p><p><span>en vir jou</span></p></div>',
     repliedTo: 'bR4I8EQa45UAY22hiBE3',
     date: 1577729841,
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
@@ -6178,11 +6202,6 @@ const p = {
     id: 'FxA2WiDNHFcSdWD5xebe',
     repliedToName: '2020 hello',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Nuwejaarsvoorneme?</span></p><p><span></span></p><p><span></span><span>Dat ek goed genoeg kan wees vir myself</span></p><p><span></span><span>.</span></p><p><span>.</span></p><p><span>.</span></p><p><span>en vir jou</span></p></div>',
     __collections__: {}
   },
   G1EogBh1zY72JESC2wHn: {
@@ -6200,6 +6219,8 @@ const p = {
     __collections__: {}
   },
   G30oMX3SrKATkpzQkgMM: {
+    id: 'G30oMX3SrKATkpzQkgMM',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'ilzedup94',
@@ -6209,15 +6230,9 @@ const p = {
     reported: false,
     date: 1560173863,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    id: 'G30oMX3SrKATkpzQkgMM',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   G3iyvN3Bj0trWHq1ELgs: {
-    mongo_id: '5cddaa3b93cf3a001554fed3',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Ek weet dit!',
     body: 'Jy is nés jou pa',
     reported: false,
@@ -6225,9 +6240,14 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'G3iyvN3Bj0trWHq1ELgs',
     bookmarkedCount: 0,
+    mongo_id: '5cddaa3b93cf3a001554fed3',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   G629v9I6GvMEEFKMU34L: {
+    bookmarkedCount: 0,
     nsfw: true,
     adminNotes: 'None',
     body:
@@ -6243,11 +6263,9 @@ const p = {
     canReply: true,
     id: 'G629v9I6GvMEEFKMU34L',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   GB1QxLoq0i8c1qlmkU33: {
-    adminNotes: 'None',
     handle: '',
     name: 'Kosbare oomblikke',
     body:
@@ -6258,9 +6276,12 @@ const p = {
     id: 'GB1QxLoq0i8c1qlmkU33',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   GDBzCeW1n3PyxbP6YwoV: {
+    bookmarkedCount: 0,
+    mongo_id: '5bf33a54a0dac30014e9c1d1',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -6271,8 +6292,6 @@ const p = {
     date: 1542666836,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'GDBzCeW1n3PyxbP6YwoV',
-    bookmarkedCount: 0,
-    mongo_id: '5bf33a54a0dac30014e9c1d1',
     __collections__: {}
   },
   GE6ArfRcTo41b5tixbEG: {
@@ -6291,6 +6310,12 @@ const p = {
     __collections__: {}
   },
   GK798mgTu8ZOloAmiukF: {
+    repliedTo: null,
+    date: 1578555875,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: null,
+    richText: true,
+    handle: '',
     name: 'clingingly distracted ',
     canReply: true,
     id: 'GK798mgTu8ZOloAmiukF',
@@ -6301,15 +6326,12 @@ const p = {
     body:
       '<div><p><span>clinging to others </span></p><p><span>as mere distractions</span></p><p><span>to keep me </span></p><p><span>from facing my own life </span></p></div>',
     reported: false,
-    repliedTo: null,
-    date: 1578555875,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: null,
-    richText: true,
-    handle: '',
     __collections__: {}
   },
   GNwitVGpJ7PKMKX7jC8K: {
+    date: 1542230530,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'GNwitVGpJ7PKMKX7jC8K',
     bookmarkedCount: 0,
     mongo_id: '5bec9201de59df001452cd78',
     nsfw: false,
@@ -6319,13 +6341,9 @@ const p = {
     body:
       'Luidrugtig gevloek, bareback genaai\nen uitgeroep: God! \ntot binne-in geskree: Jesus Christus! \nhier kóm ek!\n\n"Fok Hom en sy patriargale genade:\njulle kerklike ordes is \'n bloedderige\nteedrinkery en oordeelstokery."\n\nRebellie en stry. Uitdaag en baklei: Contrary het Kritiek verlei en\nál die vrugte van ál die bome afgeruk;\nhelfte gevreet, ander besny. \nSap laat spat en síf gesweet:\neerlik gewees en in nuwe idees gebly. \n\nMaar dis niks. Nou is dit níks:\nna alles gesê en gedoen is,\nalles gevat en gevoel is,\neksplisiet met embarrassed vervang\nis;\nen die hoop uiteindelik bang is... \n\n... is al wie oorbly die gesiggefokte\nGod wat in die hoek hurk en met sy\ngrowwe vingers iets in die sand\nuitkrap.\n\n',
     reported: false,
-    date: 1542230530,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'GNwitVGpJ7PKMKX7jC8K',
     __collections__: {}
   },
   GOHAa3InVxnvrsDUccQF: {
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -6337,9 +6355,14 @@ const p = {
     date: 1563057016,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'GOHAa3InVxnvrsDUccQF',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   GVAWAomD4MV8KggW4abI: {
+    canReply: true,
+    id: 'GVAWAomD4MV8KggW4abI',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: true,
     adminNotes: 'None',
     body:
@@ -6352,13 +6375,13 @@ const p = {
     richText: true,
     handle: '',
     name: "Die skrywer is 'n doos",
-    canReply: true,
-    id: 'GVAWAomD4MV8KggW4abI',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   GWEw0FUCCxbqxxB9PMxV: {
+    id: 'GWEw0FUCCxbqxxB9PMxV',
+    bookmarkedCount: 0,
+    mongo_id: '5c5766ad85ae650015ee6418',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'schism ',
@@ -6367,10 +6390,6 @@ const p = {
     reported: false,
     date: 1549231790,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'GWEw0FUCCxbqxxB9PMxV',
-    bookmarkedCount: 0,
-    mongo_id: '5c5766ad85ae650015ee6418',
-    nsfw: false,
     __collections__: {}
   },
   GZfmaV3M5LB4gJx3hmal: {
@@ -6393,6 +6412,13 @@ const p = {
     __collections__: {}
   },
   GbR2dvrt1snigYauKMAL: {
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>wat as party digters net slim mense is wat nie weet wat om te sê nie en hogere woorde uitspoeg met die hoop dat niemand sal verstaan nie sodat almal sal maak asof hulle wel insig het in die simmenssêdinge om nie te lyk asof hulle (óók nie) begryp nie?</span></p><p><span></span></p><p><span>En dan  wen hulle pryse ook nog. </span></p></div>',
+    repliedTo: null,
+    date: 1569147007,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     richText: true,
     handle: '',
     name: 'Wat dan? ',
@@ -6401,16 +6427,11 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>wat as party digters net slim mense is wat nie weet wat om te sê nie en hogere woorde uitspoeg met die hoop dat niemand sal verstaan nie sodat almal sal maak asof hulle wel insig het in die simmenssêdinge om nie te lyk asof hulle (óók nie) begryp nie?</span></p><p><span></span></p><p><span>En dan  wen hulle pryse ook nog. </span></p></div>',
-    repliedTo: null,
-    date: 1569147007,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     __collections__: {}
   },
   Gh1wGu3YCtl3p07FjQGg: {
+    bookmarkedCount: 0,
+    mongo_id: '5c1664e87c4ab20014187edb',
     nsfw: false,
     adminNotes: 'None',
     handle: 'ons',
@@ -6420,11 +6441,13 @@ const p = {
     date: 1544971497,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Gh1wGu3YCtl3p07FjQGg',
-    bookmarkedCount: 0,
-    mongo_id: '5c1664e87c4ab20014187edb',
     __collections__: {}
   },
   Gk6MSGsdsbPW4RG6MVZI: {
+    id: 'Gk6MSGsdsbPW4RG6MVZI',
+    bookmarkedCount: 2,
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'verbatim ',
     name: 'Pieter + Peter ',
     body:
@@ -6432,10 +6455,6 @@ const p = {
     reported: false,
     date: 1562625557,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'Gk6MSGsdsbPW4RG6MVZI',
-    bookmarkedCount: 2,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   GkJ1jgypaqV4W5LY3OJ1: {
@@ -6454,22 +6473,20 @@ const p = {
     __collections__: {}
   },
   GnS3c9o96K60HxwMQe0U: {
+    date: 1560378937,
+    uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
+    id: 'GnS3c9o96K60HxwMQe0U',
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: 'aud6362',
     name: 'Vadersdag',
     body:
       'Vadersdag kruip nou nader\nEn ek weet jou hart word ook swaarder\nN dag van niks he om te vier\nWant julle is nie meer hier\nEk kyk rondom my en vra\nWat is n vadersdag sonder n pa\nSoos n skilpad se lee dop\nDie bo deel van n uurglas\nDie lee plek aan die middagtafel\nDie gat in my hart\nEk wil jou troos maar die woorde stik in my keel\nMyne is weg joune is weg\nWat maak ons dan nou\nStik in ons hartseer\nMaar dank ook die Heer\nVir n vader soos myne en n vader vir jou\n\n\n',
     reported: false,
-    date: 1560378937,
-    uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
-    id: 'GnS3c9o96K60HxwMQe0U',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   Goy9l8O3zrDHHb63u5oJ: {
-    richText: true,
-    handle: 'ahwelgemoed',
     name: 'Photo',
     canReply: true,
     id: 'Goy9l8O3zrDHHb63u5oJ',
@@ -6484,9 +6501,15 @@ const p = {
     date: 1578253300,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
+    richText: true,
+    handle: 'ahwelgemoed',
     __collections__: {}
   },
   GpcK9YDBdDRQ04uT3rGQ: {
+    mongo_id: '5b50e539bc2f8d00145c942e',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'I carry your heart with me (E.E. Cummings)',
     body:
       'i carry your heart with me(i carry it in\n\nmy heart)i am never without it(anywhere\n\ni go you go,my dear;and whatever is done\n\nby only me is your doing,my darling)\n\n                                                      i fear\n\nno fate(for you are my fate,my sweet)i want\n\nno world(for beautiful you are my world,my true)\n\nand it’s you are whatever a moon has always meant\n\nand whatever a sun will always sing is you\n\n \n\nhere is the deepest secret nobody knows\n\n(here is the root of the root and the bud of the bud\n\nand the sky of the sky of a tree called life;which grows\n\nhigher than soul can hope or mind can hide)\n\nand this is the wonder that’s keeping the stars apart\n\n \n\ni carry your heart(i carry it in my heart)',
@@ -6495,13 +6518,16 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'GpcK9YDBdDRQ04uT3rGQ',
     bookmarkedCount: 0,
-    mongo_id: '5b50e539bc2f8d00145c942e',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   GuLL7HII7aCpoWmBuf5P: {
+    reported: false,
+    body:
+      "<div><p><span>wat gedink het jy gee om</span></p><p><span>                'n fok</span></p></div>",
+    repliedTo: null,
+    date: 1570259169,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: null,
     richText: true,
     handle: '',
     name: 'onnoselle ek',
@@ -6511,16 +6537,12 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>wat gedink het jy gee om</span></p><p><span>                'n fok</span></p></div>",
-    repliedTo: null,
-    date: 1570259169,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: null,
     __collections__: {}
   },
   GvfOLss7eBZzGtappD08: {
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Son(dig)',
     body:
@@ -6530,12 +6552,16 @@ const p = {
     uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
     id: 'GvfOLss7eBZzGtappD08',
     bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   GwWSDYBv9E8MjnGuLWJu: {
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span style="font-style: italic;"></span><span style="font-style: italic;">\'n alternatief vir Eva</span></p><p><span></span></p><p><span>dit was aand en dit was oggend </span></p><p><span></span><span>en die Patriargie is geskape </span></p><p><span></span></p><p><span>om haar te </span><span>weerhou </span></p><p><span>van kennis en te vul met saad </span></p><p><span>en vrees en onderdanigheid</span></p><p><span></span></p><p><span>maar Medusa was slimmer</span></p><p><span>as al die ander skepsels </span></p><p><span></span><span>ontnugtering bied sy aan haar </span></p><p><span></span></p><p><span>Eva eet Adam se appels </span></p><p><span></span></p><p><span>Eva is naak </span></p><p><span>sy\'t kennis gesmaak </span></p><p><span>God is kwaad </span></p><p><span></span></p><p><span>Adam is verdwaas:</span></p><p><span></span></p><p><span>Eva hou nie </span></p><p><span>van appels nie</span></p><p><span>Eva hou </span></p><p><span>van perskes </span></p><p><span></span></p><p><span>die genesis van die Patriargie</span></p><p><span>die proe van die adamsappel:</span></p><p><span></span></p><p><span>die val van die vrou</span></p><p><span></span></p><p><span>feminisme is gelukkig \'n feniks</span></p></div>',
+    repliedTo: null,
+    date: 1570353713,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -6545,17 +6571,9 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span style="font-style: italic;"></span><span style="font-style: italic;">\'n alternatief vir Eva</span></p><p><span></span></p><p><span>dit was aand en dit was oggend </span></p><p><span></span><span>en die Patriargie is geskape </span></p><p><span></span></p><p><span>om haar te </span><span>weerhou </span></p><p><span>van kennis en te vul met saad </span></p><p><span>en vrees en onderdanigheid</span></p><p><span></span></p><p><span>maar Medusa was slimmer</span></p><p><span>as al die ander skepsels </span></p><p><span></span><span>ontnugtering bied sy aan haar </span></p><p><span></span></p><p><span>Eva eet Adam se appels </span></p><p><span></span></p><p><span>Eva is naak </span></p><p><span>sy\'t kennis gesmaak </span></p><p><span>God is kwaad </span></p><p><span></span></p><p><span>Adam is verdwaas:</span></p><p><span></span></p><p><span>Eva hou nie </span></p><p><span>van appels nie</span></p><p><span>Eva hou </span></p><p><span>van perskes </span></p><p><span></span></p><p><span>die genesis van die Patriargie</span></p><p><span>die proe van die adamsappel:</span></p><p><span></span></p><p><span>die val van die vrou</span></p><p><span></span></p><p><span>feminisme is gelukkig \'n feniks</span></p></div>',
-    repliedTo: null,
-    date: 1570353713,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     __collections__: {}
   },
   H2KYj7AfNryIarBII3KB: {
-    id: 'H2KYj7AfNryIarBII3KB',
     bookmarkedCount: 1,
     nsfw: true,
     richText: true,
@@ -6567,9 +6585,11 @@ const p = {
     reported: false,
     date: 1564688155,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
+    id: 'H2KYj7AfNryIarBII3KB',
     __collections__: {}
   },
   H3GapSyGly5rhs5YNwYW: {
+    bookmarkedCount: 0,
     mongo_id: '5c2de8e0e8ff56001552b52a',
     nsfw: false,
     adminNotes: 'None',
@@ -6580,10 +6600,13 @@ const p = {
     date: 1546512608,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'H3GapSyGly5rhs5YNwYW',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   H3IAa61pxk8b1z595Nvs: {
+    name: 'It’s bad again',
+    canReply: true,
+    id: 'H3IAa61pxk8b1z595Nvs',
+    repliedToName: null,
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -6595,15 +6618,9 @@ const p = {
     uid: 'OHLd2heTzcXJfochjjTxSzT4vr82',
     richText: true,
     handle: '',
-    name: 'It’s bad again',
-    canReply: true,
-    id: 'H3IAa61pxk8b1z595Nvs',
-    repliedToName: null,
     __collections__: {}
   },
   H5KHYUrh1NH29kMFPpJW: {
-    mongo_id: '5c17f29bbb969f001404808d',
-    nsfw: false,
     adminNotes: 'None',
     handle: 'ahwelgemoed',
     name: '...Miss...',
@@ -6614,13 +6631,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'H5KHYUrh1NH29kMFPpJW',
     bookmarkedCount: 0,
+    mongo_id: '5c17f29bbb969f001404808d',
+    nsfw: false,
     __collections__: {}
   },
   H9se92OueBnM3PIGdNOW: {
-    bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: '',
     name: 'bure, búre! ',
     body:
@@ -6629,15 +6644,13 @@ const p = {
     date: 1563139940,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'H9se92OueBnM3PIGdNOW',
+    bookmarkedCount: 1,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   H9yXSDzKd8WN3ByJaQJm: {
-    canReply: true,
-    id: 'H9yXSDzKd8WN3ByJaQJm',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Ek haal my binneband uit my rou,</span></p><p><span>Vou dit oop en gee dit vir jou,</span></p><p><span>Jy skrefie jou oë en tilt jou kop\nsê “Dis faain ek ry tubeless-nou”\nEk sê dis “okay”\nTel dit op, vou dit terug\nEk blaas my self op soos ‘n terroris.</span></p></div>',
@@ -6648,14 +6661,15 @@ const p = {
     richText: true,
     handle: '',
     name: 'Binneband-Grap',
+    canReply: true,
+    id: 'H9yXSDzKd8WN3ByJaQJm',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   HB6OBL8qaUX6iZfCgahj: {
-    bookmarkedCount: 0,
-    mongo_id: '5cc60dd3821c4a00158fc3ac',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'heavy',
     body:
       "I heard a dead bird\ncalling out your name.\n\nWhat makes you so\nafraid\n(of me? I don't bite\nhard)\nI hauled away\nthe stone in my eye\nyesterday - \n\nnow I hear a dead bird\ncalling out your name. ",
@@ -6663,15 +6677,14 @@ const p = {
     date: 1556483539,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'HB6OBL8qaUX6iZfCgahj',
+    bookmarkedCount: 0,
+    mongo_id: '5cc60dd3821c4a00158fc3ac',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   HHrCaieMSh8NJEsIxOdN: {
-    reported: false,
-    body:
-      '<div><p><span>Is dit so moeilik omdat </span></p><p><span>Sondaglunch \'n saam-ding is</span></p><p><span>Saamkoek by teedrink tyd gather</span></p><p><span>Kerkspeel \'n groepsaktiwiteit is</span></p><p><span>Middagslapies in spanne gebeur</span></p><p><span>Skottelgoed in pare gewas word</span></p><p><span>"Luilekker middag" altyd twee insluit</span></p><p><span>Road trip net bestaan vir meer as 1</span></p><p><span></span></p><p><span>En hier sit \'n mens:</span></p><p><span></span></p><p><span>Gelukkig, onafhanklik, </span><span style="font-weight: bold;">modern,</span></p><p><span>maar</span></p><p><span></span><span style="font-style: italic;">alleen.</span></p></div>',
-    repliedTo: 'E7MuuVafeGVkr9V5cUyN',
-    date: 1567970196,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     richText: true,
     handle: '',
     name: 'Sondedag',
@@ -6681,14 +6694,15 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Is dit so moeilik omdat </span></p><p><span>Sondaglunch \'n saam-ding is</span></p><p><span>Saamkoek by teedrink tyd gather</span></p><p><span>Kerkspeel \'n groepsaktiwiteit is</span></p><p><span>Middagslapies in spanne gebeur</span></p><p><span>Skottelgoed in pare gewas word</span></p><p><span>"Luilekker middag" altyd twee insluit</span></p><p><span>Road trip net bestaan vir meer as 1</span></p><p><span></span></p><p><span>En hier sit \'n mens:</span></p><p><span></span></p><p><span>Gelukkig, onafhanklik, </span><span style="font-weight: bold;">modern,</span></p><p><span>maar</span></p><p><span></span><span style="font-style: italic;">alleen.</span></p></div>',
+    repliedTo: 'E7MuuVafeGVkr9V5cUyN',
+    date: 1567970196,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   HLjEBWP4mrWMl1G7Ardk: {
-    id: 'HLjEBWP4mrWMl1G7Ardk',
-    bookmarkedCount: 0,
-    mongo_id: '5c6bbd7a3da7e00015ff3818',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'handyandy.art',
     name: 'Oervrees',
     body:
@@ -6696,6 +6710,11 @@ const p = {
     reported: false,
     date: 1550564730,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'HLjEBWP4mrWMl1G7Ardk',
+    bookmarkedCount: 0,
+    mongo_id: '5c6bbd7a3da7e00015ff3818',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   HMqpOQqxdP5Qp4l9N4F1: {
@@ -6714,9 +6733,6 @@ const p = {
     __collections__: {}
   },
   HMsIP6p4H1ZXr4OppA1s: {
-    name: 'Drol',
-    body: "Jys 'n drol. ",
-    reported: false,
     date: 1549040656,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'HMsIP6p4H1ZXr4OppA1s',
@@ -6725,12 +6741,12 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'Drol',
+    body: "Jys 'n drol. ",
+    reported: false,
     __collections__: {}
   },
   HT1GaXWrA3lDlrGkrStZ: {
-    id: 'HT1GaXWrA3lDlrGkrStZ',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name:
@@ -6740,9 +6756,14 @@ const p = {
       "Sonder lede gebore,\nUit'n ongehude skoot,\nMet ekstase gelewe,\nOp die pad na die dood,\n\nDie sterwens hier vergete,\nIn ons warm gespeel,\nOns liefde en ons lewe,\nSoos naalde gedeel.\n\nGaan luister fokken Kobus! Regtig. Gaan doen dit. ",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1572719146,
+    id: 'HT1GaXWrA3lDlrGkrStZ',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   HUmmjP8vSA4l3IAhPocS: {
+    id: 'HUmmjP8vSA4l3IAhPocS',
+    bookmarkedCount: 0,
     mongo_id: '5b8d903260d4130014cf1ec8',
     nsfw: false,
     adminNotes: 'None',
@@ -6753,11 +6774,11 @@ const p = {
     reported: false,
     date: 1536004147,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'HUmmjP8vSA4l3IAhPocS',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   HXufAYavAGdtAfWndcJ5: {
+    adminNotes: 'None',
+    handle: '',
     name: 'Trouens ',
     body: 'Vir alles wat ek van jou weet, dink ek meer aan jou as wat ek moet.',
     reported: false,
@@ -6766,11 +6787,13 @@ const p = {
     id: 'HXufAYavAGdtAfWndcJ5',
     bookmarkedCount: 1,
     nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   HYpDbfZXYVkJlYamn5KV: {
+    canReply: true,
+    id: 'HYpDbfZXYVkJlYamn5KV',
+    repliedToName: 'postnet',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body: '<div><p><span>Jy het nooit jou adres gestuur nie.</span></p></div>',
@@ -6782,10 +6805,6 @@ const p = {
     richText: true,
     handle: '',
     name: 'Mense word nie besit nie',
-    canReply: true,
-    id: 'HYpDbfZXYVkJlYamn5KV',
-    repliedToName: 'postnet',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   HbaJqx76Bl5JGOm7Qgg0: {
@@ -6808,6 +6827,7 @@ const p = {
     __collections__: {}
   },
   HgEBQBSbUhKVvSzg4Ifp: {
+    nsfw: false,
     adminNotes: 'None',
     body:
       "<div><p><span>Vir 'n oomblik het ek onthou hoe dit voel...nou is als weer leeg, en stil.</span></p></div>",
@@ -6822,10 +6842,13 @@ const p = {
     id: 'HgEBQBSbUhKVvSzg4Ifp',
     repliedToName: null,
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   HgGlI4B5mb4QXeIH3Tov: {
+    adminNotes: 'None',
+    body:
+      '<div><p><span>"Epikônders" </span></p><p><span>Hoofpyne, ongemaklik met tuinspit en kort asem wanneer sy stap; ag man sommer net</span><span> oumenskoors. </span></p><p><span></span></p><p><span>Vanaand het die dokter gebel: hy wil haar môre oggend 07h00 sien. Sy moet \'n oornagtas pak en my pa moet haar wegbring want sy gaan nie dadelik huistoe nie. </span></p><p><span></span></p><p><span>Ma; ek kan nie opdrag gee nie. Maar dit sal nogal kak wees as jý iets moet oorkom. </span></p><p><span></span></p><p><span>Nie voor daar weer in die gedeelde taal gesels word nie. </span></p></div>',
+    reported: false,
     repliedTo: null,
     date: 1582589092,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
@@ -6838,18 +6861,9 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>"Epikônders" </span></p><p><span>Hoofpyne, ongemaklik met tuinspit en kort asem wanneer sy stap; ag man sommer net</span><span> oumenskoors. </span></p><p><span></span></p><p><span>Vanaand het die dokter gebel: hy wil haar môre oggend 07h00 sien. Sy moet \'n oornagtas pak en my pa moet haar wegbring want sy gaan nie dadelik huistoe nie. </span></p><p><span></span></p><p><span>Ma; ek kan nie opdrag gee nie. Maar dit sal nogal kak wees as jý iets moet oorkom. </span></p><p><span></span></p><p><span>Nie voor daar weer in die gedeelde taal gesels word nie. </span></p></div>',
-    reported: false,
     __collections__: {}
   },
   HiJZRblsdiQoy3sXBPs7: {
-    id: 'HiJZRblsdiQoy3sXBPs7',
-    bookmarkedCount: 0,
-    mongo_id: '5b6577c2596dbb0014c1ad80',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Here',
     body:
@@ -6857,10 +6871,14 @@ const p = {
     reported: false,
     date: 1533376450,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'HiJZRblsdiQoy3sXBPs7',
+    bookmarkedCount: 0,
+    mongo_id: '5b6577c2596dbb0014c1ad80',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   HmEwgItVrxp2NEFbLrOB: {
-    activeTema: null,
     richText: true,
     handle: '',
     name: '1.2.3. Blok myself. ',
@@ -6876,14 +6894,10 @@ const p = {
     repliedTo: null,
     date: 1577285088,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
+    activeTema: null,
     __collections__: {}
   },
   HmgFpW0uPAWGuCYXGqcW: {
-    id: 'HmgFpW0uPAWGuCYXGqcW',
-    bookmarkedCount: 0,
-    mongo_id: '5b819aececf59f00141c9cb5',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'om den brode',
     body:
@@ -6891,17 +6905,14 @@ const p = {
     reported: false,
     date: 1535220460,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'HmgFpW0uPAWGuCYXGqcW',
+    bookmarkedCount: 0,
+    mongo_id: '5b819aececf59f00141c9cb5',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   HmxF80TZcZ7Q4goq3U2K: {
-    body:
-      '<div><p><span>Ek skeur myself in twee,</span></p><p><span>en nou is ek verveeld...</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1573144802,
-    uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
-    activeTema: 'Depressiewe struggle',
-    richText: true,
     handle: '',
     name: 'Wat Nou?',
     canReply: true,
@@ -6910,6 +6921,14 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    body:
+      '<div><p><span>Ek skeur myself in twee,</span></p><p><span>en nou is ek verveeld...</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1573144802,
+    uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
+    activeTema: 'Depressiewe struggle',
+    richText: true,
     __collections__: {}
   },
   Hn7CCQj53WqSD0KUYegT: {
@@ -6941,22 +6960,21 @@ const p = {
     __collections__: {}
   },
   HooKZXKq96tOiSJvQJqq: {
-    id: 'HooKZXKq96tOiSJvQJqq',
-    bookmarkedCount: 0,
-    mongo_id: '5c2266ebaa4f160014a44c13',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'evertesterhuizen',
     name: 'Russia from my backyard',
     body:
       'Elkeen van julle weirdos. Die een met die spikey grys hare. Die een met die (choc-) chip op die skouer. Die een met die Springbok tat. Die een wat in elke foto goed lyk. Die een wie altyd karre praat. Die een met een-en-n-halwe maag. Die een wat kan bak. Die een met min hare en die een wie ma staan vir meeste van ons.\n\nJulle is my moederland. ',
     reported: false,
     date: 1545758444,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'HooKZXKq96tOiSJvQJqq',
+    bookmarkedCount: 0,
+    mongo_id: '5c2266ebaa4f160014a44c13',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'evertesterhuizen',
     __collections__: {}
   },
   HrWdQU5zc0hR7qvjxrXJ: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Sekskat 3000',
@@ -6967,11 +6985,10 @@ const p = {
     id: 'HrWdQU5zc0hR7qvjxrXJ',
     bookmarkedCount: 0,
     mongo_id: '5c61a1eb192656001548b012',
+    nsfw: false,
     __collections__: {}
   },
   Hrks3Ceb4Xe87ApeVSni: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Dis niks',
     body:
@@ -6981,11 +6998,11 @@ const p = {
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     id: 'Hrks3Ceb4Xe87ApeVSni',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   HtLzrAtglrun9nv1HGgV: {
-    adminNotes: 'None',
-    handle: 'Verbatim',
     name: 'die anisoptera',
     body:
       "ek bring vir jou my mooiste klere\nmy hele lyf en klein klein koninkryk \nwaar ek apaties en socially akward \nkoning kan kraai en oorweeg selfs\ntoe jy nie my flat verniel nie\n'n spasie in my hart. \nkort na ons eerste keer\nop my drumpel die aand \nkon jy deur die skreef sien:\ndie oop tasdeksel\nen gaar naweek sak\nen stukkende kartondoos \nen lapsak goed\nen so vinnig soos jy met jou naaldekoker wese hier kom land het swiep jy weer op\nen weg\n\nJy was te klein vir soveel bagasie. \n",
@@ -6996,12 +7013,11 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c2bfc5ec502c900151dd0d3',
     nsfw: false,
+    adminNotes: 'None',
+    handle: 'Verbatim',
     __collections__: {}
   },
   HvKUmdtiG4ghad8SJ86X: {
-    id: 'HvKUmdtiG4ghad8SJ86X',
-    bookmarkedCount: 0,
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -7011,9 +7027,18 @@ const p = {
     reported: false,
     date: 1565861879,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
+    id: 'HvKUmdtiG4ghad8SJ86X',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   HvTu7cGejCsrFj54nO6T: {
+    reported: false,
+    body:
+      '<div><p><span>My attempt at poetry and dating....</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span>\nEk verlang deesdae.\nEk verlang na 2016 vrae.\n\nTrump in een clump.\nEventually word hy ge-hump.\nEk verlang vir jou belang.\nGod dank vir klank.\n\nDankie dat jy is so funky.\nAl is jy nie blank nie, is ons vol fruit and chutney.\n\nDankie vir die inspirasie.\nEk wil bietjie plek los vir spasie.</span></p></div>',
+    repliedTo: null,
+    date: 1571336126,
+    uid: 'DcuwHdZLlSNXxTCtsqpW0JhSTGj2',
     activeTema: null,
     richText: true,
     handle: 'Kitchendutch ',
@@ -7024,15 +7049,12 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>My attempt at poetry and dating....</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span>\nEk verlang deesdae.\nEk verlang na 2016 vrae.\n\nTrump in een clump.\nEventually word hy ge-hump.\nEk verlang vir jou belang.\nGod dank vir klank.\n\nDankie dat jy is so funky.\nAl is jy nie blank nie, is ons vol fruit and chutney.\n\nDankie vir die inspirasie.\nEk wil bietjie plek los vir spasie.</span></p></div>',
-    repliedTo: null,
-    date: 1571336126,
-    uid: 'DcuwHdZLlSNXxTCtsqpW0JhSTGj2',
     __collections__: {}
   },
   HxvWfsZQ19GLcgUG7DWt: {
+    bookmarkedCount: 0,
+    mongo_id: '5c10154f03d5fd0014875b7e',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Unspoken rule',
@@ -7041,14 +7063,9 @@ const p = {
     date: 1544557903,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'HxvWfsZQ19GLcgUG7DWt',
-    bookmarkedCount: 0,
-    mongo_id: '5c10154f03d5fd0014875b7e',
-    nsfw: false,
     __collections__: {}
   },
   I1fZvsLax71tvhLrtjJR: {
-    bookmarkedCount: 0,
-    mongo_id: '5c520fa78550a40015e45aa6',
     nsfw: false,
     adminNotes: 'None',
     handle: '13.lynette',
@@ -7059,9 +7076,14 @@ const p = {
     date: 1548881832,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'I1fZvsLax71tvhLrtjJR',
+    bookmarkedCount: 0,
+    mongo_id: '5c520fa78550a40015e45aa6',
     __collections__: {}
   },
   I7R5tWZ8p4HVballulVN: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'Verbatim ',
     name: 'AP',
     reported: false,
@@ -7069,12 +7091,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1572650466,
     id: 'I7R5tWZ8p4HVballulVN',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   IBGslWB2efyv6I20QNof: {
+    mongo_id: '5b9c19040142f700142ec9a5',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'bloed - vir wbg',
     body:
@@ -7084,12 +7106,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'IBGslWB2efyv6I20QNof',
     bookmarkedCount: 0,
-    mongo_id: '5b9c19040142f700142ec9a5',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   IDqZAyBSdbpwF2MQBdEc: {
+    canReply: true,
     id: 'IDqZAyBSdbpwF2MQBdEc',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -7105,17 +7125,9 @@ const p = {
     richText: true,
     handle: '',
     name: 'hoerlike dag',
-    canReply: true,
     __collections__: {}
   },
   IEji94a83a69d0QQx5PL: {
-    reported: false,
-    body:
-      '<div><p><span>Daars n reuk in die hoë veld as dit reën, wat soos my ouers ruik - Hie iewers tussen diensplig en lus het hulle mekaar gekry.</span></p><p><span></span></p><p><span>Getrek see toe en begin verloor. </span></p><p><span>Eers net effe en toe teveel.</span></p><p><span>Eers geloof en toe mekaar.</span></p><p><span>Tot 20 jaar later en dood is al wat oorbly</span></p><p><span></span></p><p><span>En nou, Sit ek hier, in die hoë veld en sien, hoe bruin-geel lus kan wees.</span></p></div>',
-    repliedTo: null,
-    date: 1581006719,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'Lus',
@@ -7125,16 +7137,16 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Daars n reuk in die hoë veld as dit reën, wat soos my ouers ruik - Hie iewers tussen diensplig en lus het hulle mekaar gekry.</span></p><p><span></span></p><p><span>Getrek see toe en begin verloor. </span></p><p><span>Eers net effe en toe teveel.</span></p><p><span>Eers geloof en toe mekaar.</span></p><p><span>Tot 20 jaar later en dood is al wat oorbly</span></p><p><span></span></p><p><span>En nou, Sit ek hier, in die hoë veld en sien, hoe bruin-geel lus kan wees.</span></p></div>',
+    repliedTo: null,
+    date: 1581006719,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
+    activeTema: null,
     __collections__: {}
   },
   IG56fTgsU175hjyk4ka3: {
-    reported: false,
-    body:
-      "<div><p><span>'n Suiwer taal, skoon en versigtig</span></p><p><span>Geen swaard meer gevaarlik</span></p><p><span>Ek skuld jou niks.</span></p><p><span>In hierdie spiere word die vure geblus</span></p><p><span>Slegs kole bly oor, tussen die grys as.</span></p><p><span></span></p><p><span>Wat as ek sou, wie sou ek wees?</span></p><p><span>Waar sou ek gaan?</span></p><p><span>Sou jy my kon vind?</span></p><p><span>Verdwaal en verlore.</span></p><p><span>'n Seun word 'n man.</span></p><p><span></span></p><p><span>Mangemaak langs die kus van stilte,</span></p><p><span>alleen op die strand, tog veilig en versigtig.</span></p><p><span>Die geraas van die stad, nou slegs in sy gedagtes</span></p><p><span>Net hier is hy veilig, hier is hy vry.</span></p><p><span>Die nag het gekom, maar die lig verlaat hom nooit.</span></p><p><span></span></p><p><span>Hy klim daardie heuwel, klouter en kruip.</span></p><p><span>Deur dorings en bosse, lyf aan die brand.</span></p><p><span>Skeure en nerf af, bloeiend bekyk hy bo.</span></p><p><span>Moeg en uitgeput, hou net oop jou oë.</span></p><p><span>Want as jy nou tou opgooi, kom die Here jou haal.</span></p><p><span></span></p><p><span>So rus 'n bietjie, vat 'n breek.</span></p><p><span>Raak nugter, raak stil, en kyk op na my.</span></p><p><span>Die skadu's beweeg, die katte kom weer.</span></p><p><span>Verloor maar jouself, hier kyk niemand en kan niemand jou keer. </span></p><p><span>Spring in die see, pasop vir die rotse.</span></p><p><span></span></p><p><span>Jy ruk en jy rol, jy swem en baljaar.</span></p><p><span>Jy doop jouself en soutwater was jou skoon.</span></p><p><span>Totdat die son opkom, dan sit jy soet.</span></p><p><span>Nou is jy kalm, want Hy praat direk met jou.</span></p><p><span>Dis 'n tweesydige gesprek, waarna niemand kan luister.</span></p><p><span></span></p><p><span>Geskryf 10 Desember 2019</span></p></div>",
-    repliedTo: null,
-    date: 1580132219,
-    uid: 'lbGA8glWIiaQMABVBdFYNdHzPpb2',
-    activeTema: 'Deel jou geheim',
     richText: true,
     handle: 'wpvanschalkwykslp',
     name: 'Stil-baai',
@@ -7144,11 +7156,16 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>'n Suiwer taal, skoon en versigtig</span></p><p><span>Geen swaard meer gevaarlik</span></p><p><span>Ek skuld jou niks.</span></p><p><span>In hierdie spiere word die vure geblus</span></p><p><span>Slegs kole bly oor, tussen die grys as.</span></p><p><span></span></p><p><span>Wat as ek sou, wie sou ek wees?</span></p><p><span>Waar sou ek gaan?</span></p><p><span>Sou jy my kon vind?</span></p><p><span>Verdwaal en verlore.</span></p><p><span>'n Seun word 'n man.</span></p><p><span></span></p><p><span>Mangemaak langs die kus van stilte,</span></p><p><span>alleen op die strand, tog veilig en versigtig.</span></p><p><span>Die geraas van die stad, nou slegs in sy gedagtes</span></p><p><span>Net hier is hy veilig, hier is hy vry.</span></p><p><span>Die nag het gekom, maar die lig verlaat hom nooit.</span></p><p><span></span></p><p><span>Hy klim daardie heuwel, klouter en kruip.</span></p><p><span>Deur dorings en bosse, lyf aan die brand.</span></p><p><span>Skeure en nerf af, bloeiend bekyk hy bo.</span></p><p><span>Moeg en uitgeput, hou net oop jou oë.</span></p><p><span>Want as jy nou tou opgooi, kom die Here jou haal.</span></p><p><span></span></p><p><span>So rus 'n bietjie, vat 'n breek.</span></p><p><span>Raak nugter, raak stil, en kyk op na my.</span></p><p><span>Die skadu's beweeg, die katte kom weer.</span></p><p><span>Verloor maar jouself, hier kyk niemand en kan niemand jou keer. </span></p><p><span>Spring in die see, pasop vir die rotse.</span></p><p><span></span></p><p><span>Jy ruk en jy rol, jy swem en baljaar.</span></p><p><span>Jy doop jouself en soutwater was jou skoon.</span></p><p><span>Totdat die son opkom, dan sit jy soet.</span></p><p><span>Nou is jy kalm, want Hy praat direk met jou.</span></p><p><span>Dis 'n tweesydige gesprek, waarna niemand kan luister.</span></p><p><span></span></p><p><span>Geskryf 10 Desember 2019</span></p></div>",
+    repliedTo: null,
+    date: 1580132219,
+    uid: 'lbGA8glWIiaQMABVBdFYNdHzPpb2',
+    activeTema: 'Deel jou geheim',
     __collections__: {}
   },
   IIHYkdGNkv6vkdkhQAVu: {
-    id: 'IIHYkdGNkv6vkdkhQAVu',
-    bookmarkedCount: 0,
     mongo_id: '5ca27859d5cd070015c9c357',
     nsfw: false,
     adminNotes: 'None',
@@ -7158,9 +7175,15 @@ const p = {
     reported: false,
     date: 1554151514,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'IIHYkdGNkv6vkdkhQAVu',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   IIOaum7ta515UrmnG95b: {
+    id: 'IIOaum7ta515UrmnG95b',
+    bookmarkedCount: 1,
+    mongo_id: '5cb61337ee54430015eabbb5',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Hey, Casanova ',
@@ -7169,13 +7192,13 @@ const p = {
     reported: false,
     date: 1555436343,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'IIOaum7ta515UrmnG95b',
-    bookmarkedCount: 1,
-    mongo_id: '5cb61337ee54430015eabbb5',
-    nsfw: false,
     __collections__: {}
   },
   IJ5jAs7VInD0UmSZRaOC: {
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1532260880,
+    id: 'IJ5jAs7VInD0UmSZRaOC',
+    bookmarkedCount: 1,
     mongo_id: '5b5472105545a9001421e14b',
     nsfw: false,
     adminNotes: 'None',
@@ -7184,10 +7207,6 @@ const p = {
     reported: false,
     body:
       "Die teleurstelling van iemand wat haastig met vaste tred langs 'n ry winkels afloop- wyer trap- om te sien of die ligte van hul bestemming nog brand- nek uitgerek. En dan besef dis te laat, maar steeds hoop- onsekerder loop, nóg n entjie wyer, nader loop om séker te maak dis nie dalk net n kragonderbreking nie -of is iemand dalk nog in die deur- en dan die tot staan kom- sommiges so in die loop eintlik- omdraai en vinnig, ongemerk, in die donker weerkaatsing bevestiging soek vir hulself, sonbril weer laat sak en terugstap. Nou, stadiger, met minder drif. Jy weet jy't te lank gevat voor die spieël by die huis. Jy weet die ontbyt was minute terug al klaar voor jy opstaan. Jy weet jy moes vinniger afknyp. Jou teleurstelling is joune. En nou is dit verby. Volgende eindpunt. Dis darm nog 17h57. ",
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1532260880,
-    id: 'IJ5jAs7VInD0UmSZRaOC',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   IM8wGYOnJVwGhmuStA7j: {
@@ -7209,6 +7228,9 @@ const p = {
     __collections__: {}
   },
   IRc6YOeno7IRuwf9uBL3: {
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     name: ' ',
     body: '<div><p><span>Verveel my weer</span></p></div>',
     reported: false,
@@ -7217,12 +7239,10 @@ const p = {
     id: 'IRc6YOeno7IRuwf9uBL3',
     bookmarkedCount: 0,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   ISCJajxfqOqvl12058vU: {
+    id: 'ISCJajxfqOqvl12058vU',
     bookmarkedCount: 0,
     mongo_id: '5ccb32e240cba700151f18fd',
     nsfw: false,
@@ -7234,10 +7254,10 @@ const p = {
     reported: false,
     date: 1556820707,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'ISCJajxfqOqvl12058vU',
     __collections__: {}
   },
   IWVzaxKEsnmyn9wvvXz6: {
+    id: 'IWVzaxKEsnmyn9wvvXz6',
     bookmarkedCount: 3,
     mongo_id: '5cbf6614467624001517145a',
     nsfw: false,
@@ -7249,14 +7269,9 @@ const p = {
     reported: false,
     date: 1556047381,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'IWVzaxKEsnmyn9wvvXz6',
     __collections__: {}
   },
   IX7Yru2TtkL611PkRhkM: {
-    bookmarkedCount: 0,
-    mongo_id: '5c5326d26f98cf0015806338',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Wishes',
     body: 'Will you remember me with wishes for what could have been?',
@@ -7264,9 +7279,14 @@ const p = {
     date: 1548953299,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'IX7Yru2TtkL611PkRhkM',
+    bookmarkedCount: 0,
+    mongo_id: '5c5326d26f98cf0015806338',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   IYaxTGUqWzlO4Cp5kz5a: {
+    id: 'IYaxTGUqWzlO4Cp5kz5a',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -7277,14 +7297,9 @@ const p = {
     reported: false,
     date: 1564930201,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'IYaxTGUqWzlO4Cp5kz5a',
     __collections__: {}
   },
   IYfpvUCnCIAZ03oQRlZn: {
-    adminNotes: 'None',
-    body:
-      '<div><p><span>Ek is </span></p><p><span>(Kortste sin wat bestaan,</span></p><p><span>Selfsugtig is</span><span>)</span></p><p><span>Kluisenaar </span></p><p><span></span></p><p><span>Na ‘n diagnose is jou besluite as gevolg van jou diagnose </span></p><p><span>en is jou diagnose. </span></p><p><span>Is jy seker</span></p><p><span>Dat jy seker is?</span></p><p><span></span></p><p><span>Wie vertrou jou bevraagteken</span></p><p><span>As nie eers jy doen nie?</span></p></div>',
-    reported: false,
     repliedTo: null,
     date: 1583261179,
     uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
@@ -7297,9 +7312,17 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>Ek is </span></p><p><span>(Kortste sin wat bestaan,</span></p><p><span>Selfsugtig is</span><span>)</span></p><p><span>Kluisenaar </span></p><p><span></span></p><p><span>Na ‘n diagnose is jou besluite as gevolg van jou diagnose </span></p><p><span>en is jou diagnose. </span></p><p><span>Is jy seker</span></p><p><span>Dat jy seker is?</span></p><p><span></span></p><p><span>Wie vertrou jou bevraagteken</span></p><p><span>As nie eers jy doen nie?</span></p></div>',
+    reported: false,
     __collections__: {}
   },
   IZDMKQIdO7fuCs9geRAU: {
+    id: 'IZDMKQIdO7fuCs9geRAU',
+    bookmarkedCount: 2,
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'mabethc',
     name: 'Cheap poetry',
     body:
@@ -7307,15 +7330,9 @@ const p = {
     reported: false,
     date: 1561749991,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
-    id: 'IZDMKQIdO7fuCs9geRAU',
-    bookmarkedCount: 2,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   Ia8b60KVm2NPD5Rj8pGi: {
-    activeTema: 'Deel jou geheim',
-    richText: true,
     handle: '',
     name: 'Liefde, dood en die illusie',
     canReply: true,
@@ -7330,12 +7347,11 @@ const p = {
     repliedTo: null,
     date: 1575840322,
     uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
+    activeTema: 'Deel jou geheim',
+    richText: true,
     __collections__: {}
   },
   IdC2Bhmw8SMBuJg4WWNw: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       "<div><p><span>Ek soek iemand wat omgee</span></p><p><span>Iemand wat my aanvaar</span></p><p><span>Aanvaar vir wie ek is en sal wees</span></p><p><span></span></p><p><span>Die lewe of die mensdom</span></p><p><span>Het my verkeerd bewys</span></p><p><span>Almal wil net he</span></p><p><span></span></p><p><span>Tot jy soos 'n half sent is</span></p><p><span>Wat niks meer werd is nie</span></p><p><span>Dan gooi hul jou weg</span></p><p><span>of jy niks meer werd is nie</span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
@@ -7349,9 +7365,15 @@ const p = {
     canReply: true,
     id: 'IdC2Bhmw8SMBuJg4WWNw',
     repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   Iin9N76QNmZYTUntL7A9: {
+    id: 'Iin9N76QNmZYTUntL7A9',
+    bookmarkedCount: 0,
+    mongo_id: '5ca5f2e3a87be6001567d3d7',
     nsfw: false,
     adminNotes: 'None',
     handle: 'johannes_ferreira',
@@ -7361,23 +7383,20 @@ const p = {
     reported: false,
     date: 1554379491,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'Iin9N76QNmZYTUntL7A9',
-    bookmarkedCount: 0,
-    mongo_id: '5ca5f2e3a87be6001567d3d7',
     __collections__: {}
   },
   IjccyGO6Y4Us3IOneuG8: {
-    adminNotes: 'None',
-    handle: '',
-    name: 'M.A.N',
-    body: 'Ek is net ‘n seun',
-    reported: false,
     date: 1546012548,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'IjccyGO6Y4Us3IOneuG8',
     bookmarkedCount: 0,
     mongo_id: '5c26478386276c0014678a4a',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'M.A.N',
+    body: 'Ek is net ‘n seun',
+    reported: false,
     __collections__: {}
   },
   IlbH20mUlEOkYWME5Q37: {
@@ -7396,8 +7415,6 @@ const p = {
     __collections__: {}
   },
   IlnQ0UuDhxocsgLXiKo4: {
-    nsfw: false,
-    adminNotes: 'None',
     body:
       '<div><p><span></span></p><p><span>riends help you to get the courage to talk to the boy you like \nThey help you by holding your hair when you drink too much because he broke your heart \nThey stay up with you when you have to study for a test and motivate you when you can’t \nInstead of letting you go through hell alone they pack their bags and ride shotgun so you won’t be alone \nI wish I could give this to you I thought I did  \nYet going to jail for you wasn’t enough \nLosing people I love for you wasn’t enough \nStaying up with you to make sure you don’t self harm again wasn’t enough \nStaying up and watching movies with you even when my eyes can barely open because you didn’t like being alone wasn’t enough\nStaying out till 5 in the morning when I wanted to go home and you were so happy wasn’t enough \nI’m sorry for giving you half of my heart \nI’m sorry for being so toxic </span></p></div>',
     reported: false,
@@ -7412,9 +7429,14 @@ const p = {
     id: 'IlnQ0UuDhxocsgLXiKo4',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   ImqYThqSVmaRbh0wfe14: {
+    bookmarkedCount: 0,
+    mongo_id: '5bf17b063f85f70014bc578a',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Suffocating',
@@ -7423,14 +7445,9 @@ const p = {
     date: 1542552326,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ImqYThqSVmaRbh0wfe14',
-    bookmarkedCount: 0,
-    mongo_id: '5bf17b063f85f70014bc578a',
-    nsfw: false,
     __collections__: {}
   },
   InQxWiOfIyYDd3q3l9dN: {
-    adminNotes: 'None',
-    handle: 'ahwelgemoed',
     name: 'Remember',
     body: 'If you are what you remember, then forget',
     reported: false,
@@ -7440,9 +7457,13 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b6dde0a3989a6001426133a',
     nsfw: false,
+    adminNotes: 'None',
+    handle: 'ahwelgemoed',
     __collections__: {}
   },
   IpxoVh8GzxfYTYrVhI8D: {
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>"blou" en "onthou</span></p><p><span>rym net té veel met</span></p><p><span>jou. </span></p></div>',
@@ -7457,11 +7478,15 @@ const p = {
     id: 'IpxoVh8GzxfYTYrVhI8D',
     repliedToName: null,
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   IvY13EeGMZnxEI2HK1NR: {
+    canReply: true,
+    id: 'IvY13EeGMZnxEI2HK1NR',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Jy brag by die buurtannie oor jou verloof ring</span></p><p><span>In my agterkop dink ek</span></p><p><span>“god, Ek moet hier uitkom”</span></p></div>',
@@ -7471,15 +7496,10 @@ const p = {
     richText: true,
     handle: '',
     name: 'Trou',
-    canReply: true,
-    id: 'IvY13EeGMZnxEI2HK1NR',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   IwLczgLyI0UnxFdXVTI4: {
+    mongo_id: '5cdc9053d645be0015aaa752',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -7491,10 +7511,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'IwLczgLyI0UnxFdXVTI4',
     bookmarkedCount: 0,
-    mongo_id: '5cdc9053d645be0015aaa752',
     __collections__: {}
   },
   IxAoYa2YZ7Isogmx5JTY: {
+    id: 'IxAoYa2YZ7Isogmx5JTY',
+    repliedToName: 'Wat dan? ',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -7507,12 +7529,11 @@ const p = {
     handle: 'EvertEsterhuizen',
     name: "Breytenbach op 'n goeie dag",
     canReply: true,
-    id: 'IxAoYa2YZ7Isogmx5JTY',
-    repliedToName: 'Wat dan? ',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   Iyidkir6k8K7pzdw2tv9: {
+    bookmarkedCount: 0,
+    mongo_id: '5c617bdd192656001548b011',
     nsfw: false,
     adminNotes: 'None',
     handle: 'liesekuhn',
@@ -7523,11 +7544,12 @@ const p = {
     date: 1549892573,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Iyidkir6k8K7pzdw2tv9',
-    bookmarkedCount: 0,
-    mongo_id: '5c617bdd192656001548b011',
     __collections__: {}
   },
   J1EOiuP7ltcKfKeSMsV5: {
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'Nalatenskap',
     body:
@@ -7536,16 +7558,9 @@ const p = {
     date: 1558818842,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'J1EOiuP7ltcKfKeSMsV5',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   J1W9OjE5oKsriHFDmuhF: {
-    name: 'die pad',
-    body:
-      'ek loop die pad al lank my lam \nkaalvoet \ndeur die kou \nen soms wonder ek\nwaarheen nou \nwaggend en werkend vul ek myself aan \nalleen en stelselmatig \ndoelgerig aangelê met gefokuste asemhaling om die kolskoot deur te boor \nvervreem van vergete hier my verre verlange \nen waggend op woorde \nwat waarheid om my skryf \nen my toevou \nmet mooi ',
-    reported: false,
     date: 1559565346,
     uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     id: 'J1W9OjE5oKsriHFDmuhF',
@@ -7553,13 +7568,13 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: 'marietsteinmann ',
+    name: 'die pad',
+    body:
+      'ek loop die pad al lank my lam \nkaalvoet \ndeur die kou \nen soms wonder ek\nwaarheen nou \nwaggend en werkend vul ek myself aan \nalleen en stelselmatig \ndoelgerig aangelê met gefokuste asemhaling om die kolskoot deur te boor \nvervreem van vergete hier my verre verlange \nen waggend op woorde \nwat waarheid om my skryf \nen my toevou \nmet mooi ',
+    reported: false,
     __collections__: {}
   },
   J1yq4Utyoe3PxzKlIDxR: {
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'antonbarnard ',
     name: 'Voorneme',
     body:
       'Selfs al woon ek al lank hier in die vreemde,\nis die slagare in my voorarms\nnog so onlosmaaklik verstrengel\nmet die snare van Afrikaans,\nwant daar by die “huis” en hier binne my\nloop nog soveel heilige koeie rond\nwat ek eendag gaan laat afkak\nin ‘n waas van punk rock en poësie.',
@@ -7567,13 +7582,13 @@ const p = {
     date: 1561400509,
     uid: 'OwBp7lLrfEZ3uIHh5jl3VWx79sZ2',
     id: 'J1yq4Utyoe3PxzKlIDxR',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'antonbarnard ',
     __collections__: {}
   },
   J3b4WqcHaV3WfNgQWaLT: {
-    date: 1558780444,
-    uid: 'MnxQMtllmJSGkqY1s6zQHWcr8bk2',
-    id: 'J3b4WqcHaV3WfNgQWaLT',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -7581,14 +7596,13 @@ const p = {
     body:
       'Die dag verblind teveel \nEn jy voel jyt die reg om trots te mag wees.\nGod dank vir jou \nGod dank ekt jou verloor',
     reported: false,
+    date: 1558780444,
+    uid: 'MnxQMtllmJSGkqY1s6zQHWcr8bk2',
+    id: 'J3b4WqcHaV3WfNgQWaLT',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   J4UVNzmgz3n5qt7NnYGW: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'as',
-    canReply: true,
     id: 'J4UVNzmgz3n5qt7NnYGW',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -7600,10 +7614,14 @@ const p = {
     repliedTo: null,
     date: 1572026206,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'as',
+    canReply: true,
     __collections__: {}
   },
   J69Im9uM2OB7Q4zHC4JF: {
-    nsfw: false,
     adminNotes: 'None',
     handle: 'aud6362',
     name: 'Ek luister 9',
@@ -7614,9 +7632,14 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'J69Im9uM2OB7Q4zHC4JF',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   JJ4mPHyCWT702VTeneUZ: {
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1580848716,
+    id: 'JJ4mPHyCWT702VTeneUZ',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -7624,10 +7647,6 @@ const p = {
     reported: false,
     body:
       "Ek sou à la Kerkorrel 'n faxmasjien gaan huur het \nMet my opperste awkwardness het ek probeer\nOm jou te laat voel\nLoved\nSoos jy gese het - 'n balon wat gaan pop\nLiefde is seker maar 'n time bomb\nSlagoffer\n\n",
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1580848716,
-    id: 'JJ4mPHyCWT702VTeneUZ',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   JKLLfjzfi6KFPulK6Nn1: {
@@ -7645,6 +7664,8 @@ const p = {
     __collections__: {}
   },
   JLFUi2pauyamz2HqcNoP: {
+    richText: true,
+    adminNotes: 'None',
     handle: 'ilzedup94',
     name: 'bukowski',
     body:
@@ -7655,14 +7676,9 @@ const p = {
     id: 'JLFUi2pauyamz2HqcNoP',
     bookmarkedCount: 1,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   JOptFeoquSJ17pHhm6se: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Tonight',
     body:
       'You were angry with me tonight. You said I’d abandoned you this afternoon, that I’d “checked out” and left you bored out of your mind for hours.\n\nWhat you didn’t know, is that while I was lost in my world of painting and music, I hoped that would see me in my element, see how happy I was, see how good my work was and that your heart would glow. That you would love me all the more and think how special I am. I wanted you to see me and love me. I wanted you to be proud of me.',
@@ -7672,10 +7688,12 @@ const p = {
     id: 'JOptFeoquSJ17pHhm6se',
     bookmarkedCount: 1,
     mongo_id: '5b539a3e8b5d050014df9348',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   JUtN4T20x6Y6yCpsZEXe: {
-    activeTema: null,
     richText: true,
     handle: 'stefanyseymore',
     name: 'Clarity',
@@ -7691,9 +7709,11 @@ const p = {
     repliedTo: null,
     date: 1574414687,
     uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
+    activeTema: null,
     __collections__: {}
   },
   JZmOQ7KbaQHUJVyRT6ZG: {
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -7705,12 +7725,9 @@ const p = {
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'JZmOQ7KbaQHUJVyRT6ZG',
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   Jb3YqUXD6ElnhB6wpDSq: {
-    id: 'Jb3YqUXD6ElnhB6wpDSq',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'aud6362',
@@ -7720,13 +7737,11 @@ const p = {
     reported: false,
     date: 1560193749,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
+    id: 'Jb3YqUXD6ElnhB6wpDSq',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   JbrJa7Um4lizcwxXYxwI: {
-    name: 'Kerk',
-    reported: false,
-    body:
-      'Kom oor\nHier is: kaas, wyn, onion marmalade en bank-naps. \n\nVal net in. ',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1572188464,
     id: 'JbrJa7Um4lizcwxXYxwI',
@@ -7734,9 +7749,18 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'Kerk',
+    reported: false,
+    body:
+      'Kom oor\nHier is: kaas, wyn, onion marmalade en bank-naps. \n\nVal net in. ',
     __collections__: {}
   },
   JcoscOANG3pvEON0lBpz: {
+    name: 'Practice makes closer to easy',
+    canReply: true,
+    id: 'JcoscOANG3pvEON0lBpz',
+    repliedToName: 'Maklik',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -7747,14 +7771,13 @@ const p = {
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     richText: true,
     handle: '',
-    name: 'Practice makes closer to easy',
-    canReply: true,
-    id: 'JcoscOANG3pvEON0lBpz',
-    repliedToName: 'Maklik',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   JeP72P16PtQSPLc3aPCQ: {
+    mongo_id: '5b7ca4446a61cd0014c56bef',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Narcistiese Nagmerries',
     body:
       'Wens jy kon sien dat daar ‘n wereld om ons is en almal skree nie net jou naam nie.\n\nWens jy het geweet ek is nie verlief op jou nie en dit is inderdaad net jou selfsugtige en ooraktiewe verbeelding wat natuurlik stories oor jou weef.\n\nMag jy eendag agterkom hoe stil\ndit is in jou storieboek lewe....\nwant as jy net stories oor jouself\nheeltyd skryf -\nhoe vind jy \nof \nverstaan jy iemand anders,\niemand wat nie jy is nie;\niemand wat verlief is op \ndie idee van eendag iemand lief te he\nen nie die idee (droom) dat almal hom lief het nie.\n',
@@ -7763,14 +7786,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'JeP72P16PtQSPLc3aPCQ',
     bookmarkedCount: 0,
-    mongo_id: '5b7ca4446a61cd0014c56bef',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   JfcSciaeEhSyYDfpXNvI: {
-    adminNotes: 'None',
     handle: 'aud6362',
     name: 'Ons rooikop pragkind sonskyn kind',
     body:
@@ -7781,26 +7799,24 @@ const p = {
     id: 'JfcSciaeEhSyYDfpXNvI',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   JnkxfGJS7FLQaMHNUHmV: {
+    id: 'JnkxfGJS7FLQaMHNUHmV',
+    bookmarkedCount: 0,
+    mongo_id: '5ccf353b0903ec00150904df',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: '™',
     body: "Believe it or not,\ndis 'n Almal ding, bro",
     reported: false,
     date: 1557083451,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'JnkxfGJS7FLQaMHNUHmV',
-    bookmarkedCount: 0,
-    mongo_id: '5ccf353b0903ec00150904df',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   Jo3aerQCLi6bWDZNsVTp: {
-    repliedTo: null,
-    date: 1571307330,
-    uid: 'JHJKjVGw91WEP15WhKbxHjOUcd12',
     activeTema: null,
     richText: true,
     handle: '@eks.talita.x ',
@@ -7814,6 +7830,9 @@ const p = {
     body:
       '<div><p><span style="font-style: italic;">Jys ń doos, </span><span>maar...</span></p><p><span>Jou sigaret as wat nog aan my kussing vas klou herinner my aan hoe jou armhare teen my vel geskuur het en hoe jou lippe teen my nek kon smelt</span></p><p><span></span><span style="font-style: italic;">Jys steeds ń doos. </span></p></div>',
     reported: false,
+    repliedTo: null,
+    date: 1571307330,
+    uid: 'JHJKjVGw91WEP15WhKbxHjOUcd12',
     __collections__: {}
   },
   JqlLmNWwNZix9Dq9w6gM: {
@@ -7835,9 +7854,6 @@ const p = {
     __collections__: {}
   },
   Jum9mXMNRtrXmOMMvLI5: {
-    reported: false,
-    body:
-      "<div><p><span>Vanaand is tog maar net 'n oogwink in die ewigheid of hoe? </span></p></div>",
     repliedTo: null,
     date: 1571687307,
     uid: 'wYBAKjCbgJXdIee0uBnpL1By4oi2',
@@ -7851,9 +7867,15 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Vanaand is tog maar net 'n oogwink in die ewigheid of hoe? </span></p></div>",
     __collections__: {}
   },
   JwZHBXBeLmfEyIyFjaSU: {
+    name: 'Vroue van Atlantis ',
+    body: '"Soms moet jy jou hart met \'n bloudraad vasmaak" _ Chrissie Cloete',
+    reported: false,
     date: 1557644225,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'JwZHBXBeLmfEyIyFjaSU',
@@ -7862,12 +7884,10 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Vroue van Atlantis ',
-    body: '"Soms moet jy jou hart met \'n bloudraad vasmaak" _ Chrissie Cloete',
-    reported: false,
     __collections__: {}
   },
   K0HV21Rcl4tmvHtyBxL8: {
+    adminNotes: 'None',
     handle: '',
     name: 'Compliments ',
     body:
@@ -7878,25 +7898,27 @@ const p = {
     id: 'K0HV21Rcl4tmvHtyBxL8',
     bookmarkedCount: 3,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   K0sAQPEQCN78rFbTga1S: {
-    name: 'Badkamer',
-    body:
-      '<div><p><span>Wit</span></p><p><span>Teëls</span></p><p><span>En as jy te lank daarna kyk</span></p><p><span>Word dit hospitaal en dettol</span></p><p><span>En weggevee is die bloed</span></p><p><span>En weggevee is die roes</span></p><p><span>En weggevee is die spoeg</span></p><p><span>En weggevee is die een wat jou moes heel hou</span></p></div>',
-    reported: false,
-    date: 1565905338,
-    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'K0sAQPEQCN78rFbTga1S',
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: 'almero_welgemoed',
+    name: 'Badkamer',
+    body:
+      '<div><p><span>Wit</span></p><p><span>Teëls</span></p><p><span>En as jy te lank daarna kyk</span></p><p><span>Word dit hospitaal en dettol</span></p><p><span>En weggevee is die bloed</span></p><p><span>En weggevee is die roes</span></p><p><span>En weggevee is die spoeg</span></p><p><span>En weggevee is die een wat jou moes heel hou</span></p></div>',
+    reported: false,
+    date: 1565905338,
+    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     __collections__: {}
   },
   K2XSObFc49Yq8CoyCMF0: {
+    date: 1535061357,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'K2XSObFc49Yq8CoyCMF0',
     bookmarkedCount: 0,
     mongo_id: '5b7f2d6d77cb930014b0cfff',
     nsfw: false,
@@ -7906,26 +7928,26 @@ const p = {
     body:
       'Die soet skerp reuk van ink vloei deur my are, dit bloei my gevoelens uit, soos bloed kanker vergiftig dit my organe. Toe gevou in geheime lees jy my bladsye vol pyn, die gesigte sluk jou in, jy verdrink in die sluise van al my verwyte. Onheilig sink my boot gemaak van geloof in n see vol gebreukte drome. ',
     reported: false,
-    date: 1535061357,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'K2XSObFc49Yq8CoyCMF0',
     __collections__: {}
   },
   K5AKuOERUBoMoBNteEGY: {
-    date: 1556918352,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'K5AKuOERUBoMoBNteEGY',
-    bookmarkedCount: 0,
-    mongo_id: '5cccb04f6c18eb0015dd8e5d',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '.',
     body: 'Kyk die nuwe logo',
     reported: false,
+    date: 1556918352,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'K5AKuOERUBoMoBNteEGY',
+    bookmarkedCount: 0,
+    mongo_id: '5cccb04f6c18eb0015dd8e5d',
     __collections__: {}
   },
   KB80kcS8HTyLf2SWg649: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'bloumerkies',
     body: 'hey\n\nHeyoo\n\n[blue\nticked]\n\nWtf. ',
     reported: false,
@@ -7934,12 +7956,10 @@ const p = {
     id: 'KB80kcS8HTyLf2SWg649',
     bookmarkedCount: 0,
     mongo_id: '5cb63229ee54430015eabbb6',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   KCoJmUxYh9KJ9I5py9nM: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -7954,15 +7974,9 @@ const p = {
     canReply: true,
     id: 'KCoJmUxYh9KJ9I5py9nM',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   KGmAbg7BMPlNxkxxFq1K: {
-    date: 1539637594,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'KGmAbg7BMPlNxkxxFq1K',
-    bookmarkedCount: 0,
-    mongo_id: '5bc5015a0616d200148857b0',
     nsfw: false,
     adminNotes: 'None',
     handle: '13.lynette',
@@ -7970,6 +7984,11 @@ const p = {
     body:
       'Ek gee my woorde vlerke\nEn maak oop die deur van my mond se\nKou\nEn dan vlieg die woorde wat my tong dalk reeds\nBerou\nEindelik bevry ek my siel en word van stom onvervulling\nGestroop\nAs die woorde maar is soos Noag se duif met oorlewing\nGenoop\nKeer terug na my en bring ‘n \nOlyftak\nSodat ek weet daar is iewers rusplek vir my hart se\nArk',
     reported: false,
+    date: 1539637594,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'KGmAbg7BMPlNxkxxFq1K',
+    bookmarkedCount: 0,
+    mongo_id: '5bc5015a0616d200148857b0',
     __collections__: {}
   },
   KIiWTLkjwSWcNe0ZabXJ: {
@@ -7988,8 +8007,6 @@ const p = {
     __collections__: {}
   },
   KLElTR7YiTloa6Jh0K6C: {
-    adminNotes: 'None',
-    handle: '',
     name: 'Kwaad Raak en Slaap',
     body:
       "Dank god 2de kanse bestaan nie, \nvergenoeg die toekoms in \nraak foute stories wat jy kan aftel  \nop die wonde op my bors \nMy woede \nMy kors \nMy binneste 'n gemors  \nDit beskerm teen die waarheid, \nen daaroor is ek werklik spyt. \nAgter my Self en my haat weg gaan gekruip, \nDood geruk met geen besluit \nHardloop jou gewete uit. ",
@@ -8000,10 +8017,11 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b7b1f9e78ea9300148aa210',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   KLjVoVofvAittbmC97o7: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'So is dit',
@@ -8014,14 +8032,10 @@ const p = {
     id: 'KLjVoVofvAittbmC97o7',
     bookmarkedCount: 0,
     mongo_id: '5ca0f28e0075d40015ced04e',
+    nsfw: false,
     __collections__: {}
   },
   KLxJxfqXEP7KNOsRLtoV: {
-    date: 1532947684,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'KLxJxfqXEP7KNOsRLtoV',
-    bookmarkedCount: 0,
-    mongo_id: '5b5eece49c14b40014fccfe1',
     nsfw: false,
     adminNotes: 'None',
     handle: 'ahwelgemoed',
@@ -8029,13 +8043,14 @@ const p = {
     body:
       'I hope \nYou decide to stay, \nYou with: \nYour uncanny ability to keep the bad thoughts at bay, \nWith Your: \nability to quiet my heart, \nWith: \nability to tear me apart, \nVivisection your art. ',
     reported: false,
+    date: 1532947684,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'KLxJxfqXEP7KNOsRLtoV',
+    bookmarkedCount: 0,
+    mongo_id: '5b5eece49c14b40014fccfe1',
     __collections__: {}
   },
   KMLwzuqrPUJ0WBfXIfbl: {
-    date: 1538599964,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'KMLwzuqrPUJ0WBfXIfbl',
-    bookmarkedCount: 0,
     mongo_id: '5bb52c1b93da8900145382e9',
     nsfw: false,
     adminNotes: 'None',
@@ -8044,10 +8059,13 @@ const p = {
     body:
       'liefde, vandag, vir my.\nverniet verniel\nhuiwerige geraamtes.\nverniet vernietig\nVirfokkengeenrede.\n\n00:20 | 24th of September 2018, Monday morning.\n',
     reported: false,
+    date: 1538599964,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'KMLwzuqrPUJ0WBfXIfbl',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   KO2wk2QxNkLqwHMKYIIp: {
-    nsfw: false,
     adminNotes: 'None',
     handle: 'miababy_95',
     name: 'Oktober ',
@@ -8058,9 +8076,13 @@ const p = {
     date: 1570001750,
     id: 'KO2wk2QxNkLqwHMKYIIp',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   KOvQAjVv95rWOcQZ2UZY: {
+    richText: true,
+    handle: 'aud6362',
+    name: '4am ',
     canReply: true,
     id: 'KOvQAjVv95rWOcQZ2UZY',
     repliedToName: null,
@@ -8073,12 +8095,12 @@ const p = {
     repliedTo: null,
     date: 1569463476,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
-    richText: true,
-    handle: 'aud6362',
-    name: '4am ',
     __collections__: {}
   },
   KROQ1ibOBZXcrbTbDtpX: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'BJ',
     body: 'Sluk vegans?',
     reported: false,
@@ -8086,12 +8108,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'KROQ1ibOBZXcrbTbDtpX',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   KSD1LunU5sqAeBvKJYqD: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Kaapstad',
     body:
@@ -8102,11 +8123,12 @@ const p = {
     id: 'KSD1LunU5sqAeBvKJYqD',
     bookmarkedCount: 0,
     mongo_id: '5b6dea153989a6001426133b',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   KWFUME7YiViyOEeoqSkm: {
+    body:
+      "<div><p><span></span></p><p><span>n die liefde</span></p><p><span>my mens</span></p><p><span>poësie en die liefde</span></p><p><span>albei wederkerig</span></p><p><span>'n deurmekaarspul</span></p></div>",
+    reported: false,
     repliedTo: 'Z3HwdHnnKwRj4yJmEQjY',
     date: 1570352551,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
@@ -8120,13 +8142,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      "<div><p><span></span></p><p><span>n die liefde</span></p><p><span>my mens</span></p><p><span>poësie en die liefde</span></p><p><span>albei wederkerig</span></p><p><span>'n deurmekaarspul</span></p></div>",
-    reported: false,
     __collections__: {}
   },
   KYwcHPzhKfIEzTLPNq5F: {
-    id: 'KYwcHPzhKfIEzTLPNq5F',
     bookmarkedCount: 0,
     mongo_id: '5cd954066174a60015d1279d',
     nsfw: false,
@@ -8137,9 +8155,14 @@ const p = {
     reported: false,
     date: 1557746694,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'KYwcHPzhKfIEzTLPNq5F',
     __collections__: {}
   },
   Kcat6NeqlPQ99PqYhx26: {
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: 'toastcards',
     name: 'om pooltafels',
     body:
       '<div><p><span>om pooltafels en lang biere </span></p><p><span>tussen vloekwoorde en sigaretrokers</span></p><p><span>sonder autocorrect en sonder regrets</span></p><p><span>loop ons regop, praat ons reguit </span></p><p><span>lees gedigte en rambling bones</span></p><p><span>streel oor die voue van ons verlede</span></p><p><span>tot ons moet gaan chips koop by die engen</span></p><p><span>en kleintwak praat met </span><span>ubermans</span></p><p><span>met name soos haroun en elvis </span></p><p><span>graeme en kudakwashe</span></p></div>',
@@ -8148,13 +8171,16 @@ const p = {
     uid: '5iH5XfPmMiPSw3IDyRL7KAjORRK2',
     id: 'Kcat6NeqlPQ99PqYhx26',
     bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: 'toastcards',
     __collections__: {}
   },
   KcrHf7eNGVUJqtuA8aSu: {
+    body:
+      '<div><p><span>Ek mis die dae wat julle gedigte gepost het asof dit oudmodies gaan raak</span></p><p><span>Toe ek verlore kon raak in versreëls en versinsels</span></p><p><span>En kon wonder, was hierdie een in liefde of in haat geskryf</span></p><p><span>Is dit \'n kunstige </span><span style="font-style: italic;">shitpost</span><span> of \'n diep gedagte</span></p><p><span>Het julle reageer of eenvoudig net aan beweeg </span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1580734286,
+    uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
+    activeTema: null,
     richText: true,
     handle: 'mabethc',
     name: 'Dit was net jy ',
@@ -8164,19 +8190,9 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Ek mis die dae wat julle gedigte gepost het asof dit oudmodies gaan raak</span></p><p><span>Toe ek verlore kon raak in versreëls en versinsels</span></p><p><span>En kon wonder, was hierdie een in liefde of in haat geskryf</span></p><p><span>Is dit \'n kunstige </span><span style="font-style: italic;">shitpost</span><span> of \'n diep gedagte</span></p><p><span>Het julle reageer of eenvoudig net aan beweeg </span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1580734286,
-    uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
-    activeTema: null,
     __collections__: {}
   },
   Kf8zjmeuqnrOevl1DjM9: {
-    bookmarkedCount: 2,
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Identiteitspolitiek',
     body: "Dis 'n mooi huis, maar dis wit mense wat daarin woon.",
@@ -8184,11 +8200,12 @@ const p = {
     date: 1558878669,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Kf8zjmeuqnrOevl1DjM9',
+    bookmarkedCount: 2,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   KffN6vF49FHOojN0qZmD: {
-    bookmarkedCount: 2,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'S.O.S.',
@@ -8197,6 +8214,8 @@ const p = {
     date: 1560019038,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'KffN6vF49FHOojN0qZmD',
+    bookmarkedCount: 2,
+    nsfw: false,
     __collections__: {}
   },
   KfpWiftGOHQhoXGocrMg: {
@@ -8215,6 +8234,7 @@ const p = {
     __collections__: {}
   },
   KgmOZJ89v0LjMoHBRMQR: {
+    adminNotes: 'None',
     handle: '',
     name: 'Slaapbos',
     body: 'Ek dink so. Ek moet ook maar net slaap. ',
@@ -8224,10 +8244,10 @@ const p = {
     id: 'KgmOZJ89v0LjMoHBRMQR',
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   KkPG1rb2KaoMMqSov4cv: {
+    bookmarkedCount: 0,
     mongo_id: '5c5206568550a40015e45aa4',
     nsfw: false,
     adminNotes: 'None',
@@ -8238,10 +8258,12 @@ const p = {
     date: 1548879446,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'KkPG1rb2KaoMMqSov4cv',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   Knwbo9OCJezCFt4NMu0b: {
+    mongo_id: '5c9677b00a32180015c17045',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Dankie, Doos',
     body: 'En so... en toe niks.',
@@ -8250,12 +8272,15 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Knwbo9OCJezCFt4NMu0b',
     bookmarkedCount: 0,
-    mongo_id: '5c9677b00a32180015c17045',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   Ko6pOkUl6wFPc31sRu5W: {
+    body:
+      '<div><p><span>Party aande as ek in die bad is </span></p><p><span></span></p><p><span>Steek ek my kop onder die water</span></p><p><span>Hou ek my asem op, en laat my gedagtes gaan. </span></p><p><span>Party aande as ek in die bad is kyk ek hou lank ek dit kan hou. </span></p><p><span></span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1569311568,
+    uid: 'OHLd2heTzcXJfochjjTxSzT4vr82',
     activeTema: 'Water',
     richText: true,
     handle: '',
@@ -8266,17 +8291,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Party aande as ek in die bad is </span></p><p><span></span></p><p><span>Steek ek my kop onder die water</span></p><p><span>Hou ek my asem op, en laat my gedagtes gaan. </span></p><p><span>Party aande as ek in die bad is kyk ek hou lank ek dit kan hou. </span></p><p><span></span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1569311568,
-    uid: 'OHLd2heTzcXJfochjjTxSzT4vr82',
     __collections__: {}
   },
   KqSt5p7eqQNRzvDGy24A: {
-    bookmarkedCount: 0,
-    mongo_id: '5bc4981f0616d200148857ae',
     nsfw: false,
     adminNotes: 'None',
     handle: 'neonvanlierop',
@@ -8286,9 +8303,15 @@ const p = {
     date: 1539610655,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'KqSt5p7eqQNRzvDGy24A',
+    bookmarkedCount: 0,
+    mongo_id: '5bc4981f0616d200148857ae',
     __collections__: {}
   },
   Kro0LLwSOMq4g8PPKZ8Q: {
+    date: 1560646467,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    id: 'Kro0LLwSOMq4g8PPKZ8Q',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -8297,14 +8320,9 @@ const p = {
     body:
       "Meeste skrywe hier rond is soos meeste foto's op instagram. Behalwe vir die sponsored posts. Hulle't gewoonlik goeie foto's. ",
     reported: false,
-    date: 1560646467,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    id: 'Kro0LLwSOMq4g8PPKZ8Q',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   KslO4qWLdDVGD3e6nVKT: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -8314,10 +8332,10 @@ const p = {
     date: 1560695963,
     uid: 'sTwhHOWrUBhJBDSdqd1m3Bl3HtO2',
     id: 'KslO4qWLdDVGD3e6nVKT',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   KvdlHrBJZWA2rkSqkmis: {
-    activeTema: null,
     richText: true,
     handle: 'ilzedup94',
     name: '10111',
@@ -8333,12 +8351,10 @@ const p = {
     repliedTo: null,
     date: 1577644173,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
+    activeTema: null,
     __collections__: {}
   },
   Ky1Sch8xM1U7LjSPLvuD: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Tip',
     body: 'Bly weg van byvoeglike naamwoorde. ',
     reported: false,
@@ -8346,11 +8362,12 @@ const p = {
     uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
     id: 'Ky1Sch8xM1U7LjSPLvuD',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   L30VdBkv6KPTp4Em7ggb: {
-    date: 1533744210,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'L30VdBkv6KPTp4Em7ggb',
     bookmarkedCount: 0,
     mongo_id: '5b6b1452f0a44d00140afb22',
@@ -8361,6 +8378,8 @@ const p = {
     body:
       "Katryn is 'n besige bonte kat\nsy woon in die donker van die stad\ngekaats deur die skadu van die berg\nwaarin duister dinge kinders terg.\n",
     reported: false,
+    date: 1533744210,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   LAH6fRIO9fbhd9ep34zh: {
@@ -8379,6 +8398,8 @@ const p = {
     __collections__: {}
   },
   LCWSMgB5oF8GbFwXTlVg: {
+    activeTema: 'Depressiewe struggle',
+    richText: true,
     handle: '',
     name: 'Sometimes it be like that ',
     canReply: true,
@@ -8393,17 +8414,9 @@ const p = {
     repliedTo: null,
     date: 1572461795,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
-    activeTema: 'Depressiewe struggle',
-    richText: true,
     __collections__: {}
   },
   LR4VwOaeO5yCGl1XBbwM: {
-    handle: 'verbeeldings.wereld.hartjie',
-    name: 'Ruiter',
-    canReply: true,
-    id: 'LR4VwOaeO5yCGl1XBbwM',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -8414,12 +8427,15 @@ const p = {
     uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
     activeTema: null,
     richText: true,
+    handle: 'verbeeldings.wereld.hartjie',
+    name: 'Ruiter',
+    canReply: true,
+    id: 'LR4VwOaeO5yCGl1XBbwM',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   LRnMQeePHzfCrXefaYyO: {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: 'stefanyseymore',
     name: 'god.',
     reported: false,
@@ -8429,6 +8445,9 @@ const p = {
     date: 1570101173,
     id: 'LRnMQeePHzfCrXefaYyO',
     bookmarkedCount: 1,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   LUYnRccxOEqqMvQp5R7y: {
@@ -8447,7 +8466,6 @@ const p = {
     __collections__: {}
   },
   LUnwrKtvN73KPaQiwhGq: {
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: 'Bouwerbosch',
@@ -8459,6 +8477,7 @@ const p = {
     uid: 'xf9vIhTIcsUMHQjWWZpYc56KBje2',
     id: 'LUnwrKtvN73KPaQiwhGq',
     bookmarkedCount: 1,
+    nsfw: false,
     __collections__: {}
   },
   LX0rzmB0wHomVIRcoHNT: {
@@ -8477,9 +8496,6 @@ const p = {
     __collections__: {}
   },
   LXwK6VyhKklDtethftEI: {
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     name: 'Selfmoord',
     body:
       '<div><p><span>Philip Kortstraat het moord gepleeg</span></p><p><span></span><span style="text-decoration: line-through;">Ek is dood</span></p><p><span style="text-decoration: line-through;"></span><span>Daar is net ons</span></p></div>',
@@ -8489,16 +8505,12 @@ const p = {
     id: 'LXwK6VyhKklDtethftEI',
     bookmarkedCount: 0,
     nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   LgF42Edlv8iDTJLZuzqg: {
-    handle: '',
-    name: 'Meeeee',
-    canReply: true,
-    id: 'LgF42Edlv8iDTJLZuzqg',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     body: '<div><p><span>I love thee but I hate thy</span></p></div>',
     reported: false,
@@ -8507,9 +8519,17 @@ const p = {
     uid: 'RVYxdvsokUNis9Ft25i2YKmMUkV2',
     activeTema: null,
     richText: true,
+    handle: '',
+    name: 'Meeeee',
+    canReply: true,
+    id: 'LgF42Edlv8iDTJLZuzqg',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   LgeEbsNBw7w7YNiv7z4V: {
+    adminNotes: 'None',
     handle: 'Anoniem',
     name: 'Gedigte',
     body:
@@ -8521,11 +8541,9 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b6961eda0eaff0014092d62',
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   LtbngyyUYhb8LzqAJyuD: {
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -8537,9 +8555,14 @@ const p = {
     uid: 'wYBAKjCbgJXdIee0uBnpL1By4oi2',
     id: 'LtbngyyUYhb8LzqAJyuD',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   LtqqZkNkLsk6gQl3lwGD: {
+    bookmarkedCount: 0,
+    mongo_id: '5cc3df77224877001593d8bc',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Nommer asb?',
     body: 'Toe is ek maar net nóg \'n nommer op jou lang lys van "maybe\'s"',
@@ -8547,13 +8570,10 @@ const p = {
     date: 1556340599,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'LtqqZkNkLsk6gQl3lwGD',
-    bookmarkedCount: 0,
-    mongo_id: '5cc3df77224877001593d8bc',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   LvyverFoT9cdS92yf4TL: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Hou',
@@ -8563,24 +8583,22 @@ const p = {
     uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
     id: 'LvyverFoT9cdS92yf4TL',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   Lw8oaq43LuMH4ARGOkah: {
-    date: 1561056513,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'Lw8oaq43LuMH4ARGOkah',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '20:48',
     body: 'Netflix\nen\nchill\nop my eie',
     reported: false,
+    date: 1561056513,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'Lw8oaq43LuMH4ARGOkah',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   LwEDq3XXAi3qiCc5l4Ip: {
-    id: 'LwEDq3XXAi3qiCc5l4Ip',
     bookmarkedCount: 0,
     mongo_id: '5bef42bcc0a8f80014fa7dd4',
     nsfw: false,
@@ -8592,11 +8610,10 @@ const p = {
     reported: false,
     date: 1542406844,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'LwEDq3XXAi3qiCc5l4Ip',
     __collections__: {}
   },
   LwQvKHLR8yxZrtDwihue: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'Hartbons',
     name: 'Kerk 2',
     reported: false,
@@ -8606,11 +8623,11 @@ const p = {
     date: 1572199254,
     id: 'LwQvKHLR8yxZrtDwihue',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   LwnrZJGT6K8nHv6gto7j: {
-    date: 1544209377,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'LwnrZJGT6K8nHv6gto7j',
     bookmarkedCount: 0,
     mongo_id: '5c0ac3e06f60170014ea6679',
@@ -8620,12 +8637,11 @@ const p = {
     name: 'God is n poes',
     body: 'Ek wens dit kon net werk',
     reported: false,
+    date: 1544209377,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   M0SmMjBzmoXJpFUzgKiz: {
-    repliedTo: null,
-    date: 1568309518,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     richText: true,
     handle: '',
     name: "Jy is 'n ster duisend",
@@ -8638,9 +8654,15 @@ const p = {
     body:
       "<div><p><span>Elke aand as ek na jou tuiste gaan</span></p><p><span>Dink ek hoe gelukkig ek is</span></p><p><span>om 'n vriendin te he</span></p><p><span>Wat omgee</span></p><p><span>Wat luister na al my lewens stories</span></p><p><span>Al die hartseer wat ek moes deurmaak en nog steeds staande bly</span></p><p><span></span></p><p><span>Die lewe het vir jou ook 'n harde hou geslaan.</span></p><p><span>Ek sien en beleef dit wat jy moes deur maak. Ek kan my nie eers in dink hoeveel hartseer jy self moes dra. Die hartseer in jou oë maak my in my binneste seer want jys so 'n prag van 'n mens. Jys soos 'n diamant wat skitter al het die lewe jou 'n harde hou geslaan.</span></p><p><span></span></p><p><span>Ek verbaas my elke dag dat jy nooit gaan lè het nie. Jy is 'n sterk mens en 'n juweel van 'n mens. Jys 'n ster duisend. </span></p></div>",
     reported: false,
+    repliedTo: null,
+    date: 1568309518,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     __collections__: {}
   },
   M3bHtVlGzhygFhjlwtNg: {
+    date: 1561753964,
+    uid: 'OwBp7lLrfEZ3uIHh5jl3VWx79sZ2',
+    id: 'M3bHtVlGzhygFhjlwtNg',
     bookmarkedCount: 2,
     nsfw: false,
     adminNotes: 'None',
@@ -8649,12 +8671,11 @@ const p = {
     body:
       'Jy kan uitmaak nog kop nog stert\nDie saak staan duidelik afgeëts en vaag\nDonker. Obskuur. Verdek. Oopgevlek.\nDie vanselfsprekendheid kontrasryk\nAfskuwelik. Afgryslik. Monstrositeit.\n\nJy gee jou uit vir ‘n beterweter\nDie bloed gaan op na jou hoof\nJy los op in die besoedelde eter\ndie oorskied van jou ongeloof\n\nJou buitelyne vervaag\nHoe kon jy dit waag?\nEk’s jammer om op jou skoene te kots\nOns paaie gaan kruis en ons gaan bots,\n\nKom ons aanvaar... dat ons mekaar\nIn die afgrond af gaan dryf\nJou kop steek dwars in my krop\nJou hande hang aan bande om my lyf\n\nAls wat jy ooit begeer\nLê soos ‘n nes van slange voor jou deur\nDie halfleeftyd is lankal verstryk\nDis hoe die waarheid van die ander kant af lyk.',
     reported: false,
-    date: 1561753964,
-    uid: 'OwBp7lLrfEZ3uIHh5jl3VWx79sZ2',
-    id: 'M3bHtVlGzhygFhjlwtNg',
     __collections__: {}
   },
   M6SxXG6y6kc304KiLKRA: {
+    date: 1538423745,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'M6SxXG6y6kc304KiLKRA',
     bookmarkedCount: 0,
     mongo_id: '5bb27bc1efb5890014227276',
@@ -8664,18 +8685,9 @@ const p = {
     name: 'Alles',
     body: 'Ekt hoop vir jou\nEn vir my\nMaar nie vir ons',
     reported: false,
-    date: 1538423745,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   M8GLzMz4fzFLla57WmoA: {
-    richText: true,
-    handle: 'letter.ling',
-    name: 'sondagaand i',
-    canReply: true,
-    id: 'M8GLzMz4fzFLla57WmoA',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -8684,9 +8696,18 @@ const p = {
     repliedTo: null,
     date: 1572808325,
     uid: 'ADVEeYHeS7fwgX2wcUCWJX7gOOv1',
+    richText: true,
+    handle: 'letter.ling',
+    name: 'sondagaand i',
+    canReply: true,
+    id: 'M8GLzMz4fzFLla57WmoA',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   MD8b6Hgv2qjLXyOpsswo: {
+    id: 'MD8b6Hgv2qjLXyOpsswo',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'mabethc',
@@ -8696,11 +8717,11 @@ const p = {
     reported: false,
     date: 1560368668,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
-    id: 'MD8b6Hgv2qjLXyOpsswo',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   MEALRaod8mlu5utuU8UN: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'Winter',
     body:
@@ -8710,11 +8731,12 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'MEALRaod8mlu5utuU8UN',
     bookmarkedCount: 2,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   MLHwzR4uxzf77IwtXdDZ: {
+    mongo_id: '5c7cddd5cbaba00015458f23',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Wat nou?',
     body:
@@ -8724,26 +8746,25 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'MLHwzR4uxzf77IwtXdDZ',
     bookmarkedCount: 0,
-    mongo_id: '5c7cddd5cbaba00015458f23',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   MLXByT1PbSG3rS2zqzMl: {
-    date: 1536740426,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'MLXByT1PbSG3rS2zqzMl',
-    bookmarkedCount: 0,
-    mongo_id: '5b98cc4ab94f6c0014707acd',
     nsfw: false,
     adminNotes: 'None',
     handle: 'neonvanlierop',
     name: 'Interessant',
     body: 'Een rok, twee skoene.',
     reported: false,
+    date: 1536740426,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'MLXByT1PbSG3rS2zqzMl',
+    bookmarkedCount: 0,
+    mongo_id: '5b98cc4ab94f6c0014707acd',
     __collections__: {}
   },
   MP5r1eoylRa40WwVheYs: {
+    name: 'god as ‘n reïnkarnerende wese',
+    canReply: true,
     id: 'MP5r1eoylRa40WwVheYs',
     repliedToName: null,
     bookmarkedCount: 2,
@@ -8758,26 +8779,23 @@ const p = {
     activeTema: null,
     richText: true,
     handle: 'stefanyseymore',
-    name: 'god as ‘n reïnkarnerende wese',
-    canReply: true,
     __collections__: {}
   },
   MR2uMxllXDPdmhpdZpIr: {
-    date: 1560276831,
-    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    id: 'MR2uMxllXDPdmhpdZpIr',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: 'ilzedup94',
     name: 'Boendoe',
     body:
       'nuuskierige\naapstert wat na my loer\nte klein om te verstaan\nwat die mens aan hom kan doen\nkom al hoe nader aan my vinger\nwat teen die glas rus\nsien hy dalk in my oë\ndie antwoorde wat daar op die lewe is? \n\nmaar in sy ogies sien ek meer,\nsy oergeheime sluit hy op\nen hy los my met veel meer vrae\noor die heelal se ritmiese gallop. \n',
     reported: false,
+    date: 1560276831,
+    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
+    id: 'MR2uMxllXDPdmhpdZpIr',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   MTD8aeAv8zEN9cHGpNU2: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -8787,14 +8805,10 @@ const p = {
     date: 1560025093,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'MTD8aeAv8zEN9cHGpNU2',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   MV7Zu9ra122D9T9swVLJ: {
-    activeTema: 'Depressiewe struggle',
-    richText: true,
-    handle: '',
-    name: 'Bedonner en bewolk',
-    canReply: true,
     id: 'MV7Zu9ra122D9T9swVLJ',
     repliedToName: null,
     bookmarkedCount: 2,
@@ -8806,13 +8820,14 @@ const p = {
     repliedTo: null,
     date: 1572706806,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
+    activeTema: 'Depressiewe struggle',
+    richText: true,
+    handle: '',
+    name: 'Bedonner en bewolk',
+    canReply: true,
     __collections__: {}
   },
   MXhCbEinKTRh4Yo0UBpG: {
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1569447418,
-    id: 'MXhCbEinKTRh4Yo0UBpG',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -8820,11 +8835,13 @@ const p = {
     reported: false,
     body:
       "Lyk of die droom, soos olie op water, weggglip voor. Vet gesmeerde bliksemstraal bo-op water, stroom af. Ek: spartelend, hortend, agterna, maar vinniger en vinniger gly dit verby. \n\nOf wag. \nWag 'n bietjie, \n\nHierdie pas is die ware Jakob wat eintlik alpad die behoefte was. Twee spartels vir elke slag se gly. Die droom is net só volop. Daar is meer as genoeg droom vir jou en bietjie droom vir my. ",
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1569447418,
+    id: 'MXhCbEinKTRh4Yo0UBpG',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   Mb4Rdvxyb2IuJwT5D8FJ: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '13.lynette',
     name: 'Wynproe',
     body:
@@ -8835,14 +8852,11 @@ const p = {
     id: 'Mb4Rdvxyb2IuJwT5D8FJ',
     bookmarkedCount: 0,
     mongo_id: '5c83986ab579120015e5653a',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   MbCONnzcNFNhWXzOKVH5: {
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>Langpad alleenry</span></p><p><span>Gestop tussen stad\nEn Kimberley se groot gat\nNeffens 'n afdraaipad\nSonsop\nSonsonder\nDag lank gewonder\nWolke's dar'm besonder\nEn ons maar eintlik gewoon\nSout pan, Nama-Karoo\nBosse wat verby vlieg\nEn ek moet eintlik bieg\nEk wens ek het meer gestop.</span></p></div>",
     repliedTo: null,
     date: 1570914171,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
@@ -8854,9 +8868,17 @@ const p = {
     id: 'MbCONnzcNFNhWXzOKVH5',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Langpad alleenry</span></p><p><span>Gestop tussen stad\nEn Kimberley se groot gat\nNeffens 'n afdraaipad\nSonsop\nSonsonder\nDag lank gewonder\nWolke's dar'm besonder\nEn ons maar eintlik gewoon\nSout pan, Nama-Karoo\nBosse wat verby vlieg\nEn ek moet eintlik bieg\nEk wens ek het meer gestop.</span></p></div>",
     __collections__: {}
   },
   MbpYWfs3O0OwxAcySCqe: {
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     name: ' ',
     body:
       '<div><p><span>Die son het so lekker geskyn vandag... </span></p><p><span>weer</span></p></div>',
@@ -8866,12 +8888,12 @@ const p = {
     id: 'MbpYWfs3O0OwxAcySCqe',
     bookmarkedCount: 0,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   McLNc0B5TbEMUnqGC85K: {
+    date: 1541345324,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'McLNc0B5TbEMUnqGC85K',
     bookmarkedCount: 0,
     mongo_id: '5bdf102b2b14900014390af7',
     nsfw: false,
@@ -8881,12 +8903,11 @@ const p = {
     body:
       'Now I lay here\nNaked on my bed\nWondering if I should even bother to get dressed \nOr just climb back in the bathtub and drown myself to death',
     reported: false,
-    date: 1541345324,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'McLNc0B5TbEMUnqGC85K',
     __collections__: {}
   },
   MePFWmDgzymiPuAqHix4: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'TD',
     body:
@@ -8896,11 +8917,12 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'MePFWmDgzymiPuAqHix4',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   MkzI8HyDRShgECaNbZZ6: {
+    id: 'MkzI8HyDRShgECaNbZZ6',
+    bookmarkedCount: 0,
+    mongo_id: '5cdf7dabaaac1000157109f2',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -8910,12 +8932,11 @@ const p = {
     reported: false,
     date: 1558150572,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'MkzI8HyDRShgECaNbZZ6',
-    bookmarkedCount: 0,
-    mongo_id: '5cdf7dabaaac1000157109f2',
     __collections__: {}
   },
   Mm1h15cOyE0fHrnrvP64: {
+    date: 1565126869,
+    uid: 'TMQfRIJTeQfN8CXCuWT7buKiFtM2',
     id: 'Mm1h15cOyE0fHrnrvP64',
     bookmarkedCount: 0,
     nsfw: false,
@@ -8926,11 +8947,12 @@ const p = {
     body:
       '<div><p><span>Dis elke keer dieselfde seer</span></p><p><span>Weer en weer</span></p><p><span></span></p><p><span>Jy sal dink na die dertiende keer</span></p><p><span>Raak dit makliker </span></p><p><span></span></p><p><span>Maar eintlik raak dit net aakliger</span><span> </span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>',
     reported: false,
-    date: 1565126869,
-    uid: 'TMQfRIJTeQfN8CXCuWT7buKiFtM2',
     __collections__: {}
   },
   MmJH4WzxH5sp0r8f01dR: {
+    mongo_id: '5ccc8f376c18eb0015dd8e5b',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Bly',
     body: 'Alles is net aan',
@@ -8939,12 +8961,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'MmJH4WzxH5sp0r8f01dR',
     bookmarkedCount: 0,
-    mongo_id: '5ccc8f376c18eb0015dd8e5b',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   MmfAY5Tj8FlZ8I5JKceB: {
+    mongo_id: '5b60662c8db175001437c8b9',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -8956,10 +8976,15 @@ const p = {
     date: 1533044269,
     id: 'MmfAY5Tj8FlZ8I5JKceB',
     bookmarkedCount: 1,
-    mongo_id: '5b60662c8db175001437c8b9',
     __collections__: {}
   },
   Mp1icvj7poRv6uMEDtVd: {
+    handle: '',
+    name: '🍷',
+    canReply: true,
+    id: 'Mp1icvj7poRv6uMEDtVd',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -8970,15 +8995,12 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
-    handle: '',
-    name: '🍷',
-    canReply: true,
-    id: 'Mp1icvj7poRv6uMEDtVd',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   MwHAYZTHx5dyDIV8HaMz: {
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Nee goed dan',
     body: 'Hulle is nie verkeerd nie, net baie anders',
@@ -8986,12 +9008,11 @@ const p = {
     date: 1559392099,
     uid: 'MnxQMtllmJSGkqY1s6zQHWcr8bk2',
     id: 'MwHAYZTHx5dyDIV8HaMz',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   N7JNFivAAy4BzbMR0E3E: {
+    id: 'N7JNFivAAy4BzbMR0E3E',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'cryingcavecat',
@@ -9001,12 +9022,9 @@ const p = {
     reported: false,
     date: 1561827113,
     uid: 'Wt7jhxciEQP9CqVL8yB6xlZsfbF3',
-    id: 'N7JNFivAAy4BzbMR0E3E',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   NAR4ofcEbtIim0R2XbmM: {
-    bookmarkedCount: 0,
     mongo_id: '5c76afb4fc00ea001577c718',
     nsfw: false,
     adminNotes: 'None',
@@ -9017,10 +9035,10 @@ const p = {
     date: 1551282100,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'NAR4ofcEbtIim0R2XbmM',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   NB4vbbRM73LJjmQDVfeG: {
-    mongo_id: '5ca57bd109937a0015b8e3e1',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -9032,13 +9050,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'NB4vbbRM73LJjmQDVfeG',
     bookmarkedCount: 0,
+    mongo_id: '5ca57bd109937a0015b8e3e1',
     __collections__: {}
   },
   NDYsQe0ubf8SC5yJrFbU: {
-    mongo_id: '5cac3f8deed7d40015ef69df',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'ek.is.anouk ',
     name: 'Oops',
     body: 'anderkant jammer\nis ʼn baie ver plek',
     reported: false,
@@ -9046,10 +9061,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'NDYsQe0ubf8SC5yJrFbU',
     bookmarkedCount: 0,
+    mongo_id: '5cac3f8deed7d40015ef69df',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'ek.is.anouk ',
     __collections__: {}
   },
   NMeaAJTv14TTTWjfWuvZ: {
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'mariska.bolleurss',
@@ -9060,6 +9078,7 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1567430339,
     id: 'NMeaAJTv14TTTWjfWuvZ',
+    bookmarkedCount: 1,
     __collections__: {}
   },
   NOZTp1F7HPRhIIXBKyzB: {
@@ -9077,6 +9096,8 @@ const p = {
     __collections__: {}
   },
   NOt36f8LHUYPz0oGQS1M: {
+    date: 1546886308,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'NOt36f8LHUYPz0oGQS1M',
     bookmarkedCount: 0,
     mongo_id: '5c339ca3a0d9fe0015e0c2d2',
@@ -9087,11 +9108,12 @@ const p = {
     body:
       'it really isn’t fair to me.\n\nbecause when love happened,\n\nyou flew in with a parachute,\n\nwhile i dived in head first,\nwith only expectations of you to keep me buoyant.\n-t.k.b',
     reported: false,
-    date: 1546886308,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   NTg3Yu5f0UD2SlVGkWz2: {
+    id: 'NTg3Yu5f0UD2SlVGkWz2',
+    bookmarkedCount: 1,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Milnerton',
@@ -9100,12 +9122,10 @@ const p = {
       "'n Gebruikte kondoom op 'n hokkieveld\nJy't gese dit was jou eerste indruk van Milnerton\n'n Kleurvolle beskrywing \nJy was nog altyd skerp en to the point\n\nNou sit ek steeds met daardie beskrywing\nEn voel asof ek dit eerstehands ervaar het\nGebruik en weggegooi is waar jy my gelaat het\n\nEn elke keer wat ek 'n aanwysing na Milnerton sien\nVoel dit asof my hart wil gaan staan\nSoveel maande later maak dit steeds seer\nDit was seker net 'n grap",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1582660972,
-    id: 'NTg3Yu5f0UD2SlVGkWz2',
-    bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   NUqHmNWJqDdFVQ1E1iKB: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'What don’t I do',
@@ -9116,24 +9136,27 @@ const p = {
     id: 'NUqHmNWJqDdFVQ1E1iKB',
     bookmarkedCount: 0,
     mongo_id: '5c07edf5ac70f70014136fba',
-    nsfw: false,
     __collections__: {}
   },
   NXzjT0iIvvATa3XdJi8y: {
+    name: 'Two In The Shirt',
+    body: 'When you bend over and your boobs do the thing 😖',
+    reported: false,
+    date: 1555878401,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'NXzjT0iIvvATa3XdJi8y',
     bookmarkedCount: 0,
     mongo_id: '5cbcd2006a7f4c00155a9525',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Two In The Shirt',
-    body: 'When you bend over and your boobs do the thing 😖',
-    reported: false,
-    date: 1555878401,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   NYVNmFJEIJiTzR2vCXKa: {
+    date: 1543951161,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'NYVNmFJEIJiTzR2vCXKa',
+    bookmarkedCount: 0,
     mongo_id: '5c06d339ac70f70014136fb4',
     nsfw: false,
     adminNotes: 'None',
@@ -9142,13 +9165,11 @@ const p = {
     body:
       "In die donker kamer van my hart sluit ek myself toe en wag vir iemand om te klop\nJy het verbygestap en ek het my asem opgehou en gehoop, dalk dié keer\nMaar jy het gehunker by die deur en toe moes ek geweet het, jy gaan net vir 'n rukkie bly\n\nTog het ek my hart vir jou oopgemaak,\ngeheime en myself met jou gedeel\nOp die ou einde het ons net nie gepas nie, altans dis wat jy sê, en gee jy die sleutel maar vir my terug\nNou sit ek weer hier toegesluit in die donker kamer van my hart, en ek wag\nDalk dié keer...",
     reported: false,
-    date: 1543951161,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'NYVNmFJEIJiTzR2vCXKa',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   Na6zLRHuUD5IHYc29nKZ: {
+    adminNotes: 'None',
+    handle: 'ena_stegmann',
     name: 'Afrikanernasionalisme',
     body: "Loftus 4 Jesus\nLoftus Marais\nHabana wat oor 'n wit lyn lê\n\n",
     reported: false,
@@ -9158,11 +9179,14 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b97c4feb94f6c0014707acb',
     nsfw: false,
-    adminNotes: 'None',
-    handle: 'ena_stegmann',
     __collections__: {}
   },
   NcnvW5QedMmlvsLP44h1: {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: "Jy's geliefd",
+    canReply: true,
     id: 'NcnvW5QedMmlvsLP44h1',
     repliedToName: 'Day of Deathwill',
     bookmarkedCount: 0,
@@ -9173,14 +9197,14 @@ const p = {
     repliedTo: 'x30PZvkeegmCqplk7uGH',
     date: 1577476620,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: "Jy's geliefd",
-    canReply: true,
     __collections__: {}
   },
   NhKV0SsPQSAB9UBA0r3O: {
+    name: 'In Denial',
+    canReply: true,
+    id: 'NhKV0SsPQSAB9UBA0r3O',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -9191,15 +9215,9 @@ const p = {
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     richText: true,
     handle: 'mabethc',
-    name: 'In Denial',
-    canReply: true,
-    id: 'NhKV0SsPQSAB9UBA0r3O',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   NkS8dZ2U0x2RbJgJNh9j: {
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -9211,13 +9229,10 @@ const p = {
     date: 1564924150,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'NkS8dZ2U0x2RbJgJNh9j',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   NlNWM523sRbEcPF44xjk: {
-    date: 1563471766,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    id: 'NlNWM523sRbEcPF44xjk',
-    bookmarkedCount: 1,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -9226,12 +9241,13 @@ const p = {
     body:
       '<div><p><span style="font-style: italic;">Good fences make good neighbors - </span><span>true  on farms, true in estates </span></p></div>',
     reported: false,
+    date: 1563471766,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
+    id: 'NlNWM523sRbEcPF44xjk',
+    bookmarkedCount: 1,
     __collections__: {}
   },
   No0vXCtAGHmKMBbfnnS9: {
-    id: 'No0vXCtAGHmKMBbfnnS9',
-    bookmarkedCount: 0,
-    mongo_id: '5c865bdb470b8000150b2070',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -9241,10 +9257,12 @@ const p = {
     reported: false,
     date: 1552309212,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'No0vXCtAGHmKMBbfnnS9',
+    bookmarkedCount: 0,
+    mongo_id: '5c865bdb470b8000150b2070',
     __collections__: {}
   },
   O0HbSduWvjl2RNgIu1mx: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -9254,13 +9272,10 @@ const p = {
     date: 1563898508,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'O0HbSduWvjl2RNgIu1mx',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   O36Z5aGJM3FTcfiIsumg: {
-    name: 'Oor dit',
-    reported: false,
-    body:
-      'Ek het nooit van Lana del Rey gehou nie\nDalk het ek nooit van jou gehou nie',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1574274947,
     id: 'O36Z5aGJM3FTcfiIsumg',
@@ -9268,9 +9283,14 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'Oor dit',
+    reported: false,
+    body:
+      'Ek het nooit van Lana del Rey gehou nie\nDalk het ek nooit van jou gehou nie',
     __collections__: {}
   },
   O4NyRfci0Gs8uEdApYwK: {
+    handle: 'Newageadam ',
     name: 'Sy',
     body: 'Sy sien sy sy deur die sy\n\n',
     reported: false,
@@ -9281,13 +9301,9 @@ const p = {
     mongo_id: '5b6722c72f85be0014cd2c6f',
     nsfw: false,
     adminNotes: 'None',
-    handle: 'Newageadam ',
     __collections__: {}
   },
   O92G7b6AphHw5qCqLeLS: {
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     name: 'Jon Bellion',
     body:
       "<div><p><span>I'm coming to terms with a broken heart</span></p><p><span>I guess that sometimes good things fall apart</span></p></div>",
@@ -9297,22 +9313,27 @@ const p = {
     id: 'O92G7b6AphHw5qCqLeLS',
     bookmarkedCount: 0,
     nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   OA1NlpER5kG4s3frL55I: {
-    date: 1564349664,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'OA1NlpER5kG4s3frL55I',
-    bookmarkedCount: 1,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '👭 🕴',
     body: '*tjomsone',
     reported: false,
+    date: 1564349664,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'OA1NlpER5kG4s3frL55I',
+    bookmarkedCount: 1,
+    nsfw: false,
     __collections__: {}
   },
   ODFmYEfWjvBOxZ4Gd0dl: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Proton',
     reported: false,
@@ -9321,11 +9342,11 @@ const p = {
     date: 1576530919,
     id: 'ODFmYEfWjvBOxZ4Gd0dl',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   OLHv9x0YFvYIOGWzyjbJ: {
+    bookmarkedCount: 0,
+    mongo_id: '5c9217cf951e0e0015fb529b',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -9336,8 +9357,6 @@ const p = {
     date: 1553078224,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'OLHv9x0YFvYIOGWzyjbJ',
-    bookmarkedCount: 0,
-    mongo_id: '5c9217cf951e0e0015fb529b',
     __collections__: {}
   },
   OOMSp9aHveuVnJOylvUC: {
@@ -9356,10 +9375,6 @@ const p = {
     __collections__: {}
   },
   ORaPyTJkzCAeSKF09G6i: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: 'ilzedup94',
     name: 'Haiku #4 ',
     body:
@@ -9368,10 +9383,13 @@ const p = {
     date: 1564321229,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     id: 'ORaPyTJkzCAeSKF09G6i',
+    bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   OX7smUTbaYeNQli5kxAs: {
-    activeTema: null,
     richText: true,
     handle: 'verbeeldings.wereld.hartjie',
     name: 'Glans',
@@ -9387,14 +9405,10 @@ const p = {
     repliedTo: null,
     date: 1571078133,
     uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
+    activeTema: null,
     __collections__: {}
   },
   OlSliW9sV9fyHiA0aKos: {
-    repliedTo: null,
-    date: 1575845701,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
     handle: '',
     name: 'AP',
     canReply: true,
@@ -9406,24 +9420,28 @@ const p = {
     body:
       "<div><p><span>\nSilwer borreltjies asem hardloop heen en weer tussen lae platgestrykte hemelruim wanneer jy die deurklokkie lui en </span></p><p><span></span></p><p><span>jou omhelsing word wit linne wat in 'n meditireense bries bol staan en vars suurlemoene en blou blou see en wit klippaadjies en skakeurings van dappled light onder reuse ou vyebome. </span></p><p><span></span></p><p><span>Jy fluister haastig erotiese geheime in olfactory ranges van Under the Leaves en petrichor en die molmreuk van bruin akkerblare in Dorpstraat en</span></p><p><span></span></p><p><span>jou bors duin al vinniger op en af, die gletserhoeke al skerper; deurskynend en elke middag, net voor behoefte kan oorneem, ruk die toeklap-traliehek knal my uit: terra firma. </span></p><p><span>\n\n\n\n</span></p></div>",
     reported: false,
+    repliedTo: null,
+    date: 1575845701,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
+    richText: true,
     __collections__: {}
   },
   Oncj3OfeJYza4OET58Hp: {
-    bookmarkedCount: 0,
-    mongo_id: '5c00082de148190014b2ff06',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Onthou ll',
     body: 'Getroude lippe ry die grootste klippe ',
     reported: false,
     date: 1543505966,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Oncj3OfeJYza4OET58Hp',
+    bookmarkedCount: 0,
+    mongo_id: '5c00082de148190014b2ff06',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   OrfmGBINGPlRAckIvsym: {
-    adminNotes: 'None',
     reported: false,
     body:
       "<div><p><span>moes 'n Jezebel of Delila wees</span></p><p><span> </span></p><p><span>want as God regtig mens wou word, </span></p><p><span>sou Hy in die vorm van 'n vrou neergedaal het </span></p><p><span></span></p><p><span>as jy 'n vagina het, hou elke dag 'n tipe kruisdood in</span></p></div>",
@@ -9439,6 +9457,7 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 1,
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   Ot2pgXdr1ChGAzUblUyI: {
@@ -9456,11 +9475,6 @@ const p = {
     __collections__: {}
   },
   OthZg5PqrXlRiMw9e7Bk: {
-    bookmarkedCount: 0,
-    mongo_id: '5c65fb4e80ec3300151d5ce9',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'HierdieKakAlweer',
     name: 'Wat maak lewe moontlik ',
     body:
       "Hier is dan twee oë\nMond\nBrein\nNeus\nGedagtes\nHande en voete\n'n volledige biologie as't ware, \n\n'n enkele, volledige biologie. ",
@@ -9468,11 +9482,14 @@ const p = {
     date: 1550187342,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'OthZg5PqrXlRiMw9e7Bk',
+    bookmarkedCount: 0,
+    mongo_id: '5c65fb4e80ec3300151d5ce9',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'HierdieKakAlweer',
     __collections__: {}
   },
   Oyvq43wh3qdXqQxPutxx: {
-    id: 'Oyvq43wh3qdXqQxPutxx',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -9481,6 +9498,8 @@ const p = {
     reported: false,
     date: 1559388354,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: 'Oyvq43wh3qdXqQxPutxx',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   OzFtTNFqc6mzP72jyHot: {
@@ -9498,7 +9517,6 @@ const p = {
     __collections__: {}
   },
   P6VCoGsbFGLwRg8jJUll: {
-    handle: '',
     name: '~',
     body: "Dis 'n Ons ding, babe",
     reported: false,
@@ -9509,9 +9527,11 @@ const p = {
     mongo_id: '5ccf1b3d0903ec00150904dd',
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   P9y5ny7sNomrNbL5VH8H: {
+    mongo_id: '5cd746135fe4dc0015db521e',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -9522,10 +9542,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'P9y5ny7sNomrNbL5VH8H',
     bookmarkedCount: 1,
-    mongo_id: '5cd746135fe4dc0015db521e',
     __collections__: {}
   },
   PD3IYBQEle8ApcIcQA6n: {
+    bookmarkedCount: 0,
     nsfw: true,
     richText: true,
     adminNotes: 'None',
@@ -9537,10 +9557,12 @@ const p = {
     date: 1565171537,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     id: 'PD3IYBQEle8ApcIcQA6n',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   PIXwu2UXHgeJxiDQifsV: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Vra maar',
     body:
       'Dis nie niks nie.\nDis die probleem.\nDis iets.\nAl weet ons nie wat om dit te noem nie.',
@@ -9549,12 +9571,11 @@ const p = {
     uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
     id: 'PIXwu2UXHgeJxiDQifsV',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   PM6fcyrJx2wU819Cb3Yu: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'VavushkaLove',
     name: 'Halfmof. ',
     body: 'Ek is\nKwartpad\nHalfpad\nDriekwart\n(maar nie al die pad) \nGay ',
@@ -9564,11 +9585,11 @@ const p = {
     id: 'PM6fcyrJx2wU819Cb3Yu',
     bookmarkedCount: 0,
     mongo_id: '5cb912fe8385fb0015665533',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   PNicC25AinZhfwUMKE2d: {
+    activeTema: 'Deel jou geheim',
+    richText: true,
     handle: '',
     name: 'verbatim',
     canReply: true,
@@ -9583,11 +9604,12 @@ const p = {
     repliedTo: null,
     date: 1576875912,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: 'Deel jou geheim',
-    richText: true,
     __collections__: {}
   },
   POqOQvldQafqFm72i7u1: {
+    activeTema: null,
+    richText: true,
+    handle: 'aud6362',
     name: 'Gister van gisters',
     canReply: true,
     id: 'POqOQvldQafqFm72i7u1',
@@ -9601,12 +9623,11 @@ const p = {
     repliedTo: null,
     date: 1574511170,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
-    activeTema: null,
-    richText: true,
-    handle: 'aud6362',
     __collections__: {}
   },
   POyGEAryUeKYaTK9epE7: {
+    adminNotes: 'None',
+    handle: '',
     name: 'Sondag',
     body:
       'Dis n maakomseweuurdieoggendmalvapoeding so hoog soos n kite tipe dag\nWho am I kidding\nDis so tipe jaar. ',
@@ -9616,11 +9637,15 @@ const p = {
     id: 'POyGEAryUeKYaTK9epE7',
     bookmarkedCount: 1,
     nsfw: true,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   PPuhtKImZoWeQVsK8EPX: {
+    handle: 'almero_welgemoed',
+    name: '3 jaar later',
+    canReply: true,
+    id: 'PPuhtKImZoWeQVsK8EPX',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -9631,15 +9656,11 @@ const p = {
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     activeTema: null,
     richText: true,
-    handle: 'almero_welgemoed',
-    name: '3 jaar later',
-    canReply: true,
-    id: 'PPuhtKImZoWeQVsK8EPX',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   PRFyWiE2K7PPe11BmRSL: {
+    richText: true,
+    handle: '',
     name: 'Maklik',
     canReply: true,
     id: 'PRFyWiE2K7PPe11BmRSL',
@@ -9653,13 +9674,9 @@ const p = {
     repliedTo: null,
     date: 1567878372,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
-    richText: true,
-    handle: '',
     __collections__: {}
   },
   PaLjSX1RAjLCu8GuzoWb: {
-    richText: true,
-    adminNotes: 'None',
     handle: '',
     name: 'Vars',
     body:
@@ -9670,6 +9687,8 @@ const p = {
     id: 'PaLjSX1RAjLCu8GuzoWb',
     bookmarkedCount: 0,
     nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   PaNWkKdhXHhXeIMO5S8y: {
@@ -9686,6 +9705,9 @@ const p = {
     __collections__: {}
   },
   PeCDokzfi3Jn4SB2jgw4: {
+    repliedTo: null,
+    date: 1574937726,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: 'Deel jou geheim',
     richText: true,
     handle: '',
@@ -9699,12 +9721,13 @@ const p = {
     body:
       '<div><p><span>Dink nie ekt beter geword nie,</span></p><p><span>Daar’s net niemand wat dit meer uit wys nie</span></p></div>',
     reported: false,
-    repliedTo: null,
-    date: 1574937726,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   PjJTz0l11QgHezrMAx1n: {
+    bookmarkedCount: 0,
+    mongo_id: '5bbd106718214f0014a4acce',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '13.lynette',
     name: 'Fok als',
     body:
@@ -9713,15 +9736,9 @@ const p = {
     date: 1539117159,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'PjJTz0l11QgHezrMAx1n',
-    bookmarkedCount: 0,
-    mongo_id: '5bbd106718214f0014a4acce',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   PkCoMKeyRfaG1cyzqQhP: {
-    mongo_id: '5cdd855e93cf3a001554fed1',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '.',
@@ -9732,9 +9749,15 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'PkCoMKeyRfaG1cyzqQhP',
     bookmarkedCount: 0,
+    mongo_id: '5cdd855e93cf3a001554fed1',
+    nsfw: false,
     __collections__: {}
   },
   Plh7jbOl22CC7ae1XyL4: {
+    mongo_id: '5b7455c62af1a7001446c156',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'Draadhond',
     name: 'kinders by doesyne',
     reported: false,
     body:
@@ -9743,25 +9766,21 @@ const p = {
     date: 1534350791,
     id: 'Plh7jbOl22CC7ae1XyL4',
     bookmarkedCount: 2,
-    mongo_id: '5b7455c62af1a7001446c156',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'Draadhond',
     __collections__: {}
   },
   PqThOSlbwSfSgMwv8Tbg: {
-    name: ';',
-    body:
-      '<div><p><span>Ek haat jou “</span><span style="font-style: italic;">gedigte”</span></p></div>',
-    reported: false,
-    date: 1565591851,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'PqThOSlbwSfSgMwv8Tbg',
     bookmarkedCount: 1,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
+    name: ';',
+    body:
+      '<div><p><span>Ek haat jou “</span><span style="font-style: italic;">gedigte”</span></p></div>',
+    reported: false,
+    date: 1565591851,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   PuexxZzmPvTghGX21gQc: {
@@ -9780,8 +9799,6 @@ const p = {
     __collections__: {}
   },
   PviTUBPJnw95ti6wnubP: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: '  ',
     reported: false,
@@ -9791,11 +9808,11 @@ const p = {
     date: 1560900224,
     id: 'PviTUBPJnw95ti6wnubP',
     bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   PzV7n1xGyKH1FtrE2Fhe: {
-    bookmarkedCount: 1,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'shaking hands with Death',
@@ -9804,9 +9821,12 @@ const p = {
     date: 1559464152,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'PzV7n1xGyKH1FtrE2Fhe',
+    bookmarkedCount: 1,
+    nsfw: false,
     __collections__: {}
   },
   Q2UlslZForIBxD5j0fj3: {
+    nsfw: false,
     adminNotes: 'None',
     body:
       '<div><p><span>ons kan halfies gaan</span></p><p><span>by Tafelberg afspring</span></p><p><span>terwyl die son sak</span></p></div>',
@@ -9822,10 +9842,16 @@ const p = {
     id: 'Q2UlslZForIBxD5j0fj3',
     repliedToName: null,
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   Q4SkNwNF1zVHrs4qdqDL: {
+    richText: true,
+    handle: '',
+    name: 'Levitikus 18:22, ensovoorts...',
+    canReply: true,
+    id: 'Q4SkNwNF1zVHrs4qdqDL',
+    repliedToName: null,
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -9834,17 +9860,9 @@ const p = {
     repliedTo: null,
     date: 1568469796,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    richText: true,
-    handle: '',
-    name: 'Levitikus 18:22, ensovoorts...',
-    canReply: true,
-    id: 'Q4SkNwNF1zVHrs4qdqDL',
-    repliedToName: null,
-    bookmarkedCount: 1,
     __collections__: {}
   },
   Q6eoBpz50oaRppKSMMhL: {
-    richText: true,
     handle: '',
     name: 'nie in hiérdie wêreld nie',
     canReply: true,
@@ -9859,12 +9877,10 @@ const p = {
     repliedTo: 'UTMaVMD5dyMdj1L7zmTB',
     date: 1568992822,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    richText: true,
     __collections__: {}
   },
   Q6njLrguZCuEhCvHUZ2B: {
-    handle: '',
-    name: 'Alles < Niks',
-    canReply: true,
     id: 'Q6njLrguZCuEhCvHUZ2B',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -9877,9 +9893,14 @@ const p = {
     uid: 'RVYxdvsokUNis9Ft25i2YKmMUkV2',
     activeTema: null,
     richText: true,
+    handle: '',
+    name: 'Alles < Niks',
+    canReply: true,
     __collections__: {}
   },
   QHqomlH4o75PzigjhbA5: {
+    activeTema: null,
+    richText: true,
     handle: '',
     name: 'Nagmerrie',
     canReply: true,
@@ -9894,14 +9915,9 @@ const p = {
     repliedTo: null,
     date: 1570579371,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
-    activeTema: null,
-    richText: true,
     __collections__: {}
   },
   QTP63hTL22GPzBBIECWo: {
-    body:
-      '|geluk| = {seks + jy  as seks < ek\n                { -(seks + jy)  as seks > ek',
-    reported: false,
     date: 1557727432,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'QTP63hTL22GPzBBIECWo',
@@ -9911,15 +9927,12 @@ const p = {
     adminNotes: 'None',
     handle: '',
     name: 'absoluut',
+    body:
+      '|geluk| = {seks + jy  as seks < ek\n                { -(seks + jy)  as seks > ek',
+    reported: false,
     __collections__: {}
   },
   QXq9FRGWR6th1sv0EoXI: {
-    reported: false,
-    body:
-      '<div><p><span>so ek donner al my gedigte</span></p><p><span>in los papiertjies en notaboeke\nen daardie halwe manuskripte\nwat niemand inelkgeval sou lees nie\nmyself\nop jou altaar neer\n\nek hoop híérdie offer\nis aanneemlik vir Jou</span></p></div>',
-    repliedTo: null,
-    date: 1567109869,
-    uid: 'O5bSoMjt35ZIXXImaNprTSOmtog2',
     richText: true,
     handle: 'glasasem',
     name: 'Offer',
@@ -9929,9 +9942,21 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>so ek donner al my gedigte</span></p><p><span>in los papiertjies en notaboeke\nen daardie halwe manuskripte\nwat niemand inelkgeval sou lees nie\nmyself\nop jou altaar neer\n\nek hoop híérdie offer\nis aanneemlik vir Jou</span></p></div>',
+    repliedTo: null,
+    date: 1567109869,
+    uid: 'O5bSoMjt35ZIXXImaNprTSOmtog2',
     __collections__: {}
   },
   QY6yhUuQR7mqne75CiAt: {
+    richText: true,
+    handle: '',
+    name: 'X',
+    canReply: true,
+    id: 'QY6yhUuQR7mqne75CiAt',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -9941,12 +9966,6 @@ const p = {
     date: 1571687399,
     uid: 'wYBAKjCbgJXdIee0uBnpL1By4oi2',
     activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'X',
-    canReply: true,
-    id: 'QY6yhUuQR7mqne75CiAt',
-    repliedToName: null,
     __collections__: {}
   },
   QcXs73gfYazIB3K7BmOT: {
@@ -9965,12 +9984,6 @@ const p = {
     __collections__: {}
   },
   QdPlIfGKK5VsyWUM2ouR: {
-    bookmarkedCount: 2,
-    nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span style="font-style: italic;">want Sy is die Messias </span></p><p><span></span></p><p><span>my god, my god!</span></p><p><span>verlos my tog van \'n wêreld</span></p><p><span>waar ek depressief en angstig</span></p><p><span>net fokken oorleef</span></p><p><span>bevry my van \'n skepping</span></p><p><span>van verantwoordelikheid, verpligting en verwagting</span></p><p><span>laat my om donnerswil toe</span></p><p><span>om in jou ewigheid, rustig te leef</span></p><p><span></span><span>ontslaan my van dié dooslike </span></p><p><span></span><span>skein heiliges, seksiste, homofobe, rassiste,</span></p><p><span>of eintlik net die Christene </span></p><p><span></span></p><p><span>my kruis, my gefok:</span></p><p><span>oordeel en haat </span></p><p><span></span></p><p><span>as Sy weer kom</span></p><p><span>as Sy weer kom\nkom haal Sy my \n\nmaar moenie te lank talm nie\nanders sny, hang, skiet of s</span><span>luk ek</span></p><p><span>myself binnekort haar Koninkryk in</span></p></div>',
-    reported: false,
     repliedTo: null,
     date: 1573969819,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
@@ -9981,6 +9994,12 @@ const p = {
     canReply: true,
     id: 'QdPlIfGKK5VsyWUM2ouR',
     repliedToName: null,
+    bookmarkedCount: 2,
+    nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span style="font-style: italic;">want Sy is die Messias </span></p><p><span></span></p><p><span>my god, my god!</span></p><p><span>verlos my tog van \'n wêreld</span></p><p><span>waar ek depressief en angstig</span></p><p><span>net fokken oorleef</span></p><p><span>bevry my van \'n skepping</span></p><p><span>van verantwoordelikheid, verpligting en verwagting</span></p><p><span>laat my om donnerswil toe</span></p><p><span>om in jou ewigheid, rustig te leef</span></p><p><span></span><span>ontslaan my van dié dooslike </span></p><p><span></span><span>skein heiliges, seksiste, homofobe, rassiste,</span></p><p><span>of eintlik net die Christene </span></p><p><span></span></p><p><span>my kruis, my gefok:</span></p><p><span>oordeel en haat </span></p><p><span></span></p><p><span>as Sy weer kom</span></p><p><span>as Sy weer kom\nkom haal Sy my \n\nmaar moenie te lank talm nie\nanders sny, hang, skiet of s</span><span>luk ek</span></p><p><span>myself binnekort haar Koninkryk in</span></p></div>',
+    reported: false,
     __collections__: {}
   },
   QnhNTuHW9MZEP0F1HkNm: {
@@ -10003,21 +10022,22 @@ const p = {
     __collections__: {}
   },
   Qr7yXmHfPXgn7X1Crlzg: {
-    date: 1551075755,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'Qr7yXmHfPXgn7X1Crlzg',
-    bookmarkedCount: 0,
-    mongo_id: '5c7389abff6f390015cf31d4',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Onwelkom',
     body:
       '‘n Vreemdeling in jou eie lewe\n‘n Toeris in jou eie liggaam\n\nEk eet ‘n appel (dit help soms)\n\nDwaal doelloos rond\n\nTap ‘n warm bad (ek onthou ek moet goed wees vir myself)\nLê in die bad\nVoel so bitterlik aleen\n\nGlimlag en gesels saam al weet ek nie wat ek daar/hier maak nie (onthou dat voorgee belangrik is)\n\nHol kol neem oor.\nBegin in my maag en versprei soos ‘n veldbrand.\n\nIewers is iets verskriklik verkeerd.\nDit kom vir my.\nDit gaan gebeur.\n\nNiks gebeur nie.\nDie son sak.\nDaar kak nog ‘n dag.',
     reported: false,
+    date: 1551075755,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'Qr7yXmHfPXgn7X1Crlzg',
+    bookmarkedCount: 0,
+    mongo_id: '5c7389abff6f390015cf31d4',
+    nsfw: false,
     __collections__: {}
   },
   QsTM2I0hrxFVwIfNUF5L: {
+    id: 'QsTM2I0hrxFVwIfNUF5L',
     bookmarkedCount: 0,
     mongo_id: '5c592adf3bb0d60015f817d2',
     nsfw: false,
@@ -10029,10 +10049,10 @@ const p = {
     reported: false,
     date: 1549347551,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'QsTM2I0hrxFVwIfNUF5L',
     __collections__: {}
   },
   QwjZkw4bwRQC2XzKwsC8: {
+    id: 'QwjZkw4bwRQC2XzKwsC8',
     bookmarkedCount: 1,
     mongo_id: '5c829576b579120015e56538',
     nsfw: false,
@@ -10043,13 +10063,9 @@ const p = {
     reported: false,
     date: 1552061814,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'QwjZkw4bwRQC2XzKwsC8',
     __collections__: {}
   },
   Qy0uoBBQDs6NmsxI2AkY: {
-    repliedTo: null,
-    date: 1570376572,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -10063,6 +10079,9 @@ const p = {
     body:
       '<div><p><span>vanaand was ek so gebroke</span></p><p><span>dat ek selfs kerk toe gegaan het </span></p></div>',
     reported: false,
+    repliedTo: null,
+    date: 1570376572,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     __collections__: {}
   },
   QyHdCLajiyIBWiZbhV0Q: {
@@ -10081,6 +10100,7 @@ const p = {
     __collections__: {}
   },
   R0hqnxhpScXwwCRfZesa: {
+    bookmarkedCount: 0,
     mongo_id: '5bc38b0e4439f00014f99f27',
     nsfw: false,
     adminNotes: 'None',
@@ -10092,10 +10112,14 @@ const p = {
     date: 1539541774,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'R0hqnxhpScXwwCRfZesa',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   R25e73ITSw4JiwnRJ2Ul: {
+    handle: 'paula_stxphxnie_kruger',
+    name: 'die geel prosa',
+    body:
+      'Laat middag, daardie dag het God met lion safety matches gespeel in die hemel, die lug was aan die brand. ñ Smeulende gloed van pyplyn bloedlemoen en tangerien wolke versper die tonnelvisie van die dorp se mense. Kort daarna was die gesegde "speel met vuur en pis in jou bed" tot die aangesig in my gedagtes gebring en presies so gebeur het-met die matchies en God- dit het begin reën. Koue, blou, kleurlose druppels het op my neus geval. Melancholies neurie saam speel "Beautiful in Beaufort-wes" se deuntjie op die ritme van ñ trek-en-teug sigaret.\n.\ngaan lees verder(https://lkpkart.wordpress.com/2018/11/14/n-geel-prosa/)',
+    reported: false,
     date: 1554539988,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'R25e73ITSw4JiwnRJ2Ul',
@@ -10103,15 +10127,9 @@ const p = {
     mongo_id: '5ca865d32dc0e10015838af5',
     nsfw: false,
     adminNotes: 'None',
-    handle: 'paula_stxphxnie_kruger',
-    name: 'die geel prosa',
-    body:
-      'Laat middag, daardie dag het God met lion safety matches gespeel in die hemel, die lug was aan die brand. ñ Smeulende gloed van pyplyn bloedlemoen en tangerien wolke versper die tonnelvisie van die dorp se mense. Kort daarna was die gesegde "speel met vuur en pis in jou bed" tot die aangesig in my gedagtes gebring en presies so gebeur het-met die matchies en God- dit het begin reën. Koue, blou, kleurlose druppels het op my neus geval. Melancholies neurie saam speel "Beautiful in Beaufort-wes" se deuntjie op die ritme van ñ trek-en-teug sigaret.\n.\ngaan lees verder(https://lkpkart.wordpress.com/2018/11/14/n-geel-prosa/)',
-    reported: false,
     __collections__: {}
   },
   R617s66Kyqkn2sAGuEjp: {
-    adminNotes: 'None',
     handle: '',
     name: 'Stuur dit die water in A',
     body:
@@ -10123,12 +10141,10 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c1158ca617e2c0014412500',
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   R8heQGwGTRcYzj9opPIV: {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: '',
     name: 'Finale totsiens',
     body:
@@ -10138,14 +10154,12 @@ const p = {
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
     id: 'R8heQGwGTRcYzj9opPIV',
     bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   R8lBPGjmFuVxqfvsWP8Y: {
-    bookmarkedCount: 0,
-    mongo_id: '5ce56f34b727a200157b9eea',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'arnojvvuuren',
     name: 'slotsom(me)',
     body:
       '4+6+12+13 = 35 maar 3+5 = 8 en dan is 8 = 2^3 en uiteindelik is 3-2 = 1 ons is almal soms fokken alleen',
@@ -10153,6 +10167,11 @@ const p = {
     date: 1558540085,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'R8lBPGjmFuVxqfvsWP8Y',
+    bookmarkedCount: 0,
+    mongo_id: '5ce56f34b727a200157b9eea',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'arnojvvuuren',
     __collections__: {}
   },
   R9HcTElwLR8XCEePBsmy: {
@@ -10190,7 +10209,6 @@ const p = {
     __collections__: {}
   },
   RU0A7H8JhfHhvRJf35De: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -10201,15 +10219,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1570552911,
     id: 'RU0A7H8JhfHhvRJf35De',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   RcFlsjlYvtW3Wd5Nva3L: {
-    canReply: true,
-    id: 'RcFlsjlYvtW3Wd5Nva3L',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Johnny Clegg het gisteraand van die Watermeide in Meiringspoort se watervaldam gepraat. Die geloof lei dat daar \'n watermeid onder die oppervlak bly en jou sal intrek waar jy \'n gemaklik kan asemhaal en lewe.</span><span style="font-style: italic;"> Ek kan nie onthou wat daarna gebeur nie, maar kleintjies kan nie dit naby die water waag nie. </span></p></div>',
@@ -10220,9 +10233,17 @@ const p = {
     richText: true,
     handle: '',
     name: 'Soos Herrie se klip. ',
+    canReply: true,
+    id: 'RcFlsjlYvtW3Wd5Nva3L',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   Re5MCeff0njBUDUcN4Qw: {
+    bookmarkedCount: 1,
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: 'ek.is.anouk ',
@@ -10233,11 +10254,12 @@ const p = {
     date: 1566248128,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'Re5MCeff0njBUDUcN4Qw',
-    bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   RhGW4rYa95iptkJCHNnd: {
+    canReply: true,
+    id: 'RhGW4rYa95iptkJCHNnd',
+    repliedToName: '.',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -10250,12 +10272,10 @@ const p = {
     richText: true,
     handle: '',
     name: 'Goed in die sleg',
-    canReply: true,
-    id: 'RhGW4rYa95iptkJCHNnd',
-    repliedToName: '.',
     __collections__: {}
   },
   RkNS2QBlN4bSztKiEybI: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Vir headspace',
@@ -10266,17 +10286,9 @@ const p = {
     id: 'RkNS2QBlN4bSztKiEybI',
     bookmarkedCount: 0,
     mongo_id: '5c6f9b863a575300157637c9',
-    nsfw: false,
     __collections__: {}
   },
   RkWdPPA5jFEvUjkX3B90: {
-    adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>Toe ek klaar deur al die beskikbare hoeveelheid stywe borskas-tot-borskas en kop-teen-nek drukke gewerk het, </span></p><p><span>Klaar al die tyd in die wêreld gebruik het om eenvoudige take te verrig, </span></p><p><span>Al die oggendson opgedrink het met koffie in die kooi tydens kantoorure, </span></p><p><span>Elke sent spandeer het op die mooiste artefakte om geluk te bring,</span></p><p><span>Die gemaklikste sielkundige se bank deurgesit het, </span></p><p><span>En genoeg selfhelp boeke gelees het om 'n graad te voltooi, </span></p><p><span></span></p><p><span>Het dit een oggend in die noute van die nag skielik helder geword: lig is om oorlog te maak teen gravitasie. </span></p></div>",
-    repliedTo: null,
-    date: 1582147858,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
     handle: 'EvertEsterhuizen',
@@ -10286,12 +10298,16 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Toe ek klaar deur al die beskikbare hoeveelheid stywe borskas-tot-borskas en kop-teen-nek drukke gewerk het, </span></p><p><span>Klaar al die tyd in die wêreld gebruik het om eenvoudige take te verrig, </span></p><p><span>Al die oggendson opgedrink het met koffie in die kooi tydens kantoorure, </span></p><p><span>Elke sent spandeer het op die mooiste artefakte om geluk te bring,</span></p><p><span>Die gemaklikste sielkundige se bank deurgesit het, </span></p><p><span>En genoeg selfhelp boeke gelees het om 'n graad te voltooi, </span></p><p><span></span></p><p><span>Het dit een oggend in die noute van die nag skielik helder geword: lig is om oorlog te maak teen gravitasie. </span></p></div>",
+    repliedTo: null,
+    date: 1582147858,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   RnnSbfZLSz6KxMmSWm17: {
-    id: 'RnnSbfZLSz6KxMmSWm17',
-    bookmarkedCount: 2,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'SONA',
@@ -10300,9 +10316,15 @@ const p = {
     reported: false,
     date: 1561056182,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
+    id: 'RnnSbfZLSz6KxMmSWm17',
+    bookmarkedCount: 2,
+    nsfw: false,
     __collections__: {}
   },
   RqoQ14pOHYpkJZrjLIh9: {
+    id: 'RqoQ14pOHYpkJZrjLIh9',
+    bookmarkedCount: 0,
+    mongo_id: '5b641d859e6b9f001417fb30',
     nsfw: false,
     adminNotes: 'None',
     handle: 'jennybl3u',
@@ -10312,12 +10334,11 @@ const p = {
     reported: false,
     date: 1533287814,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'RqoQ14pOHYpkJZrjLIh9',
-    bookmarkedCount: 0,
-    mongo_id: '5b641d859e6b9f001417fb30',
     __collections__: {}
   },
   RrWKo8ev8Co8qtWX4jRe: {
+    mongo_id: '5c04474fbe1cb6001435b5a5',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'tuin-tuin ',
@@ -10328,18 +10349,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'RrWKo8ev8Co8qtWX4jRe',
     bookmarkedCount: 0,
-    mongo_id: '5c04474fbe1cb6001435b5a5',
-    nsfw: false,
     __collections__: {}
   },
   RriCWY1xr1ecrFyL0Ds8: {
-    richText: true,
-    handle: 'almero_welgemoed',
-    name: 'As of ons gaan praat',
-    canReply: true,
-    id: 'RriCWY1xr1ecrFyL0Ds8',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -10349,9 +10361,21 @@ const p = {
     date: 1570203194,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     activeTema: null,
+    richText: true,
+    handle: 'almero_welgemoed',
+    name: 'As of ons gaan praat',
+    canReply: true,
+    id: 'RriCWY1xr1ecrFyL0Ds8',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   Rv0A2b5fOsvHXUyKP9ET: {
+    nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>Buzzfeed sê, gebaseer op my vakansie-keuse, dat ek as nuwejaarsvoorneme minder op sosiale media moet wees</span></p></div>',
+    reported: false,
     repliedTo: 'bR4I8EQa45UAY22hiBE3',
     date: 1577771205,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
@@ -10363,14 +10387,13 @@ const p = {
     id: 'Rv0A2b5fOsvHXUyKP9ET',
     repliedToName: '2020 hello',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>Buzzfeed sê, gebaseer op my vakansie-keuse, dat ek as nuwejaarsvoorneme minder op sosiale media moet wees</span></p></div>',
-    reported: false,
     __collections__: {}
   },
   S0B1GwwIJ1HKMgc2FAGv: {
+    date: 1561239361,
+    uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
+    id: 'S0B1GwwIJ1HKMgc2FAGv',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -10378,13 +10401,11 @@ const p = {
     body:
       'Het Eva ooit haar hare gekam?\nEk oorweeg om dit nie meer te doen nie.',
     reported: false,
-    date: 1561239361,
-    uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
-    id: 'S0B1GwwIJ1HKMgc2FAGv',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   S2JUrUF8ZgmVL8dazf6p: {
+    mongo_id: '5cb37a43ce3f7c00156d149c',
+    nsfw: false,
     adminNotes: 'None',
     handle: 'ek.is.anouk ',
     name: 'duif',
@@ -10395,17 +10416,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'S2JUrUF8ZgmVL8dazf6p',
     bookmarkedCount: 0,
-    mongo_id: '5cb37a43ce3f7c00156d149c',
-    nsfw: false,
     __collections__: {}
   },
   S3qxsRz6Q1tjIyeQ9ogw: {
-    richText: true,
-    handle: '',
-    name: 'Verdrink ',
-    canReply: true,
-    id: 'S3qxsRz6Q1tjIyeQ9ogw',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -10416,13 +10429,15 @@ const p = {
     date: 1572613936,
     uid: 'qOXx8aJ7zHYjVv8E6ooCx1NI9QI3',
     activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Verdrink ',
+    canReply: true,
+    id: 'S3qxsRz6Q1tjIyeQ9ogw',
+    repliedToName: null,
     __collections__: {}
   },
   S5zCceB0LH0KKgB9wvBz: {
-    name: 'Ek',
-    body:
-      'Ek wil nie oor liefde skryf soos almal nie. \nEk dink dis boring. \nEk wil skryf oor my roeping.\n\nHoe dié my na drank dryf.\nHoe dié my laat vloek. \nHoe dié my strategies maak wakker lê in die middle van die nag. \nHoe ek droom ek wurg die ronde kollega, \ntot haar ronde oë uit pop.\n\nEk wil besluite maak, en groottes. \nEk wil in beheer wees.\nEk wil hardloop sonder inhibisies.\nEk soek nie ronde oë op my nie. \n\nGee my die kans om verlore te raak in die drome van Europa.\nOf dalk, as ek gelukkig is,\nin die vlaktes van Afrika.',
-    reported: false,
     date: 1558054239,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'S5zCceB0LH0KKgB9wvBz',
@@ -10431,13 +10446,13 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'Ek',
+    body:
+      'Ek wil nie oor liefde skryf soos almal nie. \nEk dink dis boring. \nEk wil skryf oor my roeping.\n\nHoe dié my na drank dryf.\nHoe dié my laat vloek. \nHoe dié my strategies maak wakker lê in die middle van die nag. \nHoe ek droom ek wurg die ronde kollega, \ntot haar ronde oë uit pop.\n\nEk wil besluite maak, en groottes. \nEk wil in beheer wees.\nEk wil hardloop sonder inhibisies.\nEk soek nie ronde oë op my nie. \n\nGee my die kans om verlore te raak in die drome van Europa.\nOf dalk, as ek gelukkig is,\nin die vlaktes van Afrika.',
+    reported: false,
     __collections__: {}
   },
   S86mVyG7XI3VqSUaJ0e5: {
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'En nou',
     body:
       'Ekt geweet dit kom, nog nooit in my lewe iets gehad wat my so onbekwaamd, onbevoeg, onmens kon laat voel nie. 5 jaar later, en ek is steeds hier, probeer om myself te laat geld deur laat aande en shitty uitslae. Probeer om my ouers te oortuig dat ek iemand anders is as die fokop wat hulle grootgemaak het. Almal maak foute, of so se my sielkundige. \nEk mag net nie\nEn nou, nou sit ek weer hier. Met n seer hart en n gekneusde ego, want almal kom dit deur, hoekom kan jy nie?',
@@ -10445,6 +10460,10 @@ const p = {
     date: 1561529260,
     uid: '8govqTsKkVZZbWmT1gqDKUWg0zs1',
     id: 'S86mVyG7XI3VqSUaJ0e5',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   S8UxmtFNUtPNxypncZS4: {
@@ -10462,10 +10481,6 @@ const p = {
     __collections__: {}
   },
   SB3YUKEyIcaWFheXgtnv: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
-    name: 'Wow',
     body: 'Wow - Jy hou nie van “Pineapple on Pizza” nie, gods jy’s unique ',
     reported: false,
     date: 1557607790,
@@ -10473,6 +10488,10 @@ const p = {
     id: 'SB3YUKEyIcaWFheXgtnv',
     bookmarkedCount: 0,
     mongo_id: '5cd7356e5fe4dc0015db521d',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'Wow',
     __collections__: {}
   },
   SDd8rLVbwHplF6SxvgwC: {
@@ -10490,6 +10509,8 @@ const p = {
     __collections__: {}
   },
   SEs07BSxh4zbOLPLQmjN: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: "Dis net... 'n JK",
     body: '"Onder in my whiskey glas\nSit jy steeds aan my vas" ',
@@ -10498,11 +10519,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'SEs07BSxh4zbOLPLQmjN',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   SF45b4QrIwPNQqiHWZ1I: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'INTERseksIE',
@@ -10512,25 +10532,22 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'SF45b4QrIwPNQqiHWZ1I',
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   SLS8GOTw4VWGHDWgGbme: {
+    id: 'SLS8GOTw4VWGHDWgGbme',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Machismo',
     reported: false,
     body: 'Ek het dubbelkaartjies vir Woordfees shows gekoop\nAl is ek single',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1579028364,
-    id: 'SLS8GOTw4VWGHDWgGbme',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   SPvZ1wpPITlT6bWzvLgZ: {
-    mongo_id: '5c1a17fe212cd60014131cd3',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'dakke ',
@@ -10541,9 +10558,14 @@ const p = {
     date: 1545213950,
     id: 'SPvZ1wpPITlT6bWzvLgZ',
     bookmarkedCount: 1,
+    mongo_id: '5c1a17fe212cd60014131cd3',
+    nsfw: false,
     __collections__: {}
   },
   SSkdNLxlPo3O1sjL7UMd: {
+    bookmarkedCount: 1,
+    mongo_id: '5ca64ffca87be6001567d3d8',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'iPhone',
@@ -10552,13 +10574,9 @@ const p = {
     date: 1554403324,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'SSkdNLxlPo3O1sjL7UMd',
-    bookmarkedCount: 1,
-    mongo_id: '5ca64ffca87be6001567d3d8',
-    nsfw: false,
     __collections__: {}
   },
   STc0XFjgVgpnoutRooat: {
-    bookmarkedCount: 0,
     mongo_id: '5c0f6fc203d5fd0014875b7d',
     nsfw: false,
     adminNotes: 'None',
@@ -10570,9 +10588,11 @@ const p = {
     date: 1544515523,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'STc0XFjgVgpnoutRooat',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   SWX0zoATqni8QlFWrtPa: {
+    handle: '',
     name: 'Is dit sooibrand? ',
     reported: false,
     body:
@@ -10583,17 +10603,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   SdwkDNFvmLv1ExUMMor1: {
-    reported: false,
-    body:
-      '<div><p><span>Ek sê jammer. </span></p><p><span>Dan doen ek dit weer. </span></p><p><span></span></p></div>',
-    repliedTo: null,
-    date: 1570915221,
-    uid: '7wpOByP2EOdSrksu7jYh6dL2Om13',
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'Jammer  ',
@@ -10603,15 +10615,16 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Ek sê jammer. </span></p><p><span>Dan doen ek dit weer. </span></p><p><span></span></p></div>',
+    repliedTo: null,
+    date: 1570915221,
+    uid: '7wpOByP2EOdSrksu7jYh6dL2Om13',
+    activeTema: null,
     __collections__: {}
   },
   SeSqX3vDQ5HdvLGzYwn2: {
-    body:
-      '<div><p><span>Om my self te verloor,</span></p><p><span>maar wat maak dit saak,</span></p><p><span>Jyt nooit die tyd gevat om my te ken nie,</span></p><p><span>Ironic I guess </span></p><p><span></span></p></div>',
-    reported: false,
-    repliedTo: 'ljTW9WrlgCQzLRoe5urr',
-    date: 1570818682,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
     handle: '',
@@ -10622,6 +10635,12 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    body:
+      '<div><p><span>Om my self te verloor,</span></p><p><span>maar wat maak dit saak,</span></p><p><span>Jyt nooit die tyd gevat om my te ken nie,</span></p><p><span>Ironic I guess </span></p><p><span></span></p></div>',
+    reported: false,
+    repliedTo: 'ljTW9WrlgCQzLRoe5urr',
+    date: 1570818682,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   Sj91SFjIyJkMcSIoe8aW: {
@@ -10639,6 +10658,7 @@ const p = {
     __collections__: {}
   },
   SnfPRIno1dbzVqQvHqfc: {
+    bookmarkedCount: 1,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -10650,11 +10670,9 @@ const p = {
     date: 1564969301,
     uid: '4mmRXsmPUdMPAxM8HlGwNv0RNgx1',
     id: 'SnfPRIno1dbzVqQvHqfc',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   So1ZiT72CK0i9tUrXrE0: {
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'Jys bang',
@@ -10670,15 +10688,10 @@ const p = {
     repliedTo: null,
     date: 1571417431,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
+    activeTema: null,
     __collections__: {}
   },
   So96pBizq0IOs7NGzxvt: {
-    richText: true,
-    handle: 'mabethc',
-    name: 'Purperpersmurmerasies',
-    canReply: true,
-    id: 'So96pBizq0IOs7NGzxvt',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -10689,9 +10702,16 @@ const p = {
     date: 1570387627,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     activeTema: null,
+    richText: true,
+    handle: 'mabethc',
+    name: 'Purperpersmurmerasies',
+    canReply: true,
+    id: 'So96pBizq0IOs7NGzxvt',
+    repliedToName: null,
     __collections__: {}
   },
   SotyVCoen34inTqcMRbt: {
+    handle: '',
     name: '01:03 AM',
     body: '"oh my god, oh my god, Liefie is jy okay?"',
     reported: false,
@@ -10702,15 +10722,9 @@ const p = {
     mongo_id: '5b7d7e99851c1b001473dcc7',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   Sr52UAE5vzxpVDjTrTgO: {
-    handle: 'Verbatim',
-    name: 'Badkamersessies ',
-    body:
-      'Jy is jou eie grootste probleem. Die goed wat jou so grensloos het in ander is die juisste goed wat jy aan hulle doen. Dis redelik basic wiskunde, eintlik.\n\nVermom. Verlei, mislei en apatie.\n\n(Die spieel is nou te opgewasem om verder te kyk-sal later weer probeer.)\n\n-oja en procrastination. ',
-    reported: false,
     date: 1550097084,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Sr52UAE5vzxpVDjTrTgO',
@@ -10718,11 +10732,14 @@ const p = {
     mongo_id: '5c649abc5ba600001564bb0e',
     nsfw: false,
     adminNotes: 'None',
+    handle: 'Verbatim',
+    name: 'Badkamersessies ',
+    body:
+      'Jy is jou eie grootste probleem. Die goed wat jou so grensloos het in ander is die juisste goed wat jy aan hulle doen. Dis redelik basic wiskunde, eintlik.\n\nVermom. Verlei, mislei en apatie.\n\n(Die spieel is nou te opgewasem om verder te kyk-sal later weer probeer.)\n\n-oja en procrastination. ',
+    reported: false,
     __collections__: {}
   },
   SsfDrNhR5LkkIjSr18lR: {
-    id: 'SsfDrNhR5LkkIjSr18lR',
-    bookmarkedCount: 0,
     mongo_id: '5c3fdb34f0412f0015783270',
     nsfw: false,
     adminNotes: 'None',
@@ -10733,11 +10750,11 @@ const p = {
     reported: false,
     date: 1547688757,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'SsfDrNhR5LkkIjSr18lR',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   StDN1mA2AlcQeFC54Wtz: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Delete',
     reported: true,
@@ -10746,23 +10763,24 @@ const p = {
     date: 1581085186,
     id: 'StDN1mA2AlcQeFC54Wtz',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   Sv979Bg76YC5R9KGwDYT: {
-    date: 1560149544,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'Sv979Bg76YC5R9KGwDYT',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'FKN idiot',
     body: 'wtf AB',
     reported: true,
+    date: 1560149544,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'Sv979Bg76YC5R9KGwDYT',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   SxHNsbnAzVuC6SKTOWza: {
-    id: 'SxHNsbnAzVuC6SKTOWza',
     bookmarkedCount: 0,
     mongo_id: '5b680ff42f85be0014cd2c74',
     nsfw: false,
@@ -10774,9 +10792,13 @@ const p = {
     reported: false,
     date: 1533546484,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'SxHNsbnAzVuC6SKTOWza',
     __collections__: {}
   },
   SyIm6cSqql7jfadkv9iP: {
+    id: 'SyIm6cSqql7jfadkv9iP',
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: 'aud6362',
     name: 'Na middernag',
@@ -10785,12 +10807,10 @@ const p = {
     reported: false,
     date: 1561592178,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
-    id: 'SyIm6cSqql7jfadkv9iP',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   SzI2yFrnAvlvfkwisJqX: {
+    adminNotes: 'None',
     handle: 'EvertEsterhuizen',
     name: 'Rabiestraat 69, Durbanville',
     body:
@@ -10802,7 +10822,6 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b7f99a896f6dc0014392fc9',
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   SzR5T5iubIuaUlani8B8: {
@@ -10819,7 +10838,6 @@ const p = {
     __collections__: {}
   },
   T0st87imCk2f2bCiZWLB: {
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Liefde</span></p><p><span>BMW </span></p><p><span>Ossewa</span></p><p><span>Tronk</span></p><p><span>Sit dit af</span></p><p><span>Donker donker land </span></p><p><span>Energie</span></p><p><span>Ou ou lied van Afrika </span></p><p><span>Hilbrow </span></p><p><span>Ry </span></p><p><span></span></p><p><span></span></p><p><span>(Kan die reën van sy goeie werk aanhou neerval op ons lywe wat die reën wil hoor?) </span></p><p><span></span></p></div>',
@@ -10835,12 +10853,10 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   T1FPvtgQg7JDnRvQL6Y3: {
-    name: 'Urgh! 2.0',
-    body: 'Penis.',
-    reported: false,
     date: 1551985134,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'T1FPvtgQg7JDnRvQL6Y3',
@@ -10849,9 +10865,13 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'Urgh! 2.0',
+    body: 'Penis.',
+    reported: false,
     __collections__: {}
   },
   T4RKqKWca6yoWNjFnOom: {
+    activeTema: null,
     richText: true,
     handle: '',
     name: 'Fruit loops is lekker. Ek dink.',
@@ -10867,10 +10887,14 @@ const p = {
     repliedTo: null,
     date: 1575742676,
     uid: 'wYBAKjCbgJXdIee0uBnpL1By4oi2',
-    activeTema: null,
     __collections__: {}
   },
   T5FsWiqlSqzFMNlGMSuk: {
+    id: 'T5FsWiqlSqzFMNlGMSuk',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     body:
       "<div><p><span>\"Heimlik beangs\" oor die gedagte dat jy moet weg, wegger, wegste van hierdie gedeelde tyd. Jy staan een oomblik midde die Ou Karoo waar die lug soet ruik en stil is, 'n sonderlinge stilte: 'n positiewe stilte wat alles omhels, wat substansie het, en lewe. Jy staan in die senter van 'n fyn kristal- met die leë hemel wat oopsprei bo jou kop en die eindelose Karoovlakte onder jou voete. </span></p><p><span></span></p><p><span>Jy kan nie gaan voor ons nie die rustige roetinelewe onder die wit mure en koel vertrekke aan jou eie vel gevoel het nie. Alles langsaan die hoë hoë wiegende populierbome in die oggendson. </span></p><p><span></span></p><p><span>Heimlike angs. En dit raak duidelik dat niemand ooit hier sal oorleef sonder om self iewers in sy wese, groot en sterk en vry te wees soos hierdie wêreld nie. </span></p><p><span></span></p><p><span></span></p><p><span>apologie aan w.vd.berg</span></p></div>",
     reported: false,
@@ -10882,11 +10906,6 @@ const p = {
     handle: 'Verbatim',
     name: 'Koebaai is vir ander. ',
     canReply: true,
-    id: 'T5FsWiqlSqzFMNlGMSuk',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   T6LK6LnRii0oozzjEkxS: {
@@ -10927,6 +10946,11 @@ const p = {
     __collections__: {}
   },
   TAhCuCaBOPehrKWohOKN: {
+    handle: 'francoislct',
+    name: '-',
+    body:
+      'Ek het nog nooit ‘n boom besit nie\n‘n kar gehuur nie\nof ‘n bank gekoop nie\n\nEk besit nie ‘n oond nie\nEk het nie gordyne nie\nAnder mense se grasperke is vaal\n\nEk is sonder hierdie dinge\nKuns is in galerye\nLewensversekering op die radio\n\nHoe betaal mens dit? Hoe gaan mens dit aan?\nEk is sonder hierdie dinge\nWat ek oor skuldig voel\n\nEk is in hierdie wêreld\n‘n besoeker\n\n(2017)',
+    reported: false,
     date: 1554371657,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'TAhCuCaBOPehrKWohOKN',
@@ -10934,14 +10958,11 @@ const p = {
     mongo_id: '5ca5d449a87be6001567d3d6',
     nsfw: false,
     adminNotes: 'None',
-    handle: 'francoislct',
-    name: '-',
-    body:
-      'Ek het nog nooit ‘n boom besit nie\n‘n kar gehuur nie\nof ‘n bank gekoop nie\n\nEk besit nie ‘n oond nie\nEk het nie gordyne nie\nAnder mense se grasperke is vaal\n\nEk is sonder hierdie dinge\nKuns is in galerye\nLewensversekering op die radio\n\nHoe betaal mens dit? Hoe gaan mens dit aan?\nEk is sonder hierdie dinge\nWat ek oor skuldig voel\n\nEk is in hierdie wêreld\n‘n besoeker\n\n(2017)',
-    reported: false,
     __collections__: {}
   },
   TBmFhZDWBaIxZYi63ktq: {
+    id: 'TBmFhZDWBaIxZYi63ktq',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'ek.is.anouk ',
@@ -10951,15 +10972,9 @@ const p = {
     reported: false,
     date: 1560796547,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: 'TBmFhZDWBaIxZYi63ktq',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   TJE0i0iDr4Qw7O4IURNC: {
-    repliedTo: null,
-    date: 1583013080,
-    uid: 'RVYxdvsokUNis9Ft25i2YKmMUkV2',
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'Sterf',
@@ -10972,13 +10987,13 @@ const p = {
     body:
       '<div><p><span>Ek sterf en jy gaan aan</span></p><p><span>Ek sterf en jy gaan net fokken aan</span></p></div>',
     reported: false,
+    repliedTo: null,
+    date: 1583013080,
+    uid: 'RVYxdvsokUNis9Ft25i2YKmMUkV2',
+    activeTema: null,
     __collections__: {}
   },
   TMXTTzSpR0lYxgTBpq11: {
-    name: 'manet menswees ',
-    body:
-      'die outfit\ndie accessories\ndie ongemaklike laggie\nn verdowing vir die pyn\n\ndie kinky text\ndie koffie by jou flat\ndie square packet\nn verdowing vir die pyn\n\n',
-    reported: false,
     date: 1542198841,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'TMXTTzSpR0lYxgTBpq11',
@@ -10987,6 +11002,10 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'manet menswees ',
+    body:
+      'die outfit\ndie accessories\ndie ongemaklike laggie\nn verdowing vir die pyn\n\ndie kinky text\ndie koffie by jou flat\ndie square packet\nn verdowing vir die pyn\n\n',
+    reported: false,
     __collections__: {}
   },
   TN6jquxkxDNVzmH12J50: {
@@ -11004,8 +11023,6 @@ const p = {
     __collections__: {}
   },
   TNCZQMPyRlIoWsYkn9yf: {
-    date: 1560099115,
-    uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
     id: 'TNCZQMPyRlIoWsYkn9yf',
     bookmarkedCount: 0,
     nsfw: false,
@@ -11014,12 +11031,11 @@ const p = {
     name: '.',
     body: 'Probeer ',
     reported: false,
+    date: 1560099115,
+    uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
     __collections__: {}
   },
   TNTn33jS1YKbEuFYmrun: {
-    id: 'TNTn33jS1YKbEuFYmrun',
-    bookmarkedCount: 0,
-    mongo_id: '5c0c0a16eaa32e001435e3da',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -11028,9 +11044,14 @@ const p = {
     reported: false,
     date: 1544292886,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'TNTn33jS1YKbEuFYmrun',
+    bookmarkedCount: 0,
+    mongo_id: '5c0c0a16eaa32e001435e3da',
     __collections__: {}
   },
   TOv2wMUP2uAI2XvhS03K: {
+    id: 'TOv2wMUP2uAI2XvhS03K',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'handyandy.art',
@@ -11040,11 +11061,10 @@ const p = {
     reported: false,
     date: 1567628228,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'TOv2wMUP2uAI2XvhS03K',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   TQxl1B3ytXB7iCvl9cDI: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -11059,11 +11079,9 @@ const p = {
     canReply: true,
     id: 'TQxl1B3ytXB7iCvl9cDI',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   TRxpVJAMvcIalpAcow1j: {
-    handle: '',
     name: 'Vrydagaand; Durbanville',
     body: 'Eksistensieël \nGesuip\nEn jags',
     reported: false,
@@ -11074,17 +11092,10 @@ const p = {
     mongo_id: '5ccca7356c18eb0015dd8e5c',
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   TVFEvO4h8Skz72PZloCb: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Vibreer',
-    canReply: true,
-    id: 'TVFEvO4h8Skz72PZloCb',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -11093,17 +11104,17 @@ const p = {
     repliedTo: null,
     date: 1578347250,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Vibreer',
+    canReply: true,
+    id: 'TVFEvO4h8Skz72PZloCb',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   TZ4pu8PiclfrCuhiLx1A: {
-    handle: 'stefanyseymore',
-    name: 'Chaos. ',
-    canReply: true,
-    id: 'TZ4pu8PiclfrCuhiLx1A',
-    repliedToName: null,
-    bookmarkedCount: 2,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       '<div><p><span>Galileo en Rorsharch lê op hulle rug en bespreek die wolke:</span></p><p><span>Rorsharch vra: wat sien jy, Galileo?\nEk sien... dat een wolk stilstaan en ander wolke beweeg rondom dié wolk.\nWat sien jy, Galileo?\nDie chaos van verandering en staties bly. \nWat sien jy, Galileo?\nVerandering is onkeerbaar. Geeneen gaan dit ontspring nie. Die aarde draai\nen draai\nen draai\nen die wolke verander rusplek om my, ver van my en skawend aan my broosheid\nWat sien jy, Galileo?\nNatuur is\ngenadeloos\nonveranderbaar\nonverskillig \nteenoor my verstaan van haar\ngeheime \nvir my. </span></p></div>',
     reported: false,
@@ -11112,9 +11123,18 @@ const p = {
     uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
     activeTema: null,
     richText: true,
+    handle: 'stefanyseymore',
+    name: 'Chaos. ',
+    canReply: true,
+    id: 'TZ4pu8PiclfrCuhiLx1A',
+    repliedToName: null,
+    bookmarkedCount: 2,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   TbNRH9HXXI6yeQ0nkuqA: {
+    id: 'TbNRH9HXXI6yeQ0nkuqA',
     bookmarkedCount: 0,
     mongo_id: '5c20e57edb22a30014dd43a0',
     nsfw: false,
@@ -11126,10 +11146,10 @@ const p = {
     reported: false,
     date: 1545659775,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'TbNRH9HXXI6yeQ0nkuqA',
     __collections__: {}
   },
   TbePnBCLeRbZwHmzw9qP: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'BirthdayBitch ',
@@ -11140,14 +11160,9 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'TbePnBCLeRbZwHmzw9qP',
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   TeUwnbbTQRgyH32FTam7: {
-    richText: true,
-    handle: '',
-    name: 'Soms...',
-    canReply: true,
     id: 'TeUwnbbTQRgyH32FTam7',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -11159,10 +11174,13 @@ const p = {
     repliedTo: null,
     date: 1568152007,
     uid: 'eKW9TZW0PsTsWJtJHp5ojYM1aZz1',
+    richText: true,
+    handle: '',
+    name: 'Soms...',
+    canReply: true,
     __collections__: {}
   },
   TfI9Y8mlERNLq1ZOGt8B: {
-    nsfw: false,
     adminNotes: 'None',
     handle: 'cryingcavecat',
     name: 'Sonder Slaap',
@@ -11173,16 +11191,10 @@ const p = {
     uid: 'Wt7jhxciEQP9CqVL8yB6xlZsfbF3',
     id: 'TfI9Y8mlERNLq1ZOGt8B',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   TkBVW4KP1F6hmC8ptJXT: {
-    adminNotes: 'None',
-    body:
-      '<div><p><span>Ek voel jou syn</span></p><p><span>Ons almal is nog lief vir jou</span></p><p><span>Al beteken ons niks meer</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1571078200,
-    uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -11192,9 +11204,21 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 1,
     nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>Ek voel jou syn</span></p><p><span>Ons almal is nog lief vir jou</span></p><p><span>Al beteken ons niks meer</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1571078200,
+    uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
     __collections__: {}
   },
   TkVXamzgTq4lYjATSoi3: {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'jy was toe reg',
+    canReply: true,
     id: 'TkVXamzgTq4lYjATSoi3',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -11206,11 +11230,6 @@ const p = {
     repliedTo: null,
     date: 1578344950,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'jy was toe reg',
-    canReply: true,
     __collections__: {}
   },
   TqwlyoSggULw6COFiScU: {
@@ -11232,6 +11251,9 @@ const p = {
     __collections__: {}
   },
   TvI54T2ekZywzd9KIjRZ: {
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     name: 'Op pad',
     body:
       '<div><p><span>Alles kom tot niks</span></p><p><span>Alles kom tot niks</span></p><p><span></span></p></div>',
@@ -11241,12 +11263,13 @@ const p = {
     id: 'TvI54T2ekZywzd9KIjRZ',
     bookmarkedCount: 0,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   Tz51cLhTW44mrFQJJ2tg: {
+    mongo_id: '5c71d5cd03254600155d649f',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '®0©k€R ',
     name: '🙄',
     body:
       'Qwertyuiopasdfghjklzxcvbnm,.\n#R&_-123?@()=+456!\':%/789" *, 0.\n$€¥¢©®™~¿[]{}<>^¡`;÷\\|¦¬ ×§¶°\n',
@@ -11255,13 +11278,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Tz51cLhTW44mrFQJJ2tg',
     bookmarkedCount: 0,
-    mongo_id: '5c71d5cd03254600155d649f',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '®0©k€R ',
     __collections__: {}
   },
   U8T6VeR2r2HIFVSwQcuQ: {
+    date: 1560098255,
+    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
+    id: 'U8T6VeR2r2HIFVSwQcuQ',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'ilzedup94',
@@ -11269,16 +11292,9 @@ const p = {
     body:
       'sê hy\nmaar ek is\ninternetskind sonder identiteit\ngedigte gebroke, gebore uit spyt. \n',
     reported: false,
-    date: 1560098255,
-    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    id: 'U8T6VeR2r2HIFVSwQcuQ',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   UBu7gPFkUZJAzWMelJ8i: {
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1580486555,
-    id: 'UBu7gPFkUZJAzWMelJ8i',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -11287,9 +11303,17 @@ const p = {
     reported: false,
     body:
       "'But I/\nI love it when you read to me'\n\nEk kan nie die baksteen-swaarte op my bors beskryf nie.\nSoms is dit egter 'n steekpyn.\nEn ek kan nie asem haal nie.\nWat moet ek doen met die pyn\nAs ek jou stoep en Castle Lites op 'n Vrydagaand na werk mis?\n\nEn jou stem",
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1580486555,
+    id: 'UBu7gPFkUZJAzWMelJ8i',
     __collections__: {}
   },
   UCsMXTg6VzGuBaJBsm18: {
+    handle: '',
+    name: 'Wat as',
+    body:
+      'Wat as,\nEk oorbegin en die selfde doen\nWat as jy weer so is\nEn ek ook.\nLeer ons by ons self?\nMaar wat as ek beter is\nEn jy vergewe\nasb\n',
+    reported: false,
     date: 1538851467,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'UCsMXTg6VzGuBaJBsm18',
@@ -11297,17 +11321,9 @@ const p = {
     mongo_id: '5bb9028ab8ad2d0014165991',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: 'Wat as',
-    body:
-      'Wat as,\nEk oorbegin en die selfde doen\nWat as jy weer so is\nEn ek ook.\nLeer ons by ons self?\nMaar wat as ek beter is\nEn jy vergewe\nasb\n',
-    reported: false,
     __collections__: {}
   },
   UG5xvz702fMrrCZSHuSL: {
-    id: 'UG5xvz702fMrrCZSHuSL',
-    bookmarkedCount: 0,
-    mongo_id: '5c856cd6470b8000150b206e',
     nsfw: false,
     adminNotes: 'None',
     handle: '#azilleconradie',
@@ -11317,9 +11333,17 @@ const p = {
     reported: false,
     date: 1552248022,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'UG5xvz702fMrrCZSHuSL',
+    bookmarkedCount: 0,
+    mongo_id: '5c856cd6470b8000150b206e',
     __collections__: {}
   },
   UI2kig0g76BNeEoqqJop: {
+    nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>Dokters en hulle verdomde oorywerige skêrtjies 20 jaar terug. Vandag sit ons met \'n volk </span><span style="font-style: italic;">onbedekte, droërige</span><span> mans. </span></p></div>',
+    reported: false,
     repliedTo: null,
     date: 1570274880,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
@@ -11331,11 +11355,6 @@ const p = {
     id: 'UI2kig0g76BNeEoqqJop',
     repliedToName: null,
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>Dokters en hulle verdomde oorywerige skêrtjies 20 jaar terug. Vandag sit ons met \'n volk </span><span style="font-style: italic;">onbedekte, droërige</span><span> mans. </span></p></div>',
-    reported: false,
     __collections__: {}
   },
   UIzuaz8tH4AXSc9BXfnW: {
@@ -11353,8 +11372,6 @@ const p = {
     __collections__: {}
   },
   ULOvGgd5JJLNSM9dYFyG: {
-    id: 'ULOvGgd5JJLNSM9dYFyG',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -11364,10 +11381,11 @@ const p = {
     reported: false,
     date: 1560374826,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    id: 'ULOvGgd5JJLNSM9dYFyG',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   UMbJG7ybTceuPk08FrBF: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Rooikrans 5kg ',
@@ -11379,6 +11397,7 @@ const p = {
     id: 'UMbJG7ybTceuPk08FrBF',
     bookmarkedCount: 1,
     mongo_id: '5cd748355fe4dc0015db521f',
+    nsfw: false,
     __collections__: {}
   },
   UOiQ08IgC5lWa81XhZU4: {
@@ -11397,20 +11416,24 @@ const p = {
     __collections__: {}
   },
   URmUJLZsviJytqptm2r8: {
-    bookmarkedCount: 0,
-    mongo_id: '5c0906d92dc8bb0014e1748c',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Lyrics',
     body: 'The light at the end of the tunnel is a run away train.',
     reported: false,
     date: 1544095449,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'URmUJLZsviJytqptm2r8',
+    bookmarkedCount: 0,
+    mongo_id: '5c0906d92dc8bb0014e1748c',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   USQl6TbtsBaTRL6fgc4x: {
+    name: 'Onthou Checkers na kerk',
+    reported: false,
+    body:
+      'kragprop\nOros (lite)\nvoëlsaad\ntamaties\nkakpapier\nOreos\nvisvingers\ntee (Glen)\nkondome (Durex-xtra)\nOliebolle\nvirgin gin\ntrouman\ntampons',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1533417351,
     id: 'USQl6TbtsBaTRL6fgc4x',
@@ -11419,20 +11442,9 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Onthou Checkers na kerk',
-    reported: false,
-    body:
-      'kragprop\nOros (lite)\nvoëlsaad\ntamaties\nkakpapier\nOreos\nvisvingers\ntee (Glen)\nkondome (Durex-xtra)\nOliebolle\nvirgin gin\ntrouman\ntampons',
     __collections__: {}
   },
   USXpRX6hV3cLnBFd0VIp: {
-    repliedTo: null,
-    date: 1576178692,
-    uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
-    activeTema: null,
-    richText: true,
-    handle: 'stefanyseymore',
-    name: 'god. god ? g#d',
     canReply: true,
     id: 'USXpRX6hV3cLnBFd0VIp',
     repliedToName: null,
@@ -11442,16 +11454,16 @@ const p = {
     reported: false,
     body:
       '<div><p><span>Dit kon seker erger wees. </span></p><p><span>Ek het baie om voor dankbaar te wees. </span></p><p><span>‘n Huis\n‘n Werk\n‘n 3-gang maaltyd \n3-keurig \nOggend oats \nMiddag crackers \nEn aand ‘n glas water vir \n3-gang\nVir\n\nZolpimed\nEpitec\nZytomil \n\nDe moer met jou goedbedoelde narratiewe \n(onbewysde navorsing)\noptimisme\nDe moer met Job\nEk is nie nog ‘n verhaal nie...\n\nEk is Job. \nEk is Job. \nEk is Job. \n\nDeurdrenk my met u \n(liefde)\nbewyse as mens se veerkragtigheid\nIn die volheid van u volmaaktheid\nIs ek nie dankbaar nie. \nEk’s befok. \nHoor u?\nEk aanvaar nie wat my toegeëin is nie. \n\n\n</span></p></div>',
+    repliedTo: null,
+    date: 1576178692,
+    uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
+    activeTema: null,
+    richText: true,
+    handle: 'stefanyseymore',
+    name: 'god. god ? g#d',
     __collections__: {}
   },
   UTMaVMD5dyMdj1L7zmTB: {
-    richText: true,
-    handle: '',
-    name: '“Signs”',
-    canReply: true,
-    id: 'UTMaVMD5dyMdj1L7zmTB',
-    repliedToName: 'Is this your sign?',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -11460,22 +11472,33 @@ const p = {
     repliedTo: 'fOUVFDm2oeXb4psUcPEV',
     date: 1568976325,
     uid: 'OHLd2heTzcXJfochjjTxSzT4vr82',
+    richText: true,
+    handle: '',
+    name: '“Signs”',
+    canReply: true,
+    id: 'UTMaVMD5dyMdj1L7zmTB',
+    repliedToName: 'Is this your sign?',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   UVLWjIxkz0b3kaqBNTdI: {
+    date: 1559497523,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    id: 'UVLWjIxkz0b3kaqBNTdI',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'hoesgoed + bruistablette',
     body: "Jy't uit jou pad gegaan. Dankie. ",
     reported: false,
-    date: 1559497523,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    id: 'UVLWjIxkz0b3kaqBNTdI',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   UYWYn0g4aLyFXlKpmg9J: {
+    id: 'UYWYn0g4aLyFXlKpmg9J',
+    bookmarkedCount: 0,
+    mongo_id: '5c4c8ac258a4530015371cbe',
+    nsfw: false,
     adminNotes: 'None',
     handle: 'arnojvvuuren',
     name: '(uitge)brand',
@@ -11484,13 +11507,14 @@ const p = {
     reported: false,
     date: 1548520130,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'UYWYn0g4aLyFXlKpmg9J',
-    bookmarkedCount: 0,
-    mongo_id: '5c4c8ac258a4530015371cbe',
-    nsfw: false,
     __collections__: {}
   },
   Ua5iA7lgZz455oa2llaP: {
+    bookmarkedCount: 1,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     name: 'Millennial',
     body:
       '<div><p><span>Barbara Streisand en Neil Diamond se “You Don’t Bring Me Flowers” remasterd:</span></p><p><span></span></p><p><span>You don’t like my Instagram posts.</span></p></div>',
@@ -11498,19 +11522,9 @@ const p = {
     date: 1564863271,
     uid: '4mmRXsmPUdMPAxM8HlGwNv0RNgx1',
     id: 'Ua5iA7lgZz455oa2llaP',
-    bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   UaHB2ELvNhC7eTO3lpZM: {
-    bookmarkedCount: 0,
-    mongo_id: '5c4ecb59b182ed001541ad5b',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'tamiabrown.x',
     name: 'liewe sonneblom',
     body:
       'jy dwaal rond in my drome \nin elke sluk asem \nin elke traan wat my wange vlek \nelke euforiese oomblik is gekleur met skynsels van verlies \n\nek het vandag jou stem in die sagte wind gehoor \nek voel die laaste ritme van jou pols elke keur as jou ma my vas hou \n\njy \nis \noral \n  behalwe waar ek jou die meeste\n  nodig het \n    - in my arms.\n',
@@ -11518,10 +11532,14 @@ const p = {
     date: 1548667737,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'UaHB2ELvNhC7eTO3lpZM',
+    bookmarkedCount: 0,
+    mongo_id: '5c4ecb59b182ed001541ad5b',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'tamiabrown.x',
     __collections__: {}
   },
   UbieZZlq7RbRvXBOH6zz: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Sunset ',
@@ -11532,9 +11550,15 @@ const p = {
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'UbieZZlq7RbRvXBOH6zz',
     bookmarkedCount: 1,
+    nsfw: false,
     __collections__: {}
   },
   Ud9kcuczyMn4AivuCSDM: {
+    id: 'Ud9kcuczyMn4AivuCSDM',
+    bookmarkedCount: 0,
+    mongo_id: '5cce93e32f998a0015075a6d',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Ek mis jou nie',
     body:
@@ -11542,29 +11566,28 @@ const p = {
     reported: false,
     date: 1557042148,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'Ud9kcuczyMn4AivuCSDM',
-    bookmarkedCount: 0,
-    mongo_id: '5cce93e32f998a0015075a6d',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   UglM2sSnA9VIi7IY8rhE: {
-    id: 'UglM2sSnA9VIi7IY8rhE',
-    bookmarkedCount: 0,
-    mongo_id: '5c547ce437cb4f0015cdcacb',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Hang the DJ',
     body:
       'Moet my asseblief nie vergeet nie\nOns in \'n boks in jou kas wegbêre nie\nAsseblief\nJou kas is buitendien nie groot genoeg vir my hart nie\n\n"But\'s the heart not like a box that gets filled up. It expands in size the more you love."\n\n\n',
     reported: false,
     date: 1549040869,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'UglM2sSnA9VIi7IY8rhE',
+    bookmarkedCount: 0,
+    mongo_id: '5c547ce437cb4f0015cdcacb',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   UwJ7ficFgzL4tv4XNT3w: {
+    name: '"Ek het net goed bedoel"',
+    reported: false,
+    body:
+      'Wie dink nog hulle sou beter af wees sonder \'n pa wat inmeng, mansplain, afbreek en dit alles net "goed bedoel"?',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1573561766,
     id: 'UwJ7ficFgzL4tv4XNT3w',
@@ -11572,17 +11595,9 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: '"Ek het net goed bedoel"',
-    reported: false,
-    body:
-      'Wie dink nog hulle sou beter af wees sonder \'n pa wat inmeng, mansplain, afbreek en dit alles net "goed bedoel"?',
     __collections__: {}
   },
   UyDTJ0wHorsF3XapYwx5: {
-    id: 'UyDTJ0wHorsF3XapYwx5',
-    bookmarkedCount: 0,
-    mongo_id: '5bb5cb586d92ae00145bb810',
-    nsfw: false,
     adminNotes: 'None',
     handle: 'oom koos muller.',
     name: 'wie sou kond(r)oom',
@@ -11591,13 +11606,13 @@ const p = {
     reported: false,
     date: 1538640728,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'UyDTJ0wHorsF3XapYwx5',
+    bookmarkedCount: 0,
+    mongo_id: '5bb5cb586d92ae00145bb810',
+    nsfw: false,
     __collections__: {}
   },
   UzyNKIwdcZ1RxarWL7Bp: {
-    id: 'UzyNKIwdcZ1RxarWL7Bp',
-    bookmarkedCount: 0,
-    mongo_id: '5ba94ac3cbd6b6001489e97c',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Titel',
@@ -11606,9 +11621,14 @@ const p = {
     reported: false,
     date: 1537821380,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'UzyNKIwdcZ1RxarWL7Bp',
+    bookmarkedCount: 0,
+    mongo_id: '5ba94ac3cbd6b6001489e97c',
+    nsfw: false,
     __collections__: {}
   },
   VAlrBrdwpvqS6bgaqtMF: {
+    richText: true,
     handle: '',
     name: 'Helde',
     canReply: true,
@@ -11623,11 +11643,9 @@ const p = {
     repliedTo: null,
     date: 1568920580,
     uid: 'O5bSoMjt35ZIXXImaNprTSOmtog2',
-    richText: true,
     __collections__: {}
   },
   VDsjnI78d0KMEdFjpCdC: {
-    handle: '',
     name: 'Vriendskap',
     body:
       'Wat is vriendskap vir my, vir jou\nOm altyd daar te wees in goeie en slegte tye\nDan soos n oogwink verdwaan jou\nvriende uit jou lewe\n\nJy vra jouself af hoe dan nou\nDit maak jou binneste seer \nMaak jy dan nie meer saak\n\nDan kom jy tot die besef\nJyt hul ontgroei\nJy maak ander vriende op social media\nVriende oor die hele wereld\nVan uit jou huis ontmoet jy nuwe mense\nHow lucky is ons.\n\n\n\n\n\n',
@@ -11638,10 +11656,10 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   VE62oRB5pK5PTx5Kc94M: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -11652,9 +11670,11 @@ const p = {
     date: 1562280465,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'VE62oRB5pK5PTx5Kc94M',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   VGkeviwyiGCmwSr1hZlO: {
+    bookmarkedCount: 0,
     mongo_id: '5c10db88617e2c00144124fb',
     nsfw: false,
     adminNotes: 'None',
@@ -11665,10 +11685,12 @@ const p = {
     date: 1544608648,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'VGkeviwyiGCmwSr1hZlO',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   VQjLwl3LjNZU8lqRlzzq: {
+    mongo_id: '5caf9653a6177e00157fdb0b',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: '21:30',
     body: 'Moeg, moet my nie verloor nie.',
@@ -11677,12 +11699,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'VQjLwl3LjNZU8lqRlzzq',
     bookmarkedCount: 0,
-    mongo_id: '5caf9653a6177e00157fdb0b',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   VSIluEi2dRb8rknZYuwO: {
+    bookmarkedCount: 3,
     mongo_id: '5ce0ed3fc043ea001550212f',
     nsfw: false,
     adminNotes: 'None',
@@ -11694,12 +11714,9 @@ const p = {
     date: 1558244672,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'VSIluEi2dRb8rknZYuwO',
-    bookmarkedCount: 3,
     __collections__: {}
   },
   VUOAa78WLkcco0Xg54Hl: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'kitchendutch',
     name: 'Die Smart Gevaar',
     body:
@@ -11709,6 +11726,8 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'VUOAa78WLkcco0Xg54Hl',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   VVgdTVH96JoK8jtJ4xco: {
@@ -11725,9 +11744,6 @@ const p = {
     __collections__: {}
   },
   VXjylcJDfACBY8Hzdbb8: {
-    id: 'VXjylcJDfACBY8Hzdbb8',
-    bookmarkedCount: 0,
-    mongo_id: '5c460a6397070b0015c4ffdc',
     nsfw: false,
     adminNotes: 'None',
     handle: 'ahwelgemoed',
@@ -11737,12 +11753,12 @@ const p = {
     reported: false,
     date: 1548094051,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'VXjylcJDfACBY8Hzdbb8',
+    bookmarkedCount: 0,
+    mongo_id: '5c460a6397070b0015c4ffdc',
     __collections__: {}
   },
   VYAUaeVjXm2b8Spz5shD: {
-    id: 'VYAUaeVjXm2b8Spz5shD',
-    bookmarkedCount: 0,
-    mongo_id: '5bde2c852b14900014390af6',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -11751,6 +11767,9 @@ const p = {
     reported: false,
     date: 1541287046,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'VYAUaeVjXm2b8Spz5shD',
+    bookmarkedCount: 0,
+    mongo_id: '5bde2c852b14900014390af6',
     __collections__: {}
   },
   VYa9Gb8lEKSWFuobFGJV: {
@@ -11773,6 +11792,9 @@ const p = {
     __collections__: {}
   },
   VeMeHoadUngxFOfD4vHR: {
+    mongo_id: '5cd2b5e35f6f4b001567263a',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Links of Regs',
     body: 'Hoekom kan ek nie kry waarna ek soek nie?',
@@ -11781,12 +11803,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'VeMeHoadUngxFOfD4vHR',
     bookmarkedCount: 0,
-    mongo_id: '5cd2b5e35f6f4b001567263a',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   Vgp2pygM4p9zKn984p49: {
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1576013544,
+    id: 'Vgp2pygM4p9zKn984p49',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'ankespies',
@@ -11794,13 +11817,15 @@ const p = {
     reported: false,
     body:
       "kom ons ry\nek weet nie waarheen nie,\nmiskien net nerens. \nons kan erens op 'n koppie padkos eet\nen praat oor die natuur of die weer\nof die toekoms\nek weet nie,\nnet nie oor die verlede nie.\nkom ons neem foto's van al die plekke waar ons stop,\nons kan by elke vulstasie plekke ruil\nen beurte maak om te slaap.\nkom ons pak 'n klein tassie\nmet net die noodsaaklikhede's\nen 'n klein noodhulpsakkie met pleisters\nen panado's.\nkom ons skryf hierdie storie\nsonder pen of papier\nmaar met foto's en herhinneringe en voetspore en liefde en glimlagte, \nwant niemand hoef te weet nie.\nkom verdwyn net so rukkie saam met\nmy. ",
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1576013544,
-    id: 'Vgp2pygM4p9zKn984p49',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   VhcJT8pK5j5Qnve6SvtL: {
+    canReply: true,
+    id: 'VhcJT8pK5j5Qnve6SvtL',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     body:
       "<div><p><span>Here, mag ek eendag (of môre) sterf wyl ons lag. Dalk 'n hartaanval, dalk 'n stroke of 'n ongeluk, maar asseblief mag dit saam met my gunstelingmense wees?</span></p><p><span></span></p><p><span>Amen.  </span></p></div>",
     reported: false,
@@ -11811,18 +11836,9 @@ const p = {
     richText: true,
     handle: '',
     name: 'Gebed',
-    canReply: true,
-    id: 'VhcJT8pK5j5Qnve6SvtL',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   VimmSZ7GROYfrVRAxKim: {
-    id: 'VimmSZ7GROYfrVRAxKim',
-    bookmarkedCount: 0,
-    mongo_id: '5cb88f048385fb001566552e',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -11832,10 +11848,12 @@ const p = {
     reported: false,
     date: 1555599108,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'VimmSZ7GROYfrVRAxKim',
+    bookmarkedCount: 0,
+    mongo_id: '5cb88f048385fb001566552e',
     __collections__: {}
   },
   VkGXqtEWRXukxQYt3KUd: {
-    mongo_id: '5c29cba41d86270014965a8e',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -11847,9 +11865,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'VkGXqtEWRXukxQYt3KUd',
     bookmarkedCount: 0,
+    mongo_id: '5c29cba41d86270014965a8e',
     __collections__: {}
   },
   VmtCj8ajmq0IdtzctfXe: {
+    handle: '',
     name: 'Life is short',
     body:
       "<div><p><span>Waar begin mens</span></p><p><span>Jy kyk na jou lewe en die om jou</span></p><p><span>Jy besef die lewe is hard</span></p><p><span>Hard soos 'n klip</span></p><p><span></span></p><p><span>Deur my lewens jare</span></p><p><span>Het ek besef dis elkeen vir homself</span></p><p><span>Waarom, hoekom is die mensdom dan so.</span></p><p><span></span></p><p><span>Is dit maar net onse gejaagde lewe.</span></p><p><span>of is die mensdom net so gelaat staan.</span></p><p><span>Al wat oor bly vir my is.</span></p><p><span>Maak staat op niemand behalwe jouself.</span></p><p><span></span></p><p><span>Die lewe is soos 'n nikkerball</span></p><p><span>Dis hard soos die lewe hard is.</span></p><p><span>Daars nie plek vir mense soos ek.</span></p><p><span></span></p><p><span>Life is short soms te kort.</span></p></div>",
@@ -11861,10 +11881,11 @@ const p = {
     nsfw: false,
     richText: true,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   VsPsfaBetx7SmWUyjtmy: {
+    bookmarkedCount: 2,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'sprong',
@@ -11874,15 +11895,9 @@ const p = {
     date: 1567018824,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'VsPsfaBetx7SmWUyjtmy',
-    bookmarkedCount: 2,
-    nsfw: false,
     __collections__: {}
   },
   VscXRjYT4irKDOFQBoFe: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Sien?',
     canReply: true,
     id: 'VscXRjYT4irKDOFQBoFe',
     repliedToName: null,
@@ -11895,9 +11910,15 @@ const p = {
     repliedTo: null,
     date: 1579035404,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Sien?',
     __collections__: {}
   },
   VuWVX93EsE3byUskyXXW: {
+    bookmarkedCount: 0,
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -11908,15 +11929,9 @@ const p = {
     date: 1566250201,
     uid: '5EMArZ00g3eZLgq16wDf9DJFX7a2',
     id: 'VuWVX93EsE3byUskyXXW',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   VwHExSnAG5OhDv9oYuGJ: {
-    mongo_id: '5c339bc3a0d9fe0015e0c2d1',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'tamiabrown.x',
     name: 'dear dad',
     body:
       'i started cutting because i needed to find something that hurt more than your words',
@@ -11925,9 +11940,16 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'VwHExSnAG5OhDv9oYuGJ',
     bookmarkedCount: 0,
+    mongo_id: '5c339bc3a0d9fe0015e0c2d1',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'tamiabrown.x',
     __collections__: {}
   },
   VyF0pDsl0Fap1NwV7z05: {
+    handle: 'mabethc',
+    name: 'verduideliking',
+    canReply: true,
     id: 'VyF0pDsl0Fap1NwV7z05',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -11941,12 +11963,11 @@ const p = {
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     activeTema: null,
     richText: true,
-    handle: 'mabethc',
-    name: 'verduideliking',
-    canReply: true,
     __collections__: {}
   },
   VyFkjTm41D9kKwFBHXAg: {
+    bookmarkedCount: 0,
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -11957,8 +11978,6 @@ const p = {
     date: 1563562486,
     uid: 'wYBAKjCbgJXdIee0uBnpL1By4oi2',
     id: 'VyFkjTm41D9kKwFBHXAg',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   VzDOdyW6QgSu4OTqmHS2: {
@@ -11980,8 +11999,6 @@ const p = {
     __collections__: {}
   },
   W1AjxG874yTX9lkrzJoK: {
-    mongo_id: '5b7ebee477cb930014b0cffd',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'sit en wag ',
@@ -11992,13 +12009,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'W1AjxG874yTX9lkrzJoK',
     bookmarkedCount: 0,
+    mongo_id: '5b7ebee477cb930014b0cffd',
+    nsfw: false,
     __collections__: {}
   },
   W2xPtKvg78Ih6KTXD1dG: {
-    handle: '',
-    name: 'Monstermasjien',
-    body: 'Alles is baie vreemd vir my',
-    reported: false,
     date: 1551715563,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'W2xPtKvg78Ih6KTXD1dG',
@@ -12006,9 +12021,16 @@ const p = {
     mongo_id: '5c7d4ceacbaba00015458f25',
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
+    name: 'Monstermasjien',
+    body: 'Alles is baie vreemd vir my',
+    reported: false,
     __collections__: {}
   },
   W37TD7o7yNQPqPB0l4is: {
+    name: 'Please Call Me',
+    body: 'Ja. selfde en wat maak dit saak.',
+    reported: false,
     date: 1561754160,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'W37TD7o7yNQPqPB0l4is',
@@ -12016,13 +12038,9 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Please Call Me',
-    body: 'Ja. selfde en wat maak dit saak.',
-    reported: false,
     __collections__: {}
   },
   W79y8mjjuDdEQDduiwPT: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Wolftrap',
@@ -12032,11 +12050,10 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'W79y8mjjuDdEQDduiwPT',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   WBGcxEJwPW4Npt9UmYvo: {
-    id: 'WBGcxEJwPW4Npt9UmYvo',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'aud6362',
@@ -12046,24 +12063,25 @@ const p = {
     reported: false,
     date: 1559868832,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
+    id: 'WBGcxEJwPW4Npt9UmYvo',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   WEw41iFD9zs7Kk79Qzqm: {
-    handle: '',
-    name: 'Jy',
-    body:
-      'Vandag het jy in jou suit langs my gestaan  en my teen jou vasgedruk toe ek gesnik het.  Ekt besef in daardie oomblik dat ek nooit nie langs jou wil wees nie. \nEk wens jyt geweet hoe dankbaar ek vir jou is. \nAl glo ek nie altyd nie. ',
-    reported: false,
     date: 1562351316,
     uid: '8govqTsKkVZZbWmT1gqDKUWg0zs1',
     id: 'WEw41iFD9zs7Kk79Qzqm',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
+    name: 'Jy',
+    body:
+      'Vandag het jy in jou suit langs my gestaan  en my teen jou vasgedruk toe ek gesnik het.  Ekt besef in daardie oomblik dat ek nooit nie langs jou wil wees nie. \nEk wens jyt geweet hoe dankbaar ek vir jou is. \nAl glo ek nie altyd nie. ',
+    reported: false,
     __collections__: {}
   },
   WGi3KFeUvpqB5C30i5oj: {
-    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -12079,9 +12097,12 @@ const p = {
     id: 'WGi3KFeUvpqB5C30i5oj',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   WHoHg54YDshc9URjkzGb: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Eentonig',
     body:
@@ -12091,8 +12112,6 @@ const p = {
     uid: 'rpq9oKNAkHglvTyfeI0KETpOgi53',
     id: 'WHoHg54YDshc9URjkzGb',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   WJAen98e0bLPkSsKccnJ: {
@@ -12111,7 +12130,6 @@ const p = {
     __collections__: {}
   },
   WKfEuuAN4cQNL4yGzGrL: {
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: 'mabethc',
@@ -12123,13 +12141,10 @@ const p = {
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     id: 'WKfEuuAN4cQNL4yGzGrL',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   WWOD4DgEOit8L6fiAeJm: {
-    name: 'My na middernag lewe',
-    body:
-      "<div><p><span>Weereens die stilte van kloppende</span></p><p><span>sekondes in na middernag ure</span></p><p><span>Net die sagte asemhaling van jou is hoorbaar</span></p><p><span>Rustig en diep teken van 'n k</span><span>ommervrye lewe</span></p><p><span>Jy kry aandag en kos</span></p><p><span>Warm bed om mee te deel</span></p><p><span>Ek vra jou niks ek verstaan</span></p><p><span>Jy kan nie praat nie</span></p><p><span>Niks vertel van wat jy sien</span></p><p><span>Jou stilte sal verewig duur</span></p><p><span>En dis okay</span></p><p><span>Jy bly my beste lojale vriend</span></p><p><span></span></p></div>",
-    reported: false,
     date: 1562974195,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'WWOD4DgEOit8L6fiAeJm',
@@ -12138,10 +12153,13 @@ const p = {
     richText: true,
     adminNotes: 'None',
     handle: 'aud6362',
+    name: 'My na middernag lewe',
+    body:
+      "<div><p><span>Weereens die stilte van kloppende</span></p><p><span>sekondes in na middernag ure</span></p><p><span>Net die sagte asemhaling van jou is hoorbaar</span></p><p><span>Rustig en diep teken van 'n k</span><span>ommervrye lewe</span></p><p><span>Jy kry aandag en kos</span></p><p><span>Warm bed om mee te deel</span></p><p><span>Ek vra jou niks ek verstaan</span></p><p><span>Jy kan nie praat nie</span></p><p><span>Niks vertel van wat jy sien</span></p><p><span>Jou stilte sal verewig duur</span></p><p><span>En dis okay</span></p><p><span>Jy bly my beste lojale vriend</span></p><p><span></span></p></div>",
+    reported: false,
     __collections__: {}
   },
   WYp2WmDN8JcZ07mjXBKm: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -12152,12 +12170,10 @@ const p = {
     date: 1558987630,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'WYp2WmDN8JcZ07mjXBKm',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   WYvmw81LTDO9vwsVimLW: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>En albei laat ons met die idee</span></p><p><span>Dat as ons</span></p><p><span>Genoeg saam</span></p><p><span>Tyd spandeer</span></p><p><span>Sal ons daardie raaisel</span></p><p><span>Uit kan span soos seile</span></p><p><span>Uit kan skryf in uitdraaikryt</span></p><p><span>Op papirus</span></p><p><span></span></p><p><span>Die liefde en die poësie</span></p><p><span>Albei so verwarrend</span></p><p><span>Albei so lekker om te probeer</span></p><p><span>Uitklaar</span></p><p><span></span><span></span><span></span></p></div>',
@@ -12171,9 +12187,15 @@ const p = {
     canReply: true,
     id: 'WYvmw81LTDO9vwsVimLW',
     repliedToName: 'genoegsaam',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   WdLYlneFDSY6pICqUTHk: {
+    id: 'WdLYlneFDSY6pICqUTHk',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -12187,17 +12209,9 @@ const p = {
     handle: '',
     name: '2020.02.13',
     canReply: true,
-    id: 'WdLYlneFDSY6pICqUTHk',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   WiCMwTh9aUckhk2e8Wbg: {
-    id: 'WiCMwTh9aUckhk2e8Wbg',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       "<div><p><span>Oor 4 dae is dit 'n jaar</span></p><p><span>'n hele jaar nadat jy die mat onder my voete uitgepluk het</span></p><p><span>'n jaar sedert ek en my trane 'n vreemde vriendskap ontwikkel het</span></p><p><span></span></p><p><span>'n jaar vandat ek uit frustrasie my woorde begin neerpen het, met die punt wat ek uit woede deur die bladsy wil druk om dit te laat pas by my geskeurde hart</span></p><p><span></span></p><p><span>Dis net 'n jaar</span></p><p><span>So mag ek dan nog aan jou dink?</span></p><p><span>Mag ek nog 'n paar \"what ifs\" vir oulaas opdroom?</span></p><p><span>Mag ek verby jou manupilasie, jou selfbevredigende natuur en jou tekort aan morele waardes kyk en jou blou oë so bietjie mis?</span></p><p><span></span></p><p><span>Dis immers so te sê net 'n jaar terug wat jy besluit het dat jy nie weet wat liefde is nie - d</span><span>is amper al 'n jaar.</span></p><p><span></span></p><p><span>En ek wonder</span></p><p><span>Na 365 dae van roekelose gedagtes en te veel aande van trane en my amper onherkenbare stem se 'ek-mis-jou' </span></p><p><span>Weet jy nou al? </span></p></div>",
@@ -12209,9 +12223,17 @@ const p = {
     handle: '',
     name: 'Magspeletjies',
     canReply: true,
+    id: 'WiCMwTh9aUckhk2e8Wbg',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   Wj9X8n29ZDigL7I9NzV1: {
+    date: 1563210495,
+    uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
+    id: 'Wj9X8n29ZDigL7I9NzV1',
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
@@ -12221,20 +12243,9 @@ const p = {
     body:
       '<div><p><span>Ek verkies muisneste bo verkoue. </span></p><p><span>Met beide sukkel ek om te dink, </span></p><p><span>My kop voel vol en gedagtes trek traag. </span></p><p><span>Met die een draai my kop dronk rond</span></p><p><span>En die ander een laat my maag bollemakiesie slaan.</span></p><p><span></span></p></div>',
     reported: false,
-    date: 1563210495,
-    uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
-    id: 'Wj9X8n29ZDigL7I9NzV1',
     __collections__: {}
   },
   Wk1VQzumDEbHHJzAaiyv: {
-    handle: '',
-    name: 'Eerste keer',
-    canReply: true,
-    id: 'Wk1VQzumDEbHHJzAaiyv',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Ek het gedink dat ek nou </span></p><p><span>die maturity sal hê </span></p><p><span>om daaroor te skryf, </span></p><p><span>maar my erotic vocab </span></p><p><span>is so non-existing </span></p><p><span>soos my virginity.</span></p><p><span>\nGelukkig kan ek dit nou sê:\n“Seks”.\n\nEn dit was fokken lekker.</span></p></div>',
@@ -12243,14 +12254,17 @@ const p = {
     uid: '4mmRXsmPUdMPAxM8HlGwNv0RNgx1',
     activeTema: null,
     richText: true,
+    handle: '',
+    name: 'Eerste keer',
+    canReply: true,
+    id: 'Wk1VQzumDEbHHJzAaiyv',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   WtQfb5legMiAu1mHh59C: {
-    nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>jy en 2019 </span></p><p><span>albei laat ek agter</span></p><p><span></span></p><p><span></span></p></div>',
-    reported: false,
     repliedTo: null,
     date: 1577818483,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
@@ -12262,9 +12276,15 @@ const p = {
     id: 'WtQfb5legMiAu1mHh59C',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>jy en 2019 </span></p><p><span>albei laat ek agter</span></p><p><span></span></p><p><span></span></p></div>',
+    reported: false,
     __collections__: {}
   },
   WtTAmdq0k0yR1YS6sawI: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Simson',
@@ -12275,11 +12295,9 @@ const p = {
     date: 1576684006,
     id: 'WtTAmdq0k0yR1YS6sawI',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   WueoOX9xuh9AnfCBjU6L: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'ah-ha',
@@ -12290,6 +12308,7 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1568568991,
     id: 'WueoOX9xuh9AnfCBjU6L',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   Wv2lao3PMWlNyteToqnC: {
@@ -12323,6 +12342,11 @@ const p = {
     __collections__: {}
   },
   WxDxXkYqyizoaBFEihQN: {
+    id: 'WxDxXkYqyizoaBFEihQN',
+    bookmarkedCount: 0,
+    mongo_id: '5b81ea46ecf59f00141c9cb7',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Jou naam',
     body:
@@ -12330,14 +12354,12 @@ const p = {
     reported: false,
     date: 1535240775,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'WxDxXkYqyizoaBFEihQN',
-    bookmarkedCount: 0,
-    mongo_id: '5b81ea46ecf59f00141c9cb7',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   WxJkAbK0TraA3oVbT6NB: {
+    id: 'WxJkAbK0TraA3oVbT6NB',
+    bookmarkedCount: 0,
+    mongo_id: '5ce30d310d18bf00151c5cab',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -12346,30 +12368,23 @@ const p = {
     reported: false,
     date: 1558383921,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'WxJkAbK0TraA3oVbT6NB',
-    bookmarkedCount: 0,
-    mongo_id: '5ce30d310d18bf00151c5cab',
     __collections__: {}
   },
   Wyxst6bzoBgZ4kEwt6Ed: {
+    name: '🤮',
+    body: 'Dink vinaand and jou',
+    reported: false,
+    date: 1553796422,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Wyxst6bzoBgZ4kEwt6Ed',
     bookmarkedCount: 0,
     mongo_id: '5c9d0d46c7bb5c0015518ee6',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: '🤮',
-    body: 'Dink vinaand and jou',
-    reported: false,
-    date: 1553796422,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   X9mpJiY7qy4NBhhA1TX1: {
-    id: 'X9mpJiY7qy4NBhhA1TX1',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'sondagaandsiekte',
     reported: false,
@@ -12377,9 +12392,15 @@ const p = {
       "Die is net 'n episode \nDie is net 'n episode\nDie is net 'n episode \nDie is net 'n episode\n\nDie's nét 'n episode\nDie's nét 'n episode\nDie's nét 'n episode\nDie's nét 'n episode\nDie's nét 'n episode\n\nMôre oggend is alles weer fine. \n\n",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1572817968,
+    id: 'X9mpJiY7qy4NBhhA1TX1',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   XCRwiEp39aKhXPTymt0n: {
+    nsfw: false,
+    richText: true,
     adminNotes: 'None',
     handle: '',
     name: 'Moderne Liefdesverhaal',
@@ -12390,8 +12411,6 @@ const p = {
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
     id: 'XCRwiEp39aKhXPTymt0n',
     bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
     __collections__: {}
   },
   XOYzVNKBOS8ccbnMrPkj: {
@@ -12408,6 +12427,9 @@ const p = {
     __collections__: {}
   },
   XR4AjwdaLu0zevpYowJH: {
+    date: 1556175109,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'XR4AjwdaLu0zevpYowJH',
     bookmarkedCount: 0,
     mongo_id: '5cc1590400ce0b0015a48379',
     nsfw: false,
@@ -12417,12 +12439,14 @@ const p = {
     body:
       "I haven't caught your attention, have I?\nWell, let me tell you about my pain and suffering.\nWould it amuse you then?\nTo see me smile even after all that. \n",
     reported: false,
-    date: 1556175109,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'XR4AjwdaLu0zevpYowJH',
     __collections__: {}
   },
   XVILIYI0ghLK5IYeFkc5: {
+    name: 'Verlange',
+    canReply: true,
+    id: 'XVILIYI0ghLK5IYeFkc5',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -12433,14 +12457,12 @@ const p = {
     uid: 'sTwhHOWrUBhJBDSdqd1m3Bl3HtO2',
     richText: true,
     handle: '',
-    name: 'Verlange',
-    canReply: true,
-    id: 'XVILIYI0ghLK5IYeFkc5',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   XVvTZsRHL4yZoupEBGc8: {
+    mongo_id: '5c573e3e85ae650015ee6416',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Fok Jou',
     body: 'waarheid en vrede het jy lankal uit my woordeskat gekrap',
@@ -12449,12 +12471,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'XVvTZsRHL4yZoupEBGc8',
     bookmarkedCount: 0,
-    mongo_id: '5c573e3e85ae650015ee6416',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   XW3qzOqJyMtJ1dAsJOTD: {
+    handle: 'antonbarnard ',
     name: 'Guntown (‘n uittreksel)',
     body: '... ‘n jeug is soos ‘n asshole\nelkeen kry net een daarvan...',
     reported: false,
@@ -12464,10 +12484,14 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    handle: 'antonbarnard ',
     __collections__: {}
   },
   XWxROl9rcidPGlOnrnl7: {
+    id: 'XWxROl9rcidPGlOnrnl7',
+    bookmarkedCount: 0,
+    mongo_id: '5b81e5bdecf59f00141c9cb6',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Hoorbeeld',
     body:
@@ -12475,16 +12499,9 @@ const p = {
     reported: false,
     date: 1535239614,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'XWxROl9rcidPGlOnrnl7',
-    bookmarkedCount: 0,
-    mongo_id: '5b81e5bdecf59f00141c9cb6',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   XX7UVdI5eSaopTdzH45I: {
-    id: 'XX7UVdI5eSaopTdzH45I',
-    bookmarkedCount: 0,
     mongo_id: '5ce832a5065228001559f85c',
     nsfw: false,
     adminNotes: 'None',
@@ -12494,11 +12511,11 @@ const p = {
     reported: false,
     date: 1558721190,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'XX7UVdI5eSaopTdzH45I',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   XXcs8qsmVtemHMy3YUBU: {
-    bookmarkedCount: 0,
-    mongo_id: '5be767bfc6c6d20014baedfa',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -12509,19 +12526,21 @@ const p = {
     date: 1541892032,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'XXcs8qsmVtemHMy3YUBU',
+    bookmarkedCount: 0,
+    mongo_id: '5be767bfc6c6d20014baedfa',
     __collections__: {}
   },
   XbHljXBRNeNj5fzlrpob: {
-    handle: 'ilzedup94',
-    name: 'Monoloog',
-    body: 'Argumente is maklik om te wen\ntensy dit met\njouself\nis. ',
-    reported: false,
     date: 1559848026,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     id: 'XbHljXBRNeNj5fzlrpob',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: 'ilzedup94',
+    name: 'Monoloog',
+    body: 'Argumente is maklik om te wen\ntensy dit met\njouself\nis. ',
+    reported: false,
     __collections__: {}
   },
   XbeMlhxxll5CVLQLKdnA: {
@@ -12540,6 +12559,10 @@ const p = {
     __collections__: {}
   },
   XiLnliqmbSxrwipniUEQ: {
+    name: 'Banting',
+    body:
+      "In die laste jaar het jy so verander \nJy't 2 goed uit gesny, suiker en my. \nEk't gehardloop, my kop gaan skeer, \nOp gode en bergies gaan skree. \naande dronk, aande alleen, \nDis net heen en weer,  leë bank rekeninge  \nwat genade aan die einde gee. ",
+    reported: false,
     date: 1532947472,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'XiLnliqmbSxrwipniUEQ',
@@ -12548,13 +12571,11 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Banting',
-    body:
-      "In die laste jaar het jy so verander \nJy't 2 goed uit gesny, suiker en my. \nEk't gehardloop, my kop gaan skeer, \nOp gode en bergies gaan skree. \naande dronk, aande alleen, \nDis net heen en weer,  leë bank rekeninge  \nwat genade aan die einde gee. ",
-    reported: false,
     __collections__: {}
   },
   XnedURxGk4bbnKwnETyP: {
+    date: 1564522049,
+    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'XnedURxGk4bbnKwnETyP',
     bookmarkedCount: 1,
     nsfw: false,
@@ -12565,14 +12586,9 @@ const p = {
     body:
       '<div><p><span>Ek wag vir jou</span></p><p><span>Om huistoe te kom\nBring daai brak wat soos jou kind is\nDaar is plek op my matras\n\nEn picture dan hierdie:\n\nHalfpad aan die slaap \nJy lees Genesis in my skoot\nMaar my God is nie opgeskryf nie \nEn díe begin is nie bekend\n\n-Sit jou vuis in my mond\nHierdie is nie die laaste asem in my nie\n-Kruip weg in my wond\nDaar is nog woede in my oor\n\nMaar as jy nou gaan stilbly\nGaan ek die </span><span style="font-style: italic;">plot</span><span> verloor</span></p></div>',
     reported: false,
-    date: 1564522049,
-    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     __collections__: {}
   },
   XqOoU1TMkJgIsaQzoHXe: {
-    id: 'XqOoU1TMkJgIsaQzoHXe',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Wedding vows (al glo jy nie in trou nie)',
@@ -12581,13 +12597,12 @@ const p = {
     reported: false,
     date: 1561215051,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'XqOoU1TMkJgIsaQzoHXe',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   XqeVS1UpVBgXqnGzQsVB: {
-    id: 'XqeVS1UpVBgXqnGzQsVB',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Desember 2019',
     reported: false,
@@ -12595,13 +12610,13 @@ const p = {
       "Karen Zoid songs op 'n Saterdagaand\nAlleen\nBottel twee rooiwyn\nTrane\nEn nou is ons by 'Groen Trui'\nWat doen ek met die pyn?",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1576346501,
+    id: 'XqeVS1UpVBgXqnGzQsVB',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   XrKV09wOLV9zTxxC0frd: {
-    name: 'JHB》》CPT',
-    reported: false,
-    body:
-      '(Insert poetic projections here) \n\n...maar langpadry maak my kak...\n\n\n\n\n\n\n\n\n\n\n\n...jags.  ',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1577619151,
     id: 'XrKV09wOLV9zTxxC0frd',
@@ -12609,9 +12624,15 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'JHB》》CPT',
+    reported: false,
+    body:
+      '(Insert poetic projections here) \n\n...maar langpadry maak my kak...\n\n\n\n\n\n\n\n\n\n\n\n...jags.  ',
     __collections__: {}
   },
   XwBEWsrPcT6n1RTZIUqF: {
+    id: 'XwBEWsrPcT6n1RTZIUqF',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -12621,11 +12642,11 @@ const p = {
     reported: false,
     date: 1567119837,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'XwBEWsrPcT6n1RTZIUqF',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   XwkubwTMRPkGfh0WdbEE: {
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Dis blou en eks groen',
@@ -12635,16 +12656,9 @@ const p = {
     date: 1558816402,
     uid: 'yWX8oBhQ6OUQD40wAhtJmPsT0qI3',
     id: 'XwkubwTMRPkGfh0WdbEE',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   Y5LBqrpBkfLP1tjTbFEj: {
-    id: 'Y5LBqrpBkfLP1tjTbFEj',
-    bookmarkedCount: 0,
-    mongo_id: '5c0ec98881e7e00014102bc7',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Space Race',
     body:
@@ -12652,10 +12666,14 @@ const p = {
     reported: false,
     date: 1544472968,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'Y5LBqrpBkfLP1tjTbFEj',
+    bookmarkedCount: 0,
+    mongo_id: '5c0ec98881e7e00014102bc7',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   Y6FBOU3KHURl9yljiNuh: {
-    nsfw: false,
     adminNotes: 'None',
     handle: 'Verbatim',
     name: 'everybody does it',
@@ -12667,9 +12685,15 @@ const p = {
     id: 'Y6FBOU3KHURl9yljiNuh',
     bookmarkedCount: 0,
     mongo_id: '5c46b448192a1600157f2d4d',
+    nsfw: false,
     __collections__: {}
   },
   Y9hoGG2LP9r0y4w8UIoq: {
+    id: 'Y9hoGG2LP9r0y4w8UIoq',
+    bookmarkedCount: 2,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Die rus is elders /',
     body:
@@ -12677,17 +12701,9 @@ const p = {
     reported: false,
     date: 1564573683,
     uid: 'ChSHAqBxafMEaUzAcDGGqHvSmZn1',
-    id: 'Y9hoGG2LP9r0y4w8UIoq',
-    bookmarkedCount: 2,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   YHiAIxoJWPNxSB0stiMI: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'ilzedup94',
     name: 'Telegram',
     body:
       'My potloodhart skryf jy stomp\nen druk te hard om uit te vee\nStop\nStop\nStop. ',
@@ -12696,6 +12712,9 @@ const p = {
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     id: 'YHiAIxoJWPNxSB0stiMI',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'ilzedup94',
     __collections__: {}
   },
   YJ44Yl2sBcVnXOt41Fy9: {
@@ -12713,9 +12732,6 @@ const p = {
     __collections__: {}
   },
   YJjwF6EFfQNYRyHarpFq: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Sakekamermaats',
     reported: false,
@@ -12723,9 +12739,16 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1571611632,
     id: 'YJjwF6EFfQNYRyHarpFq',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   YLvtU8rndsjDQ7KcHwsI: {
+    bookmarkedCount: 1,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Kyk vir my',
     body:
@@ -12734,16 +12757,9 @@ const p = {
     date: 1565844161,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'YLvtU8rndsjDQ7KcHwsI',
-    bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   YO6cuNuzWRklA9iB9HEW: {
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     name: 'Leemte wat nie gevul kan word',
     body:
       '<div><p><span>Ek dink aan jou naam</span></p><p><span>\'n naam wat "Hope" beteken</span></p><p><span>Hope vir my en jou ma</span></p><p><span></span></p><p><span>Ek onthou jou eerste huil.</span></p><p><span>Tot ek jou vas gehou het</span></p><p><span>My trane het gerol</span></p><p><span>Gerol van blydskap</span></p><p><span></span></p><p><span>Ek onthou hoe die winters son</span></p><p><span>Geskyn het oor my en jou</span></p><p><span>Hoe jou hartjie teen my gebons het</span></p><p><span>Hoe trots ek was.</span></p><p><span></span></p><p><span>Dan slaan die werklikheid</span></p><p><span>Jys nie meer klein</span></p><p><span>Jys \'n volwassene</span></p><p><span>Met jou eie lewenspad</span></p><p><span>Waar daar geen plek is vir my.</span></p><p><span></span></p><p><span>Want elke een is besig</span></p><p><span>Besig met sy eie doen en late</span></p><p><span>Daars nie meer tyd</span></p><p><span>Jyt vervreemed geraak</span></p><p><span></span></p><p><span>Al wat ek ken van jou</span></p><p><span>Is deele wat jy share op face book</span></p><p><span>Hartseer tree in</span></p><p><span>maar daars nie meer trane nie</span></p><p><span>Slegs die gevoel van leemte</span></p><p><span>Wat nie gevul kan word deur enige een</span></p></div>',
@@ -12753,10 +12769,12 @@ const p = {
     id: 'YO6cuNuzWRklA9iB9HEW',
     bookmarkedCount: 0,
     nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   YOxClqHnwzv24AUNdUYI: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Kom jy?',
@@ -12766,6 +12784,7 @@ const p = {
     uid: 'MnxQMtllmJSGkqY1s6zQHWcr8bk2',
     id: 'YOxClqHnwzv24AUNdUYI',
     bookmarkedCount: 1,
+    nsfw: false,
     __collections__: {}
   },
   YRdpn0vcYuK84KyJvYQB: {
@@ -12788,6 +12807,8 @@ const p = {
     __collections__: {}
   },
   YXxBSRfLQOceYm2npwRj: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'jacquesdeviljee',
     name: 'Ons is ons ouers maar met dwelms.',
     reported: false,
@@ -12797,14 +12818,9 @@ const p = {
     date: 1569217398,
     id: 'YXxBSRfLQOceYm2npwRj',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   YYK2eXmRVcOHjP3AZaik: {
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1559153660,
-    id: 'YYK2eXmRVcOHjP3AZaik',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -12813,9 +12829,17 @@ const p = {
     reported: true,
     body:
       "yellow bra and tits showing, bloodstains and nicotine craves, a fucking hole in my heart and a movie to keep me company instead of your brain, but if it's me reading the fucking signs, I'm way out of your league. bottels of wine, blooded teeth and tobacco stains. you pulled my cigarette. is it just me or did we fucked it up?",
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1559153660,
+    id: 'YYK2eXmRVcOHjP3AZaik',
     __collections__: {}
   },
   YhM9JYkiredL1eAeFd1Z: {
+    id: 'YhM9JYkiredL1eAeFd1Z',
+    bookmarkedCount: 0,
+    mongo_id: '5c5e890c6363bd0015480439',
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'jacquesdeviljee',
     name: '#houtkruis',
     body:
@@ -12823,14 +12847,11 @@ const p = {
     reported: false,
     date: 1549699340,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'YhM9JYkiredL1eAeFd1Z',
-    bookmarkedCount: 0,
-    mongo_id: '5c5e890c6363bd0015480439',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   Yl1wznoEv2wMFLyD73Fv: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Instagram...',
     body:
@@ -12840,18 +12861,9 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'Yl1wznoEv2wMFLyD73Fv',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   Ymmk6U6Sm6y1GeMMtxs2: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Anything',
-    canReply: true,
-    id: 'Ymmk6U6Sm6y1GeMMtxs2',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -12861,10 +12873,16 @@ const p = {
     repliedTo: null,
     date: 1570942030,
     uid: 'ZOllCBP26ccolbvxOPiICRDIlxC2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Anything',
+    canReply: true,
+    id: 'Ymmk6U6Sm6y1GeMMtxs2',
+    repliedToName: null,
     __collections__: {}
   },
   YoBdIxgpif8kK6AuV4fI: {
-    canReply: true,
     id: 'YoBdIxgpif8kK6AuV4fI',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -12880,6 +12898,7 @@ const p = {
     richText: true,
     handle: '',
     name: 'Is ons eintlik almal hartseer/ok?',
+    canReply: true,
     __collections__: {}
   },
   Yr3ntzCGC0KIaUv6u4ZB: {
@@ -12902,7 +12921,6 @@ const p = {
     __collections__: {}
   },
   YrEaCkC70proiIMEU1Kq: {
-    handle: '',
     name: "'n groot natte",
     body: "pppppp\npppppp\nppperongeluk \nalweer 'n pppoes gewees\n",
     reported: false,
@@ -12913,12 +12931,10 @@ const p = {
     mongo_id: '5c422e010afcb100152273df',
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   Yu3J9RUUPcdg9amCuM5E: {
-    activeTema: null,
-    richText: true,
-    handle: '',
     name: 'preekmense',
     canReply: true,
     id: 'Yu3J9RUUPcdg9amCuM5E',
@@ -12932,13 +12948,12 @@ const p = {
     repliedTo: null,
     date: 1578689234,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
+    richText: true,
+    handle: '',
     __collections__: {}
   },
   Z1jnZrk8MHpcCShQUD9X: {
-    richText: true,
-    handle: '',
-    name: 'gaia',
-    canReply: true,
     id: 'Z1jnZrk8MHpcCShQUD9X',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -12950,9 +12965,14 @@ const p = {
     repliedTo: null,
     date: 1568635287,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    richText: true,
+    handle: '',
+    name: 'gaia',
+    canReply: true,
     __collections__: {}
   },
   Z3HwdHnnKwRj4yJmEQjY: {
+    adminNotes: 'None',
     body:
       '<div><p><span>Poësie, my mens</span></p><p><span>Is dit nie maar </span></p><p><span>‘n Genoegsame verduideliking?</span></p><p><span>Poësie, my mens, poësie</span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>',
     reported: false,
@@ -12968,24 +12988,27 @@ const p = {
     repliedToName: '1 November 2016',
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   Z75zChWFbx2okR1Gp7gK: {
-    adminNotes: 'None',
-    handle: '',
-    name: 'Dis oulik, maar',
-    body: 'A\nA\nA\nA\nA\nA\nA\nA\n\nAsseblief,\nWhatsapp mekaar net tog. ',
-    reported: false,
     date: 1544645929,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'Z75zChWFbx2okR1Gp7gK',
     bookmarkedCount: 0,
     mongo_id: '5c116d29617e2c0014412501',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'Dis oulik, maar',
+    body: 'A\nA\nA\nA\nA\nA\nA\nA\n\nAsseblief,\nWhatsapp mekaar net tog. ',
+    reported: false,
     __collections__: {}
   },
   ZCGdcMeYa7evmwNzqsey: {
+    name: 'Getroud',
+    body:
+      'Hierdie... gom\nverband, verbinding...\nhierdie siek ding \ngeneedheid, \n(watter metafoor ook al)\nvan vasplak aan\nen vat \nwil ek nie meer hê nie. ',
+    reported: false,
     date: 1563543373,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ZCGdcMeYa7evmwNzqsey',
@@ -12993,14 +13016,9 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Getroud',
-    body:
-      'Hierdie... gom\nverband, verbinding...\nhierdie siek ding \ngeneedheid, \n(watter metafoor ook al)\nvan vasplak aan\nen vat \nwil ek nie meer hê nie. ',
-    reported: false,
     __collections__: {}
   },
   ZD8h3KAhbILlZUDgcomw: {
-    mongo_id: '5cc1339e00ce0b0015a48378',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -13011,12 +13029,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ZD8h3KAhbILlZUDgcomw',
     bookmarkedCount: 0,
+    mongo_id: '5cc1339e00ce0b0015a48378',
     __collections__: {}
   },
   ZFn3myDizFC7xPWNr0WS: {
-    date: 1563041022,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
-    id: 'ZFn3myDizFC7xPWNr0WS',
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
@@ -13026,13 +13042,12 @@ const p = {
     body:
       "<div><p><span>Tyd is min</span></p><p><span>Miskien 'n uur of twee</span></p><p><span>'n dag of twee</span></p><p><span>'n maand of twee</span></p><p><span>'n jaar of twee</span></p><p><span></span></p><p><span>Hoe sal ek weet </span></p><p><span>Wanneer my gaaring op is</span></p><p><span>My lewes pad om is.</span></p><p><span></span></p><p><span>Tyd sal leer</span></p><p><span>Leer hoe kort</span></p><p><span>Jou lewens pad is </span></p><p><span></span></p><p><span>Jou lewe op aarde is verby</span></p><p><span>Jou seer kry is oor</span></p><p><span>Jou hartseer is oor</span></p><p><span>Jou lewe is oor.</span></p><p><span></span></p><p><span>Wonder wat wag aan die ander kant vir jou Wie sal ooit weet tot dat dit jou tyd is om te gaan. </span></p></div>",
     reported: false,
+    date: 1563041022,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
+    id: 'ZFn3myDizFC7xPWNr0WS',
     __collections__: {}
   },
   ZJr7cBydeUmuCY572i64: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: '',
     name: 'Ja? ',
     body:
@@ -13041,10 +13056,13 @@ const p = {
     date: 1563888257,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'ZJr7cBydeUmuCY572i64',
+    bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   ZLyMjfqEkUyfxwXToUer: {
-    handle: '',
     name: 'My baas het my kak gegee tydens my performance appraisal',
     reported: false,
     body: '-',
@@ -13054,9 +13072,12 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   ZMpqNK9PB8UaQcUGlM8L: {
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Wanneer jy weer die liggies sien',
     body:
@@ -13067,11 +13088,10 @@ const p = {
     id: 'ZMpqNK9PB8UaQcUGlM8L',
     bookmarkedCount: 0,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   ZNQr68qlN9WtxhsqaOB4: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Breakup 1',
@@ -13083,14 +13103,9 @@ const p = {
     id: 'ZNQr68qlN9WtxhsqaOB4',
     bookmarkedCount: 0,
     mongo_id: '5c43df7011f2930015dbcdb3',
-    nsfw: false,
     __collections__: {}
   },
   ZUn2bVOqTZROCMot3yOk: {
-    bookmarkedCount: 0,
-    mongo_id: '5b6537b89e6b9f001417fb34',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'francoislct',
     name: '-',
     body:
@@ -13099,9 +13114,17 @@ const p = {
     date: 1533360056,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ZUn2bVOqTZROCMot3yOk',
+    bookmarkedCount: 0,
+    mongo_id: '5b6537b89e6b9f001417fb34',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   ZVmF0ZI8JA6tD06nVv80: {
+    name: ' ',
+    body:
+      '<div><p><span>My dae klink vol, maar voel </span><span style="font-weight: bold;">leeg</span><span>. </span></p></div>',
+    reported: false,
     date: 1565028160,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'ZVmF0ZI8JA6tD06nVv80',
@@ -13110,13 +13133,10 @@ const p = {
     richText: true,
     adminNotes: 'None',
     handle: '',
-    name: ' ',
-    body:
-      '<div><p><span>My dae klink vol, maar voel </span><span style="font-weight: bold;">leeg</span><span>. </span></p></div>',
-    reported: false,
     __collections__: {}
   },
   ZZYZTdBXj6bCrNIHwgyA: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Sometimes it gets me ',
@@ -13128,11 +13148,9 @@ const p = {
     id: 'ZZYZTdBXj6bCrNIHwgyA',
     bookmarkedCount: 0,
     mongo_id: '5c1ab29d212cd60014131cd6',
-    nsfw: false,
     __collections__: {}
   },
   ZltXbgN42SAcK3ahTL6X: {
-    handle: '',
     name: '... ',
     body:
       '<div><p><span style="font-weight: bold;">Ek haat hulle ook soms, </span><span style="font-weight: bold;font-style: italic;">tbh</span><span style="font-weight: bold;">. </span></p></div>',
@@ -13144,10 +13162,10 @@ const p = {
     nsfw: false,
     richText: true,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   Znk2IKPT40EYf6DKGYKk: {
-    nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'Bergpad',
@@ -13158,11 +13176,10 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'Znk2IKPT40EYf6DKGYKk',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   ZpCutu3hYGRZCDDBIzGK: {
-    mongo_id: '5b688a6072a6520014716b11',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'En So',
@@ -13173,9 +13190,15 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ZpCutu3hYGRZCDDBIzGK',
     bookmarkedCount: 0,
+    mongo_id: '5b688a6072a6520014716b11',
+    nsfw: false,
     __collections__: {}
   },
   ZsQKNLe7TxQq7dErR9B5: {
+    id: 'ZsQKNLe7TxQq7dErR9B5',
+    bookmarkedCount: 0,
+    mongo_id: '5b996116da774800140b1743',
+    nsfw: false,
     adminNotes: 'None',
     handle: 'Purple_pixie13',
     name: 'Verby',
@@ -13184,13 +13207,12 @@ const p = {
     reported: false,
     date: 1536778519,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'ZsQKNLe7TxQq7dErR9B5',
-    bookmarkedCount: 0,
-    mongo_id: '5b996116da774800140b1743',
-    nsfw: false,
     __collections__: {}
   },
   ZvdNeqZqzZeT4UcPQRgq: {
+    id: 'ZvdNeqZqzZeT4UcPQRgq',
+    repliedToName: null,
+    bookmarkedCount: 2,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -13204,14 +13226,9 @@ const p = {
     handle: 'stefanyseymore',
     name: 'god.',
     canReply: true,
-    id: 'ZvdNeqZqzZeT4UcPQRgq',
-    repliedToName: null,
-    bookmarkedCount: 2,
     __collections__: {}
   },
   ZwEfRJwBFvBTcqrALl11: {
-    bookmarkedCount: 0,
-    mongo_id: '5ca7d0616c762e00159bc71c',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -13221,10 +13238,11 @@ const p = {
     date: 1554501729,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ZwEfRJwBFvBTcqrALl11',
+    bookmarkedCount: 0,
+    mongo_id: '5ca7d0616c762e00159bc71c',
     __collections__: {}
   },
   ZyPywqBjpA6SPRPoaMml: {
-    id: 'ZyPywqBjpA6SPRPoaMml',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -13235,11 +13253,10 @@ const p = {
     reported: false,
     date: 1565128317,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'ZyPywqBjpA6SPRPoaMml',
     __collections__: {}
   },
   a2BpHfD8R0d4xHDCbxTJ: {
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1572865070,
     id: 'a2BpHfD8R0d4xHDCbxTJ',
     bookmarkedCount: 0,
     nsfw: false,
@@ -13249,6 +13266,8 @@ const p = {
     reported: false,
     body:
       "Calculate:\njy - 'n dubbel brannewyn\n       'n shot van watookal\n       'n natural underage look\n\nek - drie biere,\n        'n shot van die selle watookal\n        en ek swot regte\n\nskaal hande op en af, en ek gee jou die sleutels\nreuben sit shotgun, lê terug met sy oë toe\nek sit in die middel agter, jy knyp die stuurwiel met jou voorarms vas -\nnou nie juis encouraging nie\n\ntot op die straathoek veilig\nhatfield veilig\nen 'n draai\nen 'n swaaiende rooi, swaaiende blou\n\njy kyk om na my\n\"en nou?\"",
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1572865070,
     __collections__: {}
   },
   a7P88qbbMRxlecjbTiZX: {
@@ -13265,6 +13284,7 @@ const p = {
     __collections__: {}
   },
   a8uMOK0zV1JfzCMsUVxI: {
+    adminNotes: 'None',
     body:
       "<div><p><span>Ek leef my in, in 'n narratief</span></p><p><span>Ver vanaf die hede</span></p><p><span>In 'n denkbeeldige lewe </span></p><p><span>begewe ek my</span></p><p><span>\nEk neem vir myself die woorde\nEn trap saggies op die akkoorde\nVan n delikate lewenslied\nVir n ander ek bedoel\n\nDie note val na onder\nEn ek staan stil en naak daarsonder\nEk verloor my greep\nEn word terug gevoer na nou\n\nDie simfonie speel af\nAgter n helder ruit\nKan ek dit slegs uitmaak, aanraak?\nMy alternatiewe realiteit</span></p></div>",
     reported: false,
@@ -13279,10 +13299,13 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 1,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   aEk1TXxLx7Xotm6UwhjA: {
+    date: 1547145650,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'aEk1TXxLx7Xotm6UwhjA',
+    bookmarkedCount: 0,
     mongo_id: '5c3791b2a55f7a0015662244',
     nsfw: false,
     adminNotes: 'None',
@@ -13290,20 +13313,9 @@ const p = {
     name: '°',
     body: "You're music to my eyes. ",
     reported: false,
-    date: 1547145650,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'aEk1TXxLx7Xotm6UwhjA',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   aGaWviGbWqQpg21wdOE6: {
-    richText: true,
-    handle: '',
-    name: 'alTErnatief',
-    canReply: true,
-    id: 'aGaWviGbWqQpg21wdOE6',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -13313,9 +13325,19 @@ const p = {
     date: 1570748681,
     uid: 'sGUSN9Feltge5sunTC2ye1kh7aw2',
     activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'alTErnatief',
+    canReply: true,
+    id: 'aGaWviGbWqQpg21wdOE6',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   aHwsjM8uSaQJYSy2Ei5C: {
+    canReply: true,
+    id: 'aHwsjM8uSaQJYSy2Ei5C',
+    repliedToName: null,
     bookmarkedCount: 2,
     nsfw: false,
     adminNotes: 'None',
@@ -13329,15 +13351,9 @@ const p = {
     richText: true,
     handle: 'stefanyseymore',
     name: 'Huppelkind',
-    canReply: true,
-    id: 'aHwsjM8uSaQJYSy2Ei5C',
-    repliedToName: null,
     __collections__: {}
   },
   aIE6dVJnlrwXfzxv4D7H: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Vrede -',
     body: '- gemaak\n- genaak\n- genaai',
     reported: false,
@@ -13346,12 +13362,12 @@ const p = {
     id: 'aIE6dVJnlrwXfzxv4D7H',
     bookmarkedCount: 0,
     mongo_id: '5b7928190e334d0014ed9b04',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   aM8PYpULtnjgYq9drbID: {
-    id: 'aM8PYpULtnjgYq9drbID',
-    bookmarkedCount: 0,
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: 'almero_welgemoed',
@@ -13361,38 +13377,40 @@ const p = {
     reported: false,
     date: 1563809386,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
+    id: 'aM8PYpULtnjgYq9drbID',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   aPvdwtWITLXb6ayT0Kdk: {
+    id: 'aPvdwtWITLXb6ayT0Kdk',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'ek.is.anouk ',
     name: 'We agree on something! ',
     body: '"Nothing lasts." ',
     reported: false,
     date: 1562491216,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: 'aPvdwtWITLXb6ayT0Kdk',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   aQu0uGXi47gEqcIa4Fkk: {
-    name: 'nike-kick socks.',
-    body:
-      'i think we would look nice together. like a fucking neat pair of white air max nikes and funky socks with lemons and licorice on them.\n',
-    reported: false,
-    date: 1542107592,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'aQu0uGXi47gEqcIa4Fkk',
     bookmarkedCount: 0,
     mongo_id: '5beab1c7397a0f0014c27274',
     nsfw: false,
     adminNotes: 'None',
     handle: 'paulakruger.pk',
+    name: 'nike-kick socks.',
+    body:
+      'i think we would look nice together. like a fucking neat pair of white air max nikes and funky socks with lemons and licorice on them.\n',
+    reported: false,
+    date: 1542107592,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   aRmcblkc0D0ZUOYVDS0B: {
-    richText: true,
     handle: 'stefanyseymore',
     name: 'god.',
     canReply: true,
@@ -13408,17 +13426,10 @@ const p = {
     date: 1580151715,
     uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
     activeTema: null,
+    richText: true,
     __collections__: {}
   },
   aUvaksuoAoapZ74FQl6W: {
-    repliedTo: null,
-    date: 1580152376,
-    uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Finaliteit',
-    canReply: true,
     id: 'aUvaksuoAoapZ74FQl6W',
     repliedToName: null,
     bookmarkedCount: 1,
@@ -13427,12 +13438,17 @@ const p = {
     body:
       "<div><p><span>Net soos 'n mak kanker sy tyd vat,</span></p><p><span>Het my liefde vir jou stadig maar seker van my hart af verdwyn</span></p><p><span></span></p><p><span>As ek hartseer is, is jy die 2de laaste ding waaraan ek dink</span></p><p><span>En om 'was' in my stories en sinne te gebruik, slaan nie meer my voete onder my uit nie</span></p><p><span>Ek kan op ou spore loop en gewoond raak aan net sommer </span><span>glimlag, sonder om jou aandeel in die herinnering </span><span>oop te vou</span></p><p><span></span></p><p><span>Maar nes 'n tipiese pasient is ek steeds in denial oor die realiteit</span></p><p><span></span></p><p><span>Finaal. Terminaal. Verby. </span></p><p><span></span></p></div>",
     reported: false,
+    repliedTo: null,
+    date: 1580152376,
+    uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Finaliteit',
+    canReply: true,
     __collections__: {}
   },
   aY1mBzOQ61JihiDrKDYV: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       "<div><p><span>trou met 'n vrou</span></p><p><span>word 'n berader</span></p><p><span>want fok genade</span></p><p><span></span></p><p><span>en neem foto's </span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
     reported: false,
@@ -13446,9 +13462,15 @@ const p = {
     canReply: true,
     id: 'aY1mBzOQ61JihiDrKDYV',
     repliedToName: "Foto's op 40. ",
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   aY765M2OL3zEAI4xguuJ: {
+    bookmarkedCount: 0,
+    mongo_id: '5ba7ed9d2f5f7b0014465d7c',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'AA',
@@ -13457,19 +13479,9 @@ const p = {
     date: 1537731998,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'aY765M2OL3zEAI4xguuJ',
-    bookmarkedCount: 0,
-    mongo_id: '5ba7ed9d2f5f7b0014465d7c',
-    nsfw: false,
     __collections__: {}
   },
   aZiShF1q6fjLkXbjdhzG: {
-    nsfw: false,
-    adminNotes: 'None',
-    body: '<div><p><span>dis al... </span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1570134973,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -13478,6 +13490,13 @@ const p = {
     id: 'aZiShF1q6fjLkXbjdhzG',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    body: '<div><p><span>dis al... </span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1570134973,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     __collections__: {}
   },
   adMTjjhrm2wAvonbdt3R: {
@@ -13500,6 +13519,10 @@ const p = {
     __collections__: {}
   },
   afxYWqUkR6tBCBpMNuZK: {
+    handle: '',
+    name: ':',
+    body: 'Daar is meer in hierdie seer as op gee',
+    reported: false,
     date: 1539541518,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'afxYWqUkR6tBCBpMNuZK',
@@ -13507,13 +13530,16 @@ const p = {
     mongo_id: '5bc38a0e4439f00014f99f26',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: ':',
-    body: 'Daar is meer in hierdie seer as op gee',
-    reported: false,
     __collections__: {}
   },
   aiO8dQY4XYI2hdmdvNqt: {
+    activeTema: null,
+    richText: true,
+    handle: 'ilzedup94',
+    name: 'daddy issues volume I',
+    canReply: true,
+    id: 'aiO8dQY4XYI2hdmdvNqt',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -13523,16 +13549,10 @@ const p = {
     repliedTo: null,
     date: 1574606650,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    activeTema: null,
-    richText: true,
-    handle: 'ilzedup94',
-    name: 'daddy issues volume I',
-    canReply: true,
-    id: 'aiO8dQY4XYI2hdmdvNqt',
-    repliedToName: null,
     __collections__: {}
   },
   aiVsItHLEkrQLTpqmrMC: {
+    bookmarkedCount: 2,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -13544,18 +13564,9 @@ const p = {
     date: 1563166762,
     uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     id: 'aiVsItHLEkrQLTpqmrMC',
-    bookmarkedCount: 2,
     __collections__: {}
   },
   airzNgMjCj2Thzz0JWrC: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Dearly Departed ',
-    canReply: true,
-    id: 'airzNgMjCj2Thzz0JWrC',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -13564,9 +13575,22 @@ const p = {
     repliedTo: null,
     date: 1570313300,
     uid: 'GjLkfagUHtMFcLb4b785tmh7xye2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Dearly Departed ',
+    canReply: true,
+    id: 'airzNgMjCj2Thzz0JWrC',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   aj793vcHcbiPPZRtCNxG: {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: "I won't mind. ",
+    canReply: true,
     id: 'aj793vcHcbiPPZRtCNxG',
     repliedToName: null,
     bookmarkedCount: 1,
@@ -13578,34 +13602,23 @@ const p = {
     repliedTo: null,
     date: 1569704211,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: "I won't mind. ",
-    canReply: true,
     __collections__: {}
   },
   b13UbnsRzFuSqmJbf0an: {
-    adminNotes: 'None',
-    handle: '',
-    name: '-',
-    body: 'She had the audacity to be happy ',
-    reported: false,
     date: 1558633375,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'b13UbnsRzFuSqmJbf0an',
     bookmarkedCount: 0,
     mongo_id: '5ce6db9f4d708e0015748933',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: '-',
+    body: 'She had the audacity to be happy ',
+    reported: false,
     __collections__: {}
   },
   b2QuTeePUPdOSBF8C9bc: {
-    adminNotes: 'None',
-    reported: false,
-    body: '<div><p><span>kom ons kies om heel te bly </span></p></div>',
-    repliedTo: 'm9EKTXBTRdD4RcYVLCl1',
-    date: 1578204052,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -13615,9 +13628,20 @@ const p = {
     repliedToName: 'Saggies praat',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body: '<div><p><span>kom ons kies om heel te bly </span></p></div>',
+    repliedTo: 'm9EKTXBTRdD4RcYVLCl1',
+    date: 1578204052,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     __collections__: {}
   },
   b5xgvmQaWDyO3ffFoOqM: {
+    id: 'b5xgvmQaWDyO3ffFoOqM',
+    bookmarkedCount: 0,
+    mongo_id: '5bc4af290616d200148857af',
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'konfytvrou',
     name: 'Mathilde ',
     body:
@@ -13625,14 +13649,13 @@ const p = {
     reported: false,
     date: 1539616553,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'b5xgvmQaWDyO3ffFoOqM',
-    bookmarkedCount: 0,
-    mongo_id: '5bc4af290616d200148857af',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   bAgZabQxQRIf9PgeI1SO: {
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: 'stefanyseymore',
     name: 'god.',
     reported: false,
     body:
@@ -13641,13 +13664,11 @@ const p = {
     date: 1570858081,
     id: 'bAgZabQxQRIf9PgeI1SO',
     bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: 'stefanyseymore',
     __collections__: {}
   },
   bEDqqdMTmy8MNHHOU655: {
+    adminNotes: 'None',
+    handle: '',
     name: 'mense-mense',
     body:
       "Ideologies verknog aan die idee om nie 'n offspring die lig te laat sien nie. \n\nMaar dan loop daar kinders en ouers\nIn familie-vriendelike malls op aande soos vanaand met Boney M in die agtergrond\n\nEn skielik oorval\nBerea Spar na-skool lunch\nWindmill Cheeseburger Specials Saterdagoggend Servistar uitstappies\nVincent Park movies Saterdagaand\nen na-kerk Floradale tea garden besoeke my\n\nDie microwave lasagne in die trollie en Netflix is net-net goed genoeg\nvir vanaand. \n\n",
@@ -13658,11 +13679,15 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5be48ec8163e5f001441b52d',
     nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   bOAtQRAo0HlDFmvfLzqb: {
+    canReply: true,
+    id: 'bOAtQRAo0HlDFmvfLzqb',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Ek onthou dit soos gister,</span></p><p><span>al was dit vandag</span></p><p><span>Agtien in Aandklas;</span></p><p><span>Sestien as ek lag</span></p><p><span></span></p><p><span>Jy was nie daar nie</span></p><p><span>Ek het besluit dis okay</span></p><p><span>Soos Renier gesê het:</span></p><p><span>"Wie van ons is wie ons dink ons is?"</span></p><p><span></span></p><p><span>Maar: "Jy is die een wat ek wil hê jy moet wees."</span></p><p><span></span></p><p><span>Soms moet jy eers die voëltjie vang</span></p><p><span>voor jy hom kan laat gaan.</span></p><p><span>Dan moet jy hoop hy vlieg,</span></p><p><span>want voëltjies is bang</span></p><p><span></span></p><p><span>Ek het hom \'n geheim belowe</span></p><p><span>Toe het ek hom vertel</span></p><p><span>Ek het laas jaar per ongeluk in sy slaap geval</span></p><p><span></span></p><p><span>Dit was mooi vir my</span></p><p><span>Dit was mooi verby</span></p><p><span>Dit was nie myne nie</span></p><p><span></span></p><p><span>Slaap sag, Renier.</span></p><p><span>Vergeet van my as jy kan </span></p></div>',
@@ -13673,17 +13698,9 @@ const p = {
     richText: true,
     handle: '@milli.burd ',
     name: 'Toe ek Agtien was',
-    canReply: true,
-    id: 'bOAtQRAo0HlDFmvfLzqb',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   bQ7hJ2HoGGBEDVbXcZBM: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'aud6362',
     name: 'Vadersdag -1',
     body:
@@ -13693,14 +13710,11 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'bQ7hJ2HoGGBEDVbXcZBM',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   bR4I8EQa45UAY22hiBE3: {
-    handle: '',
-    name: '2020 hello',
-    canReply: true,
-    id: 'bR4I8EQa45UAY22hiBE3',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -13711,11 +13725,14 @@ const p = {
     uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
     activeTema: 'Deel jou geheim',
     richText: true,
+    handle: '',
+    name: '2020 hello',
+    canReply: true,
+    id: 'bR4I8EQa45UAY22hiBE3',
+    repliedToName: null,
     __collections__: {}
   },
   bWYlouuLiwBtycxK9F5H: {
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'Rusplek, Majola',
@@ -13725,13 +13742,11 @@ const p = {
     date: 1562019262,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'bWYlouuLiwBtycxK9F5H',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   bZIM3DYESpOYIiWyha0W: {
-    mongo_id: '5c8daae13601a8001515feda',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'Evert Esterhuizen ',
     name: 'Gewoon ongewoon ',
     body:
       'Sy sal teruggaan werk toe na haar kraamverlof uitgeloop het.\nSy sal weer (self) inkopies begin doen en kosmaak vir haar mense. Haar hoof (en man) se strooi opvreet.\n\nSy sal weer futlose teepartye bywoon en haarself verdom om by die "dames" in te pas. Sy sal een vriendin hê wat die stemmende dissonans raaksien; waardeer, maar stilbly. \n\nSy sal weer haar motor neem vir \'n diens en nóg skuld maak om op te gradeer oor twee jaar. En oppad huistoe stilhou vir té olierige vis-en-chips.\n\nSy sal Kleenex-gesprekke met tieners hê en skoolhou soos sy moet. Sy sal dieselfde werk jaar in en jaar uit opdis.\n\nMaar sy het \'n enkele gedig in die Groot Verseboek. En dis meer as wat enigiemand hier rond kan sê. ',
@@ -13740,37 +13755,43 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'bZIM3DYESpOYIiWyha0W',
     bookmarkedCount: 1,
+    mongo_id: '5c8daae13601a8001515feda',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'Evert Esterhuizen ',
     __collections__: {}
   },
   bZzLYjMFKgAqqQKSeZfT: {
+    date: 1558853268,
+    uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
+    id: 'bZzLYjMFKgAqqQKSeZfT',
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Nog n lag',
     body:
       'Ek wou nog n einde maak maar tot niet. My wekkertjie wakker my verniet. Dis Sondag net my brein hoef op te daag. \nEk wou nog vra my guardian angel het ons al ontmoet. Toe onthou ek ja n vorige trip. Nou soek ek sin op google. Jou galge humor red my. Ek eindig op met CJ Langenhoven. Jy inspireer my op niet. Jou naam is Cornelis en ek moet bieg. Praat jy van die anderkant of nie. Nou lees jy hier en wonder wat. n Leeftyd van my gedagtes en tog verstaan jy niks. Tog is dit die diepste diep.',
     reported: false,
-    date: 1558853268,
-    uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
-    id: 'bZzLYjMFKgAqqQKSeZfT',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   ba5fZeZRxsyAz6s6KmnJ: {
-    adminNotes: 'None',
-    handle: 'Eksdood',
-    name: '01h46 | ',
-    body: 'hierdie hitte\nhet vir my.\n\n',
-    reported: false,
     date: 1540252141,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ba5fZeZRxsyAz6s6KmnJ',
     bookmarkedCount: 0,
     mongo_id: '5bce61ed1d498d001465cef6',
     nsfw: false,
+    adminNotes: 'None',
+    handle: 'Eksdood',
+    name: '01h46 | ',
+    body: 'hierdie hitte\nhet vir my.\n\n',
+    reported: false,
     __collections__: {}
   },
   bboVF9NmqGni1OIL00N1: {
+    richText: true,
+    handle: '',
     name: 'Krismis2019',
     canReply: true,
     id: 'bboVF9NmqGni1OIL00N1',
@@ -13785,13 +13806,9 @@ const p = {
     date: 1577185639,
     uid: 'JYHOCvdKiMSRaMxjq5m6X4DjXS42',
     activeTema: null,
-    richText: true,
-    handle: '',
     __collections__: {}
   },
   bbuEwGEHOuqLeYaVgy1Q: {
-    richText: true,
-    handle: '',
     name: 'Wou',
     canReply: true,
     id: 'bbuEwGEHOuqLeYaVgy1Q',
@@ -13805,9 +13822,12 @@ const p = {
     repliedTo: null,
     date: 1569075233,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
+    richText: true,
+    handle: '',
     __collections__: {}
   },
   beIVbdVCNYNZ2VrXmmAU: {
+    adminNotes: 'None',
     handle: '',
     name: ' ',
     body: 'Sy’s great maar sy follow 9gag op facebook',
@@ -13817,7 +13837,6 @@ const p = {
     id: 'beIVbdVCNYNZ2VrXmmAU',
     bookmarkedCount: 1,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   blIcf1sW7HFWYVC9wHun: {
@@ -13840,6 +13859,13 @@ const p = {
     __collections__: {}
   },
   bljL996bxRw7PA19COcy: {
+    reported: false,
+    body:
+      "<div><p><span>Ek wil in 'n kar ry, </span></p><p><span>Vroegoggend koffie koop,</span></p><p><span>Komberse vou,</span></p><p><span>Jokes maak,</span></p><p><span>Gesels oor goeie tye,</span></p><p><span>Nie worry nie, </span></p><p><span>Mutual assumptions bevestig,\nBaklei oor simpelhede,\nNa die landskap staar,\nVir die wolke kyk, \nIn die venster glimlag vir jou bos krulhare, \n\nEn die aand myself langs jou verlore voel, oor jou naak borste vryf en in jou sagte omhelsing weer rigting vind. \n\n\n</span></p></div>",
+    repliedTo: null,
+    date: 1567851326,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    richText: true,
     handle: 'verbatim',
     name: 'Carol',
     canReply: true,
@@ -13848,16 +13874,11 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>Ek wil in 'n kar ry, </span></p><p><span>Vroegoggend koffie koop,</span></p><p><span>Komberse vou,</span></p><p><span>Jokes maak,</span></p><p><span>Gesels oor goeie tye,</span></p><p><span>Nie worry nie, </span></p><p><span>Mutual assumptions bevestig,\nBaklei oor simpelhede,\nNa die landskap staar,\nVir die wolke kyk, \nIn die venster glimlag vir jou bos krulhare, \n\nEn die aand myself langs jou verlore voel, oor jou naak borste vryf en in jou sagte omhelsing weer rigting vind. \n\n\n</span></p></div>",
-    repliedTo: null,
-    date: 1567851326,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    richText: true,
     __collections__: {}
   },
   blk0XpoZFM9dFOz14fEU: {
+    nsfw: false,
+    richText: true,
     adminNotes: 'None',
     handle: 'antonbarnard ',
     name: 'Othello ',
@@ -13868,11 +13889,10 @@ const p = {
     uid: 'OwBp7lLrfEZ3uIHh5jl3VWx79sZ2',
     id: 'blk0XpoZFM9dFOz14fEU',
     bookmarkedCount: 2,
-    nsfw: false,
-    richText: true,
     __collections__: {}
   },
   bnHXcYdtXSq6xQUp7Cq6: {
+    adminNotes: 'None',
     handle: '',
     name: 'Chernobyl',
     body:
@@ -13883,10 +13903,12 @@ const p = {
     id: 'bnHXcYdtXSq6xQUp7Cq6',
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   bon74RoXPhjjhIX23JdB: {
+    id: 'bon74RoXPhjjhIX23JdB',
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Dis maklik',
@@ -13894,33 +13916,22 @@ const p = {
     reported: false,
     date: 1561051653,
     uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
-    id: 'bon74RoXPhjjhIX23JdB',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   bqL96LnK6BDYZ2xkbKtw: {
-    name: 'frONS',
-    body: 'Pille maak nie als beter nie',
-    reported: false,
-    date: 1567182939,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'bqL96LnK6BDYZ2xkbKtw',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'frONS',
+    body: 'Pille maak nie als beter nie',
+    reported: false,
+    date: 1567182939,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   brBbJBmZ3DfFZfAMvtue: {
-    nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>jy het my knoppies lekker gedruk</span></p><p><span>tot jou xbox se joystick</span></p><p><span>interessanter begin raak het, </span></p><p><span>want speelgoed behoort nie</span></p><p><span>so emosioneel te raak nie</span></p><p><span></span></p><p><span>die console maak anyway meer geraas as ek.</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1570121074,
-    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     activeTema: null,
     richText: true,
     handle: 'ilzedup94',
@@ -13929,10 +13940,17 @@ const p = {
     id: 'brBbJBmZ3DfFZfAMvtue',
     repliedToName: null,
     bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>jy het my knoppies lekker gedruk</span></p><p><span>tot jou xbox se joystick</span></p><p><span>interessanter begin raak het, </span></p><p><span>want speelgoed behoort nie</span></p><p><span>so emosioneel te raak nie</span></p><p><span></span></p><p><span>die console maak anyway meer geraas as ek.</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1570121074,
+    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     __collections__: {}
   },
   bs72HkERBNQtlBQy39vM: {
-    handle: '',
     name: ' ',
     body: 'A \nVERY\nENGLISH\nSCANDAL ',
     reported: false,
@@ -13942,9 +13960,17 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   btSAMJ6yLpSfwtBpb7xt: {
+    richText: true,
+    handle: 'asensuur',
+    name: 'oorlogblyfsels',
+    canReply: true,
+    id: 'btSAMJ6yLpSfwtBpb7xt',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -13954,16 +13980,10 @@ const p = {
     date: 1578585341,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
-    richText: true,
-    handle: 'asensuur',
-    name: 'oorlogblyfsels',
-    canReply: true,
-    id: 'btSAMJ6yLpSfwtBpb7xt',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   bycW8URz8G5VstwSAP4o: {
+    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -13978,25 +13998,26 @@ const p = {
     id: 'bycW8URz8G5VstwSAP4o',
     repliedToName: null,
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   c0Pmqd6unOQaIDGk3XGz: {
-    name: '25 September ',
-    body:
-      "Dinsdagmiddag 17h30 waai die wind en dis koud met dónkergrys wolke en almal vleg voor robotte met middelklas karre en 'n donkergroen bedelaarbroek op regs het 'n gat in sy lies en ek voel klein bietjie opgewonde en dink aan jou en dan nie en die donkerblou kar voor my stop onverwags en my bande skreeu effentjies en die volgende oomblik waai 'n Woolworths sak oor die voorruit en daar groei klein pers blommetjies tussen die pavement blokke op die middelman; 'n vrou soos my ma trek aan 'n sigaret en ash deur die venster; haar oë is rooi (gehuil?) en in die verbyry sien ek 'n verblykte CANSA sticker op haar agter bumper en klomp blomme op die sitplek. \n\nGaan ons volgende jaar dié tyd steeds besig wees met dieselfde games? ",
-    reported: false,
-    date: 1537890897,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'c0Pmqd6unOQaIDGk3XGz',
     bookmarkedCount: 0,
     mongo_id: '5baa5a50cbd6b6001489e97d',
     nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
+    name: '25 September ',
+    body:
+      "Dinsdagmiddag 17h30 waai die wind en dis koud met dónkergrys wolke en almal vleg voor robotte met middelklas karre en 'n donkergroen bedelaarbroek op regs het 'n gat in sy lies en ek voel klein bietjie opgewonde en dink aan jou en dan nie en die donkerblou kar voor my stop onverwags en my bande skreeu effentjies en die volgende oomblik waai 'n Woolworths sak oor die voorruit en daar groei klein pers blommetjies tussen die pavement blokke op die middelman; 'n vrou soos my ma trek aan 'n sigaret en ash deur die venster; haar oë is rooi (gehuil?) en in die verbyry sien ek 'n verblykte CANSA sticker op haar agter bumper en klomp blomme op die sitplek. \n\nGaan ons volgende jaar dié tyd steeds besig wees met dieselfde games? ",
+    reported: false,
+    date: 1537890897,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   c3lnGN5KQO7Xjw96fzGO: {
+    id: 'c3lnGN5KQO7Xjw96fzGO',
+    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -14007,8 +14028,6 @@ const p = {
     reported: false,
     date: 1567198005,
     uid: 'rpq9oKNAkHglvTyfeI0KETpOgi53',
-    id: 'c3lnGN5KQO7Xjw96fzGO',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   c5xTqWvYoVlzDSbdhhiV: {
@@ -14027,7 +14046,6 @@ const p = {
     __collections__: {}
   },
   c6FMGFgBBZWf5c1Cqe9j: {
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -14039,12 +14057,10 @@ const p = {
     date: 1564000263,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'c6FMGFgBBZWf5c1Cqe9j',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   c6HFv1INHf7Nnf9xfxlM: {
-    mongo_id: '5cd126acefddd0001589356d',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'bloumerkies ii, ft. commitment issues ',
     body:
@@ -14054,6 +14070,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'c6HFv1INHf7Nnf9xfxlM',
     bookmarkedCount: 0,
+    mongo_id: '5cd126acefddd0001589356d',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   c6KiWUTKlI3YSDUFkl8w: {
@@ -14071,6 +14090,7 @@ const p = {
     __collections__: {}
   },
   c79kpyhmvfQUdlU2w8F8: {
+    bookmarkedCount: 0,
     mongo_id: '5cb5e06cee54430015eabbb3',
     nsfw: false,
     adminNotes: 'None',
@@ -14081,10 +14101,11 @@ const p = {
     date: 1555423340,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'c79kpyhmvfQUdlU2w8F8',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   c8fddWduS7LQeLjnmMcc: {
+    bookmarkedCount: 0,
+    mongo_id: '5bc3b0a54439f00014f99f28',
     nsfw: false,
     adminNotes: 'None',
     handle: "'n beter digter as ek",
@@ -14094,8 +14115,6 @@ const p = {
     date: 1539551398,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'c8fddWduS7LQeLjnmMcc',
-    bookmarkedCount: 0,
-    mongo_id: '5bc3b0a54439f00014f99f28',
     __collections__: {}
   },
   cBC8xUR48oNZeq4oDuJD: {
@@ -14113,6 +14132,11 @@ const p = {
     __collections__: {}
   },
   cBJs9CbYtSPeJS0CD32f: {
+    id: 'cBJs9CbYtSPeJS0CD32f',
+    bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: 'ilzedup94',
     name: 'Suburbia',
     body:
@@ -14120,14 +14144,13 @@ const p = {
     reported: false,
     date: 1563124550,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    id: 'cBJs9CbYtSPeJS0CD32f',
-    bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   cDCZmmnjSFl9wJRaRWMK: {
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Ek wag ',
     body:
       'Ek wag vir my uber by die sekuriteitsafdak\nPrivilege hier teen die rante van Waterkloofrif\nMy Uber het sopas by ons straat verby gery\nDie grootste ongerief van my dag\nDat ek nou in die koue moet staan en wag\nBuiten die feit dat my tee weer koud geraak het',
@@ -14135,16 +14158,9 @@ const p = {
     date: 1562438855,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     id: 'cDCZmmnjSFl9wJRaRWMK',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   cEGR0YpBLY3won2pAONE: {
-    id: 'cEGR0YpBLY3won2pAONE',
-    bookmarkedCount: 0,
-    mongo_id: '5bb6e9207d819a0014e30c58',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -14153,6 +14169,9 @@ const p = {
     reported: false,
     date: 1538713888,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'cEGR0YpBLY3won2pAONE',
+    bookmarkedCount: 0,
+    mongo_id: '5bb6e9207d819a0014e30c58',
     __collections__: {}
   },
   cEgr2FpwLpLcoUuzAfaS: {
@@ -14171,6 +14190,7 @@ const p = {
     __collections__: {}
   },
   cGAB7sU46dQl2eHlJBjr: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'aud6362',
@@ -14181,10 +14201,15 @@ const p = {
     date: 1562612328,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'cGAB7sU46dQl2eHlJBjr',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   cGCFTAGNan84b3i9UGqD: {
+    body:
+      '<div><p><span>As ek begin twyfel of hierdie die plek van melk en heuning is</span></p><p><span>Die plek waar die moontlikheid van die see en die berge jou kop deurmekaar maak</span></p><p><span></span></p><p><span>Dan flits my gedagtes terug na alles wat natuurlik gevoel het</span></p><p><span>Na jou - jou hande, jou stem, die blou van jou oë, die vashou van jou arms, die bekendheid van jou lyf, die manier hoe jy my veilig laat voel het</span></p><p><span></span></p><p><span>Maar dan besef ek al die bekende emosies is al lankal vervang deur teleurstelling en hartseer </span></p><p><span></span></p><p><span>En na daardie bekendes wil ek nie terugdraai nie</span></p><p><span></span></p><p><span></span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1581256069,
+    uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -14195,17 +14220,9 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>As ek begin twyfel of hierdie die plek van melk en heuning is</span></p><p><span>Die plek waar die moontlikheid van die see en die berge jou kop deurmekaar maak</span></p><p><span></span></p><p><span>Dan flits my gedagtes terug na alles wat natuurlik gevoel het</span></p><p><span>Na jou - jou hande, jou stem, die blou van jou oë, die vashou van jou arms, die bekendheid van jou lyf, die manier hoe jy my veilig laat voel het</span></p><p><span></span></p><p><span>Maar dan besef ek al die bekende emosies is al lankal vervang deur teleurstelling en hartseer </span></p><p><span></span></p><p><span>En na daardie bekendes wil ek nie terugdraai nie</span></p><p><span></span></p><p><span></span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1581256069,
-    uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
     __collections__: {}
   },
   cGgfRo5XSTaXDCxKtJVe: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'D for... ',
     body: "Jirre maar Mister Delivery is 'n lekker ding. \n\n",
@@ -14214,6 +14231,8 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'cGgfRo5XSTaXDCxKtJVe',
     bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   cQcQAxe4gcb5T9hE0orN: {
@@ -14230,6 +14249,9 @@ const p = {
     __collections__: {}
   },
   cQqRVcjoiKIPpqbps5XU: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Benson & hedges',
     body:
       "Nou sit ek en jy weer hier\nen kyk wie gaan eerste die riem laat sak, die handdoek in gooi, die laaste teug vat\n\nOns altwee weet jy het my al lankal\njy het my gehad met daardie eerste bekorende rokie wat trek \ndaardie eerste diep asem vol\n\nHoe gaan ek jou ooit laat staan\nhoe gaan ek ooit 'n diep donker duisternis kan verduur sonder jou gloeiende kool\n\nJy is my heenkome as die gesprek te flou raak of die situasie te warm raak\nas ek 'n oomblik alleen nodig het\nof oortollige minute moet vol stop\n\nWakker word alleen\nKoffie alleen\nRy alleen\nJy bly my enigste lafenis na 'n rowwe dag\n'n rowwe nag... \nEn enige tyd tussen in",
@@ -14238,15 +14260,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'cQqRVcjoiKIPpqbps5XU',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   cWnKTBmDlsm5UqdZmo2j: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: '*(koop) krag vir jou*',
     body: 'zzapp!\n\n(gepunte vinger à la The creation of Adam) ',
     reported: false,
@@ -14255,6 +14271,9 @@ const p = {
     id: 'cWnKTBmDlsm5UqdZmo2j',
     bookmarkedCount: 0,
     mongo_id: '5c9003bc5c3c230015fb60fe',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   cWt6ki9tUd9ekxHaaTuc: {
@@ -14272,6 +14291,7 @@ const p = {
     __collections__: {}
   },
   cZOF56TCeurOOAYSdE0q: {
+    id: 'cZOF56TCeurOOAYSdE0q',
     bookmarkedCount: 1,
     mongo_id: '5cd6aa24020ace00151c8b47',
     nsfw: false,
@@ -14283,17 +14303,9 @@ const p = {
     reported: false,
     date: 1557572133,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'cZOF56TCeurOOAYSdE0q',
     __collections__: {}
   },
   cgfOPA3IgbnkIq6W7CE4: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Foei tog',
-    canReply: true,
-    id: 'cgfOPA3IgbnkIq6W7CE4',
-    repliedToName: 'Ai tog. ',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -14303,20 +14315,27 @@ const p = {
     repliedTo: 'FZnFtK4vmB66vIAqis1L',
     date: 1570685557,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Foei tog',
+    canReply: true,
+    id: 'cgfOPA3IgbnkIq6W7CE4',
+    repliedToName: 'Ai tog. ',
     __collections__: {}
   },
   ciG1vqK1UGLggj2hUR5f: {
+    adminNotes: 'None',
+    handle: '',
+    name: '.',
+    body: ' ek wou net liefde maak en sy wou net naai - Jack Parow',
+    reported: false,
     date: 1558283904,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ciG1vqK1UGLggj2hUR5f',
     bookmarkedCount: 0,
     mongo_id: '5ce186801e3ed8001583e1ac',
     nsfw: false,
-    adminNotes: 'None',
-    handle: '',
-    name: '.',
-    body: ' ek wou net liefde maak en sy wou net naai - Jack Parow',
-    reported: false,
     __collections__: {}
   },
   cijTj7p90NMCM5cPYmLt: {
@@ -14334,9 +14353,6 @@ const p = {
     __collections__: {}
   },
   cjUENYoIOqaAvqhfxnln: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Femme',
     body:
       'You ask my guy whether you can sit on his lap\n\nAnd upon his negating answer you drunkenly reply:\n\n“But I’m a feminist...\nand I always sit on my dad’s lap”\n\nNow, I’m not one to bash fellow-feminist, but Y I K E S \n',
@@ -14346,13 +14362,12 @@ const p = {
     id: 'cjUENYoIOqaAvqhfxnln',
     bookmarkedCount: 0,
     mongo_id: '5c9e1b1593a5f50015d536dd',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   cmNBjyjBumzIDBdUImx3: {
-    bookmarkedCount: 0,
-    mongo_id: '5bed115c95c1a90014d4b264',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'francoislct',
     name: "Juanita aan't vlieg",
     body:
@@ -14361,9 +14376,15 @@ const p = {
     date: 1542263132,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'cmNBjyjBumzIDBdUImx3',
+    bookmarkedCount: 0,
+    mongo_id: '5bed115c95c1a90014d4b264',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   cv54PBHLfuOeP16JiVUZ: {
+    bookmarkedCount: 0,
+    mongo_id: '5c4240300afcb100152273e0',
     nsfw: false,
     adminNotes: 'None',
     handle: 'joneliavt',
@@ -14374,11 +14395,15 @@ const p = {
     date: 1547845680,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'cv54PBHLfuOeP16JiVUZ',
-    bookmarkedCount: 0,
-    mongo_id: '5c4240300afcb100152273e0',
     __collections__: {}
   },
   cxxApVzcKvLMMPMs0UYA: {
+    canReply: true,
+    id: 'cxxApVzcKvLMMPMs0UYA',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       "<div><p><span>jan blohm weer vanaand</span></p><p><span>en ek mis jou</span></p><p><span>groen trui</span></p><p><span>wat gemaklik soos </span></p><p><span>'n tweede vel gesit het </span></p><p><span>en my vinnig kaal\ngelaat het. </span></p></div>",
@@ -14389,29 +14414,24 @@ const p = {
     richText: true,
     handle: 'ilzedup94',
     name: 'maandagaand',
-    canReply: true,
-    id: 'cxxApVzcKvLMMPMs0UYA',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   czfl6RwGT424bDRa5eOq: {
+    handle: '',
+    name: 'kat | man ',
+    reported: false,
+    body:
+      'Fuck man. Fuck, fuck, fuck!\n\nHoekom is hierdie nie wat die prentjie belowe het nie. \n\n',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1572549708,
     id: 'czfl6RwGT424bDRa5eOq',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: 'kat | man ',
-    reported: false,
-    body:
-      'Fuck man. Fuck, fuck, fuck!\n\nHoekom is hierdie nie wat die prentjie belowe het nie. \n\n',
     __collections__: {}
   },
   d0DKtDYBvuPJbH06OQvD: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -14421,16 +14441,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1580490564,
     id: 'd0DKtDYBvuPJbH06OQvD',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   d0iVYlmUvKvLaKyLRQHy: {
-    name: 'Onner',
-    canReply: true,
-    id: 'd0iVYlmUvKvLaKyLRQHy',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     body:
       '<div><p><span>Het jy gegaan, weg</span></p><p><span>oor alles heen, van wolke tot ek,</span></p><p><span>Ekt gehoop, </span></p><p><span>Ekt begin gelo in jou,</span></p><p><span>Iets soos jy,</span></p><p><span>Iets soos jy om my verlede te vermy,</span></p><p><span>Gee, gee gee</span></p><p><span>Daars nog woorde</span></p><p><span>Daars nog sing</span></p><p><span>Daars nog liefde wat ek wou bring.</span></p></div>',
@@ -14441,12 +14454,15 @@ const p = {
     activeTema: null,
     richText: true,
     handle: '',
+    name: 'Onner',
+    canReply: true,
+    id: 'd0iVYlmUvKvLaKyLRQHy',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   d3kV0EcLGfSdaEnLaGdN: {
-    bookmarkedCount: 0,
-    mongo_id: '5c4735ff192a1600157f2d4f',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '2019.1',
@@ -14456,9 +14472,13 @@ const p = {
     date: 1548170752,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'd3kV0EcLGfSdaEnLaGdN',
+    bookmarkedCount: 0,
+    mongo_id: '5c4735ff192a1600157f2d4f',
+    nsfw: false,
     __collections__: {}
   },
   d51aB1Vp8IpxgsX9KsSC: {
+    handle: '',
     name: 'Enigma',
     body:
       'Dink jy dalk aan my?\nIn die nag\nOf as jy huis toe ry.\nDink jy aan my?\nOf is ek soos jou pa? \nOf dalk jou broer?\nSit ek snaaks of drink te veel?\nHoekom dan hou jy my teen n armlengte weg, nie te naby nie te ver. \nJy is n taal wat ek nie kan praat,\nEn dis n luukse ooblik as ek jou sien.',
@@ -14470,13 +14490,9 @@ const p = {
     mongo_id: '5b6765db2f85be0014cd2c71',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   d6jFuauZuIsDrjO11FAd: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'u|ct',
     body:
@@ -14485,17 +14501,12 @@ const p = {
     date: 1562463120,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'd6jFuauZuIsDrjO11FAd',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   d8o5G1kXb2R6jQdWAxjt: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Verfoeilike fok man. ',
-    canReply: true,
-    id: 'd8o5G1kXb2R6jQdWAxjt',
-    repliedToName: null,
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -14504,9 +14515,20 @@ const p = {
     repliedTo: null,
     date: 1579724698,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Verfoeilike fok man. ',
+    canReply: true,
+    id: 'd8o5G1kXb2R6jQdWAxjt',
+    repliedToName: null,
+    bookmarkedCount: 1,
     __collections__: {}
   },
   d9qPmjYutiBf3TiJhhVt: {
+    bookmarkedCount: 0,
+    mongo_id: '5b65de6c596dbb0014c1ad81',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '*',
@@ -14515,12 +14537,10 @@ const p = {
     date: 1533402733,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'd9qPmjYutiBf3TiJhhVt',
-    bookmarkedCount: 0,
-    mongo_id: '5b65de6c596dbb0014c1ad81',
-    nsfw: false,
     __collections__: {}
   },
   dAn0F170z2tmZRSvbpXR: {
+    mongo_id: '5c17eb3aba9a87001455e685',
     nsfw: false,
     adminNotes: 'None',
     handle: 'ahwelgemoed',
@@ -14532,11 +14552,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'dAn0F170z2tmZRSvbpXR',
     bookmarkedCount: 0,
-    mongo_id: '5c17eb3aba9a87001455e685',
     __collections__: {}
   },
   dHBaYINoJYh4od0dpSgY: {
-    handle: 'blignaultwienand',
     name: 'Totalitêr',
     body:
       "Kom ons hardloop kaal vanaand, \nOns liefde deel vir hoogverraad. \nLaat ons geestelik vir god oorrompel, \nOns vry maak van die dom verdomde. \n\nWaar regverdiging van onreg daad, \nVan eie boesem, spruit ontaard. \nVan jou ontkenning, skadelose rol, \nHuigelaar! Verstuk jou drol!\n\nBring despotisme, brand daai kerk,\nVat weg die regte, maak dit werk. \nDat niemand ooit weer iets kan glo,\nSonder dat hul dit kan sien of hoor. \n\nWant jou skadelose selgroep bid, \nTerwyl klein meisies aan 'n piel verstuk. \nSoos sjampanje bottles klap holle in die nag,\nWaar priesters god se seuns verkrag. \nWant ons almal glo mos soos ons wil, \nKom ons vat jou weg, sny af jou tril. \n",
@@ -14548,9 +14566,16 @@ const p = {
     mongo_id: '5c31ce5223701900152537f0',
     nsfw: false,
     adminNotes: 'None',
+    handle: 'blignaultwienand',
     __collections__: {}
   },
   dHKMnh5R074RBTWsYyF2: {
+    canReply: true,
+    id: 'dHKMnh5R074RBTWsYyF2',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Vannaand brand die vuur voor my lippe, rooier as van tevore.</span></p><p><span>Vorm \'n wysmanagtige gedaante en hoor sy woorde. </span></p><p><span></span></p><p><span>Luister my seun die wêreld vang jou onder sy golf\n"Oom hier is geen siel om jou raad te volg" \nHy plaas sy ken op \'n vuis wat jare sien vlug het.\n"jou gedroogte husk kort wat dit vermis het" \n\nJy het jou siel gevat, jou hart verkrummel.\nDit neer gegooi en daarop gedans.\nJy het jouself in donkerte gelaat, jou skoonheid verkoop en gelos in die heelal se raas\n\nDié wysman woorde slaan my nugter:\nDaar is sterre wat jou wil sien skitter</span></p></div>',
@@ -14561,15 +14586,10 @@ const p = {
     richText: true,
     handle: '',
     name: 'Nommer EeN',
-    canReply: true,
-    id: 'dHKMnh5R074RBTWsYyF2',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   dIqPaeSd8yrwDCxG9W5j: {
+    adminNotes: 'None',
     handle: 'kanjyglo',
     name: 'Issey en Isuzu ',
     body:
@@ -14581,11 +14601,9 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c06e145ac70f70014136fb6',
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   dNKXLkxO4TZjXPCaD4Oj: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Big Little Lies',
@@ -14596,12 +14614,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'dNKXLkxO4TZjXPCaD4Oj',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   dWfXfYFKZ9QQqU7IP0Zj: {
-    mongo_id: '5c16ba597c4ab20014187edc',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '13.lynette',
     name: 'Meer.',
     body:
@@ -14611,9 +14627,17 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'dWfXfYFKZ9QQqU7IP0Zj',
     bookmarkedCount: 0,
+    mongo_id: '5c16ba597c4ab20014187edc',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   dWoaRzTx5ynutNEyNwrj: {
+    date: 1544622211,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'dWoaRzTx5ynutNEyNwrj',
+    bookmarkedCount: 0,
+    mongo_id: '5c111082617e2c00144124fd',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -14621,15 +14645,9 @@ const p = {
     body:
       'Anoniem verklaar ek dit\nEk mis jou.\nEn deel die lugleegte\nmet ‘n vreemdeling \nwat my sentiment verstaan,\n',
     reported: false,
-    date: 1544622211,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'dWoaRzTx5ynutNEyNwrj',
-    bookmarkedCount: 0,
-    mongo_id: '5c111082617e2c00144124fd',
     __collections__: {}
   },
   dYTftAIX6bD12xpISV8L: {
-    activeTema: 'Deel jou geheim',
     richText: true,
     handle: '',
     name: 'kristalle, krale en kak',
@@ -14645,9 +14663,11 @@ const p = {
     repliedTo: null,
     date: 1575716243,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: 'Deel jou geheim',
     __collections__: {}
   },
   dZ5elui97MRHppSGCIV6: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -14658,17 +14678,9 @@ const p = {
     date: 1562169117,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'dZ5elui97MRHppSGCIV6',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   da9StyEG8yCK9K0x8UhY: {
-    adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>Ek ry in die rigting waar die son in die weste onder gaan. Ek ry in die rigting waar niks meer wil groei.</span></p><p><span></span></p><p><span>Dis 'n plek waar ek nie wil wees</span></p><p><span>Dit bring net bad thoughts in my mind</span></p><p><span>Van dat ek 'n klein seuntjie was.</span></p><p><span>Met soveel haat en verwyte. Haat hoekom het ek dit toe gelaat maar ek was net 'n kind</span></p><p><span></span></p><p><span>Ek voel hoe die woede op bou in my</span></p><p><span>Dan dink ek dis tyd om te vergeet en vergewe</span></p><p><span></span></p><p><span>Dan kom die vraag hoekom ek.</span></p><p><span>Ekt nie geweet van beter</span></p><p><span>Vir my was dit normaal.</span></p><p><span></span></p><p><span>Mag ek rus vind in die verlede</span></p><p><span>En om aan te beweeg en te let go van al die haat en seer.</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
-    repliedTo: null,
-    date: 1571071557,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     activeTema: null,
     richText: true,
     handle: '',
@@ -14678,10 +14690,16 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 1,
     nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Ek ry in die rigting waar die son in die weste onder gaan. Ek ry in die rigting waar niks meer wil groei.</span></p><p><span></span></p><p><span>Dis 'n plek waar ek nie wil wees</span></p><p><span>Dit bring net bad thoughts in my mind</span></p><p><span>Van dat ek 'n klein seuntjie was.</span></p><p><span>Met soveel haat en verwyte. Haat hoekom het ek dit toe gelaat maar ek was net 'n kind</span></p><p><span></span></p><p><span>Ek voel hoe die woede op bou in my</span></p><p><span>Dan dink ek dis tyd om te vergeet en vergewe</span></p><p><span></span></p><p><span>Dan kom die vraag hoekom ek.</span></p><p><span>Ekt nie geweet van beter</span></p><p><span>Vir my was dit normaal.</span></p><p><span></span></p><p><span>Mag ek rus vind in die verlede</span></p><p><span>En om aan te beweeg en te let go van al die haat en seer.</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
+    repliedTo: null,
+    date: 1571071557,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     __collections__: {}
   },
   ddoUuwbPxmfa9kEb8nWc: {
-    id: 'ddoUuwbPxmfa9kEb8nWc',
     bookmarkedCount: 0,
     mongo_id: '5cb7abfe437fe300154d1ed5',
     nsfw: false,
@@ -14693,16 +14711,10 @@ const p = {
     reported: false,
     date: 1555540991,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'ddoUuwbPxmfa9kEb8nWc',
     __collections__: {}
   },
   dhkMrUZBqAde5duBJSR7: {
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body: '<div><p><span>Kan almal net ophou voor my trou</span></p></div>',
-    repliedTo: null,
-    date: 1576156640,
-    uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
     activeTema: 'Deel jou geheim',
     richText: true,
     handle: '',
@@ -14711,11 +14723,16 @@ const p = {
     id: 'dhkMrUZBqAde5duBJSR7',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body: '<div><p><span>Kan almal net ophou voor my trou</span></p></div>',
+    repliedTo: null,
+    date: 1576156640,
+    uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
     __collections__: {}
   },
   djYarR9HzefHVHqv4uUo: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: '11 Junie 2019, Durbanville.  ',
     body:
@@ -14725,9 +14742,15 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'djYarR9HzefHVHqv4uUo',
     bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   dttMu4g0I6XvyxwIaGCa: {
+    date: 1560099584,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: 'dttMu4g0I6XvyxwIaGCa',
+    bookmarkedCount: 2,
     nsfw: false,
     adminNotes: 'None',
     handle: 'ek.is.anouk ',
@@ -14735,13 +14758,12 @@ const p = {
     body:
       'Ek sweer ek probeer\nom te bytel aan my\nskrywersblok, maar\nek sukkel\nom aan my woorde\nuit binêr\ngeboorte te gee.\n\nSondag se asem\nis ʼn lewelose sug en\ndie papier kreun \nonder geil betekenis. ',
     reported: false,
-    date: 1560099584,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: 'dttMu4g0I6XvyxwIaGCa',
-    bookmarkedCount: 2,
     __collections__: {}
   },
   dyugLq9NHb93fTYpCyEo: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'smaak van die selfsugvrug',
     body:
       '\nOranje sirene van kleur,\nWord in golwe geverf teen die kaal skedel\nVan n leë lughawe aan die einde van junie\nEn die vroes roes vrot\nTussen die binne\nEn\nBuite venster van die vliegtuig.\nHoe die fok maak jy dit skoon dink ek?\nJy doen nie,\nTodat dit stadig op wasem\nSoos n lugbalon op blaas, dit vat tyd\nEn tyd is die mees fokken belangrikste ding,\nWat aan houdend soos mis\nOp n verlate higway, met jou hazards aan,\nVerdwyn.',
@@ -14750,12 +14772,11 @@ const p = {
     uid: 'IOfXPDjZuZgVrXIjbdrum2db4J13',
     id: 'dyugLq9NHb93fTYpCyEo',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   e1n5Iwuf0PioqQwYvykr: {
+    handle: '',
+    name: '.',
     canReply: true,
     id: 'e1n5Iwuf0PioqQwYvykr',
     repliedToName: null,
@@ -14770,11 +14791,12 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
-    handle: '',
-    name: '.',
     __collections__: {}
   },
   e25Fm3fO9bNhjWWuLhHv: {
+    name: 'Lagerfeld, est. 1933',
+    body: 'Nou kan jy die gerubs óók oor hulle gewig aanspreek, Karl.\n',
+    reported: false,
     date: 1550613369,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'e25Fm3fO9bNhjWWuLhHv',
@@ -14783,9 +14805,6 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Lagerfeld, est. 1933',
-    body: 'Nou kan jy die gerubs óók oor hulle gewig aanspreek, Karl.\n',
-    reported: false,
     __collections__: {}
   },
   e28WTBVL26jmbUOwqu6V: {
@@ -14808,6 +14827,9 @@ const p = {
     __collections__: {}
   },
   e4l6RmEqwbfV7jKXa487: {
+    uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
+    date: 1571139204,
+    id: 'e4l6RmEqwbfV7jKXa487',
     bookmarkedCount: 2,
     nsfw: false,
     richText: true,
@@ -14817,12 +14839,12 @@ const p = {
     reported: false,
     body:
       '<div><p><span>Jou god is:</span></p><p><span>jou skewe seun</span></p><p><span>jou ondankbare fokken vrou wat heeltyd shopping doen en te min lekker kos kook</span></p><p><span>daai slapgat boemelaar waarmee daar niks fout is met sy hande nie, nou hoekom werk hy nie?</span></p><p><span>daai donnerse straatbrak wat alweer die swartsak oopgeskeer het (en jy sit dit juis net voor Dinsdag middag se optel uit)</span></p><p><span>daai straathoer wat alweer kos vra vir haar 10 kinders (jy weet sy gaan dit net gebruik vir drugs anyway)</span></p><p><span></span></p><p><span>Die heilige gees is alomteenwoordig </span></p><p><span></span></p><p><span>My god is:</span></p><p><span>Vrye wil.</span></p><p><span>Vergete, verlore, gebroke, vuil en honger. </span></p><p><span></span></p><p><span>Sy is in alles, deur alles en ís alles. </span></p><p><span></span></p><p><span>My god is nie jou god nie. </span></p></div>',
-    uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
-    date: 1571139204,
-    id: 'e4l6RmEqwbfV7jKXa487',
     __collections__: {}
   },
   eCxHuXRjdP2sNATEEcES: {
+    bookmarkedCount: 1,
+    mongo_id: '5c6f1fa63a575300157637c8',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Ek verlang ',
@@ -14832,12 +14854,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1550786471,
     id: 'eCxHuXRjdP2sNATEEcES',
-    bookmarkedCount: 1,
-    mongo_id: '5c6f1fa63a575300157637c8',
-    nsfw: false,
     __collections__: {}
   },
   eDI8y7VHSR5eiuaksnoA: {
+    id: 'eDI8y7VHSR5eiuaksnoA',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -14847,13 +14868,9 @@ const p = {
     reported: false,
     date: 1563842690,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'eDI8y7VHSR5eiuaksnoA',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   eEjPC3MedynC0yj721PI: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Sê my',
     body:
@@ -14864,10 +14881,11 @@ const p = {
     id: 'eEjPC3MedynC0yj721PI',
     bookmarkedCount: 0,
     mongo_id: '5b7cf87c851c1b001473dcc4',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   eHPb4tqdiTMGhZHObvUE: {
-    handle: 'neonvanlierop',
     name: 'klimaatsverandering',
     body: 'die naaiers',
     reported: false,
@@ -14878,9 +14896,11 @@ const p = {
     mongo_id: '5bccacd5635eba0014698b80',
     nsfw: false,
     adminNotes: 'None',
+    handle: 'neonvanlierop',
     __collections__: {}
   },
   eQjZmUjkxQGVCzjOz5pq: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -14896,7 +14916,6 @@ const p = {
     canReply: true,
     id: 'eQjZmUjkxQGVCzjOz5pq',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   eaCGdiSqeC54fQlqosmx: {
@@ -14919,7 +14938,6 @@ const p = {
     __collections__: {}
   },
   eanEp0621lAxJ8b06Bid: {
-    handle: '',
     name: 'Aan die kollega wat kliphard haar troue beplan',
     body: '"Kan almal net ophou om so troujags te wees."',
     reported: false,
@@ -14930,9 +14948,17 @@ const p = {
     mongo_id: '5b7d113c851c1b001473dcc5',
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   eb8z4uZagiGzmPmPXesa: {
+    richText: true,
+    handle: 'almero_welgemoed',
+    name: 'Exit, persued by...',
+    canReply: true,
+    id: 'eb8z4uZagiGzmPmPXesa',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -14941,16 +14967,13 @@ const p = {
     repliedTo: null,
     date: 1567023411,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
-    richText: true,
-    handle: 'almero_welgemoed',
-    name: 'Exit, persued by...',
-    canReply: true,
-    id: 'eb8z4uZagiGzmPmPXesa',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   edFFjmvc3ToVLqvZalPe: {
+    date: 1562449298,
+    uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
+    id: 'edFFjmvc3ToVLqvZalPe',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'aud6362',
@@ -14958,13 +14981,16 @@ const p = {
     body:
       "Daar is nie meer omdraaikans\nDie woorde is gese\nJy't dit gese sonder om eers te dink\nHoe dit my lewe sou beinvloed of verwoes\nNou is dit te laat jy is weg\nJammer sal jy nooit kan se\nMaak nie saak jammer kom te laat\nNou verstaan ek eers my woedeweg\nIets wat ek moet beveg\nNet ek kan my heelmaak\nEn ek gaan\nAnders gaan ek nooit weer kan dans\nKaalvoete in die reen\n\n\n\n",
     reported: false,
-    date: 1562449298,
-    uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
-    id: 'edFFjmvc3ToVLqvZalPe',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   elAiFqoN4jZ181qN6Gkv: {
+    richText: true,
+    handle: '',
+    name: 'Vleeslik',
+    canReply: true,
+    id: 'elAiFqoN4jZ181qN6Gkv',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -14974,16 +15000,11 @@ const p = {
     date: 1583476265,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Vleeslik',
-    canReply: true,
-    id: 'elAiFqoN4jZ181qN6Gkv',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   em7Ip4ESakYixyRTL0pi: {
+    mongo_id: '5c8e1ddbbb479700155b2d29',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Vark',
@@ -14994,11 +15015,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'em7Ip4ESakYixyRTL0pi',
     bookmarkedCount: 0,
-    mongo_id: '5c8e1ddbbb479700155b2d29',
-    nsfw: false,
     __collections__: {}
   },
   emil5wYmq9ZPYYT81nBr: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'elke keer',
     body:
       '            Seks                  ek\n                  is                  soek\nuitputtend                  eintlik\n                                       net die\n                                       gerief',
@@ -15006,13 +15029,12 @@ const p = {
     date: 1566892629,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'emil5wYmq9ZPYYT81nBr',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   eubmlQqRVQfmDJFkcjdP: {
+    id: 'eubmlQqRVQfmDJFkcjdP',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -15025,12 +15047,11 @@ const p = {
     handle: 'almero_welgemoed',
     name: 'Seance',
     canReply: true,
-    id: 'eubmlQqRVQfmDJFkcjdP',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   evOHpK6MGHdrygMjdZs7: {
+    adminNotes: 'None',
+    handle: '',
     name: 'Vrydag',
     body: 'Skree, dit help nie',
     reported: false,
@@ -15040,14 +15061,9 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b77053905fbbe001481a6b7',
     nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   evfJTCUvrTlUu4omgOsB: {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: '',
     name: 'jammer',
     body:
@@ -15057,9 +15073,14 @@ const p = {
     uid: 'rpq9oKNAkHglvTyfeI0KETpOgi53',
     id: 'evfJTCUvrTlUu4omgOsB',
     bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   exIS0hB3jcJVUxPYpqAk: {
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     body:
       '<div><p><span>ek verlang</span></p><p><span>na wie ek was</span></p><p><span>voor haar</span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>',
@@ -15074,18 +15095,9 @@ const p = {
     canReply: true,
     id: 'exIS0hB3jcJVUxPYpqAk',
     repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   eyxGbxRoeTyOV4PM250f: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'soms is vergeet seer',
-    canReply: true,
-    id: 'eyxGbxRoeTyOV4PM250f',
-    repliedToName: null,
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -15095,9 +15107,17 @@ const p = {
     repliedTo: null,
     date: 1578508920,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'soms is vergeet seer',
+    canReply: true,
+    id: 'eyxGbxRoeTyOV4PM250f',
+    repliedToName: null,
     __collections__: {}
   },
   eziqYuTGBaMWOj5b99jj: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -15108,10 +15128,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1575659647,
     id: 'eziqYuTGBaMWOj5b99jj',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   f0W6ONJMj5bvUZUkFWYz: {
+    activeTema: null,
+    richText: true,
+    handle: '',
     name: 'Job het Stockholm-sindroom',
     canReply: true,
     id: 'f0W6ONJMj5bvUZUkFWYz',
@@ -15125,19 +15147,9 @@ const p = {
     repliedTo: null,
     date: 1576233360,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
-    activeTema: null,
-    richText: true,
-    handle: '',
     __collections__: {}
   },
   f19gSs0eXJ6sGmnPadCd: {
-    richText: true,
-    handle: '',
-    name: '🤷🏿‍♀️',
-    canReply: true,
-    id: 'f19gSs0eXJ6sGmnPadCd',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -15147,9 +15159,17 @@ const p = {
     date: 1571938197,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: 'Die Tafel',
+    richText: true,
+    handle: '',
+    name: '🤷🏿‍♀️',
+    canReply: true,
+    id: 'f19gSs0eXJ6sGmnPadCd',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   f62y2JlN73qsDLksoEWX: {
+    nsfw: false,
     adminNotes: 'None',
     handle: 'Purple_pixie13',
     name: 'Alles',
@@ -15161,13 +15181,9 @@ const p = {
     id: 'f62y2JlN73qsDLksoEWX',
     bookmarkedCount: 0,
     mongo_id: '5b96cc07e88fae001420160e',
-    nsfw: false,
     __collections__: {}
   },
   fADhZc1K8bHTfl0zPoM1: {
-    id: 'fADhZc1K8bHTfl0zPoM1',
-    bookmarkedCount: 0,
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -15177,10 +15193,12 @@ const p = {
     reported: false,
     date: 1564862713,
     uid: '4mmRXsmPUdMPAxM8HlGwNv0RNgx1',
+    id: 'fADhZc1K8bHTfl0zPoM1',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   fEhsp9DNDLMlLPvV4d7J: {
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -15192,9 +15210,12 @@ const p = {
     date: 1566156122,
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
     id: 'fEhsp9DNDLMlLPvV4d7J',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   fOUVFDm2oeXb4psUcPEV: {
+    nsfw: false,
+    adminNotes: 'None',
     body:
       '<div><p><span>Almal wag vir die sogenaamde teken, en hoop dat die "hy/sy, ek/jy" vir ons bedoel is...</span></p></div>',
     reported: false,
@@ -15208,11 +15229,13 @@ const p = {
     id: 'fOUVFDm2oeXb4psUcPEV',
     repliedToName: 'Altyd ',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   fOZbRrqxVxPFH1JaYsYl: {
+    bookmarkedCount: 0,
+    mongo_id: '5c9e775a93a5f50015d536df',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Haat',
     body:
@@ -15221,31 +15244,23 @@ const p = {
     date: 1553889114,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'fOZbRrqxVxPFH1JaYsYl',
-    bookmarkedCount: 0,
-    mongo_id: '5c9e775a93a5f50015d536df',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   fT1DTNTAzZLxkjFqhqbJ: {
+    name: 'nou-nou',
+    body: 'Op my beste, en ek verloor',
+    reported: false,
+    date: 1534619275,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'fT1DTNTAzZLxkjFqhqbJ',
     bookmarkedCount: 0,
     mongo_id: '5b786e8a2d7251001489888e',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'nou-nou',
-    body: 'Op my beste, en ek verloor',
-    reported: false,
-    date: 1534619275,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   fTchWmOVHFNmKMNF9vMH: {
-    activeTema: 'Deel jou geheim',
-    richText: true,
-    handle: '',
-    name: 'Net vir jou',
     canReply: true,
     id: 'fTchWmOVHFNmKMNF9vMH',
     repliedToName: null,
@@ -15258,6 +15273,10 @@ const p = {
     repliedTo: null,
     date: 1577279187,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
+    activeTema: 'Deel jou geheim',
+    richText: true,
+    handle: '',
+    name: 'Net vir jou',
     __collections__: {}
   },
   fYHUJi8fgFFgztLup3b7: {
@@ -15276,6 +15295,8 @@ const p = {
     __collections__: {}
   },
   fYJ4nklHf4Dd0e4LF62x: {
+    id: 'fYJ4nklHf4Dd0e4LF62x',
+    bookmarkedCount: 0,
     mongo_id: '5c066d30c878e20014e845c1',
     nsfw: false,
     adminNotes: 'None',
@@ -15285,11 +15306,13 @@ const p = {
     reported: false,
     date: 1543925040,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'fYJ4nklHf4Dd0e4LF62x',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   fb5G0FYSYlBDMCpOUIcc: {
+    mongo_id: '5c68456b7544f30015064811',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Bed',
     body: 'Ekke voel niks',
     reported: false,
@@ -15297,15 +15320,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'fb5G0FYSYlBDMCpOUIcc',
     bookmarkedCount: 0,
-    mongo_id: '5c68456b7544f30015064811',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   fcgdWCR8dP3yqkxoGf6X: {
-    bookmarkedCount: 3,
-    nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'Consumables: 2018',
@@ -15315,9 +15332,18 @@ const p = {
     date: 1559951000,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'fcgdWCR8dP3yqkxoGf6X',
+    bookmarkedCount: 3,
+    nsfw: false,
     __collections__: {}
   },
   ffeDhXVgqDqz3LZF02iW: {
+    adminNotes: 'None',
+    body:
+      '<div><p><span>Ek wil vir jou n gediggie skryf</span></p><p><span>Rated R in 2019 wat de hel</span></p><p><span>My lyf is deurweek van jou</span></p><p><span>Jou hardheid verstom my</span></p><p><span>Jou glinster verblind my</span></p><p><span>Jy hou my wakker tot ek kom</span></p><p><span>Om die deur oop te maak</span></p><p><span>Na n nuwe dag</span></p><p><span>Met of sonder jou</span></p><p><span>Jou woorde laat my lag</span></p><p><span>En jou poster hou elke beweging van my dop</span></p><p><span>En spoor my aan vir nog</span></p><p><span>Om nog te skryf</span></p><p><span>Maar my mond is gesnoer</span></p><p><span>My keel is droog</span></p><p><span>Jou stem word stil</span></p><p><span>En die oomblik is vir ewig verby</span></p><p><span>En nou is jy weg...</span></p><p><span></span></p><p><span></span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1568125028,
+    uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     richText: true,
     handle: 'aud6362',
     name: 'R2019SNLV',
@@ -15326,18 +15352,9 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span>Ek wil vir jou n gediggie skryf</span></p><p><span>Rated R in 2019 wat de hel</span></p><p><span>My lyf is deurweek van jou</span></p><p><span>Jou hardheid verstom my</span></p><p><span>Jou glinster verblind my</span></p><p><span>Jy hou my wakker tot ek kom</span></p><p><span>Om die deur oop te maak</span></p><p><span>Na n nuwe dag</span></p><p><span>Met of sonder jou</span></p><p><span>Jou woorde laat my lag</span></p><p><span>En jou poster hou elke beweging van my dop</span></p><p><span>En spoor my aan vir nog</span></p><p><span>Om nog te skryf</span></p><p><span>Maar my mond is gesnoer</span></p><p><span>My keel is droog</span></p><p><span>Jou stem word stil</span></p><p><span>En die oomblik is vir ewig verby</span></p><p><span>En nou is jy weg...</span></p><p><span></span></p><p><span></span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1568125028,
-    uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     __collections__: {}
   },
   fh4JlFIaVB9vm0WzU2Vr: {
-    bookmarkedCount: 1,
-    mongo_id: '5cc25158e553c000150fa35f',
     nsfw: false,
     adminNotes: 'None',
     handle: 'Evertesterhuizen ',
@@ -15348,12 +15365,11 @@ const p = {
     date: 1556238680,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'fh4JlFIaVB9vm0WzU2Vr',
+    bookmarkedCount: 1,
+    mongo_id: '5cc25158e553c000150fa35f',
     __collections__: {}
   },
   fhlVwnNjl47PZq1PCmnD: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Sleep',
     body: "Where are y'all rushing to??",
     reported: false,
@@ -15362,9 +15378,18 @@ const p = {
     id: 'fhlVwnNjl47PZq1PCmnD',
     bookmarkedCount: 0,
     mongo_id: '5c292f041d86270014965a8c',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   fiNBl3uD0uHJu1Tn0uXh: {
+    body:
+      "<div><p><span>Dis skemerdonker en die gevoelte van om iets van waarde te maak kom gewoonlik net wanneer daar sterk dinge gebeur en Thabo wat buite Checkers vir my vra of ek vir hom sal bid, vir hom mielemeel, baked beans en hoender sal koop en ek wat myself halfpad vererg maar toe onthou van die ommekeer en</span><span> skuldig voel maar wil real wees met die bra want sy sussie is in graad agt en daar's nie kos nie en sy ouers is beide dood en ek voel kwaad wat onmiddelik glo e</span><span>k hy jok want niemand wat rerig honger het dra quilted stitch Daniel Hechter en Nikes nie en Here hoe weet 'n mens en toe prop ek hom my hoender en koue butternut in die hand want Checkers se bay marines is af danksy Eskom en daar's ook nie krag by mý huis nie. Thabo jok jy met sulke oortuigende trane? Binnekant is daar reuse banders van white guilt en koue glimlag maar ongelukkig kan niemand anders die skuld daarvoor kry nie. </span></p><p><span></span></p><p><span>Skakel my weer aan, asseblief? </span></p></div>",
+    reported: false,
+    repliedTo: null,
+    date: 1580841683,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -15375,15 +15400,11 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      "<div><p><span>Dis skemerdonker en die gevoelte van om iets van waarde te maak kom gewoonlik net wanneer daar sterk dinge gebeur en Thabo wat buite Checkers vir my vra of ek vir hom sal bid, vir hom mielemeel, baked beans en hoender sal koop en ek wat myself halfpad vererg maar toe onthou van die ommekeer en</span><span> skuldig voel maar wil real wees met die bra want sy sussie is in graad agt en daar's nie kos nie en sy ouers is beide dood en ek voel kwaad wat onmiddelik glo e</span><span>k hy jok want niemand wat rerig honger het dra quilted stitch Daniel Hechter en Nikes nie en Here hoe weet 'n mens en toe prop ek hom my hoender en koue butternut in die hand want Checkers se bay marines is af danksy Eskom en daar's ook nie krag by mý huis nie. Thabo jok jy met sulke oortuigende trane? Binnekant is daar reuse banders van white guilt en koue glimlag maar ongelukkig kan niemand anders die skuld daarvoor kry nie. </span></p><p><span></span></p><p><span>Skakel my weer aan, asseblief? </span></p></div>",
-    reported: false,
-    repliedTo: null,
-    date: 1580841683,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   fm97rK6t9f0T9b3X1J2J: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Winter',
     body:
@@ -15393,13 +15414,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'fm97rK6t9f0T9b3X1J2J',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   fmKza7t6n8xPz4TOioXk: {
-    id: 'fmKza7t6n8xPz4TOioXk',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -15408,9 +15425,16 @@ const p = {
     body: 'We hate what we fear in ourselves. ',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1582075814,
+    id: 'fmKza7t6n8xPz4TOioXk',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   fnEZzApjrgNDDBPsLCWx: {
+    handle: 'mabethc',
+    name: "'n Metafoor ",
+    canReply: true,
+    id: 'fnEZzApjrgNDDBPsLCWx',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -15422,18 +15446,9 @@ const p = {
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     activeTema: null,
     richText: true,
-    handle: 'mabethc',
-    name: "'n Metafoor ",
-    canReply: true,
-    id: 'fnEZzApjrgNDDBPsLCWx',
-    repliedToName: null,
     __collections__: {}
   },
   fonLpChPYm3zoXxef2mO: {
-    date: 1544683872,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'fonLpChPYm3zoXxef2mO',
-    bookmarkedCount: 0,
     mongo_id: '5c12015f9cbede00147ea332',
     nsfw: false,
     adminNotes: 'None',
@@ -15442,6 +15457,10 @@ const p = {
     body:
       'ek onthou hoe die sigarette opgehoop het onder houttafels en hoe jy saggies gesê het dat jy dit wil probeer. die rook van ons twee se stompies het gedans op die klankgolwe van note en draai soos ñ romp in kringe op die krans van die oggend son se rand. die wind se asem steel die rook uit jou mond en waai dit weg saam die as en lus, maar so sit ons gedeurig die pot mis.',
     reported: false,
+    date: 1544683872,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'fonLpChPYm3zoXxef2mO',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   fux12KzLOxMfDXVERMca: {
@@ -15459,6 +15478,8 @@ const p = {
     __collections__: {}
   },
   fwremqoBlOG9tn35qVh4: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'moor, roof + steel',
     body:
@@ -15469,8 +15490,6 @@ const p = {
     id: 'fwremqoBlOG9tn35qVh4',
     bookmarkedCount: 0,
     mongo_id: '5b6332c31a8f6200143fac59',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   fySEDFoldhMWMAohjJeh: {
@@ -15488,12 +15507,6 @@ const p = {
     __collections__: {}
   },
   g07FPUhp6sXuCmfs0xse: {
-    canReply: true,
-    id: 'g07FPUhp6sXuCmfs0xse',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       '<div><p><span>Ek wonder of julle my nog sal wil ken wanneer ek terugkom en julle sien als aan my het verander?</span></p><p><span></span></p></div>',
     reported: false,
@@ -15504,10 +15517,15 @@ const p = {
     richText: true,
     handle: '',
     name: 'Ma en Pa',
+    canReply: true,
+    id: 'g07FPUhp6sXuCmfs0xse',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   g0LeR0nPhhvOpNV20UJd: {
-    handle: '',
     name: 'Tevrede?',
     body:
       'Wonder of dit meer \'n "ek maak myself nie meer gelukkig nie" is as wat dit \'n "jy maak my nie meer gelukkig nie" is.',
@@ -15518,6 +15536,7 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   g3PXwlwANDkATSKzNmRI: {
@@ -15569,6 +15588,9 @@ const p = {
     __collections__: {}
   },
   gLaCbpm0uHUeQjO2NJHb: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'kutte en kluite ',
     body:
       "Ek's vandag besonders lui gewees:\ntwee meditasie sessies, \ndrie flieks, baie sit \nte lekker kos\nen banklê\n\nDIT WAS FANTASTIES ",
@@ -15578,16 +15600,9 @@ const p = {
     id: 'gLaCbpm0uHUeQjO2NJHb',
     bookmarkedCount: 0,
     mongo_id: '5c7ae2d44cca560015cbaec7',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   gPddSNYuhrAmf0faCQB0: {
-    mongo_id: '5c5334376f98cf0015806339',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Bagasie',
     body:
       "Ek pak vanaand die laaste stukkies van my verlede in 'n boks. Dis waar ek jou nou ook agterlaat. Herinneringe weggebêre agter in 'n kas.",
@@ -15596,9 +15611,14 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'gPddSNYuhrAmf0faCQB0',
     bookmarkedCount: 0,
+    mongo_id: '5c5334376f98cf0015806339',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   gPf3iumAAmUzsLEvAWT9: {
+    handle: '',
     name: 'Geen titel net gedig.',
     body:
       'Ek wens ek kon een of ander manier my gedagtes vanaand op rekord vind.\nHier sit ek weer spookverslint, hierdie gedig is nie vir jou nie, dis vir my. Ek dink al weer te veel aan tyd, maar wat is te veel? En wat is tyd? Tyd aleen drip stadiger as die waterval van geselskap, al is dit koud en snaaks. \nEk weet nie wie ek is nie, ek weet nie wat ek is nie, en pen op papier onthou niks.\nDonderdag, aleen.\n',
@@ -15610,23 +15630,26 @@ const p = {
     mongo_id: '5c40f8b28099eb0015abc544',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   gf5UyspzmymklWtvAclu: {
-    adminNotes: 'None',
-    handle: '',
-    name: 'WTAF',
-    body: 'Soos joh.\n\nNogal ʼn\nruthless blue ticker,\njy. ',
-    reported: false,
     date: 1560112767,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'gf5UyspzmymklWtvAclu',
     bookmarkedCount: 1,
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'WTAF',
+    body: 'Soos joh.\n\nNogal ʼn\nruthless blue ticker,\njy. ',
+    reported: false,
     __collections__: {}
   },
   gf8Xiq6Sd73Ak51DMCm2: {
+    bookmarkedCount: 0,
+    mongo_id: '5c769f5ffc00ea001577c716',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Fucking mermaid.',
     body:
@@ -15635,15 +15658,9 @@ const p = {
     date: 1551277919,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'gf8Xiq6Sd73Ak51DMCm2',
-    bookmarkedCount: 0,
-    mongo_id: '5c769f5ffc00ea001577c716',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   gfyyhWch2cL9LOMWLCk7: {
-    mongo_id: '5b9a68417672f50014db7b65',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'krul',
@@ -15654,9 +15671,14 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'gfyyhWch2cL9LOMWLCk7',
     bookmarkedCount: 0,
+    mongo_id: '5b9a68417672f50014db7b65',
+    nsfw: false,
     __collections__: {}
   },
   gstrf7UMWe3I7FAWZdMH: {
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     name: 'Iewers tussen hoog en moeg',
     body:
       '<div><p><span style="font-weight: bold;font-style: italic;text-decoration: line-through;text-decoration: underline;">Dis tyd vir die jaarlikse eksistensiële krisis. </span></p><p><span>Hoe klein is ons nie. </span></p><p><span>\'n Klein spikkeltjie wit, op die kanvas swart</span></p><p><span>Op die 5e grootste klip, wat om n brandende vuur wentel. </span></p><p><span>Wat is die kans?</span></p><p><span></span></p><p><span>Ek is \'n produk van my keuses. </span></p><p><span>Ek wens ek kon vooraf kon sien hoe dit my lewe sou bepaal</span></p><p><span>Sou ek dan anders kies?</span></p><p><span>Ja. </span></p><p><span></span><span>Hoe sou my lewe gewees het as ek by jou gebly het? </span></p><p><span>Ek wil nie weet nie. </span></p><p><span>Dis een van die beter keuses wat ek gemaak het. </span></p><p><span>Dit weet ek. </span></p></div>',
@@ -15666,12 +15688,14 @@ const p = {
     id: 'gstrf7UMWe3I7FAWZdMH',
     bookmarkedCount: 0,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   gtC2mM6ZzjdYex7USUGC: {
+    canReply: true,
+    id: 'gtC2mM6ZzjdYex7USUGC',
+    repliedToName: null,
+    bookmarkedCount: 2,
+    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -15683,17 +15707,9 @@ const p = {
     richText: true,
     handle: 'stefanyseymore',
     name: 'Sisyphus',
-    canReply: true,
-    id: 'gtC2mM6ZzjdYex7USUGC',
-    repliedToName: null,
-    bookmarkedCount: 2,
-    nsfw: false,
     __collections__: {}
   },
   gufTeVwi49ggXd5E3kq5: {
-    bookmarkedCount: 0,
-    mongo_id: '5ca993482dc0e10015838afa',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'kamma-macho',
@@ -15703,12 +15719,12 @@ const p = {
     date: 1554617161,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'gufTeVwi49ggXd5E3kq5',
+    bookmarkedCount: 0,
+    mongo_id: '5ca993482dc0e10015838afa',
+    nsfw: false,
     __collections__: {}
   },
   gw20PIJfPMg5zxUkGKjX: {
-    date: 1560005460,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'gw20PIJfPMg5zxUkGKjX',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -15717,9 +15733,15 @@ const p = {
     body:
       'Terwyl ek staan met hande vol skuim en koppies, cake stands, pierings vol krummels (my ma se verjaarsdagtees is altyd \'n hit) sit en vertel jy my van die oulike boer in jou nuwe dorp en hoe julle nou en dan na die parkie toe gaan. \n\n[Bunting, bunting, sagte lig en slow motion]\n\nJy vertel van jou nuwe werk en hoe tevrede jy met jou kollegas se konflikhanteringsvermoë is. Die praktiese uitdagings van Ricoffy en eksklusief vroue personeel; uiteindelik iets van die verlede! \n\n[Beneukte reënweer en elektriese lig; \'n helder klaskamer] \n\nMy vingers is al ene rimpels en my bene jellierig, maar ek hoor hoe jy gesels van drome wat waar word en dat jy hoop daar kom \'n tyd van voorspoed in elkeen se lewe. \'n Tyd waar #liefdewen. En jy maak die teken met jou vingers. \n\n[Nog bietjie sagte lig en iets van vrolike kombuise]\n\n"Ek het ook iemand ontmoet," sê ek saggies, meer eintlik vir die skottelgoedwater as vir haar. Haar gesig helder op. "Awww, #liefdewen altyd, Boetie" \'n knipoog, "wat is haar naam?" \n\nDit was die laaste keer wat ons ooit oor my potensiële kêrels gepraat het. Of mans. Of liefdeslewe, for that matter. Of eintlik enigiets dieper as die weer. \n\n[Fok, wat ook al] \n\n"Dit gaan eintlik régtig goed in Calitzdorp. Die weer is goed. Daar\'s darm weer bietjie water. Die damme lyk voller vanjaar en my kollegas is amazing. Ek dink ek en Pieter sal seker binnekort afhaak. Ek het nog net so paar vriendinne- almal maar kollegas van werk en so, jy weet. En ons almal is by dieselfde kerk, weet jy. Dit help baie as mens se hartsmense almal dieselfde dink oor die spiritual journey, né(?). Geloof. Hoop. Liefde. Wat is die kerk se naam nou weer? Jy sal dit ook luvvve. Jy moet kom kuier eendag. Dis sóveel anders as die NG Kerk. Sóveel meer verlig en spiritual. Iets van \'n ram of die Gees of... wag, man. Nee, dis iets van \'n shofar."\n\n\n\n',
     reported: false,
+    date: 1560005460,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'gw20PIJfPMg5zxUkGKjX',
     __collections__: {}
   },
   gzlxxrhAs3KmX8VQUbuk: {
+    bookmarkedCount: 0,
+    mongo_id: '5c339874a0d9fe0015e0c2d0',
+    nsfw: false,
     adminNotes: 'None',
     handle: 'tamiabrown.x',
     name: 'sorrymother',
@@ -15729,13 +15751,9 @@ const p = {
     date: 1546885237,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'gzlxxrhAs3KmX8VQUbuk',
-    bookmarkedCount: 0,
-    mongo_id: '5c339874a0d9fe0015e0c2d0',
-    nsfw: false,
     __collections__: {}
   },
   gzxYCVbrgXkjQGwABsbb: {
-    handle: '',
     name: 'Fam ',
     body: 'Red my van die mense\n🍷🍷🍷',
     reported: false,
@@ -15746,11 +15764,10 @@ const p = {
     mongo_id: '5c22302baa4f160014a44c12',
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   h01dj0gbrUtYrsqw7Bf9: {
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Maybe it summer </span><span>and I we’re happy.</span></p><p><span></span></p><p><span>Maybe apathy took hold.</span></p><p><span></span></p><p><span>Maybe no marketing finally payed off.</span></p><p><span></span></p><p><span>Maybe there isn’t enough selfie’s with “ deep” text on it</span></p><p><span></span></p><p><span>Maybe not enough comments like “ Here jys diep, vinger my met jou poësie”</span></p><p><span></span></p><p><span>Maybe the UI is fuckt</span></p><p><span></span></p><p><span>Maybe the lack of feedback on your deepest feelings is too much like real life.</span></p><p><span></span></p><p><span>Maybe it served its lack of purpose.</span></p><p><span></span></p><p><span>I guess we’ll just never really know, </span></p><p><span></span></p></div>',
@@ -15765,9 +15782,12 @@ const p = {
     id: 'h01dj0gbrUtYrsqw7Bf9',
     repliedToName: 'Dit was net jy ',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   h0fBPXZVMqi8dOGUk4V6: {
+    handle: '',
     name: 'Vissie-vingers ',
     body: '"Oom, wat gaan ons vir aandete eet?" ',
     reported: false,
@@ -15778,14 +15798,9 @@ const p = {
     mongo_id: '5ce242d91e3ed8001583e1af',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   hAUszE3csHPIL6j6MDCf: {
-    uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
-    date: 1569513773,
-    id: 'hAUszE3csHPIL6j6MDCf',
-    bookmarkedCount: 3,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -15794,24 +15809,27 @@ const p = {
     reported: false,
     body:
       '<div><p><span>Die god-versameling is nie lasterlik nie,</span></p><p><span></span></p><p><span>in</span></p><p><span>teen</span></p><p><span>deel</span></p><p><span></span></p><p><span>dis ‘n uitroep na ‘n god, wat nie noodwendig die christengod is nie</span></p></div>',
+    uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
+    date: 1569513773,
+    id: 'hAUszE3csHPIL6j6MDCf',
+    bookmarkedCount: 3,
     __collections__: {}
   },
   hAxlC8M5sNZzucXCx3i0: {
-    handle: '',
-    name: 'Onthou ',
-    body:
-      'Die kers\nherinner aan jou\ndie -\ndonners alles,\nalles herinner aan jou\n\nasóf ek jou\nsou wou onthou ',
-    reported: false,
     date: 1559939228,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'hAxlC8M5sNZzucXCx3i0',
     bookmarkedCount: 3,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
+    name: 'Onthou ',
+    body:
+      'Die kers\nherinner aan jou\ndie -\ndonners alles,\nalles herinner aan jou\n\nasóf ek jou\nsou wou onthou ',
+    reported: false,
     __collections__: {}
   },
   hBDGVGb8GUWUZhCblEyb: {
-    handle: '',
     name: 'Toccata! ',
     body: 'die (wonder-)\nkindjie is gebore!*\n\n*met orrelvoete \n',
     reported: false,
@@ -15822,10 +15840,10 @@ const p = {
     mongo_id: '5ca908962dc0e10015838af9',
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   hI7heRyCf9WdaGdiFPFH: {
-    handle: 'neonvanlierop',
     name: 'Goeie vergrypers',
     body: "Goeie vergrypers\nhet net 'n halwe \nbrood nodig.",
     reported: false,
@@ -15836,26 +15854,23 @@ const p = {
     mongo_id: '5b6d67033989a60014261339',
     nsfw: false,
     adminNotes: 'None',
+    handle: 'neonvanlierop',
     __collections__: {}
   },
   hIu69yywlKSy8S7qklE1: {
-    date: 1561478359,
-    uid: 'QaCRK12616cZfVXU9PuDAzri2Rq1',
-    id: 'hIu69yywlKSy8S7qklE1',
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Idiot (still)',
     body: 'How stupid. \nI forgot I’m alone in this.\nAgain.',
     reported: false,
+    date: 1561478359,
+    uid: 'QaCRK12616cZfVXU9PuDAzri2Rq1',
+    id: 'hIu69yywlKSy8S7qklE1',
+    bookmarkedCount: 1,
     __collections__: {}
   },
   hIwGNy0Lz0rhCaf033nt: {
-    mongo_id: '5ce78ccf065228001559f85b',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: '--',
     body: 'You had the audacity not to be happy. ',
     reported: true,
@@ -15863,10 +15878,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'hIwGNy0Lz0rhCaf033nt',
     bookmarkedCount: 0,
+    mongo_id: '5ce78ccf065228001559f85b',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   hLZMNiS6oALYBbi5gvOj: {
-    mongo_id: '5c7ed1089db10a0015d0230f',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -15878,9 +15896,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'hLZMNiS6oALYBbi5gvOj',
     bookmarkedCount: 0,
+    mongo_id: '5c7ed1089db10a0015d0230f',
     __collections__: {}
   },
   hQByoFoznr8EHJoNg9MT: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Stellenpoes',
@@ -15892,7 +15912,6 @@ const p = {
     id: 'hQByoFoznr8EHJoNg9MT',
     bookmarkedCount: 0,
     mongo_id: '5c4f6209b182ed001541ad5e',
-    nsfw: false,
     __collections__: {}
   },
   hRRzR8uTV4HGkxKvvsVn: {
@@ -15910,6 +15929,11 @@ const p = {
     __collections__: {}
   },
   hSBIbIL2sQoWhrOmNMiK: {
+    date: 1541761546,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'hSBIbIL2sQoWhrOmNMiK',
+    bookmarkedCount: 0,
+    mongo_id: '5be56a09a8dbcd00140336ff',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -15917,14 +15941,13 @@ const p = {
     body:
       "is daar waarde daarin om jou bestaan meer eenvoudig \nof minder interessant te maak \n\nkom daar moeilikheid saam met die soeke na meer, en 'boredom' saam die eenvoud \nkan ek die skaal ontwerp wat die met mekaar opweeg\n\nek wens ek kan die waarde van eenvoud tenvolle verstaan",
     reported: false,
-    date: 1541761546,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'hSBIbIL2sQoWhrOmNMiK',
-    bookmarkedCount: 0,
-    mongo_id: '5be56a09a8dbcd00140336ff',
     __collections__: {}
   },
   hUzWDwVCig9O5aF4auMh: {
+    mongo_id: '5ccf35210903ec00150904de',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'Verbatim ',
     name: 'Tower of Doom',
     body:
       'Vanaand bly my gedermtes alweer bo-op die rollercoaster kruin agter\n\nvir die soveelste keer. ',
@@ -15933,17 +15956,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'hUzWDwVCig9O5aF4auMh',
     bookmarkedCount: 0,
-    mongo_id: '5ccf35210903ec00150904de',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'Verbatim ',
     __collections__: {}
   },
   hWXcjV0RxMsAROg6Utbc: {
-    repliedTo: null,
-    date: 1573310567,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'Dankie my Volstruisie',
@@ -15956,14 +15971,13 @@ const p = {
     body:
       "<div><p><span>Dankie is net 'n 6 letter woord</span></p><p><span>'n woord met soveel krag</span></p><p><span>Krag wat mense soms net gebruik</span></p><p><span>Want dis net beleefd. Ek gebruik dit want ek bedoel dit opreg net vir jou.</span></p><p><span></span></p><p><span>D - DANKIE baie baie</span></p><p><span>A - Altyd daar vir elke persoon wat op jou lewens pad gekom het</span></p><p><span>N-niks is ontmoontlik vir jou</span></p><p><span>K-krag wat jy kry van Onse Here </span></p><p><span>I-innerlike liefde wat jy uit stuur na almal om jou</span></p><p><span>E-eerlikheid en opreg wat jy wys elke dag van jou lewe.</span></p><p><span></span></p><p><span>Dankie dat jy deel is van my lewe. Eks bevoorreg omdat jy so opreg en soveel liefde uitstraal. </span></p></div>",
     reported: false,
+    repliedTo: null,
+    date: 1573310567,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
+    activeTema: null,
     __collections__: {}
   },
   hWYYsUcNsbWJJenY4oMt: {
-    date: 1545687787,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'hWYYsUcNsbWJJenY4oMt',
-    bookmarkedCount: 0,
-    mongo_id: '5c2152ebdb22a30014dd43a2',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -15971,14 +15985,14 @@ const p = {
     body:
       'Soms, net partykeer soms,\nis die maansopkoms mooier as die \nsonsopkoms. \nsagte geel wat deur die donker gly.\nomring deur diamant wat drip.\nalleen, maar tog nie.\n\nOp die balkon, 24 december. \nSpookdorp Stellenbosch',
     reported: false,
+    date: 1545687787,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'hWYYsUcNsbWJJenY4oMt',
+    bookmarkedCount: 0,
+    mongo_id: '5c2152ebdb22a30014dd43a2',
     __collections__: {}
   },
   hXhQcZTVAfci8x3w8ZAE: {
-    bookmarkedCount: 0,
-    mongo_id: '5b89d0bd77c2c10014e2b403',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'EvertEsterhuizen',
     name: 'Reëndae en grou',
     body:
       'Alweer is die winter verby.\nAlleman of enkeling: so ook jy.\nLank lê voor: hooikoors en vere, \nLok my liewer met jou donker kleure. ',
@@ -15986,9 +16000,16 @@ const p = {
     date: 1535758525,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'hXhQcZTVAfci8x3w8ZAE',
+    bookmarkedCount: 0,
+    mongo_id: '5b89d0bd77c2c10014e2b403',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'EvertEsterhuizen',
     __collections__: {}
   },
   hZv8aTyO0IgWbTExklE9: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Huise vol geheime',
     reported: false,
@@ -15998,8 +16019,6 @@ const p = {
     date: 1574117815,
     id: 'hZv8aTyO0IgWbTExklE9',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   hdiQ3uYDcQQXxvIUlcE5: {
@@ -16017,34 +16036,39 @@ const p = {
     __collections__: {}
   },
   hi6YBMqofLP3Jos2sfeC: {
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1568744024,
-    id: 'hi6YBMqofLP3Jos2sfeC',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: 'brotherlouislouislouis',
     name: 'Hardloop',
     reported: false,
     body:
       "Die oggendgloed ontbied my na\n'n baan van sweet en teer \nWaar voeteval met hartklop smelt\nSweep-streel die vlees in submissie\nOm paaie te vleg na\nBestemmings sonder adres",
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1568744024,
+    id: 'hi6YBMqofLP3Jos2sfeC',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   hiGgKdOrU0dhVnPwxgog: {
+    id: 'hiGgKdOrU0dhVnPwxgog',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'blignaultwienand',
     name: 'Totalitêr',
     reported: false,
     body:
       "Kom ons hardloop kaal vanaand, \nOns liefde deel vir hoogverraad. \nLaat ons geestelik vir god oorrompel, \nOns vry maak van die dom verdomde. \n\nWaar regverdiging van onreg daad, \nVan eie boesem, spruit ontaard. \nVan jou ontkenning, skadelose rol, \nHuigelaar! Verstuk jou drol!\n\nBring despotisme, brand daai kerk,\nVat weg die regte, maak dit werk. \nDat niemand ooit weer iets kan glo,\nSonder dat hul dit kan sien of hoor. \n\nWant jou skadelose selgroep bid, \nTerwyl klein meisies aan 'n piel verstuk. \nSoos sjampanje bottles klap holle in die nag,\nWaar priesters god se seuns verkrag. \nWant ons almal glo mos soos ons wil, \nKom ons vat jou weg, sny af jou tril.\n",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1570552257,
-    id: 'hiGgKdOrU0dhVnPwxgog',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'blignaultwienand',
     __collections__: {}
   },
   hlkUkneUwW4KGhTxKaLA: {
+    bookmarkedCount: 1,
+    mongo_id: '5cb46f9745caa90015cbbfca',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'miababy_95',
     name: 'Sondag',
     body:
       "Sondag \n\nBitter verlies van gisteraand se sogenoemde herinneringe\nMy mond is droog\nMy kop is seer\nEn my brein bly hoog\nStadige Sondae en my gedagtes van jou\nDie naverdriet het haar kloue in my \nMaar nie so diep soos wat jou mes\nIn my rug lê nie\nJou woorde was min\nmaar genoeg om die pyl \nDeur die appel te dryf\nDit was dalk nie 'n kopskoot nie\nmaar ek is eerder dood\nAs wat ek myself is\nSomber is dit nie?\nMaanskyn en rose\nVerander na pikswart\nEn digkuns, na die woorde van matrose\nStadige Sondae en my pyn en leed oor jou\nDie lewe beweeg aan\nMaar nie op Sondae nie\nwant Sondae was gemaak vir my en jou\nSondag vir altyd\nSondag, net vir nou\n",
@@ -16052,14 +16076,10 @@ const p = {
     date: 1555328920,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'hlkUkneUwW4KGhTxKaLA',
-    bookmarkedCount: 1,
-    mongo_id: '5cb46f9745caa90015cbbfca',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'miababy_95',
     __collections__: {}
   },
   hol9i4pVY8IditdwwsNo: {
+    adminNotes: 'None',
     handle: '',
     name: 'manet menswees',
     body:
@@ -16071,24 +16091,27 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c239f851ca376001407e29b',
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   hpwvHfg2z2eDEVqRGmWd: {
+    id: 'hpwvHfg2z2eDEVqRGmWd',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Adorno',
     reported: false,
     body:
       "Kan daar nog poësie wees?\nMaak dit enigsins saak in\n'n wêreld wat tjop-tjop as in\nons monde word? Ek wil beelde\nskep, maar ek kan nie. Die\nenigste beeld is swart.\nVerbrande velde, dooie diere\nse verbiltongde vlees, olie wat\nfokken see-goggas vergiftig. Dit\nis nie 'n beeld nie. Dis maar net\nwat is. Ek is 'n hiëna. En nee,\nek weet ook nie of ek lag of\nhuil nie. Ek weet net ek skryf\nnie poësie nie.",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1569612812,
-    id: 'hpwvHfg2z2eDEVqRGmWd',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   hvDXQ5ik5ZBsi6W00Fkp: {
+    bookmarkedCount: 0,
+    mongo_id: '5b98c9e4b94f6c0014707acc',
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'neonvanlierop',
     name: 'Kerkorrel',
     body: "Die beste kerkorrel is 'n Johannes Kerkorrel.",
@@ -16096,13 +16119,14 @@ const p = {
     date: 1536739813,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'hvDXQ5ik5ZBsi6W00Fkp',
-    bookmarkedCount: 0,
-    mongo_id: '5b98c9e4b94f6c0014707acc',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   hxoZskotXf1AAzvRnabS: {
+    canReply: true,
+    id: 'hxoZskotXf1AAzvRnabS',
+    repliedToName: null,
+    bookmarkedCount: 2,
+    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -16114,11 +16138,6 @@ const p = {
     richText: true,
     handle: '',
     name: 'Wat dit vat',
-    canReply: true,
-    id: 'hxoZskotXf1AAzvRnabS',
-    repliedToName: null,
-    bookmarkedCount: 2,
-    nsfw: false,
     __collections__: {}
   },
   i6IDHDDd1hxCKpxhJcWO: {
@@ -16137,7 +16156,6 @@ const p = {
     __collections__: {}
   },
   i7AL1AnVSP8hTn4edudQ: {
-    canReply: true,
     id: 'i7AL1AnVSP8hTn4edudQ',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -16153,12 +16171,10 @@ const p = {
     richText: true,
     handle: '',
     name: '2008',
+    canReply: true,
     __collections__: {}
   },
   iBl1IdyJ6mWM04YQlLfj: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: '  ',
     body: 'Moet begin mediteer...\nweer',
     reported: false,
@@ -16166,6 +16182,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'iBl1IdyJ6mWM04YQlLfj',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   iHpWEJJi3Y2myQSaL4By: {
@@ -16182,21 +16201,24 @@ const p = {
     __collections__: {}
   },
   iIEsaXghjsks1K7jeujm: {
-    date: 1549225075,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'iIEsaXghjsks1K7jeujm',
-    bookmarkedCount: 0,
-    mongo_id: '5c574c7385ae650015ee6417',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Congregation ',
     body:
       'So many broken hearted,\nwe congregate in words and poems and pictures.\nIs it at least a little hard, \nto ghost away and leave me here,\nin papers, paints and photographs?\nSurrounded yet alone.',
     reported: false,
+    date: 1549225075,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'iIEsaXghjsks1K7jeujm',
+    bookmarkedCount: 0,
+    mongo_id: '5c574c7385ae650015ee6417',
+    nsfw: false,
     __collections__: {}
   },
   iJ7mEqX2rYITyhnb73Gi: {
+    repliedTo: null,
+    date: 1568645257,
+    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     richText: true,
     handle: 'ilzedup94',
     name: '80ste',
@@ -16209,14 +16231,9 @@ const p = {
     reported: false,
     body:
       "<div><p><span>in 'n oomblik van waansin</span></p><p><span>het ek gedink ek is</span></p><p><span>verlief op die idee van jou </span></p><p><span>en dat breyten nog die heeltyd</span></p><p><span>dig</span></p><p><span>namens jou</span></p><p><span>vir my</span></p></div>",
-    repliedTo: null,
-    date: 1568645257,
-    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     __collections__: {}
   },
   iJJEG5LCr33VBaHF3ye5: {
-    handle: '',
-    name: 'LC',
     canReply: true,
     id: 'iJJEG5LCr33VBaHF3ye5',
     repliedToName: null,
@@ -16230,9 +16247,13 @@ const p = {
     date: 1568351266,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     richText: true,
+    handle: '',
+    name: 'LC',
     __collections__: {}
   },
   iKEdhCyXqsktgPQuwNXp: {
+    adminNotes: 'None',
+    handle: '',
     name: 'wêrk',
     body: 'Soms sit ek\nSoms nie',
     reported: false,
@@ -16242,16 +16263,9 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c7639b1fc00ea001577c713',
     nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   iKo6Eoqwhevcbfj1qlNN: {
-    id: 'iKo6Eoqwhevcbfj1qlNN',
-    bookmarkedCount: 0,
-    mongo_id: '5c348112929f820015456da6',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'arnojvvuuren',
     name: 'Ballade van n stapel klippe',
     body:
@@ -16259,10 +16273,14 @@ const p = {
     reported: false,
     date: 1546944787,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'iKo6Eoqwhevcbfj1qlNN',
+    bookmarkedCount: 0,
+    mongo_id: '5c348112929f820015456da6',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   iLtGKmmWmNaShIlU9bcZ: {
-    mongo_id: '5c3cb2c217174e0015e5d424',
     nsfw: false,
     adminNotes: 'None',
     handle: '13.lynette',
@@ -16274,9 +16292,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'iLtGKmmWmNaShIlU9bcZ',
     bookmarkedCount: 0,
+    mongo_id: '5c3cb2c217174e0015e5d424',
     __collections__: {}
   },
   iQUmX4OhMQUX4Cy8XxhK: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Even more.',
     body: 'Ek het jou nog nooit ophou mis nie. Sal ook nie. ',
     reported: false,
@@ -16285,12 +16307,12 @@ const p = {
     id: 'iQUmX4OhMQUX4Cy8XxhK',
     bookmarkedCount: 0,
     mongo_id: '5c11233a617e2c00144124fe',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   iTFcSh1r6gVU38XEzdAX: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'JHB',
     body: 'Geluk en versadig is so naby soos bêrrie aan ñ  vloekwoord',
     reported: false,
@@ -16298,12 +16320,12 @@ const p = {
     uid: 'MnxQMtllmJSGkqY1s6zQHWcr8bk2',
     id: 'iTFcSh1r6gVU38XEzdAX',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   iTfY4ov1kgnZ0Py5aGey: {
+    bookmarkedCount: 0,
+    mongo_id: '5c2fd045c6e8fb00153e66a6',
+    nsfw: false,
     adminNotes: 'None',
     handle: 'joneliavt',
     name: 'Gebreek',
@@ -16313,17 +16335,9 @@ const p = {
     date: 1546637381,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'iTfY4ov1kgnZ0Py5aGey',
-    bookmarkedCount: 0,
-    mongo_id: '5c2fd045c6e8fb00153e66a6',
-    nsfw: false,
     __collections__: {}
   },
   iWFpm2dB1b0JzOVhcbVo: {
-    activeTema: null,
-    richText: true,
-    handle: 'almero_welgemoed',
-    name: 'Ek dra ‘n size 7',
-    canReply: true,
     id: 'iWFpm2dB1b0JzOVhcbVo',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -16335,15 +16349,14 @@ const p = {
     repliedTo: null,
     date: 1575562105,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
+    activeTema: null,
+    richText: true,
+    handle: 'almero_welgemoed',
+    name: 'Ek dra ‘n size 7',
+    canReply: true,
     __collections__: {}
   },
   iWOIIO5zbgUbuSg8pndY: {
-    name: 'I’m glad to know ',
-    canReply: true,
-    id: 'iWOIIO5zbgUbuSg8pndY',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -16354,13 +16367,15 @@ const p = {
     activeTema: null,
     richText: true,
     handle: '',
+    name: 'I’m glad to know ',
+    canReply: true,
+    id: 'iWOIIO5zbgUbuSg8pndY',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   iYOxFEYSreSoleMrRdSP: {
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Daar was \'n facebook quote vandag: </span></p><p><span>"Be with people who want to be with you."  </span></p><p><span></span></p><p><span></span></p></div>',
     repliedTo: 'nJww83NUIwXSZiwRCHjm',
     date: 1578955231,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
@@ -16373,11 +16388,13 @@ const p = {
     repliedToName: 'Dronkverdriet',
     bookmarkedCount: 1,
     nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Daar was \'n facebook quote vandag: </span></p><p><span>"Be with people who want to be with you."  </span></p><p><span></span></p><p><span></span></p></div>',
     __collections__: {}
   },
   iYrhGO91zKPXGERg59Gt: {
-    adminNotes: 'None',
-    handle: '',
     name: 'VW < TROK < JY < BOEDDHA ',
     body:
       "Jy gryp nou na halms, meisiekind. \n\nAsem in. \nUit. \n\nSit met jou kop vooroor en onthou hoe die metaal deur sy sagtevleise geskeur het na die glas begin bars het. Eers my venster; joune en toe syne. Die geel metaal monstertande het hom net die hardste gekou toe ons ingesluk word daai nag. Sy sagte lyf het dubbeld gevou. Met hidroliese olie en diesel deurdrenk. Sy kop het op jou skoot tot rus gekom, Meisiekind. \n\nHy't gegrynslag. Gegrynslag? Gegrynslag. ",
@@ -16387,6 +16404,8 @@ const p = {
     id: 'iYrhGO91zKPXGERg59Gt',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   ibQwkmTeOfk5PRC8ciGt: {
@@ -16405,7 +16424,6 @@ const p = {
     __collections__: {}
   },
   ibs9wJj4mCb2XkHfF6w8: {
-    handle: 'aud6362',
     name: 'Dis koud',
     body:
       'Ek kry bibber en ek kry koud\nEk trek my rooi leeu supporter mussie oor my oor\nEk le en wag vir die donker om my te vang\nEk het niemand om nader te trek\nOm my warm te hou \nEk trek jou nader DNJ\nEk gee my sorge oor aan jou\nEk deel my nuus van verlies en sorge\nNet met jou\nVan my oumens tante se weggaan\nVan my jongmens niggie se laaste ure\nMore is jul altwee gone\nEn ek wonder en wonder\nVan n purpose en wat wou\nVan jy met 5 geslagte\nEn jy wat nie voort kan bou\nVan jou volle lewe van kinders tot agter agter kleinkinders\nVan jou wat nog wou begin\nEn ek wonder van n purpose\nVan my en jou',
@@ -16416,10 +16434,10 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: 'aud6362',
     __collections__: {}
   },
   iegBVWV0kLWVWkevQMmu: {
-    id: 'iegBVWV0kLWVWkevQMmu',
     bookmarkedCount: 0,
     mongo_id: '5cb6118bee54430015eabbb4',
     nsfw: false,
@@ -16431,9 +16449,16 @@ const p = {
     reported: false,
     date: 1555435915,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'iegBVWV0kLWVWkevQMmu',
     __collections__: {}
   },
   iiErHM0DqC9KZT8LE4Zm: {
+    handle: 'Verbatim',
+    name: 'Cripple',
+    canReply: true,
+    id: 'iiErHM0DqC9KZT8LE4Zm',
+    repliedToName: null,
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -16444,12 +16469,6 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
-    handle: 'Verbatim',
-    name: 'Cripple',
-    canReply: true,
-    id: 'iiErHM0DqC9KZT8LE4Zm',
-    repliedToName: null,
-    bookmarkedCount: 1,
     __collections__: {}
   },
   ijqM67XwGrKy35Bfi6lD: {
@@ -16468,8 +16487,6 @@ const p = {
     __collections__: {}
   },
   immCmwUXQlU8LStDTx8q: {
-    date: 1560679230,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'immCmwUXQlU8LStDTx8q',
     bookmarkedCount: 0,
     nsfw: false,
@@ -16479,9 +16496,15 @@ const p = {
     body:
       'Ag fok\nek het vergeet\nVandag is vadersdag\nElke restaurant wemel \nEn kreun onder jaar oud pappas\nVerwarde vaders\nlewensmoë wederhelftes\n\nEn tonne...\nTonne en\nFokken tonne kinders. ',
     reported: false,
+    date: 1560679230,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   inVWHAUwHRUdgeukAtbP: {
+    name: 'Oorrompel deur onthou',
+    body:
+      "Vier jaar later. \nOp 'n Woensdagoggend, \n'n Duisend kilometer ver, \nDwarrel oorblyfsels van jou \nSagte hippie-reuk om my\nToe ek die ou reissak bo\nUit die kas tel. \n\nHou dit ooit hééltemal op? ",
+    reported: false,
     date: 1557353730,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'inVWHAUwHRUdgeukAtbP',
@@ -16490,13 +16513,10 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: 'verbatim',
-    name: 'Oorrompel deur onthou',
-    body:
-      "Vier jaar later. \nOp 'n Woensdagoggend, \n'n Duisend kilometer ver, \nDwarrel oorblyfsels van jou \nSagte hippie-reuk om my\nToe ek die ou reissak bo\nUit die kas tel. \n\nHou dit ooit hééltemal op? ",
-    reported: false,
     __collections__: {}
   },
   iot6j99hNQTg2QWeJpdg: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'S + P ',
@@ -16507,12 +16527,9 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'iot6j99hNQTg2QWeJpdg',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   irqcn4MUjVKgiwl99zFB: {
-    mongo_id: '5bc65e84cd17bf0014b20b8c',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'closing up',
@@ -16523,9 +16540,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'irqcn4MUjVKgiwl99zFB',
     bookmarkedCount: 0,
+    mongo_id: '5bc65e84cd17bf0014b20b8c',
+    nsfw: false,
     __collections__: {}
   },
   iy4fecTRYYh12Swl8vNe: {
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -16537,10 +16557,11 @@ const p = {
     uid: 'rpq9oKNAkHglvTyfeI0KETpOgi53',
     id: 'iy4fecTRYYh12Swl8vNe',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   iziXssDEhxFYJPqH5dFr: {
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'god.',
     reported: false,
@@ -16551,16 +16572,9 @@ const p = {
     id: 'iziXssDEhxFYJPqH5dFr',
     bookmarkedCount: 0,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   j2n7KnDXqljARVHoUmVS: {
-    id: 'j2n7KnDXqljARVHoUmVS',
-    repliedToName: 'Draw',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     body: '<div><p><span>Amen. </span></p></div>',
     reported: false,
     repliedTo: 'AUDVD6jKdhFsSV9egyFr',
@@ -16571,9 +16585,16 @@ const p = {
     handle: '',
     name: '| |   |°|   | | ',
     canReply: true,
+    id: 'j2n7KnDXqljARVHoUmVS',
+    repliedToName: 'Draw',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   j4CiYZrzNyPlGh9Ucdsb: {
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Dis net',
     body:
@@ -16584,14 +16605,9 @@ const p = {
     id: 'j4CiYZrzNyPlGh9Ucdsb',
     bookmarkedCount: 1,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   j5FhAfnu1iw1rtm6YGJs: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'terblanche_jordaan',
     name: 'Jou Gedig ',
     body:
       'In die middel van nêrens\nOmring ek myself met jou\nTussen gedigte van ons verlede\nWant die toekoms kom te gou\n\nSoveel woorde bly oor in ink\nOp papier wat bestaan uit vlees\nSoveel boeke om te dra\nMaar jy is al wat ek wil lees\n\nWant in die middel van nêrens\nOmring ek myself met jou\nEn al dink ek nie teveel nie\nKlop my hart darem net vir nou',
@@ -16601,9 +16617,15 @@ const p = {
     id: 'j5FhAfnu1iw1rtm6YGJs',
     bookmarkedCount: 0,
     mongo_id: '5b64222c9e6b9f001417fb32',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'terblanche_jordaan',
     __collections__: {}
   },
   j5Yh1Yeq8mY1MKZJXnr0: {
+    id: 'j5Yh1Yeq8mY1MKZJXnr0',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -16617,15 +16639,9 @@ const p = {
     handle: 'verbeeldings.wereld.hartjie',
     name: 'Glo',
     canReply: true,
-    id: 'j5Yh1Yeq8mY1MKZJXnr0',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   jAg7BKaNYdEo5DBLCjRX: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'mabethc',
     name: 'De arte poetica liber',
     body:
       'Ek wag vir jou in die bib\nOp die heel onderste vloer\nIn die heel verste hoek\nTussen die filosofie boeke\nDaar waar jy Aristoteles se \nDe arte poetica liber sal kry\nEn vir my',
@@ -16634,6 +16650,9 @@ const p = {
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     id: 'jAg7BKaNYdEo5DBLCjRX',
     bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'mabethc',
     __collections__: {}
   },
   jDFSxVG4zvtQ6ATv8CMZ: {
@@ -16652,13 +16671,6 @@ const p = {
     __collections__: {}
   },
   jG7wzdNDLaK3lYAkN62c: {
-    richText: true,
-    handle: '',
-    name: 'Kasteel om jou hart',
-    canReply: true,
-    id: 'jG7wzdNDLaK3lYAkN62c',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -16668,6 +16680,13 @@ const p = {
     date: 1571693967,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Kasteel om jou hart',
+    canReply: true,
+    id: 'jG7wzdNDLaK3lYAkN62c',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   jIe97gv8UemQTeAt79xH: {
@@ -16684,19 +16703,21 @@ const p = {
     __collections__: {}
   },
   jJXFvOTqJmWhC5KJgdHQ: {
-    date: 1558990517,
-    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
-    id: 'jJXFvOTqJmWhC5KJgdHQ',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'W',
     body: "I'd hate to have to be cured of my addiction to you. ",
     reported: false,
+    date: 1558990517,
+    uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
+    id: 'jJXFvOTqJmWhC5KJgdHQ',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   jNv4LVyzLGWvirR3N1OZ: {
+    id: 'jNv4LVyzLGWvirR3N1OZ',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'antonbarnard ',
@@ -16706,11 +16727,14 @@ const p = {
     reported: false,
     date: 1561088221,
     uid: 'OwBp7lLrfEZ3uIHh5jl3VWx79sZ2',
-    id: 'jNv4LVyzLGWvirR3N1OZ',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   jQNeNqvOtvZWL1ZhsBcw: {
+    bookmarkedCount: 1,
+    mongo_id: '5b509cb587570b00140e99b6',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'NPvanwyklouw',
     name: 'Die liefde in my',
     body:
       "Dis altyd jy, net altyd jy,\ndie een gedagte bly my by\nsoos skadu's onder bome bly,\nnet altyd jy, net altyd jy.\n\nLangs baie weë gaan my smart,\nblind is my oë en verward,\nis alle dinge in my hart.\n\nMaar dit sal een en enkeld bly,\nen aards en diep sy laafnis kry,\nal staan dit winter, kaal in my,\ndie liefde in my, die liefde in my.",
@@ -16718,14 +16742,13 @@ const p = {
     date: 1532009654,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'jQNeNqvOtvZWL1ZhsBcw',
-    bookmarkedCount: 1,
-    mongo_id: '5b509cb587570b00140e99b6',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'NPvanwyklouw',
     __collections__: {}
   },
   jS3xkoOHQZo1eVk1Ki6v: {
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1576015670,
+    id: 'jS3xkoOHQZo1eVk1Ki6v',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'woordedwaler',
@@ -16733,13 +16756,15 @@ const p = {
     reported: false,
     body:
       'Hoe weet ek ek is verlief?\nIs dit die gedagte aan jou wat my laat dwaal na die wolke en terug?\nIs dit jou naam wat ń koue sweet oproep\nin my liggaam? \n\nDalk die reuk van jou wat ek elke oggend voor hoop om op te tel?\n\nHoe weet ek? \n\nIs ek simpel, impulsief of verlief?\nNiemand sal eintlik weet nie, sal hulle?\nEk dwaal rond in my gedagtes\nEn n bekende stem van tannie Magda\nWeergalm in my hart.\n\n"Die gevoel. Die gevoel van die persoon saam met jou en die gevoel van die persoon weg van jou. Dis die gevoel wat die geheim van liefde behou."\n\nVerlief sal ek altyd wil bly.',
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1576015670,
-    id: 'jS3xkoOHQZo1eVk1Ki6v',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   jVE4uwBW6jUdKqAC2xsE: {
+    repliedTo: null,
+    date: 1573070366,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
+    richText: true,
+    handle: '',
     name: 'Mindful ',
     canReply: true,
     id: 'jVE4uwBW6jUdKqAC2xsE',
@@ -16750,12 +16775,6 @@ const p = {
     body:
       '<div><p><span>You</span></p><p><span>Yes you!</span></p><p><span>Blow </span></p><p><span>Blow</span></p><p><span>You blow me</span></p><p><span>You blow my </span></p><p><span>You blow my... </span><span>mind </span></p><p><span></span></p></div>',
     reported: false,
-    repliedTo: null,
-    date: 1573070366,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
-    handle: '',
     __collections__: {}
   },
   jVo9hFvKwAwJnHgmnGo1: {
@@ -16774,20 +16793,24 @@ const p = {
     __collections__: {}
   },
   jbLfJ6nHwKln30yexDCp: {
+    date: 1561753752,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'jbLfJ6nHwKln30yexDCp',
+    bookmarkedCount: 1,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Wil jy my terug hê',
     body:
       "Is hierdie net die ekwivalent van 'n Hoërskool facebook satus?\n'Ek is lief vir jou en wil net vir jou hê'\nWas dinge eenvoudiger dan? Ek dink nie so nie. ",
     reported: false,
-    date: 1561753752,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'jbLfJ6nHwKln30yexDCp',
-    bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   jbMkL7Onk8LJUZXPpoir: {
+    date: 1533812818,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'jbMkL7Onk8LJUZXPpoir',
+    bookmarkedCount: 0,
     mongo_id: '5b6c20512b2c90001484bf41',
     nsfw: false,
     adminNotes: 'None',
@@ -16796,20 +16819,9 @@ const p = {
     body:
       "Jy's mos ook so. \nSo hoe?\nSó, man.\nO, só? \nJa, presíés so. \nO, ja.\nEk's ook so. \n\n",
     reported: false,
-    date: 1533812818,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'jbMkL7Onk8LJUZXPpoir',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   jn0YaB6VFuLBFCvEyJYr: {
-    richText: true,
-    handle: 'aud6362',
-    name: 'Wat is jy...',
-    canReply: true,
-    id: 'jn0YaB6VFuLBFCvEyJYr',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -16818,10 +16830,16 @@ const p = {
     repliedTo: null,
     date: 1568312341,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
+    richText: true,
+    handle: 'aud6362',
+    name: 'Wat is jy...',
+    canReply: true,
+    id: 'jn0YaB6VFuLBFCvEyJYr',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   jnm0uKbUGnNhHmehPcXf: {
-    adminNotes: 'None',
     body:
       "<div><p><span>Hier is dan twee oë. </span></p><p><span>Twee ore, </span></p><p><span>Een nek, een hart, </span></p><p><span>Twee knieë, </span></p><p><span>Biljoene lae vel, </span></p><p><span>'n volledige biologie, ast' ware, </span></p><p><span></span></p><p><span>'n enkele, volledige biologie. </span></p></div>",
     reported: false,
@@ -16837,11 +16855,10 @@ const p = {
     repliedToName: 'Sisyphus',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   jrofUv2dK0KXq9Lb8dwS: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'The Scourge of War',
     reported: false,
@@ -16851,9 +16868,15 @@ const p = {
     date: 1578808345,
     id: 'jrofUv2dK0KXq9Lb8dwS',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   jupQipUAKoGuHmwfPBwf: {
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Jou stem weergalm in die holtes </span></p><p><span>van my menswees\nWaar die brokkies van my gebrokenheid\nhulself een-een ontwortel\nen afdrup van my mou.\n\nDis alles, om plek te maak vir jou.</span></p></div>',
     repliedTo: null,
     date: 1567950136,
     uid: 'VeJpwlm0nJQxQyt57uCt8MlWPr52',
@@ -16865,13 +16888,12 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Jou stem weergalm in die holtes </span></p><p><span>van my menswees\nWaar die brokkies van my gebrokenheid\nhulself een-een ontwortel\nen afdrup van my mou.\n\nDis alles, om plek te maak vir jou.</span></p></div>',
     __collections__: {}
   },
   jwhaWIgIlDx6GtiXK168: {
+    repliedTo: null,
+    date: 1573926489,
+    uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
     activeTema: null,
     richText: true,
     handle: 'stefanyseymore',
@@ -16885,12 +16907,16 @@ const p = {
     reported: false,
     body:
       '<div><p><span>Versteurings word versteurings genoem</span></p><p><span>want die reëls word gemaak deur die meerderheid:</span></p><p><span>die norm</span></p><p><span>se optrede bepaal wat</span></p><p><span>normaal </span></p><p><span>aanvaarbaar</span></p><p><span>afwyking</span></p><p><span>is, tog is dit om altyd ‘n vreemde taal te praat en nie</span></p><p><span>verstaan</span></p><p><span>word deur jou moedertaal </span></p><p><span>nie. </span></p><p><span>is, tog hoekom digters voel hulle moet altyd</span></p><p><span>verdedig </span></p><p><span>verdien </span></p><p><span>om buite die norm te wees, maar tog déél</span></p><p><span>“I am I am I am” - Sylvia Plath</span></p><p><span>“Ek is ek is</span></p><p><span>die here hoor my</span></p><p><span>‘n</span></p><p><span>vry</span></p><p><span>fokken</span></p><p><span>vrou” - Antjie Krog</span></p></div>',
-    repliedTo: null,
-    date: 1573926489,
-    uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
     __collections__: {}
   },
   jx1xgc2r1k2LOEMO4xQK: {
+    body:
+      '<div><p><span>Ek hou daarvan om my lesse op die hárde manier te leer</span></p><p><span></span></p><p><span>Elke</span></p><p><span>Fokken</span></p><p><span>Keer</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1574440595,
+    uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
+    activeTema: 'Deel jou geheim',
     richText: true,
     handle: '',
     name: '🙄 vir myself',
@@ -16900,22 +16926,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Ek hou daarvan om my lesse op die hárde manier te leer</span></p><p><span></span></p><p><span>Elke</span></p><p><span>Fokken</span></p><p><span>Keer</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1574440595,
-    uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
-    activeTema: 'Deel jou geheim',
     __collections__: {}
   },
   jzDLnKkc06Ewe09hBprW: {
-    handle: 'stefanyseymore',
-    name: 'god in die kultuurnorm',
-    canReply: true,
-    id: 'jzDLnKkc06Ewe09hBprW',
-    repliedToName: null,
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -16926,14 +16939,15 @@ const p = {
     uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
     activeTema: null,
     richText: true,
+    handle: 'stefanyseymore',
+    name: 'god in die kultuurnorm',
+    canReply: true,
+    id: 'jzDLnKkc06Ewe09hBprW',
+    repliedToName: null,
+    bookmarkedCount: 1,
     __collections__: {}
   },
   k11ORTvP8BFt7wIsoC1V: {
-    id: 'k11ORTvP8BFt7wIsoC1V',
-    bookmarkedCount: 0,
-    mongo_id: '5c4b4fe23d1e4a0015bfc825',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Ek wonder maar net...',
     body:
@@ -16941,9 +16955,17 @@ const p = {
     reported: false,
     date: 1548439522,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'k11ORTvP8BFt7wIsoC1V',
+    bookmarkedCount: 0,
+    mongo_id: '5c4b4fe23d1e4a0015bfc825',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   k6yHwB3ImiTCb1P6evPF: {
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'sensuur?',
     body:
@@ -16952,13 +16974,9 @@ const p = {
     date: 1559838246,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'k6yHwB3ImiTCb1P6evPF',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   k8fcF9B1fO18VkWHQXdN: {
-    id: 'k8fcF9B1fO18VkWHQXdN',
     bookmarkedCount: 0,
     mongo_id: '5b682e2672a6520014716b0f',
     nsfw: false,
@@ -16970,17 +16988,10 @@ const p = {
     reported: false,
     date: 1533554215,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'k8fcF9B1fO18VkWHQXdN',
     __collections__: {}
   },
   kBpTx4BXU53QaZt3v0el: {
-    id: 'kBpTx4BXU53QaZt3v0el',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>Ek sit met op gekropte emosies</span></p><p><span>Emosies van jare se shit wat ek moes deur gaan.</span></p><p><span>Deur gaan terwille van ons kinders en om vrede te bewaar</span></p><p><span></span></p><p><span>Dis tyd dat ek jou laat gaan in die hemel ruim</span></p><p><span>Sodat ek jou naam nie meer wil hoor</span></p><p><span>Jou sms of whatsup nie meer wil kry</span></p><p><span>Want al wat oorbly is 'n gevoel van leemte waarmee dit vrede en geluk sal voortbring in my toekoms.</span></p><p><span>'n Toekoms waarin jy nie meer deel van is nie</span></p><p><span></span></p><p><span>Ek blaas my laaste asem uit van haat en seer kry in hierdie ballon en laat die ballon opstuig tot ek die ballon nie meer kan sien en jy verdwyn uit my lewe uit vir nou en ewigheid. </span></p></div>",
     repliedTo: null,
     date: 1571750332,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
@@ -16989,9 +17000,21 @@ const p = {
     handle: '',
     name: 'Laat jy gaan in die hemelruim',
     canReply: true,
+    id: 'kBpTx4BXU53QaZt3v0el',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Ek sit met op gekropte emosies</span></p><p><span>Emosies van jare se shit wat ek moes deur gaan.</span></p><p><span>Deur gaan terwille van ons kinders en om vrede te bewaar</span></p><p><span></span></p><p><span>Dis tyd dat ek jou laat gaan in die hemel ruim</span></p><p><span>Sodat ek jou naam nie meer wil hoor</span></p><p><span>Jou sms of whatsup nie meer wil kry</span></p><p><span>Want al wat oorbly is 'n gevoel van leemte waarmee dit vrede en geluk sal voortbring in my toekoms.</span></p><p><span>'n Toekoms waarin jy nie meer deel van is nie</span></p><p><span></span></p><p><span>Ek blaas my laaste asem uit van haat en seer kry in hierdie ballon en laat die ballon opstuig tot ek die ballon nie meer kan sien en jy verdwyn uit my lewe uit vir nou en ewigheid. </span></p></div>",
     __collections__: {}
   },
   kKUII9GoR6DMsVqXBh5a: {
+    canReply: true,
+    id: 'kKUII9GoR6DMsVqXBh5a',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -17003,20 +17026,9 @@ const p = {
     richText: true,
     handle: '',
     name: 'Teleur (Terreur)',
-    canReply: true,
-    id: 'kKUII9GoR6DMsVqXBh5a',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   kLg4MvAGLwUY3J1bALNE: {
-    name: 'uhm',
-    canReply: true,
-    id: 'kLg4MvAGLwUY3J1bALNE',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Hey, Johnny,</span></p><p><span>ek dink jy bedoel</span></p><p><span></span></p><p><span>"donker." </span></p></div>',
@@ -17026,11 +17038,16 @@ const p = {
     activeTema: null,
     richText: true,
     handle: '',
+    name: 'uhm',
+    canReply: true,
+    id: 'kLg4MvAGLwUY3J1bALNE',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   kR9oNUBW8wutbncprYlo: {
-    adminNotes: 'None',
-    handle: '',
     name: 'ALL CAPS want jy skree nie reeds te hard nie',
     body:
       'Twee belangrike boodskappe vandag ontvang\nBEKOMMERDE ouers\nBEFOKTE meisie\nJammer gesê\nIs alle kommunikasie eintlik maar net manipulasie?',
@@ -17041,9 +17058,18 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b6883fb72a6520014716b10',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   kV58Arn8aSHjY57beXLP: {
+    richText: true,
+    handle: 'miaradov',
+    name: 'A look into a Gemini’s playlist ',
+    canReply: true,
+    id: 'kV58Arn8aSHjY57beXLP',
+    repliedToName: null,
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -17052,32 +17078,22 @@ const p = {
     repliedTo: null,
     date: 1571593587,
     uid: 'x3O1Og54hoR1FAgzBNI7sUPy3zl1',
-    richText: true,
-    handle: 'miaradov',
-    name: 'A look into a Gemini’s playlist ',
-    canReply: true,
-    id: 'kV58Arn8aSHjY57beXLP',
-    repliedToName: null,
-    bookmarkedCount: 1,
     __collections__: {}
   },
   kXBl8G44X5jZOnBVQDML: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'ankespies',
     name: 'Bethlehem bar',
     reported: false,
     body: "ek het verlief geraak\nin 'n bar\nerens in Bethlehem. ",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1576449131,
     id: 'kXBl8G44X5jZOnBVQDML',
-    __collections__: {}
-  },
-  kZ1Jl3d3vojwubLzpAFX: {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: 'ankespies',
+    __collections__: {}
+  },
+  kZ1Jl3d3vojwubLzpAFX: {
     body:
       '<div><p><span>El le wakker en luister</span></p><p><span>Na die laat laat middernag </span></p><p><span>Se gefluister</span></p><p><span>Ek probeer om te skryf</span></p><p><span>Maar gedagtes aan jou</span></p><p><span>Blokkeer die woorde van nou</span></p><p><span>Kom terug na my</span></p><p><span>En wees net nog eenkeer</span></p><p><span>My laatnag muse</span></p></div>',
     reported: false,
@@ -17091,11 +17107,12 @@ const p = {
     canReply: true,
     id: 'kZ1Jl3d3vojwubLzpAFX',
     repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   kZBOKAlEYZ9LB0oYHmvs: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Appels & Banana ',
     body:
@@ -17105,13 +17122,11 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'kZBOKAlEYZ9LB0oYHmvs',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   kiYSUzTeuZCuYaZ1GVR1: {
-    richText: true,
-    handle: '',
-    name: 'dis jy',
-    canReply: true,
     id: 'kiYSUzTeuZCuYaZ1GVR1',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -17124,10 +17139,13 @@ const p = {
     date: 1578602767,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'dis jy',
+    canReply: true,
     __collections__: {}
   },
   kkTj1hfiIsePvycYNBBh: {
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -17138,14 +17156,10 @@ const p = {
     date: 1562539746,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'kkTj1hfiIsePvycYNBBh',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   klnVmpwgwIK68qZSexb5: {
-    bookmarkedCount: 0,
-    mongo_id: '5c581ac7044984001584e84d',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Als',
     body:
       'Makeup \nmarcels \nmilan \ncrocs \nsigarette \nsoene \nboobs \ntattoos \nubereats \nlag \nals\n\nEk mis dit als',
@@ -17153,17 +17167,14 @@ const p = {
     date: 1549277895,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'klnVmpwgwIK68qZSexb5',
+    bookmarkedCount: 0,
+    mongo_id: '5c581ac7044984001584e84d',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   koBLdUS6sKu595a60e81: {
-    adminNotes: 'None',
-    body:
-      '<div><p><span>Verloor </span></p><p><span>Verloor</span></p><p><span>Verloor</span></p><p><span></span></p><p><span>Is dit dan al waarvoor ons bestem is </span></p><p><span>in Life 1.0? </span></p></div>',
-    reported: false,
-    repliedTo: 'IEji94a83a69d0QQx5PL',
-    date: 1581116472,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'Zen + detachment',
@@ -17172,12 +17183,17 @@ const p = {
     repliedToName: 'Lus',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span>Verloor </span></p><p><span>Verloor</span></p><p><span>Verloor</span></p><p><span></span></p><p><span>Is dit dan al waarvoor ons bestem is </span></p><p><span>in Life 1.0? </span></p></div>',
+    reported: false,
+    repliedTo: 'IEji94a83a69d0QQx5PL',
+    date: 1581116472,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
     __collections__: {}
   },
   kvGWtNWkBbquDFWOcEle: {
-    date: 1544612956,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'kvGWtNWkBbquDFWOcEle',
     bookmarkedCount: 0,
     mongo_id: '5c10ec5b617e2c00144124fc',
     nsfw: false,
@@ -17186,10 +17202,12 @@ const p = {
     name: 'Dis Complicated',
     body: 'Fok die reëls\nEk mis jou ook',
     reported: false,
+    date: 1544612956,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'kvGWtNWkBbquDFWOcEle',
     __collections__: {}
   },
   kvIrOqVddgKoIkPbrjNH: {
-    activeTema: 'Depressiewe struggle',
     richText: true,
     handle: '',
     name: '.',
@@ -17200,10 +17218,10 @@ const p = {
     nsfw: false,
     stemme: [
       {
-        instagram: null,
-        date: 1572460860,
         url:
-          'https://firebasestorage.googleapis.com/v0/b/disnetons.appspot.com/o/stem%2F9460ee87-ba9a-4293-9097-48983ef64e64?alt=media&token=b6be4445-0002-43ca-8904-a08c9306aaa1'
+          'https://firebasestorage.googleapis.com/v0/b/disnetons.appspot.com/o/stem%2F9460ee87-ba9a-4293-9097-48983ef64e64?alt=media&token=b6be4445-0002-43ca-8904-a08c9306aaa1',
+        instagram: null,
+        date: 1572460860
       }
     ],
     adminNotes: 'None',
@@ -17213,9 +17231,11 @@ const p = {
     repliedTo: null,
     date: 1572460832,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
+    activeTema: 'Depressiewe struggle',
     __collections__: {}
   },
   l0LiXDC057joUQmKjjVZ: {
+    id: 'l0LiXDC057joUQmKjjVZ',
     bookmarkedCount: 0,
     mongo_id: '5b57075d89a053001410fd86',
     nsfw: false,
@@ -17227,10 +17247,10 @@ const p = {
     reported: false,
     date: 1532430174,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'l0LiXDC057joUQmKjjVZ',
     __collections__: {}
   },
   l8Yh8Et4QTBsXr3KPJYI: {
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -17242,7 +17262,6 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'l8Yh8Et4QTBsXr3KPJYI',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   lBak4y4M0OtctePTokoE: {
@@ -17259,6 +17278,11 @@ const p = {
     __collections__: {}
   },
   lCe0IQRPaYaZJQy7qWXl: {
+    name: 'Someone that will love me for who i am',
+    canReply: true,
+    id: 'lCe0IQRPaYaZJQy7qWXl',
+    repliedToName: null,
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -17270,21 +17294,9 @@ const p = {
     activeTema: null,
     richText: true,
     handle: '',
-    name: 'Someone that will love me for who i am',
-    canReply: true,
-    id: 'lCe0IQRPaYaZJQy7qWXl',
-    repliedToName: null,
-    bookmarkedCount: 1,
     __collections__: {}
   },
   lDBqVzaIdSRqodlV7kgq: {
-    nsfw: false,
-    adminNotes: 'None',
-    body: '<div><p><span>Alles begin more weer</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1582486065,
-    uid: 'RVYxdvsokUNis9Ft25i2YKmMUkV2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -17293,11 +17305,16 @@ const p = {
     id: 'lDBqVzaIdSRqodlV7kgq',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    body: '<div><p><span>Alles begin more weer</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1582486065,
+    uid: 'RVYxdvsokUNis9Ft25i2YKmMUkV2',
     __collections__: {}
   },
   lLtaiv1ZA0Oo5hDQBoaG: {
-    nsfw: true,
-    adminNotes: 'None',
     handle: '',
     name: '1994',
     body:
@@ -17307,13 +17324,11 @@ const p = {
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'lLtaiv1ZA0Oo5hDQBoaG',
     bookmarkedCount: 1,
+    nsfw: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   lOsIac047cDX17DZCinu: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'diagnose: gewillige slagoffer',
     canReply: true,
     id: 'lOsIac047cDX17DZCinu',
     repliedToName: null,
@@ -17325,11 +17340,13 @@ const p = {
     repliedTo: null,
     date: 1570132338,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'diagnose: gewillige slagoffer',
     __collections__: {}
   },
   lQxTTQSlYFz1rVUL3vKi: {
-    bookmarkedCount: 0,
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -17340,9 +17357,14 @@ const p = {
     date: 1565722799,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'lQxTTQSlYFz1rVUL3vKi',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   lR6oerX4qLBgP6sZ426y: {
+    reported: false,
+    body:
+      '<div><p><span>Ek wil myself hoor, luister na wat werk vir my en dit agter na sit.</span></p><p><span>Probeer en weet wanneer ek mag uit tree.</span></p><p><span>Dit klink beter as op gee.</span></p></div>',
     repliedTo: 'FxA2WiDNHFcSdWD5xebe',
     date: 1577732275,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
@@ -17356,12 +17378,11 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Ek wil myself hoor, luister na wat werk vir my en dit agter na sit.</span></p><p><span>Probeer en weet wanneer ek mag uit tree.</span></p><p><span>Dit klink beter as op gee.</span></p></div>',
     __collections__: {}
   },
   lZgX4bYzq4Uk10WwqOiq: {
+    bookmarkedCount: 0,
+    mongo_id: '5c1a9846212cd60014131cd5',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -17371,11 +17392,12 @@ const p = {
     date: 1545246791,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'lZgX4bYzq4Uk10WwqOiq',
-    bookmarkedCount: 0,
-    mongo_id: '5c1a9846212cd60014131cd5',
     __collections__: {}
   },
   leXH69EPuGF8CL6vq4mb: {
+    mongo_id: '5cdafa70df4ca3001540f012',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: '.',
     body: 'Die skrif is aan die muur. Wederom. ',
@@ -17384,12 +17406,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'leXH69EPuGF8CL6vq4mb',
     bookmarkedCount: 2,
-    mongo_id: '5cdafa70df4ca3001540f012',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   lgl86kpr7tpCik2vwYOy: {
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Lig',
@@ -17399,11 +17420,10 @@ const p = {
     date: 1559240311,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'lgl86kpr7tpCik2vwYOy',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   ljDAEtwIOv50ZVGpmfE6: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -17418,10 +17438,14 @@ const p = {
     canReply: true,
     id: 'ljDAEtwIOv50ZVGpmfE6',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   ljTW9WrlgCQzLRoe5urr: {
+    id: 'ljTW9WrlgCQzLRoe5urr',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body: '<div><p><span>Waarmee is jy besig?</span></p></div>',
     repliedTo: null,
@@ -17431,16 +17455,9 @@ const p = {
     handle: 'ena_stegmann',
     name: 'Note to self',
     canReply: true,
-    id: 'ljTW9WrlgCQzLRoe5urr',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   lqyfkC0O3tDWOEDG4JfB: {
-    adminNotes: 'None',
-    handle: '',
     name: 'CY Blessings',
     body:
       "Die gode het Belville geseën met 'n kragstilte en reën. Die aardlinge antwoord met verkeersknope, swaaiende vuiste en fender benders.",
@@ -17451,9 +17468,13 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c093f5a2dc8bb0014e1748d',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   lrdyIdzKUjtokoFgfpLP: {
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -17468,14 +17489,9 @@ const p = {
     canReply: true,
     id: 'lrdyIdzKUjtokoFgfpLP',
     repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   lsY9YH0HCwG4LOpHUQem: {
-    handle: '',
-    name: 'Jammer • Dankie ',
-    canReply: true,
     id: 'lsY9YH0HCwG4LOpHUQem',
     repliedToName: 'dekmantel liefde',
     bookmarkedCount: 0,
@@ -17489,10 +17505,12 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
+    handle: '',
+    name: 'Jammer • Dankie ',
+    canReply: true,
     __collections__: {}
   },
   ltOyq9UjnUzQabaO5ZZP: {
-    handle: 'ek.is.anouk ',
     name: 'leeg, leeër, leegste',
     body:
       '<div><p><span></span><span>vanoggend is altyd</span></p><p><span>te laat</span></p><p><span>vir gisteraand</span></p><p><span></span></p><p><span></span></p></div>',
@@ -17504,11 +17522,10 @@ const p = {
     nsfw: false,
     richText: true,
     adminNotes: 'None',
+    handle: 'ek.is.anouk ',
     __collections__: {}
   },
   lzfNtNcoK9AnQmMBqo52: {
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: "Assessering by 'n haarkapper. ",
@@ -17518,9 +17535,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1577132908,
     id: 'lzfNtNcoK9AnQmMBqo52',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   m15mXEWv4ychas9wJMaI: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -17536,11 +17556,9 @@ const p = {
     canReply: true,
     id: 'm15mXEWv4ychas9wJMaI',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   m6OA4oYAAMQGeJ9AQK8m: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '_',
@@ -17550,14 +17568,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'm6OA4oYAAMQGeJ9AQK8m',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   m8MeBdhWUPuTf9nLViAi: {
-    name: 'ek affiks',
-    canReply: true,
-    id: 'm8MeBdhWUPuTf9nLViAi',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -17569,9 +17583,21 @@ const p = {
     activeTema: null,
     richText: true,
     handle: '',
+    name: 'ek affiks',
+    canReply: true,
+    id: 'm8MeBdhWUPuTf9nLViAi',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   m9EKTXBTRdD4RcYVLCl1: {
+    richText: true,
+    handle: '',
+    name: 'Saggies praat',
+    canReply: true,
+    id: 'm9EKTXBTRdD4RcYVLCl1',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -17581,22 +17607,9 @@ const p = {
     date: 1578171164,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
     activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Saggies praat',
-    canReply: true,
-    id: 'm9EKTXBTRdD4RcYVLCl1',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   mAjnRV7kGTSqeNVIK6EE: {
-    canReply: true,
-    id: 'mAjnRV7kGTSqeNVIK6EE',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       "<div><p><span>Dis borrels wit gas wat uitwolk, oorkook, rammel en rys; al groter en digter kolomme omgee en belangstelling word.</span></p><p><span></span></p><p><span>Dan tref dit die gladde glasrand van jou hart, ontbind en vervaag stilletjies tot niks meer as skaam borreltjies stikstof op 'n piering wat later self uitbrand. </span></p><p><span></span></p></div>",
     reported: false,
@@ -17607,6 +17620,12 @@ const p = {
     richText: true,
     handle: '',
     name: '1989 | 1991',
+    canReply: true,
+    id: 'mAjnRV7kGTSqeNVIK6EE',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   mGr7SLWywWFxGIi1UEK9: {
@@ -17624,6 +17643,8 @@ const p = {
     __collections__: {}
   },
   mTR8iaBiCeqh7aj87Jww: {
+    id: 'mTR8iaBiCeqh7aj87Jww',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'marietsteinmann ',
@@ -17633,11 +17654,14 @@ const p = {
     reported: false,
     date: 1559538338,
     uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
-    id: 'mTR8iaBiCeqh7aj87Jww',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   mUpY4l1TDKIOQvsqlhCt: {
+    bookmarkedCount: 0,
+    mongo_id: '5cb9104c8385fb0015665531',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'ekwasvanaandgetroudmetvavushkaensywasfantasties',
     name: 'Speakeasy',
     body:
       'Aaaai Kev... Aai aai Kev. \nDis fokken snaaks. \nVavushka is de moerin vir jou, \n"Keenan" en dan is daar Gerrie se ma se avontuurlustige vagina. Waddefok en gay John. Aaai Kev.\nJy wys jou nipples vir die verkeerde mense. Maar dit score vir ons baie, báie gratis drank. \n"Vavushka" is wit van die woede. \nMaar dis free drinks. Wys daai tepels en laat die closet gays swoon. Ek voel \'n fok. Ons het entertainment vir \'n aand. \n\nWanneer laas het jy op Goeie Vrydag sóveel pret gehad? \n\n',
@@ -17645,14 +17669,11 @@ const p = {
     date: 1555632204,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'mUpY4l1TDKIOQvsqlhCt',
-    bookmarkedCount: 0,
-    mongo_id: '5cb9104c8385fb0015665531',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'ekwasvanaandgetroudmetvavushkaensywasfantasties',
     __collections__: {}
   },
   mYXTmpmLs0Db2K3NvixS: {
+    bookmarkedCount: 0,
+    mongo_id: '5c8926cb989b6b00153f4dd9',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -17663,11 +17684,11 @@ const p = {
     date: 1552492236,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'mYXTmpmLs0Db2K3NvixS',
-    bookmarkedCount: 0,
-    mongo_id: '5c8926cb989b6b00153f4dd9',
     __collections__: {}
   },
   mcfmROc6h3xJ4XB6xbIr: {
+    nsfw: false,
+    adminNotes: 'None',
     body:
       '<div><p><span>Ek voel soms asof ek dryf</span></p><p><span></span><span>Weg van myself</span></p><p><span>Weg na wie ek wil wees</span></p><p><span>As ek net nie so swaar was nie</span></p><p><span>En die water my tot daar kon spoel</span></p></div>',
     reported: false,
@@ -17682,14 +17703,9 @@ const p = {
     id: 'mcfmROc6h3xJ4XB6xbIr',
     repliedToName: null,
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   mclMBqSNh5UhzxQ8W6HT: {
-    date: 1547070989,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'mclMBqSNh5UhzxQ8W6HT',
     bookmarkedCount: 0,
     mongo_id: '5c366e0cccaa0700159af76a',
     nsfw: false,
@@ -17699,10 +17715,12 @@ const p = {
     body:
       "Dit was alles baie pret toe dit nog net\nPrentjies, woorde en sinne was. \nMaar nou is dit eindelik hier:\nOor twee en 'n half jaar\nMoet sy staan en die\nWind en weer\nBuitekant\nHou\n\nJy\nJulle \nAlmal \nSnoesig \nWit en warm\nToegewikkel in die\nVere van kil kapitalisme ",
     reported: false,
+    date: 1547070989,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'mclMBqSNh5UhzxQ8W6HT',
     __collections__: {}
   },
   mdLdkrWNAREwj2GAHYdl: {
-    richText: true,
     handle: '',
     name: 'Kontras ',
     canReply: true,
@@ -17718,26 +17736,24 @@ const p = {
     date: 1570259537,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
+    richText: true,
     __collections__: {}
   },
   meRqN0UohU1Z1CeRecIw: {
+    date: 1567620169,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'meRqN0UohU1Z1CeRecIw',
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Beige',
     body:
       'Ek mis jou fake eyelashes\nEn vain makeup roetine\nEk mis die skerpste observasies\nUit die mooiste mond\n\nDis als verby\nDis als verby\nDis als verby\nDis als verby',
     reported: false,
-    date: 1567620169,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'meRqN0UohU1Z1CeRecIw',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   mfUQRkpefTcxLpW7omjn: {
-    id: 'mfUQRkpefTcxLpW7omjn',
-    bookmarkedCount: 0,
-    mongo_id: '5b8d27f160d4130014cf1ec7',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -17746,6 +17762,9 @@ const p = {
     reported: false,
     date: 1535977457,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'mfUQRkpefTcxLpW7omjn',
+    bookmarkedCount: 0,
+    mongo_id: '5b8d27f160d4130014cf1ec7',
     __collections__: {}
   },
   mhm5zJOIgSkzAMMqIf1B: {
@@ -17764,6 +17783,7 @@ const p = {
     __collections__: {}
   },
   miVIRk8wgmXnXgLQOOmM: {
+    bookmarkedCount: 0,
     mongo_id: '5b5458f9afefb20014d9ea65',
     nsfw: false,
     adminNotes: 'None',
@@ -17774,13 +17794,9 @@ const p = {
     date: 1532254457,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'miVIRk8wgmXnXgLQOOmM',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   miXRxZZ595TZayz5sdbK: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '13.lynette',
     name: 'vonkel',
     body:
       'Hoe gaan daai song…\nEk wens dat ek\nmy liedjie vir jou kon sing…\nmaak sommer iets in my los\ndalk net ‘n verlang\nna happiness wat was\nOf kon wees\nMaar daar is net my vierpoot \nSe liefdevolle ogies\nEn geduldige oor\nIn wie ek\nn vonkel in sy oë bring\n',
@@ -17790,6 +17806,9 @@ const p = {
     id: 'miXRxZZ595TZayz5sdbK',
     bookmarkedCount: 0,
     mongo_id: '5c76e417fc00ea001577c719',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '13.lynette',
     __collections__: {}
   },
   mixZFwEna0IYEVYGoNwg: {
@@ -17807,6 +17826,12 @@ const p = {
     __collections__: {}
   },
   mjMQoXdITSk3zOcmfvjT: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Die gekwel van my oe</span></p><p><span>En my nat wange wat meer as woorde beteken</span></p><p><span>Tog eensaam en verwoed</span></p><p><span>Wat word van liefde</span></p><p><span>Wat word van die samesyn</span></p><p><span>Dit is n verlate storie</span></p><p><span>Die Leeus van Akasie</span></p><p><span>Die </span><span style="font-weight: bold;">romantikus</span></p></div>',
     repliedTo: null,
     date: 1581092499,
     uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
@@ -17817,16 +17842,9 @@ const p = {
     canReply: true,
     id: 'mjMQoXdITSk3zOcmfvjT',
     repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Die gekwel van my oe</span></p><p><span>En my nat wange wat meer as woorde beteken</span></p><p><span>Tog eensaam en verwoed</span></p><p><span>Wat word van liefde</span></p><p><span>Wat word van die samesyn</span></p><p><span>Dit is n verlate storie</span></p><p><span>Die Leeus van Akasie</span></p><p><span>Die </span><span style="font-weight: bold;">romantikus</span></p></div>',
     __collections__: {}
   },
   mjec3qt6RTykA7zZUFjg: {
-    mongo_id: '5cb5c551ee54430015eabbb2',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -17838,14 +17856,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'mjec3qt6RTykA7zZUFjg',
     bookmarkedCount: 1,
+    mongo_id: '5cb5c551ee54430015eabbb2',
     __collections__: {}
   },
   mjlh5OT3KFVVzxJkNM8z: {
-    canReply: true,
-    id: 'mjlh5OT3KFVVzxJkNM8z',
-    repliedToName: ' ',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     body:
       '<div><p><span style="font-style: italic;">Ek het. </span></p><p><span></span></p><p><span>Jou UX kort refinement. </span></p></div>',
@@ -17856,9 +17870,20 @@ const p = {
     richText: true,
     handle: '',
     name: 'vrystaatmeisie',
+    canReply: true,
+    id: 'mjlh5OT3KFVVzxJkNM8z',
+    repliedToName: ' ',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   mkLNSR6g34e0479JUVPr: {
+    body:
+      '<div><p><span>Ek hoop God is ook vlees</span></p><p><span>Want ek sien Hom in jou hande wat bewe as jy moet beduide wat jy voel\n\nEk hoop God is ook vlees\nWant ek ruik Hom in die vallei van jou nek as jy my probeer troos\n\nEk hoop God is ook vlees\nWant ek voel Hom in die gewig van jou as ek jou slaappil-arms van my bors aftel\n\nEk hoop God is ook vlees\nWant ek hoor Hom as jy stil bly met jou mond oop \n\nEk hoop God is ook vlees\nEk hoop God het ook gevrees\nEk hoop God is ook vlees\nEk hoop God was ook seer gewees\nEk hoop God is ook vlees\nEk hoop Hy word bang vir Sy eie idees\n</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1568575562,
+    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     richText: true,
     handle: 'almero_welgemoed',
     name: 'God as sintuig',
@@ -17868,15 +17893,11 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Ek hoop God is ook vlees</span></p><p><span>Want ek sien Hom in jou hande wat bewe as jy moet beduide wat jy voel\n\nEk hoop God is ook vlees\nWant ek ruik Hom in die vallei van jou nek as jy my probeer troos\n\nEk hoop God is ook vlees\nWant ek voel Hom in die gewig van jou as ek jou slaappil-arms van my bors aftel\n\nEk hoop God is ook vlees\nWant ek hoor Hom as jy stil bly met jou mond oop \n\nEk hoop God is ook vlees\nEk hoop God het ook gevrees\nEk hoop God is ook vlees\nEk hoop God was ook seer gewees\nEk hoop God is ook vlees\nEk hoop Hy word bang vir Sy eie idees\n</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1568575562,
-    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     __collections__: {}
   },
   mmWD8DwkREAIK1SajbtW: {
+    adminNotes: 'None',
+    handle: '',
     name: 'Tafelmaat',
     body: 'Ek hoop hierdie laat jou glimlag.',
     reported: false,
@@ -17886,11 +17907,10 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5cbf809e467624001517145b',
     nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   mpCpy1ZPE7Eze5vGDlQq: {
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -17902,7 +17922,6 @@ const p = {
     uid: 'O5bSoMjt35ZIXXImaNprTSOmtog2',
     id: 'mpCpy1ZPE7Eze5vGDlQq',
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   msjCi9Zs9gysYvKgNxdW: {
@@ -17924,6 +17943,8 @@ const p = {
     __collections__: {}
   },
   n147eDE4idXeLOxNC9bF: {
+    bookmarkedCount: 0,
+    mongo_id: '5c6008dcc2d6fa00156d0df8',
     nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
@@ -17934,11 +17955,12 @@ const p = {
     date: 1549797597,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'n147eDE4idXeLOxNC9bF',
-    bookmarkedCount: 0,
-    mongo_id: '5c6008dcc2d6fa00156d0df8',
     __collections__: {}
   },
   n3gpHym7gLjpjWJiHyZI: {
+    id: 'n3gpHym7gLjpjWJiHyZI',
+    bookmarkedCount: 1,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Trane',
@@ -17946,29 +17968,23 @@ const p = {
     reported: false,
     date: 1558721666,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    id: 'n3gpHym7gLjpjWJiHyZI',
-    bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   nAmg3DfMRHPf1uRWPYZ1: {
-    id: 'nAmg3DfMRHPf1uRWPYZ1',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'Verbatim',
     name: "'n Grap is 'n grap, maar...",
     body:
       "Daar is nie 'n vloer bokant my waarop hardhandige bure kan rondsloeg nie. \n\nDaar is ook nie bure wat langs my harde musiek speel of uitermatig hard praat nie. \n\nDaar is nie mense in my blok wat skree of luide meningsverskille het nie. \n\nMaar hier is 'n lewende ding wat die snork van 'n vasgepende fokken varkbeer het. Links, regs of onder. Dit dreun deur vloer en muur. Murg en pyp. \n\n\nJirre. Lê hom asseblief tog net dood. ",
     reported: false,
     date: 1566427294,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'nAmg3DfMRHPf1uRWPYZ1',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'Verbatim',
     __collections__: {}
   },
   nFnE42tYRSSUnGD0IJP4: {
-    bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
     adminNotes: 'None',
     handle: '',
     name: 'Op Instagram gesien',
@@ -17978,13 +17994,12 @@ const p = {
     date: 1564266492,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'nFnE42tYRSSUnGD0IJP4',
+    bookmarkedCount: 1,
+    nsfw: false,
+    richText: true,
     __collections__: {}
   },
   nHdcAtxmYldxJwH7RN3O: {
-    mongo_id: '5c52b3af6f98cf0015806336',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Manet menswees',
     body:
       'Kyk vir jou die skerms deur\nWonder of jy okay is\nTe vreemdeling om te vra\nTe onaangenaam om ernstig opgeneem te word\nEn so vergeet\nEk dat my eie pyn te vollop is om\nNog oor jou te worry. ',
@@ -17993,6 +18008,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'nHdcAtxmYldxJwH7RN3O',
     bookmarkedCount: 0,
+    mongo_id: '5c52b3af6f98cf0015806336',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   nIxC07DumlPi6sMiHipf: {
@@ -18010,6 +18029,13 @@ const p = {
     __collections__: {}
   },
   nJww83NUIwXSZiwRCHjm: {
+    body:
+      '<div><p><span>My liedere</span></p><p><span>Geskryf as gevolg van jou</span></p><p><span>Ses jaar en jy is nou eers hier</span></p><p><span>Vir n oomblik was dit hemels</span></p><p><span>En nou die verkeerde rigting</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1578953729,
+    uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
+    activeTema: null,
     richText: true,
     handle: '',
     name: 'Dronkverdriet',
@@ -18019,13 +18045,6 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>My liedere</span></p><p><span>Geskryf as gevolg van jou</span></p><p><span>Ses jaar en jy is nou eers hier</span></p><p><span>Vir n oomblik was dit hemels</span></p><p><span>En nou die verkeerde rigting</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1578953729,
-    uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
-    activeTema: null,
     __collections__: {}
   },
   nM42KUhooP0WrCDnnI5E: {
@@ -18044,7 +18063,6 @@ const p = {
     __collections__: {}
   },
   nMyBewt16bUVZbjx2g8z: {
-    adminNotes: 'None',
     handle: 'natani_jacobs',
     name: '. ',
     body:
@@ -18056,12 +18074,10 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c05174568abef0014d2caec',
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   nPXtV57MtOuqkQkjC2fz: {
-    canReply: true,
-    id: 'nPXtV57MtOuqkQkjC2fz',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: true,
     adminNotes: 'None',
@@ -18075,10 +18091,12 @@ const p = {
     richText: true,
     handle: '',
     name: 'Wat de 2',
+    canReply: true,
+    id: 'nPXtV57MtOuqkQkjC2fz',
+    repliedToName: null,
     __collections__: {}
   },
   nQTXFEeD0qAy4k5XRSak: {
-    mongo_id: '5c21beacdb22a30014dd43a3',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -18090,6 +18108,7 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'nQTXFEeD0qAy4k5XRSak',
     bookmarkedCount: 0,
+    mongo_id: '5c21beacdb22a30014dd43a3',
     __collections__: {}
   },
   nV9A4OPNWMJUYgdEBMxn: {
@@ -18112,7 +18131,6 @@ const p = {
     __collections__: {}
   },
   nWcbCcghBuC1dc7rpJ0p: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Spatare + Aambeie ',
@@ -18123,6 +18141,7 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'nWcbCcghBuC1dc7rpJ0p',
     bookmarkedCount: 1,
+    nsfw: false,
     __collections__: {}
   },
   nYGwiCI7YzdxH3TzqJov: {
@@ -18141,19 +18160,21 @@ const p = {
     __collections__: {}
   },
   narxiuGu1ccOpv3jxstD: {
-    date: 1562653577,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'narxiuGu1ccOpv3jxstD',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'weer',
     body: "en op 'n ligter noot, die son skyn vandag, al-fokken-weer.",
     reported: false,
+    date: 1562653577,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'narxiuGu1ccOpv3jxstD',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   neWUsY5w4m4JU1LVQkH4: {
+    handle: 'Draadhond',
+    name: 'Begeerte',
     body:
       'ek is net ‘n dier \nsonder skaamte of manier\nek leef net vir nou en hier\nek’s ‘n mens net op papier\n\nek is net ‘n hond\nmy tong hang op die grond\nek snuffel orals rond\nvan jou snoet tot by jou... mond\n\ndis die begeerte wat my dryf\nop my voorkop staan dit geskryf\nmaak nie saak hoeveel ek smeek\nmy gedagtes het vasgesteek\nby die holtes van jou lyf\n\ngooi my met die boek\nlaat staan my in die hoek\npreek met jou vinger in die lug\ntot jy blou is in jou gesig\n\nleer my om stil te sit\nmet ‘n vurk en mes te eet\nso gou as jy jou rug kom draai\nhet ek alles weer vergeet\n\nbegeertes, begeerte, begeer\nek het geen beheer\nbegeertes, begeerte, begeer\nek kan myself nie keer...',
     reported: false,
@@ -18164,8 +18185,6 @@ const p = {
     mongo_id: '5b65e53e596dbb0014c1ad82',
     nsfw: false,
     adminNotes: 'None',
-    handle: 'Draadhond',
-    name: 'Begeerte',
     __collections__: {}
   },
   neu9vDhDNxRyQHNa2LTq: {
@@ -18184,9 +18203,6 @@ const p = {
     __collections__: {}
   },
   ni0FjUnL6CXdAgJE1BdS: {
-    mongo_id: '5ca8e9c72dc0e10015838af6',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: '2',
     body:
@@ -18196,27 +18212,27 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ni0FjUnL6CXdAgJE1BdS',
     bookmarkedCount: 0,
+    mongo_id: '5ca8e9c72dc0e10015838af6',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   njPHbzhimZQPru7VfOtL: {
-    adminNotes: 'None',
-    handle: 'ena_stegmann',
-    name: 'Aspirantskrywer',
-    body:
-      'Hoe maak mens sin uit ‘n wêreld \nwaar digters verwoord het wat jy voel\nEn dit nog beter as jy doen?',
-    reported: false,
     date: 1547539286,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'njPHbzhimZQPru7VfOtL',
     bookmarkedCount: 0,
     mongo_id: '5c3d935517174e0015e5d425',
     nsfw: false,
+    adminNotes: 'None',
+    handle: 'ena_stegmann',
+    name: 'Aspirantskrywer',
+    body:
+      'Hoe maak mens sin uit ‘n wêreld \nwaar digters verwoord het wat jy voel\nEn dit nog beter as jy doen?',
+    reported: false,
     __collections__: {}
   },
   nkOCzaIuyGqkiF5uHJ6k: {
-    handle: '',
-    name: 'Mis dit',
-    canReply: true,
     id: 'nkOCzaIuyGqkiF5uHJ6k',
     repliedToName: 'Wat dit vat',
     bookmarkedCount: 1,
@@ -18230,9 +18246,13 @@ const p = {
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
+    handle: '',
+    name: 'Mis dit',
+    canReply: true,
     __collections__: {}
   },
   nt6ELG4TE4bqvIbYyIDj: {
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -18244,11 +18264,9 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'nt6ELG4TE4bqvIbYyIDj',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   nv02kI1cDyuDSLObQcjI: {
-    id: 'nv02kI1cDyuDSLObQcjI',
     bookmarkedCount: 0,
     mongo_id: '5c9108b90524f30015ebb67b',
     nsfw: false,
@@ -18260,10 +18278,10 @@ const p = {
     reported: false,
     date: 1553008825,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'nv02kI1cDyuDSLObQcjI',
     __collections__: {}
   },
   nvBX3uNAXvmYqCEd5GiL: {
-    adminNotes: 'None',
     handle: '',
     name: 'Kla',
     body:
@@ -18275,9 +18293,11 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c3bb604f0760300153289f8',
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   nyZQsumx3yoYVhk11sYn: {
+    id: 'nyZQsumx3yoYVhk11sYn',
     bookmarkedCount: 0,
     mongo_id: '5c1d6158c008960014ae0e7f',
     nsfw: false,
@@ -18289,12 +18309,9 @@ const p = {
     reported: false,
     date: 1545429337,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'nyZQsumx3yoYVhk11sYn',
     __collections__: {}
   },
   o1vwJItnoGKJ1lmoQrJu: {
-    bookmarkedCount: 1,
-    mongo_id: '5b50e6f5bc2f8d00145c942f',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -18305,12 +18322,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1532028661,
     id: 'o1vwJItnoGKJ1lmoQrJu',
+    bookmarkedCount: 1,
+    mongo_id: '5b50e6f5bc2f8d00145c942f',
     __collections__: {}
   },
   o9RWsAk7oSMJH1K5GA0J: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'So Soon II',
     body:
       'Reaching for you,\nI see it in your silences,\naffection drowned already.',
@@ -18320,10 +18336,12 @@ const p = {
     id: 'o9RWsAk7oSMJH1K5GA0J',
     bookmarkedCount: 0,
     mongo_id: '5c3b581af0760300153289f7',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   oBTAWvmRZ4Ktevagfhs5: {
-    nsfw: false,
     adminNotes: 'None',
     handle: 'EvertEsterhuizen',
     name: "PE '13 ",
@@ -18335,9 +18353,16 @@ const p = {
     id: 'oBTAWvmRZ4Ktevagfhs5',
     bookmarkedCount: 0,
     mongo_id: '5c53509c6f98cf001580633a',
+    nsfw: false,
     __collections__: {}
   },
   oDedFTWtG5IvL33H1ZhY: {
+    body:
+      '<div><p><span>Blue ticked op WhatsApp </span></p><p><span>Maar jy kyk my Instastorie, </span></p><p><span>So toe stuur ek maar \'n meme</span></p><p><span>Sommer so op die gram </span></p><p><span>En jy laat dit op seen. </span></p><p><span></span><span style="font-style: italic;">Truth Hurts</span><span> van Lizzo</span></p><p><span>Is nou my scene. </span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1567231674,
+    uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     richText: true,
     handle: '',
     name: 'What a time to be alive/ You coulda had a bad bitch',
@@ -18347,12 +18372,6 @@ const p = {
     bookmarkedCount: 2,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Blue ticked op WhatsApp </span></p><p><span>Maar jy kyk my Instastorie, </span></p><p><span>So toe stuur ek maar \'n meme</span></p><p><span>Sommer so op die gram </span></p><p><span>En jy laat dit op seen. </span></p><p><span></span><span style="font-style: italic;">Truth Hurts</span><span> van Lizzo</span></p><p><span>Is nou my scene. </span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1567231674,
-    uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     __collections__: {}
   },
   oFnpxsrIiQ89XqXEeElk: {
@@ -18370,6 +18389,10 @@ const p = {
     __collections__: {}
   },
   oFxBE7OdRAGJcDkjIpaq: {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Uitdagings + Probleme',
     canReply: true,
     id: 'oFxBE7OdRAGJcDkjIpaq',
     repliedToName: null,
@@ -18382,13 +18405,11 @@ const p = {
     repliedTo: null,
     date: 1569853670,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Uitdagings + Probleme',
     __collections__: {}
   },
   oGzPEbCQzd6Ykf8gO3xF: {
+    handle: '',
+    name: 'Flaked ',
     canReply: true,
     id: 'oGzPEbCQzd6Ykf8gO3xF',
     repliedToName: null,
@@ -18403,14 +18424,9 @@ const p = {
     uid: 'OHLd2heTzcXJfochjjTxSzT4vr82',
     activeTema: 'Water',
     richText: true,
-    handle: '',
-    name: 'Flaked ',
     __collections__: {}
   },
   oIJRH7tGvouXVG07p0XB: {
-    date: 1564263253,
-    uid: '7wpOByP2EOdSrksu7jYh6dL2Om13',
-    id: 'oIJRH7tGvouXVG07p0XB',
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
@@ -18420,9 +18436,14 @@ const p = {
     body:
       '<div><p><span>Sinchroniseer jy jou pyn met my blydskap? </span></p><p><span>Dans jy op die druppels van my bloed? </span></p><p><span>Jy was altyd my lafenis. </span></p><p><span>My redding. </span></p><p><span>Nou is jy my hel</span></p><p><span>en </span></p><p><span></span><span>ek </span></p><p><span>in</span></p><p><span>dit. </span></p><p><span>Jy is my begrafnisondernemer. </span></p><p><span>Ek is begrawe en jy steeds donker. </span></p><p><span>Hier lê ons albei nou. </span></p><p><span>Ek dood en jy donker. \n</span></p></div>',
     reported: false,
+    date: 1564263253,
+    uid: '7wpOByP2EOdSrksu7jYh6dL2Om13',
+    id: 'oIJRH7tGvouXVG07p0XB',
     __collections__: {}
   },
   oKSKqJkPQ88UBLIjwBM6: {
+    bookmarkedCount: 0,
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -18433,14 +18454,9 @@ const p = {
     date: 1564692705,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     id: 'oKSKqJkPQ88UBLIjwBM6',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   oKg3FpLtV7dm5qzxmiYI: {
-    date: 1533508289,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'oKg3FpLtV7dm5qzxmiYI',
     bookmarkedCount: 0,
     mongo_id: '5b677ac12f85be0014cd2c72',
     nsfw: false,
@@ -18450,9 +18466,19 @@ const p = {
     body:
       'Ek en die maan het vir mekaar gestaar;\ngewonder wanneer ek weer gaan slaap en of jou woorde my in die oggend lig sal teister soos wat dit in die aand doen.\n-\nDit is laat in die nag en ek hoor hoe huil my hart saggies onder die ritme van jou luidkeels lag.\nEk hoor jou skerp tong en ek sluk die suur woorde wat by jou mond uit kom.\n-\nEk droom van jou sagte gedeeltes maar skrik wakker en voel/sien jou rug onder die maanlig. \nEk en die maan het vir mekaar gestaar. \nSy het vir my probeer fluister;\n“Hardloop! Vinnig! \n Jy verdwaal,\n Jy verdwaal,\n Jy verdwaal”.\n',
     reported: false,
+    date: 1533508289,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'oKg3FpLtV7dm5qzxmiYI',
     __collections__: {}
   },
   oL2Rljgo3BA6VEyh3g54: {
+    repliedTo: 'jnm0uKbUGnNhHmehPcXf',
+    date: 1576617753,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Hierdie goed ',
     canReply: true,
     id: 'oL2Rljgo3BA6VEyh3g54',
     repliedToName: 'Wat maak lewe? ',
@@ -18462,16 +18488,15 @@ const p = {
     body:
       "<div><p><span>Zolnox </span></p><p><span>Prexum</span></p><p><span>Methylphenidate </span></p><p><span></span></p><p><span>Gordon's en Black Label</span></p><p><span>Monster en Camels</span></p><p><span>Golden Teachers </span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span>2019. Fuck man. </span></p><p><span> </span></p><p><span></span></p><p><span></span></p></div>",
     reported: false,
-    repliedTo: 'jnm0uKbUGnNhHmehPcXf',
-    date: 1576617753,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Hierdie goed ',
     __collections__: {}
   },
   oLfBdvUlf2VYjt0BlSsV: {
+    canReply: true,
+    id: 'oLfBdvUlf2VYjt0BlSsV',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     body:
       "<div><p><span>weer</span></p><p><span>en weer</span></p><p><span>en </span></p><p><span>verrinneweer my</span></p><p><span>nog 'n keer. </span></p></div>",
     reported: false,
@@ -18481,15 +18506,13 @@ const p = {
     richText: true,
     handle: 'ilzedup94',
     name: 'Maandag',
-    canReply: true,
-    id: 'oLfBdvUlf2VYjt0BlSsV',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   oSg1FPRpO8wg28P1ry1J: {
+    mongo_id: '5c769f5ffc00ea001577c715',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Fucking mermaid.',
     body:
       'When did you get tangled up into my thoughts?\nWhy am I searching for you across a room?\nFuck. \nIts all sin from here. ',
@@ -18498,15 +18521,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'oSg1FPRpO8wg28P1ry1J',
     bookmarkedCount: 0,
-    mongo_id: '5c769f5ffc00ea001577c715',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   oWOUQdoun4yVnDnGVIx8: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Met apologie aan Lucas Maree',
     body:
@@ -18516,9 +18533,13 @@ const p = {
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'oWOUQdoun4yVnDnGVIx8',
     bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   oXfd5tgcvuUbf0gWUi8K: {
+    id: 'oXfd5tgcvuUbf0gWUi8K',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -18533,11 +18554,12 @@ const p = {
     handle: '',
     name: 'Wandel',
     canReply: true,
-    id: 'oXfd5tgcvuUbf0gWUi8K',
-    repliedToName: null,
     __collections__: {}
   },
   oavRB1dZw4w3g90mFWOw: {
+    mongo_id: '5cc889f19b0ec70015a160fd',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Buiteland',
     body:
@@ -18547,16 +18569,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'oavRB1dZw4w3g90mFWOw',
     bookmarkedCount: 0,
-    mongo_id: '5cc889f19b0ec70015a160fd',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   odmmzBMgNMK84I8poviF: {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     name: 'Anhedonie',
     body:
       '<div><p><span>Ek het vergeet hoe dit voel om te voel. </span></p><p><span>Deur alles het ek myself verloor</span></p><p><span>En myself gevind</span></p><p><span>Iemand anders as wie ek was</span></p><p><span></span></p><p><span>Ek mis dit om opgewonde te raak as ek jou stem hoor.</span></p><p><span>Altans, ek mis dit om verlief te wees</span></p><p><span>Ek weet jy is die beste ding wat nog ooit met my gebeur het....</span></p><p><span>Ek wéét dit. </span></p><p><span></span></p><p><span>Maar fok, kan dit dalk net so voel?</span></p></div>',
@@ -18565,11 +18580,13 @@ const p = {
     uid: '8govqTsKkVZZbWmT1gqDKUWg0zs1',
     id: 'odmmzBMgNMK84I8poviF',
     bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   okQYL7FTwVqO6UFq6LOF: {
-    mongo_id: '5ccf5f700903ec00150904e0',
-    nsfw: false,
     adminNotes: 'None',
     handle: 'Evertesterhuizen',
     name: '2 x Somnil voor slaaptyd',
@@ -18580,23 +18597,26 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'okQYL7FTwVqO6UFq6LOF',
     bookmarkedCount: 1,
+    mongo_id: '5ccf5f700903ec00150904e0',
+    nsfw: false,
     __collections__: {}
   },
   onrKmdayNkP7iZkxw9cN: {
+    id: 'onrKmdayNkP7iZkxw9cN',
+    bookmarkedCount: 0,
+    mongo_id: '5b719e649fcb400014316491',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Alles Nou',
     body: 'Alles nou, maar niks maak saak.',
     reported: false,
     date: 1534172772,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'onrKmdayNkP7iZkxw9cN',
-    bookmarkedCount: 0,
-    mongo_id: '5b719e649fcb400014316491',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   ouJOPOyDJ7eDNMnvuCxd: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -18611,11 +18631,9 @@ const p = {
     canReply: true,
     id: 'ouJOPOyDJ7eDNMnvuCxd',
     repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   ovq62zDrpkisODg4JQgh: {
-    mongo_id: '5be5673fa8dbcd00140336fe',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -18626,15 +18644,10 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'ovq62zDrpkisODg4JQgh',
     bookmarkedCount: 0,
+    mongo_id: '5be5673fa8dbcd00140336fe',
     __collections__: {}
   },
   owlRZ9Z4ztdxQDygtja7: {
-    body:
-      '<div><p><span>die viooltjies van my vrees</span></p><p><span>was fyn</span></p><p><span>die gelaat van jou gesig </span></p><p><span>was rein</span></p><p><span>met prag &amp; prentjie &amp; prieel</span></p><p><span>skyn jy sag in die Spieël</span></p><p><span>van Sy Onbaatsugtige Tuin.</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1571600007,
-    uid: 'gMx8NfkehfRQyEZJGKauihbfOOK2',
     richText: true,
     handle: 'jancevanrensburg',
     name: 'Tuin van Eden',
@@ -18644,9 +18657,16 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    body:
+      '<div><p><span>die viooltjies van my vrees</span></p><p><span>was fyn</span></p><p><span>die gelaat van jou gesig </span></p><p><span>was rein</span></p><p><span>met prag &amp; prentjie &amp; prieel</span></p><p><span>skyn jy sag in die Spieël</span></p><p><span>van Sy Onbaatsugtige Tuin.</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1571600007,
+    uid: 'gMx8NfkehfRQyEZJGKauihbfOOK2',
     __collections__: {}
   },
   oxNw83mIsoR8RLRjUmjM: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '2019 se NPvWL',
@@ -18656,10 +18676,15 @@ const p = {
     date: 1559244500,
     id: 'oxNw83mIsoR8RLRjUmjM',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   p0c6VxqzN4Y1y4Id9ll8: {
+    richText: true,
+    handle: '',
+    name: 'postnet',
+    canReply: true,
+    id: 'p0c6VxqzN4Y1y4Id9ll8',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -18670,32 +18695,23 @@ const p = {
     date: 1576005128,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'postnet',
-    canReply: true,
-    id: 'p0c6VxqzN4Y1y4Id9ll8',
-    repliedToName: null,
     __collections__: {}
   },
   p1z60KchYaCfPHtImko0: {
+    date: 1554507251,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'p1z60KchYaCfPHtImko0',
+    bookmarkedCount: 0,
+    mongo_id: '5ca7e5f36c762e00159bc71d',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'First impressions: Step 1',
     body: 'Get out of the passenger seat and drive the god damn car. ',
     reported: false,
-    date: 1554507251,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'p1z60KchYaCfPHtImko0',
-    bookmarkedCount: 0,
-    mongo_id: '5ca7e5f36c762e00159bc71d',
     __collections__: {}
   },
   p3TfCjFFzoEcga2o1xal: {
-    richText: true,
-    adminNotes: 'None',
-    handle: 'almero_welgemoed',
     name: 'Hierdie weer',
     body:
       '<div><p><span>Ek wag vir jou</span></p><p><span>Om huis toe te kom</span></p><p><span>Sodat ons kan slaap</span></p><p><span></span></p><p><span>As ek tog net my hart vir jou uit kon hou\nIn my palm\nSou jy sien jy is op elke seerplek geplak\n</span></p></div>',
@@ -18705,14 +18721,12 @@ const p = {
     id: 'p3TfCjFFzoEcga2o1xal',
     bookmarkedCount: 0,
     nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: 'almero_welgemoed',
     __collections__: {}
   },
   p4hdu2VP2kSfiE4xlhIZ: {
-    body: '<div><p><span>I love my empty fucking life.</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1580928151,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
     handle: '',
@@ -18723,23 +18737,27 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    body: '<div><p><span>I love my empty fucking life.</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1580928151,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   p5pbWuGvyIk3b4nZIbKb: {
-    name: ' ',
-    body: 'Soveel ongelese boeke, maar steeds sal mense skryf. ',
-    reported: false,
-    date: 1558878361,
-    uid: 'EZH9c5Mb3fVdRzwehx8hDt3HrMo1',
     id: 'p5pbWuGvyIk3b4nZIbKb',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: 'francoislct',
+    name: ' ',
+    body: 'Soveel ongelese boeke, maar steeds sal mense skryf. ',
+    reported: false,
+    date: 1558878361,
+    uid: 'EZH9c5Mb3fVdRzwehx8hDt3HrMo1',
     __collections__: {}
   },
   p7P9qfmTflV3MpWH7EPE: {
-    nsfw: false,
     adminNotes: 'None',
     handle: 'glasasem',
     name: 'Elegie vir die Moeder',
@@ -18751,9 +18769,13 @@ const p = {
     id: 'p7P9qfmTflV3MpWH7EPE',
     bookmarkedCount: 1,
     mongo_id: '5cdc652bd645be0015aaa751',
+    nsfw: false,
     __collections__: {}
   },
   p7w3qsHCTHQjgl1bgisC: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Tos',
     reported: true,
     body:
@@ -18762,12 +18784,11 @@ const p = {
     date: 1570550786,
     id: 'p7w3qsHCTHQjgl1bgisC',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   pEkjIXakERlDyX4hipoW: {
+    date: 1557007028,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'pEkjIXakERlDyX4hipoW',
     bookmarkedCount: 0,
     mongo_id: '5cce0ab32f998a0015075a6c',
@@ -18778,14 +18799,9 @@ const p = {
     body:
       'Moeg vir die lewer\nGooi nog in my beker\n\nDie kinders staar, \nIs ek die gevaar?\n\nKyk die kos\nAlmal gaan bos',
     reported: false,
-    date: 1557007028,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   pFGkpFtR7l25sECRhgxm: {
-    id: 'pFGkpFtR7l25sECRhgxm',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -18799,26 +18815,26 @@ const p = {
     handle: '',
     name: 'steeds snot en trane',
     canReply: true,
+    id: 'pFGkpFtR7l25sECRhgxm',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   pFp3maIgsaorjNNI37ad: {
-    adminNotes: 'None',
-    handle: '',
-    name: 'Verhouding',
-    body: "Onsin\nOns s'n\nOns sin\nEinde\n\nMyne\nJoune",
-    reported: false,
     date: 1550689094,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'pFp3maIgsaorjNNI37ad',
     bookmarkedCount: 0,
     mongo_id: '5c6da3459f65980015d6f159',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
+    name: 'Verhouding',
+    body: "Onsin\nOns s'n\nOns sin\nEinde\n\nMyne\nJoune",
+    reported: false,
     __collections__: {}
   },
   pLoyLSLrLcqFCUrKDsCl: {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: '',
     name: 'Agterstallige werk',
     body:
@@ -18828,26 +18844,25 @@ const p = {
     uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
     id: 'pLoyLSLrLcqFCUrKDsCl',
     bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   pOX4jJpWsc7m5P13PNhz: {
+    date: 1561202486,
+    uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
+    id: 'pOX4jJpWsc7m5P13PNhz',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Hashtag Vrystaat ',
     body: 'Af getrou en fok ongelulkig',
     reported: false,
-    date: 1561202486,
-    uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
-    id: 'pOX4jJpWsc7m5P13PNhz',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   pRtYMcelXm8cEsaiShoP: {
-    bookmarkedCount: 0,
-    mongo_id: '5bddb85f6a34d7001434b105',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'arnojvvuuren',
     name: 'I’m a motha fuckin gansta',
     body:
@@ -18856,12 +18871,13 @@ const p = {
     date: 1541257311,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'pRtYMcelXm8cEsaiShoP',
+    bookmarkedCount: 0,
+    mongo_id: '5bddb85f6a34d7001434b105',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   pXjTIWu8KYMngg7PmIj0: {
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       '<div><p><span>Iemand het gesê</span></p><p><span>ek moet</span></p><p><span>eerder skryf as teken.</span></p><p><span></span></p><p><span>En?</span></p><p><span>Ek het vandag weer</span></p><p><span>geteken. </span></p></div>',
     reported: false,
@@ -18875,9 +18891,14 @@ const p = {
     canReply: true,
     id: 'pXjTIWu8KYMngg7PmIj0',
     repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   paDaVQeAmEM0X0XE0uQx: {
+    date: 1561489875,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'paDaVQeAmEM0X0XE0uQx',
     bookmarkedCount: 1,
     nsfw: false,
@@ -18887,8 +18908,6 @@ const p = {
     body:
       "Ek wil 'n gedig oor daardie plek se dônners perfekte chicken strips skryf. Maar daai nuggets of gold laat my sonder woorde. Al wat ek oor het is olieieduime en nat oë. En my hele hart. Siel. En lippe. Smaakkoppies. En elke smaak reseptor en verwerker hierbinne. \n\nHou jou appels, hou jou pere. Steek weg die hooglied bulte en vou toe die snormossel geure. Chicken strips in Durbanville Checkers: gooi oop jou heilige deure! \n\nSela. ",
     reported: false,
-    date: 1561489875,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   pnR2EiQDsFRldrsFyzFM: {
@@ -18907,6 +18926,7 @@ const p = {
     __collections__: {}
   },
   psWk6YD9zGoofIpHoELg: {
+    bookmarkedCount: 0,
     mongo_id: '5b7edb1477cb930014b0cffe',
     nsfw: false,
     adminNotes: 'None',
@@ -18918,18 +18938,9 @@ const p = {
     date: 1535040277,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'psWk6YD9zGoofIpHoELg',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   ptK9XkR78xhOJp1vDtBn: {
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Hardloop mense van my weg of </span></p><p><span>hardloop ek van mense weg? </span></p><p><span></span></p><p><span>Which is worse, to live as a monster or to die as a good man, Doctor Cawley? </span></p></div>',
-    repliedTo: 'PeCDokzfi3Jn4SB2jgw4',
-    date: 1575218912,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -18938,6 +18949,14 @@ const p = {
     id: 'ptK9XkR78xhOJp1vDtBn',
     repliedToName: 'Beter',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Hardloop mense van my weg of </span></p><p><span>hardloop ek van mense weg? </span></p><p><span></span></p><p><span>Which is worse, to live as a monster or to die as a good man, Doctor Cawley? </span></p></div>',
+    repliedTo: 'PeCDokzfi3Jn4SB2jgw4',
+    date: 1575218912,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   ptnNiuxemmgJlCElDUoA: {
@@ -18960,22 +18979,20 @@ const p = {
     __collections__: {}
   },
   pvzws3SXHU6Da3my89A0: {
+    handle: '',
+    name: 'Die probleem met expats',
+    reported: false,
+    body:
+      "As jy tussen die ouderdom 23 - 35 is, het jy waarskynlik die volgende al beleef:\n'n Vriend wat oorsee gaan Engels gee\n'n Vriend wat hul Meesters oorsee gaan doen\n'n Vriend wat gaan gap jaar/dinge uitfigure buite die grense van SA\n\nEn jy het ook al die volgende klagtes gehoor:\nKla oor braaivleis en braaibroodjies mis\nKla oor alleen voel\nKla oor 'n effektiewe openbare vervoerstelsel te probeer bemeester\n(Meanwhile is al jou probleme, as 'n nie-expat, te banaal en voorspelbaar)\n\nEn jy moes na die volgende luister:\nHoe bly hul is om nie met die korrupsie en politiek in SA te moet deal nie\nHoe hul naweke sommer oor-pop na 'n ander land\nHoe hul nooit weer wil terugkom nie\n\nLaastens:\nHoe jy 'n Excel/Google doc moet invul as hul kom kuier sodat jy jou tydgleuf kan bespreek om hul te sien\nHoe jy en jou voertuig op standby moet wees vir lifts\nHoe jy hul gewete en identiteitskrisis moet sus met die gerusstelling dat hul steeds 'n Suid-Afrikaner sal bly (al is hul hartsbegeerte om met 'n Europese paspoort te trou)\n\nEk is gatvol vir expats wat jou kak laat voel oor jy in SA bly en terselftertyd jou vriendskap en spaar slaapkamer op baie kort kennisgewing misbruik.\n",
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1583245017,
     id: 'pvzws3SXHU6Da3my89A0',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: 'Die probleem met expats',
-    reported: false,
-    body:
-      "As jy tussen die ouderdom 23 - 35 is, het jy waarskynlik die volgende al beleef:\n'n Vriend wat oorsee gaan Engels gee\n'n Vriend wat hul Meesters oorsee gaan doen\n'n Vriend wat gaan gap jaar/dinge uitfigure buite die grense van SA\n\nEn jy het ook al die volgende klagtes gehoor:\nKla oor braaivleis en braaibroodjies mis\nKla oor alleen voel\nKla oor 'n effektiewe openbare vervoerstelsel te probeer bemeester\n(Meanwhile is al jou probleme, as 'n nie-expat, te banaal en voorspelbaar)\n\nEn jy moes na die volgende luister:\nHoe bly hul is om nie met die korrupsie en politiek in SA te moet deal nie\nHoe hul naweke sommer oor-pop na 'n ander land\nHoe hul nooit weer wil terugkom nie\n\nLaastens:\nHoe jy 'n Excel/Google doc moet invul as hul kom kuier sodat jy jou tydgleuf kan bespreek om hul te sien\nHoe jy en jou voertuig op standby moet wees vir lifts\nHoe jy hul gewete en identiteitskrisis moet sus met die gerusstelling dat hul steeds 'n Suid-Afrikaner sal bly (al is hul hartsbegeerte om met 'n Europese paspoort te trou)\n\nEk is gatvol vir expats wat jou kak laat voel oor jy in SA bly en terselftertyd jou vriendskap en spaar slaapkamer op baie kort kennisgewing misbruik.\n",
     __collections__: {}
   },
   pzhq0zfsY32m592wIp9q: {
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>ek glo nie huwelike nie</span></p><p><span>of die kerk nie</span></p><p><span>veral nie die NG nie</span></p><p><span>selfs nie in God nie</span></p><p><span>veral nie die Christen een nie</span></p><p><span>en ook nie etikettering nie</span></p><p><span></span></p><p><span>maar ek glo in Liefde</span></p><p><span>in enige vorm</span></p><p><span>ek glo</span></p></div>',
@@ -18990,9 +19007,15 @@ const p = {
     id: 'pzhq0zfsY32m592wIp9q',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   q3yVsJ82np6VHJNhN5BN: {
+    bookmarkedCount: 0,
+    mongo_id: '5c3fdedff0412f0015783271',
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'blignaultwienand',
     name: 'Oplossing. ',
     body:
@@ -19001,13 +19024,10 @@ const p = {
     date: 1547689695,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'q3yVsJ82np6VHJNhN5BN',
-    bookmarkedCount: 0,
-    mongo_id: '5c3fdedff0412f0015783271',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   q5X9frzmwm8jbBkwnCZj: {
+    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -19019,7 +19039,6 @@ const p = {
     date: 1565177511,
     uid: 'GjLkfagUHtMFcLb4b785tmh7xye2',
     id: 'q5X9frzmwm8jbBkwnCZj',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   q6GRW2joNAF9DQ09pSxb: {
@@ -19042,6 +19061,8 @@ const p = {
     __collections__: {}
   },
   qBjg6X7fvP9bYIb2FvH6: {
+    adminNotes: 'None',
+    handle: 'Ahwelgemoed',
     name: '2019',
     body: 'Jou bluetooth speaker is nog in my paired devices. ',
     reported: false,
@@ -19051,11 +19072,14 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c46fe1c192a1600157f2d4e',
     nsfw: false,
-    adminNotes: 'None',
-    handle: 'Ahwelgemoed',
     __collections__: {}
   },
   qCqkofcrUewuJIDUY2MQ: {
+    date: 1543870873,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'qCqkofcrUewuJIDUY2MQ',
+    bookmarkedCount: 0,
+    mongo_id: '5c05999868abef0014d2caee',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -19063,14 +19087,13 @@ const p = {
     body:
       'Loop almal met daai gevoel wat jou laat dink jy gaan nog eendag famous word?\n\nEk is nou amper 21. \n\nEk het eergister ‘n Magnum by Pick n Pay gewen.',
     reported: false,
-    date: 1543870873,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'qCqkofcrUewuJIDUY2MQ',
-    bookmarkedCount: 0,
-    mongo_id: '5c05999868abef0014d2caee',
     __collections__: {}
   },
   qDMusA0AcZl2fjMLzr0p: {
+    name: 'Ek sien jou raak',
+    canReply: true,
+    id: 'qDMusA0AcZl2fjMLzr0p',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -19083,20 +19106,9 @@ const p = {
     activeTema: 'Deel jou geheim',
     richText: true,
     handle: '',
-    name: 'Ek sien jou raak',
-    canReply: true,
-    id: 'qDMusA0AcZl2fjMLzr0p',
-    repliedToName: null,
     __collections__: {}
   },
   qHCddszIgiWA7B9vysz6: {
-    richText: true,
-    handle: '',
-    name: 'ID',
-    canReply: true,
-    id: 'qHCddszIgiWA7B9vysz6',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -19106,6 +19118,13 @@ const p = {
     date: 1579462602,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'ID',
+    canReply: true,
+    id: 'qHCddszIgiWA7B9vysz6',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   qK11VkLTBcAy296RLcOb: {
@@ -19127,6 +19146,10 @@ const p = {
     __collections__: {}
   },
   qLFIzpPW8UqdUPzT3kjL: {
+    activeTema: null,
+    richText: true,
+    handle: 'ilzedup94',
+    name: 'Vrou (s.nw): ',
     canReply: true,
     id: 'qLFIzpPW8UqdUPzT3kjL',
     repliedToName: null,
@@ -19139,13 +19162,11 @@ const p = {
     repliedTo: null,
     date: 1572865051,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    activeTema: null,
-    richText: true,
-    handle: 'ilzedup94',
-    name: 'Vrou (s.nw): ',
     __collections__: {}
   },
   qP5aFiD5KhcoCoAIdMFb: {
+    id: 'qP5aFiD5KhcoCoAIdMFb',
+    bookmarkedCount: 0,
     mongo_id: '5c769f70fc00ea001577c717',
     nsfw: false,
     adminNotes: 'None',
@@ -19156,13 +19177,9 @@ const p = {
     reported: false,
     date: 1551277936,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'qP5aFiD5KhcoCoAIdMFb',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   qQpVchoqdp4fucO97Dra: {
-    handle: '',
-    name: 'Stellen-los (2017)',
     canReply: true,
     id: 'qQpVchoqdp4fucO97Dra',
     repliedToName: null,
@@ -19177,9 +19194,15 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
+    handle: '',
+    name: 'Stellen-los (2017)',
     __collections__: {}
   },
   qaFy2YKOhJJ0TWjWtx5z: {
+    bookmarkedCount: 0,
+    mongo_id: '5c18e9afbf1d370014ff1add',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Skuus',
     body: 'Elke droom is net n verloor verhaal',
@@ -19187,16 +19210,9 @@ const p = {
     date: 1545136560,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'qaFy2YKOhJJ0TWjWtx5z',
-    bookmarkedCount: 0,
-    mongo_id: '5c18e9afbf1d370014ff1add',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   qeFso6J0qX0FUJQsihgm: {
-    canReply: true,
-    id: 'qeFso6J0qX0FUJQsihgm',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -19210,6 +19226,9 @@ const p = {
     richText: true,
     handle: '',
     name: 'Stem',
+    canReply: true,
+    id: 'qeFso6J0qX0FUJQsihgm',
+    repliedToName: null,
     __collections__: {}
   },
   qj4IQ7qu2nw57VI3feYH: {
@@ -19226,6 +19245,7 @@ const p = {
     __collections__: {}
   },
   qjUwXmYJ3cQXGty3bIIu: {
+    id: 'qjUwXmYJ3cQXGty3bIIu',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -19236,12 +19256,9 @@ const p = {
     reported: false,
     date: 1558879534,
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
-    id: 'qjUwXmYJ3cQXGty3bIIu',
     __collections__: {}
   },
   qk2mlOxPuBhCxJoUoz9x: {
-    date: 1560070787,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'qk2mlOxPuBhCxJoUoz9x',
     bookmarkedCount: -4,
     nsfw: false,
@@ -19250,9 +19267,15 @@ const p = {
     name: '.',
     body: 'Daar’s asem in Sondae ',
     reported: false,
+    date: 1560070787,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   qlvjlFgxObqvEigy66xy: {
+    canReply: true,
+    id: 'qlvjlFgxObqvEigy66xy',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -19264,10 +19287,6 @@ const p = {
     richText: true,
     handle: '',
     name: 'Jy',
-    canReply: true,
-    id: 'qlvjlFgxObqvEigy66xy',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   qpXGH4IsybOZ6vNq1Iop: {
@@ -19285,9 +19304,6 @@ const p = {
     __collections__: {}
   },
   qr5wayNg6jdM5KHEYWIY: {
-    mongo_id: '5cc9d06d6103a900153cfd05',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Gevoelens',
     body: 'Nie hartseer nie, maar...iets',
@@ -19296,10 +19312,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'qr5wayNg6jdM5KHEYWIY',
     bookmarkedCount: 0,
+    mongo_id: '5cc9d06d6103a900153cfd05',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   quKdINkG1nkS34e9nVtn: {
-    canReply: true,
     id: 'quKdINkG1nkS34e9nVtn',
     repliedToName: null,
     bookmarkedCount: 1,
@@ -19315,9 +19333,11 @@ const p = {
     richText: true,
     handle: '',
     name: 'Vreemd.',
+    canReply: true,
     __collections__: {}
   },
   qw5wkqPezz5S5OkjAyri: {
+    id: 'qw5wkqPezz5S5OkjAyri',
     bookmarkedCount: 0,
     mongo_id: '5b72a965199d0200141942dd',
     nsfw: false,
@@ -19328,10 +19348,10 @@ const p = {
     reported: false,
     date: 1534241126,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'qw5wkqPezz5S5OkjAyri',
     __collections__: {}
   },
   qwNC3mt5LmXRmjP4VwnT: {
+    activeTema: null,
     richText: true,
     handle: 'niemandiniemandsland',
     name: 'dis nog lewendig',
@@ -19347,10 +19367,14 @@ const p = {
     repliedTo: 'tRjk4YePavS5bV0oi5I7',
     date: 1578760953,
     uid: 'gMx8NfkehfRQyEZJGKauihbfOOK2',
-    activeTema: null,
     __collections__: {}
   },
   qy7NFe02EARBW4rqr89e: {
+    handle: 'cx_lyb',
+    name: 'ek dink aan jou',
+    body:
+      'Daar is twee weergawes oor hoe ons ontmoet het. Dit maak dit moeilik om vir mense te vertel as hulle vra.\n\nI.\nDit was ‘n leegerige en nogal kak club, in my eerste week van eerste jaar. ‘n Trance party en ek het gegaan saam mense wie ek aan vasgeklou het in ‘n probeerslag om vriende te maak. Dis moeilik gewees want al my vriende is Potch of Maties toe en ek het niemand geken nie. Ons het duur shots gekoop, want ons ken van niks beter nie, en die een girl het gesê sy wonder waar ons dagga sou kon opspoor vir eendag. Ekt eers vir jou RichBoy Joburg vriend gesien, gesels (of altans probeer maar hy was befok en het met bome kommunikeer) en toe na jou toe. Ek het vriendelik en preppy probeer klink, en  gesê ek en my vriendin wonder waar om weed te kry. Ek kan nie onthou hoekom ek aanvanklik gedink het jy sal weet nie, maar ek sit die skuld maar nou net op die feit dat jy die vibe het van iemand wat sal weet waar om te kry. Jy was ook op shrooms, maar kalmer, net besig om by ‘n baie a shitty bankie ‘n handgerolde sigaret te rook (jy rook meestal net handgerolde sigarette – dis common back home in cape town, maar ek ken net van rebelse tieners wat kak pall malls rook om hulle ouers te spite so dis ‘n nuwe konsep vir my). Ons gesels bietjie, die girl wat zol gesoek het sê skielik sy wou nooit gehad het nie dis net ek. Ek voel asof ek stupid lyk maar jys nice en ons praat lekker. Ek bly ook nie lank nie, want die vibe is dood en gaan terug koshuis toe. \nLater, is dit vir my byna poëties dat ek na jou toe gekom het in ‘n shrooms trip. Shrooms is vir jou ‘n spiritual experience al is jy ‘n atiëis. In my geheimste drome voel ek dit maak my ‘n engel of ‘n feë of ‘n manic pixie dreamgirl of ‘n ding. \n\nII. \nDis die Saterdag daarna, ons is by ‘n universiteits initiatief wat ontwerp is om die eerste jaars besig te hou sodat hulle nie hulle polse afkou van die ellende nie. Dis ‘n community engagement promo en ons moet in ‘n groep take voltooi (besig hou kak). Jy is in my groep in gedeel. ‘n Mislike dag met grys op grys, maar jou hare is lank en goud en jy straal soos my eie soort engel. Ons loop en praat die oggend om en ek dink by myself, my fok hys cool. Daars nie gedagtes oor wat kan gebeur nie, en ek dink partykeer dit help want nou maak ek nie of ek enige iets is behalwe myself nie. \nJys ook in my eetsaal gewees en ons hê ons maaltye saam (nie alleen nie, maar saam met ’n spul ander). Die aand nooi jy my vir die beloofde dagga. Die keer daarna stap jy saam met my Pick ‘n Pay toe oor ek aandring dat ek ‘n blok kaas wil koop en eet soos ‘n toebroodjie. Jy luister die hele pad hoe ek praat oor Koos Kombuis se “Suidpunt – Jazz” en geloof en die huis en simpel kak. Jy luister aandagtig soos ek net aframmel. \nMy lief, die man van eindlose geduld. Altyd still, altyd daar.  \n\n',
+    reported: false,
     date: 1542794723,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'qy7NFe02EARBW4rqr89e',
@@ -19358,20 +19382,9 @@ const p = {
     mongo_id: '5bf52de34cd5a60014128ad1',
     nsfw: false,
     adminNotes: 'None',
-    handle: 'cx_lyb',
-    name: 'ek dink aan jou',
-    body:
-      'Daar is twee weergawes oor hoe ons ontmoet het. Dit maak dit moeilik om vir mense te vertel as hulle vra.\n\nI.\nDit was ‘n leegerige en nogal kak club, in my eerste week van eerste jaar. ‘n Trance party en ek het gegaan saam mense wie ek aan vasgeklou het in ‘n probeerslag om vriende te maak. Dis moeilik gewees want al my vriende is Potch of Maties toe en ek het niemand geken nie. Ons het duur shots gekoop, want ons ken van niks beter nie, en die een girl het gesê sy wonder waar ons dagga sou kon opspoor vir eendag. Ekt eers vir jou RichBoy Joburg vriend gesien, gesels (of altans probeer maar hy was befok en het met bome kommunikeer) en toe na jou toe. Ek het vriendelik en preppy probeer klink, en  gesê ek en my vriendin wonder waar om weed te kry. Ek kan nie onthou hoekom ek aanvanklik gedink het jy sal weet nie, maar ek sit die skuld maar nou net op die feit dat jy die vibe het van iemand wat sal weet waar om te kry. Jy was ook op shrooms, maar kalmer, net besig om by ‘n baie a shitty bankie ‘n handgerolde sigaret te rook (jy rook meestal net handgerolde sigarette – dis common back home in cape town, maar ek ken net van rebelse tieners wat kak pall malls rook om hulle ouers te spite so dis ‘n nuwe konsep vir my). Ons gesels bietjie, die girl wat zol gesoek het sê skielik sy wou nooit gehad het nie dis net ek. Ek voel asof ek stupid lyk maar jys nice en ons praat lekker. Ek bly ook nie lank nie, want die vibe is dood en gaan terug koshuis toe. \nLater, is dit vir my byna poëties dat ek na jou toe gekom het in ‘n shrooms trip. Shrooms is vir jou ‘n spiritual experience al is jy ‘n atiëis. In my geheimste drome voel ek dit maak my ‘n engel of ‘n feë of ‘n manic pixie dreamgirl of ‘n ding. \n\nII. \nDis die Saterdag daarna, ons is by ‘n universiteits initiatief wat ontwerp is om die eerste jaars besig te hou sodat hulle nie hulle polse afkou van die ellende nie. Dis ‘n community engagement promo en ons moet in ‘n groep take voltooi (besig hou kak). Jy is in my groep in gedeel. ‘n Mislike dag met grys op grys, maar jou hare is lank en goud en jy straal soos my eie soort engel. Ons loop en praat die oggend om en ek dink by myself, my fok hys cool. Daars nie gedagtes oor wat kan gebeur nie, en ek dink partykeer dit help want nou maak ek nie of ek enige iets is behalwe myself nie. \nJys ook in my eetsaal gewees en ons hê ons maaltye saam (nie alleen nie, maar saam met ’n spul ander). Die aand nooi jy my vir die beloofde dagga. Die keer daarna stap jy saam met my Pick ‘n Pay toe oor ek aandring dat ek ‘n blok kaas wil koop en eet soos ‘n toebroodjie. Jy luister die hele pad hoe ek praat oor Koos Kombuis se “Suidpunt – Jazz” en geloof en die huis en simpel kak. Jy luister aandagtig soos ek net aframmel. \nMy lief, die man van eindlose geduld. Altyd still, altyd daar.  \n\n',
-    reported: false,
     __collections__: {}
   },
   r10ubYZLMShAY1oKGrhL: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>Dis God</span></p><p><span>Gejuig na die ontsnapping van 'n dillema wat nie meer geld nie</span></p><p><span>Liefde wat ek nie verwag het nie</span></p><p><span>Maar ek is gelukkig</span></p><p><span>En verlief op alles wat oor my pad kom</span></p></div>",
     repliedTo: null,
     date: 1574373304,
     uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
@@ -19382,10 +19395,15 @@ const p = {
     canReply: true,
     id: 'r10ubYZLMShAY1oKGrhL',
     repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Dis God</span></p><p><span>Gejuig na die ontsnapping van 'n dillema wat nie meer geld nie</span></p><p><span>Liefde wat ek nie verwag het nie</span></p><p><span>Maar ek is gelukkig</span></p><p><span>En verlief op alles wat oor my pad kom</span></p></div>",
     __collections__: {}
   },
   r3vHDh8w6VchnDO0z7kT: {
-    nsfw: false,
     adminNotes: 'None',
     body:
       "<div><p><span>die see se skoon skildersdoek</span></p><p><span>breek net met elke brander</span></p><p><span>maar ek sien jou wit tande lag</span></p><p><span>tussen die skuim </span></p><p><span>(it's not inside it's on top</span></p><p><span>het jy altyd met cremora </span></p><p><span>humor gesê </span></p><p><span>maar jy was ook nooit regtig binne nie</span></p><p><span>net bo vir versiering) </span></p><p><span>wat oppervlakkig op die water verdwyn. </span></p></div>",
@@ -19401,12 +19419,10 @@ const p = {
     id: 'r3vHDh8w6VchnDO0z7kT',
     repliedToName: null,
     bookmarkedCount: 2,
+    nsfw: false,
     __collections__: {}
   },
   r4w0AYazSW8Der68KgDU: {
-    mongo_id: '5c501a96a4185a0015fb0449',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'handyandy.art',
     name: 'Die ding ',
     body:
@@ -19416,9 +19432,15 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'r4w0AYazSW8Der68KgDU',
     bookmarkedCount: 0,
+    mongo_id: '5c501a96a4185a0015fb0449',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   r5Qvq5AK6bEkZg8B4Kbw: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Die trane lê vlak</span></p><p><span>Die hartseer vlakker</span></p><p><span>My liefde en omgee vir jou hopeloos te diep om nie te verdrink daarin nie</span></p><p><span>Diep asem in</span></p><p><span></span></p><p><span>En</span></p><p><span></span></p><p><span>Hou</span></p><p><span></span></p><p><span>En</span></p><p><span></span></p><p><span>Hou</span></p><p><span></span></p><p><span>Aan</span></p><p><span></span></p><p><span>Swem</span></p></div>',
@@ -19432,15 +19454,9 @@ const p = {
     canReply: true,
     id: 'r5Qvq5AK6bEkZg8B4Kbw',
     repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   r6UhBodE9WWHWPO8Gofn: {
-    body:
-      "Ek sit in die donker nag\nDis donker hoor net die musiek\nMense wat lag\nLag want hul het 'n goodtime.\nSaam vriende kuier hul\nIn Hogsden en all die kuierplek \nin die weste. \n\nDan begin die gedagte by myself afspeelE\nEkt nooit my jonglewe geniet\nHet teveel gegee vir ander\nOpofferings gemaak\nWat nou nie meer saak maak\n\nJul het my vergeet. \nVergeet van al die seer in my hart\n'n hart wat gebreek is\nen niemand kan dit regmaak\n\nMy gedagtes maal\nsoos n wip plank hoog op\ndan laag teen die grond\nDan kom die besef niemand verstaan my werklik. Is dit omrede ek nie sommer my hart begeertes en my seer met iemand wil deel of is dit net gee op aan mense want mense kan net jou hart breek. \nHul breek jou hart in stukke en jy self kan dit nie weer optel\n\nDie vraag is wil jy aan mense glo of nie. Keuses om te maak en gou ook. ",
-    reported: false,
     date: 1562413567,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     id: 'r6UhBodE9WWHWPO8Gofn',
@@ -19449,9 +19465,13 @@ const p = {
     adminNotes: 'None',
     handle: '',
     name: 'Naglike uure',
+    body:
+      "Ek sit in die donker nag\nDis donker hoor net die musiek\nMense wat lag\nLag want hul het 'n goodtime.\nSaam vriende kuier hul\nIn Hogsden en all die kuierplek \nin die weste. \n\nDan begin die gedagte by myself afspeelE\nEkt nooit my jonglewe geniet\nHet teveel gegee vir ander\nOpofferings gemaak\nWat nou nie meer saak maak\n\nJul het my vergeet. \nVergeet van al die seer in my hart\n'n hart wat gebreek is\nen niemand kan dit regmaak\n\nMy gedagtes maal\nsoos n wip plank hoog op\ndan laag teen die grond\nDan kom die besef niemand verstaan my werklik. Is dit omrede ek nie sommer my hart begeertes en my seer met iemand wil deel of is dit net gee op aan mense want mense kan net jou hart breek. \nHul breek jou hart in stukke en jy self kan dit nie weer optel\n\nDie vraag is wil jy aan mense glo of nie. Keuses om te maak en gou ook. ",
+    reported: false,
     __collections__: {}
   },
   r8T6x1gB4mDXW8F4kzmZ: {
+    nsfw: false,
     adminNotes: 'None',
     handle: 'paula_stxphxnie_kruger',
     name: 'die moordenaar van miere',
@@ -19463,13 +19483,9 @@ const p = {
     id: 'r8T6x1gB4mDXW8F4kzmZ',
     bookmarkedCount: 0,
     mongo_id: '5cca1a176103a900153cfd06',
-    nsfw: false,
     __collections__: {}
   },
   rKJ3UiAbfY2SUP3xwmCF: {
-    name: 'Is dit al?',
-    body: 'Ek hoop nie so nie...',
-    reported: false,
     date: 1555008576,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'rKJ3UiAbfY2SUP3xwmCF',
@@ -19478,6 +19494,9 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
+    name: 'Is dit al?',
+    body: 'Ek hoop nie so nie...',
+    reported: false,
     __collections__: {}
   },
   rLxG4x9D7g2SoA8vtQxY: {
@@ -19496,6 +19515,12 @@ const p = {
     __collections__: {}
   },
   rLxyXXoKd9ld3YgMZXUd: {
+    body:
+      '<div><p><span>Kô ons ry, Karoo toe, gaan sit met n kitaar en ñ laptop en maak iets.</span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1567153232,
+    uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
     richText: true,
     handle: 'Ahwelgemoed ',
     name: 'Die Heuwels is Kay',
@@ -19505,15 +19530,11 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Kô ons ry, Karoo toe, gaan sit met n kitaar en ñ laptop en maak iets.</span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1567153232,
-    uid: 'ngAMx4fJ6shm7BRMr4KgdDBkcKJ3',
     __collections__: {}
   },
   rMHb5zBfKHcGravpig7O: {
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Ek het ‘n tent opgerig</span></p><p><span>In die sfere van my sig\nWil jy hier kom bly\nEn rus kom kry?</span></p></div>',
@@ -19528,11 +19549,14 @@ const p = {
     id: 'rMHb5zBfKHcGravpig7O',
     repliedToName: null,
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   rO27OrQvHFWrt5ZmjPgR: {
+    repliedTo: null,
+    date: 1580255531,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
+    richText: true,
     handle: '',
     name: 'Ouerword begin al ',
     canReply: true,
@@ -19544,30 +19568,22 @@ const p = {
     body:
       "<div><p><span>Ek het vandag my hare gaan sny. </span></p><p><span>By een van die barbiere in die dorp. </span></p><p><span>Een van daai's wat so vinnig met die skertjie maak en nie baie praat nie omdat ons weet daar sal misverstand wees: st</span><span>ilte; soms 'n duideliker opdrag. </span></p><p><span></span></p><p><span>Hy het aanhou knip.</span></p><p><span>Soos 'n spesialis moet,</span></p><p><span>Terwyl ek na my 28 jarige, vel, neus en mond in die spieël kyk: hierdie is die mooiste wat ek ooit gaan wees.</span><span> Sawwe vel, helder oë, minimale lagplooie, vol, ronde lippe, pof, pienk wange en gemmer baard. Jonkheid is vanselfsprekend; oudheid onvermydelik. </span></p><p><span></span></p><p><span>Nooit weer gaan dit so goed lyk soos nóú nie. </span></p><p><span></span></p><p><span>Vir die eerste keer bestaan daar nou selfies van die jeugdige wat eendag plooierig en hortend gaan terugverlang na die tye toe hy blind was vir sy eie beauty. </span></p><p><span></span></p><p><span>Van hier af is dit afdraend. Plooie. Vlekke, doeke en implants. Plomp of te not. Dis nou of nooit. </span></p></div>",
     reported: false,
-    repliedTo: null,
-    date: 1580255531,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
     __collections__: {}
   },
   rOz4dhW7JR81s2Gw4srC: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Dis net jy',
     reported: false,
     body: 'Geluk met jou verjaarsdag\nEk mis jou',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1579994434,
     id: 'rOz4dhW7JR81s2Gw4srC',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   rQCmxE8FLeIlmpuGefE5: {
-    mongo_id: '5c9de4f493a5f50015d536dc',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'First impressions',
     body:
@@ -19577,9 +19593,17 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'rQCmxE8FLeIlmpuGefE5',
     bookmarkedCount: 0,
+    mongo_id: '5c9de4f493a5f50015d536dc',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   rSxYbdaY4rrCjo19MYg3: {
+    body:
+      "Ek staar by die agterdeur uit.\nDie weer is genoeg om my depressief te maak.\nEk is eintlik besig om pannekoek te bak.\nEk sien 'n treinbrug in die verte...\nEen of ander tik-kop het homself vroeër die jaar daar gehang. 'n Knoop, en 'n sprong, en hy's weg. Ek onthou, ek kon nog daardie dag die silhoeët van sy lyk teen die vuil beton sien.\nDie pannekoek begin brand.\nEk staar nogsteeds,\nEn dink aan hoe jy jouself, 6 dae gelede ook vermoor het.\nMet 'n enkele \"Oukei\" en die trek van 'n sneller, is jy weg.\nHow fucking poetic.",
+    reported: false,
+    date: 1533820874,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'rSxYbdaY4rrCjo19MYg3',
     bookmarkedCount: 0,
     mongo_id: '5b6c3fc92b2c90001484bf43',
@@ -19587,17 +19611,9 @@ const p = {
     adminNotes: 'None',
     handle: 'Misha Nel',
     name: 'Pannekoek gedagtes.',
-    body:
-      "Ek staar by die agterdeur uit.\nDie weer is genoeg om my depressief te maak.\nEk is eintlik besig om pannekoek te bak.\nEk sien 'n treinbrug in die verte...\nEen of ander tik-kop het homself vroeër die jaar daar gehang. 'n Knoop, en 'n sprong, en hy's weg. Ek onthou, ek kon nog daardie dag die silhoeët van sy lyk teen die vuil beton sien.\nDie pannekoek begin brand.\nEk staar nogsteeds,\nEn dink aan hoe jy jouself, 6 dae gelede ook vermoor het.\nMet 'n enkele \"Oukei\" en die trek van 'n sneller, is jy weg.\nHow fucking poetic.",
-    reported: false,
-    date: 1533820874,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   rcl7fhAM1baklQdhFoc2: {
-    id: 'rcl7fhAM1baklQdhFoc2',
-    bookmarkedCount: 0,
-    mongo_id: '5cbf0f661015cc0015ffcbec',
     nsfw: false,
     adminNotes: 'None',
     handle: 'zantekeizer',
@@ -19607,17 +19623,12 @@ const p = {
     reported: false,
     date: 1556025191,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'rcl7fhAM1baklQdhFoc2',
+    bookmarkedCount: 0,
+    mongo_id: '5cbf0f661015cc0015ffcbec',
     __collections__: {}
   },
   rdAkKKLzKWWxLnFISkT6: {
-    adminNotes: 'None',
-    reported: false,
-    body:
-      "<div><p><span>Soos die Tsitsikamma bo mens toevou, is vakansie-ek is besig om uit sy hibernasiegat te kruip. Dankbare harte; bless, bless, bless. </span></p><p><span></span></p><p><span>Kan ons meer vakansie-weggaanne in die jaar hê? </span></p><p><span></span></p><p><span>Want wraggies... nog 'n Desember en die trokke Toyota rol steeds alleen aan Transkei toe. </span></p></div>",
-    repliedTo: null,
-    date: 1576341012,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'bly. Maar... ',
@@ -19626,9 +19637,19 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Soos die Tsitsikamma bo mens toevou, is vakansie-ek is besig om uit sy hibernasiegat te kruip. Dankbare harte; bless, bless, bless. </span></p><p><span></span></p><p><span>Kan ons meer vakansie-weggaanne in die jaar hê? </span></p><p><span></span></p><p><span>Want wraggies... nog 'n Desember en die trokke Toyota rol steeds alleen aan Transkei toe. </span></p></div>",
+    repliedTo: null,
+    date: 1576341012,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
     __collections__: {}
   },
   rdtg9dAskJr6k1nlpz8t: {
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: ' ',
     body:
@@ -19639,11 +19660,10 @@ const p = {
     id: 'rdtg9dAskJr6k1nlpz8t',
     bookmarkedCount: 2,
     nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   refMRLPZRFgtulVnjIfh: {
+    nsfw: false,
     adminNotes: 'None',
     handle: 'ilzedup94',
     name: "Nog 'n cliché",
@@ -19654,12 +19674,9 @@ const p = {
     uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     id: 'refMRLPZRFgtulVnjIfh',
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   rfiuJPC8lPlqHcW3RMxT: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Suiderkruis',
     body:
@@ -19669,6 +19686,8 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'rfiuJPC8lPlqHcW3RMxT',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   rgMv0EXUkdoWHGwRsoy7: {
@@ -19704,8 +19723,6 @@ const p = {
     __collections__: {}
   },
   riyhfFnqGwpv5KFue3sH: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Fees van die ongenooides',
     body: 'Saterdagaand\nEn nie genooi nie\n',
@@ -19715,9 +19732,15 @@ const p = {
     id: 'riyhfFnqGwpv5KFue3sH',
     bookmarkedCount: 0,
     mongo_id: '5c968b8f0a32180015c17046',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   rmBbawAZmXjKzRA2aEwA: {
+    bookmarkedCount: 0,
+    mongo_id: '5cb86c3e8385fb001566552c',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Ek sukkel ',
     body: 'Monophobia? ',
@@ -19725,17 +19748,9 @@ const p = {
     date: 1555590206,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'rmBbawAZmXjKzRA2aEwA',
-    bookmarkedCount: 0,
-    mongo_id: '5cb86c3e8385fb001566552c',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   s1Cspd4rom77i20G2Xao: {
-    date: 1560874725,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
-    id: 's1Cspd4rom77i20G2Xao',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -19743,10 +19758,13 @@ const p = {
     body:
       "Ek neem jou aan die hand\nOns dans op die maat van musiek\nVir n oomblik kyk ek\nSo diep in jou siel\n\nEk sien die seer\nWat verbloem word\ndeur die mooiste glimlag\n'n lag wat geluk voortbring\n\nDan sien ek die mooi\nin jou raak sonder\ndat jy dit agter kom\nEks weer soos 'n stoute skoolseun\n\nWat gaan met my aan\nEk wou nie dit toe laat\ndat enige een \nweer na my hart kom\n\nKan ek, Mag ek\nMy kop is deur mekaar\nwant ek nie weet wat\naangaan met my\nIs dit dan net 'n droom.\nTyd sal leer\n\n\n",
     reported: false,
+    date: 1560874725,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
+    id: 's1Cspd4rom77i20G2Xao',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   s8b9QWNW1Qmt4RUhJrRZ: {
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -19757,11 +19775,10 @@ const p = {
     date: 1559658526,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 's8b9QWNW1Qmt4RUhJrRZ',
+    bookmarkedCount: 1,
     __collections__: {}
   },
   s9Bws3NkMEbVkczCIXRW: {
-    richText: true,
-    handle: '',
     name: 'naaldekoker',
     canReply: true,
     id: 's9Bws3NkMEbVkczCIXRW',
@@ -19776,6 +19793,8 @@ const p = {
     date: 1577732029,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
+    richText: true,
+    handle: '',
     __collections__: {}
   },
   sCyqqt6O2tpcKKAJyhQK: {
@@ -19793,6 +19812,9 @@ const p = {
     __collections__: {}
   },
   sDVCwiorugSbq2FtD8OI: {
+    id: 'sDVCwiorugSbq2FtD8OI',
+    bookmarkedCount: 1,
+    mongo_id: '5cc6e6c2821c4a00158fc3ad',
     nsfw: false,
     adminNotes: 'None',
     handle: 'Nee dankie, raai maar',
@@ -19802,13 +19824,9 @@ const p = {
     reported: false,
     date: 1556539075,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'sDVCwiorugSbq2FtD8OI',
-    bookmarkedCount: 1,
-    mongo_id: '5cc6e6c2821c4a00158fc3ad',
     __collections__: {}
   },
   sFQ50qnh6vPok5mZAKWO: {
-    handle: 'ena_stegmann',
     name: 'Assumption',
     body: 'Of al het ek al die kennis, sonder konteks is jy niks.',
     reported: false,
@@ -19819,6 +19837,7 @@ const p = {
     mongo_id: '5c5b4e330a39a100153333d8',
     nsfw: false,
     adminNotes: 'None',
+    handle: 'ena_stegmann',
     __collections__: {}
   },
   sFoXsxyVzMEDDlx6EcGV: {
@@ -19840,8 +19859,6 @@ const p = {
     __collections__: {}
   },
   sO0B727ij9HOvhjBWxoP: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Vat so Ventrikel ',
     reported: false,
@@ -19851,9 +19868,12 @@ const p = {
     date: 1569835636,
     id: 'sO0B727ij9HOvhjBWxoP',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   sO16ddyIYkoSe5dSAgtB: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'V',
@@ -19864,10 +19884,10 @@ const p = {
     date: 1564814874,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'sO16ddyIYkoSe5dSAgtB',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   sP7YJb8s4VgT6CmDJ1Ei: {
+    id: 'sP7YJb8s4VgT6CmDJ1Ei',
     bookmarkedCount: 0,
     mongo_id: '5b991d58da774800140b1742',
     nsfw: false,
@@ -19879,18 +19899,9 @@ const p = {
     reported: false,
     date: 1536761177,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'sP7YJb8s4VgT6CmDJ1Ei',
     __collections__: {}
   },
   sPWgYEmTYLMPVBt84xBx: {
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>dis beter om iets te doen</span></p><p><span>waarvoor jy lief is</span></p><p><span>as om geld te maak. </span></p><p><span></span></p><p><span>- uit boomer-leuens en ander verhale. </span></p></div>',
-    repliedTo: null,
-    date: 1572080088,
-    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     activeTema: null,
     richText: true,
     handle: 'ilzedup94',
@@ -19899,14 +19910,17 @@ const p = {
     id: 'sPWgYEmTYLMPVBt84xBx',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>dis beter om iets te doen</span></p><p><span>waarvoor jy lief is</span></p><p><span>as om geld te maak. </span></p><p><span></span></p><p><span>- uit boomer-leuens en ander verhale. </span></p></div>',
+    repliedTo: null,
+    date: 1572080088,
+    uid: 'CU7QY5jjKdVgHwVltzfpc1jHWVA3',
     __collections__: {}
   },
   sPtECv8vf61NjLPyhvvv: {
-    handle: '',
-    name: 'Matchmaker, matchmaker ',
-    body:
-      '<div><p><span>lief ≠ lus,</span></p><p><span>dus</span></p><p><span>nee</span></p></div>',
-    reported: false,
     date: 1564428627,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'sPtECv8vf61NjLPyhvvv',
@@ -19914,9 +19928,18 @@ const p = {
     nsfw: false,
     richText: true,
     adminNotes: 'None',
+    handle: '',
+    name: 'Matchmaker, matchmaker ',
+    body:
+      '<div><p><span>lief ≠ lus,</span></p><p><span>dus</span></p><p><span>nee</span></p></div>',
+    reported: false,
     __collections__: {}
   },
   sRi6JwDaH53NYATrcYIA: {
+    date: 1557432350,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'sRi6JwDaH53NYATrcYIA',
+    bookmarkedCount: 0,
     mongo_id: '5cd4881da3d181001540bc50',
     nsfw: false,
     adminNotes: 'None',
@@ -19924,10 +19947,6 @@ const p = {
     name: 'Ja, kyk',
     body: 'Lekker lag jy nou.',
     reported: false,
-    date: 1557432350,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'sRi6JwDaH53NYATrcYIA',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   sUBdCv4rZ1yA40FdITS0: {
@@ -19946,6 +19965,8 @@ const p = {
     __collections__: {}
   },
   saQTQWqZVXTLXzdJZbJB: {
+    id: 'saQTQWqZVXTLXzdJZbJB',
+    bookmarkedCount: 0,
     mongo_id: '5b509fe487570b00140e99b7',
     nsfw: false,
     adminNotes: 'None',
@@ -19955,11 +19976,12 @@ const p = {
     reported: false,
     date: 1532010469,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'saQTQWqZVXTLXzdJZbJB',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   sagIbPgXbaMW8Zgyb1l2: {
+    repliedTo: null,
+    date: 1569949452,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     activeTema: null,
     richText: true,
     handle: '',
@@ -19973,12 +19995,13 @@ const p = {
     reported: false,
     body:
       '<div><p><span>Hoe het gebeur in twintig nul nege, </span></p><p><span>Dat ek so gelukkig was? \nHoe het ek dit reggekry? \nDalk was dit maklik, \nmakliker toe. \nDit was sparkling wine in ŉ Kadett se boot langs die see, \nselfsugtig en aspris. \nUit ons buike uit bly \nnet ek en jy. \nAster, wat het gebeur in daai vyf jaar? \nDit voel soos iemand anders se storie. \nDaai jare nou net lyne op my geheue. \nWaar is jy nou? \nWat het gebeur in twintig veertien? \nHoe het ek dit verdien? \nToe jy opgee, \nHoeveel meer moes ek probeer? \nSien \nek moes gaan,  \n‘n bed pan ruil en huil. \nEn jy na ŉ ander man staar, \nek moet bedaar \nBedaar \nDie aarde eindig, \nmet jou in sy bakkie na die Paarl \nen in 30km word ek en jy, jy en hy en ek en sy (ma’ Sy’s weg) \nHartversaking my voorland \nIs daar opstanding in die fuckt-gekneusde vlees? \nSal jy darem die berig in die koerant by my graf kom lees? </span></p></div>',
-    repliedTo: null,
-    date: 1569949452,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     __collections__: {}
   },
   sba26bEeCxTAAwGATaSC: {
+    id: 'sba26bEeCxTAAwGATaSC',
+    bookmarkedCount: 1,
+    mongo_id: '5cb3baf3ce3f7c00156d149d',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'NGK ',
@@ -19987,13 +20010,15 @@ const p = {
     reported: false,
     date: 1555282676,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'sba26bEeCxTAAwGATaSC',
-    bookmarkedCount: 1,
-    mongo_id: '5cb3baf3ce3f7c00156d149d',
-    nsfw: false,
     __collections__: {}
   },
   scSjXFCaoGqi7qxRm82E: {
+    reported: false,
+    body:
+      '<div><p><span>Hou my bietjie vas, asseblief?</span></p><p><span></span></p></div>',
+    repliedTo: null,
+    date: 1577645138,
+    uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -20004,34 +20029,23 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Hou my bietjie vas, asseblief?</span></p><p><span></span></p></div>',
-    repliedTo: null,
-    date: 1577645138,
-    uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
     __collections__: {}
   },
   sfA45babHasrYEmoXMu1: {
-    id: 'sfA45babHasrYEmoXMu1',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: "You should've been the one that got away",
     body:
       "I should've listened to my heart\nI should've gotten out early\nI should've said no\nI should've known better \nBut I didn't \nAnd you chose to stay \nJust to create my hell, forge the prison for my passions and leave the festering scars for me to bed now, every night",
     reported: false,
     date: 1562791757,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'sfA45babHasrYEmoXMu1',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   sjh8lZf5ly1MCvLREWvC: {
-    bookmarkedCount: 3,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     name: 'Bewende beeld',
     body:
       '<div><p><span>Vandag was vol drome</span></p><p><span>Van jou lyf en sagte lede</span></p><p><span>Omvattend oor my heupe</span></p><p><span>Sittend op my bekken</span></p><p><span>(Jy sou nou CPR kon gee)</span></p><p><span>En jou sagte kombers-van-nag</span></p><p><span>Oor jou skouers gegooi</span></p><p><span></span></p><p><span>Met jou rug effens krom</span></p><p><span>Van naderweesbehoeftes</span></p><p><span>Bleek borste beide bietjie buitentoe</span></p><p><span>-beeldskoon-</span></p><p><span>En jou maag gevou dwars</span></p><p><span>Deur</span></p><p><span>Jou </span></p><p><span>Naeltjie</span></p><p><span></span></p><p><span>En die droom stop</span></p><p><span>Elke keer net</span></p><p><span>Voor jy begin beweeg</span></p><p><span></span></p><p><span></span></p></div>',
@@ -20039,9 +20053,16 @@ const p = {
     date: 1564780233,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'sjh8lZf5ly1MCvLREWvC',
+    bookmarkedCount: 3,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   slgvKqWXNQcWNNAyTbBy: {
+    bookmarkedCount: 0,
+    mongo_id: '5c836351b579120015e56539',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -20051,12 +20072,9 @@ const p = {
     date: 1552114513,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'slgvKqWXNQcWNNAyTbBy',
-    bookmarkedCount: 0,
-    mongo_id: '5c836351b579120015e56539',
     __collections__: {}
   },
   sly3MqOrBcJR6bXEbwi5: {
-    activeTema: null,
     richText: true,
     handle: '',
     name: "We're dreaming",
@@ -20072,12 +20090,10 @@ const p = {
     repliedTo: null,
     date: 1582744991,
     uid: 'qYVU1tFMsIYGg2YPukV77tXKoxs2',
+    activeTema: null,
     __collections__: {}
   },
   sm64b2PhSs3VfDDEGvNs: {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     handle: 'almero_welgemoed',
     name: 'Suspect 1',
     body:
@@ -20087,9 +20103,17 @@ const p = {
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'sm64b2PhSs3VfDDEGvNs',
     bookmarkedCount: 1,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   smREv586YaGctXy71kLw: {
+    date: 1548601527,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'smREv586YaGctXy71kLw',
+    bookmarkedCount: 0,
+    mongo_id: '5c4dc8b748af4a0015e574d0',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -20097,14 +20121,16 @@ const p = {
     body:
       'Clothes drop to the floor so that your\neyes gaze upon my \nsmooth, freckled, pale, bumpy, soft, scarred\nskin and see how whole and broken I am.',
     reported: false,
-    date: 1548601527,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'smREv586YaGctXy71kLw',
-    bookmarkedCount: 0,
-    mongo_id: '5c4dc8b748af4a0015e574d0',
     __collections__: {}
   },
   sv1WiYcYgnFwqTvNuex6: {
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Oxford | Toets',
+    canReply: true,
+    id: 'sv1WiYcYgnFwqTvNuex6',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -20114,13 +20140,6 @@ const p = {
     repliedTo: null,
     date: 1573251379,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Oxford | Toets',
-    canReply: true,
-    id: 'sv1WiYcYgnFwqTvNuex6',
-    repliedToName: null,
     __collections__: {}
   },
   sviZyVlPX3kuhieofnaj: {
@@ -20160,6 +20179,7 @@ const p = {
     __collections__: {}
   },
   t5YbXxLY4ux8mWOBFNLQ: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Ek sal altyd môre met iets begin. ',
@@ -20170,11 +20190,9 @@ const p = {
     uid: 'sTwhHOWrUBhJBDSdqd1m3Bl3HtO2',
     id: 't5YbXxLY4ux8mWOBFNLQ',
     bookmarkedCount: 1,
-    nsfw: false,
     __collections__: {}
   },
   t67ICC1JB0hDVGxzDKkH: {
-    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -20186,9 +20204,17 @@ const p = {
     uid: 'O5bSoMjt35ZIXXImaNprTSOmtog2',
     id: 't67ICC1JB0hDVGxzDKkH',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   t7feS8riqgNqIJOWnBD4: {
+    handle: '',
+    name: 'Tyd het aan gestap',
+    canReply: true,
+    id: 't7feS8riqgNqIJOWnBD4',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     body:
       '<div><p><span>Ek sien jou in die hoek van my oog</span></p><p><span>Rooi  hemp en al en staar in die verte</span></p><p><span>Musiek wat speel </span></p><p><span>Juan Coetzee wat sing in n kroeg</span></p><p><span>Musiek van happy times</span></p><p><span>Wonder wat in jou gedagtes aan gaan</span></p><p><span></span></p><p><span>Dink aan my jeug tyd</span></p><p><span>Geen wonder ekt so baie uit gemis</span></p><p><span>Aan my jong dae</span></p><p><span>Van kinsbeen af verantwoordelikheid gevat vir almal om my</span></p><p><span>Behalwe vir myself</span></p><p><span></span></p><p><span>Tyd het aan gestap</span></p><p><span>Grys en kry nou eers tyd vir myself</span></p><p><span>Gebruik my tyd vir my alleen</span></p><p><span></span></p><p><span>Die tyd het gekom om te begin lewe</span></p><p><span>Lewe vir myself</span></p><p><span>Dink net aan wat ek wil he in die lewe</span></p><p><span>Tyd om happy te wees. </span></p><p><span></span></p><p><span>Tyd om weer my hart oop te maak</span></p><p><span>Vir iemand wat my sal lief he</span></p><p><span>net vir my. </span></p><p><span>Vergeet van wat was en dink aan dit wat is. </span></p><p><span>Lewe is kort geniet the momennt</span></p><p><span></span></p></div>',
@@ -20198,20 +20224,9 @@ const p = {
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     activeTema: null,
     richText: true,
-    handle: '',
-    name: 'Tyd het aan gestap',
-    canReply: true,
-    id: 't7feS8riqgNqIJOWnBD4',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   t8k66zfClfg8F9BRTzyf: {
-    mongo_id: '5bdabf01b28adb001439b330',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: '🍆',
     body: 'Ek glo in jou',
     reported: false,
@@ -20219,17 +20234,13 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 't8k66zfClfg8F9BRTzyf',
     bookmarkedCount: 0,
+    mongo_id: '5bdabf01b28adb001439b330',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   tB2fnkSy4ZkA3TovX7MP: {
-    richText: true,
-    handle: '@milli.burd',
-    name: 'Koue Voete',
-    canReply: true,
-    id: 'tB2fnkSy4ZkA3TovX7MP',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     body:
       "<div><p><span>Ek onthou die begin teen jou bors</span></p><p><span>Net die reg en die verkeerd en al ons vrae tussen ons</span></p><p><span>En ek onthou hoe't die engele geterg</span></p><p><span>Soos om vra of lag nog lekker is, of is God die moeite werd?\n\nEk kon proe hoe dit sou wees\nAs ons die paaie weg kon wens en die sterre meer kon lees\nEn jy kon voel hoe ek beef\n\nHet jy jou roeping toe gevind, daar in die verte, my lief? \nHet jy pad al vir ons twee oopgekap? \nEk het my hoed en my linte en my rok al uitgekies \nDis net my voete wat al hoe kouer raak\n\nEk onthou die einde teen my bors\nEk hoor jou stem, ek sien jou lyf voor my staan\nJy weet dis nooit regtig groet vir ons\nEn ek klou nog steeds soos dou aan jou naam\n\nEk kan proe hoe proe die wêreld sonder jou \nSoos oggend asem, dronkverdriet aan die einde van my tou\nEn jy kan voel hoe ek vashou \n\nHet jy jouself al gevind, daar in die eike, my lief? \nOf laat die sout my nog steeds soos die somer aan jou kleef? \nEk het my hare en my vel en my suster opgemaak\nDis net my voete wat al hoe kouer raak\n\nEk onthou die hede, stadig nog \nEk onthou die oomblikke waar jy 'n opsie word\nEk onthou dié voete, selfstandig sonder jou \nEn my eie hart wat alles warm maak\n\nDis net my voete wat al hoe kouer raak\n</span></p></div>",
@@ -20238,11 +20249,17 @@ const p = {
     date: 1571844089,
     uid: '6wk7mCzO2EUVUIg5AV4JUzSZr1u1',
     activeTema: null,
+    richText: true,
+    handle: '@milli.burd',
+    name: 'Koue Voete',
+    canReply: true,
+    id: 'tB2fnkSy4ZkA3TovX7MP',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   tB9HtzdDjC3M08inc2El: {
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -20256,9 +20273,13 @@ const p = {
     canReply: true,
     id: 'tB9HtzdDjC3M08inc2El',
     repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   tBUXj7p9kEqqHoWTBUHh: {
+    adminNotes: 'None',
+    handle: '',
     name: 'naby + ver ',
     body:
       'jy was te ver om oor om te gee. heerlik seer hoe Groot jy nou, naby is.',
@@ -20269,8 +20290,6 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b550cc56fdc76001407d56d',
     nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   tCa03Ah7kehUk6kb0Xma: {
@@ -20287,6 +20306,8 @@ const p = {
     __collections__: {}
   },
   tHbeCUcfLjBd4zlgRSHt: {
+    bookmarkedCount: 11,
+    mongo_id: '5ca5bfafa87be6001567d3d5',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -20297,11 +20318,12 @@ const p = {
     date: 1554366384,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'tHbeCUcfLjBd4zlgRSHt',
-    bookmarkedCount: 11,
-    mongo_id: '5ca5bfafa87be6001567d3d5',
     __collections__: {}
   },
   tHiKBXDvb2qgTHJFnaYu: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Kapoet',
     body: 'Wanneer jy moeg is en slaap is nie die antwoord.',
     reported: false,
@@ -20309,9 +20331,6 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'tHiKBXDvb2qgTHJFnaYu',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   tICxUHjpdqBQ9qtWXBnx: {
@@ -20332,10 +20351,6 @@ const p = {
     __collections__: {}
   },
   tLLzjdkY1sAmewIH4hou: {
-    canReply: true,
-    id: 'tLLzjdkY1sAmewIH4hou',
-    repliedToName: null,
-    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -20348,36 +20363,42 @@ const p = {
     richText: true,
     handle: 'stefanyseymore',
     name: 'Sadistiese sabbatical meerminne?',
+    canReply: true,
+    id: 'tLLzjdkY1sAmewIH4hou',
+    repliedToName: null,
+    bookmarkedCount: 1,
     __collections__: {}
   },
   tODGe6qiyFLpiAue8qbd: {
-    handle: '',
-    name: 'Dis net jy',
-    body: 'Ek mis jou Franse kat\n',
-    reported: false,
     date: 1565894252,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'tODGe6qiyFLpiAue8qbd',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
+    name: 'Dis net jy',
+    body: 'Ek mis jou Franse kat\n',
+    reported: false,
     __collections__: {}
   },
   tOyg7JOSe2J0OTH0xdWj: {
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    date: 1579027228,
-    id: 'tOyg7JOSe2J0OTH0xdWj',
-    bookmarkedCount: 0,
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Fantasie oor die einde',
     reported: false,
     body:
       'Sy het haar kat by nuwe, liefdevolle mense gaan aflewer\nEn toe al haar anti-depressante en pynpille met cheap rooiwyn gedrink',
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    date: 1579027228,
+    id: 'tOyg7JOSe2J0OTH0xdWj',
+    bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   tQoA7E4t5P3lOGPbPIwW: {
+    id: 'tQoA7E4t5P3lOGPbPIwW',
+    bookmarkedCount: 3,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -20388,18 +20409,9 @@ const p = {
     reported: false,
     date: 1564767792,
     uid: 'OwBp7lLrfEZ3uIHh5jl3VWx79sZ2',
-    id: 'tQoA7E4t5P3lOGPbPIwW',
-    bookmarkedCount: 3,
     __collections__: {}
   },
   tRjk4YePavS5bV0oi5I7: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'woordtekort',
-    canReply: true,
-    id: 'tRjk4YePavS5bV0oi5I7',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -20409,9 +20421,18 @@ const p = {
     repliedTo: null,
     date: 1578728831,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'woordtekort',
+    canReply: true,
+    id: 'tRjk4YePavS5bV0oi5I7',
+    repliedToName: null,
     __collections__: {}
   },
   tT4LV9mF66OLYKO1lqBQ: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: '÷',
     body: 'Ditto. Hulle is soms maar *kakkerig* ',
@@ -20420,14 +20441,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'tT4LV9mF66OLYKO1lqBQ',
     bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   tVhfIRhbS8jB4T5lJQG6: {
-    bookmarkedCount: 0,
-    mongo_id: '5c84fe5223cb64001566984b',
-    nsfw: false,
     adminNotes: 'None',
     handle: 'johngeary6',
     name: 'Skuur',
@@ -20436,29 +20452,26 @@ const p = {
     date: 1552219731,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'tVhfIRhbS8jB4T5lJQG6',
+    bookmarkedCount: 0,
+    mongo_id: '5c84fe5223cb64001566984b',
+    nsfw: false,
     __collections__: {}
   },
   tWDpIfYmKnrvz5pQFsYB: {
-    handle: '',
-    name: 'infidel ',
-    reported: false,
-    body:
-      'ek wil vir mense kyk \n\napaties in die hoek bly sit tot alles verby is \nen gaan slaap ',
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1575616253,
     id: 'tWDpIfYmKnrvz5pQFsYB',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    handle: '',
+    name: 'infidel ',
+    reported: false,
+    body:
+      'ek wil vir mense kyk \n\napaties in die hoek bly sit tot alles verby is \nen gaan slaap ',
     __collections__: {}
   },
   tWXLIW80mNr61dp5cMoB: {
-    body:
-      '<div><p><span>Ek wandel in \'n jasmynwolk</span></p><p><span>Laatmiddagson wat neerbak</span></p><p><span>\'n Lenteswaeltjie wat soek-soek rondspring</span></p><p><span>En ek onthou</span></p><p><span></span><span style="font-style: italic;">"een zwaluw maakt nog geen zomer\nmaar\'t is een mooi begin"</span></p><p><span></span></p><p><span>Dis die belofte van vernuwings en nuut begin</span></p><p><span>Vergesel deur jakarandas en bougainvilleas </span></p><p><span>Lang dae en kort nagte</span></p><p><span>Roomys strepe op my hemp</span></p><p><span>Dis die reuk van sonbrandroom</span></p><p><span>Of selftwyfel as jy vergeet het en sodoende gebrand het</span></p><p><span>Donderstorms, reën en modder</span></p><p><span>Strate wat die sonsondergang weerkaats in waterplasse</span></p><p><span>Dis die wegpak van wintersjasse</span></p><p><span>En swemklere en handdoek wat gereed lê om gegryp te word</span></p><p><span>Saam met die dolle gejaag om als wat begin was af te handel</span></p><p><span>Dis \'n mooi begin. </span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1567368753,
-    uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     richText: true,
     handle: 'mabethc',
     name: 'Een mooi begin',
@@ -20468,13 +20481,15 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    body:
+      '<div><p><span>Ek wandel in \'n jasmynwolk</span></p><p><span>Laatmiddagson wat neerbak</span></p><p><span>\'n Lenteswaeltjie wat soek-soek rondspring</span></p><p><span>En ek onthou</span></p><p><span></span><span style="font-style: italic;">"een zwaluw maakt nog geen zomer\nmaar\'t is een mooi begin"</span></p><p><span></span></p><p><span>Dis die belofte van vernuwings en nuut begin</span></p><p><span>Vergesel deur jakarandas en bougainvilleas </span></p><p><span>Lang dae en kort nagte</span></p><p><span>Roomys strepe op my hemp</span></p><p><span>Dis die reuk van sonbrandroom</span></p><p><span>Of selftwyfel as jy vergeet het en sodoende gebrand het</span></p><p><span>Donderstorms, reën en modder</span></p><p><span>Strate wat die sonsondergang weerkaats in waterplasse</span></p><p><span>Dis die wegpak van wintersjasse</span></p><p><span>En swemklere en handdoek wat gereed lê om gegryp te word</span></p><p><span>Saam met die dolle gejaag om als wat begin was af te handel</span></p><p><span>Dis \'n mooi begin. </span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1567368753,
+    uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     __collections__: {}
   },
   tX0IoylTSf76ut4PzWIa: {
-    richText: true,
-    handle: '',
-    name: 'Kersfees Blues',
-    canReply: true,
     id: 'tX0IoylTSf76ut4PzWIa',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -20487,13 +20502,13 @@ const p = {
     date: 1576334779,
     uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
     activeTema: 'Deel jou geheim',
+    richText: true,
+    handle: '',
+    name: 'Kersfees Blues',
+    canReply: true,
     __collections__: {}
   },
   tYEDGAznQoM3jMRECg6M: {
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     name: 'Môre Skyn Die Son Weer',
     body:
       "<div><p><span>Die son het haar hart gebloei oor die wolke,</span></p><p><span>tragies mooi</span></p><p><span>Donker het gekom en belowe,</span></p><p><span>dat hy die sterre daaroor sal gooi</span></p><p><span>Maanlig se helder glimlag kom te voorskyn, </span></p><p><span>'n silwer rand geskenk vir elkeen se donker\nwolke en pyn \n\n- ajvt</span></p></div>",
@@ -20502,13 +20517,13 @@ const p = {
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
     id: 'tYEDGAznQoM3jMRECg6M',
     bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   tfxKoYznVjndNIXZHqJA: {
-    id: 'tfxKoYznVjndNIXZHqJA',
-    bookmarkedCount: 0,
-    mongo_id: '5bf21e2f7e9ae1001403e3a5',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Sunday with others',
@@ -20517,11 +20532,13 @@ const p = {
     reported: false,
     date: 1542594095,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'tfxKoYznVjndNIXZHqJA',
+    bookmarkedCount: 0,
+    mongo_id: '5bf21e2f7e9ae1001403e3a5',
+    nsfw: false,
     __collections__: {}
   },
   tjQPKYtdx0DvzrzGoQdC: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'marietsteinmann ',
     name: 'sien soms ',
     body:
@@ -20531,9 +20548,14 @@ const p = {
     uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     id: 'tjQPKYtdx0DvzrzGoQdC',
     bookmarkedCount: 2,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   tkKD2P7rhEWmYICJ2JIq: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Hey,',
     body: 'Ek’t vindag aan jou gedink.',
     reported: false,
@@ -20541,12 +20563,10 @@ const p = {
     uid: 'htrf9Eq2dBgzExWXKjaTroaKv152',
     id: 'tkKD2P7rhEWmYICJ2JIq',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   tncZ0JaxqJNj6VZFOGra: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'V',
@@ -20557,7 +20577,6 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1571774860,
     id: 'tncZ0JaxqJNj6VZFOGra',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   trh6meyWYIb2S5cNI8i8: {
@@ -20574,6 +20593,13 @@ const p = {
     __collections__: {}
   },
   tsMfJi5VIl7e6yZn5Yi9: {
+    activeTema: 'Water',
+    richText: true,
+    handle: '',
+    name: 'Soos Ek Wag',
+    canReply: true,
+    id: 'tsMfJi5VIl7e6yZn5Yi9',
+    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -20583,16 +20609,13 @@ const p = {
     repliedTo: null,
     date: 1569271397,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    activeTema: 'Water',
-    richText: true,
-    handle: '',
-    name: 'Soos Ek Wag',
-    canReply: true,
-    id: 'tsMfJi5VIl7e6yZn5Yi9',
-    repliedToName: null,
     __collections__: {}
   },
   ttPhmpSLoS5gwAALs2rZ: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'm a a n d a g ',
     body:
       'Hoekom is hierdie goed so moeilik om te doen? Simpel goed. Bank app. OM uitbetaling. Huur. Lisensie. Telkom. Uber. \n\nDie groot goed. Maar tog so klein. Onmoontlik. Maar eintlik binne bereik. Katastrofies daarsonder. Te onhaalbaar vir nou. ',
@@ -20600,13 +20623,12 @@ const p = {
     date: 1561960777,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'ttPhmpSLoS5gwAALs2rZ',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   u0TSSGix5g5vCVldpcau: {
+    richText: true,
+    handle: 'stefanyseymore',
+    name: 'Verhoogte sensitiwiteit ',
     canReply: true,
     id: 'u0TSSGix5g5vCVldpcau',
     repliedToName: null,
@@ -20620,12 +20642,12 @@ const p = {
     date: 1576954357,
     uid: 'wwACmb4usagQEnsFvZAmSyMTHtk2',
     activeTema: null,
-    richText: true,
-    handle: 'stefanyseymore',
-    name: 'Verhoogte sensitiwiteit ',
     __collections__: {}
   },
   u3lXYYfyv3BUwKwyQ5nu: {
+    name: ':-×',
+    body: 'speak the truth\neven if your voice shakes',
+    reported: false,
     date: 1545863067,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'u3lXYYfyv3BUwKwyQ5nu',
@@ -20634,17 +20656,9 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: 'anon',
-    name: ':-×',
-    body: 'speak the truth\neven if your voice shakes',
-    reported: false,
     __collections__: {}
   },
   u9CscEbcQKdlUePSfJts: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'TEKSMARK',
-    canReply: true,
     id: 'u9CscEbcQKdlUePSfJts',
     repliedToName: null,
     bookmarkedCount: 1,
@@ -20656,10 +20670,14 @@ const p = {
     repliedTo: null,
     date: 1573167356,
     uid: 'sGUSN9Feltge5sunTC2ye1kh7aw2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'TEKSMARK',
+    canReply: true,
     __collections__: {}
   },
   u9vooJKogmImM7Wfl8iu: {
-    activeTema: null,
     richText: true,
     handle: 'EvertEsterhuizen',
     name: 'Universieël of plaaslik.',
@@ -20675,12 +20693,10 @@ const p = {
     repliedTo: null,
     date: 1583186390,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    activeTema: null,
     __collections__: {}
   },
   uGaDnmn83YhFfCTpGdTY: {
-    activeTema: null,
-    richText: true,
-    handle: '',
     name: 'Valent(p)ynsdag',
     canReply: true,
     id: 'uGaDnmn83YhFfCTpGdTY',
@@ -20694,9 +20710,16 @@ const p = {
     repliedTo: null,
     date: 1581642927,
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
+    activeTema: null,
+    richText: true,
+    handle: '',
     __collections__: {}
   },
   uHErfX63P1YdE2sYeVJw: {
+    name: 'Mens wees ~ deur Junior Marx',
+    body:
+      'Mens wees\n\nMens wees.\nOm mens te wees.\nMens wees is om jou eie unike self te wees.\nMens wees is boeke lees.\nMens wees is om te droom.\nMens wees is die metafoor, die idioom en die akronoom.\nMens wees is foute maak.\nMens wees is eerlik raak.\nMens wees is soen in die reen.\nMens wees is die son op koms in neem.\nMens wees is ek en mens wees is jy.\nMens wees is in Afrika bly.\nMens wees is genade toon.\nMens wees is die emosie sindroom.\nMens wees is hemel en mens wees is hel.\nMens wees is om slaaptyd stories te vertel.\nMens wees is ons potentiale vermoe.\nMens wees is niks meer as om wertlik te glo.\nMens wees is liefde en musiek.\nMens wees is die in ry teater fliek.      \nMens wees is die dromme en guiar akoorde.\nMens wees is meer as wat ons wertlik kan verstaan of selfs beskryf in menslike woorde.\nMens wees is n wonderwerk.\nOm mens te wees is n wonderwerk.\nOm mens te wees.',
+    reported: false,
     date: 1533511015,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'uHErfX63P1YdE2sYeVJw',
@@ -20705,13 +20728,13 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: 'Mens wees ~ deur Junior Marx',
-    body:
-      'Mens wees\n\nMens wees.\nOm mens te wees.\nMens wees is om jou eie unike self te wees.\nMens wees is boeke lees.\nMens wees is om te droom.\nMens wees is die metafoor, die idioom en die akronoom.\nMens wees is foute maak.\nMens wees is eerlik raak.\nMens wees is soen in die reen.\nMens wees is die son op koms in neem.\nMens wees is ek en mens wees is jy.\nMens wees is in Afrika bly.\nMens wees is genade toon.\nMens wees is die emosie sindroom.\nMens wees is hemel en mens wees is hel.\nMens wees is om slaaptyd stories te vertel.\nMens wees is ons potentiale vermoe.\nMens wees is niks meer as om wertlik te glo.\nMens wees is liefde en musiek.\nMens wees is die in ry teater fliek.      \nMens wees is die dromme en guiar akoorde.\nMens wees is meer as wat ons wertlik kan verstaan of selfs beskryf in menslike woorde.\nMens wees is n wonderwerk.\nOm mens te wees is n wonderwerk.\nOm mens te wees.',
-    reported: false,
     __collections__: {}
   },
   uLrc1ZiXctnZaUsRiDrO: {
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: '',
     name: 'Txt',
     body:
       '<div><p><span></span><span>Hy: “Is ons besig om op te breek?”</span></p><p><span>\nEk: “Ek wens ons was nie”\n\n.,.</span><span></span><span></span></p></div>',
@@ -20720,13 +20743,10 @@ const p = {
     uid: 'EZH9c5Mb3fVdRzwehx8hDt3HrMo1',
     id: 'uLrc1ZiXctnZaUsRiDrO',
     bookmarkedCount: 1,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   uM8fMaNqXws2dkWnXARb: {
+    mongo_id: '5bb6747e6d92ae00145bb812',
     nsfw: false,
     adminNotes: 'None',
     handle: 'afrikana_uit_brackenfell ',
@@ -20738,10 +20758,10 @@ const p = {
     date: 1538684031,
     id: 'uM8fMaNqXws2dkWnXARb',
     bookmarkedCount: 1,
-    mongo_id: '5bb6747e6d92ae00145bb812',
     __collections__: {}
   },
   uNlZs9kEoJ1e7bmrAXL0: {
+    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -20756,10 +20776,11 @@ const p = {
     id: 'uNlZs9kEoJ1e7bmrAXL0',
     repliedToName: 'kONSternasie',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   uVUPrz70KPAoV6Ql4EtK: {
+    bookmarkedCount: 0,
+    nsfw: false,
     richText: true,
     adminNotes: 'None',
     handle: '',
@@ -20770,11 +20791,13 @@ const p = {
     date: 1563133313,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'uVUPrz70KPAoV6Ql4EtK',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   ucmbPL5gUMKvcRmdghGX: {
+    name: 'Leeg, leeër, leegste',
+    body:
+      '<div><p><span>"</span><span style="font-style: italic;">Altyd, ja. Myne."</span></p><p><span style="font-style: italic;"></span></p><p><span style="font-style: italic;">   "Op ʼn manier, ja."</span></p><p><span style="font-style: italic;"></span></p><p><span style="font-style: italic;">"Ja. Op ʼn manier." </span></p></div>',
+    reported: false,
     date: 1563654936,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'ucmbPL5gUMKvcRmdghGX',
@@ -20783,13 +20806,11 @@ const p = {
     richText: true,
     adminNotes: 'None',
     handle: '',
-    name: 'Leeg, leeër, leegste',
-    body:
-      '<div><p><span>"</span><span style="font-style: italic;">Altyd, ja. Myne."</span></p><p><span style="font-style: italic;"></span></p><p><span style="font-style: italic;">   "Op ʼn manier, ja."</span></p><p><span style="font-style: italic;"></span></p><p><span style="font-style: italic;">"Ja. Op ʼn manier." </span></p></div>',
-    reported: false,
     __collections__: {}
   },
   udjWOU3DbHD5UubFkN0N: {
+    activeTema: null,
+    richText: true,
     handle: '',
     name: 'grootmensgoed + hooikoors ',
     canReply: true,
@@ -20804,11 +20825,13 @@ const p = {
     repliedTo: null,
     date: 1574300147,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
-    activeTema: null,
-    richText: true,
     __collections__: {}
   },
   ugMWLJFQ3dZ9I7tChOMQ: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Moeg',
     body:
@@ -20817,14 +20840,9 @@ const p = {
     date: 1564363688,
     uid: '8govqTsKkVZZbWmT1gqDKUWg0zs1',
     id: 'ugMWLJFQ3dZ9I7tChOMQ',
-    bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   },
   ujF27qMWl5AwUnJtwVqm: {
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'As jy single is, kan jy nie paarrym gebruik nie',
@@ -20835,9 +20853,13 @@ const p = {
     date: 1583489608,
     id: 'ujF27qMWl5AwUnJtwVqm',
     bookmarkedCount: 0,
+    nsfw: false,
     __collections__: {}
   },
   ukFR436l5KUCdmkCspvl: {
+    date: 1535449992,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'ukFR436l5KUCdmkCspvl',
     bookmarkedCount: 0,
     mongo_id: '5b851b875034cf0014dad982',
     nsfw: false,
@@ -20847,12 +20869,11 @@ const p = {
     body:
       'Jy: terwyl ek jou\nOm jou \nRibbekas\nVasklou\nAfgeval en seergekry\nOpgeklim en weer gery',
     reported: false,
-    date: 1535449992,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'ukFR436l5KUCdmkCspvl',
     __collections__: {}
   },
   um9qPmzCqFSxGiP3Bbgj: {
+    bookmarkedCount: 3,
+    nsfw: false,
     adminNotes: 'None',
     handle: 'evertesterhuizen',
     name: 'DNJ',
@@ -20862,11 +20883,11 @@ const p = {
     date: 1558787537,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'um9qPmzCqFSxGiP3Bbgj',
-    bookmarkedCount: 3,
-    nsfw: false,
     __collections__: {}
   },
   unjRCct4Qb4O0ZyjlhE2: {
+    adminNotes: 'None',
+    handle: 'joneliavt',
     name: 'Trane',
     body:
       'Vandag het ek genoeg gehuil\nOor die verlede, oor die toekoms\nOor die dinge en die mense wat ek nie kan beheer nie\nEk gaan nou slaap, my kop is seer',
@@ -20877,19 +20898,9 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5ce19a691e3ed8001583e1ad',
     nsfw: false,
-    adminNotes: 'None',
-    handle: 'joneliavt',
     __collections__: {}
   },
   up7zTWGgJttMm5KW1fbI: {
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Wat is rym even</span></p><p><span>Inelkgeval?</span></p><p><span></span></p></div>',
-    repliedTo: 'IpxoVh8GzxfYTYrVhI8D',
-    date: 1573246700,
-    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     activeTema: null,
     richText: true,
     handle: 'almero_welgemoed',
@@ -20898,9 +20909,19 @@ const p = {
     id: 'up7zTWGgJttMm5KW1fbI',
     repliedToName: 'laments ',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Wat is rym even</span></p><p><span>Inelkgeval?</span></p><p><span></span></p></div>',
+    repliedTo: 'IpxoVh8GzxfYTYrVhI8D',
+    date: 1573246700,
+    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     __collections__: {}
   },
   uso2vOYHhp9tERQ19R5S: {
+    adminNotes: 'None',
+    handle: 'ek.is.anouk ',
     name: 'Wellington ',
     body:
       'kom ons huil\n\na) oor hierdie\n    Breyten gedigte \nb) oor die geld wat \n    ek daarop spandeer het\n    (en dus nie meer het nie) ',
@@ -20910,11 +20931,14 @@ const p = {
     id: 'uso2vOYHhp9tERQ19R5S',
     bookmarkedCount: 1,
     nsfw: false,
-    adminNotes: 'None',
-    handle: 'ek.is.anouk ',
     __collections__: {}
   },
   v1bOWdue80xH3pFAJcC6: {
+    canReply: true,
+    id: 'v1bOWdue80xH3pFAJcC6',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     body:
       '<div><p><span>My steeltjie is geknak</span></p><p><span>My blommetjie groei skeef</span></p><p><span>Tog sal ek enigiets doen</span></p><p><span>Om deur jou gepluk te wees</span></p></div>',
@@ -20925,17 +20949,9 @@ const p = {
     richText: true,
     handle: '',
     name: 'Verlep',
-    canReply: true,
-    id: 'v1bOWdue80xH3pFAJcC6',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   v4PQjsxPccRMOQDpIapc: {
-    mongo_id: '5b7d799e851c1b001473dcc6',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'EvertEsterhuizen',
     name: 'In stilte ',
     body: "Die vrou se gekla is 'n kombers wat net-net te kort is. ",
@@ -20944,12 +20960,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'v4PQjsxPccRMOQDpIapc',
     bookmarkedCount: 0,
+    mongo_id: '5b7d799e851c1b001473dcc6',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   v9mQrgfaCsQg2NuZyhaU: {
-    date: 1566079055,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'v9mQrgfaCsQg2NuZyhaU',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -20958,6 +20974,9 @@ const p = {
     body:
       'Ek het vandag....\n\n...my toonnaels geknip en die dikste groottoon knipsel in my mond gesteek en probeer stukkend byt. \n\nHulle is nogal hárd. ',
     reported: false,
+    date: 1566079055,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'v9mQrgfaCsQg2NuZyhaU',
     __collections__: {}
   },
   vAk3OxJ7NfFSdgGIyzE6: {
@@ -20975,8 +20994,6 @@ const p = {
     __collections__: {}
   },
   vBSBjJ1rvgkq8yv7yzZH: {
-    adminNotes: 'None',
-    handle: '',
     name: 'Die Tietel',
     body:
       'Vergewe my.\nDis ons dis lig,\nDit wurg my tot besluit,\nEk wil soms uit,\nIets anders\nIets mooier as die wit van wag,\nIets groter as ons,\nEks belaglik oor jou.',
@@ -20987,12 +21004,11 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5b521decbbf8af0014a1d403',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   vEIfF5OzhRrj7dDOZ1Wa: {
-    nsfw: false,
-    adminNotes: 'None',
-    handle: 'francoislct',
     name: ' ',
     body:
       'Eksistensie maak nie sense nie\nEn dit help nie om te wens nie\nJy word nooit mens nie',
@@ -21001,9 +21017,18 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'vEIfF5OzhRrj7dDOZ1Wa',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: 'francoislct',
     __collections__: {}
   },
   vGwt9Bt2hvShDmxvZCiM: {
+    canReply: true,
+    id: 'vGwt9Bt2hvShDmxvZCiM',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Hou jou oë op my in die donker</span></p><p><span>Ek sal weerlig word\nEk is glow in the dark\n\nOp jou vensterbank is daar lakens\nVan middagslaapchiffon\nAs ek opkyk is die satyn \nVan die hemel jou plafon\n\nOns het die wereld gedraai\nWe made it in the second try</span></p></div>',
@@ -21014,20 +21039,9 @@ const p = {
     richText: true,
     handle: 'almero_welgemoed',
     name: '2x',
-    canReply: true,
-    id: 'vGwt9Bt2hvShDmxvZCiM',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   vK9D2WsHOS2iRVIB5TdD: {
-    id: 'vK9D2WsHOS2iRVIB5TdD',
-    bookmarkedCount: 0,
-    mongo_id: '5bc9cfdfacf8e3001461cd57',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'augustazietsman',
     name: 'Sentiment',
     body:
@@ -21035,12 +21049,14 @@ const p = {
     reported: false,
     date: 1539952608,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'vK9D2WsHOS2iRVIB5TdD',
+    bookmarkedCount: 0,
+    mongo_id: '5bc9cfdfacf8e3001461cd57',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   vKJ7vdBkbqpwwHv95czk: {
-    mongo_id: '5ba02b3b35f71f0014860e5b',
-    nsfw: false,
-    adminNotes: 'None',
     handle: 'Evertesterhuizen',
     name: 'Kom laat ons sing',
     body:
@@ -21050,6 +21066,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'vKJ7vdBkbqpwwHv95czk',
     bookmarkedCount: 0,
+    mongo_id: '5ba02b3b35f71f0014860e5b',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   vMCMaerNKCVWNjnQe4LX: {
@@ -21068,6 +21087,9 @@ const p = {
     __collections__: {}
   },
   vMywR36HzO3L0PkMbf2g: {
+    date: 1554573940,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'vMywR36HzO3L0PkMbf2g',
     bookmarkedCount: 0,
     mongo_id: '5ca8ea742dc0e10015838af7',
     nsfw: false,
@@ -21076,12 +21098,10 @@ const p = {
     name: 'Nounou',
     body: 'Doen beter',
     reported: false,
-    date: 1554573940,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'vMywR36HzO3L0PkMbf2g',
     __collections__: {}
   },
   vSitfrkX4gmlH7b1zfVj: {
+    adminNotes: 'None',
     handle: 'handyandy.art',
     name: 'Inside Joke',
     body:
@@ -21093,15 +21113,9 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c3ed127724b4100156af65b',
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   vTV7PfbIoYawaGs09MbT: {
-    id: 'vTV7PfbIoYawaGs09MbT',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     body:
       "<div><p><span>Wat as sy Desember 2020 al weg is? </span></p><p><span>Bevryding of die ultimate verlies? Die onsterflike gemeenskap-Ma. </span></p><p><span></span></p><p><span>I guess ons moet iewers groet, maar die kille gevoel in my binnevertrek is verbased. </span></p><p><span></span></p><p><span>Koelerig, met 'n groot kans vir onverwagse stortreën. </span></p></div>",
     reported: false,
@@ -21113,9 +21127,18 @@ const p = {
     handle: '',
     name: 'Ek is Was. Ge-Was. ',
     canReply: true,
+    id: 'vTV7PfbIoYawaGs09MbT',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   vTYygUdPy5AvhWyKC6ti: {
+    canReply: true,
+    id: 'vTYygUdPy5AvhWyKC6ti',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -21128,15 +21151,9 @@ const p = {
     richText: true,
     handle: 'happinessattwo',
     name: 'Mars/Venus vs Aarde',
-    canReply: true,
-    id: 'vTYygUdPy5AvhWyKC6ti',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   vUXGoAoEZP1LPd15rMB4: {
-    bookmarkedCount: 2,
-    nsfw: false,
     adminNotes: 'None',
     handle: 'toastcards',
     name: 'windkrag',
@@ -21146,9 +21163,12 @@ const p = {
     date: 1562655850,
     uid: '5iH5XfPmMiPSw3IDyRL7KAjORRK2',
     id: 'vUXGoAoEZP1LPd15rMB4',
+    bookmarkedCount: 2,
+    nsfw: false,
     __collections__: {}
   },
   vV0Gf5kMtBZuhLXQHcgU: {
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -21159,10 +21179,11 @@ const p = {
     date: 1559867307,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'vV0Gf5kMtBZuhLXQHcgU',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   vW57Ji8jPTj7qZjxOAtO: {
+    bookmarkedCount: 0,
+    mongo_id: '5c22823daa4f160014a44c14',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -21173,11 +21194,15 @@ const p = {
     date: 1545765438,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'vW57Ji8jPTj7qZjxOAtO',
-    bookmarkedCount: 0,
-    mongo_id: '5c22823daa4f160014a44c14',
     __collections__: {}
   },
   vcbp7UbjcWH9GgU6X7Wt: {
+    body:
+      '<div><p><span>Ek kyk waar ek geluk beleef het</span></p><p><span>Die wind het deur my hare gewaai</span></p><p><span>Ekt soveel kere gekyk na son onder gang</span></p><p><span></span></p><p><span>Vas genaal aan tafelberg</span></p><p><span>n berg wat lyk soos n tafel</span></p><p><span>Mensdom wil net van bo kyk</span></p><p><span>noord oos wes best</span></p><p><span></span></p><p><span>Die prag van die see rondom</span></p><p><span>Besef God het als gemaak</span></p><p><span>Nie net vir my maar vir jou ook</span></p><p><span></span></p><p><span>Die son gaan onder maar n nuwe dag kom weer aan</span></p><p><span>Vir my en jou</span></p><p><span>Blessings kom na my en jou.</span></p><p><span></span></p><p><span>Die reën val vir my en jou</span></p><p><span>Lekkerste van als is loop soos \'n kind kaalvoet in die reën. </span></p><p><span>Want ons mag</span></p><p><span></span></p><p><span>Mag van bo wat lewe gee en lewe vat</span></p><p><span>Wanneer dit jou tyd is</span></p><p><span>om te gaan en in die hemel ruim te wees.</span></p><p><span></span></p><p><span>Tot die einde van die lewe kom</span></p><p><span>Met God se genade.</span></p><h3><span style="font-weight: bold;"></span></h3><p><span></span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1574279702,
+    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     activeTema: null,
     richText: true,
     handle: '',
@@ -21188,19 +21213,9 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    body:
-      '<div><p><span>Ek kyk waar ek geluk beleef het</span></p><p><span>Die wind het deur my hare gewaai</span></p><p><span>Ekt soveel kere gekyk na son onder gang</span></p><p><span></span></p><p><span>Vas genaal aan tafelberg</span></p><p><span>n berg wat lyk soos n tafel</span></p><p><span>Mensdom wil net van bo kyk</span></p><p><span>noord oos wes best</span></p><p><span></span></p><p><span>Die prag van die see rondom</span></p><p><span>Besef God het als gemaak</span></p><p><span>Nie net vir my maar vir jou ook</span></p><p><span></span></p><p><span>Die son gaan onder maar n nuwe dag kom weer aan</span></p><p><span>Vir my en jou</span></p><p><span>Blessings kom na my en jou.</span></p><p><span></span></p><p><span>Die reën val vir my en jou</span></p><p><span>Lekkerste van als is loop soos \'n kind kaalvoet in die reën. </span></p><p><span>Want ons mag</span></p><p><span></span></p><p><span>Mag van bo wat lewe gee en lewe vat</span></p><p><span>Wanneer dit jou tyd is</span></p><p><span>om te gaan en in die hemel ruim te wees.</span></p><p><span></span></p><p><span>Tot die einde van die lewe kom</span></p><p><span>Met God se genade.</span></p><h3><span style="font-weight: bold;"></span></h3><p><span></span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1574279702,
-    uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
     __collections__: {}
   },
   vfNlm4tqhbtvJA8n5B7u: {
-    richText: true,
-    handle: 'evertesterhuizen',
-    name: 'skoon',
-    canReply: true,
     id: 'vfNlm4tqhbtvJA8n5B7u',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -21212,9 +21227,15 @@ const p = {
     repliedTo: null,
     date: 1567534144,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
+    richText: true,
+    handle: 'evertesterhuizen',
+    name: 'skoon',
+    canReply: true,
     __collections__: {}
   },
   vgjLQAlOST6rnY72OTSr: {
+    id: 'vgjLQAlOST6rnY72OTSr',
+    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -21225,11 +21246,12 @@ const p = {
     reported: false,
     date: 1564241517,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    id: 'vgjLQAlOST6rnY72OTSr',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   vkoD1YRzPAi8IhBGugin: {
+    bookmarkedCount: 1,
+    mongo_id: '5cc76cfa3217300015511cb9',
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: '28',
@@ -21238,9 +21260,6 @@ const p = {
     date: 1556573435,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'vkoD1YRzPAi8IhBGugin',
-    bookmarkedCount: 1,
-    mongo_id: '5cc76cfa3217300015511cb9',
-    nsfw: false,
     __collections__: {}
   },
   vlKhXARqjL4ri8f9HXmI: {
@@ -21259,14 +21278,6 @@ const p = {
     __collections__: {}
   },
   vpfCPLNrckzFNdYUwFXF: {
-    reported: false,
-    body:
-      '<div><p><span>Ek  sou kerk toe gaan</span><span>, maar sonde vat al my tyd op.</span></p></div>',
-    repliedTo: null,
-    date: 1581420690,
-    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    activeTema: 'God | god',
-    richText: true,
     handle: '',
     name: 'bid',
     canReply: true,
@@ -21275,16 +21286,17 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Ek  sou kerk toe gaan</span><span>, maar sonde vat al my tyd op.</span></p></div>',
+    repliedTo: null,
+    date: 1581420690,
+    uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
+    activeTema: 'God | god',
+    richText: true,
     __collections__: {}
   },
   vzC6PVVKbnThhSY6TqH8: {
-    adminNotes: 'None',
-    body:
-      '<div><p><span></span></p><p><span>So wit. </span></p><p><span>So wit hier. </span></p><p><span></span></p><p><span>Gee net aan my sonbril + entitlement. </span></p></div>',
-    reported: false,
-    repliedTo: null,
-    date: 1578939971,
-    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -21294,10 +21306,16 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    body:
+      '<div><p><span></span></p><p><span>So wit. </span></p><p><span>So wit hier. </span></p><p><span></span></p><p><span>Gee net aan my sonbril + entitlement. </span></p></div>',
+    reported: false,
+    repliedTo: null,
+    date: 1578939971,
+    uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     __collections__: {}
   },
   vzQfr9phFLz1WjvqaxP3: {
-    activeTema: null,
     richText: true,
     handle: '',
     name: 'Bly kalm en tel tot tien.',
@@ -21313,17 +21331,10 @@ const p = {
     repliedTo: null,
     date: 1581927189,
     uid: 'lT5iLW7iB8RIuu130EIeHZNnWhm1',
+    activeTema: null,
     __collections__: {}
   },
   w2X69skeaizQCf59tYJk: {
-    activeTema: null,
-    richText: true,
-    handle: 'mabethc',
-    name: 'SONA 2020',
-    canReply: true,
-    id: 'w2X69skeaizQCf59tYJk',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -21332,9 +21343,20 @@ const p = {
     repliedTo: null,
     date: 1581630952,
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
+    activeTema: null,
+    richText: true,
+    handle: 'mabethc',
+    name: 'SONA 2020',
+    canReply: true,
+    id: 'w2X69skeaizQCf59tYJk',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   w2XZO6c9SHbh5Ahw9XxJ: {
+    date: 1537641202,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'w2XZO6c9SHbh5Ahw9XxJ',
     bookmarkedCount: 0,
     mongo_id: '5ba68af1fbbabe0014b0e6ae',
     nsfw: false,
@@ -21344,14 +21366,9 @@ const p = {
     body:
       'Net vir ons\nDie kerk klap\nEn ek skinder\nTiete en lieg\nSkool, ek en ons\nEk wens soms\nGod is n poes soos ek...\n',
     reported: false,
-    date: 1537641202,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'w2XZO6c9SHbh5Ahw9XxJ',
     __collections__: {}
   },
   w4yY6ChdYgrWhGFyahZl: {
-    adminNotes: 'None',
-    handle: '',
     name: 'Slaapstad',
     body:
       'Dalk wil hulle eerder vreemdelinge se distortions sien as om na hulself in die spieël te kyk? ',
@@ -21361,9 +21378,12 @@ const p = {
     id: 'w4yY6ChdYgrWhGFyahZl',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   w8KZM4X66lww796iFjy7: {
+    bookmarkedCount: 1,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -21375,10 +21395,12 @@ const p = {
     date: 1566148399,
     uid: 'qLngRCUaq8NmuJJXAQTNxZOKgVz2',
     id: 'w8KZM4X66lww796iFjy7',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   wPIld4ODy2V8d6TNhU26: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     name: 'Dis',
     body: 'Jy se partykeer\nVir my is dit heeltyd\nEk mis jou heeltyd\n',
     reported: false,
@@ -21386,14 +21408,9 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'wPIld4ODy2V8d6TNhU26',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   wPirxFeRKe2oT1V7Kfpu: {
-    richText: true,
-    handle: '',
     name: 'fok tyd',
     canReply: true,
     id: 'wPirxFeRKe2oT1V7Kfpu',
@@ -21407,12 +21424,11 @@ const p = {
     repliedTo: null,
     date: 1580042775,
     uid: 'IOfXPDjZuZgVrXIjbdrum2db4J13',
+    richText: true,
+    handle: '',
     __collections__: {}
   },
   wPqGuBJK3uSNPhcuLH5x: {
-    activeTema: null,
-    richText: true,
-    handle: '',
     name: 'Alis Propriis Volat',
     canReply: true,
     id: 'wPqGuBJK3uSNPhcuLH5x',
@@ -21426,16 +21442,12 @@ const p = {
     repliedTo: null,
     date: 1573112321,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: null,
+    richText: true,
+    handle: '',
     __collections__: {}
   },
   wU1JLSvlz3khTYrAWppk: {
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>Ek wil my teen jou bors hou</span></p><p><span>Met jou ken op my kop</span></p><p><span>My gedagtes teen jou </span></p><p><span>Laat </span><span>d</span><span>oodloop </span></p><p><span>En stop</span></p><p><span>.</span></p><p><span>Dan</span></p><p><span>Wakker word</span></p><p><span>My slaap inruil</span></p><p><span>Vir iets meer permanent</span></p><p><span>Dalk sterf in jou arms met jou</span></p><p><span>Trane wat op my kroontjie drip</span></p></div>',
-    repliedTo: null,
-    date: 1571471486,
-    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     activeTema: null,
     richText: true,
     handle: 'almero_welgemoed',
@@ -21445,6 +21457,13 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Ek wil my teen jou bors hou</span></p><p><span>Met jou ken op my kop</span></p><p><span>My gedagtes teen jou </span></p><p><span>Laat </span><span>d</span><span>oodloop </span></p><p><span>En stop</span></p><p><span>.</span></p><p><span>Dan</span></p><p><span>Wakker word</span></p><p><span>My slaap inruil</span></p><p><span>Vir iets meer permanent</span></p><p><span>Dalk sterf in jou arms met jou</span></p><p><span>Trane wat op my kroontjie drip</span></p></div>',
+    repliedTo: null,
+    date: 1571471486,
+    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     __collections__: {}
   },
   wW72ujjN6hfwBfLVTMt6: {
@@ -21467,6 +21486,7 @@ const p = {
     __collections__: {}
   },
   wbowP6XCgLo0P9nYwsUw: {
+    id: 'wbowP6XCgLo0P9nYwsUw',
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
@@ -21478,13 +21498,9 @@ const p = {
     reported: false,
     date: 1563094019,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    id: 'wbowP6XCgLo0P9nYwsUw',
     __collections__: {}
   },
   wjXa0Zcmuihk8JQ0BtmT: {
-    date: 1541259460,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'wjXa0Zcmuihk8JQ0BtmT',
     bookmarkedCount: 0,
     mongo_id: '5bddc0c46a34d7001434b106',
     nsfw: false,
@@ -21494,9 +21510,17 @@ const p = {
     body:
       "Jy ken die game:\n\npraat oor mekaar se eksistensiële (tel dit as krisis as dit die norm is?) en braai wors en drink te veel bier; Vogues en erken woordeloos hoe maklik dit is om oor te gee aan die oomblik. \n|oortuiging|\n\n'n rewolwer ver, 'n ski rope naby aan 'n stukkende nek en terminale verlossing van ons bourgeois probleme. \n|xanax|\n\nen gisteraand was lekker. goeie game gehad. sonder 'n wenner. goeie game. Vrydag weer. \n|skrynwerker| ",
     reported: false,
+    date: 1541259460,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'wjXa0Zcmuihk8JQ0BtmT',
     __collections__: {}
   },
   wwGWWq01giqKmOAoYRCs: {
+    id: 'wwGWWq01giqKmOAoYRCs',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     body:
       '<div><p><span>Vergeet-my-</span></p><p><span></span></p><p><span>Terwyl ek dit nie regkry om jou te vergeet-</span></p><p><span></span></p><p><span>Nie </span></p></div>',
     reported: false,
@@ -21508,17 +21532,9 @@ const p = {
     handle: '',
     name: 'Asseblief',
     canReply: true,
-    id: 'wwGWWq01giqKmOAoYRCs',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   wzLrd7PVxxiLnYPXLC2m: {
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     handle: '_darnit_',
     name: 'Dinner',
     body:
@@ -21527,15 +21543,12 @@ const p = {
     date: 1562328689,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'wzLrd7PVxxiLnYPXLC2m',
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   x01Llcsp68jtOEdwNfzv: {
-    canReply: true,
-    id: 'x01Llcsp68jtOEdwNfzv',
-    repliedToName: null,
-    bookmarkedCount: 1,
-    nsfw: true,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>\n</span><span>Toe</span><span> </span><span>ek</span><span> </span><span>sien</span><span>, </span></p><p><span>dat jy my sien,</span></p><p><span>toe hervorm my brande siel</span></p><p><span>tot n onbekende, nuwe, verniel: </span></p><p><span></span></p><p><span>Ek dog eks oor jou</span></p><p><span>maar dit blyk </span></p><p><span>ek soek tog</span></p><p><span>nou nog</span></p><p><span>...soms, </span></p><p><span>mal genoeg</span></p><p><span>na jou </span></p></div>',
@@ -21546,14 +21559,15 @@ const p = {
     richText: true,
     handle: '',
     name: 'Ex-lovers en hoe dit voel... ',
+    canReply: true,
+    id: 'x01Llcsp68jtOEdwNfzv',
+    repliedToName: null,
+    bookmarkedCount: 1,
+    nsfw: true,
+    adminNotes: 'None',
     __collections__: {}
   },
   x0Q1KAtq9AogP1G61QVB: {
-    handle: 'toastcards',
-    name: 'Bosveld ',
-    canReply: true,
-    id: 'x0Q1KAtq9AogP1G61QVB',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -21565,6 +21579,11 @@ const p = {
     uid: '5iH5XfPmMiPSw3IDyRL7KAjORRK2',
     activeTema: null,
     richText: true,
+    handle: 'toastcards',
+    name: 'Bosveld ',
+    canReply: true,
+    id: 'x0Q1KAtq9AogP1G61QVB',
+    repliedToName: null,
     __collections__: {}
   },
   x30PZvkeegmCqplk7uGH: {
@@ -21586,6 +21605,8 @@ const p = {
     __collections__: {}
   },
   x5psuR16J3K8HU4jEMx9: {
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Jou laaste dag',
     body:
@@ -21595,11 +21616,12 @@ const p = {
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
     id: 'x5psuR16J3K8HU4jEMx9',
     bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   x75xhVqS43djdpIAi1N8: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     body: '<div><p><span></span></p></div>',
     reported: false,
     repliedTo: 'up7zTWGgJttMm5KW1fbI',
@@ -21612,12 +21634,10 @@ const p = {
     canReply: true,
     id: 'x75xhVqS43djdpIAi1N8',
     repliedToName: 'Ou',
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   xBudgCwcnjsXCJSeR1lR: {
+    mongo_id: '5c6c3aba365a6100153c305c',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -21628,10 +21648,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'xBudgCwcnjsXCJSeR1lR',
     bookmarkedCount: 0,
-    mongo_id: '5c6c3aba365a6100153c305c',
     __collections__: {}
   },
   xC8lF7o9uFoArUvWepid: {
+    name: '🐥',
+    body: 'We are animals with ill fitting underwear ',
+    reported: false,
     date: 1550694045,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'xC8lF7o9uFoArUvWepid',
@@ -21640,12 +21662,12 @@ const p = {
     nsfw: false,
     adminNotes: 'None',
     handle: '',
-    name: '🐥',
-    body: 'We are animals with ill fitting underwear ',
-    reported: false,
     __collections__: {}
   },
   xCqmWSA4bcptSGhpv7ar: {
+    repliedTo: 'AA2CI5zuIaE9jWbpvZVK',
+    date: 1568666755,
+    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     richText: true,
     handle: 'almero_welgemoed',
     name: 'By gesê',
@@ -21658,17 +21680,9 @@ const p = {
     reported: false,
     body:
       '<div><p><span>My woorde gaan opraak</span></p><p><span>Wegraak</span></p><p><span>Uithardloop</span><span>;</span></p><p><span></span></p><p><span>daar is sóveel afstand</span></p></div>',
-    repliedTo: 'AA2CI5zuIaE9jWbpvZVK',
-    date: 1568666755,
-    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     __collections__: {}
   },
   xFSEH8VeL9ogrUrb5av5: {
-    id: 'xFSEH8VeL9ogrUrb5av5',
-    bookmarkedCount: 0,
-    mongo_id: '5c50964ba4185a0015fb044a',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '13.lynette',
     name: 'End',
     body:
@@ -21676,11 +21690,14 @@ const p = {
     reported: false,
     date: 1548785227,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'xFSEH8VeL9ogrUrb5av5',
+    bookmarkedCount: 0,
+    mongo_id: '5c50964ba4185a0015fb044a',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   xGn7tCxbUf64EC0W3qIt: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Trumpet-Tree',
     body: 'Wie kak in n kuier plek?',
@@ -21689,9 +21706,12 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'xGn7tCxbUf64EC0W3qIt',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   xKeDBZA4f3MZGhggsrgR: {
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name:
@@ -21703,7 +21723,6 @@ const p = {
     uid: '8govqTsKkVZZbWmT1gqDKUWg0zs1',
     id: 'xKeDBZA4f3MZGhggsrgR',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   xNeSOjIf2VgQOUxKNiqy: {
@@ -21720,8 +21739,6 @@ const p = {
     __collections__: {}
   },
   xSLk3DhFcX1twxZvlYMu: {
-    adminNotes: 'None',
-    handle: '',
     name: 'Ek',
     body: 'Ekke',
     reported: false,
@@ -21731,13 +21748,11 @@ const p = {
     bookmarkedCount: 0,
     mongo_id: '5c1f359569ba4000143e48db',
     nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   xU0YtSqUHeEMDCrA6Sol: {
-    date: 1558629713,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'xU0YtSqUHeEMDCrA6Sol',
-    bookmarkedCount: 0,
     mongo_id: '5ce6cd504d708e0015748932',
     nsfw: false,
     adminNotes: 'None',
@@ -21746,9 +21761,16 @@ const p = {
     body:
       'dalk moet ek net my mond oop maak, dalk moet ek  net praat, maar ek weet net nie wat nie. \ndalk wanner ek daai trui dra, dalk wanneer jy weer daar staan, dalk oor waar jy vandaan kom, dalk wat jy studeer, dalk doen ek die net aan myself.',
     reported: false,
+    date: 1558629713,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'xU0YtSqUHeEMDCrA6Sol',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   xUADFI4OhaiRoZxRyDEi: {
+    mongo_id: '5c8c0522e2f1230015904c52',
+    nsfw: false,
+    adminNotes: 'None',
     handle: 'taniacoetsee',
     name: 'Ek het altyd geweet...',
     body:
@@ -21758,12 +21780,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'xUADFI4OhaiRoZxRyDEi',
     bookmarkedCount: 0,
-    mongo_id: '5c8c0522e2f1230015904c52',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   xUGlgDv7l8j4PAl3todg: {
+    id: 'xUGlgDv7l8j4PAl3todg',
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -21772,11 +21793,14 @@ const p = {
     reported: false,
     date: 1562768871,
     uid: 'UNLhNF4DW2ctYFtjZG3yTogQ3aN2',
-    id: 'xUGlgDv7l8j4PAl3todg',
-    bookmarkedCount: 1,
     __collections__: {}
   },
   xWAsCWUjvGWggTAX48aG: {
+    handle: '',
+    name: 'Breakup 3',
+    body:
+      "3 weke is apparently hoe lank dit vat om 'n gewoonte te breek\nSelfs die gewoonte aan 'n mens\nJóú mens\n\nHoekom is ek na 3 weke dan nog meer verlore?\nHoop dat daar 'n manier is om om te draai?\nAl het jy eksplisiet gesê ons kan nie. \n\nDis gewoon té absurd om te dink hierdie word gereduseer tot niks\nDat twee mense wat so sterk oor mekaar voel nie saam kan wees nie\nEk wens elke dag dat ons weer saam kan wees\n\nHipotetiese scenarios van 'n rescue hond\nEn activities beplan wat jy begrudgingly doen\nEn 'n toekoms van ons speel in my kop rond",
+    reported: false,
     date: 1549566893,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'xWAsCWUjvGWggTAX48aG',
@@ -21784,26 +21808,21 @@ const p = {
     mongo_id: '5c5c83ac605449001566c5f3',
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
-    name: 'Breakup 3',
-    body:
-      "3 weke is apparently hoe lank dit vat om 'n gewoonte te breek\nSelfs die gewoonte aan 'n mens\nJóú mens\n\nHoekom is ek na 3 weke dan nog meer verlore?\nHoop dat daar 'n manier is om om te draai?\nAl het jy eksplisiet gesê ons kan nie. \n\nDis gewoon té absurd om te dink hierdie word gereduseer tot niks\nDat twee mense wat so sterk oor mekaar voel nie saam kan wees nie\nEk wens elke dag dat ons weer saam kan wees\n\nHipotetiese scenarios van 'n rescue hond\nEn activities beplan wat jy begrudgingly doen\nEn 'n toekoms van ons speel in my kop rond",
-    reported: false,
     __collections__: {}
   },
   xWI8OMCGjXZZGrVB5EEV: {
-    name: 'Goeie Vrydag',
-    body:
-      "Ons het vanaand met 'n tafelgebed, pasta met spek en parmasan en góéie rooiwyn begin. \n\nSpeakeasy. \n",
-    reported: false,
-    date: 1555632708,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'xWI8OMCGjXZZGrVB5EEV',
     bookmarkedCount: 0,
     mongo_id: '5cb912448385fb0015665532',
     nsfw: false,
     adminNotes: 'None',
     handle: 'DitIsVolbring',
+    name: 'Goeie Vrydag',
+    body:
+      "Ons het vanaand met 'n tafelgebed, pasta met spek en parmasan en góéie rooiwyn begin. \n\nSpeakeasy. \n",
+    reported: false,
+    date: 1555632708,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     __collections__: {}
   },
   xWZTsRgpkdG3OPZgWFFn: {
@@ -21821,7 +21840,6 @@ const p = {
     __collections__: {}
   },
   xYGXdpYAc6C76xbgk0p9: {
-    adminNotes: 'None',
     handle: '',
     name: 'Mississippi ',
     body:
@@ -21832,11 +21850,10 @@ const p = {
     id: 'xYGXdpYAc6C76xbgk0p9',
     bookmarkedCount: 0,
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   xcx3rU4IdYR5s8P5X5QQ: {
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Bier',
     body: 'Nog',
@@ -21845,6 +21862,8 @@ const p = {
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
     id: 'xcx3rU4IdYR5s8P5X5QQ',
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   xdTtv7vzsgOjNcYX2ByV: {
@@ -21882,11 +21901,6 @@ const p = {
     __collections__: {}
   },
   xeo4ng49RlpYguWyV6qC: {
-    handle: '',
-    name: 'P(r)oeseltjie',
-    reported: false,
-    body:
-      '<div><p><span></span><span>bevry jou lyf </span></p><p><span>geen penis </span></p><p><span>niks is styf </span></p><p><span></span></p><p><span>ek wil jou wys </span></p><p><span>wat jy mis </span></p><p><span>wat gee jy prys </span></p><p><span></span></p><p><span>wys my wat jy doen </span></p><p><span>wat jy wil hê </span></p><p><span>waar ek jou moet soen</span></p><p><span></span></p><p><span>die fokus jou plesier</span></p><p><span>leer ken jou liggaam </span></p><p><span>ontbloot jou binnedier </span></p><p><span></span></p><p><span>in kort:</span></p><p><span></span></p><p><span>laat my toe</span></p><p><span>om jou te proe...</span></p><p><span></span></p><p><span>\n~ @nnieniem ~</span></p></div>',
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     date: 1564504486,
     id: 'xeo4ng49RlpYguWyV6qC',
@@ -21894,13 +21908,14 @@ const p = {
     nsfw: false,
     richText: true,
     adminNotes: 'None',
+    handle: '',
+    name: 'P(r)oeseltjie',
+    reported: false,
+    body:
+      '<div><p><span></span><span>bevry jou lyf </span></p><p><span>geen penis </span></p><p><span>niks is styf </span></p><p><span></span></p><p><span>ek wil jou wys </span></p><p><span>wat jy mis </span></p><p><span>wat gee jy prys </span></p><p><span></span></p><p><span>wys my wat jy doen </span></p><p><span>wat jy wil hê </span></p><p><span>waar ek jou moet soen</span></p><p><span></span></p><p><span>die fokus jou plesier</span></p><p><span>leer ken jou liggaam </span></p><p><span>ontbloot jou binnedier </span></p><p><span></span></p><p><span>in kort:</span></p><p><span></span></p><p><span>laat my toe</span></p><p><span>om jou te proe...</span></p><p><span></span></p><p><span>\n~ @nnieniem ~</span></p></div>',
     __collections__: {}
   },
   xjkprFJn13iX7ERZe640: {
-    canReply: true,
-    id: 'xjkprFJn13iX7ERZe640',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     reported: false,
@@ -21913,30 +21928,28 @@ const p = {
     richText: true,
     handle: '',
     name: 'Wat de ',
+    canReply: true,
+    id: 'xjkprFJn13iX7ERZe640',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   xkqPkrf51lVC6hPfQltX: {
-    id: 'xkqPkrf51lVC6hPfQltX',
-    bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
-    handle: 'Ogreeff',
     name: 'Spekvet',
     body:
       '<div><p><span>In ’n koue land</span></p><p><span>in ’n ander halfrond</span></p><p><span>sien ’n bebrilde man met ouderdomsvlekke op sy hande</span></p><p><span>die foto van die eens dikke man</span></p><p><span>op Facebook. </span></p><p><span></span></p><p><span>Die ou dikke het baie gewig verloor,</span></p><p><span>dink die bebrilde man.</span></p><p><span>Maar hy is spekvet van al die geluk.</span></p><p><span></span></p><p><span></span></p></div>',
     reported: false,
     date: 1564758663,
     uid: 'd9AXwOYed5hkxEG3INcGXxfp0w63',
+    id: 'xkqPkrf51lVC6hPfQltX',
+    bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
+    handle: 'Ogreeff',
     __collections__: {}
   },
   xmxg1N29MEqEjAUanKqd: {
-    canReply: true,
-    id: 'xmxg1N29MEqEjAUanKqd',
-    repliedToName: null,
-    bookmarkedCount: 0,
-    nsfw: false,
-    adminNotes: 'None',
     reported: false,
     body:
       '<div><p><span>Iets het begin losgetrek. Stringe daarvan. Vinnig en luidrugtig oop. </span></p><p><span></span></p><p><span>Soos ek dit probeer red, raak die afstand al groter tussen die twee. Die skeur groei nóg vinniger!</span></p><p><span></span></p><p><span>Ek het die twee goed weer probeer vasplak. Spoeg, water? Chemiese byvoegings? Naaldwerk?!</span></p><p><span></span></p><p><span>Tot gisteraand. Tot ek besef het: ek droom al lankal van \'n rok. Die mooiste fluweel blomprint rok. Sonder restrictive parameters van nou mag jy piepie, nou mag jy nie. Sonder om gesê te word hoe laat die pret móét begin en klaarmaak. Die broek-lewe was té ongerieflik. </span></p><p><span></span></p><p><span>Van vandag af dra ek \'n rok. Dalk nog nie fluweel nie. Maar fuck it, dis blomprint en </span><span style="font-weight: bold;">mens kan asemhaal op jou </span><span style="font-weight: bold;font-style: italic;">eie</span><span style="font-weight: bold;"> terme!</span><span> </span></p></div>',
@@ -21946,14 +21959,15 @@ const p = {
     richText: true,
     handle: '',
     name: 'Ek was blind. ',
+    canReply: true,
+    id: 'xmxg1N29MEqEjAUanKqd',
+    repliedToName: null,
+    bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   xnCbIwmMgtX3xI77gYtp: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Dank kom jul toe',
-    canReply: true,
     id: 'xnCbIwmMgtX3xI77gYtp',
     repliedToName: null,
     bookmarkedCount: 0,
@@ -21965,11 +21979,14 @@ const p = {
     repliedTo: null,
     date: 1571256724,
     uid: 'sUyFBvyEOpR346GcNVobHxJrTjB3',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Dank kom jul toe',
+    canReply: true,
     __collections__: {}
   },
   xqgaO1hnNzkzZwCR6RBO: {
-    date: 1562328713,
-    uid: 'GjLkfagUHtMFcLb4b785tmh7xye2',
     id: 'xqgaO1hnNzkzZwCR6RBO',
     bookmarkedCount: 0,
     nsfw: false,
@@ -21979,13 +21996,11 @@ const p = {
     body:
       'Kan ons n aand saam spandeer?\nKan ek vir jou al my geheime vertel? \nKan ek jou vashou en lief he? \nVir een aand? \nMore kan ons weer aangaan soos die gebroke siele wat ons is.',
     reported: false,
+    date: 1562328713,
+    uid: 'GjLkfagUHtMFcLb4b785tmh7xye2',
     __collections__: {}
   },
   xtKLjv0nsnJmhtJsl2Wu: {
-    bookmarkedCount: 0,
-    mongo_id: '5b7ea07077cb930014b0cffc',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'after the rain',
     body:
@@ -21994,9 +22009,17 @@ const p = {
     date: 1535025264,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'xtKLjv0nsnJmhtJsl2Wu',
+    bookmarkedCount: 0,
+    mongo_id: '5b7ea07077cb930014b0cffc',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   xurjkVK6Qfvs2z0Mohtz: {
+    adminNotes: 'None',
+    body:
+      '<div><p><span style="font-style: italic;">met Die Bybel as oorsprong</span></p><p><span></span></p><p><span></span><span>God is seker \'n man </span></p><p><span>want hy moes (wou?) \neersgebore babas \nalmal, selfs diere, \nvermoor \nom te wys \ndat Hy sterk is\nsterker as die farao\n\nook \'n man \n\n</span><span style="font-style: italic;">Eksodoos 11:5</span></p></div>',
+    reported: true,
     repliedTo: null,
     date: 1570380291,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
@@ -22009,27 +22032,24 @@ const p = {
     repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
-    adminNotes: 'None',
-    body:
-      '<div><p><span style="font-style: italic;">met Die Bybel as oorsprong</span></p><p><span></span></p><p><span></span><span>God is seker \'n man </span></p><p><span>want hy moes (wou?) \neersgebore babas \nalmal, selfs diere, \nvermoor \nom te wys \ndat Hy sterk is\nsterker as die farao\n\nook \'n man \n\n</span><span style="font-style: italic;">Eksodoos 11:5</span></p></div>',
-    reported: true,
     __collections__: {}
   },
   xvGoLRc77rrzBGEGVKR1: {
-    id: 'xvGoLRc77rrzBGEGVKR1',
-    bookmarkedCount: 0,
-    mongo_id: '5bff94d8e148190014b2ff05',
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Onthou I',
     body: 'Los lippe sterf op die klippe',
     reported: false,
     date: 1543476441,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'xvGoLRc77rrzBGEGVKR1',
+    bookmarkedCount: 0,
+    mongo_id: '5bff94d8e148190014b2ff05',
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   y3kckGbBU4B5YAOAAv6C: {
+    nsfw: false,
     adminNotes: 'None',
     handle: 'marietsteinmann ',
     name: 'n laaste totsiens vir A ',
@@ -22040,12 +22060,9 @@ const p = {
     uid: 'CU0wbFgu2PbLt03VD2f5XPaHFgz2',
     id: 'y3kckGbBU4B5YAOAAv6C',
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   y6nTVAJqVvMWsl9jUkwz: {
-    mongo_id: '5c5606af2d694f0015a97056',
-    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Wat wil jy van my hê?',
@@ -22055,11 +22072,11 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'y6nTVAJqVvMWsl9jUkwz',
     bookmarkedCount: 0,
+    mongo_id: '5c5606af2d694f0015a97056',
+    nsfw: false,
     __collections__: {}
   },
   y7MKCiCZpUhZeFUyL3YO: {
-    body: '<div><p><span>Ek laat myself in 2019 agter</span></p></div>',
-    reported: false,
     repliedTo: 'WtQfb5legMiAu1mHh59C',
     date: 1577827198,
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
@@ -22073,11 +22090,11 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    body: '<div><p><span>Ek laat myself in 2019 agter</span></p></div>',
+    reported: false,
     __collections__: {}
   },
   y9FoHUI2tOaQ5V8pE3mR: {
-    bookmarkedCount: 0,
-    mongo_id: '5cafa8f9a6177e00157fdb0c',
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -22087,14 +22104,11 @@ const p = {
     date: 1555015930,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'y9FoHUI2tOaQ5V8pE3mR',
+    bookmarkedCount: 0,
+    mongo_id: '5cafa8f9a6177e00157fdb0c',
     __collections__: {}
   },
   yDYzRNSFtx9DuX6njLeU: {
-    body: '<div><p><span>Dis baie mooi</span></p></div>',
-    reported: false,
-    repliedTo: 'tX0IoylTSf76ut4PzWIa',
-    date: 1576336662,
-    uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
     activeTema: null,
     richText: true,
     handle: '',
@@ -22105,16 +22119,14 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    body: '<div><p><span>Dis baie mooi</span></p></div>',
+    reported: false,
+    repliedTo: 'tX0IoylTSf76ut4PzWIa',
+    date: 1576336662,
+    uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
     __collections__: {}
   },
   yEGenNvZKsGCAUQFB6q5: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: '1 November 2016',
-    canReply: true,
-    id: 'yEGenNvZKsGCAUQFB6q5',
-    repliedToName: '3 jaar later',
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -22124,17 +22136,16 @@ const p = {
     repliedTo: 'PPuhtKImZoWeQVsK8EPX',
     date: 1570288784,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: '1 November 2016',
+    canReply: true,
+    id: 'yEGenNvZKsGCAUQFB6q5',
+    repliedToName: '3 jaar later',
     __collections__: {}
   },
   yEhCOsxxhyBtpJ2LWQTU: {
-    nsfw: false,
-    adminNotes: 'None',
-    reported: false,
-    body:
-      '<div><p><span>In n twee slaap kamer woonstel in Kaapstad.</span></p><p><span>Bly n onmerkwaardige man.</span></p><p><span>Vir jare staar hy na n skerm.</span></p><p><span>Wat sy siel deur sy oê steël.</span></p><p><span>In twee ure se verkeer.</span></p><p><span>Sit n onmerkwaardige man.</span></p><p><span>Maak hy sal planne vir die toekoms.</span></p><p><span>N oprenks en n rentekoers wat sy lewe kan bevorder.</span></p><p><span>En toe kom die Dokter.</span></p><p><span>N nog n operasie die keer n bietjie minder tong en n bietjie meer kies.</span></p><p><span>"Twee dood, drie gewond in kantoor selfmoord": Lees die koerant opskrif.</span></p><p><span>Wie kon dit verwag van so stil,</span></p><p><span>Onmerkwaardig man?</span></p></div>',
-    repliedTo: null,
-    date: 1581340478,
-    uid: 'lT5iLW7iB8RIuu130EIeHZNnWhm1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -22143,6 +22154,14 @@ const p = {
     id: 'yEhCOsxxhyBtpJ2LWQTU',
     repliedToName: null,
     bookmarkedCount: 0,
+    nsfw: false,
+    adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>In n twee slaap kamer woonstel in Kaapstad.</span></p><p><span>Bly n onmerkwaardige man.</span></p><p><span>Vir jare staar hy na n skerm.</span></p><p><span>Wat sy siel deur sy oê steël.</span></p><p><span>In twee ure se verkeer.</span></p><p><span>Sit n onmerkwaardige man.</span></p><p><span>Maak hy sal planne vir die toekoms.</span></p><p><span>N oprenks en n rentekoers wat sy lewe kan bevorder.</span></p><p><span>En toe kom die Dokter.</span></p><p><span>N nog n operasie die keer n bietjie minder tong en n bietjie meer kies.</span></p><p><span>"Twee dood, drie gewond in kantoor selfmoord": Lees die koerant opskrif.</span></p><p><span>Wie kon dit verwag van so stil,</span></p><p><span>Onmerkwaardig man?</span></p></div>',
+    repliedTo: null,
+    date: 1581340478,
+    uid: 'lT5iLW7iB8RIuu130EIeHZNnWhm1',
     __collections__: {}
   },
   yG8g87sXkgrNQSLC2uJz: {
@@ -22160,8 +22179,6 @@ const p = {
     __collections__: {}
   },
   yJ55hWsSnmVfJipMkli1: {
-    id: 'yJ55hWsSnmVfJipMkli1',
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: 'aud6362',
@@ -22171,23 +22188,28 @@ const p = {
     reported: false,
     date: 1561242571,
     uid: 'w3yCcBmlE6aaZMGYn3udtJK7P7u1',
+    id: 'yJ55hWsSnmVfJipMkli1',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   yLdYffsp4qCfmF3jNawe: {
+    date: 1564253199,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'yLdYffsp4qCfmF3jNawe',
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'Kassiere',
     body:
       "Wanneer laas het jy iemand- 'n kind- ontmoet en instinktief geweet: jy, meisiekind, jý gaan eendag by die munisipaliteit werk. ",
     reported: false,
-    date: 1564253199,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'yLdYffsp4qCfmF3jNawe',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   yPMch1ag66ypCYfW1hLU: {
+    handle: '',
+    name: 'Posbus 11624',
+    canReply: true,
     id: 'yPMch1ag66ypCYfW1hLU',
     repliedToName: '10111',
     bookmarkedCount: 0,
@@ -22201,12 +22223,10 @@ const p = {
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     activeTema: null,
     richText: true,
-    handle: '',
-    name: 'Posbus 11624',
-    canReply: true,
     __collections__: {}
   },
   yRUb9ZQTUoacdmPkQSA0: {
+    nsfw: false,
     adminNotes: 'None',
     reported: false,
     body:
@@ -22222,7 +22242,6 @@ const p = {
     id: 'yRUb9ZQTUoacdmPkQSA0',
     repliedToName: null,
     bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   yRgHybIP0Qe3lQ2BzWVT: {
@@ -22240,6 +22259,8 @@ const p = {
     __collections__: {}
   },
   yU1S4vTDFp02zQWWN7Uu: {
+    bookmarkedCount: 0,
+    nsfw: false,
     adminNotes: 'None',
     handle: '',
     name: 'klostrofobie',
@@ -22249,11 +22270,13 @@ const p = {
     date: 1559420001,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'yU1S4vTDFp02zQWWN7Uu',
-    bookmarkedCount: 0,
-    nsfw: false,
     __collections__: {}
   },
   yaexH2ozod0dw5BqXxre: {
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '☆',
     name: 'Morgue toe',
     body:
       "Ehhh... yho. I don't know no more. \n\nAll these fucking things, man. Hai. \n\nThey eat up your brain from the inside. Like a rotten piece of meat. Those little white goggos man, they eat, eat, eat. \n\nAnd what is left? Only the bones left. And then you die. \n\nYou must watch out for this thing, (gently tapping the temples) \nOnce the little white goggos get inside... it's over.",
@@ -22261,16 +22284,9 @@ const p = {
     date: 1566345993,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'yaexH2ozod0dw5BqXxre',
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '☆',
     __collections__: {}
   },
   ycRdqdBJglAPoi4Soacj: {
-    bookmarkedCount: 1,
-    nsfw: false,
-    adminNotes: 'None',
     handle: '',
     name: 'Checkout',
     reported: false,
@@ -22279,11 +22295,12 @@ const p = {
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     date: 1572910656,
     id: 'ycRdqdBJglAPoi4Soacj',
+    bookmarkedCount: 1,
+    nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   yj5Og1uMcZi5QApmZuyS: {
-    date: 1565905434,
-    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'yj5Og1uMcZi5QApmZuyS',
     bookmarkedCount: 1,
     nsfw: false,
@@ -22294,9 +22311,13 @@ const p = {
     body:
       '<div><p><span>Onder die man wat koerant lees langs sy hond op die parkie bank</span></p><p><span>Sit jy met jou dis-nie-so-erg-nie\nBed 32\nMiddag-om langs al laerskool kinners en hul maats, oorkant, geskei van die malles met tralies soos honde by die DBV\nEn die songevlekte geel linoleum vloere by jou kamerdeur, herinner my aan kots en braak en die pis van iemand wat detox</span></p></div>',
     reported: false,
+    date: 1565905434,
+    uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     __collections__: {}
   },
   yliUAfcf6s7opH5sSyqn: {
+    adminNotes: 'None',
+    handle: '',
     name: 'KONTtoere',
     reported: false,
     body:
@@ -22307,11 +22328,10 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     richText: true,
-    adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   ynFsJV607nnhN6VPdiW4: {
+    adminNotes: 'None',
     handle: '',
     name: 'vry(dag) ',
     body:
@@ -22323,25 +22343,31 @@ const p = {
     bookmarkedCount: 2,
     mongo_id: '5ccd9a972f998a0015075a69',
     nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   yo1DZqgKAKTONkb966J4: {
-    adminNotes: 'None',
-    handle: 'ena_stegmann',
-    name: 'Ideologie',
-    body:
-      'Ek is so erg gebrainwash met idees \noor hoe die lewe moet wees.\nSoveel so dat ek dit wéét, \nmaar steeds nie die idees wil vergeet.',
-    reported: false,
     date: 1548887169,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'yo1DZqgKAKTONkb966J4',
     bookmarkedCount: 0,
     mongo_id: '5c5224818550a40015e45aa7',
     nsfw: false,
+    adminNotes: 'None',
+    handle: 'ena_stegmann',
+    name: 'Ideologie',
+    body:
+      'Ek is so erg gebrainwash met idees \noor hoe die lewe moet wees.\nSoveel so dat ek dit wéét, \nmaar steeds nie die idees wil vergeet.',
+    reported: false,
     __collections__: {}
   },
   yqULy5cx4az5h1CnbD64: {
+    richText: true,
+    handle: '',
+    name: 'Jy is Bob en ek is Joan ',
+    canReply: true,
+    id: 'yqULy5cx4az5h1CnbD64',
+    repliedToName: null,
+    bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -22351,16 +22377,13 @@ const p = {
     date: 1583067736,
     uid: 'Cm28zsjRBVTsYtdHIhwJi9WhE8U2',
     activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Jy is Bob en ek is Joan ',
-    canReply: true,
-    id: 'yqULy5cx4az5h1CnbD64',
-    repliedToName: null,
-    bookmarkedCount: 1,
     __collections__: {}
   },
   yrpA8Y2Gx5hJ3Pl84qak: {
+    bookmarkedCount: 0,
+    mongo_id: '5b976b16e88fae001420160f',
+    nsfw: false,
+    adminNotes: 'None',
     handle: '',
     name: 'Jou Ma',
     body: 'Groet\nPraat\nGroet\nSkinder',
@@ -22368,16 +22391,9 @@ const p = {
     date: 1536650006,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'yrpA8Y2Gx5hJ3Pl84qak',
-    bookmarkedCount: 0,
-    mongo_id: '5b976b16e88fae001420160f',
-    nsfw: false,
-    adminNotes: 'None',
     __collections__: {}
   },
   yschTZZf9tPF9tLXZorR: {
-    date: 1567361562,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'yschTZZf9tPF9tLXZorR',
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
@@ -22386,9 +22402,15 @@ const p = {
     body:
       "Dit klink asof jy wil baklei\nEk dink ons is eintlik albei in dieselfde posisie\nAlleen op 'n Vrydagaand. Alleen op 'n Sondagaand\nEk is jammer iemand het jou hart seergemaak\nEk hoop jy kan hul stem uit jou kop kry; memories laat gaan.\nDis kak moeilik en ek tik die na 'n bottel rooiwyn\nLiefde is net seer",
     reported: false,
+    date: 1567361562,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'yschTZZf9tPF9tLXZorR',
     __collections__: {}
   },
   ytOsdCzJyVel2UvMtiGd: {
+    date: 1547827756,
+    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
+    id: 'ytOsdCzJyVel2UvMtiGd',
     bookmarkedCount: 0,
     mongo_id: '5c41fa2b0afcb100152273de',
     nsfw: false,
@@ -22398,15 +22420,9 @@ const p = {
     body:
       'Ons is gemaak vir die nag\nDie ek en die jy\nNaguile wat nek omdraai na\nOntelbare gloeilampe wat val\nDeur die swart laken wat ritmies dans op die maat van die wind\nEn ons beskut',
     reported: false,
-    date: 1547827756,
-    uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
-    id: 'ytOsdCzJyVel2UvMtiGd',
     __collections__: {}
   },
   z1H88rsEXvIjr32u5iZr: {
-    bookmarkedCount: 1,
-    mongo_id: '5cd1e5955f6f4b0015672638',
-    nsfw: false,
     adminNotes: 'None',
     handle: 'ahwelgemoed',
     name: 'Leuens en Ledemate',
@@ -22416,15 +22432,12 @@ const p = {
     date: 1557259669,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'z1H88rsEXvIjr32u5iZr',
+    bookmarkedCount: 1,
+    mongo_id: '5cd1e5955f6f4b0015672638',
+    nsfw: false,
     __collections__: {}
   },
   z4jtPceVCo6VWJ6zESFf: {
-    reported: false,
-    body:
-      "<div><p><span>Eskom fok weer rond vanaand </span></p><p><span>die donderse generator</span></p><p><span>dreun soos 'n ou man</span></p><p><span>wat hoop op 'n jong ereksie</span></p><p><span></span></p><p><span>'n pastoor het homself gehang</span></p><p><span>laat twee kinders en sy vrou agter</span></p><p><span>\"dit was die Here se wil\" </span></p><p><span>só sal die dorp en die gemeente sê </span></p><p><span></span></p><p><span>maar hy was diep in die skuld </span></p><p><span>diep in ontkenning</span></p><p><span>oor sy aangetrokkenheid </span></p><p><span>tot dieselfde geslag </span></p><p><span></span></p><p><span>nóg 'n kraglose gekasde is die donker in</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
-    repliedTo: null,
-    date: 1578420951,
-    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: null,
     richText: true,
     handle: '',
@@ -22435,6 +22448,12 @@ const p = {
     bookmarkedCount: 1,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      "<div><p><span>Eskom fok weer rond vanaand </span></p><p><span>die donderse generator</span></p><p><span>dreun soos 'n ou man</span></p><p><span>wat hoop op 'n jong ereksie</span></p><p><span></span></p><p><span>'n pastoor het homself gehang</span></p><p><span>laat twee kinders en sy vrou agter</span></p><p><span>\"dit was die Here se wil\" </span></p><p><span>só sal die dorp en die gemeente sê </span></p><p><span></span></p><p><span>maar hy was diep in die skuld </span></p><p><span>diep in ontkenning</span></p><p><span>oor sy aangetrokkenheid </span></p><p><span>tot dieselfde geslag </span></p><p><span></span></p><p><span>nóg 'n kraglose gekasde is die donker in</span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p><p><span></span></p></div>",
+    repliedTo: null,
+    date: 1578420951,
+    uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     __collections__: {}
   },
   z5GbBRkDI7rQwkxipvc1: {
@@ -22453,6 +22472,8 @@ const p = {
     __collections__: {}
   },
   z5PTkejLGiemxFZj4C58: {
+    id: 'z5PTkejLGiemxFZj4C58',
+    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -22462,11 +22483,12 @@ const p = {
     reported: false,
     date: 1566720437,
     uid: 'EqQj9YXt5iaqxPgDqS8uLFJhbfJ3',
-    id: 'z5PTkejLGiemxFZj4C58',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   z8LOyKSyzH01iPpCTGva: {
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '👤',
     name: '👉🏻👌🏽',
     body: 'grootste probleem in die lewe\n\n',
     reported: false,
@@ -22475,13 +22497,9 @@ const p = {
     id: 'z8LOyKSyzH01iPpCTGva',
     bookmarkedCount: 0,
     mongo_id: '5bc91029acf8e3001461cd56',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '👤',
     __collections__: {}
   },
   zClUQw198mZsBipANncH: {
-    bookmarkedCount: 0,
     nsfw: false,
     richText: true,
     adminNotes: 'None',
@@ -22493,16 +22511,10 @@ const p = {
     date: 1562967272,
     uid: 'e5esvLaUztXcUIzR4d8fTzkcRSl2',
     id: 'zClUQw198mZsBipANncH',
+    bookmarkedCount: 0,
     __collections__: {}
   },
   zDQwG1umbXB80u6EBAtI: {
-    reported: false,
-    body:
-      '<div><p><span>Ek soek \'n Adel-Wian-Fynskrif tipe liefde.</span></p><p><span>Stoom</span></p><p><span>Ys</span></p><p><span>"jy\'t jou ring vergeet"</span></p></div>',
-    repliedTo: null,
-    date: 1576694088,
-    uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
-    activeTema: 'Deel jou geheim',
     richText: true,
     handle: '',
     name: 'Kyk net',
@@ -22512,9 +22524,17 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
+    reported: false,
+    body:
+      '<div><p><span>Ek soek \'n Adel-Wian-Fynskrif tipe liefde.</span></p><p><span>Stoom</span></p><p><span>Ys</span></p><p><span>"jy\'t jou ring vergeet"</span></p></div>',
+    repliedTo: null,
+    date: 1576694088,
+    uid: 'w27EDuDMTPXHJbiy1tU49dJF1tY2',
+    activeTema: 'Deel jou geheim',
     __collections__: {}
   },
   zLomXKqSxAU878YfIPAb: {
+    handle: '',
     name: 'Irritasie',
     body:
       '\nNiks wil net werk \nSoos dit kán nie\nJy irriteer my ook\nEk wil ontsnap \nEn bietjie net wees\nIn die kamer \nIn my kop\n',
@@ -22525,10 +22545,11 @@ const p = {
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
-    handle: '',
     __collections__: {}
   },
   zNvSSd947VSuUU52Rapn: {
+    bookmarkedCount: 0,
+    mongo_id: '5b7184819fcb400014316490',
     nsfw: false,
     adminNotes: 'None',
     handle: 'neonvanlierop',
@@ -22538,11 +22559,16 @@ const p = {
     date: 1534166146,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'zNvSSd947VSuUU52Rapn',
-    bookmarkedCount: 0,
-    mongo_id: '5b7184819fcb400014316490',
     __collections__: {}
   },
   zO7ep1KwrAyMQpaMdMCg: {
+    richText: true,
+    handle: '',
+    name: 'dekmantel liefde',
+    canReply: true,
+    id: 'zO7ep1KwrAyMQpaMdMCg',
+    repliedToName: null,
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -22552,24 +22578,9 @@ const p = {
     date: 1574620063,
     uid: 'U9XklKIAxAVTVRf3jsdyrcOSnVu1',
     activeTema: 'Deel jou geheim',
-    richText: true,
-    handle: '',
-    name: 'dekmantel liefde',
-    canReply: true,
-    id: 'zO7ep1KwrAyMQpaMdMCg',
-    repliedToName: null,
-    bookmarkedCount: 0,
     __collections__: {}
   },
   zOCVZwKvzFGSDlTWL0O0: {
-    activeTema: null,
-    richText: true,
-    handle: '',
-    name: 'Depressie',
-    canReply: true,
-    id: 'zOCVZwKvzFGSDlTWL0O0',
-    repliedToName: null,
-    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     body:
@@ -22578,6 +22589,14 @@ const p = {
     repliedTo: null,
     date: 1576662639,
     uid: 'OcM89QV28XcuKp0VhbdHS8WpMtX2',
+    activeTema: null,
+    richText: true,
+    handle: '',
+    name: 'Depressie',
+    canReply: true,
+    id: 'zOCVZwKvzFGSDlTWL0O0',
+    repliedToName: null,
+    bookmarkedCount: 0,
     __collections__: {}
   },
   zQl1bNuA9Gou8qCYZThF: {
@@ -22611,6 +22630,8 @@ const p = {
     __collections__: {}
   },
   zWW8mz4e2MQAQV9VUPDJ: {
+    id: 'zWW8mz4e2MQAQV9VUPDJ',
+    bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
     handle: '',
@@ -22619,11 +22640,10 @@ const p = {
     reported: false,
     date: 1561349594,
     uid: 'i0F30foawMffLqh9VGGrLz7GLNz1',
-    id: 'zWW8mz4e2MQAQV9VUPDJ',
-    bookmarkedCount: 0,
     __collections__: {}
   },
   zWjG8iEkzPo0erQVps8P: {
+    handle: 'arnojvvuuren',
     name: 'man make fire',
     body:
       'Bewapen met hout, blitz en lighter marsjeer jy op die maat van kurt darren gereed om materie te manipuleer tot vuur, terwyl jy lekker stront praat\n\nOor die skeinat daaragter is jy bietjie vaag maar jy vermoed dit het iets te doen met jou ballas of jou baard\n',
@@ -22635,11 +22655,9 @@ const p = {
     mongo_id: '5c5beffe605449001566c5f2',
     nsfw: false,
     adminNotes: 'None',
-    handle: 'arnojvvuuren',
     __collections__: {}
   },
   zXx4bbZal7ONkTBg4ZMc: {
-    adminNotes: 'None',
     handle: '',
     name: 'Tob',
     body:
@@ -22651,14 +22669,10 @@ const p = {
     bookmarkedCount: 1,
     mongo_id: '5ccf111c0903ec00150904dc',
     nsfw: false,
+    adminNotes: 'None',
     __collections__: {}
   },
   zYTEoe38lAsBKkamt0j1: {
-    handle: 'mabethc',
-    name: 'Vir LG',
-    canReply: true,
-    id: 'zYTEoe38lAsBKkamt0j1',
-    repliedToName: null,
     bookmarkedCount: 0,
     nsfw: false,
     adminNotes: 'None',
@@ -22670,20 +22684,25 @@ const p = {
     uid: '5pcTlNxNSsNx1ekSvaXqSIm6zCX2',
     activeTema: null,
     richText: true,
+    handle: 'mabethc',
+    name: 'Vir LG',
+    canReply: true,
+    id: 'zYTEoe38lAsBKkamt0j1',
+    repliedToName: null,
     __collections__: {}
   },
   zZcNRIRQtTZn72ajwTdf: {
-    bookmarkedCount: 0,
-    mongo_id: '5c97945896138b0015b8add8',
-    nsfw: false,
-    adminNotes: 'None',
-    handle: '',
     name: 'Kwaad vir myself',
     body: 'Doen meer.\nRaak kwaad.\nDoen minder.\nRaak nogsteeds kwaad.',
     reported: false,
     date: 1553437785,
     uid: 'ENZSfsocoZg9BwyTT796FOq2D503',
     id: 'zZcNRIRQtTZn72ajwTdf',
+    bookmarkedCount: 0,
+    mongo_id: '5c97945896138b0015b8add8',
+    nsfw: false,
+    adminNotes: 'None',
+    handle: '',
     __collections__: {}
   },
   zak00FAGu5HJBfGfBLP8: {
@@ -22701,6 +22720,10 @@ const p = {
     __collections__: {}
   },
   zjYDJwawr66g6B4cInDt: {
+    bookmarkedCount: 0,
+    nsfw: false,
+    richText: true,
+    adminNotes: 'None',
     handle: '',
     name: 'Bom',
     body:
@@ -22709,12 +22732,7 @@ const p = {
     date: 1564868623,
     uid: '5KpBVUQmrUZ2YaRNsYvTN9NcH7u1',
     id: 'zjYDJwawr66g6B4cInDt',
-    bookmarkedCount: 0,
-    nsfw: false,
-    richText: true,
-    adminNotes: 'None',
     __collections__: {}
   }
 };
-
 module.exports = p;

@@ -6,20 +6,20 @@
     "sdkVersion": "36.0.0",
     "platforms": ["ios", "android", "web"],
     "scheme": "dnj",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/DNJICON.png",
     "splash": {
       "image": "./assets/images/splash-03.png",
       "resizeMode": "contain",
-      "backgroundColor": "rgba(0,0,0,0.8)"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
-      "versionCode": 28,
+      "versionCode": 29,
       "package": "com.disnetons.googlesignin",
       "googleServicesFile": "./google-services.json"
     },
