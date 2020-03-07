@@ -51,7 +51,7 @@ const Header = ({ scene, previous, navigation, props }) => {
           previous ? (
             title
           ) : (
-            <Text style={{ fontFamily: 'raleway-extraBold', fontSize: 26 }}>
+            <Text style={{ fontFamily: 'raleway-boldI', fontSize: 26 }}>
               DNJ
             </Text>
           )

@@ -11,7 +11,6 @@ const TitleAndBody = observer(() => {
   const [title, setTitle] = useState('');
   const [body, setBody] = useState('');
   useEffect(() => {
-    // console.log('🔥🔥💂🏽‍♂️');
     if (poemsStore.poemTitle) {
       setTitle(poemsStore.poemTitle);
     }

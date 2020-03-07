@@ -19,7 +19,11 @@ const AppSnackBar = observer(() => {
   return (
     <View>
       <Snackbar
-        style={{ position: 'absolute', bottom: 100 }}
+        style={{
+          position: 'absolute',
+          bottom: 100,
+          backgroundColor: '#457397'
+        }}
         visible={showSnackBar}
         onDismiss={() => setshowSnackBar(false)}
         action={{

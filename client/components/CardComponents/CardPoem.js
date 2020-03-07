@@ -22,11 +22,11 @@ import { useMediaQuery } from 'react-responsive';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { liveEndPoint } from '../../helpers';
-const { width, height } = Dimensions.get('window');
 import { useNavigation } from '@react-navigation/native';
 import { useHover, useFocus, useActive } from 'react-native-web-hooks';
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+const { width, height } = Dimensions.get('window');
 // ReenieBeanie
 const CardPoem = observer(
   ({ poem, navigation = null, turnOffViewWitdht, view }) => {
@@ -36,13 +36,12 @@ const CardPoem = observer(
     const isDesktopOrLaptop = useMediaQuery({
       query: '(min-device-width: 1224px)'
     });
-    // console.log(poem.date);
-    // <View style={{ maxWidth: isDesktopOrLaptop ? 500 : '100%' }}>
-    // console.log(poem);
-    const whereToNavigate = () => {
-      if (view === 'ONE') {
-        console.log('ONE');
 
+    const whereToNavigate = () => {
+      if (poem.isOld) {
+        return;
+      }
+      if (view === 'ONE') {
         return (
           navigation &&
           navigation.push('APoem', {
@@ -52,7 +51,6 @@ const CardPoem = observer(
         );
       }
       if (view === 'POST') {
-        console.log('POST');
         poemsStore.fromDraftToEdit({ poem });
         return navigation && navigation.navigate({ name: 'PostPoem' });
       }
@@ -74,7 +72,7 @@ const CardPoem = observer(
               marginTop: 10,
               marginBottom: 10,
               borderRadius: 20,
-              shadowColor: '#000',
+              shadowColor: 'rgba(0,0,0,0.8)',
               shadowOffset: {
                 width: 0,
                 height: 3
@@ -84,7 +82,7 @@ const CardPoem = observer(
               elevation: 7
             },
             isHovered && {
-              shadowColor: '#000',
+              shadowColor: 'rgba(0,0,0,0.8)',
               shadowOffset: {
                 width: 0,
                 height: 5

@@ -112,7 +112,7 @@ const theme = {
   roundness: 2,
   colors: {
     ...DefaultTheme.colors,
-    primary: '#000',
+    primary: 'rgba(0,0,0,0.8)',
     accent: '#457397'
   }
 };

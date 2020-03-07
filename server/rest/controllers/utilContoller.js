@@ -17,6 +17,7 @@ const uploader = async (req, res, next) => {
       title: e.name,
       bodyText: e.body.replace(regex, ''),
       isDraft: false,
+      isDraft: true,
       photoURL: null,
       date: moment.unix(e.date).format(),
       handle: e.handle,
@@ -48,18 +49,20 @@ const scrape = async (req, res, next) => {
 };
 const getAllImages = async (req, res, next) => {
   const directoryPath = path.join(__dirname, '../../public/img');
-  console.log(directoryPath);
+
   let x = [];
   const c = fs.readdir(directoryPath, (err, files) => {
     x = [...files];
   });
-  console.log(x);
-
   fs.readdir(directoryPath, (err, files) => {
     if (err) {
       throw new Error(500, err);
     }
-    return res.json(files);
+    return res.json(
+      files.sort(function() {
+        return 0.5 - Math.random();
+      })
+    );
   });
 };
 

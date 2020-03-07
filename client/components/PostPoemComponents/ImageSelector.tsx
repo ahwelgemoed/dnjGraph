@@ -36,7 +36,6 @@ const ImageSelector = observer(({ onClose }) => {
       }
     }
   }, [selectedImage]);
-  // console.log(poemsStore.poemImage);
   return (
     <ScrollView
       showsHorizontalScrollIndicator={false}

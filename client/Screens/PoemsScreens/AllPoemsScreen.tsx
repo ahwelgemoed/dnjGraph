@@ -9,6 +9,7 @@ import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
 import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
 import CardPoem from '../../components/CardComponents/CardPoem';
 import '@expo/match-media';
+import LinksTopAppStore from '../../components/UtilComponents/LinksTopAppStore';
 import { Header } from 'react-native/Libraries/NewAppScreen';
 const { width, height } = Dimensions.get('window');
 const PoemsScreen = observer(({ navigation }) => {
@@ -31,11 +32,7 @@ const PoemsScreen = observer(({ navigation }) => {
   useEffect(() => {
     poemsStore.reFetchPoem && refetch();
   }, [poemsStore.reFetchPoem]);
-  // useEffect(() => {
-  //   refetch();
-  // }, [error]);
   const _handleLoadMore = () => {
-    console.log('🔥 : _handleLoadMore was Called');
     if (data.poems) {
       fetchMore({
         variables: {
@@ -64,20 +61,23 @@ const PoemsScreen = observer(({ navigation }) => {
   return (
     <View style={[styles.mainLayout]}>
       {Platform.OS === 'web' && (
-        // <Portal>
-        <FAB
-          onPress={() => navigation.navigate({ name: 'PostPoem' })}
-          icon="feather"
-          style={{
-            position: 'absolute',
-            bottom: 100,
-            right: 50
-          }}
-        />
-        // </Portal>
+        <>
+          <LinksTopAppStore />
+          <FAB
+            onPress={() => navigation.navigate({ name: 'PostPoem' })}
+            icon="feather"
+            style={{
+              position: 'absolute',
+              bottom: 100,
+              right: 50
+            }}
+          />
+        </>
       )}
       {data && data.poems ? (
         <FlatList
+          maxToRenderPerBatch={1}
+          initialNumToRender={2}
           // ListHeaderComponent={headerCard}
           onRefresh={() => refetch()}
           refreshing={loading}

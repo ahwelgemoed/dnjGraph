@@ -49,10 +49,10 @@ export class AuthStateStore {
         this.firebaseUser = {
           user
         };
-        this.showAuthSnack = {
-          funcCalled: 'isUserAuthed',
-          messageToUser: 'isUserAuthed is Called'
-        };
+        // this.showAuthSnack = {
+        //   funcCalled: 'isUserAuthed',
+        //   messageToUser: 'isUserAuthed is Called'
+        // };
       }
 
       if (!user) {

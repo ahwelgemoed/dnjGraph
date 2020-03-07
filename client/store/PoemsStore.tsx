@@ -30,6 +30,7 @@ export class PoemsStore {
           bodyText
           photoURL
           handle
+          isOld
           date
           isDraft
         }
@@ -45,6 +46,7 @@ export class PoemsStore {
         id
         title
         photoURL
+        isOld
         handle
         bodyText
         date

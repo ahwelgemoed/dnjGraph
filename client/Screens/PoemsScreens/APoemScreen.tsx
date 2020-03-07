@@ -78,7 +78,7 @@ const APoemScreen = observer(({ route, navigation }) => {
             // marginTop: 10,
             marginBottom: 10,
             borderRadius: 20,
-            shadowColor: '#000',
+            shadowColor: 'rgba(0,0,0,0.8)',
             shadowOffset: {
               width: 0,
               height: 3

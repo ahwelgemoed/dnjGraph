@@ -68,6 +68,7 @@ const updateAPoem = async ({
       bodyText,
       isDraft,
       photoURL,
+      isOld: false,
       handle,
       date: new Date().toISOString(),
       user: userToken && userToken.uid
@@ -94,6 +95,7 @@ const createNewPoem = async ({
     bodyText,
     isDraft,
     photoURL,
+    isOld: false,
     handle,
     date: new Date().toISOString(),
     user: userToken && userToken.uid

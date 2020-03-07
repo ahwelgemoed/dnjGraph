@@ -7,14 +7,14 @@ import { View, StyleSheet, Image } from 'react-native';
 import {
   Button,
   Surface,
-  Text,
+  Headline,
   TextInput,
   List,
   Subheading,
   RadioButton,
   Checkbox
 } from 'react-native-paper';
-import dnj from '../../assets/images/DNJ.png';
+import dnj from '../../assets/images/DNJB.png';
 const SignUpScreen = observer(({ navigation }) => {
   const [canSubmit, setcanSubmit] = useState(false);
   const { authStore } = React.useContext(RootStoreContext);
@@ -33,6 +33,9 @@ const SignUpScreen = observer(({ navigation }) => {
           user,
           token: user.ma
         });
+      })
+      .catch(error => {
+        return authStore.showSnack({ message: error.message });
       });
   };
   const SingInForm = () => {
@@ -65,6 +68,7 @@ const SignUpScreen = observer(({ navigation }) => {
                 backgroundColor: 'rgba(255,255,255,0.3)'
               }}
               label="Password"
+              secureTextEntry={true}
               value={values.password}
               onChangeText={handleChange('password')}
             />
@@ -80,7 +84,6 @@ const SignUpScreen = observer(({ navigation }) => {
               By Using DNJ you agree to our T&C's
             </Subheading>
             <Button
-              // disabled={!canSubmit}
               style={{
                 marginTop: 20,
                 alignSelf: 'center',
@@ -89,7 +92,7 @@ const SignUpScreen = observer(({ navigation }) => {
               mode="contained"
               onPress={handleSubmit}
             >
-              Sign In
+              Sign Up
             </Button>
           </View>
         )}
@@ -98,16 +101,8 @@ const SignUpScreen = observer(({ navigation }) => {
   };
   return (
     <View style={styles.mainLayout}>
-      {/* <ImageBackground
-        source={{
-          uri:
-            'https://66.media.tumblr.com/51c32156f631013589671a46eea09d0e/tumblr_pmjb1vSPHE1sfie3io1_1280.jpg'
-        }}
-        style={{ width: '100%', height: '100%' }}
-      > */}
       <View style={styles.formLayout}>
         <Image
-          // style={{ alignSelf: 'center', position: 'absolute', top: 100 }}
           style={{
             width: 200,
             height: 150,
@@ -125,6 +120,7 @@ const SignUpScreen = observer(({ navigation }) => {
             borderRadius: 20
           }}
         >
+          <Headline>Sign Up</Headline>
           <SingInForm />
           <Button
             style={{
@@ -138,12 +134,6 @@ const SignUpScreen = observer(({ navigation }) => {
             Back
           </Button>
         </Surface>
-        {/* <Button mode="contained" onPress={() => console.log('g')}>
-        FaceBook
-      </Button>
-      <Button mode="contained" onPress={() => console.log('g')}>
-        Apple
-      </Button> */}
         <Surface
           style={{
             alignSelf: 'center',

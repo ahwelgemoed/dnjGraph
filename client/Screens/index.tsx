@@ -5,6 +5,7 @@ import { UserPoemScreen } from './UtilStackScreens/UserPoemScreens';
 import SignInScreen from './AuthScreens/SignInScreen';
 import SignUpScreen from './AuthScreens/SignUpScreen';
 import TermScreen from './AuthScreens/TermScreen';
+import ResetPassword from './AuthScreens/ResetPassword';
 import UserScreen from './ProfileScreens/UserScreen';
 
 /**
@@ -23,6 +24,7 @@ export {
   UserPoemScreen,
   SignInScreen,
   AllPoemsScreen,
+  ResetPassword,
   APoemScreen,
   CreateAPoem,
   DraftScreens,

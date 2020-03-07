@@ -2,12 +2,13 @@ import React from 'react';
 import { View, StyleSheet, AsyncStorage } from 'react-native';
 import { DrawerItem, DrawerContentScrollView } from '@react-navigation/drawer';
 import { observer } from 'mobx-react-lite';
-
+import { Linking } from 'expo';
 import { RootStoreContext } from '../../store/RootStore';
 import {
   useTheme,
   Avatar,
   Title,
+  Subheading,
   Caption,
   Text,
   Drawer,
@@ -21,8 +22,6 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const DrawerContent = observer(props => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
-  console.log('props.navigation', authStore.isAnonymous);
-
   return (
     <DrawerContentScrollView
       {...props}
@@ -31,7 +30,18 @@ const DrawerContent = observer(props => {
       <View style={styles.drawerContent}>
         <View style={styles.userInfoSection}>
           <Avatar.Image source={dnj} size={70} />
+          <MaterialCommunityIcons
+            onPress={() => {
+              setTimeout(() => {
+                props.navigation.closeDrawer();
+              }, 100);
+            }}
+            style={{ position: 'absolute', right: 20, top: 20 }}
+            name="close"
+            size={20}
+          />
           <Title style={styles.title}>Dis Net Jy</Title>
+          <Subheading style={styles.subtitle}>POST THYSELF</Subheading>
           {authStore.isAnonymous && (
             <Chip
               style={{ width: '90%' }}
@@ -42,23 +52,34 @@ const DrawerContent = observer(props => {
               Browsing Anonymously
             </Chip>
           )}
-
-          {/* <View style={styles.row}>
-            <View style={styles.section}>
-              <Paragraph style={[styles.paragraph, styles.caption]}>
-                202
-              </Paragraph>
-              <Caption style={styles.caption}>Following</Caption>
-            </View>
-            <View style={styles.section}>
-              <Paragraph style={[styles.paragraph, styles.caption]}>
-                159
-              </Paragraph>
-              <Caption style={styles.caption}>Followers</Caption>
-            </View>
-          </View> */}
         </View>
         <Drawer.Section style={styles.drawerSection}>
+          <DrawerItem
+            icon={({ color, size }) => (
+              <MaterialCommunityIcons
+                name="heart-outline"
+                color={color}
+                size={size}
+              />
+            )}
+            label="KLYNTJI"
+            onPress={() => {
+              Linking.openURL('https://klyntji.com/');
+            }}
+          />
+          <DrawerItem
+            icon={({ color, size }) => (
+              <MaterialCommunityIcons
+                name="instagram"
+                color={color}
+                size={size}
+              />
+            )}
+            label="Follow Us"
+            onPress={() => {
+              Linking.openURL('http://instagram.com/disnetjy');
+            }}
+          />
           <DrawerItem
             icon={({ color, size }) => (
               <MaterialCommunityIcons
@@ -201,6 +222,11 @@ const styles = StyleSheet.create({
     marginTop: 20,
     fontFamily: 'raleway-boldI',
     fontWeight: 'bold'
+  },
+  subtitle: {
+    fontSize: 12,
+    fontFamily: 'raleway-bold'
+    // fontWeight: 'bold'
   },
   caption: {
     fontSize: 14,
