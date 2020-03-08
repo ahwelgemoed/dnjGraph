@@ -58,6 +58,16 @@ const TitleAndBody = observer(() => {
           style={{ height: 250, fontFamily: 'raleway-regular' }}
           onChangeText={text => setBody(text)}
         />
+        <Text
+          style={{
+            textAlign: 'right',
+            fontSize: 12,
+            paddingTop: 5,
+            color: 'rgba(0, 0, 0, 0.54)'
+          }}
+        >
+          Use Markdown for Styling (Like Whatsapp)
+        </Text>
       </View>
     </View>
     // </KeyboardAwareScrollView>

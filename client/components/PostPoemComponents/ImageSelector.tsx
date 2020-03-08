@@ -55,13 +55,13 @@ const ImageSelector = observer(({ onClose }) => {
                 >
                   <ImageBackground
                     imageStyle={{
-                      resizeMode: 'cover',
-                      alignSelf: 'flex-end'
+                      width: '100%',
+                      borderRadius: 20
                     }}
                     style={{
-                      width: Dimensions.get('window').width / 2,
-                      height: 200,
-                      margin: 0
+                      marginTop: 10,
+                      width: Dimensions.get('window').width / 1.2,
+                      height: 150
                     }}
                     source={{
                       uri: `${liveEndPoint}/public/img/${image}`
@@ -72,12 +72,12 @@ const ImageSelector = observer(({ onClose }) => {
                         setSelectedImage(image);
                       }}
                       value={image}
-                      size={150}
+                      size={100}
                       style={{
                         opacity: selectedImage === image ? 0.8 : 0.2,
-                        width: Dimensions.get('window').width / 2,
+                        width: Dimensions.get('window').width / 1.2,
                         position: 'absolute',
-                        right: 0
+                        left: 0
                       }}
                       color="white"
                       icon={selectedImage === image ? 'check' : 'check-outline'}
@@ -108,8 +108,8 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     flexDirection: 'row',
     width: Dimensions.get('window').width,
-    flexWrap: 'wrap'
-    // padding: 2
+    flexWrap: 'wrap',
+    padding: 2
   },
 
   photo: {

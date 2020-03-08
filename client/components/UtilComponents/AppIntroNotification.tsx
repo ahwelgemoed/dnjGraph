@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AsyncStorage, View } from 'react-native';
+import { AsyncStorage, View, Dimensions, Platform } from 'react-native';
 import {
   Banner,
   Avatar,
@@ -7,6 +7,7 @@ import {
   Subheading,
   Paragraph
 } from 'react-native-paper';
+const { width, height } = Dimensions.get('window');
 import dnj from '../../assets/images/DNJW.png';
 const AppIntroNotification = () => {
   const [showNotification, setshowNotification] = useState(false);
@@ -23,6 +24,9 @@ const AppIntroNotification = () => {
   useEffect(() => {
     getItem();
   }, []);
+
+  const message = () => <></>;
+
   return (
     <Banner
       visible={showNotification}
@@ -33,32 +37,63 @@ const AppIntroNotification = () => {
         }
       ]}
     >
-      <View>
-        <Headline
-          style={{
-            marginTop: 20,
-            fontFamily: 'raleway-boldI',
-            fontWeight: 'bold'
-          }}
-        >
-          Whats New
-        </Headline>
-        <Subheading style={{ fontSize: 12, fontFamily: 'raleway-bold' }}>
-          🤳🏽Post Images
-        </Subheading>
-        <Paragraph>
-          We have a selection of Stock in Black and White Images from years fon
-          by Provided bt NOS - You can select from to give your poem a
-          "Headline" Image
-        </Paragraph>
-        <Subheading style={{ fontSize: 12, fontFamily: 'raleway-bold' }}>
-          ✍️Drafts
-        </Subheading>
-        <Paragraph>
-          You can now compose Poems and save them for later - You can use this
-          to Post them at a later stage or never 🤷🏽‍♂️
-        </Paragraph>
-      </View>
+      {Platform.OS === 'web' ? (
+        <View>
+          <Headline
+            style={{
+              marginTop: 20,
+              fontFamily: 'raleway-boldI',
+              fontWeight: 'bold'
+            }}
+          >
+            Whats New
+          </Headline>
+          <Subheading style={{ fontSize: 12, fontFamily: 'raleway-bold' }}>
+            🤳🏽Post Images
+          </Subheading>
+          <Paragraph>
+            We have a selection of old black and white images from years ago
+            provided to us by nos.twnsnd.co - You have the choice to select an
+            image or not when you post a poem.
+          </Paragraph>
+          <Subheading style={{ fontSize: 12, fontFamily: 'raleway-bold' }}>
+            ✍️Drafts
+          </Subheading>
+          <Paragraph>
+            You can now compose Poems and save them for later - You can use this
+            to Post them at a later stage or save them for the Zine or Post them
+            never.🤷🏽‍♂️
+          </Paragraph>
+        </View>
+      ) : (
+        <>
+          <Headline
+            style={{
+              marginTop: 20,
+              fontFamily: 'raleway-boldI',
+              fontWeight: 'bold'
+            }}
+          >
+            Whats New
+          </Headline>
+          <Subheading style={{ fontSize: 12, fontFamily: 'raleway-bold' }}>
+            🤳🏽Post Images:
+          </Subheading>
+          <Paragraph>
+            We have a selection of old black and white images from years ago
+            provided to us by nos.twnsnd.co - You have the choice to select an
+            image or not when you post a poem.
+          </Paragraph>
+          <Subheading style={{ fontSize: 12, fontFamily: 'raleway-bold' }}>
+            ✍️Drafts:
+          </Subheading>
+          <Paragraph>
+            You can now compose Poems and save them for later - You can use this
+            to Post them at a later stage or save them for the Zine or Post them
+            never.🤷🏽‍♂️
+          </Paragraph>
+        </>
+      )}
     </Banner>
   );
 };

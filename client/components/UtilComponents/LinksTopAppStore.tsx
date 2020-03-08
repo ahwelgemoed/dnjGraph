@@ -9,8 +9,6 @@ import {
   Surface
 } from 'react-native-paper';
 import { Linking } from 'expo';
-import Appstore1 from '../../assets/images/Appstore1.png';
-import Appstore2 from '../../assets/images/Appstore2.png';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 const { width, height } = Dimensions.get('window');
 const LinksTopAppStore = () => {
@@ -23,7 +21,7 @@ const LinksTopAppStore = () => {
         icon={({ color, size }) => (
           <MaterialCommunityIcons name="instagram" color={color} size={size} />
         )}
-        label={'Follow Us'}
+        label={'FOLLOW US'}
         style={{
           shadowColor: '#fff',
           backgroundColor: '#fff'
@@ -34,7 +32,7 @@ const LinksTopAppStore = () => {
         icon={({ color, size }) => (
           <MaterialCommunityIcons name="play" color={color} size={size} />
         )}
-        label={'Availabile on App Stores'}
+        label={'AVAILABLE on App Stores'}
         style={{
           shadowColor: '#fff',
           backgroundColor: '#fff'

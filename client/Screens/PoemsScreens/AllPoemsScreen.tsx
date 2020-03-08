@@ -10,7 +10,7 @@ import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
 import CardPoem from '../../components/CardComponents/CardPoem';
 import '@expo/match-media';
 import AppIntroNotification from '../../components/UtilComponents/AppIntroNotification';
-const { width, height } = Dimensions.get('window');
+
 const PoemsScreen = observer(({ navigation }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
   const [pagination, setpagination] = React.useState({

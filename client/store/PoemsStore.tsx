@@ -108,6 +108,9 @@ export class PoemsStore {
       this.poemImage = poemImage;
     }
   }
+  @action clearPoemImage() {
+    this.poemImage = '';
+  }
   @action setDraftMode(draftMode) {
     this.draftMode = draftMode;
   }

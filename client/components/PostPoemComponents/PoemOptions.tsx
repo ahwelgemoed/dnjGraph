@@ -12,7 +12,7 @@ const PoemOptions = observer(() => {
   console.log(authStore.loacalUser);
 
   return (
-    <Surface style={{ marginTop: 20 }}>
+    <Surface style={{ marginTop: 40, borderRadius: 20, padding: 10 }}>
       <List.Section>
         <List.Subheader>Options Before Posting</List.Subheader>
         {authStore.loacalUser && authStore.loacalUser.Instagram ? (

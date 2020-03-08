@@ -13,8 +13,10 @@ import {
   Button,
   Headline,
   Subheading,
-  Title
+  Title,
+  Text
 } from 'react-native-paper';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useMediaQuery } from 'react-responsive';
 import TitleAndBody from '../../components/PostPoemComponents/TitleAndBody';
 import ImageSelector from '../../components/PostPoemComponents/ImageSelector';
@@ -78,31 +80,94 @@ const CreateAPoem = observer(({ route, navigation }) => {
           <View style={[styles.container]}>
             {!step ? (
               <>
+                <View style={styles.fullwidth}>
+                  <View
+                    style={{
+                      marginTop: 10,
+                      marginBottom: 10,
+                      flexDirection: 'row',
+                      justifyContent: 'space-between'
+                    }}
+                  >
+                    <Title
+                      style={{
+                        paddingLeft: 10,
+                        fontFamily: 'raleway-extraBold'
+                      }}
+                    >
+                      Compose Poem
+                    </Title>
+                    <MaterialCommunityIcons
+                      onPress={() => {
+                        poemsStore.clearPresistPoem();
+                      }}
+                      name="close"
+                      size={20}
+                    />
+                  </View>
+                </View>
                 <View style={styles.item}>
                   <TitleAndBody />
                   <PoemOptions />
                 </View>
                 <View style={styles.item}>
-                  <Surface style={{ marginLeft: 20 }}>
+                  <Title
+                    style={{ paddingLeft: 10, fontFamily: 'raleway-extraBold' }}
+                  >
+                    Select Cover Image
+                  </Title>
+                  <Surface
+                    style={{ marginTop: 20, borderRadius: 20, padding: 10 }}
+                  >
+                    <ImageSelector />
+                  </Surface>
+                  <Text
+                    style={{
+                      textAlign: 'right',
+                      fontSize: 12,
+                      paddingTop: 5,
+                      color: 'rgba(0, 0, 0, 0.54)'
+                    }}
+                  >
+                    (Scroll for More)
+                  </Text>
+                  <View
+                    style={{
+                      marginTop: 20,
+                      flexDirection: 'row',
+                      justifyContent: 'space-between'
+                    }}
+                  >
+                    <Title
+                      style={{
+                        paddingLeft: 10,
+                        fontFamily: 'raleway-extraBold'
+                      }}
+                    >
+                      Selected Image
+                    </Title>
+                    <MaterialCommunityIcons
+                      onPress={() => {
+                        poemsStore.clearPoemImage();
+                      }}
+                      name="close"
+                      size={20}
+                    />
+                  </View>
+
+                  <Surface style={{ marginTop: 10, borderRadius: 20 }}>
                     {poemsStore.poemImage ? (
                       <ImageBackground
+                        imageStyle={{ borderRadius: 20 }}
                         style={{
-                          height: 200
-                          // paddingTop: 10
+                          height: 200,
+                          borderRadius: 20
                         }}
                         source={{
                           uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`
                         }}
                       />
                     ) : null}
-                  </Surface>
-                  <Title
-                    style={{ paddingLeft: 10, fontFamily: 'raleway-extraBold' }}
-                  >
-                    Select Cover Image
-                  </Title>
-                  <Surface style={{ marginTop: 20 }}>
-                    <ImageSelector />
                   </Surface>
                 </View>
                 <View style={styles.fullwidth}>
@@ -167,10 +232,60 @@ const CreateAPoem = observer(({ route, navigation }) => {
               paddingHorizontal: 16
             }}
           >
+            <View
+              style={{
+                marginTop: 10,
+                marginBottom: 10,
+                flexDirection: 'row',
+                justifyContent: 'space-between'
+              }}
+            >
+              <Title
+                style={{
+                  paddingLeft: 10,
+                  fontFamily: 'raleway-extraBold'
+                }}
+              >
+                Compose Poem
+              </Title>
+              <MaterialCommunityIcons
+                onPress={() => {
+                  poemsStore.clearPresistPoem();
+                }}
+                name="close"
+                size={20}
+              />
+            </View>
             <TitleAndBody />
-            <Surface style={{ marginTop: 20 }}>
+            {poemsStore.poemImage ? (
+              <View
+                style={{
+                  marginTop: 20,
+                  flexDirection: 'row',
+                  justifyContent: 'space-between'
+                }}
+              >
+                <Title
+                  style={{
+                    paddingLeft: 10,
+                    fontFamily: 'raleway-extraBold'
+                  }}
+                >
+                  Selected Image
+                </Title>
+                <MaterialCommunityIcons
+                  onPress={() => {
+                    poemsStore.clearPoemImage();
+                  }}
+                  name="close"
+                  size={20}
+                />
+              </View>
+            ) : null}
+            <Surface style={{ marginTop: 20, borderRadius: 20 }}>
               {poemsStore.poemImage ? (
                 <ImageBackground
+                  imageStyle={{ borderRadius: 20 }}
                   style={{
                     height: 200,
                     paddingTop: 10
@@ -194,7 +309,7 @@ const CreateAPoem = observer(({ route, navigation }) => {
             <Surface
               style={{
                 marginTop: 20,
-                marginBottom: 30
+                marginBottom: 50
               }}
             >
               <Button

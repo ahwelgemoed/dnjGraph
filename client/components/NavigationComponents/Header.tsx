@@ -60,15 +60,9 @@ const Header = ({ scene, previous, navigation, props }) => {
               </Text>
             </TouchableOpacity>
           ) : (
-            <TouchableOpacity
-              onPress={() => {
-                navigation.navigation('Home');
-              }}
-            >
-              <Text style={{ fontFamily: 'raleway-boldI', fontSize: 26 }}>
-                DNJ
-              </Text>
-            </TouchableOpacity>
+            <Text style={{ fontFamily: 'raleway-boldI', fontSize: 26 }}>
+              DNJ
+            </Text>
           )
         }
       />
@@ -77,13 +71,6 @@ const Header = ({ scene, previous, navigation, props }) => {
           <LinksTopAppStore />
         </>
       )}
-      {/* <TouchableOpacity
-        onPress={() => {
-          navigation.navigate('AllPoems');
-        }}
-      >
-        <MaterialCommunityIcons name="menu" size={20} />
-      </TouchableOpacity> */}
     </Appbar.Header>
   );
 };
