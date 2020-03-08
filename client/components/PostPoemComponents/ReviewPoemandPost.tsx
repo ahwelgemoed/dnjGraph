@@ -20,12 +20,12 @@ import IntagramSwitch from './IntagramSwitch';
 
 const ReviewPoemandPost = observer(({ navigation, handleEditClick }) => {
   const { poemsStore, authStore } = useContext(RootStoreContext);
-  const [addPoem, { error, loading }] = useMutation(poemsStore.addAPoem, {
+  const [addPoem, { data, error, loading }] = useMutation(poemsStore.addAPoem, {
     async onCompleted({ addPoem }) {
       if (addPoem.success) {
         await authStore.setSnackBar({
           funcCalled: 'poemsStore',
-          messageToUser: 'Poem Posted Succsess'
+          messageToUser: 'Poem Posted'
         });
         await navigation.navigate('AllPoems');
         await handleEditClick();

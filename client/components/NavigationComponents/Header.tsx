@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { AsyncStorage, TouchableOpacity, Platform } from 'react-native';
 import { Appbar, Text, Avatar, withTheme } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import LinksTopAppStore from '../UtilComponents/LinksTopAppStore';
 import { TransitionSpecs } from '@react-navigation/stack';
 
 const Header = ({ scene, previous, navigation, props }) => {
@@ -49,14 +50,33 @@ const Header = ({ scene, previous, navigation, props }) => {
       <Appbar.Content
         title={
           previous ? (
-            title
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('Home');
+              }}
+            >
+              <Text style={{ fontFamily: 'raleway-bold', fontSize: 22 }}>
+                {title}
+              </Text>
+            </TouchableOpacity>
           ) : (
-            <Text style={{ fontFamily: 'raleway-boldI', fontSize: 26 }}>
-              DNJ
-            </Text>
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigation('Home');
+              }}
+            >
+              <Text style={{ fontFamily: 'raleway-boldI', fontSize: 26 }}>
+                DNJ
+              </Text>
+            </TouchableOpacity>
           )
         }
       />
+      {Platform.OS === 'web' && (
+        <>
+          <LinksTopAppStore />
+        </>
+      )}
       {/* <TouchableOpacity
         onPress={() => {
           navigation.navigate('AllPoems');

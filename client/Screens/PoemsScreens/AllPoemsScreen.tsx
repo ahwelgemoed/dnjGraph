@@ -9,8 +9,7 @@ import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
 import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
 import CardPoem from '../../components/CardComponents/CardPoem';
 import '@expo/match-media';
-import LinksTopAppStore from '../../components/UtilComponents/LinksTopAppStore';
-import { Header } from 'react-native/Libraries/NewAppScreen';
+import AppIntroNotification from '../../components/UtilComponents/AppIntroNotification';
 const { width, height } = Dimensions.get('window');
 const PoemsScreen = observer(({ navigation }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
@@ -59,42 +58,44 @@ const PoemsScreen = observer(({ navigation }) => {
     );
   };
   return (
-    <View style={[styles.mainLayout]}>
-      {Platform.OS === 'web' && (
-        <>
-          <LinksTopAppStore />
-          <FAB
-            onPress={() => navigation.navigate({ name: 'PostPoem' })}
-            icon="feather"
-            style={{
-              position: 'absolute',
-              bottom: 100,
-              right: 50
-            }}
+    <>
+      <AppIntroNotification />
+      <View style={[styles.mainLayout]}>
+        {Platform.OS === 'web' && (
+          <>
+            <FAB
+              onPress={() => navigation.navigate({ name: 'PostPoem' })}
+              icon="feather"
+              style={{
+                position: 'absolute',
+                bottom: 50,
+                right: 50
+              }}
+            />
+          </>
+        )}
+        {data && data.poems ? (
+          <FlatList
+            maxToRenderPerBatch={1}
+            initialNumToRender={2}
+            // ListHeaderComponent={headerCard}
+            onRefresh={() => refetch()}
+            refreshing={loading}
+            onEndReached={_handleLoadMore}
+            showsHorizontalScrollIndicator={false}
+            showsVerticalScrollIndicator={false}
+            onEndReachedThreshold={10}
+            data={data.poems.poems}
+            renderItem={({ item }) => (
+              <CardPoem poem={item} navigation={navigation} view={'ONE'} />
+            )}
+            keyExtractor={item => item.id}
           />
-        </>
-      )}
-      {data && data.poems ? (
-        <FlatList
-          maxToRenderPerBatch={1}
-          initialNumToRender={2}
-          // ListHeaderComponent={headerCard}
-          onRefresh={() => refetch()}
-          refreshing={loading}
-          onEndReached={_handleLoadMore}
-          showsHorizontalScrollIndicator={false}
-          showsVerticalScrollIndicator={false}
-          onEndReachedThreshold={10}
-          data={data.poems.poems}
-          renderItem={({ item }) => (
-            <CardPoem poem={item} navigation={navigation} view={'ONE'} />
-          )}
-          keyExtractor={item => item.id}
-        />
-      ) : (
-        <LoadingComponent />
-      )}
-    </View>
+        ) : (
+          <LoadingComponent />
+        )}
+      </View>
+    </>
   );
 });
 const styles = StyleSheet.create({

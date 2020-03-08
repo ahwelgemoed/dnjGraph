@@ -12,7 +12,6 @@ import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { Text, Caption, Card, Headline, Subheading } from 'react-native-paper';
 import { useMediaQuery } from 'react-responsive';
-import { BlurView } from 'expo-blur';
 import Markdown from 'react-native-markdown-display';
 const { width, height } = Dimensions.get('window');
 import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
@@ -69,13 +68,11 @@ const APoemScreen = observer(({ route, navigation }) => {
           style={{
             backgroundColor: 'rgba(255,255,255,0.95)',
             marginTop: isDesktopOrLaptop ? height * 0.45 : -height * 0.15,
-            // position: 'absolute',
-            // top: height * 0.5,
-            // height: isDesktopOrLaptop ? height * 0.7 : height * 0.56,
+
             width: isDesktopOrLaptop ? 480 : width * 0.9,
             alignContent: 'center',
             alignSelf: 'center',
-            // marginTop: 10,
+
             marginBottom: 10,
             borderRadius: 20,
             shadowColor: 'rgba(0,0,0,0.8)',

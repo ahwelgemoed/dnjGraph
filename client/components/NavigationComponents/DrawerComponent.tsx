@@ -70,19 +70,6 @@ const DrawerContent = observer(props => {
           <DrawerItem
             icon={({ color, size }) => (
               <MaterialCommunityIcons
-                name="instagram"
-                color={color}
-                size={size}
-              />
-            )}
-            label="Follow Us"
-            onPress={() => {
-              Linking.openURL('http://instagram.com/disnetjy');
-            }}
-          />
-          <DrawerItem
-            icon={({ color, size }) => (
-              <MaterialCommunityIcons
                 name="message-text-outline"
                 color={color}
                 size={size}
