@@ -104,9 +104,9 @@ const resolvers = {
       if (!poem.bodyText) {
         throw new UserInputError('Please give your Poem a Body');
       }
-      if (!poem.photoURL && !poem.isDraft) {
-        throw new UserInputError('Please Choose an Image');
-      }
+      // if (!poem.photoURL && !poem.isDraft) {
+      //   throw new UserInputError('Please Choose an Image');
+      // }
 
       const poemDTO = poem;
       if (poem.id) {

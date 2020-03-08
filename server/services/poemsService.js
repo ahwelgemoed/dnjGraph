@@ -95,7 +95,7 @@ const createNewPoem = async ({
     bodyText,
     isDraft,
     photoURL,
-    isOld: false,
+    isOld: !photoURL ? true : false,
     handle,
     date: new Date().toISOString(),
     user: userToken && userToken.uid
