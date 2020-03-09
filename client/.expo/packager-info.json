@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 16438,
-  "expoServerNgrokUrl": "https://qw-dp9.ahwelgemoed.client.exp.direct",
-  "packagerNgrokUrl": "https://packager.qw-dp9.ahwelgemoed.client.exp.direct",
-  "ngrokPid": 16451,
-  "webpackServerPort": 19006
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "webpackServerPort": null
 }

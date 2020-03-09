@@ -120,7 +120,7 @@ const CardPoem = observer(
               }}
               icon="information"
             >
-              Draft Mode
+              Draft
             </Chip>
           ) : null}
           <>

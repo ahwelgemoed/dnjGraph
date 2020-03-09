@@ -138,18 +138,6 @@ const APoemScreen = observer(({ route, navigation }) => {
             >
               {data.poem.bodyText}
             </Markdown>
-            <Markdown
-              style={{
-                text: {
-                  fontSize: poemsStore.handDrawnFont ? 20 : 14,
-                  fontFamily: poemsStore.handDrawnFont
-                    ? 'Reenie-Beanie'
-                    : 'raleway-regular'
-                }
-              }}
-            >
-              {data.poem.bodyText}
-            </Markdown>
           </Card.Content>
           {/* </ScrollView> */}
           <View

@@ -1,6 +1,12 @@
 import React from 'react';
 import { View, FlatList, StyleSheet } from 'react-native';
-import { Headline, Subheading, Card } from 'react-native-paper';
+import {
+  Headline,
+  Subheading,
+  Card,
+  Surface,
+  Button
+} from 'react-native-paper';
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
 import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
@@ -26,11 +32,31 @@ const DraftScreens = observer(({ navigation }) => {
   );
   if (loading) return <LoadingComponent />;
   if (error) return <ErrorComponent handleError={refetch} />;
-
+  const headerCard = () => {
+    return (
+      <>
+        <Surface
+          style={{
+            marginTop: 20,
+            width: '60%',
+            alignSelf: 'center'
+            // position: 'absolute',
+            // bottom: 40
+          }}
+        >
+          {/* <TermsModal /> */}
+          <Button mode="text" onPress={() => refetch()}>
+            Refresh
+          </Button>
+        </Surface>
+      </>
+    );
+  };
   return (
     <View style={[styles.mainLayout]}>
       {data && data.myDraftPoems && data.myDraftPoems.totalDocs > 0 ? (
         <FlatList
+          ListHeaderComponent={headerCard}
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
           data={data.myDraftPoems.poems}
@@ -43,10 +69,10 @@ const DraftScreens = observer(({ navigation }) => {
         <View style={styles.mainLayout}>
           <Card>
             <Card.Content>
-              <Headline>You have No Poems in Draft</Headline>
+              <Headline>You dont have any poems in Draft</Headline>
               <Subheading>
-                if you want to save a poem for later - you never post it -write
-                it as save it to your draft poems
+                if you want to save a poem for later - or never post it -write
+                and save it as a draft
               </Subheading>
             </Card.Content>
           </Card>

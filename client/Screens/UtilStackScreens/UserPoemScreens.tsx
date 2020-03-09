@@ -41,7 +41,7 @@ const UserPoemScreen = observer(({ navigation }) => {
         <View style={styles.mainLayout}>
           <Card>
             <Card.Content>
-              <Headline>You have No Poems Posted</Headline>
+              <Headline>You haven't posted any poems</Headline>
             </Card.Content>
           </Card>
         </View>
