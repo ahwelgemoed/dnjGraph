@@ -166,7 +166,7 @@ const DrawerContent = observer(props => {
                 size={size}
               />
             )}
-            label={authStore.isAnonymous ? 'Sign In' : 'Sing Out'}
+            label={authStore.isAnonymous ? 'Sign In' : 'Sign Out'}
             onPress={() => {
               authStore.signUserOutAndClear();
               setTimeout(() => {
