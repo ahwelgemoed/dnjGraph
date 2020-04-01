@@ -67,17 +67,6 @@ export class AuthStateStore {
         }
       }
     });
-    // const userToken = await AsyncStorage.getItem('userToken');
-    // if (userToken) {
-    //   this.isAuthed = true;
-    //   this.isAnonymous = false;
-    //   this.isLoading = false;
-    // }
-    // if (!userToken) {
-    //   this.isAuthed = false;
-    //   this.isLoading = false;
-    //   this.isAnonymous = false;
-    // }
   }
   @action async logUserInAndSetTokenInStorage({ token }) {
     await AsyncStorage.setItem('userToken', token);

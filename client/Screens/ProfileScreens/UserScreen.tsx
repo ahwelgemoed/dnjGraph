@@ -13,7 +13,10 @@ import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { useAnonMayNotSeeHook } from '../../helpers/useStateHook';
 
-const UserScreen = observer(({ navigation }) => {
+interface Props {
+  navigation: any;
+}
+const UserScreen: React.FC<Props> = observer(({ navigation }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
   const { isAnonUser } = useAnonMayNotSeeHook({
     message: 'You have sign in To have a Profile'
@@ -51,39 +54,18 @@ const UserScreen = observer(({ navigation }) => {
         )}
       />
       <Button
-        // style={{ position: 'absolute', bottom: 0, justifyContent: 'center' }}
         mode="contained"
         icon="pencil"
         onPress={() => authStore.setLocalUser({ state })}
       >
         Save Changes
       </Button>
-      {/* <View style={{ flex: 1, justifyContent: 'flex-end' }}>
-        <Button
-          // style={{ position: 'absolute', bottom: 0, justifyContent: 'center' }}
-          mode="contained"
-          icon="pencil"
-          onPress={() => saveChangesToFireBase()}
-        >
-          Sign Out
-        </Button>
-        <Button
-          // style={{ position: 'absolute', bottom: 0, justifyContent: 'center' }}
-          mode="contained"
-          icon="pencil"
-          onPress={() => saveChangesToFireBase()}
-        >
-          Reset Password
-        </Button>
-      </View> */}
     </View>
   );
 });
 const styles = StyleSheet.create({
   mainLayout: {
     flex: 1,
-    // justifyContent: 'center',
-    // justifyContent: 'space-around',
     paddingVertical: 16,
     paddingHorizontal: 16
   }

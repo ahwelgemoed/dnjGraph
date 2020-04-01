@@ -29,7 +29,12 @@ import { useAnonMayNotSeeHook } from '../../helpers/useStateHook';
 import { liveEndPoint } from '../../helpers';
 import { useIsFocused } from '@react-navigation/native';
 const { width, height } = Dimensions.get('window');
-const CreateAPoem = observer(({ route, navigation }) => {
+
+interface Props {
+  navigation: any;
+}
+
+const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1224px)'
   });

@@ -1,19 +1,27 @@
 import React, { useEffect } from 'react';
 import { View, StyleSheet, FlatList, Dimensions, Platform } from 'react-native';
 import { Text, Subheading, Headline, Portal, FAB } from 'react-native-paper';
-
+import '@expo/match-media';
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
+
 import { RootStoreContext } from '../../store/RootStore';
 import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
 import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
 import CardPoem from '../../components/CardComponents/CardPoem';
-import '@expo/match-media';
 import AppIntroNotification from '../../components/UtilComponents/AppIntroNotification';
 
-const PoemsScreen = observer(({ navigation }) => {
+interface Props {
+  navigation: any;
+}
+type IState = {
+  limit: number;
+  page?: number;
+};
+
+const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
-  const [pagination, setpagination] = React.useState({
+  const [pagination, setpagination] = React.useState<IState>({
     limit: 10,
     page: 1
   });
@@ -49,14 +57,6 @@ const PoemsScreen = observer(({ navigation }) => {
   };
   if (loading) return <LoadingComponent />;
   if (error) return <ErrorComponent handleError={refetch} error={error} />;
-  const headerCard = () => {
-    return (
-      <>
-        <Headline>WELCOME</Headline>
-        <Subheading>BE BETTER</Subheading>
-      </>
-    );
-  };
   return (
     <>
       <AppIntroNotification />
@@ -89,7 +89,7 @@ const PoemsScreen = observer(({ navigation }) => {
             renderItem={({ item }) => (
               <CardPoem poem={item} navigation={navigation} view={'ONE'} />
             )}
-            keyExtractor={item => item.id}
+            keyExtractor={item => item?.id}
           />
         ) : (
           <LoadingComponent />

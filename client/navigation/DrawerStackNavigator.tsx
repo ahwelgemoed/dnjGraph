@@ -143,24 +143,3 @@ const CreateScreenStack = withTheme(props => (
     <HomeStack.Screen name="PostPoem" component={CreateAPoem} />
   </HomeStack.Navigator>
 ));
-
-// const PostPoemScreenStack = withTheme(props => (
-//   <PostPoemStack.Navigator
-//     headerMode="screen"
-//     screenOptions={{
-//       header: ({ scene, previous, navigation }) => (
-//         <Header
-//           scene={scene}
-//           previous={previous}
-//           navigation={navigation}
-//           props={props}
-//         />
-//       ),
-//       cardOverlayEnabled: true,
-//       gestureEnabled: true,
-//       ...MyTransition
-//     }}
-//   >
-//     <PostPoemStack.Screen name="PostPoem" component={CreateAPoem} />
-//   </PostPoemStack.Navigator>
-// ));

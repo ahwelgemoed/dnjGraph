@@ -22,6 +22,11 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const DrawerContent = observer(props => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
+  const closeDrawer = () => {
+    setTimeout(() => {
+      props.navigation.closeDrawer();
+    }, 100);
+  };
   return (
     <DrawerContentScrollView
       {...props}
@@ -32,9 +37,7 @@ const DrawerContent = observer(props => {
           <Avatar.Image source={dnj} size={70} />
           <MaterialCommunityIcons
             onPress={() => {
-              setTimeout(() => {
-                props.navigation.closeDrawer();
-              }, 100);
+              closeDrawer();
             }}
             style={{ position: 'absolute', right: 20, top: 20 }}
             name="close"
@@ -78,9 +81,7 @@ const DrawerContent = observer(props => {
             label="All Poems"
             onPress={() => {
               props.navigation.navigate('AllPoems');
-              setTimeout(() => {
-                props.navigation.closeDrawer();
-              }, 100);
+              closeDrawer();
             }}
           />
           <DrawerItem
@@ -94,9 +95,7 @@ const DrawerContent = observer(props => {
             label="Post a Poem"
             onPress={() => {
               props.navigation.navigate({ name: 'PostPoem' });
-              setTimeout(() => {
-                props.navigation.closeDrawer();
-              }, 100);
+              closeDrawer();
             }}
           />
           <DrawerItem
@@ -109,10 +108,8 @@ const DrawerContent = observer(props => {
             )}
             label="Drafts"
             onPress={() => {
-              props.navigation.navigate('Drafts');
-              setTimeout(() => {
-                props.navigation.closeDrawer();
-              }, 100);
+              props.navigation.navigate({ name: 'Drafts' });
+              closeDrawer();
             }}
           />
           <DrawerItem
@@ -126,9 +123,7 @@ const DrawerContent = observer(props => {
             label="Posted Poems"
             onPress={() => {
               props.navigation.navigate('UserPoems');
-              setTimeout(() => {
-                props.navigation.closeDrawer();
-              }, 100);
+              closeDrawer();
             }}
           />
           <DrawerItem
@@ -142,9 +137,7 @@ const DrawerContent = observer(props => {
             label="Profile"
             onPress={() => {
               props.navigation.navigate({ name: 'UserScreen' });
-              setTimeout(() => {
-                props.navigation.closeDrawer();
-              }, 100);
+              closeDrawer();
             }}
           />
           <DrawerItem

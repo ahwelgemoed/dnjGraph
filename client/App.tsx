@@ -26,62 +26,8 @@ import { RestLink } from 'apollo-link-rest';
 import { ApolloProvider } from '@apollo/react-hooks';
 import { Header, MyTransition } from './components/NavigationComponents/Header';
 import AppSnackBar from './components/UtilComponents/AppSnackBar';
-import { UserScreen } from './Screens';
+
 import { liveEndPoint } from './helpers';
-// import { useAuthHook } from './helpers/useStateHook';
-const AuthStack = createStackNavigator();
-
-const PostPoemStack = createStackNavigator();
-const ProfileStack = createStackNavigator();
-const UtilStack = createStackNavigator();
-const WebStack = createStackNavigator();
-// const DrawerStack = createDrawerNavigator();
-
-// const UtilScreensStack = withTheme(props => (
-//   <UtilStack.Navigator
-//     shifting={true}
-//     sceneAnimationEnabled={false}
-//     headerMode="screen"
-//     screenOptions={{
-//       header: ({ scene, previous, navigation }) => (
-//         <Header
-//           scene={scene}
-//           previous={previous}
-//           navigation={navigation}
-//           props={props}
-//         />
-//       ),
-//       cardOverlayEnabled: true,
-//       gestureEnabled: true,
-//       ...MyTransition
-//     }}
-//   >
-//     <UtilStack.Screen name="Drafts" component={DraftScreens} />
-//     <UtilStack.Screen name="UserScreen" component={UserScreen} />
-//   </UtilStack.Navigator>
-// ));
-const ProfileScreenStack = withTheme(props => (
-  <ProfileStack.Navigator
-    shifting={true}
-    sceneAnimationEnabled={false}
-    headerMode="screen"
-    screenOptions={{
-      header: ({ scene, previous, navigation }) => (
-        <Header
-          scene={scene}
-          previous={previous}
-          navigation={navigation}
-          props={props}
-        />
-      ),
-      cardOverlayEnabled: true,
-      gestureEnabled: true,
-      ...MyTransition
-    }}
-  >
-    <ProfileStack.Screen name="UserScreen" component={UserScreen} />
-  </ProfileStack.Navigator>
-));
 
 const fontConfig = {
   default: {
@@ -101,7 +47,10 @@ const fontConfig = {
       fontFamily: 'raleway-extralight',
       fontWeight: 'normal'
     }
-  }
+  },
+  ios: null,
+  android: null,
+  web: null
 };
 fontConfig.ios = fontConfig.default;
 fontConfig.android = fontConfig.default;

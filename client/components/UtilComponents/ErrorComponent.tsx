@@ -4,13 +4,23 @@ import { Text, Button } from 'react-native-paper';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 
-const ErrorComponent = observer(({ handleError, error }) => {
+interface Props {
+  handleError: () => void;
+  error: object;
+}
+
+const ErrorComponent: React.FC<Props> = observer(({ handleError, error }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
   // console.log(error.graphQLErrors.map(({ message }, i) => message));
   useEffect(() => {
-    const x = error.graphQLErrors.map(({ message }, i) => message);
+    const x = error && error?.graphQLErrors.map(({ message }, i) => message);
     authStore.showSnack({ message: x[0] });
   }, [error]);
+
+  const reAuthAndReload = () => {
+    authStore.isUserAuthed();
+    handleError();
+  };
   return (
     <View
       style={{
@@ -20,7 +30,7 @@ const ErrorComponent = observer(({ handleError, error }) => {
       }}
     >
       <Text>Oh No Something Went Wrong</Text>
-      <Button icon="user" mode="contained" onPress={() => handleError()}>
+      <Button icon="user" mode="contained" onPress={() => reAuthAndReload()}>
         RETRY
       </Button>
     </View>
