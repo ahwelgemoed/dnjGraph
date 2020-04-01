@@ -108,7 +108,9 @@ const DrawerContent = observer(props => {
             )}
             label="Drafts"
             onPress={() => {
-              props.navigation.navigate({ name: 'Drafts' });
+              // This sorta solves it
+              !authStore.isAnonymous &&
+                props.navigation.navigate({ name: 'Drafts' });
               closeDrawer();
             }}
           />

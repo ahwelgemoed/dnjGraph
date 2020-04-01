@@ -3,8 +3,11 @@
     "name": "Dis Net Jy",
     "slug": "klyntjidnj",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
-    "platforms": ["ios", "android", "web"],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "scheme": "dnj",
     "version": "3.0.7",
     "orientation": "portrait",
@@ -14,11 +17,12 @@
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
-
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "versionCode": 31,
       "package": "com.disnetons.googlesignin",
