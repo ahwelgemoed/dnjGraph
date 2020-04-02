@@ -22,7 +22,8 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const DrawerContent = observer(props => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
-  const closeDrawer = () => {
+  const navigateToScreenAndCloseScreen = (screenName: string) => {
+    !authStore.isAnonymous && props.navigation.navigate({ name: screenName });
     setTimeout(() => {
       props.navigation.closeDrawer();
     }, 100);
@@ -80,8 +81,7 @@ const DrawerContent = observer(props => {
             )}
             label="All Poems"
             onPress={() => {
-              props.navigation.navigate('AllPoems');
-              closeDrawer();
+              navigateToScreenAndCloseScreen('AllPoems');
             }}
           />
           <DrawerItem
@@ -94,8 +94,7 @@ const DrawerContent = observer(props => {
             )}
             label="Post a Poem"
             onPress={() => {
-              props.navigation.navigate({ name: 'PostPoem' });
-              closeDrawer();
+              navigateToScreenAndCloseScreen('PostPoem');
             }}
           />
           <DrawerItem
@@ -108,10 +107,7 @@ const DrawerContent = observer(props => {
             )}
             label="Drafts"
             onPress={() => {
-              // This sorta solves it
-              !authStore.isAnonymous &&
-                props.navigation.navigate({ name: 'Drafts' });
-              closeDrawer();
+              navigateToScreenAndCloseScreen('Drafts');
             }}
           />
           <DrawerItem
@@ -124,8 +120,7 @@ const DrawerContent = observer(props => {
             )}
             label="Posted Poems"
             onPress={() => {
-              props.navigation.navigate('UserPoems');
-              closeDrawer();
+              navigateToScreenAndCloseScreen('UserPoems');
             }}
           />
           <DrawerItem
@@ -138,8 +133,7 @@ const DrawerContent = observer(props => {
             )}
             label="Profile"
             onPress={() => {
-              props.navigation.navigate({ name: 'UserScreen' });
-              closeDrawer();
+              navigateToScreenAndCloseScreen('UserScreen');
             }}
           />
           <DrawerItem

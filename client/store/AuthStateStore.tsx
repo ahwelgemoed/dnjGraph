@@ -10,11 +10,11 @@ export class AuthStateStore {
   constructor(rooteStore: RootStore) {
     this.rooteStore = rooteStore;
   }
-  @observable freshUserToken;
-  @observable isAuthed = 'LOADING';
-  @observable isAnonymous = false;
-  @observable isLoading = true;
-  @observable isAdmin = false;
+  @observable isAuthed: string = 'LOADING';
+  @observable freshUserToken: string;
+  @observable isAnonymous: boolean = false;
+  @observable isLoading: boolean = true;
+  @observable isAdmin: boolean = false;
   @observable showAuthSnack = { funcCalled: '', messageToUser: '' };
   @persist('object') @observable loacalUser;
   @observable userFirebaseUID;
@@ -49,10 +49,6 @@ export class AuthStateStore {
         this.firebaseUser = {
           user
         };
-        // this.showAuthSnack = {
-        //   funcCalled: 'isUserAuthed',
-        //   messageToUser: 'isUserAuthed is Called'
-        // };
       }
 
       if (!user) {
@@ -116,7 +112,7 @@ export class AuthStateStore {
     };
   }
   @action signUserOutAndClear() {
-    console.log('signUserOutAndClearsignUserOutAndClear', this.isAuthed);
+    this.showSnack({ message: 'Signing You Out...' });
     firebase.auth().signOut();
     AsyncStorage.clear();
     setTimeout(() => {
