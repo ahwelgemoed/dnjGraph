@@ -50,15 +50,9 @@ const Header = ({ scene, previous, navigation, props }) => {
       <Appbar.Content
         title={
           previous ? (
-            <TouchableOpacity
-              onPress={() => {
-                navigation.navigate('Home');
-              }}
-            >
-              <Text style={{ fontFamily: 'raleway-bold', fontSize: 22 }}>
-                {title}
-              </Text>
-            </TouchableOpacity>
+            <Text style={{ fontFamily: 'raleway-bold', fontSize: 22 }}>
+              {title}
+            </Text>
           ) : (
             <Text style={{ fontFamily: 'raleway-boldI', fontSize: 26 }}>
               DNJ

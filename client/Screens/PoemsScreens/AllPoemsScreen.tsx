@@ -89,7 +89,7 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
             renderItem={({ item }) => (
               <CardPoem poem={item} navigation={navigation} view={'ONE'} />
             )}
-            keyExtractor={item => item?.id}
+            keyExtractor={item => item.id}
           />
         ) : (
           <LoadingComponent />

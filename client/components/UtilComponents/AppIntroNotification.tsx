@@ -7,8 +7,7 @@ import {
   Subheading,
   Paragraph
 } from 'react-native-paper';
-const { width, height } = Dimensions.get('window');
-import dnj from '../../assets/images/DNJW.png';
+
 const AppIntroNotification = () => {
   const [showNotification, setshowNotification] = useState(false);
   const hideNotification = () => {
@@ -46,7 +45,7 @@ const AppIntroNotification = () => {
               fontWeight: 'bold'
             }}
           >
-            Whats New
+            Season 3
           </Headline>
           <Subheading style={{ fontSize: 12, fontFamily: 'raleway-bold' }}>
             🤳🏽Post Images
@@ -62,7 +61,8 @@ const AppIntroNotification = () => {
           <Paragraph>
             You can now compose Poems and save them for later - You can use this
             to Post them at a later stage or save them for the Zine or Post them
-            never.🤷🏽‍♂️
+            never.🤷🏽‍♂️ (Also a poem is saved so you will never lose it while
+            typing)
           </Paragraph>
         </View>
       ) : (
@@ -74,7 +74,7 @@ const AppIntroNotification = () => {
               fontWeight: 'bold'
             }}
           >
-            Whats New
+            Season 3
           </Headline>
           <Subheading style={{ fontSize: 12, fontFamily: 'raleway-bold' }}>
             🤳🏽Post Images:

@@ -4,7 +4,7 @@ import {
   Linking,
   Dimensions,
   StyleSheet,
-  TouchableHighlight
+  TouchableWithoutFeedback
 } from 'react-native';
 import {
   Surface,
@@ -22,10 +22,7 @@ import { useMediaQuery } from 'react-responsive';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
 import { liveEndPoint } from '../../helpers';
-import { useNavigation } from '@react-navigation/native';
 import { useHover, useFocus, useActive } from 'react-native-web-hooks';
-
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 const { width, height } = Dimensions.get('window');
 // ReenieBeanie
 const CardPoem = observer(
@@ -138,26 +135,26 @@ const CardPoem = observer(
             >
               {poem.title}
             </Headline>
-            {/* <TouchableHighlight
+            <TouchableWithoutFeedback
               onPress={() => {
                 poem.handle &&
                   Linking.openURL(`https://instagram.com/${poem.handle}`);
               }}
-            > */}
-            <Subheading
-              style={{
-                paddingLeft: 12,
-                fontSize: poemsStore.handDrawnFont ? 16 : 12,
-                fontFamily: poemsStore.handDrawnFont
-                  ? 'Reenie-Beanie'
-                  : 'raleway-extraBold',
-
-                opacity: 0.9
-              }}
             >
-              {`by: ${poem.handle ? poem.handle : 'ANON'}`}
-            </Subheading>
-            {/* </TouchableHighlight> */}
+              <Subheading
+                style={{
+                  paddingLeft: 12,
+                  fontSize: poemsStore.handDrawnFont ? 16 : 12,
+                  fontFamily: poemsStore.handDrawnFont
+                    ? 'Reenie-Beanie'
+                    : 'raleway-extraBold',
+
+                  opacity: 0.9
+                }}
+              >
+                {`by: ${poem.handle ? poem.handle : 'ANON'}`}
+              </Subheading>
+            </TouchableWithoutFeedback>
           </>
           <Card.Content>
             <Markdown

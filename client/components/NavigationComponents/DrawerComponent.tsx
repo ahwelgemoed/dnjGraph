@@ -38,7 +38,7 @@ const DrawerContent = observer(props => {
           <Avatar.Image source={dnj} size={70} />
           <MaterialCommunityIcons
             onPress={() => {
-              closeDrawer();
+              props.navigation.closeDrawer();
             }}
             style={{ position: 'absolute', right: 20, top: 20 }}
             name="close"

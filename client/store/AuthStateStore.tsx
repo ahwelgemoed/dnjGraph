@@ -34,6 +34,12 @@ export class AuthStateStore {
 
   @action async isUserAuthed() {
     const INITIALTOKEN = await AsyncStorage.getItem('userToken');
+    const ISFIRSTSEASON3 = await AsyncStorage.getItem('ISFIRSTSEASON3');
+    if (!ISFIRSTSEASON3) {
+      this.signUserOutStart3();
+    }
+    console.log(ISFIRSTSEASON3);
+
     await firebase.auth().onAuthStateChanged(user => {
       if (user) {
         firebase
@@ -117,19 +123,17 @@ export class AuthStateStore {
     AsyncStorage.clear();
     setTimeout(() => {
       this.isAuthed = false;
+      AsyncStorage.setItem('ISFIRSTSEASON3', 'true');
     }, 3000);
-    // this.isAnonymous = false;
-    // this.isLoading = false;
-    // this.showAuthSnack = {
-    //   funcCalled: 'signUserOutAndClear',
-    //   messageToUser: 'Signed Out'
-    // };
-
-    // firebase.auth().signOut();
-
-    // AsyncStorage.clear();
-    // this.isLoading = true;
-    // this.isAdmin = false;
+  }
+  @action signUserOutStart3() {
+    this.showSnack({ message: 'Season 3...' });
+    firebase.auth().signOut();
+    AsyncStorage.clear();
+    setTimeout(() => {
+      this.isAuthed = false;
+      AsyncStorage.setItem('ISFIRSTSEASON3', 'true');
+    }, 3000);
   }
 }
 
