@@ -3,13 +3,9 @@
     "name": "Dis Net Jy",
     "slug": "klyntjidnj",
     "privacy": "public",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "scheme": "dnj",
-    "version": "3.0.7",
+    "version": "3.0.8",
     "orientation": "portrait",
     "icon": "./assets/images/DNJICON.png",
     "splash": {
@@ -20,11 +16,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "android": {
-      "versionCode": 31,
+      "versionCode": 32,
       "package": "com.disnetons.googlesignin",
       "googleServicesFile": "./google-services.json"
     },
