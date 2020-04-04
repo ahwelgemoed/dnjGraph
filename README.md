@@ -21,11 +21,12 @@ Server is Apollo-Server-Express
 
 ## App Look
 
-![Demo4](https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo4.jpg | width=250)
-![Demo1](https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo1.jpg)
-![Demo2](https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo2.jpg)
-![Demo3](https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo3.jpg)
-![Demo5](https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/skryf.gif)
+<a href="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo4.jpg"><img src="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo4.jpg" align="center" width="250" ></a>
+<a href="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo1.jpg"><img src="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo1.jpg" align="center" width="250" ></a>
+<a href="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo2.jpg"><img src="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo2.jpg" align="center" width="250" ></a>
+<a href="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo3.jpg"><img src="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/demo4.jpg" align="center" width="250" ></a>
+<a href="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/skryf.gif"><img src="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/skryf.gif" align="center" width="250" ></a>
+<a href="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/lees.gif"><img src="https://raw.githubusercontent.com/ahwelgemoed/dnjGraph/master/client/demo/lees.gif" align="center" width="250" ></a>
 
 ## TODO
 
