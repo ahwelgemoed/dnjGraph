@@ -60,6 +60,8 @@ const CardPoem = observer(
         }}
       >
         {/* http://localhost:4000/public/img/imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg */}
+        {/* TODO
+  There must be a beter way to do this hover  */}
         <Card
           ref={ref}
           style={[
@@ -67,12 +69,12 @@ const CardPoem = observer(
               alignSelf: 'center',
               width: isDesktopOrLaptop ? 480 : width * 0.9,
               marginTop: 10,
-              marginBottom: 10,
+              marginBottom: 50,
               borderRadius: 20,
               shadowColor: 'rgba(0,0,0,0.8)',
               shadowOffset: {
                 width: 0,
-                height: 3
+                height: 0
               },
               shadowOpacity: 0.29,
               shadowRadius: 4.65,

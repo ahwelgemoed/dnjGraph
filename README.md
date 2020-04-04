@@ -18,4 +18,6 @@ Server is Apollo-Server-Express
 - Apollo Client for Consuming graphQL and REST data
 - Heroku for Server Hosting.
 
+## App Look
+
 ### Repos for [Season 1](https://github.com/ahwelgemoed/dnj) and [Season 2](https://github.com/ahwelgemoed/dnjRN)
