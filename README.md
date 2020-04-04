@@ -36,4 +36,4 @@ Server is Apollo-Server-Express
 
 ### Repos for [Season 1](https://github.com/ahwelgemoed/dnj) and [Season 2](https://github.com/ahwelgemoed/dnjRN)
 
-_All Desing And Code was done by me_
+_All Design and Code was done by me_
