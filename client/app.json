@@ -5,7 +5,7 @@
     "privacy": "public",
     "platforms": ["ios", "android", "web"],
     "scheme": "dnj",
-    "version": "3.0.8",
+    "version": "3.0.9",
     "orientation": "portrait",
     "icon": "./assets/images/DNJICON.png",
     "splash": {
@@ -18,7 +18,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
-      "versionCode": 32,
+      "versionCode": 33,
       "package": "com.disnetons.googlesignin",
       "googleServicesFile": "./google-services.json"
     },
