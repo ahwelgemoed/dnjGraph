@@ -1,6 +1,6 @@
 const {
   AuthenticationError,
-  UserInputError
+  UserInputError,
 } = require('apollo-server-express');
 const Poem = require('../models/PoemModel');
 const User = require('../models/UserModel');
@@ -11,7 +11,8 @@ const {
   getAllUserDrafts,
   getAPoem,
   createNewPoem,
-  updateAPoem
+  updateAPoem,
+  getAllImagesFromFireBase,
 } = require('../services/poemsService');
 const { updateUserInternally, getUser } = require('../services/userServices');
 
@@ -54,7 +55,7 @@ const resolvers = {
       const myDraftPoemsDTO = args;
       const allUsersDrafts = await getAllUserDrafts({
         dto: myDraftPoemsDTO,
-        user: userToken
+        user: userToken,
       });
       // console.log('allUsersDrafts', allUsersDrafts);
       return allUsersDrafts;
@@ -65,35 +66,38 @@ const resolvers = {
         throw new AuthenticationError('You are not Authenticated');
         return;
       }
-      // console.log('userToken', userToken);
 
       const myPoemsDTO = args;
       const allUsersPoems = await getAllUserPoems({
         dto: myPoemsDTO,
-        user: userToken
+        user: userToken,
       });
-      console.log('allUsersPoems', allUsersPoems);
+
       return allUsersPoems;
-    }
+    },
+    allActiveImages: async (obj, args, _, __) => {
+      console.log('object');
+      return getAllImagesFromFireBase();
+    },
   },
   Poem: {
     user: (parent, args, ctx, info) => {
       console.log('parent.user', parent.user);
       // const foundUser = User.findById(parent.user);
       // return foundUser;
-    }
+    },
   },
   Mutation: {
     addUser: (parent, { user: { name } }, ctx, info) => {
       const newUser = new User({
         name,
-        isAdmin: false
+        isAdmin: false,
       });
-      return newUser.save().then(res => {
+      return newUser.save().then((res) => {
         return {
           message: 'Saved New User',
           success: true,
-          user: res
+          user: res,
         };
       });
     },
@@ -119,7 +123,7 @@ const resolvers = {
         const newPoem = await createNewPoem({ poemDTO, userToken });
         return newPoem;
       }
-    }
-  }
+    },
+  },
 };
 module.exports = resolvers;

@@ -2,20 +2,25 @@ import React from 'react';
 import { View, Image } from 'react-native';
 
 import dnj from '../../assets/images/DNJLOADING.gif';
+import splash from '../../assets/images/splash.gif';
 
-const LoadingComponent = () => {
+interface Props {
+  initialApp?: boolean;
+}
+const LoadingComponent: React.FC<Props> = ({ initialApp }) => {
   return (
     <View
       style={{
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#fff'
+        backgroundColor: initialApp ? '#000' : '#fff',
       }}
     >
-      <Image source={dnj} style={{ width: 300, height: 300 }} />
-      {/* <ActivityIndicator />
-      <Text>Loading...</Text> */}
+      <Image
+        source={initialApp ? splash : dnj}
+        style={{ width: 300, height: 300 }}
+      />
     </View>
   );
 };

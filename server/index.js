@@ -23,7 +23,7 @@ app.use('/v1', restEndpoints);
 
 db.on('error', console.error.bind(console, 'connection error:'));
 
-db.once('open', function() {
+db.once('open', function () {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
@@ -32,7 +32,7 @@ db.once('open', function() {
     context: async ({ req }) => {
       const userToken = await authHandler(req);
       return { userToken };
-    }
+    },
   });
   server.applyMiddleware({ app });
   app.listen({ port }, () =>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { View, StyleSheet, FlatList, Dimensions, Platform } from 'react-native';
-import { Text, Subheading, Headline, Portal, FAB } from 'react-native-paper';
+import { Text, Subheading, Headline, Chip, FAB } from 'react-native-paper';
 import '@expo/match-media';
 import { observer } from 'mobx-react-lite';
 import { useQuery } from '@apollo/react-hooks';
@@ -23,7 +23,7 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
   const { poemsStore, authStore } = React.useContext(RootStoreContext);
   const [pagination, setpagination] = React.useState<IState>({
     limit: 10,
-    page: 1
+    page: 1,
   });
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
   const { loading, error, data, refetch, fetchMore } = useQuery(
     poemsStore.getAllPoems,
     {
-      variables: { limit: 10, page: pagination.page }
+      variables: { limit: 10, page: pagination.page },
     }
   );
 
@@ -43,20 +43,40 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
     if (data.poems) {
       fetchMore({
         variables: {
-          limit: pagination.limit + 2
+          limit: pagination.limit + 2,
         },
         updateQuery: (prev, { fetchMoreResult }) => {
           if (!fetchMoreResult) return prev;
           return Object.assign({}, prev, {
-            poems: fetchMoreResult.poems
+            poems: fetchMoreResult.poems,
           });
-        }
+        },
       });
       setpagination({ limit: pagination.limit + 10 });
     }
   };
   if (loading) return <LoadingComponent />;
   if (error) return <ErrorComponent handleError={refetch} error={error} />;
+  // console.log(data?.poems?.totalDocs);
+  const headerCard = () => {
+    return (
+      <View
+        style={{
+          paddingVertical: 16,
+          paddingHorizontal: 16,
+        }}
+      >
+        <Chip
+          textStyle={{ textAlign: 'center' }}
+          icon="heart"
+          onPress={() => console.log('Pressed')}
+        >
+          {data && data.poems && data.poems.totalDocs} poems since 2018 - Dankie
+          👏🏽🥳👏🏽
+        </Chip>
+      </View>
+    );
+  };
   return (
     <>
       <AppIntroNotification />
@@ -69,16 +89,16 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
               style={{
                 position: 'absolute',
                 bottom: 50,
-                right: 50
+                right: 50,
               }}
             />
           </>
         )}
         {data && data.poems ? (
           <FlatList
-            maxToRenderPerBatch={1}
-            initialNumToRender={2}
-            // ListHeaderComponent={headerCard}
+            maxToRenderPerBatch={4}
+            initialNumToRender={4}
+            ListHeaderComponent={headerCard}
             onRefresh={() => refetch()}
             refreshing={loading}
             onEndReached={_handleLoadMore}
@@ -89,7 +109,7 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
             renderItem={({ item }) => (
               <CardPoem poem={item} navigation={navigation} view={'ONE'} />
             )}
-            keyExtractor={item => item.id}
+            keyExtractor={(item) => item.id}
           />
         ) : (
           <LoadingComponent />
@@ -102,7 +122,7 @@ const styles = StyleSheet.create({
   mainLayout: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center'
-  }
+    justifyContent: 'center',
+  },
 });
 export default PoemsScreen;

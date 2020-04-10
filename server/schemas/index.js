@@ -43,6 +43,10 @@ const typeDefs = gql`
     message: String
     poem: Poem
   }
+  type AllActiveImages {
+    imageName: String
+    url: String
+  }
 
   input PoemInput {
     title: String
@@ -57,6 +61,7 @@ const typeDefs = gql`
   type Query {
     poems(limit: Int, page: Int): PoemsResults
     myDraftPoems: PoemsResults
+    allActiveImages: AllActiveImages
     myPoems: PoemsResults
     allUsersBookmarks(user: ID): PoemsResults
     poem(id: ID): Poem

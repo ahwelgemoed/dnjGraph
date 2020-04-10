@@ -23,11 +23,10 @@ const updateUserInternally = async ({ userToken }) => {
       name: null,
       email: userToken.email,
       fireBaseId: userToken.uid,
-      isAdmin: false
+      isAdmin: false,
     });
-    return newUser.save().then(res => {});
+    return newUser.save().then((res) => {});
   }
-  console.log(foundUser);
 };
 
 const getUser = async ({ userDTO }) => {
@@ -37,5 +36,5 @@ const getUser = async ({ userDTO }) => {
 
 module.exports = {
   getUser,
-  updateUserInternally
+  updateUserInternally,
 };

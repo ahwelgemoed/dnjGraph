@@ -14,7 +14,7 @@ import {
   DarkTheme,
   DefaultTheme,
   withTheme,
-  Provider as PaperProvider
+  Provider as PaperProvider,
 } from 'react-native-paper';
 import AuthStackNavigator from './navigation/AuthStackNavigator';
 import DrawerStackNavigator from './navigation/DrawerStackNavigator';
@@ -33,24 +33,24 @@ const fontConfig = {
   default: {
     regular: {
       fontFamily: 'raleway-regular',
-      fontWeight: 'normal'
+      fontWeight: 'normal',
     },
     medium: {
       fontFamily: 'raleway-medium',
-      fontWeight: 'normal'
+      fontWeight: 'normal',
     },
     light: {
       fontFamily: 'raleway-boldI',
-      fontWeight: 'normal'
+      fontWeight: 'normal',
     },
     thin: {
       fontFamily: 'raleway-extralight',
-      fontWeight: 'normal'
-    }
+      fontWeight: 'normal',
+    },
   },
   ios: null,
   android: null,
-  web: null
+  web: null,
 };
 fontConfig.ios = fontConfig.default;
 fontConfig.android = fontConfig.default;
@@ -62,8 +62,8 @@ const theme = {
   colors: {
     ...DefaultTheme.colors,
     primary: 'rgba(0,0,0,0.8)',
-    accent: '#457397'
-  }
+    accent: '#457397',
+  },
 };
 
 const App = observer(() => {
@@ -80,8 +80,8 @@ const App = observer(() => {
   const authLink = setContext((_, { headers }) => {
     return {
       headers: {
-        authorization: `Bearer ${authStore.freshUserToken}`
-      }
+        authorization: `Bearer ${authStore.freshUserToken}`,
+      },
     };
   });
   async function loadResourcesAndDataAsync() {
@@ -98,7 +98,7 @@ const App = observer(() => {
         'raleway-extralight': require('./assets/fonts/Raleway-ExtraLight.ttf'),
         PTSansCaptionBold: require('./assets/fonts/PTSansCaption-Bold.ttf'),
         PTSansCaptionRegular: require('./assets/fonts/PTSansCaption-Regular.ttf'),
-        'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf')
+        'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
       });
     } catch (e) {
       console.warn(e);
@@ -122,11 +122,11 @@ const App = observer(() => {
   }, [authStore.isAuthed]);
   const client = new ApolloClient({
     link: authLink.concat(graphLink),
-    cache: new InMemoryCache()
+    cache: new InMemoryCache(),
   });
 
   if (isLoading || !isReady || isAuth === 'LOADING') {
-    return <LoadingComponent />;
+    return <LoadingComponent initialApp={true} />;
   }
   return (
     <PaperProvider theme={theme}>
@@ -138,7 +138,7 @@ const App = observer(() => {
         >
           {isAuth === 'AUTHED' && <DrawerStackNavigator />}
           {isAuth === 'NOTAUTHED' && <AuthStackNavigator />}
-          {/* {isAuth ? <DrawerStackNavigator /> : } */}
+
           <AppSnackBar />
         </NavigationContainer>
       </ApolloProvider>
@@ -152,6 +152,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center'
-  }
+    justifyContent: 'center',
+  },
 });

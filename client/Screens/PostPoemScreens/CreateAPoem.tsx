@@ -4,7 +4,7 @@ import {
   StyleSheet,
   Dimensions,
   ImageBackground,
-  Platform
+  Platform,
 } from 'react-native';
 import { observer } from 'mobx-react-lite';
 import { RootStoreContext } from '../../store/RootStore';
@@ -14,7 +14,7 @@ import {
   Headline,
   Subheading,
   Title,
-  Text
+  Text,
 } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useMediaQuery } from 'react-responsive';
@@ -36,7 +36,7 @@ interface Props {
 
 const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1224px)'
+    query: '(min-device-width: 1224px)',
   });
   const [step, setstep] = useState(false);
   const childRefImage = useRef(null);
@@ -44,7 +44,7 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
   const { poemsStore } = useContext(RootStoreContext);
   const [state, setstate] = useState(false);
   const { isAnonUser } = useAnonMayNotSeeHook({
-    message: 'You have sign in To Post a Poem'
+    message: 'You have sign in To Post a Poem',
   });
   const isFocused = useIsFocused();
   useEffect(() => {
@@ -75,11 +75,9 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
           style={{
-            // width,
-
             flex: 1,
             paddingVertical: 16,
-            paddingHorizontal: 16
+            paddingHorizontal: 16,
           }}
         >
           <View style={[styles.container]}>
@@ -91,13 +89,13 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                       marginTop: 10,
                       marginBottom: 10,
                       flexDirection: 'row',
-                      justifyContent: 'space-between'
+                      justifyContent: 'space-between',
                     }}
                   >
                     <Title
                       style={{
                         paddingLeft: 10,
-                        fontFamily: 'raleway-extraBold'
+                        fontFamily: 'raleway-extraBold',
                       }}
                     >
                       Compose Poem
@@ -131,7 +129,7 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                       textAlign: 'right',
                       fontSize: 12,
                       paddingTop: 5,
-                      color: 'rgba(0, 0, 0, 0.54)'
+                      color: 'rgba(0, 0, 0, 0.54)',
                     }}
                   >
                     (Scroll for More)
@@ -140,13 +138,13 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                     style={{
                       marginTop: 20,
                       flexDirection: 'row',
-                      justifyContent: 'space-between'
+                      justifyContent: 'space-between',
                     }}
                   >
                     <Title
                       style={{
                         paddingLeft: 10,
-                        fontFamily: 'raleway-extraBold'
+                        fontFamily: 'raleway-extraBold',
                       }}
                     >
                       Selected Image
@@ -166,10 +164,10 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                         imageStyle={{ borderRadius: 20 }}
                         style={{
                           height: 200,
-                          borderRadius: 20
+                          borderRadius: 20,
                         }}
                         source={{
-                          uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`
+                          uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`,
                         }}
                       />
                     ) : null}
@@ -179,7 +177,7 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                   <Surface
                     style={{
                       marginTop: 20,
-                      marginBottom: 30
+                      marginBottom: 30,
                     }}
                   >
                     <Button
@@ -197,7 +195,7 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                 <View
                   style={{
                     width: '100%',
-                    alignItems: 'center'
+                    alignItems: 'center',
                   }}
                 >
                   <Headline style={{ fontFamily: 'raleway-extraBold' }}>
@@ -234,7 +232,7 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
               width,
               flex: 1,
               paddingVertical: 16,
-              paddingHorizontal: 16
+              paddingHorizontal: 16,
             }}
           >
             <View
@@ -242,13 +240,13 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                 marginTop: 10,
                 marginBottom: 10,
                 flexDirection: 'row',
-                justifyContent: 'space-between'
+                justifyContent: 'space-between',
               }}
             >
               <Title
                 style={{
                   paddingLeft: 10,
-                  fontFamily: 'raleway-extraBold'
+                  fontFamily: 'raleway-extraBold',
                 }}
               >
                 Compose Poem
@@ -267,13 +265,13 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                 style={{
                   marginTop: 20,
                   flexDirection: 'row',
-                  justifyContent: 'space-between'
+                  justifyContent: 'space-between',
                 }}
               >
                 <Title
                   style={{
                     paddingLeft: 10,
-                    fontFamily: 'raleway-extraBold'
+                    fontFamily: 'raleway-extraBold',
                   }}
                 >
                   Selected Image
@@ -292,18 +290,18 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                 <ImageBackground
                   imageStyle={{ borderRadius: 20 }}
                   style={{
-                    height: 200,
-                    paddingTop: 10
+                    height: 250,
+                    paddingTop: 10,
                   }}
                   source={{
-                    uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`
+                    uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`,
                   }}
                 />
               ) : null}
             </Surface>
             <Surface
               style={{
-                marginTop: 5
+                marginTop: 5,
               }}
             >
               <Button mode="outlined" icon="camera" onPress={onOpen}>
@@ -314,7 +312,7 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
             <Surface
               style={{
                 marginTop: 20,
-                marginBottom: 50
+                marginBottom: 50,
               }}
             >
               <Button
@@ -340,14 +338,14 @@ const styles = StyleSheet.create({
     width: 800,
     flexDirection: 'row',
     flexWrap: 'wrap',
-    alignItems: 'flex-start' // if you want to fill rows left to right
+    alignItems: 'flex-start', // if you want to fill rows left to right
   },
   item: {
     marginLeft: 10,
-    width: '45%' // is 50% of container width
+    width: '45%', // is 50% of container width
   },
   fullwidth: {
-    width: '100%' // is 50% of container width
-  }
+    width: '100%', // is 50% of container width
+  },
 });
 export default CreateAPoem;

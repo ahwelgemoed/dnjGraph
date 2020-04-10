@@ -4,7 +4,7 @@ import {
   Linking,
   Dimensions,
   StyleSheet,
-  TouchableWithoutFeedback
+  TouchableWithoutFeedback,
 } from 'react-native';
 import {
   Surface,
@@ -14,7 +14,7 @@ import {
   Card,
   Headline,
   Caption,
-  Paragraph
+  Paragraph,
 } from 'react-native-paper';
 import moment from 'moment';
 import Markdown from 'react-native-markdown-display';
@@ -31,7 +31,7 @@ const CardPoem = observer(
     const ref = useRef(null);
     const isHovered = useHover(ref);
     const isDesktopOrLaptop = useMediaQuery({
-      query: '(min-device-width: 1224px)'
+      query: '(min-device-width: 1224px)',
     });
 
     const whereToNavigate = () => {
@@ -43,7 +43,7 @@ const CardPoem = observer(
           navigation &&
           navigation.push('APoem', {
             poemId: poem.id,
-            title: poem.title
+            title: poem.title,
           })
         );
       }
@@ -52,16 +52,18 @@ const CardPoem = observer(
         return navigation && navigation.navigate({ name: 'PostPoem' });
       }
     };
+    console.log('poem.handle', poem.handle);
     return (
       <View
         style={{
           width: isDesktopOrLaptop ? 500 : turnOffViewWitdht ? null : width,
-          borderRadius: 30
+          borderRadius: 30,
         }}
       >
         {/* http://localhost:4000/public/img/imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg */}
         {/* TODO
   There must be a beter way to do this hover  */}
+
         <Card
           ref={ref}
           style={[
@@ -69,27 +71,27 @@ const CardPoem = observer(
               alignSelf: 'center',
               width: isDesktopOrLaptop ? 480 : width * 0.9,
               marginTop: 10,
-              marginBottom: 50,
+              marginBottom: 30,
               borderRadius: 20,
               shadowColor: 'rgba(0,0,0,0.8)',
               shadowOffset: {
                 width: 0,
-                height: 0
+                height: 0,
               },
               shadowOpacity: 0.29,
               shadowRadius: 4.65,
-              elevation: 7
+              elevation: 7,
             },
             isHovered && {
               shadowColor: 'rgba(0,0,0,0.8)',
               shadowOffset: {
                 width: 0,
-                height: 5
+                height: 5,
               },
               shadowOpacity: 0.34,
               shadowRadius: 6.27,
-              elevation: 10
-            }
+              elevation: 10,
+            },
           ]}
           onPress={() => whereToNavigate()}
         >
@@ -101,7 +103,7 @@ const CardPoem = observer(
                   poem.photoURL
                     ? poem.photoURL
                     : 'imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg'
-                }`
+                }`,
               }}
             />
           ) : null}
@@ -115,7 +117,7 @@ const CardPoem = observer(
                 position: 'absolute',
                 top: 10,
                 right: 10,
-                backgroundColor: '#f8981c'
+                backgroundColor: '#f8981c',
               }}
               icon="information"
             >
@@ -127,12 +129,12 @@ const CardPoem = observer(
               style={{
                 paddingLeft: 12,
                 paddingTop: 8,
-                fontSize: poemsStore.handDrawnFont ? 26 : 22,
+                fontSize: poemsStore.handDrawnFont ? 30 : 22,
                 fontFamily: poemsStore.handDrawnFont
                   ? 'Reenie-Beanie'
                   : 'raleway-extraBold',
 
-                opacity: 0.9
+                opacity: 0.9,
               }}
             >
               {poem.title}
@@ -140,7 +142,11 @@ const CardPoem = observer(
             <TouchableWithoutFeedback
               onPress={() => {
                 poem.handle &&
-                  Linking.openURL(`https://instagram.com/${poem.handle}`);
+                  Linking.openURL(
+                    `https://instagram.com/${poem.handle
+                      .replace(/[@]/g, '')
+                      .trim()}`
+                  );
               }}
             >
               <Subheading
@@ -151,7 +157,7 @@ const CardPoem = observer(
                     ? 'Reenie-Beanie'
                     : 'raleway-extraBold',
 
-                  opacity: 0.9
+                  opacity: 0.9,
                 }}
               >
                 {`by: ${poem.handle ? poem.handle : 'ANON'}`}
@@ -165,8 +171,8 @@ const CardPoem = observer(
                   fontSize: poemsStore.handDrawnFont ? 20 : 14,
                   fontFamily: poemsStore.handDrawnFont
                     ? 'Reenie-Beanie'
-                    : 'raleway-regular'
-                }
+                    : 'raleway-regular',
+                },
               }}
             >
               {poem.bodyText}
@@ -179,7 +185,7 @@ const CardPoem = observer(
                   style={{
                     fontFamily: poemsStore.handDrawnFont
                       ? 'Reenie-Beanie'
-                      : 'raleway-extraBold'
+                      : 'raleway-extraBold',
                   }}
                 >
                   {moment(poem.date).format(`MMM'YY`)}
@@ -197,7 +203,7 @@ const CardPoem = observer(
 const styles = StyleSheet.create({
   actionView: {
     flex: 1,
-    fontFamily: 'raleway-extraBold'
+    fontFamily: 'raleway-extraBold',
   },
 
   preference: {
@@ -207,8 +213,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingVertical: 12,
-    paddingHorizontal: 16
-  }
+    paddingHorizontal: 16,
+  },
 });
 
 export default CardPoem;

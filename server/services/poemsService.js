@@ -1,4 +1,5 @@
 const Poem = require('../models/PoemModel');
+const admin = require('../firebase-service');
 // https://www.npmjs.com/package/mongoose-paginate-v2
 const getAllActivePoems = ({ dtoArguments }) => {
   const { limit, page } = dtoArguments;
@@ -7,10 +8,10 @@ const getAllActivePoems = ({ dtoArguments }) => {
     limit: limit ? limit : 20,
     sort: { date: -1 },
     collation: {
-      locale: 'en'
-    }
+      locale: 'en',
+    },
   };
-  const allPoems = Poem.paginate({ isDraft: false }, options, function(
+  const allPoems = Poem.paginate({ isDraft: false }, options, function (
     err,
     result
   ) {
@@ -33,7 +34,7 @@ const getAllUserDrafts = async ({ dtoArguments, user }) => {
     const allUserPoems = await Poem.find(
       {
         user: user.uid,
-        isDraft: true
+        isDraft: true,
       },
       null,
       { sort: { date: -1 } }
@@ -47,7 +48,7 @@ const getAllUserPoems = async ({ dtoArguments, user }) => {
   if (user.uid) {
     const allUserPoems = await Poem.find(
       {
-        user: user.uid
+        user: user.uid,
       },
       null,
       { sort: { date: -1 } }
@@ -59,7 +60,7 @@ const getAllUserPoems = async ({ dtoArguments, user }) => {
 };
 const updateAPoem = async ({
   poemDTO: { id, title, bodyText, isDraft, photoURL, handle },
-  userToken
+  userToken,
 }) => {
   let poem = await Poem.findOneAndUpdate(
     { _id: id },
@@ -71,25 +72,23 @@ const updateAPoem = async ({
       isOld: false,
       handle,
       date: new Date().toISOString(),
-      user: userToken && userToken.uid
+      user: userToken && userToken.uid,
     },
     {
       useFindAndModify: false,
-      new: true
+      new: true,
     }
   );
   return {
     message: 'Saved Updated Poem',
     success: true,
-    poem: poem
+    poem: poem,
   };
 };
 const createNewPoem = async ({
   poemDTO: { title, bodyText, isDraft, photoURL, handle },
-  userToken
+  userToken,
 }) => {
-  console.log('🙋🏽‍♂️', 'createNewPoem');
-
   const poem = new Poem({
     title,
     bodyText,
@@ -98,22 +97,32 @@ const createNewPoem = async ({
     isOld: !photoURL ? true : false,
     handle,
     date: new Date().toISOString(),
-    user: userToken && userToken.uid
+    user: userToken && userToken.uid,
   });
-  return poem.save().then(res => {
+  return poem.save().then((res) => {
     return {
       message: 'Saved New Poem',
       success: true,
-      poem: res
+      poem: res,
     };
   });
 };
 
+const getAllImagesFromFireBase = async () => {
+  // const storageRef = await admin.storage().bucket('activeImages');
+  const files = await admin.storage();
+
+  console.log(files);
+  // console.log('admin');
+  return;
+};
+
 module.exports = {
   getAllActivePoems,
+  getAllImagesFromFireBase,
   getAllUserDrafts,
   getAllUserPoems,
   createNewPoem,
   getAPoem,
-  updateAPoem
+  updateAPoem,
 };

@@ -1,8 +1,8 @@
 const admin = require('./firebase-service');
 
-const authHandler = req => {
+const authHandler = (req) => {
   const tokenWithBearer = req.headers.authorization;
-  console.log(tokenWithBearer, 'tokenWithBearer');
+
   if (tokenWithBearer) {
     const token = tokenWithBearer.split(' ')[1];
     if (!token) {
@@ -22,7 +22,7 @@ const authHandler = req => {
   }
 };
 
-const veryfyAuthToken = async token => {
+const veryfyAuthToken = async (token) => {
   try {
     const user = await admin.auth().verifyIdToken(token);
     console.log('user', user);
