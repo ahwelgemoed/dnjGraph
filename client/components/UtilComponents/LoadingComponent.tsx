@@ -1,8 +1,8 @@
-import React from 'react';
-import { View, Image } from 'react-native';
+import React from "react";
+import { View, Image } from "react-native";
 
-import dnj from '../../assets/images/DNJLOADING.gif';
-import splash from '../../assets/images/splash.gif';
+import dnj from "../../assets/images/DNJLoading.gif";
+import splash from "../../assets/images/splash.gif";
 
 interface Props {
   initialApp?: boolean;
@@ -12,9 +12,9 @@ const LoadingComponent: React.FC<Props> = ({ initialApp }) => {
     <View
       style={{
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: initialApp ? '#000' : '#fff',
+        justifyContent: "center",
+        alignItems: "center",
+        backgroundColor: initialApp ? "#000" : "#fff",
       }}
     >
       <Image

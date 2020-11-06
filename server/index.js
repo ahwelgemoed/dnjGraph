@@ -12,7 +12,7 @@ const typeDefs = require("./schemas");
 const resolvers = require("./resolvers");
 // mongodb+srv://<username>:<password>@disnetjygraph.qm7y4.mongodb.net/disnetjygraph?retryWrites=true&w=majority
 mongoose.connect(
-  `mongodb+srv://${process.env.MLAB_USER}:${process.env.MLAB_PASSWORD}@disnetjygraph.qm7y4.mongodb.net/disnetjygraph?retryWrites=true&w=majority`,
+  `mongodb+srv://ahwelgemoedUser:Kooskombuis..09@disnetjygraph.qm7y4.mongodb.net/disnetjygraph?retryWrites=true&w=majority`,
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 const db = mongoose.connection;

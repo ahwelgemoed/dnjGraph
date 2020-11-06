@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
-import { View, StyleSheet, FlatList, Dimensions, Platform } from 'react-native';
-import { Text, Subheading, Headline, Chip, FAB } from 'react-native-paper';
-import '@expo/match-media';
-import { observer } from 'mobx-react-lite';
-import { useQuery } from '@apollo/react-hooks';
+import React, { useEffect } from "react";
+import { View, StyleSheet, FlatList, Dimensions, Platform } from "react-native";
+import { Text, Subheading, Headline, Chip, FAB } from "react-native-paper";
+import "@expo/match-media";
+import { observer } from "mobx-react-lite";
+import { useQuery } from "@apollo/react-hooks";
 
-import { RootStoreContext } from '../../store/RootStore';
-import ErrorComponent from '../../components/UtilComponents/ErrorComponent';
-import LoadingComponent from '../../components/UtilComponents/LoadingComponent';
-import CardPoem from '../../components/CardComponents/CardPoem';
-import AppIntroNotification from '../../components/UtilComponents/AppIntroNotification';
+import { RootStoreContext } from "../../store/RootStore";
+import ErrorComponent from "../../components/UtilComponents/ErrorComponent";
+import LoadingComponent from "../../components/UtilComponents/LoadingComponent";
+import CardPoem from "../../components/CardComponents/CardPoem";
+import AppIntroNotification from "../../components/UtilComponents/AppIntroNotification";
 
 interface Props {
   navigation: any;
@@ -36,11 +36,11 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
     }
   );
 
-  useEffect(() => {
-    poemsStore.reFetchPoem && refetch();
-  }, [poemsStore.reFetchPoem]);
+  // useEffect(() => {
+  //   poemsStore.reFetchPoem && refetch();
+  // }, [poemsStore.reFetchPoem]);
   const _handleLoadMore = () => {
-    if (data.poems) {
+    if (data.poems && fetchMore) {
       fetchMore({
         variables: {
           limit: pagination.limit + 2,
@@ -57,7 +57,6 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
   };
   if (loading) return <LoadingComponent />;
   if (error) return <ErrorComponent handleError={refetch} error={error} />;
-  // console.log(data?.poems?.totalDocs);
   const headerCard = () => {
     return (
       <View
@@ -66,28 +65,39 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
           paddingHorizontal: 16,
         }}
       >
-        <Chip
-          textStyle={{ textAlign: 'center' }}
-          icon="heart"
-          onPress={() => console.log('Pressed')}
+        {/* <Chip
+          textStyle={{ textAlign: "center", color: "white" }}
+          style={{ marginTop: 10, backgroundColor: "#6849E2" }}
+          onPress={() => navigation.navigate({ name: "RandomPoem" })}
         >
-          {data && data.poems && data.poems.totalDocs} poems since 2018 - Dankie
-          👏🏽🥳👏🏽
+          {data && data.poems && data.poems.totalDocs} poems sedert 2018 -
+          Dankie
+        </Chip> */}
+        <Chip
+          style={{
+            marginTop: 10,
+
+            backgroundColor: "#131313",
+          }}
+          textStyle={{ textAlign: "center", color: "#dad8dd" }}
+          onPress={() => navigation.navigate({ name: "RandomPoem" })}
+        >
+          Lukraak Gedigte? Gaan hier!
         </Chip>
       </View>
     );
   };
   return (
     <>
-      <AppIntroNotification />
+      {/* <AppIntroNotification /> */}
       <View style={[styles.mainLayout]}>
-        {Platform.OS === 'web' && (
+        {Platform.OS === "web" && (
           <>
             <FAB
-              onPress={() => navigation.navigate({ name: 'PostPoem' })}
+              onPress={() => navigation.navigate({ name: "PostPoem" })}
               icon="feather"
               style={{
-                position: 'absolute',
+                position: "absolute",
                 bottom: 50,
                 right: 50,
               }}
@@ -107,7 +117,7 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
             onEndReachedThreshold={10}
             data={data.poems.poems}
             renderItem={({ item }) => (
-              <CardPoem poem={item} navigation={navigation} view={'ONE'} />
+              <CardPoem poem={item} navigation={navigation} view={"ONE"} />
             )}
             keyExtractor={(item) => item.id}
           />
@@ -121,8 +131,8 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
 const styles = StyleSheet.create({
   mainLayout: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
 export default PoemsScreen;

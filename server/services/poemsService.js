@@ -1,5 +1,5 @@
-const Poem = require('../models/PoemModel');
-const admin = require('../firebase-service');
+const Poem = require("../models/PoemModel");
+const admin = require("../firebase-service");
 // https://www.npmjs.com/package/mongoose-paginate-v2
 const getAllActivePoems = ({ dtoArguments }) => {
   const { limit, page } = dtoArguments;
@@ -8,7 +8,7 @@ const getAllActivePoems = ({ dtoArguments }) => {
     limit: limit ? limit : 20,
     sort: { date: -1 },
     collation: {
-      locale: 'en',
+      locale: "en",
     },
   };
   const allPoems = Poem.paginate({ isDraft: false }, options, function (
@@ -28,6 +28,12 @@ const getAPoem = ({ aPoemDTO }) => {
     return aPoem;
   }
   return;
+};
+const getARandomPoem = async () => {
+  const count = await Poem.count();
+  var random = await Math.floor(Math.random() * count);
+  const aPoem = await Poem.findOne().skip(random);
+  return aPoem;
 };
 const getAllUserDrafts = async ({ dtoArguments, user }) => {
   if (user.uid) {
@@ -80,7 +86,7 @@ const updateAPoem = async ({
     }
   );
   return {
-    message: 'Saved Updated Poem',
+    message: "Saved Updated Poem",
     success: true,
     poem: poem,
   };
@@ -101,7 +107,7 @@ const createNewPoem = async ({
   });
   return poem.save().then((res) => {
     return {
-      message: 'Saved New Poem',
+      message: "Saved New Poem",
       success: true,
       poem: res,
     };
@@ -119,6 +125,7 @@ const getAllImagesFromFireBase = async () => {
 
 module.exports = {
   getAllActivePoems,
+  getARandomPoem,
   getAllImagesFromFireBase,
   getAllUserDrafts,
   getAllUserPoems,

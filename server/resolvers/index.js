@@ -1,10 +1,10 @@
 const {
   AuthenticationError,
   UserInputError,
-} = require('apollo-server-express');
-const Poem = require('../models/PoemModel');
-const User = require('../models/UserModel');
-const moment = require('moment');
+} = require("apollo-server-express");
+const Poem = require("../models/PoemModel");
+const User = require("../models/UserModel");
+const moment = require("moment");
 const {
   getAllActivePoems,
   getAllUserPoems,
@@ -12,9 +12,10 @@ const {
   getAPoem,
   createNewPoem,
   updateAPoem,
+  getARandomPoem,
   getAllImagesFromFireBase,
-} = require('../services/poemsService');
-const { updateUserInternally, getUser } = require('../services/userServices');
+} = require("../services/poemsService");
+const { updateUserInternally, getUser } = require("../services/userServices");
 
 const resolvers = {
   Query: {
@@ -35,6 +36,11 @@ const resolvers = {
 
       return aPoem;
     },
+    getRandomPoem: (obj, arg, ctx, info) => {
+      const aPoem = getARandomPoem();
+
+      return aPoem;
+    },
     User: async (obj, arg, ctx, info) => {
       const userDTO = arg;
       const { user } = await getUser({ userDTO });
@@ -47,7 +53,7 @@ const resolvers = {
     myDraftPoems: async (obj, args, { userToken }, info) => {
       // use user Toke to get UID from Firebase -> Find User in our DB then Use that Array To find all
       if (!userToken) {
-        throw new AuthenticationError('You are not Authenticated');
+        throw new AuthenticationError("You are not Authenticated");
         return;
       }
       // console.log('userToken', userToken);
@@ -63,7 +69,7 @@ const resolvers = {
     myPoems: async (obj, args, { userToken }, info) => {
       // use user Toke to get UID from Firebase -> Find User in our DB then Use that Array To find all
       if (!userToken) {
-        throw new AuthenticationError('You are not Authenticated');
+        throw new AuthenticationError("You are not Authenticated");
         return;
       }
 
@@ -76,13 +82,13 @@ const resolvers = {
       return allUsersPoems;
     },
     allActiveImages: async (obj, args, _, __) => {
-      console.log('object');
+      console.log("object");
       return getAllImagesFromFireBase();
     },
   },
   Poem: {
     user: (parent, args, ctx, info) => {
-      console.log('parent.user', parent.user);
+      console.log("parent.user", parent.user);
       // const foundUser = User.findById(parent.user);
       // return foundUser;
     },
@@ -95,7 +101,7 @@ const resolvers = {
       });
       return newUser.save().then((res) => {
         return {
-          message: 'Saved New User',
+          message: "Saved New User",
           success: true,
           user: res,
         };
@@ -103,10 +109,10 @@ const resolvers = {
     },
     addPoem: async (parent, { poem }, { userToken }, info) => {
       if (!poem.title) {
-        throw new UserInputError('Please give your Poem a Title');
+        throw new UserInputError("Please give your Poem a Title");
       }
       if (!poem.bodyText) {
-        throw new UserInputError('Please give your Poem a Body');
+        throw new UserInputError("Please give your Poem a Body");
       }
       // if (!poem.photoURL && !poem.isDraft) {
       //   throw new UserInputError('Please Choose an Image');

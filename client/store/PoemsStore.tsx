@@ -1,9 +1,9 @@
-import { observable, action, computed } from 'mobx';
-import { createContext } from 'react';
-import { RootStore } from './RootStore';
-import { AsyncStorage } from 'react-native';
-import gql from 'graphql-tag';
-import { persist } from 'mobx-persist';
+import { observable, action, computed } from "mobx";
+import { createContext } from "react";
+import { RootStore } from "./RootStore";
+import { AsyncStorage } from "react-native";
+import gql from "graphql-tag";
+import { persist } from "mobx-persist";
 
 export class PoemsStore {
   constructor(rooteStore: RootStore) {
@@ -16,7 +16,7 @@ export class PoemsStore {
   @persist @observable poemImage;
   @persist @observable postIntaHandle;
   @observable reFetchPoem = false;
-  @observable draftMode = true;
+  @observable draftMode = false;
   @observable readyPoem = {};
 
   @observable allPoems = [];
@@ -39,6 +39,21 @@ export class PoemsStore {
     }
   `;
 
+  @observable getARandomPoem = gql`
+    query getRandomPoem {
+      getRandomPoem {
+        title
+        id
+        title
+        photoURL
+        isOld
+        handle
+        bodyText
+        date
+        handle
+      }
+    }
+  `;
   @observable getAPoem = gql`
     query poem($id: ID!) {
       poem(id: $id) {
@@ -109,7 +124,7 @@ export class PoemsStore {
     }
   }
   @action clearPoemImage() {
-    this.poemImage = '';
+    this.poemImage = "";
   }
   @action setDraftMode(draftMode) {
     this.draftMode = draftMode;
@@ -123,16 +138,16 @@ export class PoemsStore {
       poemTitle: this.poemTitle,
       poemBody: this.poemBody,
       poemImage: this.poemImage,
-      isDraft: this.draftMode
+      isDraft: this.draftMode,
     };
     return poem;
   }
   @action clearPresistPoem() {
-    AsyncStorage.removeItem('poemsStore');
-    this.poemTitle = '';
-    this.poemBody = '';
-    this.poemImage = '';
-    this.poemID = '';
+    AsyncStorage.removeItem("poemsStore");
+    this.poemTitle = "";
+    this.poemBody = "";
+    this.poemImage = "";
+    this.poemID = "";
     this.draftMode = true;
     this.readyPoem = {};
     this.reFetchPoem = true;

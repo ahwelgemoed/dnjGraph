@@ -1,29 +1,30 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 import {
   View,
   Linking,
   Dimensions,
   StyleSheet,
   TouchableWithoutFeedback,
-} from 'react-native';
+} from "react-native";
 import {
   Surface,
   Chip,
+  Text,
   Button,
   Subheading,
   Card,
   Headline,
   Caption,
   Paragraph,
-} from 'react-native-paper';
-import moment from 'moment';
-import Markdown from 'react-native-markdown-display';
-import { useMediaQuery } from 'react-responsive';
-import { observer } from 'mobx-react-lite';
-import { RootStoreContext } from '../../store/RootStore';
-import { liveEndPoint } from '../../helpers';
-import { useHover, useFocus, useActive } from 'react-native-web-hooks';
-const { width, height } = Dimensions.get('window');
+} from "react-native-paper";
+import moment from "moment";
+import Markdown from "react-native-markdown-display";
+import { useMediaQuery } from "react-responsive";
+import { observer } from "mobx-react-lite";
+import { RootStoreContext } from "../../store/RootStore";
+import { liveEndPoint } from "../../helpers";
+import { useHover, useFocus, useActive } from "react-native-web-hooks";
+const { width, height } = Dimensions.get("window");
 // ReenieBeanie
 const CardPoem = observer(
   ({ poem, navigation = null, turnOffViewWitdht, view }) => {
@@ -31,28 +32,27 @@ const CardPoem = observer(
     const ref = useRef(null);
     const isHovered = useHover(ref);
     const isDesktopOrLaptop = useMediaQuery({
-      query: '(min-device-width: 1224px)',
+      query: "(min-device-width: 1224px)",
     });
 
     const whereToNavigate = () => {
       if (poem.isOld) {
         return;
       }
-      if (view === 'ONE') {
+      if (view === "ONE") {
         return (
           navigation &&
-          navigation.push('APoem', {
+          navigation.push("APoem", {
             poemId: poem.id,
             title: poem.title,
           })
         );
       }
-      if (view === 'POST') {
+      if (view === "POST") {
         poemsStore.fromDraftToEdit({ poem });
-        return navigation && navigation.navigate({ name: 'PostPoem' });
+        return navigation && navigation.navigate({ name: "PostPoem" });
       }
     };
-    console.log('poem.handle', poem.handle);
     return (
       <View
         style={{
@@ -68,12 +68,12 @@ const CardPoem = observer(
           ref={ref}
           style={[
             {
-              alignSelf: 'center',
+              alignSelf: "center",
               width: isDesktopOrLaptop ? 480 : width * 0.9,
               marginTop: 10,
               marginBottom: 30,
               borderRadius: 20,
-              shadowColor: 'rgba(0,0,0,0.8)',
+              shadowColor: "rgba(0,0,0,0.8)",
               shadowOffset: {
                 width: 0,
                 height: 0,
@@ -83,7 +83,7 @@ const CardPoem = observer(
               elevation: 7,
             },
             isHovered && {
-              shadowColor: 'rgba(0,0,0,0.8)',
+              shadowColor: "rgba(0,0,0,0.8)",
               shadowOffset: {
                 width: 0,
                 height: 5,
@@ -102,7 +102,7 @@ const CardPoem = observer(
                 uri: `${liveEndPoint}/public/img/${
                   poem.photoURL
                     ? poem.photoURL
-                    : 'imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg'
+                    : "imgdisnetjy-6fa8df10-51b5-11ea-adbe-01c007ff9125.jpg"
                 }`,
               }}
             />
@@ -111,13 +111,13 @@ const CardPoem = observer(
             <Chip
               onPress={() => {
                 poemsStore.fromDraftToEdit({ poem });
-                return navigation && navigation.navigate({ name: 'PostPoem' });
+                return navigation && navigation.navigate({ name: "PostPoem" });
               }}
               style={{
-                position: 'absolute',
+                position: "absolute",
                 top: 10,
                 right: 10,
-                backgroundColor: '#f8981c',
+                backgroundColor: "#f8981c",
               }}
               icon="information"
             >
@@ -131,8 +131,8 @@ const CardPoem = observer(
                 paddingTop: 8,
                 fontSize: poemsStore.handDrawnFont ? 30 : 22,
                 fontFamily: poemsStore.handDrawnFont
-                  ? 'Reenie-Beanie'
-                  : 'raleway-extraBold',
+                  ? "Reenie-Beanie"
+                  : "raleway-extraBold",
 
                 opacity: 0.9,
               }}
@@ -144,7 +144,7 @@ const CardPoem = observer(
                 poem.handle &&
                   Linking.openURL(
                     `https://instagram.com/${poem.handle
-                      .replace(/[@]/g, '')
+                      .replace(/[@]/g, "")
                       .trim()}`
                   );
               }}
@@ -154,13 +154,13 @@ const CardPoem = observer(
                   paddingLeft: 12,
                   fontSize: poemsStore.handDrawnFont ? 16 : 12,
                   fontFamily: poemsStore.handDrawnFont
-                    ? 'Reenie-Beanie'
-                    : 'raleway-extraBold',
+                    ? "Reenie-Beanie"
+                    : "raleway-extraBold",
 
                   opacity: 0.9,
                 }}
               >
-                {`by: ${poem.handle ? poem.handle : 'ANON'}`}
+                {`by: ${poem.handle ? poem.handle : "ANON"}`}
               </Subheading>
             </TouchableWithoutFeedback>
           </>
@@ -170,8 +170,8 @@ const CardPoem = observer(
                 text: {
                   fontSize: poemsStore.handDrawnFont ? 20 : 14,
                   fontFamily: poemsStore.handDrawnFont
-                    ? 'Reenie-Beanie'
-                    : 'raleway-regular',
+                    ? "Reenie-Beanie"
+                    : "raleway-regular",
                 },
               }}
             >
@@ -184,11 +184,11 @@ const CardPoem = observer(
                 <Caption
                   style={{
                     fontFamily: poemsStore.handDrawnFont
-                      ? 'Reenie-Beanie'
-                      : 'raleway-extraBold',
+                      ? "Reenie-Beanie"
+                      : "raleway-extraBold",
                   }}
                 >
-                  {moment(poem.date).format(`MMM'YY`)}
+                  {moment(poem.date).format(`MMMM'YYYY`)}
                 </Caption>
                 <View pointerEvents="none"></View>
               </View>
@@ -203,15 +203,15 @@ const CardPoem = observer(
 const styles = StyleSheet.create({
   actionView: {
     flex: 1,
-    fontFamily: 'raleway-extraBold',
+    fontFamily: "raleway-extraBold",
   },
 
   preference: {
-    fontFamily: 'raleway-extraBold',
+    fontFamily: "raleway-extraBold",
     fontSize: 12,
     opacity: 0.8,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     paddingVertical: 12,
     paddingHorizontal: 16,
   },

@@ -1,4 +1,4 @@
-const { gql } = require('apollo-server-express');
+const { gql } = require("apollo-server-express");
 const typeDefs = gql`
   type User {
     id: ID
@@ -65,6 +65,7 @@ const typeDefs = gql`
     myPoems: PoemsResults
     allUsersBookmarks(user: ID): PoemsResults
     poem(id: ID): Poem
+    getRandomPoem(id: ID): Poem
     User(id: ID): User
   }
   type Mutation {
