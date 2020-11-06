@@ -8,6 +8,15 @@
     "version": "3.0.9",
     "orientation": "portrait",
     "icon": "./assets/images/DNJICON.png",
+    "web": {
+      "config": {
+        "firebase": {
+          "appId": "1:554939781321:web:05ce7cd294e7cdd8",
+          "apiKey": "AIzaSyCu119y-X_66vUOXixI9hCbTxjRx4zXPVM",
+          "measurementId": "G-DKT04T7L7G"
+        }
+      }
+    },
     "splash": {
       "image": "./assets/images/splash-03.png",
       "resizeMode": "contain",
@@ -27,7 +36,8 @@
     "facebookDisplayName": "DisNetJy",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.disnetjy.ahwelgemoed"
+      "bundleIdentifier": "com.disnetjy.ahwelgemoed",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "description": ""
   }

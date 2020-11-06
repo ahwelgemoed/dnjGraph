@@ -1,15 +1,15 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { View } from 'react-native';
-import { Formik } from 'formik';
-import { observer } from 'mobx-react-lite';
-import { RootStoreContext } from '../../store/RootStore';
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
-import { Button, Surface, Text, TextInput } from 'react-native-paper';
+import React, { useState, useEffect, useContext } from "react";
+import { View, TextInput } from "react-native";
+import { Formik } from "formik";
+import { observer } from "mobx-react-lite";
+import { RootStoreContext } from "../../store/RootStore";
+import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
+import { Button, Surface, Text } from "react-native-paper";
 
 const TitleAndBody = observer(() => {
   const { poemsStore } = useContext(RootStoreContext);
-  const [title, setTitle] = useState('');
-  const [body, setBody] = useState('');
+  const [title, setTitle] = useState("");
+  const [body, setBody] = useState("");
   useEffect(() => {
     if (poemsStore.poemTitle) {
       setTitle(poemsStore.poemTitle);
@@ -45,29 +45,54 @@ const TitleAndBody = observer(() => {
   return (
     // <KeyboardAwareScrollView style={{ flex: 1, margin: 0, padding: 0 }}>
     <View>
-      <TextInput
-        label="Poem Title"
-        value={title}
-        onChangeText={text => setTitle(text)}
-      />
-      <View style={{ height: 250, marginTop: 5 }}>
+      <Surface
+        style={{
+          borderRadius: 20,
+        }}
+      >
         <TextInput
-          value={body}
-          multiline
-          placeholder={'Poem Body'}
-          style={{ height: 250, fontFamily: 'raleway-regular' }}
-          onChangeText={text => setBody(text)}
+          label="Poem Title"
+          placeholder={"Title"}
+          value={title}
+          style={{ fontSize: 18, fontFamily: "raleway-regular", padding: 16 }}
+          onChangeText={(text) => setTitle(text)}
         />
-        <Text
+      </Surface>
+      <View style={{ height: 250, marginBottom: 20 }}>
+        <Surface
           style={{
-            textAlign: 'right',
-            fontSize: 12,
-            paddingTop: 5,
-            color: 'rgba(0, 0, 0, 0.54)'
+            marginTop: 10,
+            marginBottom: 10,
+            borderRadius: 20,
           }}
         >
-          Use Markdown for Styling (Like Whatsapp)
-        </Text>
+          <TextInput
+            value={body}
+            multiline
+            placeholder={"Body"}
+            style={{
+              height: 250,
+              fontSize: 16,
+              fontFamily: "raleway-regular",
+              padding: 20,
+              marginTop: 10,
+            }}
+            onChangeText={(text) => setBody(text)}
+          />
+          <Text
+            style={{
+              textAlign: "right",
+              fontSize: 12,
+              // paddingTop: 5,
+              // marginBottom: 20,
+              paddingRight: 20,
+              paddingBottom: 10,
+              color: "rgba(0, 0, 0, 0.54)",
+            }}
+          >
+            Use Markdown for Styling (Like Whatsapp)
+          </Text>
+        </Surface>
       </View>
     </View>
     // </KeyboardAwareScrollView>

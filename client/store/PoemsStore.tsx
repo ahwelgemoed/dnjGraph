@@ -1,7 +1,7 @@
 import { observable, action, computed } from "mobx";
 import { createContext } from "react";
 import { RootStore } from "./RootStore";
-import { AsyncStorage } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import gql from "graphql-tag";
 import { persist } from "mobx-persist";
 

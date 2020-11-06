@@ -1,13 +1,13 @@
-import React, { useRef, useContext, useState, useEffect } from 'react';
+import React, { useRef, useContext, useState, useEffect } from "react";
 import {
   View,
   StyleSheet,
   Dimensions,
   ImageBackground,
   Platform,
-} from 'react-native';
-import { observer } from 'mobx-react-lite';
-import { RootStoreContext } from '../../store/RootStore';
+} from "react-native";
+import { observer } from "mobx-react-lite";
+import { RootStoreContext } from "../../store/RootStore";
 import {
   Surface,
   Button,
@@ -15,20 +15,20 @@ import {
   Subheading,
   Title,
   Text,
-} from 'react-native-paper';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useMediaQuery } from 'react-responsive';
-import TitleAndBody from '../../components/PostPoemComponents/TitleAndBody';
-import ImageSelector from '../../components/PostPoemComponents/ImageSelector';
-import PoemOptions from '../../components/PostPoemComponents/PoemOptions';
-import SelectImageModal from '../../components/PostPoemComponents/SelectImageModal';
-import PoemReViewModal from '../../components/PostPoemComponents/PoemReViewModal';
-import ReviewPoemandPost from '../../components/PostPoemComponents/ReviewPoemandPost';
-import { ScrollView } from 'react-native-gesture-handler';
-import { useAnonMayNotSeeHook } from '../../helpers/useStateHook';
-import { liveEndPoint } from '../../helpers';
-import { useIsFocused } from '@react-navigation/native';
-const { width, height } = Dimensions.get('window');
+} from "react-native-paper";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { useMediaQuery } from "react-responsive";
+import TitleAndBody from "../../components/PostPoemComponents/TitleAndBody";
+import ImageSelector from "../../components/PostPoemComponents/ImageSelector";
+import PoemOptions from "../../components/PostPoemComponents/PoemOptions";
+import SelectImageModal from "../../components/PostPoemComponents/SelectImageModal";
+import PoemReViewModal from "../../components/PostPoemComponents/PoemReViewModal";
+import ReviewPoemandPost from "../../components/PostPoemComponents/ReviewPoemandPost";
+import { ScrollView } from "react-native-gesture-handler";
+import { useAnonMayNotSeeHook } from "../../helpers/useStateHook";
+import { liveEndPoint } from "../../helpers";
+import { useIsFocused } from "@react-navigation/native";
+const { width, height } = Dimensions.get("window");
 
 interface Props {
   navigation: any;
@@ -36,7 +36,7 @@ interface Props {
 
 const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
   const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1224px)',
+    query: "(min-device-width: 1224px)",
   });
   const [step, setstep] = useState(false);
   const childRefImage = useRef(null);
@@ -44,7 +44,7 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
   const { poemsStore } = useContext(RootStoreContext);
   const [state, setstate] = useState(false);
   const { isAnonUser } = useAnonMayNotSeeHook({
-    message: 'You have sign in To Post a Poem',
+    message: "You have sign in To Post a Poem",
   });
   const isFocused = useIsFocused();
   useEffect(() => {
@@ -69,8 +69,8 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
   };
 
   return (
-    <View style={{ flex: 1, alignSelf: 'center' }}>
-      {Platform.OS === 'web' ? (
+    <View style={{ flex: 1, alignSelf: "center" }}>
+      {Platform.OS === "web" ? (
         <ScrollView
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
@@ -88,14 +88,14 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                     style={{
                       marginTop: 10,
                       marginBottom: 10,
-                      flexDirection: 'row',
-                      justifyContent: 'space-between',
+                      flexDirection: "row",
+                      justifyContent: "space-between",
                     }}
                   >
                     <Title
                       style={{
                         paddingLeft: 10,
-                        fontFamily: 'raleway-extraBold',
+                        fontFamily: "raleway-extraBold",
                       }}
                     >
                       Compose Poem
@@ -110,41 +110,28 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                   </View>
                 </View>
                 <View style={styles.item}>
+                  <Surface
+                    style={{
+                      marginTop: 10,
+                      marginBottom: 10,
+                      borderRadius: 20,
+                    }}
+                  ></Surface>
                   <TitleAndBody />
                   <PoemOptions />
                 </View>
-                <View style={styles.item}>
-                  <Title
-                    style={{ paddingLeft: 10, fontFamily: 'raleway-extraBold' }}
-                  >
-                    Select Cover Image
-                  </Title>
-                  <Surface
-                    style={{ marginTop: 20, borderRadius: 20, padding: 10 }}
-                  >
-                    <ImageSelector />
-                  </Surface>
-                  <Text
-                    style={{
-                      textAlign: 'right',
-                      fontSize: 12,
-                      paddingTop: 5,
-                      color: 'rgba(0, 0, 0, 0.54)',
-                    }}
-                  >
-                    (Scroll for More)
-                  </Text>
+                {poemsStore.poemImage ? (
                   <View
                     style={{
                       marginTop: 20,
-                      flexDirection: 'row',
-                      justifyContent: 'space-between',
+                      flexDirection: "row",
+                      justifyContent: "space-between",
                     }}
                   >
                     <Title
                       style={{
                         paddingLeft: 10,
-                        fontFamily: 'raleway-extraBold',
+                        fontFamily: "raleway-extraBold",
                       }}
                     >
                       Selected Image
@@ -156,22 +143,44 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                       name="close"
                       size={20}
                     />
+                    <ImageBackground
+                      imageStyle={{ borderRadius: 20 }}
+                      style={{
+                        height: 200,
+                        borderRadius: 20,
+                      }}
+                      source={{
+                        uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`,
+                      }}
+                    />
                   </View>
-
-                  <Surface style={{ marginTop: 10, borderRadius: 20 }}>
-                    {poemsStore.poemImage ? (
-                      <ImageBackground
-                        imageStyle={{ borderRadius: 20 }}
-                        style={{
-                          height: 200,
-                          borderRadius: 20,
-                        }}
-                        source={{
-                          uri: `${liveEndPoint}/public/img/${poemsStore.poemImage}`,
-                        }}
-                      />
-                    ) : null}
+                ) : null}
+                <View style={styles.item}>
+                  <Title
+                    style={{ paddingLeft: 10, fontFamily: "raleway-extraBold" }}
+                  >
+                    Select Cover Image
+                  </Title>
+                  <Surface
+                    style={{
+                      marginTop: 20,
+                      borderRadius: 20,
+                      padding: 10,
+                      maxHeight: "50vh",
+                    }}
+                  >
+                    <ImageSelector />
                   </Surface>
+                  <Text
+                    style={{
+                      textAlign: "right",
+                      fontSize: 12,
+                      paddingTop: 5,
+                      color: "rgba(0, 0, 0, 0.54)",
+                    }}
+                  >
+                    (Scroll for More)
+                  </Text>
                 </View>
                 <View style={styles.fullwidth}>
                   <Surface
@@ -194,14 +203,14 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
               <ScrollView style={{ flex: 1 }}>
                 <View
                   style={{
-                    width: '100%',
-                    alignItems: 'center',
+                    width: "100%",
+                    alignItems: "center",
                   }}
                 >
-                  <Headline style={{ fontFamily: 'raleway-extraBold' }}>
+                  <Headline style={{ fontFamily: "raleway-extraBold" }}>
                     Review and Post Poem
                   </Headline>
-                  <Subheading style={{ fontFamily: 'raleway-boldI' }}>
+                  <Subheading style={{ fontFamily: "raleway-boldI" }}>
                     It's your last Chance
                   </Subheading>
                   <ReviewPoemandPost
@@ -239,14 +248,14 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
               style={{
                 marginTop: 10,
                 marginBottom: 10,
-                flexDirection: 'row',
-                justifyContent: 'space-between',
+                flexDirection: "row",
+                justifyContent: "space-between",
               }}
             >
               <Title
                 style={{
                   paddingLeft: 10,
-                  fontFamily: 'raleway-extraBold',
+                  fontFamily: "raleway-extraBold",
                 }}
               >
                 Compose Poem
@@ -264,14 +273,14 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
               <View
                 style={{
                   marginTop: 20,
-                  flexDirection: 'row',
-                  justifyContent: 'space-between',
+                  flexDirection: "row",
+                  justifyContent: "space-between",
                 }}
               >
                 <Title
                   style={{
                     paddingLeft: 10,
-                    fontFamily: 'raleway-extraBold',
+                    fontFamily: "raleway-extraBold",
                   }}
                 >
                   Selected Image
@@ -304,7 +313,13 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
                 marginTop: 5,
               }}
             >
-              <Button mode="outlined" icon="camera" onPress={onOpen}>
+              <Button
+                // theme={{ roundness: 50 }}
+                mode="outlined"
+                icon="camera"
+                onPress={onOpen}
+                style={{ overflow: "hidden" }}
+              >
                 Select Image
               </Button>
             </Surface>
@@ -336,16 +351,16 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     width: 800,
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    alignItems: 'flex-start', // if you want to fill rows left to right
+    flexDirection: "row",
+    flexWrap: "wrap",
+    alignItems: "flex-start", // if you want to fill rows left to right
   },
   item: {
     marginLeft: 10,
-    width: '45%', // is 50% of container width
+    width: "100%", // is 50% of container width
   },
   fullwidth: {
-    width: '100%', // is 50% of container width
+    width: "100%", // is 50% of container width
   },
 });
 export default CreateAPoem;

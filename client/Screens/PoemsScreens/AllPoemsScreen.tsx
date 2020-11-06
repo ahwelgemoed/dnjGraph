@@ -4,6 +4,7 @@ import { Text, Subheading, Headline, Chip, FAB } from "react-native-paper";
 import "@expo/match-media";
 import { observer } from "mobx-react-lite";
 import { useQuery } from "@apollo/react-hooks";
+import * as Analytics from "expo-firebase-analytics";
 
 import { RootStoreContext } from "../../store/RootStore";
 import ErrorComponent from "../../components/UtilComponents/ErrorComponent";
@@ -35,6 +36,14 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
       variables: { limit: 10, page: pagination.page },
     }
   );
+  const randomClicked = async () => {
+    await Analytics.logEvent("ButtonTapped", {
+      name: "Random",
+      screen: "All Poems",
+      purpose: "Random Poems",
+    });
+    await navigation.navigate({ name: "RandomPoem" });
+  };
 
   // useEffect(() => {
   //   poemsStore.reFetchPoem && refetch();
@@ -80,7 +89,7 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
             backgroundColor: "#131313",
           }}
           textStyle={{ textAlign: "center", color: "#dad8dd" }}
-          onPress={() => navigation.navigate({ name: "RandomPoem" })}
+          onPress={() => randomClicked()}
         >
           Lukraak Gedigte? Gaan hier!
         </Chip>
