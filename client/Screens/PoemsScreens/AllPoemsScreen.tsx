@@ -12,6 +12,15 @@ import LoadingComponent from "../../components/UtilComponents/LoadingComponent";
 import CardPoem from "../../components/CardComponents/CardPoem";
 import AppIntroNotification from "../../components/UtilComponents/AppIntroNotification";
 
+import { AdMobBanner, setTestDeviceIDAsync } from "expo-ads-admob";
+import Constants from "expo-constants";
+
+const testID = "ca-app-pub-3940256099942544/6300978111";
+const productionID = "ca-app-pub-2450174986661975~9535822519";
+// Is a real device and running in production.
+const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
+// setTestDeviceIDAsync("EMULATOR");
+
 interface Props {
   navigation: any;
 }
@@ -37,7 +46,7 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
     }
   );
   const randomClicked = async () => {
-    await Analytics.logEvent("ButtonTapped", {
+    await Analytics.logEvent("RandomPoemVisit", {
       name: "Random",
       screen: "All Poems",
       purpose: "Random Poems",
@@ -100,6 +109,13 @@ const PoemsScreen: React.FC<Props> = observer(({ navigation }) => {
     <>
       {/* <AppIntroNotification /> */}
       <View style={[styles.mainLayout]}>
+        {Platform.OS !== "web" && (
+          <AdMobBanner
+            bannerSize="fullBanner"
+            adUnitID={adUnitID} // Test ID, Replace with your-admob-unit-id
+            servePersonalizedAds // true or false
+          />
+        )}
         {Platform.OS === "web" && (
           <>
             <FAB

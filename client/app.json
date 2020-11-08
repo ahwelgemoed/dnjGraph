@@ -5,7 +5,7 @@
     "privacy": "public",
     "platforms": ["ios", "android", "web"],
     "scheme": "dnj",
-    "version": "3.0.9",
+    "version": "3.0.10",
     "orientation": "portrait",
     "icon": "./assets/images/DNJICON.png",
     "web": {
@@ -27,9 +27,12 @@
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
-      "versionCode": 33,
+      "versionCode": 34,
       "package": "com.disnetons.googlesignin",
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2450174986661975~9535822519"
+      }
     },
     "facebookScheme": "fb433863794055791",
     "facebookAppId": "433863794055791",
@@ -37,7 +40,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.disnetjy.ahwelgemoed",
-      "googleServicesFile": "./GoogleService-Info.plist"
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-2450174986661975~9535822519"
+      }
     },
     "description": ""
   }

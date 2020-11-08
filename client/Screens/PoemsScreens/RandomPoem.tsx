@@ -7,6 +7,8 @@ import {
   Platform,
   ScrollView,
 } from "react-native";
+import * as Analytics from "expo-firebase-analytics";
+
 import { FAB } from "react-native-paper";
 import "@expo/match-media";
 import { observer } from "mobx-react-lite";
@@ -34,7 +36,6 @@ const RandomPoem: React.FC<Props> = observer(({ navigation }) => {
 
   useEffect(() => {
     // authStore.getUserFromGraph();
-    console.log("data.poems", ref.current);
     if (ref && ref.current) {
       //@ts-ignore
       ref.current.scrollTo({
@@ -45,13 +46,22 @@ const RandomPoem: React.FC<Props> = observer(({ navigation }) => {
     }
   }, [data]);
 
+  const randomClicked = async () => {
+    await Analytics.logEvent("RANDOMIZER", {
+      name: "RANDOMIZER",
+      screen: "RANDOMS",
+      purpose: "Random Poems",
+    });
+    (await refetch) && refetch();
+  };
+
   if (loading) return <LoadingComponent />;
   if (error) return <ErrorComponent handleError={refetch} error={error} />;
   return (
     <>
       <>
         <FAB
-          onPress={() => refetch && refetch()}
+          onPress={() => randomClicked()}
           icon="repeat"
           style={{
             position: "absolute",

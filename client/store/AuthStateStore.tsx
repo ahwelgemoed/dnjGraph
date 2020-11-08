@@ -38,7 +38,6 @@ export class AuthStateStore {
     if (!ISFIRSTSEASON3) {
       this.signUserOutStart3();
     }
-    console.log(ISFIRSTSEASON3);
 
     await firebase.auth().onAuthStateChanged((user) => {
       if (user) {

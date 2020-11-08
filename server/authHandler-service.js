@@ -1,16 +1,16 @@
-const admin = require('./firebase-service');
+const admin = require("./firebase-service");
 
 const authHandler = (req) => {
   const tokenWithBearer = req.headers.authorization;
 
   if (tokenWithBearer) {
-    const token = tokenWithBearer.split(' ')[1];
+    const token = tokenWithBearer.split(" ")[1];
     if (!token) {
       return null;
     }
     if (
       token &&
-      (token == 'undefined' || token === 'ANON' || token === 'null')
+      (token == "undefined" || token === "ANON" || token === "null")
     ) {
       return null;
     }
@@ -25,12 +25,11 @@ const authHandler = (req) => {
 const veryfyAuthToken = async (token) => {
   try {
     const user = await admin.auth().verifyIdToken(token);
-    console.log('user', user);
 
     return user;
   } catch (error) {
-    console.log('error', error);
-    throw new Error('👮🏽‍♂️ Invalid Token');
+    console.log("error", error);
+    throw new Error("👮🏽‍♂️ Invalid Token");
   }
 };
 

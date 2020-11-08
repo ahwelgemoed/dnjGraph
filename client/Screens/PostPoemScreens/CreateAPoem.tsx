@@ -310,7 +310,7 @@ const CreateAPoem: React.FC<Props> = observer(({ navigation }) => {
             </Surface>
             <Surface
               style={{
-                marginTop: 5,
+                marginTop: 20,
               }}
             >
               <Button
